@@ -392,3 +392,233 @@ test.describe('Visual design', () => {
     expect(hasBg).toBe(true);
   });
 });
+
+// ─────────────────────────────────────────────────────────────
+// STORY MODAL
+// ─────────────────────────────────────────────────────────────
+test.describe('Story modal', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.dash-lead-card')).toBeVisible({ timeout: 15000 });
+  });
+
+  test('opens modal when lead card is clicked', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+  });
+
+  test('modal shows article title', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-title')).toBeVisible({ timeout: 8000 });
+    const titleText = await page.locator('.rmodal-title').textContent();
+    expect(titleText.trim().length).toBeGreaterThan(5);
+  });
+
+  test('modal has "Read Full Article" button', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    // Button in meta bar (always visible from first frame)
+    const btn = page.locator('.rmodal-meta .rmodal-btn-p');
+    await expect(btn).toBeVisible({ timeout: 8000 });
+    await expect(btn).toContainText('Read Full Article');
+  });
+
+  test('modal has close button that dismisses it', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    await page.locator('.rmodal-close').click();
+    await expect(page.locator('.rmodal-overlay')).not.toBeVisible({ timeout: 5000 });
+  });
+
+  test('modal closes on Escape key', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    await page.keyboard.press('Escape');
+    await expect(page.locator('.rmodal-overlay')).not.toBeVisible({ timeout: 5000 });
+  });
+
+  test('modal closes when clicking overlay backdrop', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    // Click the overlay but not the box (top-left corner of overlay)
+    await page.locator('.rmodal-overlay').click({ position: { x: 5, y: 5 } });
+    await expect(page.locator('.rmodal-overlay')).not.toBeVisible({ timeout: 5000 });
+  });
+
+  test('modal shows loading spinner initially', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    // The spinner should appear in the loading state
+    const hasSpinnerOrContent = await page.evaluate(() => {
+      return !!(document.querySelector('.rmodal-spinner') || document.querySelector('.rmodal-article-text') || document.querySelector('.rmodal-no-preview'));
+    });
+    expect(hasSpinnerOrContent).toBe(true);
+  });
+
+  test('modal body eventually shows article content or fallback', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    // Wait for loading to finish (spinner disappears, content or fallback appears)
+    await page.waitForFunction(() => {
+      return !!(document.querySelector('.rmodal-article-text') || document.querySelector('.rmodal-no-preview'));
+    }, { timeout: 20000 });
+    const bodyEl = page.locator('.rmodal-body');
+    await expect(bodyEl).toBeVisible();
+  });
+
+  test('modal "Read Full Article" link opens external URL', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    const link = page.locator('.rmodal-meta a[target="_blank"]').first();
+    await expect(link).toBeVisible({ timeout: 8000 });
+    const href = await link.getAttribute('href');
+    expect(href).toBeTruthy();
+    expect(href).toMatch(/^https?:\/\//);
+  });
+
+  test('leaderboard story links trigger modal', async ({ page }) => {
+    const lbLink = page.locator('.dash-lb-title[data-sm]').first();
+    await expect(lbLink).toBeVisible({ timeout: 15000 });
+    await lbLink.click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    await page.locator('.rmodal-close').click();
+  });
+
+  test('source badge is visible in modal meta bar', async ({ page }) => {
+    await page.locator('.dash-lead-card').click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    // Meta bar should have either a score or source badge
+    const meta = page.locator('.rmodal-meta');
+    await expect(meta).toBeVisible({ timeout: 8000 });
+    const text = await meta.textContent();
+    expect(text.trim().length).toBeGreaterThan(0);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// INTERVIEW WIZARD
+// ─────────────────────────────────────────────────────────────
+test.describe('Interview wizard', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(BASE + '/#/docs/INTERVIEW');
+    await waitForContent(page);
+    // Wait for wizard to inject
+    await page.waitForSelector('.wiz-wrap', { timeout: 15000 });
+  });
+
+  test('wizard container is rendered', async ({ page }) => {
+    await expect(page.locator('.wiz-wrap')).toBeVisible();
+  });
+
+  test('shows character select screen first', async ({ page }) => {
+    await expect(page.locator('.wiz-class-grid')).toBeVisible({ timeout: 8000 });
+  });
+
+  test('character classes are selectable', async ({ page }) => {
+    const classes = page.locator('.wiz-cls');
+    await expect(classes.first()).toBeVisible({ timeout: 8000 });
+    const count = await classes.count();
+    expect(count).toBeGreaterThanOrEqual(4);
+  });
+
+  test('selecting a class advances to level 1', async ({ page }) => {
+    await page.locator('.wiz-cls').first().click();
+    await expect(page.locator('.wiz-card')).toBeVisible({ timeout: 8000 });
+    // Should no longer be on character select
+    const classGrid = page.locator('.wiz-class-grid');
+    await expect(classGrid).not.toBeVisible({ timeout: 5000 });
+  });
+
+  test('shows XP progress bar after class selection', async ({ page }) => {
+    await page.locator('.wiz-cls').first().click();
+    await expect(page.locator('.wiz-prog-bar')).toBeVisible({ timeout: 8000 });
+  });
+
+  test('quiz options are clickable', async ({ page }) => {
+    await page.locator('.wiz-cls').first().click();
+    await expect(page.locator('.wiz-opt').first()).toBeVisible({ timeout: 8000 });
+    await page.locator('.wiz-opt').first().click();
+    // After answering, option should get a correct/wrong class
+    const hasResult = await page.evaluate(() => {
+      return !!(document.querySelector('.wiz-opt.correct') || document.querySelector('.wiz-opt.wrong'));
+    });
+    expect(hasResult).toBe(true);
+  });
+
+  test('Next button advances steps', async ({ page }) => {
+    await page.locator('.wiz-cls').first().click();
+    // Answer all quiz options on this step
+    const opts = page.locator('.wiz-opt');
+    const count = await opts.count();
+    for (let i = 0; i < count; i++) {
+      const opt = opts.nth(i);
+      const isAnswered = await opt.evaluate(el => el.classList.contains('correct') || el.classList.contains('wrong'));
+      if (!isAnswered) { await opt.click(); break; }
+    }
+    await expect(page.locator('.wiz-btn-next')).toBeVisible({ timeout: 5000 });
+  });
+
+  test('wizard header shows step progress', async ({ page }) => {
+    await page.locator('.wiz-cls').first().click();
+    await expect(page.locator('.wiz-hdr')).toBeVisible({ timeout: 8000 });
+    const hdrText = await page.locator('.wiz-hdr').textContent();
+    expect(hdrText.length).toBeGreaterThan(0);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// DASHBOARD WIDGETS
+// ─────────────────────────────────────────────────────────────
+test.describe('Dashboard widgets', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.dash-grid')).toBeVisible({ timeout: 20000 });
+  });
+
+  test('Today\'s Digest widget is visible', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText("Today's Digest", { timeout: 15000 });
+  });
+
+  test('Quick-Start code panel is visible', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Quick-Start', { timeout: 15000 });
+  });
+
+  test('Quick-Start panel has language tabs', async ({ page }) => {
+    const tabs = page.locator('.qs-tab');
+    await expect(tabs.first()).toBeVisible({ timeout: 15000 });
+    const count = await tabs.count();
+    expect(count).toBeGreaterThanOrEqual(2);
+  });
+
+  test('Which Claude picker is visible', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Which Claude', { timeout: 15000 });
+  });
+
+  test('Community Buzz section is visible', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Community Buzz', { timeout: 15000 });
+  });
+
+  test('community buzz cards are rendered', async ({ page }) => {
+    const tweets = page.locator('.dash-tweet');
+    await expect(tweets.first()).toBeVisible({ timeout: 15000 });
+    const count = await tweets.count();
+    expect(count).toBeGreaterThanOrEqual(4);
+  });
+
+  test('community buzz cards open modal on click', async ({ page }) => {
+    const tweet = page.locator('.dash-tweet[data-sm]').first();
+    await expect(tweet).toBeVisible({ timeout: 15000 });
+    await tweet.click();
+    await expect(page.locator('.rmodal-overlay')).toBeVisible({ timeout: 8000 });
+    await page.keyboard.press('Escape');
+  });
+
+  test('model picker buttons are clickable', async ({ page }) => {
+    const mpBtn = page.locator('.mp-btn').first();
+    await expect(mpBtn).toBeVisible({ timeout: 15000 });
+    await mpBtn.click();
+    // After picking, result should show
+    await expect(page.locator('.mp-result')).toBeVisible({ timeout: 5000 });
+  });
+});

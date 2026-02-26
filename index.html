@@ -361,6 +361,11 @@
     .rmodal-loading { padding:40px 50px; text-align:center; font-family:'Inter',sans-serif; font-size:.85rem; color:var(--anthro-mid); }
     @keyframes spin { to { transform:rotate(360deg); } }
     .rmodal-spinner { width:26px; height:26px; border:3px solid var(--anthro-border); border-top-color:var(--anthro-orange); border-radius:50%; animation:spin .75s linear infinite; margin:0 auto 14px; }
+    .rmodal-article-text { font-family:'Inter',sans-serif; }
+    .rmodal-ap { font-size:.88rem; color:#3a3530; line-height:1.78; margin:0 0 .85em; }
+    .rmodal-read-more { display:block; margin:18px auto 6px; text-align:center; font-family:'Inter',sans-serif; font-size:.82rem; font-weight:700; background:var(--anthro-orange); color:#fff !important; padding:10px 22px; border-radius:9px; text-decoration:none !important; border-bottom:none !important; width:fit-content; transition:background .15s; }
+    .rmodal-read-more:hover { background:var(--anthro-rust); }
+    .rmodal-no-preview { padding:36px 18px; text-align:center; font-family:'Inter',sans-serif; font-size:.83rem; color:var(--anthro-mid); line-height:1.6; }
 
     /* ── Claude Code quick-links row ─────────────────── */
     .dash-cc-row { display:flex; gap:0; flex:1; overflow:hidden; padding:0 4px 8px; }
@@ -686,17 +691,6 @@
     var srcBadge = source
       ? '<span style="background:'+srcColor+';color:#fff;padding:2px 8px;border-radius:4px;font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;flex-shrink:0;">'+escHtml(source)+'</span>'
       : '';
-    var initialMeta =
-      srcBadge +
-      (score ? '<span>▲ '+escHtml(String(score))+' pts</span>' : '') +
-      '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Open ↗</a>';
-
-    var initialBody = isHN && hnMatch
-      ? '<div class="rmodal-loading"><div class="rmodal-spinner"></div>Loading HN discussion…</div>'
-      : '<div style="padding:28px 18px;text-align:center;font-family:Inter,sans-serif;">'+
-          '<div style="font-size:2.2rem;margin-bottom:10px;">🔗</div>'+
-          '<div style="font-size:.86rem;color:var(--anthro-mid);">Click <strong style="color:var(--anthro-dark);">Open ↗</strong> to read the full article.</div>'+
-        '</div>';
 
     var ov = document.createElement('div');
     ov.className = 'rmodal-overlay';
@@ -710,8 +704,12 @@
           '</div>'+
           '<button class="rmodal-close" onclick="closeSModal()">✕</button>'+
         '</div>'+
-        '<div class="rmodal-meta" id="sm-meta">'+initialMeta+'</div>'+
-        '<div class="rmodal-body" id="sm-body">'+initialBody+'</div>'+
+        '<div class="rmodal-meta" id="sm-meta">'+
+          srcBadge+
+          (score ? '<span>▲ '+escHtml(String(score))+' pts</span>' : '')+
+          '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Read Full Article ↗</a>'+
+        '</div>'+
+        '<div class="rmodal-body" id="sm-body"><div class="rmodal-loading"><div class="rmodal-spinner"></div>Loading article preview…</div></div>'+
         '<div class="rmodal-foot">'+
           '<span style="font-family:Inter,sans-serif;font-size:.67rem;color:var(--anthro-mid);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;">'+escHtml(href.replace(/^https?:\/\//,'').slice(0,72))+'</span>'+
           '<button class="rmodal-btn rmodal-btn-s" onclick="closeSModal()">Close</button>'+
@@ -720,54 +718,108 @@
     document.body.appendChild(ov);
     _sModal = ov;
 
-    /* HN: fetch discussion via CORS-enabled Firebase API */
-    if (!isHN || !hnMatch) return;
-    var hnId = hnMatch[1];
-    fetch('https://hacker-news.firebaseio.com/v0/item/'+hnId+'.json')
-      .then(function(r){ return r.json(); })
-      .then(function(item){
-        var metaEl = document.getElementById('sm-meta');
-        if (metaEl) metaEl.innerHTML =
-          '<span style="background:#FF6600;color:#fff;padding:2px 8px;border-radius:4px;font-size:.62rem;font-weight:700;letter-spacing:.04em;flex-shrink:0;">Hacker News</span>'+
-          '<span>▲ '+(item.score||score||0)+' pts</span>'+
-          '<span>💬 '+(item.descendants||0)+' comments</span>'+
-          (item.url ? '<a href="'+escHtml(item.url)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Read article ↗</a>'+
-                      '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-s" style="font-size:.71rem;padding:4px 10px;">HN thread</a>'
-                    : '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Open ↗</a>');
-        var kids = (item.kids||[]).slice(0,6);
-        if (!kids.length) {
-          var bodyEl = document.getElementById('sm-body');
-          if (bodyEl) bodyEl.innerHTML='<div style="padding:20px 18px;font-family:Inter,sans-serif;font-size:.83rem;color:var(--anthro-mid);text-align:center;">No comments yet.</div>';
-          return;
-        }
-        return Promise.all(kids.map(function(id){
-          return fetch('https://hacker-news.firebaseio.com/v0/item/'+id+'.json').then(function(r){ return r.json(); }).catch(function(){ return null; });
-        }));
-      })
-      .then(function(comments){
-        if (!comments) return;
+    function showBody(html) { var el = document.getElementById('sm-body'); if (el) el.innerHTML = html; }
+    function showMeta(html) { var el = document.getElementById('sm-meta'); if (el) el.innerHTML = html; }
+
+    /* Extract readable paragraphs from raw HTML using DOMParser */
+    function extractContent(rawHtml) {
+      try {
+        var doc = (new DOMParser()).parseFromString(rawHtml, 'text/html');
+        doc.querySelectorAll('script,style,nav,footer,aside,header,form,iframe,[class*="sidebar"],[class*="advert"],[class*="promo"],[class*="share"],[class*="cookie"],[id*="nav"],[id*="footer"]').forEach(function(el){ el.remove(); });
+        var root = doc.querySelector('article') ||
+                   doc.querySelector('[class*="article-body"]') ||
+                   doc.querySelector('[class*="post-content"]') ||
+                   doc.querySelector('[class*="entry-content"]') ||
+                   doc.querySelector('[class*="story-body"]') ||
+                   doc.querySelector('[itemprop="articleBody"]') ||
+                   doc.querySelector('main') ||
+                   doc.body;
+        return Array.from(root.querySelectorAll('p'))
+          .map(function(p){ return p.textContent.replace(/\s+/g,' ').trim(); })
+          .filter(function(t){ return t.length > 80; })
+          .slice(0, 6);
+      } catch(e) { return []; }
+    }
+
+    function renderArticle(paras, articleHref) {
+      if (!paras.length) {
+        return '<div class="rmodal-no-preview">'+
+          '<div style="font-size:2rem;margin-bottom:8px;">📄</div>'+
+          '<div>Preview unavailable for this source.</div>'+
+          '<a href="'+escHtml(articleHref)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a>'+
+        '</div>';
+      }
+      return '<div class="rmodal-article-text">'+
+        paras.map(function(p){ return '<p class="rmodal-ap">'+escHtml(p)+'</p>'; }).join('')+
+        '<a href="'+escHtml(articleHref)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a>'+
+      '</div>';
+    }
+
+    function fetchHNComments(hnItem) {
+      var kids = (hnItem.kids||[]).slice(0,4);
+      if (!kids.length) return Promise.resolve();
+      return Promise.all(kids.map(function(id){
+        return fetch('https://hacker-news.firebaseio.com/v0/item/'+id+'.json').then(function(r){ return r.json(); }).catch(function(){ return null; });
+      })).then(function(comments){
         var bodyEl = document.getElementById('sm-body');
         if (!bodyEl) return;
-        var items = comments.filter(function(c){ return c && c.text; });
-        if (!items.length) return;
-        var html = '<div class="rmodal-clabel" style="padding:12px 18px 4px;">Top HN Comments</div>';
-        html += items.map(function(c){
-          var txt = (c.text||'')
-            .replace(/<a[^>]*href="([^"]*)"[^>]*>.*?<\/a>/g,'$1')
-            .replace(/<[^>]+>/g,' ')
-            .replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#x2F;/g,'/').replace(/&#x27;/g,"'").replace(/\s+/g,' ').trim();
-          if (txt.length>400) txt=txt.slice(0,400)+'…';
-          return '<div class="rmodal-comment">'+
-            '<div class="rmodal-cmeta"><strong style="color:var(--anthro-dark);">'+escHtml(c.by||'?')+'</strong>&nbsp;·&nbsp;▲ '+(c.score||0)+'</div>'+
-            '<div class="rmodal-cbody">'+escHtml(txt)+'</div>'+
-          '</div>';
-        }).join('');
-        bodyEl.innerHTML = html;
-      })
-      .catch(function(){
-        var bodyEl = document.getElementById('sm-body');
-        if (bodyEl) bodyEl.innerHTML='<div style="padding:20px 18px;font-family:Inter,sans-serif;font-size:.83rem;color:var(--anthro-mid);text-align:center;">Could not load discussion.</div>';
-      });
+        var valid = (comments||[]).filter(function(c){ return c && c.text; });
+        if (!valid.length) return;
+        var stripTags = function(s){ return s.replace(/<a[^>]*href="([^"]*)"[^>]*>.*?<\/a>/g,'$1').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#x2F;/g,'/').replace(/&#x27;/g,"'").replace(/\s+/g,' ').trim(); };
+        var html = '<div class="rmodal-clabel" style="padding:14px 0 6px;margin-top:14px;border-top:1px solid var(--anthro-border);">HN Discussion</div>'+
+          valid.map(function(c){
+            var txt = stripTags(c.text||'');
+            if (txt.length>320) txt=txt.slice(0,320)+'…';
+            return '<div class="rmodal-comment">'+
+              '<div class="rmodal-cmeta"><strong style="color:var(--anthro-dark);">'+escHtml(c.by||'?')+'</strong></div>'+
+              '<div class="rmodal-cbody">'+escHtml(txt)+'</div>'+
+            '</div>';
+          }).join('');
+        bodyEl.innerHTML += html;
+      }).catch(function(){});
+    }
+
+    /* Step 1: for HN links get HN metadata first */
+    var hnFetch = (isHN && hnMatch)
+      ? fetch('https://hacker-news.firebaseio.com/v0/item/'+hnMatch[1]+'.json').then(function(r){ return r.json(); })
+      : Promise.resolve(null);
+
+    hnFetch.then(function(hnItem) {
+      var articleHref = href;
+
+      if (hnItem) {
+        articleHref = hnItem.url || href;
+        var m = '<span style="background:#FF6600;color:#fff;padding:2px 8px;border-radius:4px;font-size:.62rem;font-weight:700;letter-spacing:.04em;flex-shrink:0;">Hacker News</span>'+
+          '<span>▲ '+(hnItem.score||score||0)+' pts</span>'+
+          '<span>💬 '+(hnItem.descendants||0)+' comments</span>';
+        m += '<a href="'+escHtml(articleHref)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Read Full Article ↗</a>';
+        if (hnItem.url) m += '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-s" style="font-size:.71rem;padding:4px 10px;">HN ↗</a>';
+        showMeta(m);
+
+        /* Self-post: show text inline */
+        if (hnItem.text && !hnItem.url) {
+          var txt = hnItem.text.replace(/<a[^>]*href="([^"]*)"[^>]*>.*?<\/a>/g,'$1').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#x2F;/g,'/').replace(/&#x27;/g,"'").replace(/\s+/g,' ').trim();
+          showBody('<div class="rmodal-article-text"><p class="rmodal-ap">'+escHtml(txt)+'</p><a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a></div>');
+          return fetchHNComments(hnItem);
+        }
+      }
+
+      /* Step 2: fetch article content via CORS proxy */
+      return fetch('https://api.allorigins.win/get?url='+encodeURIComponent(articleHref), {signal: AbortSignal.timeout ? AbortSignal.timeout(10000) : undefined})
+        .then(function(r){ return r.json(); })
+        .then(function(data){
+          var paras = extractContent(data.contents || '');
+          showBody(renderArticle(paras, articleHref));
+          if (hnItem) return fetchHNComments(hnItem);
+        });
+
+    }).catch(function(){
+      showBody('<div class="rmodal-no-preview">'+
+        '<div style="font-size:2rem;margin-bottom:8px;">⚠️</div>'+
+        '<div>Could not load article preview.</div>'+
+        '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a>'+
+      '</div>');
+    });
   }
 
   /* Intercept clicks on story links (marked with data-sm) */
