@@ -1,12 +1,12 @@
 # Anthropic News Feed
 
-## 2026-02-26
-
-- [Official: Anthropic just released Claude Code 2.1.59 with 7 CLI &amp; 5 prompt changes, details below](https://reddit.com/r/ClaudeAI/comments/1rf6ajn/official_anthropic_just_released_claude_code_2159/) — r/ClaudeAI | Score: 64
-
 > Updated daily. Sorted by community score — highest engagement first.
 
 ---
+
+## 2026-02-26
+
+- [Official: Anthropic just released Claude Code 2.1.59 with 7 CLI &amp; 5 prompt changes, details below](https://reddit.com/r/ClaudeAI/comments/1rf6ajn/official_anthropic_just_released_claude_code_2159/) — r/ClaudeAI | Score: 64
 
 ## February 26, 2026
 
