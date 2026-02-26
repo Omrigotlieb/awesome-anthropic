@@ -1,0 +1,26 @@
+{
+  "name": "Awesome Anthropic",
+  "short_name": "AwesomeAI",
+  "description": "Daily-updated curated resources for Claude AI and Anthropic.",
+  "start_url": "/awesome-anthropic/",
+  "scope": "/awesome-anthropic/",
+  "display": "standalone",
+  "background_color": "#faf9f5",
+  "theme_color": "#d97757",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://anthropic.com/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://www.anthropic.com/images/index/og-anthropic-index.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "en-US"
+}
