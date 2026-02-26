@@ -1,5 +1,51 @@
 # Anthropic News Archive
 
+## Weekly Digest — 2026-02-26
+
+### Recent News
+
+# Anthropic News Archive
+
+## 2026-02-26
+
+- [They’re shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) — r/ClaudeAI | Score: 1682
+- [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) — r/ClaudeAI | Score: 1227
+- [Official: An update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) — r/ClaudeAI | Score: 497
+- [Claude Code with subagents inside subagents cooked for 3 days - Delivered 3D renderer that draws with terminal symbols](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) — r/ClaudeAI | Score: 299
+- [Dear Mr. Amodei](https://reddit.com/r/Anthropic/comments/1reljtv/dear_mr_amodei/) — r/Anthropic | Score: 218
+- [Claude Opus 3 is being deprecated, and getting a blog!](https://reddit.com/r/ClaudeAI/comments/1req3oz/claude_opus_3_is_being_de
+
+### Recent Changelog
+
+### 2026-02-19: We've launched automatic caching for the Messages API. Add a single cache_contro...
+
+We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (
+
+
+---
+
+## 2026-02-26
+
+- [They’re shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) — r/ClaudeAI | Score: 1682
+- [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) — r/ClaudeAI | Score: 1227
+- [Official: An update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) — r/ClaudeAI | Score: 497
+- [Claude Code with subagents inside subagents cooked for 3 days - Delivered 3D renderer that draws with terminal symbols](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) — r/ClaudeAI | Score: 299
+- [Dear Mr. Amodei](https://reddit.com/r/Anthropic/comments/1reljtv/dear_mr_amodei/) — r/Anthropic | Score: 218
+- [Claude Opus 3 is being deprecated, and getting a blog!](https://reddit.com/r/ClaudeAI/comments/1req3oz/claude_opus_3_is_being_deprecated_and_getting_a/) — r/ClaudeAI | Score: 212
+- [How opus feels about pentagon](https://reddit.com/r/ClaudeAI/comments/1ref16i/how_opus_feels_about_pentagon/) — r/ClaudeAI | Score: 190
+- [Yeah buddy… Lightweight!!!💪](https://reddit.com/r/ClaudeAI/comments/1rf25vv/yeah_buddy_lightweight/) — r/ClaudeAI | Score: 180
+- [Claude Code just broke the world record for world's largest known reversible prime number (aka emirp) with one day of CPU time. 10069 digits long](https://reddit.com/r/ClaudeAI/comments/1renm07/claude_code_just_broke_the_world_record_for/) — r/ClaudeAI | Score: 173
+- [Official: Anthropic acquires Vercept AI to advance Claude's computer use capabilities](https://reddit.com/r/ClaudeAI/comments/1rejtvf/official_anthropic_acquires_vercept_ai_to_advance/) — r/ClaudeAI | Score: 131
+- [New in Cowork: scheduled tasks](https://reddit.com/r/ClaudeAI/comments/1rekpfv/new_in_cowork_scheduled_tasks/) — r/ClaudeAI | Score: 117
+- [Please Anthropic, make a family plan](https://reddit.com/r/ClaudeAI/comments/1rf11uq/please_anthropic_make_a_family_plan/) — r/ClaudeAI | Score: 81
+- [when claude starts compacting again...](https://reddit.com/r/ClaudeAI/comments/1reftll/when_claude_starts_compacting_again/) — r/ClaudeAI | Score: 81
+- [Official: An update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/Anthropic/comments/1req60v/official_an_update_on_model_deprecation/) — r/Anthropic | Score: 78
+- [I gave Claude Code a "phone a friend" button — it consults GPT-5.2 and DeepSeek before answering](https://reddit.com/r/ClaudeAI/comments/1reuodm/i_gave_claude_code_a_phone_a_friend_button_it/) — r/ClaudeAI | Score: 74
+- [Hegseth threatens to force AI firm to share tech, escalating Anthropic standoff](https://reddit.com/r/ClaudeAI/comments/1rep9gu/hegseth_threatens_to_force_ai_firm_to_share_tech/) — r/ClaudeAI | Score: 65
+- [Whether Anthropic holds its ground is itself training material.](https://reddit.com/r/ClaudeAI/comments/1rf1dxr/whether_anthropic_holds_its_ground_is_itself/) — r/ClaudeAI | Score: 58
+- [Defense Secretary Pete Hegseth Gives Anthropic Until 5:00 PM Friday To Accept Pentagon Terms: Report](https://reddit.com/r/Anthropic/comments/1rewmft/defense_secretary_pete_hegseth_gives_anthropic/) — r/Anthropic | Score: 53
+- [“Naming my son Claude”](https://reddit.com/r/ClaudeAI/comments/1rf5p4q/naming_my_son_claude/) — r/ClaudeAI | Score: 52
+
 ## 2026-02-26
 
 - [The Pentagon threatens Anthropic](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) — Hacker News | Score: 173
