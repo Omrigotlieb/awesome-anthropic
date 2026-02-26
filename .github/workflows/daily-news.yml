@@ -1,0 +1,61 @@
+name: Daily News Fetch
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 08:00 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    name: Fetch & Inject Daily News
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch news from all sources
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: python scripts/fetch_news.py
+
+      - name: Generate daily digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generate_digest.py
+
+      - name: Inject digest into README
+        run: python scripts/update_readme.py --section NEWS
+
+      - name: Commit and push if changes
+        run: |
+          git config user.name "awesome-anthropic-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/NEWS.md README.md data/last_news_fetch.json
+          git diff --staged --quiet || git commit -m "chore(bot): daily news update $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Write job summary
+        if: always()
+        run: |
+          echo "## Daily News Update" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          python scripts/fetch_news.py --summary 2>/dev/null >> $GITHUB_STEP_SUMMARY || echo "_Summary unavailable_" >> $GITHUB_STEP_SUMMARY

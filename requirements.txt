@@ -1,0 +1,19 @@
+# HTTP & scraping
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+
+# Reddit (optional — falls back to JSON API if not installed)
+praw>=7.7.0
+
+# arXiv
+arxiv>=2.1.0
+
+# Anthropic SDK
+anthropic>=0.50.0
+
+# Utilities
+python-dateutil>=2.9.0
+tenacity>=8.3.0
+rich>=13.7.0
+click>=8.1.0

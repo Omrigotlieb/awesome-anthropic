@@ -1,0 +1,57 @@
+name: Changelog Check
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-changelog:
+    name: Check Anthropic Changelog
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check changelog for new entries
+        id: changelog_check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/check_changelog.py
+          echo "changed=$(cat /tmp/changelog_changed.txt 2>/dev/null || echo 'false')" >> $GITHUB_OUTPUT
+
+      - name: Inject changelog into README
+        if: steps.changelog_check.outputs.changed == 'true'
+        run: python scripts/update_readme.py --section CHANGELOG
+
+      - name: Commit and push if changelog changed
+        if: steps.changelog_check.outputs.changed == 'true'
+        run: |
+          git config user.name "awesome-anthropic-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/CHANGELOG.md README.md data/last_changelog_hash.txt
+          git diff --staged --quiet || git commit -m "chore(bot): changelog update $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Write job summary
+        if: steps.changelog_check.outputs.changed == 'true'
+        run: |
+          echo "## Changelog Updated" >> $GITHUB_STEP_SUMMARY
+          echo "New entries detected and synced from docs.anthropic.com" >> $GITHUB_STEP_SUMMARY
