@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Awesome Anthropic — Curated Claude & Anthropic Resources</title>
+  <meta name="description" content="A curated, daily-updated list of awesome resources, tools, SDKs, research papers, and community projects for Anthropic and Claude AI." />
+  <meta property="og:title" content="Awesome Anthropic" />
+  <meta property="og:description" content="Daily-updated curated resources for Claude AI and Anthropic." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="https://anthropic.com/favicon.ico" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+
+  <style>
+    :root {
+      --theme-color: #c97a4b;
+      --sidebar-bg:  #1a1a2e;
+    }
+
+    /* Sidebar */
+    .sidebar { background: var(--sidebar-bg) !important; border-right: 1px solid #2a2a4a; }
+    .sidebar ul li a { color: #e8e8f0 !important; font-size: 0.88rem; transition: color 0.15s; }
+    .sidebar ul li a:hover, .sidebar ul li.active > a { color: #f0a870 !important; font-weight: 600; }
+    .sidebar ul li strong { color: #c97a4b !important; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 1rem; display: block; }
+    .sidebar-toggle { background: var(--sidebar-bg) !important; }
+    .app-name-link { color: #f0a870 !important; font-weight: 700; font-size: 1.05rem; }
+
+    /* Search */
+    .search input { background: #12122a !important; color: #e0e0f0 !important; border: 1px solid #3a3a5a !important; border-radius: 6px; padding: 7px 10px; width: 100%; font-size: 0.85rem; }
+    .search input::placeholder { color: #6060a0; }
+    .search .results-panel { background: #1a1a2e; border: 1px solid #2a2a4a; }
+    .search .results-panel .matching-post { color: #c0c0e0; }
+    .search .results-panel .matching-post:hover { background: #2a2a4a; }
+    .search .results-panel h2 { color: #c97a4b; font-size: 0.9rem; }
+
+    /* Content */
+    h2 { border-bottom: 2px solid var(--theme-color); padding-bottom: 6px; }
+    .markdown-section a { color: #b56c30; text-decoration: none; border-bottom: 1px dotted #c97a4b; transition: color 0.15s; }
+    .markdown-section a:hover { color: var(--theme-color); border-bottom-style: solid; }
+    p code, li code { background: #f0ede8; color: #8b3a0f; border-radius: 4px; padding: 1px 5px; font-size: 0.85em; }
+
+    /* Tables */
+    table { border-collapse: collapse; width: 100%; font-size: 0.9rem; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    thead tr { background: var(--theme-color); color: #fff; }
+    thead th { padding: 10px 14px; text-align: left; }
+    tbody tr:nth-child(even) { background: #f7f4f1; }
+    tbody td { padding: 8px 14px; border-top: 1px solid #eee; }
+
+    /* Footer */
+    .page-footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid #e0dbd4; font-size: 0.78rem; color: #888; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px; }
+    .page-footer a { color: #b56c30; border: none; }
+
+    @media (max-width: 768px) { .content { padding: 0 16px; } table { font-size: 0.8rem; } }
+  </style>
+</head>
+<body>
+<div id="app">Loading…</div>
+<script>
+  window.$docsify = {
+    name: '⚡ Awesome Anthropic',
+    repo: 'https://github.com/Omrigotlieb/awesome-anthropic',
+    homepage: 'README.md',
+    loadSidebar: true,
+    subMaxLevel: 2,
+    themeColor: '#c97a4b',
+    externalLinkTarget: '_blank',
+    search: {
+      maxAge: 86400000,
+      paths: ['/', '/docs/NEWS', '/docs/CHANGELOG', '/docs/ARCHIVE/2024-news', '/CONTRIBUTING'],
+      placeholder: 'Search resources…',
+      noData: 'No results.',
+      depth: 4,
+    },
+    markdown: {
+      renderer: {
+        link(href, title, text) {
+          const ext = href && href.startsWith('http');
+          const t = ext ? ' target="_blank" rel="noopener noreferrer"' : '';
+          const ti = title ? ` title="${title}"` : '';
+          return `<a href="${href}"${ti}${t}>${text}</a>`;
+        }
+      }
+    },
+    plugins: [
+      function(hook) {
+        hook.afterEach(function(html) {
+          return html + `<footer class="page-footer">
+            <span>Auto-updated daily · Claude &amp; Anthropic resources</span>
+            <span>
+              <a href="https://github.com/Omrigotlieb/awesome-anthropic" target="_blank">GitHub</a> ·
+              <a href="https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> ·
+              <a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new" target="_blank">Report Issue</a>
+            </span>
+          </footer>`;
+        });
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+</body>
+</html>
