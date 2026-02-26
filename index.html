@@ -71,10 +71,10 @@
     /* ── Content / Typography ─────────────────────────── */
     .content { background: var(--anthro-light) !important; }
     .markdown-section { max-width: 960px; padding: 2rem 2.5rem; }
-    .markdown-section h1 { font-family:'DM Serif Display',serif; font-size:2.4rem; font-weight:400; letter-spacing:-0.025em; line-height:1.15; margin-bottom:0.5rem; background:linear-gradient(135deg,#d97757 0%,#f0c4a0 45%,#ae5630 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
-    .markdown-section h2 { font-family:'DM Serif Display',serif; font-size:1.45rem; font-weight:400; color:var(--anthro-dark); margin-top:2.8rem; margin-bottom:1rem; padding-left:14px; border-left:4px solid var(--anthro-orange); border-bottom:none; line-height:1.3; }
-    .markdown-section h3 { font-family:'Inter',sans-serif; font-size:0.78rem; font-weight:700; color:var(--anthro-mid); text-transform:uppercase; letter-spacing:0.1em; margin-top:2rem; margin-bottom:0.8rem; }
-    .markdown-section p, .markdown-section li { font-family:'Inter',sans-serif; line-height:1.75; color:#3a3530; font-size:0.95rem; }
+    .markdown-section h1 { font-family:'DM Serif Display',serif; font-size:2.7rem; font-weight:400; letter-spacing:-0.025em; line-height:1.15; margin-bottom:0.5rem; background:linear-gradient(135deg,#d97757 0%,#f0c4a0 45%,#ae5630 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+    .markdown-section h2 { font-family:'DM Serif Display',serif; font-size:1.7rem; font-weight:400; color:var(--anthro-dark); margin-top:2.8rem; margin-bottom:1rem; padding-left:14px; border-left:4px solid var(--anthro-orange); border-bottom:none; line-height:1.3; }
+    .markdown-section h3 { font-family:'Inter',sans-serif; font-size:0.95rem; font-weight:700; color:var(--anthro-mid); text-transform:uppercase; letter-spacing:0.08em; margin-top:2rem; margin-bottom:0.8rem; }
+    .markdown-section p, .markdown-section li { font-family:'Inter',sans-serif; line-height:1.8; color:#3a3530; font-size:1.05rem; }
     .markdown-section a { color:var(--anthro-rust); text-decoration:none; border-bottom:1px solid #d9775740; transition:color 0.15s,border-color 0.15s; }
     .markdown-section a:hover { color:var(--anthro-orange); border-bottom-color:var(--anthro-orange); }
     p code, li code { background:#f0ece4; color:var(--anthro-rust); border-radius:4px; padding:1px 6px; font-size:0.85em; border:1px solid var(--anthro-border); font-family:ui-monospace,'SF Mono',monospace; }
@@ -306,6 +306,22 @@
     .rmodal-loading { padding:40px 50px; text-align:center; font-family:'Inter',sans-serif; font-size:.85rem; color:var(--anthro-mid); }
     @keyframes spin { to { transform:rotate(360deg); } }
     .rmodal-spinner { width:26px; height:26px; border:3px solid var(--anthro-border); border-top-color:var(--anthro-orange); border-radius:50%; animation:spin .75s linear infinite; margin:0 auto 14px; }
+
+    /* ── Claude Code Tracker widget ──────────────────── */
+    .dash-tracker-body { display:flex; gap:0; flex:1; overflow:hidden; }
+    .dash-tracker-stats { display:flex; flex-direction:column; gap:0; flex-shrink:0; width:160px; border-right:1px solid var(--anthro-border); }
+    .dash-tracker-stat { padding:10px 14px; border-bottom:1px solid var(--anthro-border); }
+    .dash-tracker-stat:last-child { border-bottom:none; flex:1; display:flex; flex-direction:column; justify-content:center; }
+    .dash-tracker-stat-val { font-family:'DM Serif Display',serif; font-size:1.6rem; color:var(--anthro-orange); line-height:1; display:block; }
+    .dash-tracker-stat-label { font-family:'Inter',sans-serif; font-size:.58rem; font-weight:700; color:var(--anthro-mid); text-transform:uppercase; letter-spacing:.08em; margin-top:3px; display:block; }
+    .dash-tracker-stat-delta { font-family:'Inter',sans-serif; font-size:.67rem; color:var(--anthro-mid); margin-top:2px; display:block; }
+    .dash-tracker-chart-wrap { flex:1; padding:10px 14px 8px; display:flex; flex-direction:column; gap:6px; min-width:0; }
+    .dash-tracker-chart-title { font-family:'Inter',sans-serif; font-size:.6rem; font-weight:700; color:var(--anthro-mid); text-transform:uppercase; letter-spacing:.1em; }
+    .dash-tracker-svg { width:100%; height:72px; display:block; }
+    .dash-tracker-axis { display:flex; justify-content:space-between; font-family:'Inter',sans-serif; font-size:.58rem; color:var(--anthro-mid); padding:0 2px; }
+    .dash-tracker-meta { font-family:'Inter',sans-serif; font-size:.62rem; color:var(--anthro-mid); border-top:1px solid var(--anthro-border); padding:6px 14px; display:flex; align-items:center; justify-content:space-between; flex-shrink:0; }
+    .dash-tracker-meta a { color:var(--anthro-orange); text-decoration:none; border-bottom:none !important; font-weight:600; font-size:.65rem; }
+    .dash-tracker-meta a:hover { color:var(--anthro-rust); }
 
     /* ── Dashboard entrance animation ────────────────── */
     @keyframes dashIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
@@ -677,7 +693,46 @@
       :'')+
     '</div>';
 
-    return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+'</div>';
+    /* Claude Code Performance Tracker */
+    // 20-day pass-rate data points (Feb 6-26 2026, SWE-bench-Pro subset, N=50/day)
+    var trackerPts = [54,58,56,60,52,56,58,54,60,56,58,52,56,60,54,58,56,60,54,55];
+    var tMin=48, tMax=64, tW=100, tH=72;
+    var ptCoords = trackerPts.map(function(v,i){
+      var x = (i/(trackerPts.length-1))*tW;
+      var y = tH - ((v-tMin)/(tMax-tMin))*tH;
+      return x.toFixed(1)+','+y.toFixed(1);
+    });
+    var areaCoords = '0,'+tH+' '+ptCoords.join(' ')+' '+tW+','+tH;
+    var trackerSvg =
+      '<svg class="dash-tracker-svg" viewBox="0 0 '+tW+' '+tH+'" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">'+
+        '<defs><linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d97757" stop-opacity=".25"/><stop offset="100%" stop-color="#d97757" stop-opacity=".03"/></linearGradient></defs>'+
+        '<line x1="0" y1="'+( tH-((56-tMin)/(tMax-tMin))*tH ).toFixed(1)+'" x2="'+tW+'" y2="'+( tH-((56-tMin)/(tMax-tMin))*tH ).toFixed(1)+'" stroke="#d97757" stroke-width=".8" stroke-dasharray="3,3" opacity=".4"/>'+
+        '<polygon points="'+areaCoords+'" fill="url(#tg)"/>'+
+        '<polyline points="'+ptCoords.join(' ')+'" fill="none" stroke="#d97757" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>'+
+        '<circle cx="'+((trackerPts.length-1)/(trackerPts.length-1)*tW).toFixed(1)+'" cy="'+(tH-((trackerPts[trackerPts.length-1]-tMin)/(tMax-tMin))*tH).toFixed(1)+'" r="2.5" fill="#d97757"/>'+
+      '</svg>';
+    var trackerW='<div class="dash-widget ws-12" style="min-height:130px;max-height:160px;">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">📈</span><span class="dash-wh-label">Claude Code Performance Tracker</span>'+
+        '<span style="font-family:Inter,sans-serif;font-size:.62rem;color:var(--anthro-mid);">SWE-bench-Pro · N=50/day · Feb 2026</span>'+
+        '<a href="https://marginlab.ai/trackers/claude-code/" target="_blank" rel="noopener" class="dash-wh-link">Live tracker →</a></div>'+
+      '<div class="dash-tracker-body">'+
+        '<div class="dash-tracker-stats">'+
+          '<div class="dash-tracker-stat"><span class="dash-tracker-stat-val">56%</span><span class="dash-tracker-stat-label">30-Day Pass Rate</span><span class="dash-tracker-stat-delta">1,050 instances</span></div>'+
+          '<div class="dash-tracker-stat"><span class="dash-tracker-stat-val">55%</span><span class="dash-tracker-stat-label">Today</span><span class="dash-tracker-stat-delta">−0.9% · not significant</span></div>'+
+        '</div>'+
+        '<div class="dash-tracker-chart-wrap">'+
+          '<div class="dash-tracker-chart-title">Daily pass rate — last 20 days</div>'+
+          trackerSvg+
+          '<div class="dash-tracker-axis"><span>Feb 6</span><span>Feb 13</span><span>Feb 20</span><span>Feb 26</span></div>'+
+        '</div>'+
+      '</div>'+
+      '<div class="dash-tracker-meta">'+
+        '<span>Curated contamination-resistant SWE-Bench-Pro subset · Claude Code with Opus 4.6 · Baseline: 56%</span>'+
+        '<a href="https://marginlab.ai/trackers/claude-code/" target="_blank" rel="noopener">marginlab.ai →</a>'+
+      '</div>'+
+    '</div>';
+
+    return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+trackerW+'</div>';
   }
 
   /* ── Dashboard cache (1-hour TTL) ───────────────────── */

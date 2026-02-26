@@ -15,7 +15,7 @@ async function waitForContent(page) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// HOMEPAGE
+// HOMEPAGE / DASHBOARD
 // ─────────────────────────────────────────────────────────────
 test.describe('Homepage', () => {
   test('loads and shows title', async ({ page }) => {
@@ -31,11 +31,16 @@ test.describe('Homepage', () => {
     await expect(page.locator('.sidebar')).toBeVisible();
   });
 
-  test('shows dashboard masthead', async ({ page }) => {
+  test('shows dashboard masthead with light background', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
     await expect(page.locator('.dash-masthead')).toBeVisible({ timeout: 15000 });
-    await expect(page.locator('.markdown-section')).toContainText('Awesome Anthropic');
+    // Masthead should now be white/light, not dark
+    const bg = await page.evaluate(() => {
+      const el = document.querySelector('.dash-masthead');
+      return el ? window.getComputedStyle(el).backgroundColor : '';
+    });
+    expect(bg).toBe('rgb(255, 255, 255)');
   });
 
   test('shows benchmark comparison table with Opus 4.6', async ({ page }) => {
@@ -43,6 +48,18 @@ test.describe('Homepage', () => {
     await waitForContent(page);
     await expect(page.locator('.dash-bench-wrap')).toBeVisible({ timeout: 15000 });
     await expect(page.locator('.markdown-section')).toContainText('Opus 4.6');
+  });
+
+  test('benchmark table header is light (cream), not dark', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.dash-bench-wrap')).toBeVisible({ timeout: 15000 });
+    const bg = await page.evaluate(() => {
+      const th = document.querySelector('.dash-bench-wrap thead th');
+      return th ? window.getComputedStyle(th).backgroundColor : '';
+    });
+    // Should NOT be the dark color rgb(20,20,19)
+    expect(bg).not.toBe('rgb(20, 20, 19)');
   });
 
   test('shows changelog widget', async ({ page }) => {
@@ -55,6 +72,27 @@ test.describe('Homepage', () => {
     await page.goto(BASE + '/');
     await waitForContent(page);
     await expect(page.locator('.markdown-section')).toContainText('Trending Now', { timeout: 15000 });
+  });
+
+  test('shows Claude Code performance tracker widget', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Performance Tracker', { timeout: 15000 });
+    await expect(page.locator('.dash-tracker-svg')).toBeVisible({ timeout: 15000 });
+  });
+
+  test('tracker widget has sparkline graph', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.dash-tracker-body')).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('.dash-tracker-stat-val').first()).toContainText('%');
+  });
+
+  test('tracker links to marginlab.ai', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    const link = page.locator('a[href*="marginlab.ai"]').first();
+    await expect(link).toBeVisible({ timeout: 15000 });
   });
 });
 
@@ -118,6 +156,22 @@ test.describe('Sidebar navigation', () => {
     await expect(page.locator('.markdown-section')).not.toContainText('Loading', { timeout: 15000 });
     await expect(page.url()).toContain('CODE_OF_CONDUCT');
   });
+
+  test('CC Ecosystem link navigates and loads', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await page.click('.sidebar a:has-text("CC Ecosystem")');
+    await page.waitForURL(/CLAUDE_CODE/, { timeout: 10000 });
+    await expect(page.locator('.markdown-section')).toContainText('Claude Code', { timeout: 15000 });
+  });
+
+  test('Interview Prep link navigates and loads', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await page.click('.sidebar a:has-text("Interview Prep")');
+    await page.waitForURL(/INTERVIEW/, { timeout: 10000 });
+    await expect(page.locator('.markdown-section')).toContainText('Anthropic', { timeout: 15000 });
+  });
 });
 
 // ─────────────────────────────────────────────────────────────
@@ -131,6 +185,8 @@ test.describe('Direct URL navigation', () => {
     { url: '/#/docs/ARCHIVE/2024-news', contains: '2024' },
     { url: '/#/CONTRIBUTING',          contains: 'Contributing' },
     { url: '/#/CODE_OF_CONDUCT',       contains: 'Conduct' },
+    { url: '/#/docs/CLAUDE_CODE',      contains: 'Claude Code' },
+    { url: '/#/docs/INTERVIEW',        contains: 'Anthropic' },
   ];
 
   for (const { url, contains } of routes) {
@@ -197,6 +253,66 @@ test.describe('Benchmarks page', () => {
     const links = page.locator('.markdown-section a[href*="lmarena"]');
     await expect(links.first()).toBeVisible();
   });
+
+  test('shows competitor models (not just Anthropic)', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('GPT');
+  });
+
+  test('shows Claude Code tracker section', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('marginlab');
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// CLAUDE CODE ECOSYSTEM PAGE
+// ─────────────────────────────────────────────────────────────
+test.describe('Claude Code ecosystem page', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(BASE + '/#/docs/CLAUDE_CODE');
+    await waitForContent(page);
+  });
+
+  test('shows Claude Code heading', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Claude Code');
+  });
+
+  test('shows MCP section', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('MCP');
+  });
+
+  test('shows Remote Connect section', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Remote');
+  });
+
+  test('shows Skills section', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Skills');
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// INTERVIEW PREP PAGE
+// ─────────────────────────────────────────────────────────────
+test.describe('Interview prep page', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(BASE + '/#/docs/INTERVIEW');
+    await waitForContent(page);
+  });
+
+  test('shows Anthropic interview content', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Anthropic');
+  });
+
+  test('shows technical topics', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('LLM');
+  });
+
+  test('shows behavioral questions section', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Behavioral');
+  });
+
+  test('shows study plan or resources', async ({ page }) => {
+    await expect(page.locator('.markdown-section')).toContainText('Study');
+  });
 });
 
 // ─────────────────────────────────────────────────────────────
@@ -235,6 +351,16 @@ test.describe('Visual design', () => {
     expect(fontFamily.toLowerCase()).toMatch(/lora|serif|georgia/);
   });
 
+  test('body text is at least 16px for readability', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/NEWS');
+    await waitForContent(page);
+    const fontSize = await page.evaluate(() => {
+      const p = document.querySelector('.markdown-section p');
+      return p ? parseFloat(window.getComputedStyle(p).fontSize) : 0;
+    });
+    expect(fontSize).toBeGreaterThanOrEqual(16);
+  });
+
   test('sidebar has warm dark background', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
@@ -250,5 +376,19 @@ test.describe('Visual design', () => {
     await page.goto(BASE + '/#/docs/NEWS');
     await waitForContent(page);
     await expect(page.locator('.page-footer')).toBeVisible();
+  });
+
+  test('source card images load for dashboard lead card', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.dash-lead-card')).toBeVisible({ timeout: 15000 });
+    // Card should have a background image (ci-* class)
+    const hasBg = await page.evaluate(() => {
+      const card = document.querySelector('.dash-lead-card');
+      if (!card) return false;
+      const classes = Array.from(card.classList);
+      return classes.some(c => c.startsWith('ci-'));
+    });
+    expect(hasBg).toBe(true);
   });
 });
