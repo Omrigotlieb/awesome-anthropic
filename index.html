@@ -205,17 +205,21 @@
     .dash-bench-topval { display:block; font-family:'DM Serif Display',serif; font-size:1.45rem; color:var(--anthro-orange); line-height:1; }
     .dash-bench-toplabel { display:block; font-family:'Inter',sans-serif; font-size:.56rem; font-weight:700; color:var(--anthro-mid); text-transform:uppercase; letter-spacing:.08em; margin-top:3px; }
 
-    /* Comparison table overrides (reset global table styles inside widget) */
-    .dash-bench-wrap { flex:1; overflow:auto; }
-    .dash-bench-wrap table { margin:0 !important; border-radius:0 !important; box-shadow:none !important; border:none !important; font-size:.76rem !important; }
-    .dash-bench-wrap thead tr { background:transparent !important; }
-    .dash-bench-wrap thead th { padding:6px 10px !important; font-size:.6rem !important; color:var(--anthro-mid) !important; background:var(--anthro-cream) !important; border-bottom:1px solid var(--anthro-border) !important; }
-    .dash-bench-wrap tbody td { padding:6px 10px !important; font-size:.76rem !important; border-top:1px solid var(--anthro-border) !important; color:#3a3530 !important; font-weight:400 !important; }
-    .dash-bench-wrap tbody td:first-child { font-weight:600 !important; color:var(--anthro-dark) !important; }
-    .dash-bench-wrap .best { color:var(--anthro-orange) !important; font-weight:700 !important; }
-    .dash-bench-wrap .dim { color:var(--anthro-mid) !important; }
-    .dash-bench-wrap .comp td:first-child { color:#9a8a7a !important; font-weight:400 !important; font-style:italic; }
-    .dash-bench-wrap .comp td { color:#9a8a7a !important; }
+    /* Benchmark rows — CSS grid (no table, no overflow) */
+    .dash-bench-wrap { flex:1; overflow:hidden; }
+    .bench-hdr { display:grid; grid-template-columns:1fr 56px 56px 46px; padding:5px 12px; background:var(--anthro-cream); border-bottom:1px solid var(--anthro-border); }
+    .bench-hdr span { font-family:'Inter',sans-serif; font-size:.57rem; font-weight:700; color:var(--anthro-mid); text-transform:uppercase; letter-spacing:.07em; }
+    .bench-hdr span:not(:first-child) { text-align:center; }
+    .bench-row { display:grid; grid-template-columns:1fr 56px 56px 46px; padding:6px 12px; border-bottom:1px solid var(--anthro-border); align-items:center; }
+    .bench-row:last-child { border-bottom:none; }
+    .bench-row.bench-claude { border-left:3px solid var(--anthro-orange); padding-left:9px; background:rgba(217,119,87,.04); }
+    .bench-row.bench-top { background:rgba(217,119,87,.07); }
+    .bench-name { font-family:'Inter',sans-serif; font-size:.75rem; font-weight:600; color:var(--anthro-dark); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .bench-val { font-family:'Inter',sans-serif; font-size:.71rem; color:#5a504a; text-align:center; }
+    .bench-val.best { color:var(--anthro-orange); font-weight:700; }
+    .bench-val.dim { color:var(--anthro-mid); }
+    .bench-row.bench-comp .bench-name { font-weight:400; font-style:italic; color:#9a8a7a; }
+    .bench-row.bench-comp .bench-val { color:#b0a090; }
 
     /* ── Changelog ───────────────────────────────────── */
     .dash-cl-list { display:flex; flex-direction:column; flex:1; overflow:hidden; }
@@ -721,40 +725,6 @@
     function showBody(html) { var el = document.getElementById('sm-body'); if (el) el.innerHTML = html; }
     function showMeta(html) { var el = document.getElementById('sm-meta'); if (el) el.innerHTML = html; }
 
-    /* Extract readable paragraphs from raw HTML using DOMParser */
-    function extractContent(rawHtml) {
-      try {
-        var doc = (new DOMParser()).parseFromString(rawHtml, 'text/html');
-        doc.querySelectorAll('script,style,nav,footer,aside,header,form,iframe,[class*="sidebar"],[class*="advert"],[class*="promo"],[class*="share"],[class*="cookie"],[id*="nav"],[id*="footer"]').forEach(function(el){ el.remove(); });
-        var root = doc.querySelector('article') ||
-                   doc.querySelector('[class*="article-body"]') ||
-                   doc.querySelector('[class*="post-content"]') ||
-                   doc.querySelector('[class*="entry-content"]') ||
-                   doc.querySelector('[class*="story-body"]') ||
-                   doc.querySelector('[itemprop="articleBody"]') ||
-                   doc.querySelector('main') ||
-                   doc.body;
-        return Array.from(root.querySelectorAll('p'))
-          .map(function(p){ return p.textContent.replace(/\s+/g,' ').trim(); })
-          .filter(function(t){ return t.length > 80; })
-          .slice(0, 6);
-      } catch(e) { return []; }
-    }
-
-    function renderArticle(paras, articleHref) {
-      if (!paras.length) {
-        return '<div class="rmodal-no-preview">'+
-          '<div style="font-size:2rem;margin-bottom:8px;">📄</div>'+
-          '<div>Preview unavailable for this source.</div>'+
-          '<a href="'+escHtml(articleHref)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a>'+
-        '</div>';
-      }
-      return '<div class="rmodal-article-text">'+
-        paras.map(function(p){ return '<p class="rmodal-ap">'+escHtml(p)+'</p>'; }).join('')+
-        '<a href="'+escHtml(articleHref)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a>'+
-      '</div>';
-    }
-
     function fetchHNComments(hnItem) {
       var kids = (hnItem.kids||[]).slice(0,4);
       if (!kids.length) return Promise.resolve();
@@ -766,10 +736,12 @@
         var valid = (comments||[]).filter(function(c){ return c && c.text; });
         if (!valid.length) return;
         var stripTags = function(s){ return s.replace(/<a[^>]*href="([^"]*)"[^>]*>.*?<\/a>/g,'$1').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#x2F;/g,'/').replace(/&#x27;/g,"'").replace(/\s+/g,' ').trim(); };
-        var html = '<div class="rmodal-clabel" style="padding:14px 0 6px;margin-top:14px;border-top:1px solid var(--anthro-border);">HN Discussion</div>'+
+        var isFirst = !bodyEl.textContent.trim();
+        var sep = isFirst ? '' : '<div style="border-top:1px solid var(--anthro-border);margin:12px 0 6px;"></div>';
+        var html = sep+'<div class="rmodal-clabel" style="margin-bottom:6px;">Community Review</div>'+
           valid.map(function(c){
             var txt = stripTags(c.text||'');
-            if (txt.length>320) txt=txt.slice(0,320)+'…';
+            if (txt.length>360) txt=txt.slice(0,360)+'…';
             return '<div class="rmodal-comment">'+
               '<div class="rmodal-cmeta"><strong style="color:var(--anthro-dark);">'+escHtml(c.by||'?')+'</strong></div>'+
               '<div class="rmodal-cbody">'+escHtml(txt)+'</div>'+
@@ -796,27 +768,37 @@
         if (hnItem.url) m += '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-s" style="font-size:.71rem;padding:4px 10px;">HN ↗</a>';
         showMeta(m);
 
-        /* Self-post: show text inline */
+        /* Self-post: show text inline, then comments */
         if (hnItem.text && !hnItem.url) {
           var txt = hnItem.text.replace(/<a[^>]*href="([^"]*)"[^>]*>.*?<\/a>/g,'$1').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&#x2F;/g,'/').replace(/&#x27;/g,"'").replace(/\s+/g,' ').trim();
-          showBody('<div class="rmodal-article-text"><p class="rmodal-ap">'+escHtml(txt)+'</p><a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a></div>');
+          showBody('<div class="rmodal-article-text"><p class="rmodal-ap">'+escHtml(txt)+'</p><a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-read-more">Open on HN ↗</a></div>');
           return fetchHNComments(hnItem);
         }
+
+        /* Link post: show top comments as community review, then Read Article CTA */
+        showBody(''); /* clear spinner before comments append */
+        return fetchHNComments(hnItem).then(function(){
+          var bodyEl = document.getElementById('sm-body');
+          if (bodyEl && !bodyEl.querySelector('.rmodal-read-more')) {
+            bodyEl.insertAdjacentHTML('beforeend',
+              '<a href="'+escHtml(articleHref)+'" target="_blank" rel="noopener" class="rmodal-read-more" style="margin-top:10px;">Read Full Article ↗</a>');
+          }
+        });
       }
 
-      /* Step 2: fetch article content via CORS proxy */
-      return fetch('https://api.allorigins.win/get?url='+encodeURIComponent(articleHref), {signal: AbortSignal.timeout ? AbortSignal.timeout(10000) : undefined})
-        .then(function(r){ return r.json(); })
-        .then(function(data){
-          var paras = extractContent(data.contents || '');
-          showBody(renderArticle(paras, articleHref));
-          if (hnItem) return fetchHNComments(hnItem);
-        });
+      /* Non-HN: rich metadata card — no proxy needed */
+      var domain = (function(){ try { return (new URL(articleHref)).hostname.replace(/^www\./,''); } catch(e){ return articleHref.replace(/^https?:\/\//,'').split('/')[0]; } })();
+      showBody('<div class="rmodal-no-preview" style="padding:28px 18px;">'+
+        '<div style="font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--anthro-mid);margin-bottom:6px;">'+escHtml(domain)+'</div>'+
+        '<div style="font-family:\'DM Serif Display\',serif;font-size:1.08rem;color:var(--anthro-dark);line-height:1.4;margin-bottom:14px;">'+escHtml(title||href)+'</div>'+
+        (score ? '<div style="font-family:Inter,sans-serif;font-size:.78rem;color:var(--anthro-orange);font-weight:600;margin-bottom:16px;">▲ '+escHtml(String(score))+' points</div>' : '')+
+        '<a href="'+escHtml(articleHref)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a>'+
+      '</div>');
 
     }).catch(function(){
       showBody('<div class="rmodal-no-preview">'+
         '<div style="font-size:2rem;margin-bottom:8px;">⚠️</div>'+
-        '<div>Could not load article preview.</div>'+
+        '<div>Could not load preview.</div>'+
         '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-read-more">Read Full Article ↗</a>'+
       '</div>');
     });
@@ -1296,16 +1278,14 @@
         '<div class="dash-bench-topstat"><span class="dash-bench-topval">'+escHtml(bench.lmsys||'#1')+'</span><span class="dash-bench-toplabel">LMSYS Arena</span></div>'+
       '</div>'+
       '<div class="dash-bench-wrap">'+
-        '<table><thead><tr><th>Model</th><th>GPQA ↑</th><th>SWE ↑</th><th>LMSYS</th></tr></thead><tbody>'+
-          '<tr><td>Opus 4.6 ⚡</td><td class="best">91.3%</td><td class="dim">—</td><td class="best">#1</td></tr>'+
-          '<tr><td>Opus 4.5</td><td>87.0%</td><td class="best">80.9%</td><td>#4</td></tr>'+
-          '<tr><td>Sonnet 4.5</td><td>83.4%</td><td>77.2%</td><td>#20</td></tr>'+
-          '<tr class="comp"><td>o3</td><td>~87.7%</td><td>71.7%</td><td>#2</td></tr>'+
-          '<tr class="comp"><td>Gemini Flash (think)</td><td>~84.8%</td><td>~56%</td><td>#3</td></tr>'+
-          '<tr class="comp"><td>o1</td><td>78.0%</td><td>~49%</td><td>#5</td></tr>'+
-          '<tr class="comp"><td>DeepSeek R1</td><td>71.5%</td><td>49.2%</td><td>#~25</td></tr>'+
-          '<tr class="comp"><td>GPT-4o</td><td>~53%</td><td>~33%</td><td>—</td></tr>'+
-        '</tbody></table>'+
+        '<div class="bench-hdr"><span>Model</span><span>GPQA</span><span>SWE</span><span>LMSYS</span></div>'+
+        '<div class="bench-row bench-claude bench-top"><span class="bench-name">Opus 4.6 ⚡</span><span class="bench-val best">91.3%</span><span class="bench-val dim">—</span><span class="bench-val best">#1</span></div>'+
+        '<div class="bench-row bench-claude"><span class="bench-name">Sonnet 4.6</span><span class="bench-val">86.7%</span><span class="bench-val best">72.7%</span><span class="bench-val">#2</span></div>'+
+        '<div class="bench-row bench-claude"><span class="bench-name">Opus 4.5</span><span class="bench-val">87.0%</span><span class="bench-val">80.9%</span><span class="bench-val">#4</span></div>'+
+        '<div class="bench-row bench-comp"><span class="bench-name">o3</span><span class="bench-val">~87.7%</span><span class="bench-val">71.7%</span><span class="bench-val">#3</span></div>'+
+        '<div class="bench-row bench-comp"><span class="bench-name">Gemini 2 Flash</span><span class="bench-val">~84.8%</span><span class="bench-val">~56%</span><span class="bench-val">#5</span></div>'+
+        '<div class="bench-row bench-comp"><span class="bench-name">o1</span><span class="bench-val">78.0%</span><span class="bench-val">~49%</span><span class="bench-val">#6</span></div>'+
+        '<div class="bench-row bench-comp"><span class="bench-name">DeepSeek R1</span><span class="bench-val">71.5%</span><span class="bench-val">49.2%</span><span class="bench-val">#~25</span></div>'+
       '</div>'+
     '</div>';
 
