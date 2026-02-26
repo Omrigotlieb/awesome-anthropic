@@ -26,9 +26,9 @@
       --anthro-orange:  #d97757;
       --anthro-rust:    #ae5630;
       --anthro-blue:    #6a9bcc;
-      --sidebar-bg:     #1c1108;
-      --sidebar-hover:  #2e1e0e;
-      --sidebar-active: #3d2510;
+      --sidebar-bg:     #ffffff;
+      --sidebar-hover:  #f4f3ee;
+      --sidebar-active: rgba(217,119,87,.1);
       --theme-color:    #d97757;
       --card-bg:        #ffffff;
       --card-r:         12px;
@@ -47,25 +47,25 @@
     }
 
     /* ── Sidebar ──────────────────────────────────────── */
-    .sidebar { background: var(--sidebar-bg) !important; border-right: 1px solid #3d2510; }
+    .sidebar { background: var(--sidebar-bg) !important; border-right: 1px solid var(--anthro-border); }
     .sidebar::before { content:''; display:block; height:3px; background:linear-gradient(90deg,#d97757 0%,#ae5630 60%,transparent 100%); }
     .sidebar-nav { padding: 4px 6px 12px; }
-    .app-name { padding: 18px 16px 8px; border-bottom: 1px solid #3d2510; margin-bottom: 8px; }
-    .app-name-link { color:#f0c4a0 !important; font-family:'DM Serif Display',serif !important; font-size:1.1rem !important; letter-spacing:-0.01em; }
-    .sidebar ul li a { color:#c8bfb0 !important; font-family:'Inter',sans-serif; font-size:0.85rem; padding:5px 10px; border-radius:6px; display:block; transition:background 0.15s,color 0.15s; }
-    .sidebar ul li a:hover { background:var(--sidebar-hover) !important; color:#f0c4a0 !important; }
-    .sidebar ul li.active > a { background:var(--sidebar-active) !important; color:#f5d0a8 !important; font-weight:600; border-left:3px solid var(--anthro-orange); padding-left:7px; }
-    .sidebar ul li strong { color:#b07040 !important; font-family:'Inter',sans-serif; font-size:0.63rem; text-transform:uppercase; letter-spacing:0.13em; margin:1.2rem 0 0.3rem 10px; display:block; font-style:normal; }
-    .sidebar-toggle { background:var(--sidebar-bg) !important; }
+    .app-name { padding: 18px 16px 8px; border-bottom: 1px solid var(--anthro-border); margin-bottom: 8px; }
+    .app-name-link { color:var(--anthro-dark) !important; font-family:'DM Serif Display',serif !important; font-size:1.1rem !important; letter-spacing:-0.01em; }
+    .sidebar ul li a { color:#4a4540 !important; font-family:'Inter',sans-serif; font-size:0.85rem; padding:5px 10px; border-radius:6px; display:block; transition:background 0.15s,color 0.15s; }
+    .sidebar ul li a:hover { background:var(--sidebar-hover) !important; color:var(--anthro-dark) !important; }
+    .sidebar ul li.active > a { background:var(--sidebar-active) !important; color:var(--anthro-rust) !important; font-weight:600; border-left:3px solid var(--anthro-orange); padding-left:7px; }
+    .sidebar ul li strong { color:var(--anthro-orange) !important; font-family:'Inter',sans-serif; font-size:0.63rem; text-transform:uppercase; letter-spacing:0.13em; margin:1.2rem 0 0.3rem 10px; display:block; font-style:normal; }
+    .sidebar-toggle { background:var(--sidebar-bg) !important; border:1px solid var(--anthro-border) !important; }
 
     /* ── Search ───────────────────────────────────────── */
     .search { padding: 10px 8px; }
-    .search input { background:#0e0904 !important; color:#e8e0d0 !important; border:1px solid #3d2510 !important; border-radius:8px; padding:8px 12px; width:100%; font-family:'Inter',sans-serif; font-size:0.83rem; transition:border-color 0.2s; }
+    .search input { background:var(--anthro-cream) !important; color:var(--anthro-dark) !important; border:1px solid var(--anthro-border) !important; border-radius:8px; padding:8px 12px; width:100%; font-family:'Inter',sans-serif; font-size:0.83rem; transition:border-color 0.2s; }
     .search input:focus { border-color:var(--anthro-orange) !important; outline:none; }
-    .search input::placeholder { color:#6a5a40; }
-    .search .results-panel { background:#1c1108; border:1px solid #3d2510; border-radius:8px; margin-top:4px; }
-    .search .results-panel .matching-post { color:#c8bfb0; padding:8px 12px; }
-    .search .results-panel .matching-post:hover { background:var(--sidebar-hover); }
+    .search input::placeholder { color:var(--anthro-mid); }
+    .search .results-panel { background:#fff; border:1px solid var(--anthro-border); border-radius:8px; margin-top:4px; }
+    .search .results-panel .matching-post { color:#3a3530; padding:8px 12px; }
+    .search .results-panel .matching-post:hover { background:var(--anthro-cream); }
     .search .results-panel h2 { color:var(--anthro-orange); font-size:0.85rem; }
 
     /* ── Content / Typography ─────────────────────────── */
@@ -558,7 +558,10 @@
       .catch(function(err) {
         console.warn('Reddit fetch:', err);
         ov.remove(); _rModal=null;
-        window.open(href,'_blank');
+        // Use anchor click — not blocked as popup unlike window.open in async context
+        var a = document.createElement('a');
+        a.href = href; a.target = '_blank'; a.rel = 'noopener noreferrer';
+        document.body.appendChild(a); a.click(); a.remove();
       });
   }
 
@@ -599,7 +602,7 @@
     var leadW='<div class="dash-widget ws-4 wr-2">'+
       '<div class="dash-wh"><span class="dash-wh-icon">🔥</span><span class="dash-wh-label">Top Story</span>'+
         '<a href="#/docs/NEWS" class="dash-wh-link">All stories →</a></div>'+
-      '<a href="'+escHtml(lead.href||'#')+'" class="dash-lead-card '+lsc+'" rel="noopener">'+
+      '<a href="'+escHtml(lead.href||'#')+'" class="dash-lead-card '+lsc+'" rel="noopener noreferrer" target="_blank">'+
         '<span class="dash-lead-rank">1</span>'+
         '<div class="dash-lead-overlay">'+
           '<span class="dash-lead-inner-title">'+escHtml(lead.title||'')+'</span>'+
@@ -619,7 +622,7 @@
       return '<div class="dash-lb-row" style="--sp:'+pct+'%">'+
         '<span class="dash-lb-rank'+hot+'">'+r+'</span>'+
         '<div>'+
-          '<a href="'+escHtml(s.href)+'" rel="noopener" class="dash-lb-title">'+escHtml(s.title)+'</a>'+
+          '<a href="'+escHtml(s.href)+'" rel="noopener noreferrer" target="_blank" class="dash-lb-title">'+escHtml(s.title)+'</a>'+
           '<span class="dash-lb-src">'+escHtml(s.source)+'</span>'+
         '</div>'+
         '<span class="dash-lb-score">▲&nbsp;'+escHtml(String(s.score))+'</span>'+
@@ -641,13 +644,15 @@
         '<div class="dash-bench-topstat"><span class="dash-bench-topval">'+escHtml(bench.lmsys||'#1')+'</span><span class="dash-bench-toplabel">LMSYS Arena</span></div>'+
       '</div>'+
       '<div class="dash-bench-wrap">'+
-        '<table><thead><tr><th>Model</th><th>GPQA ↑</th><th>SWE ↑</th><th>LMSYS Elo</th><th>Rank</th></tr></thead><tbody>'+
-          '<tr><td>Opus 4.6</td><td class="best">91.3%</td><td class="dim">—</td><td class="best">~1500+</td><td class="best">#1</td></tr>'+
-          '<tr><td>Opus 4.5</td><td>87.0%</td><td class="best">80.9%</td><td>1472</td><td>#4</td></tr>'+
-          '<tr><td>Sonnet 4.5</td><td>83.4%</td><td>77.2%</td><td>~1430</td><td>#20</td></tr>'+
-          '<tr><td>Sonnet 4</td><td>72.5%</td><td>~50%</td><td>—</td><td>—</td></tr>'+
-          '<tr class="comp"><td>GPT-4o</td><td>~53%</td><td>~33%</td><td>—</td><td>—</td></tr>'+
-          '<tr class="comp"><td>Gemini 2.0 Flash</td><td>~70%</td><td>—</td><td>—</td><td>—</td></tr>'+
+        '<table><thead><tr><th>Model</th><th>GPQA ↑</th><th>SWE ↑</th><th>LMSYS</th></tr></thead><tbody>'+
+          '<tr><td>Opus 4.6 ⚡</td><td class="best">91.3%</td><td class="dim">—</td><td class="best">#1</td></tr>'+
+          '<tr><td>Opus 4.5</td><td>87.0%</td><td class="best">80.9%</td><td>#4</td></tr>'+
+          '<tr><td>Sonnet 4.5</td><td>83.4%</td><td>77.2%</td><td>#20</td></tr>'+
+          '<tr class="comp"><td>o3</td><td>~87.7%</td><td>71.7%</td><td>#2</td></tr>'+
+          '<tr class="comp"><td>Gemini Flash (think)</td><td>~84.8%</td><td>~56%</td><td>#3</td></tr>'+
+          '<tr class="comp"><td>o1</td><td>78.0%</td><td>~49%</td><td>#5</td></tr>'+
+          '<tr class="comp"><td>DeepSeek R1</td><td>71.5%</td><td>49.2%</td><td>#~25</td></tr>'+
+          '<tr class="comp"><td>GPT-4o</td><td>~53%</td><td>~33%</td><td>—</td></tr>'+
         '</tbody></table>'+
       '</div>'+
     '</div>';
@@ -861,6 +866,18 @@
               var rows = Array.from(topTable.querySelectorAll('tbody tr'));
               var grid = document.createElement('div');
               grid.className = 'news-card-grid';
+              // Per-position gradient palette — cards 2+ get unique colors regardless of source
+              var cardPalettes = [
+                null, // card 0: uses ci-* with real AI image
+                'radial-gradient(ellipse at 85% 10%,rgba(255,230,150,.42) 0%,transparent 50%),linear-gradient(145deg,#FF9A5C 0%,#C84800 100%)',
+                'radial-gradient(ellipse at 85% 10%,rgba(160,220,255,.38) 0%,transparent 50%),linear-gradient(145deg,#5BAFD6 0%,#1A5EA8 100%)',
+                'radial-gradient(ellipse at 85% 10%,rgba(200,180,255,.35) 0%,transparent 50%),linear-gradient(145deg,#7B8EDE 0%,#3A4CA8 100%)',
+                'radial-gradient(ellipse at 85% 10%,rgba(160,240,180,.35) 0%,transparent 50%),linear-gradient(145deg,#70C97E 0%,#2D7A3A 100%)',
+                'radial-gradient(ellipse at 85% 10%,rgba(255,180,220,.35) 0%,transparent 50%),linear-gradient(145deg,#E879A5 0%,#9A2060 100%)',
+                'radial-gradient(ellipse at 85% 10%,rgba(255,230,190,.42) 0%,transparent 50%),linear-gradient(145deg,#F4A67A 0%,#C25C30 100%)',
+                'radial-gradient(ellipse at 85% 10%,rgba(200,240,255,.38) 0%,transparent 50%),linear-gradient(145deg,#45B5C5 0%,#156070 100%)',
+                'radial-gradient(ellipse at 85% 10%,rgba(255,200,120,.38) 0%,transparent 50%),linear-gradient(145deg,#E89550 0%,#A05020 100%)',
+              ];
               rows.forEach(function(row, i) {
                 var cells = row.querySelectorAll('td');
                 if (cells.length < 3) return;
@@ -873,9 +890,11 @@
                 var rank  = i+1;
                 var card  = document.createElement('div');
                 card.className = i===0 ? 'news-card-lead' : 'news-card';
+                // Non-lead cards: override bg with palette color (keeps ci-* for watermark ::before)
+                var imgStyle = i > 0 ? ' style="background:'+cardPalettes[((i-1) % (cardPalettes.length-1))+1]+'"' : '';
                 card.innerHTML =
-                  '<a href="'+href+'" rel="noopener noreferrer" style="display:block;border-bottom:none;">'+
-                    '<div class="card-image '+sc+'">'+
+                  '<a href="'+href+'" rel="noopener noreferrer" target="_blank" style="display:block;border-bottom:none;">'+
+                    '<div class="card-image '+sc+'"'+imgStyle+'>'+
                       '<span class="card-rank-bg">'+rank+'</span>'+
                       '<div class="card-image-footer">'+
                         '<span class="card-score-pill">▲ '+score+'</span>'+
@@ -884,8 +903,8 @@
                     '</div>'+
                   '</a>'+
                   '<div class="card-body">'+
-                    '<a href="'+href+'" rel="noopener noreferrer" class="card-title">'+title+'</a>'+
-                    '<a href="'+href+'" rel="noopener noreferrer" class="card-read-more">Read story →</a>'+
+                    '<a href="'+href+'" rel="noopener noreferrer" target="_blank" class="card-title">'+title+'</a>'+
+                    '<a href="'+href+'" rel="noopener noreferrer" target="_blank" class="card-read-more">Read story →</a>'+
                   '</div>';
                 grid.appendChild(card);
               });
