@@ -56,12 +56,13 @@ def read_recent_changelog(max_entries: int = 3) -> str:
 def generate_with_claude(news: str, changelog: str) -> str:
     """Use Claude to generate a structured weekly digest."""
     try:
-        import anthropic
-        import os
-        if not os.environ.get("ANTHROPIC_API_KEY"):
-            raise ValueError("No API key")
+        import sys
+        sys.path.insert(0, str(ROOT))
+        from scripts.utils.anthropic_api import _make_client, is_api_available, _default_model
+        if not is_api_available():
+            raise ValueError("No credentials available")
 
-        client = anthropic.Anthropic()
+        client = _make_client()
         prompt = f"""You are maintaining an "awesome-anthropic" GitHub repository that tracks Anthropic news.
 
 Based on the following recent news and changelog entries, write a concise weekly digest in Markdown format.
@@ -89,7 +90,7 @@ RECENT CHANGELOG:
 Write the digest now. Be concise and developer-focused."""
 
         message = client.messages.create(
-            model="claude-sonnet-4-6",
+            model=_default_model(),
             max_tokens=800,
             messages=[{"role": "user", "content": prompt}],
         )

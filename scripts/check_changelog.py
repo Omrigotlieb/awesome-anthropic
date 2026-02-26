@@ -53,56 +53,53 @@ def fetch_changelog_html() -> str:
 
 
 def parse_entries(html: str) -> list[ChangelogEntry]:
-    """Extract changelog entries from the Anthropic docs page."""
+    """
+    Extract changelog entries from the Anthropic docs page.
+
+    Strategy: split the full text on date patterns (e.g. "February 19, 2026")
+    and treat each block as one changelog entry. This is robust against
+    JavaScript-rendered pages where the DOM structure may vary.
+    """
+    import re
+
+    import re as _re
+
     soup = BeautifulSoup(html, "lxml")
+    # Clean up inline elements to avoid word-splitting artifacts
+    for tag in soup.find_all(["a", "code", "em", "strong", "span"]):
+        tag.replace_with(tag.get_text())
+    full_text = soup.get_text(" ")
+    # Collapse excessive whitespace while preserving paragraph breaks
+    full_text = _re.sub(r"[ \t]+", " ", full_text)
+    full_text = _re.sub(r"\n{3,}", "\n\n", full_text)
+
+    date_pattern = (
+        r"((?:January|February|March|April|May|June|July|August|September|"
+        r"October|November|December)\s+\d{1,2},\s+20\d\d)"
+    )
+    parts = re.split(date_pattern, full_text)
+
     entries = []
+    for i in range(1, len(parts) - 1, 2):
+        raw_date = parts[i].strip()
+        content = parts[i + 1].strip()[:1200]
 
-    # The Anthropic docs page uses heading elements for dates/versions
-    # Try multiple selector strategies for robustness
-    main = soup.find("main") or soup.find("article") or soup.body
-    if not main:
-        return entries
-
-    # Look for date-like headings (h2, h3) followed by content
-    headings = main.find_all(["h2", "h3"])
-    for heading in headings:
-        title = heading.get_text(strip=True)
-        if not title:
+        # Skip blocks that are clearly navigation noise (short or no sentences)
+        if len(content) < 50 or "." not in content[:200]:
             continue
 
-        # Collect content until next heading
-        content_parts = []
-        sibling = heading.find_next_sibling()
-        while sibling and sibling.name not in ("h2", "h3"):
-            text = sibling.get_text(separator="\n", strip=True)
-            if text:
-                content_parts.append(text)
-            sibling = sibling.find_next_sibling()
+        try:
+            parsed_date = datetime.strptime(raw_date, "%B %d, %Y").strftime("%Y-%m-%d")
+        except ValueError:
+            parsed_date = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
 
-        content = "\n".join(content_parts)[:1000]
-        if not content:
-            continue
+        # Use the first sentence as the title
+        first_line = content.split("\n")[0].strip()
+        title = (first_line[:80] + "...") if len(first_line) > 80 else first_line
 
-        # Try to extract a date from the title or surrounding context
-        date = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
-        # Simple heuristic: look for "Month DD, YYYY" pattern in the title
-        import re
-        date_match = re.search(
-            r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+\d{4}",
-            title,
-        )
-        if date_match:
-            try:
-                date = datetime.strptime(date_match.group(), "%B %d, %Y").strftime("%Y-%m-%d")
-            except ValueError:
-                try:
-                    date = datetime.strptime(date_match.group(), "%B %d %Y").strftime("%Y-%m-%d")
-                except ValueError:
-                    pass
+        entries.append(ChangelogEntry(date=parsed_date, title=title, content=content))
 
-        entries.append(ChangelogEntry(date=date, title=title, content=content))
-
-    return entries[:20]  # Limit to most recent 20
+    return entries[:20]  # Most recent 20 entries
 
 
 def compute_page_hash(entries: list[ChangelogEntry]) -> str:

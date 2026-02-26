@@ -312,10 +312,27 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from [docs.anthropic.com/en/release-notes](https://docs.anthropic.com/en/release-notes/overview).
-> Last synced: <!-- CHANGELOG_DATE -->
+> Last synced: <!-- CHANGELOG_DATE -->2026-02-26
 
 <!-- CHANGELOG_START -->
-*Changelog will be auto-populated by the daily workflow. Run `python scripts/check_changelog.py` locally to fetch.*
+### 2026-02-19: We've launched automatic caching for the Messages API. Add a single cache_contro...
+
+We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in our prompt caching documentation . 
+ We've retired the Claude Sonnet 3.7 model ( claude-3-7-sonnet-20250219 ) and the Claude Haiku 3.5 model ( claude-3-5-haiku-20241022 ). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Haiku 4.5 respectively. Researchers can request ongoing access through the External Researcher Access Program . 
+ We announced the deprecation of the Claude Haiku 3 model ( claude-3-haiku-20240307 ), with retirement scheduled for
+
+### 2026-04-19: . We recommend migrating to Claude Haiku 4.5 . Read more in model deprecations .
+
+. We recommend migrating to Claude Haiku 4.5 . Read more in model deprecations .
+
+### 2026-02-17: We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and...
+
+We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details. 
+ API code execution is now free when used with web search or web fetch . Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage. 
+ The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering , which uses code execution to filter results before they reach the context window for better performance and reduced token cost. 
+ The code execution tool , web fetch tool , tool search tool , tool use examples , and memory tool are now generally available (no beta header required).
+
+[Full changelog history →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
 
 [Full changelog history →](docs/CHANGELOG.md)
@@ -325,10 +342,23 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->
+> Last fetched: <!-- NEWS_DATE -->2026-02-26
 
 <!-- NEWS_START -->
-*News digest will be auto-populated by the daily workflow. Run `python scripts/fetch_news.py` locally to fetch.*
+## 2026-02-26
+
+- [The Pentagon threatens Anthropic](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) — Hacker News | Score: 173
+  > The Pentagon threatens Anthropic
+- [Launch HN: TeamOut (YC W22) – AI agent for planning company retreats](https://app.teamout.com/ai) — Hacker News | Score: 52
+  > Launch HN: TeamOut (YC W22) – AI agent for planning company retreats
+- [The Hater's Guide to Anthropic](https://www.wheresyoured.at/premium-the-haters-guide-to-anthropic/) — Hacker News | Score: 31
+  > The Hater's Guide to Anthropic
+- [Show HN: Sgai – Goal-driven multi-agent software dev (GOAL.md → working code)](https://github.com/sandgardenhq/sgai) — Hacker News | Score: 31
+  > Show HN: Sgai – Goal-driven multi-agent software dev (GOAL.md → working code)
+- [Show HN: OpenSwarm – Multi‑Agent Claude CLI Orchestrator for Linear/GitHub](https://github.com/Intrect-io/OpenSwarm) — Hacker News | Score: 28
+  > Show HN: OpenSwarm – Multi‑Agent Claude CLI Orchestrator for Linear/GitHub
+
+[View all news →](docs/NEWS.md)
 <!-- NEWS_END -->
 
 [Full news archive →](docs/NEWS.md)
