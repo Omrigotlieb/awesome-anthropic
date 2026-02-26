@@ -39,62 +39,63 @@ def inject_zone(text: str, section: str, content: str) -> str:
 
 
 def get_news_preview() -> str:
+    """Extract top items from the score table in NEWS.md as an awesome-lint-compliant list."""
     news_path = DOCS_DIR / "NEWS.md"
     if not news_path.exists():
         return "_No news items yet. Run `python scripts/fetch_news.py` to populate._"
 
-    lines = news_path.read_text().splitlines()
-    preview_lines = []
-    item_count = 0
-    in_section = False
+    text = news_path.read_text()
 
-    for line in lines:
-        if line.startswith("## ") and not in_section:
-            in_section = True
-            preview_lines.append(line)
-            continue
-        if in_section:
-            if line.startswith("## ") and item_count >= NEWS_MAX_ITEMS:
-                break
-            if line.startswith("- "):
-                item_count += 1
-            if item_count > NEWS_MAX_ITEMS:
-                break
-            preview_lines.append(line)
+    # Extract date heading (first ## heading)
+    date_heading = ""
+    for line in text.splitlines():
+        if line.startswith("## "):
+            date_heading = line.lstrip("# ").strip()
+            break
 
-    if not preview_lines:
+    # Extract rows from the score table: | score | [title](url) | source |
+    import re
+    rows = re.findall(r"^\|\s*(\d+)\s*\|\s*(\[.+?\]\(.+?\))\s*\|\s*(.+?)\s*\|", text, re.MULTILINE)
+
+    if not rows:
         return "_No recent news items found._"
 
-    preview = "\n".join(preview_lines).strip()
-    preview += f"\n\n[View all news →](docs/NEWS.md)"
-    return preview
+    # Sort by score descending, take top N
+    rows_sorted = sorted(rows, key=lambda r: int(r[0]), reverse=True)[:NEWS_MAX_ITEMS]
+
+    heading = f"### Top Stories — {date_heading}" if date_heading else "### Top Stories"
+    lines = [heading, ""]
+    for score, link, source in rows_sorted:
+        source = source.strip()
+        lines.append(f"- {link} - {score} pts on {source}.")
+
+    lines.append("")
+    lines.append("[Full news feed →](docs/NEWS.md)")
+    return "\n".join(lines)
 
 
 def get_changelog_preview() -> str:
+    """Extract entry titles as bold text — no bullets, no links, no h2 headings."""
     cl_path = DOCS_DIR / "CHANGELOG.md"
     if not cl_path.exists():
         return "_Changelog not yet synced. Run `python scripts/check_changelog.py` to populate._"
 
-    lines = cl_path.read_text().splitlines()
-    preview_lines = []
-    entry_count = 0
-
-    for line in lines:
-        if line.startswith("### "):
-            entry_count += 1
-            if entry_count > CHANGELOG_MAX_ENTRIES:
+    titles: list[str] = []
+    for line in cl_path.read_text().splitlines():
+        if line.startswith("## "):
+            titles.append(line[3:].strip())
+            if len(titles) >= CHANGELOG_MAX_ENTRIES:
                 break
-        if entry_count > 0:
-            preview_lines.append(line)
-        if line.startswith("---") and entry_count >= CHANGELOG_MAX_ENTRIES:
-            break
 
-    if not preview_lines:
+    if not titles:
         return "_No changelog entries yet._"
 
-    preview = "\n".join(preview_lines).strip()
-    preview += f"\n\n[Full changelog history →](docs/CHANGELOG.md)"
-    return preview
+    lines: list[str] = []
+    for title in titles:
+        lines.append(f"### {title}")
+        lines.append("")
+    lines.append("[Full changelog →](docs/CHANGELOG.md)")
+    return "\n".join(lines)
 
 
 def update_date_inline(text: str, zone: str) -> str:

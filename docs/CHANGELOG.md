@@ -29,7 +29,7 @@
 
 ## February 7, 2026 — Fast Mode for Opus 4.6 (Research Preview)
 
-**Fast mode** launched in research preview for Opus 4.6 — up to **2.5× faster** output token generation via the `speed` parameter, at premium pricing. [Join waitlist →](https://anthropic.com)
+**Fast mode** launched in research preview for Opus 4.6 — up to **2.5× faster** output token generation via the `speed` parameter, at premium pricing.
 
 ---
 

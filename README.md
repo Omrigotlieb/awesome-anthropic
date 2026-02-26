@@ -9,7 +9,7 @@
 [![Changelog Sync](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/changelog-check.yml?label=changelog%20sync&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/changelog-check.yml)
 [![Link Check](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/link-checker.yml?label=links&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/link-checker.yml)
 
-> A curated, **daily-updated** list of awesome resources, tools, SDKs, research papers, and community projects related to [Anthropic](https://anthropic.com) and the Claude AI family.
+> A curated, **daily-updated** list of awesome resources, tools, SDKs, research papers, and community projects related to Anthropic and the Claude AI family.
 
 Anthropic is an AI safety company building reliable, interpretable, and steerable AI systems. Claude is their flagship family of AI assistants, used by millions of developers and deployed across enterprise, research, and consumer applications worldwide.
 
@@ -39,7 +39,6 @@ This list is **automatically updated every day** — changelog synced from the o
 - [Comparisons & Benchmarks](#comparisons--benchmarks)
 - [Changelog (Auto-updated)](#changelog-auto-updated)
 - [News Digest (Auto-updated)](#news-digest-auto-updated)
-- [Contributing](#contributing)
 
 ---
 
@@ -66,30 +65,28 @@ This list is **automatically updated every day** — changelog synced from the o
 
 ### Claude 4 Family (2025–2026)
 
-| Model | Context | Best For |
-|-------|---------|----------|
-| **Claude Opus 4.6** | 1M tokens (beta) | Most intelligent — complex agentic tasks, long-horizon work |
-| **Claude Opus 4.5** | 200K tokens | Vision, coding, computer use at accessible price |
+| Model                 | Context          | Best For                                                    |
+| --------------------- | ---------------- | ----------------------------------------------------------- |
+| **Claude Opus 4.6**   | 1M tokens (beta) | Most intelligent — complex agentic tasks, long-horizon work |
+| **Claude Opus 4.5**   | 200K tokens      | Vision, coding, computer use at accessible price            |
 | **Claude Sonnet 4.6** | 1M tokens (beta) | Balanced performance and cost — most popular for production |
-| **Claude Haiku 4.5** | 200K tokens | Fastest and cheapest — real-time applications, high volume |
+| **Claude Haiku 4.5**  | 200K tokens      | Fastest and cheapest — real-time applications, high volume  |
 
 ### Claude 3 Family (2024)
 
-| Model | Context | Notes |
-|-------|---------|-------|
-| Claude Opus 3.5 | 200K tokens | Predecessor to Opus 4 |
+| Model             | Context     | Notes                              |
+| ----------------- | ----------- | ---------------------------------- |
+| Claude Opus 3.5   | 200K tokens | Predecessor to Opus 4              |
 | Claude Sonnet 3.5 | 200K tokens | Introduced computer use capability |
-| Claude Haiku 3.5 | 200K tokens | Lightweight workhorse |
-| Claude Haiku 3 | 200K tokens | Original Haiku |
+| Claude Haiku 3.5  | 200K tokens | Lightweight workhorse              |
+| Claude Haiku 3    | 200K tokens | Original Haiku                     |
 
 ### Specialized Capabilities
 
-- **Extended Thinking** — Deep reasoning with visible thought chains (Opus 4.6, Opus 4.5, Sonnet 4.6+).
-- **Computer Use** — Autonomous GUI interaction (Sonnet 3.5+).
-- **Tool Use / Function Calling** — Structured JSON tool integration across all models.
-- **Vision** — Image understanding across all current models.
-- **Prompt Caching** — Cache prefixes for cost and latency reduction.
-- **Batch API** — Asynchronous large-scale inference at 50% cost.
+- [Extended Thinking](https://docs.anthropic.com/en/docs/about-claude/models/extended-thinking) - Deep reasoning with visible thought chains (Opus 4.6, Opus 4.5, Sonnet 4.6+).
+- [Computer Use](https://docs.anthropic.com/en/docs/build-with-claude/computer-use) - Autonomous GUI interaction across desktop applications.
+- [Prompt Caching](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching) - Cache prefixes for cost and latency reduction.
+- [Batch API](https://docs.anthropic.com/en/api/creating-message-batches) - Asynchronous large-scale inference at 50% cost.
 
 ---
 
@@ -117,7 +114,7 @@ This list is **automatically updated every day** — changelog synced from the o
 - [Haystack + Claude](https://haystack.deepset.ai/integrations/anthropic-claude) - Claude in Haystack pipelines.
 - [aisuite](https://github.com/andrewyng/aisuite) - Unified interface to Claude and other LLMs.
 - [litellm](https://github.com/BerriAI/litellm) - Universal LLM proxy supporting Claude.
-- [vercel/ai](https://sdk.vercel.ai/providers/ai-sdk-providers/anthropic) - Claude in Vercel AI SDK.
+- [Vercel AI SDK](https://sdk.vercel.ai/providers/ai-sdk-providers/anthropic) - Claude in the Vercel AI SDK.
 
 ---
 
@@ -187,13 +184,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 
 ### Frameworks & Policies
 
-- [Responsible Scaling Policy (RSP)](https://anthropic.com/responsible-scaling-policy) - Anthropic's commitment to safe model deployment.
-- [Claude's Model Specification](https://anthropic.com/model-spec) - Full behavioral guidelines for Claude.
-- [Anthropic's Long-Term Benefit Trust](https://anthropic.com/news/the-long-term-benefit-trust) - Governance structure.
+- [Anthropic's Long-Term Benefit Trust](https://anthropic.com/news/the-long-term-benefit-trust) - Governance structure for long-term benefit.
+- [Claude's Constitution](https://www.anthropic.com/news/claudes-constitution) - Claude's constitutional principles and values.
 
 ### Safety Research Areas
 
-- [AI Safety Research at Anthropic](https://anthropic.com/research) - Overview of safety research pillars.
 - [Transformer Circuits Thread](https://transformer-circuits.pub) - Mechanistic interpretability research blog.
 - [Alignment Forum](https://alignmentforum.org) - Broader AI alignment community (not Anthropic-specific, but relevant).
 
@@ -209,7 +204,6 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ### Official Guides
 
 - [Prompt Engineering Overview](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) - Anthropic's official guide.
-- [Anthropic Prompt Library](https://anthropic.com/prompt-library) - Curated prompt templates.
 - [Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) - How to use function calling effectively.
 - [Vision Guide](https://docs.anthropic.com/en/docs/build-with-claude/vision) - Image prompting best practices.
 - [Extended Thinking Guide](https://docs.anthropic.com/en/docs/build-with-claude/extended-thinking) - Using reasoning/thinking modes.
@@ -268,7 +262,6 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 
 ### Tutorials & Guides
 
-- [Anthropic Documentation](https://docs.anthropic.com) - Official comprehensive documentation.
 - [Build with Claude](https://docs.anthropic.com/en/docs/build-with-claude) - Practical development guides.
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Code examples and recipes for Claude.
 - [Claude API Quickstart](https://docs.anthropic.com/en/api/getting-started) - Getting started in minutes.
@@ -312,23 +305,15 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 
 ## Changelog (Auto-updated)
 
-> Auto-synced from [docs.anthropic.com/en/release-notes](https://docs.anthropic.com/en/release-notes/overview).
+> Auto-synced from the official Anthropic release notes.
 > Last synced: <!-- CHANGELOG_DATE -->2026-02-26
 
 <!-- CHANGELOG_START -->
-### Feb 19, 2026 — Automatic Caching + Model Retirements
+### February 19, 2026 — Automatic Caching + Model Retirements
 
-**Automatic prompt caching** is now available on the Messages API — add a single `cache_control` field and the system auto-caches without manual breakpoints. Available on Claude API and Azure AI Foundry (preview).
+### February 17, 2026 — Claude Sonnet 4.6 Launch
 
-**Model retirements:** `claude-3-7-sonnet-20250219` and `claude-3-5-haiku-20241022` retired. Upgrade to **Claude Sonnet 4.6** and **Claude Haiku 4.5** respectively.
-
-### Feb 17, 2026 — Claude Sonnet 4.6 Launch
-
-**Claude Sonnet 4.6** — improved agentic search, fewer tokens consumed, extended thinking support, 1M token context window (beta). Code execution now **free when used with web search or web fetch**. Web search + programmatic tool calling now GA (no beta header required).
-
-### Feb 5, 2026 — Claude Opus 4.6 Launch
-
-**Claude Opus 4.6** — most intelligent model for complex agentic tasks. Uses `thinking: {type: "adaptive"}` by default. New **`effort` parameter** (GA), **Compaction API** (beta), **data residency controls** via `inference_geo`.
+### February 7, 2026 — Fast Mode for Opus 4.6 (Research Preview)
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -341,17 +326,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last fetched: <!-- NEWS_DATE -->2026-02-26
 
 <!-- NEWS_START -->
-### Top Stories — Feb 26, 2026
+### Top Stories — February 26, 2026
 
-| ⭐ | Story | Source |
-|---:|-------|--------|
-| 1682 | [They’re shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) | r/ClaudeAI |
-| 1227 | [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) | r/ClaudeAI |
-| 631 | [Anthropic Drops Flagship Safety Pledge](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) | Hacker News |
-| 497 | [Update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) | r/ClaudeAI |
-| 299 | [Claude Code subagents built a 3D renderer from scratch in 3 days](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) | r/ClaudeAI |
-
-**Official:** [Anthropic acquires Vercept AI](https://www.anthropic.com/news/acquires-vercept) · [RSP v3.0](https://www.anthropic.com/news/responsible-scaling-policy-v3) · [Claude Code Security](https://www.anthropic.com/news/claude-code-security)
+- [They're shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) - 1682 pts on r/ClaudeAI.
+- [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) - 1227 pts on r/ClaudeAI.
+- [Anthropic Drops Flagship Safety Pledge](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) - 631 pts on Hacker News.
+- [Update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) - 497 pts on r/ClaudeAI.
+- [Claude Code subagents built a 3D renderer from scratch in 3 days](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) - 299 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
@@ -360,16 +341,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
-
-- **Add a resource**: Open a PR with your addition following the format `- [Name](url) - Description.`
-- **Report broken link**: Open an issue using the broken link template.
-- **Automated sections**: Do not edit sections between `<!-- X_START -->` and `<!-- X_END -->` tags — they are auto-updated.
+Contributions are welcome! Read the [contributing guidelines](https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md) and open a [pull request](https://github.com/Omrigotlieb/awesome-anthropic/compare). All list items must follow the format `- [Name](url) - Description.` Do not edit sections between `<!-- X_START -->` and `<!-- X_END -->` tags — they are auto-updated daily.
 
 ---
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related rights to this work. See [LICENSE](LICENSE).

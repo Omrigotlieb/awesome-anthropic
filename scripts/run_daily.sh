@@ -31,9 +31,6 @@ python3 scripts/fetch_news.py 2>&1 | tee -a "$LOG"
 log "Checking changelog..."
 python3 scripts/check_changelog.py 2>&1 | tee -a "$LOG"
 
-log "Generating digest..."
-python3 scripts/generate_digest.py 2>&1 | tee -a "$LOG"
-
 log "Updating README..."
 python3 scripts/update_readme.py --section ALL 2>&1 | tee -a "$LOG"
 
