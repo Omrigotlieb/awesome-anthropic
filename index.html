@@ -113,6 +113,7 @@
 
     /* Span helpers */
     .ws-12 { grid-column:span 12; }
+    .ws-6  { grid-column:span 6;  }
     .ws-4  { grid-column:span 4;  }
     .wr-2  { grid-row:span 2;     }
 
@@ -271,6 +272,40 @@
     .dash-tweet-score { display:flex; align-items:center; gap:3px; }
     .dash-tweet-open { margin-left:auto; color:var(--anthro-orange); text-decoration:none; border-bottom:none !important; font-weight:700; font-size:.67rem; transition:color .12s; }
     .dash-tweet-open:hover { color:var(--anthro-rust); }
+
+    /* ── Today's Digest ─────────────────────────────────*/
+    .dash-digest { padding:10px 16px 13px; flex:1; }
+    .dash-digest-body { font-family:'Inter',sans-serif; font-size:.88rem; color:#3a3530; line-height:1.7; }
+    .dash-digest-body strong { color:var(--anthro-dark); font-weight:700; }
+    .dash-digest-tags { display:flex; flex-wrap:wrap; gap:5px; margin-top:9px; }
+    .dash-digest-tag { font-family:'Inter',sans-serif; font-size:.62rem; padding:2px 9px; border-radius:20px; background:var(--anthro-cream); color:#6a5a4a; border:1px solid var(--anthro-border); }
+
+    /* ── Quick-Start code panel ──────────────────────────*/
+    .dash-qs-tabs { display:flex; border-bottom:1px solid var(--anthro-border); flex-shrink:0; }
+    .dash-qs-tab { font-family:'Inter',sans-serif; font-size:.68rem; font-weight:600; padding:6px 13px; border:none; background:none; cursor:pointer; color:var(--anthro-mid); border-bottom:2px solid transparent; transition:color .12s,border-color .12s; margin-bottom:-1px; }
+    .dash-qs-tab.active { color:var(--anthro-orange); border-bottom-color:var(--anthro-orange); }
+    .dash-qs-tab:hover:not(.active) { color:var(--anthro-dark); }
+    .dash-qs-body { flex:1; min-height:0; overflow:hidden; }
+    .dash-qs-pane { display:none; position:relative; }
+    .dash-qs-pane.active { display:block; }
+    .dash-qs-code { margin:0 !important; padding:32px 14px 14px !important; max-height:210px; overflow-y:auto; font-family:ui-monospace,'SF Mono',Menlo,monospace !important; font-size:.72rem !important; line-height:1.65 !important; color:#e8ddd0 !important; background:var(--anthro-dark) !important; white-space:pre !important; border:none !important; border-radius:0 !important; box-shadow:none !important; }
+    .dash-qs-copy { position:absolute; top:7px; right:8px; z-index:2; font-family:'Inter',sans-serif; font-size:.62rem; font-weight:600; padding:3px 9px; border-radius:5px; border:none; cursor:pointer; background:rgba(255,255,255,.13); color:rgba(255,255,255,.8); transition:background .12s; }
+    .dash-qs-copy:hover { background:rgba(255,255,255,.24); }
+    .dash-qs-footer { padding:7px 12px; border-top:1px solid var(--anthro-border); display:flex; gap:10px; flex-shrink:0; background:var(--anthro-cream); }
+    .dash-qs-flink { font-family:'Inter',sans-serif; font-size:.67rem; color:var(--anthro-rust); text-decoration:none; border-bottom:none !important; font-weight:600; transition:color .12s; }
+    .dash-qs-flink:hover { color:var(--anthro-orange); }
+
+    /* ── Model Picker ────────────────────────────────────*/
+    .dash-mp-body { padding:11px 12px 10px; flex:1; display:flex; flex-direction:column; gap:9px; }
+    .dash-mp-q { font-family:'Inter',sans-serif; font-size:.75rem; font-weight:700; color:var(--anthro-dark); }
+    .dash-mp-opts { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+    .dash-mp-opt { font-family:'Inter',sans-serif; font-size:.72rem; padding:7px 10px; border-radius:8px; border:1px solid var(--anthro-border); background:var(--anthro-cream); cursor:pointer; text-align:left; transition:background .12s,border-color .12s; color:var(--anthro-dark); display:flex; align-items:center; gap:6px; line-height:1.3; }
+    .dash-mp-opt:hover { background:#ece5d8; border-color:var(--anthro-orange); }
+    .dash-mp-result { padding:10px 12px; background:linear-gradient(135deg,rgba(217,119,87,.08),rgba(174,86,48,.04)); border:1px solid rgba(217,119,87,.28); border-radius:9px; }
+    .dash-mp-rec-model { font-family:'DM Serif Display',serif; font-size:1.08rem; color:var(--anthro-orange); line-height:1.2; margin-bottom:4px; }
+    .dash-mp-rec-why { font-family:'Inter',sans-serif; font-size:.73rem; color:#4a4540; line-height:1.55; }
+    .dash-mp-rec-price { font-family:'Inter',sans-serif; font-size:.63rem; color:var(--anthro-mid); margin-top:5px; font-weight:600; letter-spacing:.01em; }
+    .dash-mp-reset { font-family:'Inter',sans-serif; font-size:.65rem; color:var(--anthro-orange); cursor:pointer; background:none; border:none; padding:4px 0 0; text-decoration:underline; align-self:flex-start; }
 
     /* ── Loading ──────────────────────────────────────── */
     .dash-loading { display:flex; align-items:center; justify-content:center; height:260px; font-family:'Inter',sans-serif; font-size:.85rem; color:var(--anthro-mid); }
@@ -511,6 +546,57 @@
 
   /* Reddit links open directly in a new tab (CORS blocks API access from browser) */
 
+  /* ── Quick-start tab / copy helpers ─────────────────── */
+  function dashQsTab(wid, lang) {
+    var wrap = document.getElementById(wid);
+    if (!wrap) return;
+    wrap.querySelectorAll('.dash-qs-tab').forEach(function(t){ t.classList.toggle('active', t.dataset.lang===lang); });
+    wrap.querySelectorAll('.dash-qs-pane').forEach(function(p){ p.classList.toggle('active', p.dataset.lang===lang); });
+  }
+  function dashQsCopy(wid, lang) {
+    var wrap = document.getElementById(wid);
+    if (!wrap) return;
+    var code = wrap.querySelector('.dash-qs-pane[data-lang="'+lang+'"] code');
+    var btn  = wrap.querySelector('.dash-qs-pane[data-lang="'+lang+'"] .dash-qs-copy');
+    if (!code) return;
+    navigator.clipboard.writeText(code.innerText).then(function(){
+      if (btn){ btn.textContent='✓ Copied!'; setTimeout(function(){ btn.textContent='Copy'; },1800); }
+    }).catch(function(){
+      var sel=window.getSelection(), r=document.createRange();
+      r.selectNodeContents(code); sel.removeAllRanges(); sel.addRange(r);
+    });
+  }
+
+  /* ── Model picker helpers ────────────────────────────── */
+  var _mpData = {
+    value:  { model:'claude-haiku-4-5',  emoji:'💰', why:'Fastest & most affordable. Ideal for high-volume structured tasks — classification, summaries, routing, and simple Q&A.',           price:'$0.25 input · $1.25 output per MTok' },
+    speed:  { model:'claude-sonnet-4-6', emoji:'⚡', why:'Best speed-to-intelligence ratio. The go-to for production chat, coding assistance, and everyday analysis workflows.',              price:'$3 input · $15 output per MTok' },
+    smart:  { model:'claude-opus-4-6',   emoji:'🧠', why:'Most intelligent Claude. Use for complex multi-step reasoning, deep research, agentic tasks, and nuanced long-context work.',      price:'$15 input · $75 output per MTok' },
+    code:   { model:'claude-sonnet-4-6', emoji:'💻', why:'77.2% on SWE-bench. Top-tier for code generation, review, debugging, and autonomous agentic dev with Claude Code.',               price:'$3 input · $15 output per MTok' },
+    vision: { model:'claude-sonnet-4-6', emoji:'👁️', why:'All Claude 4.x models natively understand images, charts, PDFs, and screenshots. Sonnet 4.6 is the sweet spot for vision tasks.', price:'$3 input · $15 output per MTok' },
+    long:   { model:'claude-opus-4-6',   emoji:'📄', why:'200K token context window on all 4.x models. Opus 4.6 excels at multi-doc analysis, large codebases, and book-length tasks.',     price:'$15 input · $75 output per MTok' },
+  };
+  function dashMpPick(choice) {
+    var r = _mpData[choice]; if (!r) return;
+    var optsEl = document.getElementById('dash-mp-opts');
+    var resEl  = document.getElementById('dash-mp-res');
+    if (!optsEl || !resEl) return;
+    optsEl.style.display = 'none';
+    resEl.innerHTML =
+      '<div class="dash-mp-result">'+
+        '<div class="dash-mp-rec-model">'+r.emoji+' '+r.model+'</div>'+
+        '<div class="dash-mp-rec-why">'+r.why+'</div>'+
+        '<div class="dash-mp-rec-price">💰 '+r.price+'</div>'+
+      '</div>'+
+      '<button class="dash-mp-reset" onclick="dashMpReset()">← Try another</button>';
+  }
+  function dashMpReset() {
+    var optsEl = document.getElementById('dash-mp-opts');
+    var resEl  = document.getElementById('dash-mp-res');
+    if (optsEl) optsEl.style.display = '';
+    if (resEl)  resEl.innerHTML = '';
+  }
+
   /* ── Dashboard builder ───────────────────────────────── */
   function buildDashboard(d) {
     var stories=d.stories||[], announces=d.announces||[], sdks=d.sdks||[];
@@ -702,6 +788,77 @@
       '<div class="dash-cc-row">'+ccItems+'</div>'+
     '</div>';
 
+    /* Today's Digest */
+    var dSrcs = {}, dSrcList = [];
+    stories.slice(0,12).forEach(function(s){ dSrcs[s.source]=(dSrcs[s.source]||0)+1; });
+    Object.keys(dSrcs).sort(function(a,b){ return dSrcs[b]-dSrcs[a]; }).forEach(function(k){ dSrcList.push(k); });
+    var dLead = lead.title ? 'Top story — <strong>'+escHtml(lead.title)+'</strong> (▲&nbsp;'+escHtml(String(lead.score||''))+' on '+escHtml(lead.source||'')+').' : 'Dashboard loading…';
+    var dOthers = stories.slice(1,3).map(function(s){
+      return '<a href="'+escHtml(s.href)+'" target="_blank" rel="noopener" style="color:var(--anthro-rust);text-decoration:none;border-bottom:1px solid rgba(217,119,87,.3);">'+escHtml(s.title)+'</a>';
+    });
+    var dBody = dLead + (dOthers.length ? ' Also trending: '+dOthers.join(' and ')+'.':'');
+    var digestW='<div class="dash-widget ws-12">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">📋</span><span class="dash-wh-label">Today\'s Digest</span>'+
+        '<span style="font-family:Inter,sans-serif;font-size:.62rem;color:var(--anthro-mid);">'+escHtml(d.newsDate||'')+'</span>'+
+        '<a href="#/docs/NEWS" class="dash-wh-link">Full feed →</a></div>'+
+      '<div class="dash-digest">'+
+        '<div class="dash-digest-body">'+dBody+'</div>'+
+        '<div class="dash-digest-tags">'+
+          dSrcList.map(function(s){ return '<span class="dash-digest-tag">'+escHtml(s)+' &nbsp;'+dSrcs[s]+'</span>'; }).join('')+
+          '<span class="dash-digest-tag">'+stories.length+' stories tracked</span>'+
+        '</div>'+
+      '</div>'+
+    '</div>';
+
+    /* Quick-Start code panel */
+    var qsId = 'dash-qs-1';
+    var qsSnippets = {
+      py:   'pip install anthropic\n\nimport anthropic\n\nclient = anthropic.Anthropic()\n# API key from ANTHROPIC_API_KEY env var\n\nmessage = client.messages.create(\n    model="claude-opus-4-6",\n    max_tokens=1024,\n    messages=[{\n        "role": "user",\n        "content": "Hello, Claude!"\n    }]\n)\nprint(message.content[0].text)',
+      ts:   'npm install @anthropic-ai/sdk\n\nimport Anthropic from "@anthropic-ai/sdk";\n\nconst client = new Anthropic();\n// API key from ANTHROPIC_API_KEY env var\n\nconst msg = await client.messages.create({\n  model: "claude-opus-4-6",\n  max_tokens: 1024,\n  messages: [{\n    role: "user",\n    content: "Hello, Claude!"\n  }],\n});\nconsole.log(msg.content[0].text);',
+      curl: 'curl https://api.anthropic.com/v1/messages \\\n  -H "x-api-key: $ANTHROPIC_API_KEY" \\\n  -H "anthropic-version: 2023-06-01" \\\n  -H "content-type: application/json" \\\n  -d \'{\n    "model": "claude-opus-4-6",\n    "max_tokens": 1024,\n    "messages": [{\n      "role": "user",\n      "content": "Hello, Claude!"\n    }]\n  }\'',
+    };
+    var qsTabs = [['py','Python'],['ts','TypeScript'],['curl','cURL']];
+    var qsTabsHtml = qsTabs.map(function(t,i){
+      return '<button class="dash-qs-tab'+(i===0?' active':'')+'" data-lang="'+t[0]+'" onclick="dashQsTab(\''+qsId+'\',\''+t[0]+'\')">'+t[1]+'</button>';
+    }).join('');
+    var qsPanesHtml = qsTabs.map(function(t,i){
+      return '<div class="dash-qs-pane'+(i===0?' active':'')+'" data-lang="'+t[0]+'">'+
+        '<button class="dash-qs-copy" onclick="dashQsCopy(\''+qsId+'\',\''+t[0]+'\')">Copy</button>'+
+        '<pre class="dash-qs-code"><code>'+escHtml(qsSnippets[t[0]])+'</code></pre>'+
+      '</div>';
+    }).join('');
+    var qsW='<div class="dash-widget ws-6" id="'+qsId+'" style="min-height:240px;">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">⚡</span><span class="dash-wh-label">Quick Start</span>'+
+        '<a href="https://docs.anthropic.com/en/api/getting-started" target="_blank" rel="noopener" class="dash-wh-link">Full docs →</a></div>'+
+      '<div class="dash-qs-tabs">'+qsTabsHtml+'</div>'+
+      '<div class="dash-qs-body">'+qsPanesHtml+'</div>'+
+      '<div class="dash-qs-footer">'+
+        '<a href="https://console.anthropic.com/" target="_blank" rel="noopener" class="dash-qs-flink">🔑 Get API key →</a>'+
+        '<a href="https://docs.anthropic.com/" target="_blank" rel="noopener" class="dash-qs-flink">📚 API docs →</a>'+
+        '<a href="https://console.anthropic.com/" target="_blank" rel="noopener" class="dash-qs-flink">🖥️ Console →</a>'+
+      '</div>'+
+    '</div>';
+
+    /* Model picker */
+    var mpOptsHtml =
+      '<div class="dash-mp-opts" id="dash-mp-opts">'+
+        '<button class="dash-mp-opt" onclick="dashMpPick(\'value\')">💰 Best Value</button>'+
+        '<button class="dash-mp-opt" onclick="dashMpPick(\'speed\')">⚡ Fastest</button>'+
+        '<button class="dash-mp-opt" onclick="dashMpPick(\'smart\')">🧠 Most Intelligent</button>'+
+        '<button class="dash-mp-opt" onclick="dashMpPick(\'code\')">💻 Coding / Agents</button>'+
+        '<button class="dash-mp-opt" onclick="dashMpPick(\'vision\')">👁️ Vision / Images</button>'+
+        '<button class="dash-mp-opt" onclick="dashMpPick(\'long\')">📄 Long Documents</button>'+
+      '</div>'+
+      '<div id="dash-mp-res"></div>';
+    var mpW='<div class="dash-widget ws-6">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">🎯</span><span class="dash-wh-label">Which Claude?</span>'+
+        '<a href="#/docs/BENCHMARKS" class="dash-wh-link">Compare models →</a></div>'+
+      '<div class="dash-mp-body">'+
+        '<div class="dash-mp-q">What\'s your priority? Pick one →</div>'+
+        mpOptsHtml+
+      '</div>'+
+    '</div>';
+
     /* Community Buzz — top stories styled as tweet cards */
     var buzSrcMeta = {
       'hacker news': { bg:'#FF6600', initials:'HN' },
@@ -737,7 +894,7 @@
       '</div>'+
     '</div>';
 
-    return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+trackerW+buzzW+ccW+'</div>';
+    return '<div class="dash-grid">'+mhead+digestW+leadW+lbW+benchW+clW+annW+sdkResW+qsW+mpW+trackerW+buzzW+ccW+'</div>';
   }
 
   /* ── Dashboard cache (1-hour TTL) ───────────────────── */
