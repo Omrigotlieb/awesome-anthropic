@@ -9,6 +9,8 @@
 [![Changelog Sync](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/changelog-check.yml?label=changelog%20sync&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/changelog-check.yml)
 [![Link Check](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/link-checker.yml?label=links&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/link-checker.yml)
 
+## 🌐 [omrigotlieb.github.io/awesome-anthropic](https://omrigotlieb.github.io/awesome-anthropic)
+
 > A curated, **daily-updated** list of awesome resources, tools, SDKs, research papers, and community projects related to Anthropic and the Claude AI family.
 
 Anthropic is an AI safety company building reliable, interpretable, and steerable AI systems. Claude is their flagship family of AI assistants, used by millions of developers and deployed across enterprise, research, and consumer applications worldwide.
