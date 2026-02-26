@@ -10,7 +10,6 @@
   <meta property="og:type" content="website" />
   <link rel="icon" href="https://anthropic.com/favicon.ico" />
 
-  <!-- Anthropic-style typography: Lora (body serif) + DM Serif Display (headings) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
@@ -19,11 +18,10 @@
 
   <style>
     /* ══════════════════════════════════════════════════════════
-       ANTHROPIC DESIGN SYSTEM
-       Colors from anthropic.com + claude.ai brand guidelines
+       ANTHROPIC DESIGN SYSTEM v2
+       Inspired by anthropic.com, Linear changelog, Mintlify
        ══════════════════════════════════════════════════════════ */
     :root {
-      /* Anthropic brand palette */
       --anthro-dark:    #141413;
       --anthro-light:   #faf9f5;
       --anthro-cream:   #f4f3ee;
@@ -32,39 +30,42 @@
       --anthro-orange:  #d97757;
       --anthro-rust:    #ae5630;
       --anthro-blue:    #6a9bcc;
-
-      /* Sidebar — warm deep brown (not cold navy) */
       --sidebar-bg:     #1c1108;
       --sidebar-hover:  #2e1e0e;
       --sidebar-active: #3d2510;
-
-      /* Docsify overrides */
-      --theme-color: #d97757;
+      --theme-color:    #d97757;
     }
 
-    /* ── Base & body ────────────────────────────────────────── */
+    /* ── Base ──────────────────────────────────────────────── */
     body, .app-wrapper {
       background: var(--anthro-light) !important;
       color: var(--anthro-dark);
       font-family: 'Lora', ui-serif, Georgia, serif;
     }
 
-    /* ── Sidebar ─────────────────────────────────────────────── */
+    /* ── Sidebar ───────────────────────────────────────────── */
     .sidebar {
       background: var(--sidebar-bg) !important;
       border-right: 1px solid #3d2510;
     }
+    /* Orange gradient bar at top — premium touch */
+    .sidebar::before {
+      content: '';
+      display: block;
+      height: 3px;
+      background: linear-gradient(90deg, #d97757 0%, #ae5630 60%, transparent 100%);
+    }
     .sidebar-nav { padding: 4px 6px 12px; }
 
     .app-name {
-      padding: 20px 16px 8px;
+      padding: 18px 16px 8px;
       border-bottom: 1px solid #3d2510;
       margin-bottom: 8px;
     }
     .app-name-link {
       color: #f0c4a0 !important;
       font-family: 'DM Serif Display', ui-serif, Georgia, serif !important;
-      font-size: 1.15rem !important;
+      font-size: 1.1rem !important;
       letter-spacing: -0.01em;
     }
 
@@ -100,7 +101,7 @@
     }
     .sidebar-toggle { background: var(--sidebar-bg) !important; }
 
-    /* ── Search ──────────────────────────────────────────────── */
+    /* ── Search ────────────────────────────────────────────── */
     .search { padding: 10px 8px; }
     .search input {
       background: #0e0904 !important;
@@ -125,29 +126,40 @@
     .search .results-panel .matching-post:hover { background: var(--sidebar-hover); }
     .search .results-panel h2 { color: var(--anthro-orange); font-size: 0.85rem; }
 
-    /* ── Main content ────────────────────────────────────────── */
+    /* ── Main content ──────────────────────────────────────── */
     .content { background: var(--anthro-light) !important; }
-    .markdown-section { max-width: 880px; padding: 2rem 2.5rem; }
+    .markdown-section { max-width: 900px; padding: 2rem 2.5rem; }
 
-    /* Headings — DM Serif Display for that editorial feel */
-    h1 {
+    /* ── H1: gradient text ─────────────────────────────────── */
+    .markdown-section h1 {
       font-family: 'DM Serif Display', ui-serif, Georgia, serif;
-      font-size: 2.2rem;
-      color: var(--anthro-dark);
+      font-size: 2.4rem;
       font-weight: 400;
-      letter-spacing: -0.02em;
-      line-height: 1.2;
+      letter-spacing: -0.025em;
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #d97757 0%, #f0c4a0 45%, #ae5630 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
-    h2 {
+
+    /* ── H2: left accent bar (Linear/Vercel pattern) ───────── */
+    .markdown-section h2 {
       font-family: 'DM Serif Display', ui-serif, Georgia, serif;
-      border-bottom: 2px solid var(--anthro-border);
-      padding-bottom: 8px;
-      margin-top: 2.5rem;
-      font-size: 1.4rem;
-      color: var(--anthro-dark);
+      font-size: 1.45rem;
       font-weight: 400;
+      color: var(--anthro-dark);
+      margin-top: 2.8rem;
+      margin-bottom: 1rem;
+      padding-left: 14px;
+      border-left: 4px solid var(--anthro-orange);
+      border-bottom: none;
+      line-height: 1.3;
     }
-    h3 {
+
+    /* ── H3: warm rust, italic ─────────────────────────────── */
+    .markdown-section h3 {
       font-family: 'Lora', ui-serif, Georgia, serif;
       font-size: 1.05rem;
       color: var(--anthro-rust);
@@ -155,15 +167,15 @@
       font-style: italic;
     }
 
-    /* Body text */
+    /* ── Body text ─────────────────────────────────────────── */
     .markdown-section p, .markdown-section li {
       font-family: 'Lora', ui-serif, Georgia, serif;
-      line-height: 1.75;
+      line-height: 1.78;
       color: #2a2520;
       font-size: 0.97rem;
     }
 
-    /* Links */
+    /* ── Links ─────────────────────────────────────────────── */
     .markdown-section a {
       color: var(--anthro-rust);
       text-decoration: none;
@@ -175,7 +187,7 @@
       border-bottom-color: var(--anthro-orange);
     }
 
-    /* Inline code */
+    /* ── Inline code ───────────────────────────────────────── */
     p code, li code {
       background: #f0ece4;
       color: var(--anthro-rust);
@@ -186,10 +198,10 @@
       font-family: ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
     }
 
-    /* Blockquote */
+    /* ── Blockquote ────────────────────────────────────────── */
     blockquote {
       border-left: 3px solid var(--anthro-orange);
-      background: var(--anthro-cream);
+      background: linear-gradient(to right, var(--anthro-cream), var(--anthro-light));
       margin: 1.2rem 0;
       padding: 0.8rem 1.4rem;
       border-radius: 0 8px 8px 0;
@@ -197,52 +209,176 @@
       font-style: italic;
       font-size: 0.93rem;
     }
-    blockquote p { color: #5a524a; }
+    blockquote p { color: #5a524a; margin: 0; }
 
-    /* ── Tables ──────────────────────────────────────────────── */
+    /* ── Tables: dark header (Anthropic news style) ─────────── */
     table {
       border-collapse: collapse;
       width: 100%;
       font-size: 0.9rem;
-      border-radius: 10px;
+      border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 2px 12px rgba(20, 12, 5, 0.08);
-      margin: 1.2rem 0;
+      box-shadow: 0 1px 3px rgba(20,12,5,0.06), 0 4px 16px rgba(20,12,5,0.06);
+      margin: 1.4rem 0;
       font-family: 'Lora', ui-serif, Georgia, serif;
+      border: 1px solid var(--anthro-border);
     }
-    thead tr { background: var(--anthro-orange); }
+    thead tr { background: var(--anthro-dark); }
     thead th {
-      padding: 12px 16px;
+      padding: 11px 16px;
       text-align: left;
       font-weight: 600;
-      font-size: 0.83rem;
-      color: #fff;
-      letter-spacing: 0.04em;
+      font-size: 0.75rem;
+      color: #b0aea5;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
       font-style: normal;
       font-family: 'Lora', ui-serif, Georgia, serif;
     }
-    tbody tr { transition: background 0.1s; }
+    tbody tr { transition: background 0.12s; }
     tbody tr:nth-child(even) { background: var(--anthro-cream); }
-    tbody tr:hover { background: #efe8dc; }
+    tbody tr:hover { background: #ece5d8; }
     tbody td {
       padding: 10px 16px;
       border-top: 1px solid var(--anthro-border);
       color: #2a2520;
+      vertical-align: middle;
+    }
+    tbody td:first-child { color: var(--anthro-rust); font-weight: 700; }
+
+    /* ── Source badge helpers (applied by JS) ──────────────── */
+    .src-hn {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      background: rgba(255,102,0,0.1); color: #b84800;
+      border: 1px solid rgba(255,102,0,0.22);
+      font-family: 'Lora', serif; white-space: nowrap;
+    }
+    .src-reddit {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      background: rgba(255,69,0,0.09); color: #b83a00;
+      border: 1px solid rgba(255,69,0,0.2);
+      font-family: 'Lora', serif; white-space: nowrap;
+    }
+    .src-arxiv {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      background: rgba(106,155,204,0.12); color: #3e6a9a;
+      border: 1px solid rgba(106,155,204,0.28);
+      font-family: 'Lora', serif; white-space: nowrap;
+    }
+    .src-anthropic {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      background: rgba(217,119,87,0.1); color: #ae5630;
+      border: 1px solid rgba(217,119,87,0.25);
+      font-family: 'Lora', serif; white-space: nowrap;
+    }
+    .src-github {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      background: rgba(80,80,80,0.08); color: #444;
+      border: 1px solid rgba(0,0,0,0.14);
+      font-family: 'Lora', serif; white-space: nowrap;
     }
 
-    /* Right-aligned score column */
-    tbody td:first-child { color: var(--anthro-rust); font-weight: 600; }
+    /* ── Hero banner (injected by JS on homepage) ──────────── */
+    .site-hero {
+      background: linear-gradient(135deg, #1c1108 0%, #271408 55%, #141413 100%);
+      border-radius: 16px;
+      padding: 2.4rem 2.8rem;
+      margin-bottom: 2.5rem;
+      border: 1px solid #3d2510;
+      position: relative;
+      overflow: hidden;
+    }
+    .site-hero::before {
+      content: '';
+      position: absolute;
+      top: -70px; right: -50px;
+      width: 300px; height: 300px;
+      background: radial-gradient(circle, rgba(217,119,87,0.2) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .site-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -50px; left: 30px;
+      width: 220px; height: 220px;
+      background: radial-gradient(circle, rgba(174,86,48,0.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .hero-eyebrow {
+      font-family: 'Lora', serif;
+      font-size: 0.7rem;
+      color: #d97757;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 600;
+      margin-bottom: 0.65rem;
+    }
+    .hero-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.1rem;
+      background: linear-gradient(135deg, #f0c4a0 0%, #d97757 55%, #f0c4a0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.6rem;
+    }
+    .hero-subtitle {
+      font-family: 'Lora', serif;
+      font-size: 0.92rem;
+      color: #7a6a58;
+      line-height: 1.65;
+      max-width: 480px;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 2.5rem;
+      margin-top: 1.8rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(61,37,16,0.55);
+    }
+    .hero-stat-num {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.9rem;
+      color: #d97757;
+      display: block;
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-family: 'Lora', serif;
+      font-size: 0.67rem;
+      color: #6a5a40;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      display: block;
+      margin-top: 4px;
+    }
 
-    /* ── Horizontal rules ────────────────────────────────────── */
+    /* ── Top news row highlight (applied by JS) ────────────── */
+    .news-featured td {
+      background: linear-gradient(to right, rgba(217,119,87,0.07), transparent) !important;
+      border-left: 3px solid #d97757;
+    }
+    tbody tr.news-featured:hover td {
+      background: rgba(217,119,87,0.12) !important;
+    }
+
+    /* ── HR ────────────────────────────────────────────────── */
     hr {
       border: none;
       border-top: 1px solid var(--anthro-border);
       margin: 2.5rem 0;
     }
 
-    /* ── Footer ──────────────────────────────────────────────── */
+    /* ── Footer ────────────────────────────────────────────── */
     .page-footer {
-      margin-top: 3rem;
+      margin-top: 3.5rem;
       padding-top: 1.2rem;
       border-top: 1px solid var(--anthro-border);
       font-size: 0.78rem;
@@ -256,23 +392,27 @@
     .page-footer a { color: var(--anthro-rust); border: none !important; }
     .page-footer a:hover { color: var(--anthro-orange); }
 
-    /* ── Badges ──────────────────────────────────────────────── */
-    .markdown-section p:first-of-type { line-height: 2; }
+    /* ── Badges row spacing ─────────────────────────────────── */
+    .markdown-section p:first-of-type { line-height: 2.2; }
     .markdown-section p img[src*="shields.io"] { border-radius: 3px; }
 
-    /* ── Code blocks ─────────────────────────────────────────── */
+    /* ── Code blocks ────────────────────────────────────────── */
     pre {
       background: var(--anthro-dark) !important;
-      border-radius: 8px;
+      border-radius: 10px;
       padding: 1.2rem 1.4rem;
+      border: 1px solid #2a2520;
     }
     pre code { font-size: 0.87rem; }
 
-    /* ── Mobile ──────────────────────────────────────────────── */
+    /* ── Mobile ─────────────────────────────────────────────── */
     @media (max-width: 768px) {
       .markdown-section { padding: 1.2rem 1rem; }
       table { font-size: 0.8rem; }
-      h1 { font-size: 1.6rem; }
+      .markdown-section h1 { font-size: 1.7rem; }
+      .hero-stats { gap: 1.5rem; }
+      .site-hero { padding: 1.6rem 1.4rem; }
+      .hero-title { font-size: 1.6rem; }
     }
   </style>
 </head>
@@ -307,6 +447,8 @@
     },
     plugins: [
       function(hook) {
+
+        // ── Footer on every page ──────────────────────────────
         hook.afterEach(function(html) {
           return html + `<footer class="page-footer">
             <span>Auto-updated daily &middot; Claude &amp; Anthropic resources</span>
@@ -316,6 +458,67 @@
               <a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new" target="_blank">Report Issue</a>
             </span>
           </footer>`;
+        });
+
+        // ── Post-render DOM enhancements ──────────────────────
+        hook.doneEach(function() {
+          const hash = window.location.hash || '';
+          const isHome = !hash || hash === '#/' || (!hash.includes('/docs/') && !hash.includes('CONTRIBUTING') && !hash.includes('CODE_OF_CONDUCT'));
+          const isNews = hash.includes('docs/NEWS');
+
+          // 1. Hero banner on homepage
+          if (isHome) {
+            const ms = document.querySelector('.markdown-section');
+            if (ms && !ms.querySelector('.site-hero')) {
+              const hero = document.createElement('div');
+              hero.className = 'site-hero';
+              hero.innerHTML = `
+                <div class="hero-eyebrow">⚡ Daily Updated &nbsp;·&nbsp; Auto-synced from Anthropic</div>
+                <div class="hero-title">Awesome Anthropic</div>
+                <div class="hero-subtitle">The most complete curated resource for Claude AI — models, SDKs, research, news, and community projects, refreshed every day.</div>
+                <div class="hero-stats">
+                  <div class="hero-stat">
+                    <span class="hero-stat-num">4+</span>
+                    <span class="hero-stat-label">Claude Models</span>
+                  </div>
+                  <div class="hero-stat">
+                    <span class="hero-stat-num">500+</span>
+                    <span class="hero-stat-label">Resources</span>
+                  </div>
+                  <div class="hero-stat">
+                    <span class="hero-stat-num">24h</span>
+                    <span class="hero-stat-label">News Lag</span>
+                  </div>
+                  <div class="hero-stat">
+                    <span class="hero-stat-num">∞</span>
+                    <span class="hero-stat-label">Updates</span>
+                  </div>
+                </div>
+              `;
+              ms.insertBefore(hero, ms.firstChild);
+            }
+          }
+
+          // 2. Color-code source badges in all tables
+          document.querySelectorAll('tbody td').forEach(function(td) {
+            if (td.querySelector('span.src-hn, span.src-reddit, span.src-arxiv, span.src-anthropic, span.src-github')) return;
+            const text = td.textContent.trim();
+            let cls = '';
+            if (text === 'Hacker News' || text.includes('Hacker News')) cls = 'src-hn';
+            else if (text.startsWith('r/') || text.includes('Reddit') || text.includes('reddit.com')) cls = 'src-reddit';
+            else if (text === 'arXiv' || text.includes('arXiv')) cls = 'src-arxiv';
+            else if (text.includes('Anthropic Blog') || text === 'Anthropic') cls = 'src-anthropic';
+            else if (text === 'GitHub' || text.includes('GitHub') || text.includes('github.com')) cls = 'src-github';
+            if (cls) {
+              td.innerHTML = '<span class="' + cls + '">' + text + '</span>';
+            }
+          });
+
+          // 3. Highlight top story row on news page
+          if (isNews) {
+            const firstRow = document.querySelector('tbody tr:first-child');
+            if (firstRow) firstRow.classList.add('news-featured');
+          }
         });
       }
     ]
