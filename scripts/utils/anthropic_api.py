@@ -1,34 +1,96 @@
-"""Thin wrapper around the Anthropic SDK for summarization tasks."""
+"""Thin wrapper around the Anthropic SDK for summarization tasks.
+
+Authentication priority:
+  1. ANTHROPIC_API_KEY env var (standard API key from console.anthropic.com)
+  2. Claude Code OAuth credentials from ~/.claude/credentials.json (Max subscription)
+"""
 from __future__ import annotations
 
+import json
 import os
+from pathlib import Path
+
+
+def _get_claude_code_token() -> str | None:
+    """Read the OAuth access token from Claude Code credentials."""
+    creds_path = Path.home() / ".claude" / "credentials.json"
+    if not creds_path.exists():
+        return None
+    try:
+        data = json.loads(creds_path.read_text())
+        return data.get("claudeAiOauth", {}).get("accessToken")
+    except Exception:
+        return None
+
+
+def _resolve_key() -> tuple[str, str]:
+    """
+    Return (api_key, method) where method is 'api_key', 'session_token', or 'oauth'.
+    Raises RuntimeError if no credentials are found.
+    """
+    # 1. Standard API key from console.anthropic.com
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if api_key:
+        return api_key, "api_key"
+
+    # 2. Claude Code session token (injected automatically when running inside Claude Code)
+    session_token = os.environ.get("CLAUDE_CODE_SESSION_ACCESS_TOKEN")
+    if session_token:
+        return session_token, "session_token"
+
+    # 3. Claude Code OAuth token from credentials file
+    oauth_token = _get_claude_code_token()
+    if oauth_token:
+        return oauth_token, "oauth"
+
+    raise RuntimeError(
+        "No Anthropic credentials found. Set ANTHROPIC_API_KEY or run inside Claude Code."
+    )
+
+
+def _make_client():
+    """Create an Anthropic client using available credentials."""
+    import anthropic
+
+    key, method = _resolve_key()
+    if method == "api_key":
+        return anthropic.Anthropic(api_key=key)
+    # Session tokens and OAuth tokens use Bearer auth
+    return anthropic.Anthropic(auth_token=key)
 
 
 def is_api_available() -> bool:
-    """Check if the Anthropic API key is configured."""
-    return bool(os.environ.get("ANTHROPIC_API_KEY"))
+    """Check if any Anthropic credentials are available."""
+    try:
+        _resolve_key()
+        return True
+    except RuntimeError:
+        return False
+
+
+def _default_model() -> str:
+    """Pick the summarization model."""
+    return "claude-haiku-4-5-20251001"
 
 
 def summarize_news_item(title: str, url: str, body: str = "") -> str:
     """
     Return a one-sentence developer-oriented summary of a news item.
-    Falls back to returning the title if the API is unavailable.
+    Falls back to returning the title if no credentials are available.
     """
     if not is_api_available():
         return title
 
     try:
-        import anthropic
-
-        client = anthropic.Anthropic()
+        client = _make_client()
         prompt = (
-            f"Summarize the following news item in exactly one sentence for a developer audience. "
-            f"Be specific and informative. Do not start with 'This article' or 'This post'.\n\n"
+            "Summarize the following news item in exactly one sentence for a developer audience. "
+            "Be specific and informative. Do not start with 'This article' or 'This post'.\n\n"
             f"Title: {title}\nURL: {url}\n"
             f"Content snippet: {body[:500] if body else 'N/A'}"
         )
         message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
+            model=_default_model(),
             max_tokens=150,
             messages=[{"role": "user", "content": prompt}],
         )
@@ -39,45 +101,60 @@ def summarize_news_item(title: str, url: str, body: str = "") -> str:
 
 def batch_summarize(items: list[dict]) -> list[str]:
     """
-    Summarize multiple news items using the Messages Batches API.
-    Each item should have 'title', 'url', and optionally 'body' keys.
-    Falls back to returning titles if the API is unavailable.
+    Summarize multiple news items.
+    When using Claude Code OAuth, summarizes sequentially (batches API not available via claude.ai).
+    Falls back to returning titles if no credentials are available.
     """
     if not is_api_available() or not items:
         return [item.get("title", "") for item in items]
 
-    try:
-        import anthropic
+    # If we have a standard API key, use the efficient Batches API
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        return _batch_via_api(items)
 
+    # Claude Code OAuth: sequential summarization
+    results = []
+    for item in items:
+        summary = summarize_news_item(
+            title=item.get("title", ""),
+            url=item.get("url", ""),
+            body=item.get("body", ""),
+        )
+        results.append(summary)
+    return results
+
+
+def _batch_via_api(items: list[dict]) -> list[str]:
+    """Use the Messages Batches API (requires standard API key)."""
+    import time
+    import anthropic
+
+    try:
         client = anthropic.Anthropic()
-        requests = []
-        for i, item in enumerate(items):
-            body = item.get("body", "")[:500]
-            requests.append(
-                anthropic.types.MessageCreateParamsNonStreaming(
-                    model="claude-haiku-4-5-20251001",
-                    max_tokens=150,
-                    messages=[
-                        {
-                            "role": "user",
-                            "content": (
-                                f"Summarize in one sentence for developers: "
-                                f"Title: {item.get('title', '')}. Content: {body}"
-                            ),
-                        }
-                    ],
-                )
-            )
+        model = "claude-haiku-4-5-20251001"
 
         batch = client.messages.batches.create(
             requests=[
-                {"custom_id": str(i), "params": req}
-                for i, req in enumerate(requests)
+                {
+                    "custom_id": str(i),
+                    "params": {
+                        "model": model,
+                        "max_tokens": 150,
+                        "messages": [
+                            {
+                                "role": "user",
+                                "content": (
+                                    f"Summarize in one sentence for developers: "
+                                    f"Title: {item.get('title', '')}. "
+                                    f"Content: {item.get('body', '')[:500]}"
+                                ),
+                            }
+                        ],
+                    },
+                }
+                for i, item in enumerate(items)
             ]
         )
-
-        # Poll until complete (for small batches this is quick)
-        import time
 
         while batch.processing_status == "in_progress":
             time.sleep(5)
