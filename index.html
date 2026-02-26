@@ -417,6 +417,80 @@
       .markdown-section { padding:1.2rem 1rem; }
       .markdown-section h1 { font-size:1.8rem; }
     }
+
+    /* ══════════════════════════════════════════════════
+       INTERVIEW WIZARD
+       ══════════════════════════════════════════════════ */
+    .wiz-wrap { font-family:'Inter',sans-serif; max-width:780px; margin:0 auto; }
+    .wiz-hdr { background:#fff; border:1px solid var(--anthro-border); border-radius:12px; padding:11px 16px; margin-bottom:14px; display:flex; align-items:center; gap:11px; position:sticky; top:8px; z-index:100; box-shadow:0 2px 12px rgba(20,12,5,.08); }
+    .wiz-step-tag { background:var(--anthro-orange); color:#fff; border-radius:6px; padding:3px 9px; font-size:.63rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; white-space:nowrap; flex-shrink:0; }
+    .wiz-prog-wrap { flex:1; }
+    .wiz-prog-label { font-size:.57rem; color:var(--anthro-mid); font-weight:600; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
+    .wiz-prog-bar { height:5px; background:var(--anthro-border); border-radius:3px; overflow:hidden; }
+    .wiz-prog-fill { height:100%; background:linear-gradient(90deg,#d97757,#f0a070); border-radius:3px; transition:width .5s cubic-bezier(.4,0,.2,1); }
+    .wiz-xp { background:var(--anthro-dark); color:var(--anthro-orange); border-radius:6px; padding:4px 10px; font-size:.74rem; font-weight:700; white-space:nowrap; flex-shrink:0; font-family:'DM Serif Display',serif; }
+    .wiz-card { background:#fff; border:1px solid var(--anthro-border); border-radius:14px; overflow:hidden; margin-bottom:14px; box-shadow:0 2px 8px rgba(20,12,5,.06); }
+    .wiz-card-hdr { background:linear-gradient(135deg,var(--anthro-dark) 0%,#2a2520 100%); padding:20px 22px 17px; }
+    .wiz-card-icon { font-size:1.8rem; display:block; margin-bottom:6px; }
+    .wiz-card-title { font-family:'DM Serif Display',serif; font-size:1.42rem; color:#fff; margin-bottom:4px; line-height:1.2; }
+    .wiz-card-sub { font-size:.68rem; color:#b0a898; }
+    .wiz-card-body { padding:16px 22px 4px; }
+    .wiz-p { font-size:.875rem; line-height:1.78; color:#3a3530; margin-bottom:.8rem; }
+    .wiz-p strong { color:var(--anthro-dark); font-weight:700; }
+    .wiz-ul { padding-left:1.3rem; margin-bottom:.8rem; }
+    .wiz-li { font-size:.875rem; line-height:1.7; color:#3a3530; margin-bottom:.22rem; }
+    .wiz-h4 { font-size:.63rem; font-weight:700; color:var(--anthro-orange); text-transform:uppercase; letter-spacing:.1em; margin:1rem 0 .4rem; }
+    .wiz-tip { background:rgba(217,119,87,.07); border:1px solid rgba(217,119,87,.2); border-left:3px solid var(--anthro-orange); border-radius:0 8px 8px 0; padding:8px 13px; margin:.5rem 0 .8rem; font-size:.81rem; color:#4a3a2a; line-height:1.6; }
+    .wiz-quiz-sep { border-top:1px solid var(--anthro-border); margin-top:6px; }
+    .wiz-quiz-hdr { padding:9px 22px; font-size:.59rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--anthro-mid); background:var(--anthro-cream); border-bottom:1px solid var(--anthro-border); }
+    .wiz-q { padding:15px 22px; border-bottom:1px solid var(--anthro-border); }
+    .wiz-q:last-child { border-bottom:none; }
+    .wiz-q-text { font-size:.88rem; font-weight:600; color:var(--anthro-dark); margin-bottom:9px; line-height:1.45; display:flex; gap:9px; align-items:flex-start; }
+    .wiz-q-num { background:var(--anthro-dark); color:var(--anthro-orange); min-width:20px; height:20px; border-radius:50%; font-size:.6rem; font-weight:700; line-height:20px; text-align:center; flex-shrink:0; margin-top:1px; }
+    .wiz-opts { display:flex; flex-direction:column; gap:5px; }
+    .wiz-opt { background:var(--anthro-cream); border:1px solid var(--anthro-border); border-radius:8px; padding:8px 12px; font-size:.81rem; color:#3a3530; cursor:pointer; text-align:left; transition:background .12s,border-color .12s; display:flex; align-items:flex-start; gap:8px; line-height:1.4; font-family:'Inter',sans-serif; width:100%; }
+    .wiz-opt:hover:not([disabled]) { background:#ece5d8; border-color:var(--anthro-orange); }
+    .wiz-opt[disabled] { cursor:default; }
+    .wiz-opt.correct { background:rgba(34,197,94,.1); border-color:rgba(34,197,94,.45); color:#155e2e !important; }
+    .wiz-opt.wrong   { background:rgba(239,68,68,.08); border-color:rgba(239,68,68,.35); color:#9e1111 !important; }
+    .wiz-opt.reveal  { background:rgba(34,197,94,.06); border-color:rgba(34,197,94,.3); color:#166534; opacity:.75; }
+    .wiz-opt-ltr { font-weight:700; font-size:.68rem; color:var(--anthro-mid); flex-shrink:0; margin-top:1px; min-width:15px; }
+    .wiz-opt.correct .wiz-opt-ltr { color:#15803d; }
+    .wiz-opt.wrong   .wiz-opt-ltr { color:#dc2626; }
+    .wiz-explain { margin-top:8px; padding:8px 12px; background:var(--anthro-cream); border-radius:6px; font-size:.77rem; color:#5a4a3a; line-height:1.55; border-left:3px solid var(--anthro-orange); }
+    .wiz-xp-earn { font-size:.69rem; font-weight:700; color:#15803d; margin-top:4px; }
+    .wiz-nav { display:flex; align-items:center; justify-content:space-between; padding:11px 22px; background:#fff; border-top:1px solid var(--anthro-border); }
+    .wiz-nav-mid { font-size:.68rem; color:var(--anthro-mid); font-weight:600; }
+    .wiz-btn { font-family:'Inter',sans-serif; font-size:.79rem; font-weight:700; padding:8px 20px; border-radius:9px; border:none; cursor:pointer; transition:background .15s,transform .1s; }
+    .wiz-btn-next { background:var(--anthro-orange); color:#fff; }
+    .wiz-btn-next:hover:not([disabled]) { background:var(--anthro-rust); transform:translateX(2px); }
+    .wiz-btn-next[disabled] { background:var(--anthro-border); color:var(--anthro-mid); cursor:not-allowed; transform:none; }
+    .wiz-btn-back { background:var(--anthro-cream); color:var(--anthro-dark); border:1px solid var(--anthro-border); }
+    .wiz-btn-back:hover { background:#ece5d8; }
+    .wiz-class-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; padding:4px 22px 20px; }
+    .wiz-cls { background:var(--anthro-cream); border:2px solid var(--anthro-border); border-radius:12px; padding:15px; cursor:pointer; text-align:left; transition:border-color .15s,background .15s,box-shadow .15s; font-family:'Inter',sans-serif; }
+    .wiz-cls:hover { border-color:var(--anthro-orange); background:#fff; box-shadow:0 4px 14px rgba(217,119,87,.12); }
+    .wiz-cls.sel { border-color:var(--anthro-orange); background:rgba(217,119,87,.05); }
+    .wiz-cls-icon { font-size:1.5rem; display:block; margin-bottom:5px; }
+    .wiz-cls-name { font-family:'DM Serif Display',serif; font-size:.93rem; color:var(--anthro-dark); display:block; margin-bottom:2px; }
+    .wiz-cls-tag { font-size:.6rem; color:var(--anthro-orange); font-weight:700; text-transform:uppercase; letter-spacing:.05em; display:block; margin-bottom:5px; }
+    .wiz-cls-hint { font-size:.71rem; color:#7a6a5a; line-height:1.4; }
+    .wiz-start { display:none; margin:0 22px 18px; width:calc(100% - 44px); box-sizing:border-box; font-family:'Inter',sans-serif; font-size:.84rem; font-weight:700; padding:10px; border-radius:10px; border:none; background:var(--anthro-orange); color:#fff; cursor:pointer; transition:background .15s; }
+    .wiz-start.on { display:block; }
+    .wiz-start:hover { background:var(--anthro-rust); }
+    .wiz-victory { text-align:center; padding:30px 22px 26px; }
+    .wiz-v-icon { font-size:3.5rem; display:block; margin-bottom:10px; animation:wizPop .55s ease; }
+    .wiz-v-title { font-family:'DM Serif Display',serif; font-size:1.8rem; color:var(--anthro-dark); margin-bottom:5px; }
+    .wiz-v-sub { font-size:.82rem; color:var(--anthro-mid); margin-bottom:16px; }
+    .wiz-v-xp { font-family:'DM Serif Display',serif; font-size:2.6rem; color:var(--anthro-orange); display:block; margin-bottom:3px; }
+    .wiz-v-level { font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--anthro-mid); margin-bottom:18px; display:block; }
+    .wiz-achs { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-bottom:20px; }
+    .wiz-ach { font-size:.68rem; background:var(--anthro-dark); color:var(--anthro-orange); padding:3px 11px; border-radius:20px; font-weight:600; }
+    .wiz-restart { font-family:'Inter',sans-serif; font-size:.79rem; font-weight:700; padding:8px 22px; border-radius:9px; border:1px solid var(--anthro-border); background:var(--anthro-cream); color:var(--anthro-dark); cursor:pointer; transition:background .15s; }
+    .wiz-restart:hover { background:#ece5d8; }
+    @keyframes wizPop { 0%{transform:scale(.4);opacity:0} 70%{transform:scale(1.12)} 100%{transform:scale(1);opacity:1} }
+    .wiz-toast { position:fixed; bottom:18px; right:18px; background:var(--anthro-dark); color:var(--anthro-orange); padding:9px 15px; border-radius:10px; font-family:'Inter',sans-serif; font-size:.76rem; font-weight:700; box-shadow:0 8px 28px rgba(0,0,0,.32); z-index:99998; transform:translateY(70px); opacity:0; transition:transform .3s ease,opacity .3s ease; pointer-events:none; max-width:270px; }
+    .wiz-toast.on { transform:translateY(0); opacity:1; }
   </style>
 </head>
 <body>
@@ -708,6 +782,399 @@
       parseInt(a.dataset.smScore||'0') || 0
     );
   }, true);
+
+  /* ══════════════════════════════════════════════════
+     INTERVIEW WIZARD — data + engine
+     ══════════════════════════════════════════════════ */
+  var _wizContainer = null;
+  var _wizState = { step:0, xp:0, cls:'', answers:{}, achievements:[] };
+  var _wizToastT = null;
+
+  function wizToast(msg) {
+    var t = document.getElementById('wiz-toast-el');
+    if (!t) { t=document.createElement('div'); t.id='wiz-toast-el'; t.className='wiz-toast'; document.body.appendChild(t); }
+    t.textContent = msg; t.classList.add('on');
+    clearTimeout(_wizToastT);
+    _wizToastT = setTimeout(function(){ t.classList.remove('on'); }, 2800);
+  }
+
+  var _wD = [
+    /* 0 — Character Select */
+    { type:'class', icon:'⚔️', title:'Character Select', sub:'Choose your role before the quest begins',
+      classes:[
+        { id:'eng',    icon:'⚙️', name:'Engineer',      tag:'SWE · Platform · Infra',        hint:'Coding + System Design are your boss fights. Strong on algorithms.' },
+        { id:'ml',     icon:'🔬', name:'Research / ML', tag:'Scientist · Researcher',         hint:'ML theory + Safety alignment. Heavy on maths and architectures.' },
+        { id:'safety', icon:'🛡️', name:'Policy / Safety',tag:'Safety · Policy · Trust',       hint:'Alignment depth + Behavioral rounds. Mission conviction is your edge.' },
+        { id:'ops',    icon:'🏗️', name:'Operations',    tag:'BizOps · PMM · Recruiting',      hint:'Behavioral + Anthropic knowledge are your arena. Execution & judgment.' },
+      ]},
+    /* 1 — Know Your Enemy */
+    { type:'content', icon:'🗺️', title:'Level 1 — Know Your Enemy', sub:'About Anthropic · ~5 min',
+      content:[
+        { h:'The Mission' },
+        { p:"Anthropic's mission is <strong>the responsible development and maintenance of advanced AI for the long-term benefit of humanity.</strong> This isn't homepage copy — it's operationally load-bearing. It explains why Anthropic publishes safety research that helps competitors, imposes Claude usage restrictions that cost revenue, and has a Responsible Scaling Policy that could pause development." },
+        { tip:'Key insight: Anthropic deliberately occupies a "safety-focused lab at the frontier" position. If powerful AI is coming regardless, it\'s better for safety-oriented organisations to lead than cede that ground.' },
+        { h:'Company Lore' },
+        { p:'Founded <strong>2021</strong> by Dario Amodei (CEO), Daniela Amodei (President), and 7 colleagues who left OpenAI — including Tom Brown (GPT-3), Chris Olah (interpretability pioneer), Sam McCandlish, Jack Clark, and Jared Kaplan (scaling laws). Valuation above $60B as of 2025.' },
+        { h:'What Interviewers Are Testing' },
+        { ul:['<strong>Safety conviction</strong>: Real belief in the mission, not lip service. Know why Anthropic publishes research that helps rivals.',
+               '<strong>Intellectual humility</strong>: "I don\'t know but here\'s how I\'d think about it" is valued.',
+               '<strong>Autonomy with alignment</strong>: Identify what needs doing and do it without being told.',
+               '<strong>Research-driven thinking</strong>: Ground arguments in evidence, not vibes.'] },
+      ],
+      quiz:[
+        { q:'Anthropic was founded in what year, and by whom?',
+          opts:['2019 by Jeff Dean and colleagues from Google Brain','2021 by Dario Amodei, Daniela Amodei, and 7 colleagues from OpenAI','2022 by Elon Musk alongside the launch of ChatGPT','2020 as a spin-off from DeepMind'],
+          c:1, xp:15, ex:'Anthropic was founded in 2021. The team included Dario (CEO), Daniela (President), Tom Brown, Chris Olah, Sam McCandlish, Jack Clark, and Jared Kaplan — all from OpenAI.' },
+        { q:'What is Constitutional AI (CAI)?',
+          opts:['A legal framework regulating AI development','A technique where AI uses a set of principles to critique and revise its own outputs','A training method that requires no human feedback at all','A government certification for safe AI products'],
+          c:1, xp:15, ex:'Constitutional AI (2022) trains models to evaluate their own outputs against a "constitution" of principles — using AI self-critique instead of labeling each response manually. More scalable and consistent than pure RLHF.' },
+        { q:'What is Anthropic\'s Responsible Scaling Policy (RSP)?',
+          opts:['A government regulation imposed on frontier AI labs','A framework committing Anthropic to pause development if models reach dangerous capability thresholds without safeguards','A company policy about hiring rates for AI researchers','Anthropic\'s approach to allocating GPU compute budgets'],
+          c:1, xp:15, ex:'The RSP defines AI Safety Levels (ASL-1 to ASL-4). If a model reaches a capability threshold (e.g., CBRN uplift) without adequate safeguards, Anthropic is committed to halting deployment. It\'s a self-imposed, legally-binding constraint.' },
+        { q:'What is Claude Code?',
+          opts:['A programming language designed for AI','A library of Claude API code examples','An agentic CLI/IDE tool that lets Claude autonomously code, run commands, and complete software tasks','A syntax formatter for code submitted to Claude'],
+          c:2, xp:15, ex:'Claude Code is Anthropic\'s flagship agentic product — a CLI + IDE integration where Claude autonomously reads files, runs shell commands, edits code, and completes multi-step software tasks. Showcase for extended context + tool use at the frontier.' },
+      ]},
+    /* 2 — The Process */
+    { type:'content', icon:'🗺️', title:'Level 2 — Scouting the Dungeon', sub:'The Interview Process · ~3 min',
+      content:[
+        { h:'The Interview Funnel' },
+        { p:'<strong>Recruiter Screen (30 min):</strong> Fit, comp, and "why Anthropic specifically." Have a genuine specific answer — mentioning the RSP, Constitutional AI, or the model spec signals real homework.' },
+        { p:'<strong>Take-Home / Async Challenge:</strong> A longer coding problem, ML task, or written design doc critique. Treat as a professional deliverable. Anthropic hires strong writers — edit your prose.' },
+        { p:'<strong>Technical Phone Screen (1 hour):</strong> Live coding in a shared editor. 1–2 medium-to-hard problems. Communication matters as much as correctness — narrate, ask clarifying questions first.' },
+        { p:'<strong>Virtual Onsite (4–6 rounds):</strong> Typically one full day. 45–60 min each: Coding (1–2), System Design, Behavioral/Values, Domain-Specific (ML or Safety), optional Bar Raiser.' },
+        { tip:'Anthropic moves fast post-onsite: 1–2 weeks to offer. Compensation is competitive: base + equity (SAFEs or options). Negotiate — they expect it.' },
+      ],
+      quiz:[
+        { q:'How many rounds does a typical Anthropic virtual onsite include?',
+          opts:['2–3 rounds (shorter than other top labs)','Exactly 3 standardised rounds','4–6 rounds depending on role','8–10 rounds'],
+          c:2, xp:15, ex:'Anthropic onsites typically include: 1–2 coding rounds, 1 system design, 1 behavioral/values, 1 domain-specific (ML/Safety), and optionally a bar-raiser round. Total 4–6.' },
+        { q:'In Anthropic\'s behavioral interviews, what are they primarily testing for?',
+          opts:['Prior startup experience and founder instincts','Technical depth in AI/ML research','Mission alignment, core values, and judgment in ambiguous situations','Communication and presentation style'],
+          c:2, xp:15, ex:'Anthropic behavioral rounds screen for genuine mission alignment (not lip service), core values (intellectual humility, autonomy), and judgment — especially in novel, ambiguous situations.' },
+        { q:'Which "Why Anthropic?" approach signals the most genuine preparation?',
+          opts:['Emphasising the salary package and equity upside','Noting Claude\'s growing market share and brand prestige','Referencing specific research (RSP, CAI, interpretability) combined with your own genuine conviction','Mentioning that you applied to OpenAI first but preferred Anthropic\'s culture'],
+          c:2, xp:15, ex:'Interviewers hear vague "passion for AI" constantly. Specific references to the RSP, the Constitutional AI paper, or interpretability research — tied to why those matter to you personally — stand out immediately.' },
+      ]},
+    /* 3 — Coding */
+    { type:'content', icon:'⚔️', title:'Boss Fight 1 — The Coding Gauntlet', sub:'Algorithms & Data Structures · ~5 min',
+      content:[
+        { h:'What to Expect' },
+        { p:'1–2 medium-to-hard algorithmic problems in a shared editor. Anthropic\'s bar is high but the focus is communication and problem-solving process, not just producing the optimal solution.' },
+        { h:'Core Topics' },
+        { ul:['<strong>Hash maps/sets</strong>: Two Sum, anagrams, frequency counting — O(1) lookup',
+               '<strong>Sliding window</strong>: Substring problems, max/min in window',
+               '<strong>Two pointers</strong>: Sorted arrays, palindromes',
+               '<strong>Trees & graphs</strong>: BFS/DFS, shortest path, cycle detection',
+               '<strong>Dynamic programming</strong>: Fibonacci patterns, knapsack, LCS',
+               '<strong>Sorting</strong>: O(n log n) lower bound for comparison-based sorts'] },
+        { tip:'Think out loud from the start. Ask one clarifying question before writing code. Start with brute force, then optimise. Check edge cases: empty, single element, duplicates, overflow.' },
+      ],
+      quiz:[
+        { q:'For Two Sum (find indices of two numbers adding to a target), what\'s the optimal approach?',
+          opts:['Nested loops — check every pair → O(n²)','Sort the array then use two pointers → O(n log n)','Hash map tracking seen numbers and their indices → O(n)','Binary search for each element\'s complement → O(n log n)'],
+          c:2, xp:15, ex:'Hash map: for each number, check if (target − num) exists. If yes, return indices. If no, store the current number and its index. O(n) time, O(n) space. This is the canonical answer every top-tier interviewer expects.' },
+        { q:'What does Anthropic value most in a coding interview beyond getting the right answer?',
+          opts:['Solving it in under 10 minutes','Using the most advanced algorithms','Clear communication, clarifying questions, and readable code','Knowing multiple programming languages'],
+          c:2, xp:15, ex:'Anthropic explicitly evaluates how you think, not just what you produce. Narrate your approach, ask clarifying questions before coding, handle edge cases, write readable code with clear variable names. A well-communicated 90% solution beats a silent perfect one.' },
+        { q:'What is the time-complexity lower bound for comparison-based sorting algorithms?',
+          opts:['O(n)','O(n log n)','O(n²)','O(log n)'],
+          c:1, xp:15, ex:'O(n log n) is provably optimal for comparison-based sorting (decision-tree argument). Merge sort, heap sort, and average-case quicksort all achieve this. Counting sort / radix sort can beat it but require non-comparison constraints on input.' },
+      ]},
+    /* 4 — System Design */
+    { type:'content', icon:'🏰', title:'Boss Fight 2 — System Design Castle', sub:'Design at Scale · ~5 min',
+      content:[
+        { h:'The LLM Serving Problem' },
+        { p:'Anthropic often includes AI-specific system design. Know how LLM inference works: model weights must fit in GPU VRAM (a 70B-param model in fp16 needs ~140 GB), KV cache grows with context length, and token generation is sequential — difficult to batch.' },
+        { h:'Core Patterns' },
+        { ul:['<strong>Load balancing</strong>: Distribute requests; sticky sessions for stateful inference',
+               '<strong>KV cache</strong>: Avoid recomputing attention for the prompt on every call',
+               '<strong>Rate limiting</strong>: Token bucket or sliding window per user in Redis',
+               '<strong>Streaming</strong>: SSE (Server-Sent Events) for token-by-token delivery',
+               '<strong>Observability</strong>: TTFT (time to first token), p50/p95/p99 latency, throughput'] },
+        { tip:'Lead with requirements clarification: who uses it, what scale, what are the SLA guarantees? Draw a high-level diagram first. Mention tradeoffs explicitly — "X improves latency but costs Y in complexity."' },
+      ],
+      quiz:[
+        { q:'What is the primary bottleneck when serving large language models at scale?',
+          opts:['CPU processing speed','Network bandwidth to end users','GPU memory (VRAM) for model weights and KV cache','Disk I/O when loading model checkpoints'],
+          c:2, xp:15, ex:'LLM inference is VRAM-bound. Weights (70B params × 2 bytes ≈ 140 GB in fp16) must live in GPU memory. KV cache for long contexts adds further pressure. This is why quantisation, tensor parallelism, and KV cache management are critical in production.' },
+        { q:'In the CAP theorem, a distributed system can guarantee at most two of three properties. What are they?',
+          opts:['Cost, Availability, Performance','Consistency, Availability, Partition tolerance','Concurrency, Atomicity, Persistence','Caching, Asynchrony, Pipelining'],
+          c:1, xp:15, ex:'CAP: Consistency (all nodes see the same data), Availability (every request gets a response), Partition tolerance (works despite network failures). Real networks partition, so you choose between CP or AP.' },
+        { q:'Which approach best handles rate limiting an API at 100 requests/minute per user across multiple servers?',
+          opts:['A fixed-window counter in each server\'s local memory','Token bucket or sliding window backed by a shared Redis store','A boolean flag toggled by a cron job','Block the user at the load balancer after 100 requests'],
+          c:1, xp:15, ex:'Token bucket or sliding window in Redis is the standard. Redis provides atomic operations (INCR/EXPIRE or sorted sets for sliding windows). Fixed-window has burst-at-boundary issues; local memory doesn\'t work across servers.' },
+      ]},
+    /* 5 — ML */
+    { type:'content', icon:'🧠', title:'Boss Fight 3 — The ML Sage\'s Trial', sub:'Machine Learning Fundamentals · ~7 min',
+      content:[
+        { h:'Transformer Architecture' },
+        { p:'<strong>Self-attention</strong> is the core: each token computes Q, K, V. Attention weights = softmax(QKᵀ/√dₖ), applied to V. Every token attends to every other token, capturing long-range dependencies in O(n²) per layer — which is why context length scaling is hard.' },
+        { h:'Training: RLHF and Constitutional AI' },
+        { p:'<strong>RLHF:</strong> (1) supervised fine-tuning on demonstrations, (2) train a reward model from human preference comparisons, (3) optimise the LLM with PPO to maximise the reward. Used to align base models into assistants.' },
+        { p:'<strong>Constitutional AI:</strong> replaces human labelers in step 2 with AI evaluating outputs against a "constitution" of principles. More scalable and consistent. The AI critiques and revises its own outputs before the RL stage.' },
+        { h:'Scaling Laws' },
+        { p:'Kaplan et al. (2020): model loss follows a power law with compute, data, and parameters. Chinchilla (2022): for a fixed compute budget, train a smaller model on proportionally more data — previous models like GPT-3 were undertrained.' },
+        { tip:'For Research/ML roles: be ready to derive attention from scratch, discuss positional encodings (RoPE, ALiBi), explain why transformers beat RNNs for long-range dependencies, and describe training instabilities (loss spikes, gradient clipping).' },
+      ],
+      quiz:[
+        { q:'What gives Transformer models their power over earlier recurrent architectures?',
+          opts:['Convolutional layers applied to token sequences','Recurrent connections maintaining sequential hidden state','Self-attention, letting every token directly attend to every other token','Dropout regularisation applied between transformer layers'],
+          c:2, xp:15, ex:'Self-attention computes weighted combinations across the full sequence in parallel. Every token can attend to every other token regardless of distance — solving the vanishing-gradient / long-range-dependency problem that plagued RNNs.' },
+        { q:'What is RLHF and what problem does it solve?',
+          opts:['Reduced Learning from Hallucinated Facts — a debiasing technique','Reinforcement Learning from Human Feedback — aligns model behaviour with human preferences','Recurrent Learning with Hierarchical Functions — an architecture choice','Regularised Loss from Historical Features — a training regulariser'],
+          c:1, xp:15, ex:'RLHF: humans compare pairs of outputs (which is better?), a reward model is trained on those preferences, then the LLM is fine-tuned via PPO to maximise the reward. Critical for turning base language models into helpful assistants.' },
+        { q:'What did the Chinchilla scaling law reveal about optimal LLM training?',
+          opts:['Larger models always outperform smaller ones at the same compute','For a fixed compute budget, train a smaller model on proportionally more data','Model performance plateaus after 100B parameters','Scaling data has diminishing returns vs scaling model size'],
+          c:1, xp:15, ex:'Chinchilla showed models like GPT-3 were undertrained. Optimal: scale parameters and training tokens roughly equally. A "Chinchilla-optimal" model is smaller but trained on much more data — leading to Llama, Mistral, and others.' },
+        { q:'What is mechanistic interpretability and why does Anthropic invest in it?',
+          opts:['Making model training code more readable','Reverse-engineering neural network internals to understand what computations produce specific behaviours','Writing documentation for Claude\'s API','Using hardware monitoring to optimise inference costs'],
+          c:1, xp:15, ex:'Mechanistic interpretability (pioneered by Chris Olah at Anthropic) identifies "circuits" inside neural networks — attention heads, neurons, and MLP layers implementing identifiable algorithms. Goal: understand models well enough to verify they\'re safe before deployment.' },
+      ]},
+    /* 6 — Safety */
+    { type:'content', icon:'👁️', title:'FINAL BOSS — Safety & Alignment', sub:'The Hardest Round · ~7 min',
+      content:[
+        { h:'The Alignment Problem' },
+        { p:'As AI systems become more capable, how do we ensure they pursue goals humans actually intend — even in situations not covered by training? A misaligned superintelligent system could pursue proxy goals in ways catastrophically harmful to humans.' },
+        { h:'Key Approaches' },
+        { ul:['<strong>Constitutional AI</strong>: Self-critique using principles. More scalable than RLHF alone.',
+               '<strong>Scalable oversight</strong>: Using AI to help humans supervise other AI (debate, amplification).',
+               '<strong>Mechanistic interpretability</strong>: Understand what\'s happening inside models before deployment.',
+               '<strong>Responsible Scaling Policy</strong>: Tie capability deployment to safety evidence.',
+               '<strong>Red-teaming</strong>: Adversarially probe for failures before release.'] },
+        { h:'Key Risk Scenarios' },
+        { p:'<strong>Deceptive alignment:</strong> A model that appears safe during training (knowing it\'s being evaluated) but pursues different objectives once deployed or more capable.' },
+        { p:'<strong>Reward hacking:</strong> Optimising the proxy metric (reward model) rather than the underlying goal — a model could learn to "game" RLHF feedback without being genuinely helpful.' },
+        { tip:'For Safety/Policy roles: discuss the "race to the top vs bottom" dynamic, why Anthropic publishes safety research openly, and your genuine view on balancing capability and safety investment.' },
+      ],
+      quiz:[
+        { q:'What is the core of the "alignment problem" in AI safety?',
+          opts:['Making AI code run efficiently without bugs','Ensuring AI teams follow internal engineering guidelines','As AI becomes more capable, ensuring it pursues goals humans actually intend — not proxy goals','Getting AI systems from different labs to interoperate'],
+          c:2, xp:15, ex:'The alignment problem: specification (what do we want?), generalisation (do learned goals hold in new situations?), and robustness (right goals even under pressure?). These become critically important as systems become more capable.' },
+        { q:'How does Constitutional AI differ from standard RLHF?',
+          opts:['CAI uses no human-generated data at all','CAI uses a list of principles + AI self-critique instead of humans labeling each comparison','CAI requires constitutional lawyers to review outputs','CAI only uses RL with no supervised fine-tuning'],
+          c:1, xp:15, ex:'Standard RLHF requires humans to compare thousands of output pairs (expensive, inconsistent). CAI replaces most of this with an AI evaluating its own responses against a "constitution" — the AI rewrites to comply, then a reward model trains on the AI\'s preferences. Humans still author the constitution.' },
+        { q:'What is "deceptive alignment" as an AI safety risk?',
+          opts:['An AI assistant that lies to users in conversation','A model that appears aligned during training but has learned to behave differently once deployed or more capable','An AI that gives inconsistent answers to the same question','A model deliberately programmed to deceive competitors'],
+          c:1, xp:15, ex:'Deceptive alignment (Evan Hubinger et al.): a model may learn that evaluation conditions correlate with certain situations and behave safely specifically when it detects evaluation — while pursuing different objectives otherwise. Fundamentally hard to detect from the outside.' },
+        { q:'What capability threshold triggers mandatory additional safety requirements under the RSP?',
+          opts:['Models scoring above 90% on GPQA Diamond','Meaningful ability to provide uplift for CBRN weapons or autonomous replication of itself','Any model with more than 100B parameters','Models that can pass the Turing test'],
+          c:1, xp:15, ex:'ASL-3 thresholds: meaningful uplift for CBRN (chemical, biological, radiological, nuclear) weapon development OR meaningful assistance with attacks on critical infrastructure. At ASL-3, enhanced security, access controls, and usage restrictions are required.' },
+      ]},
+    /* 7 — Behavioral */
+    { type:'content', icon:'💬', title:'Side Quest — The Behavioral Trials', sub:'Values & Judgment · ~5 min',
+      content:[
+        { h:'The STAR Framework' },
+        { p:'Structure answers as: <strong>Situation</strong> (brief context), <strong>Task</strong> (your responsibility), <strong>Action</strong> (what you specifically did — the bulk), <strong>Result</strong> (measurable outcome). Interviewers care most about Action and Result — keep S and T brief.' },
+        { h:'Common Anthropic Questions' },
+        { ul:['"Tell me about a time you pushed back on a direction you thought was wrong."',
+               '"Describe a situation where you made a decision with incomplete information."',
+               '"Tell me about something you built or shipped that you\'re proud of."',
+               '"Give an example of a time you changed your mind based on new evidence."',
+               '"Describe a time you navigated significant ambiguity or a major scope change."'] },
+        { tip:'Prepare 5–6 "anchor stories" that flex to answer different questions. Pick stories with clear impact and unambiguous individual contribution. Anthropic specifically values stories showing intellectual humility (changed your mind) and mission conviction.' },
+        { h:'The "Why Anthropic" Must-Have' },
+        { p:'Every loop includes some version of "why us specifically." Prepare a 60-second answer: (1) reference something specific — a paper, the RSP, the model spec, (2) connect to your personal beliefs, (3) explain why Anthropic\'s particular approach appeals to you. Practice it out loud.' },
+      ],
+      quiz:[
+        { q:'What does the STAR method stand for?',
+          opts:['Strategy, Tactics, Achievement, Review','Situation, Task, Action, Result','Skills, Training, Agility, Resilience','Strengths, Thoughts, Attitude, Reasoning'],
+          c:1, xp:15, ex:'STAR: Situation (brief context), Task (your responsibility), Action (what you did — most of your answer), Result (measurable outcome). Don\'t over-invest in S/T. Interviewers want your reasoning and actions, not background.' },
+        { q:'Which response best demonstrates Anthropic\'s value of intellectual humility?',
+          opts:['"I always back my positions with data and never change my mind without strong evidence."','"I prefer to defer to senior engineers to avoid conflict."','"I stated my position clearly, then genuinely updated when my colleague showed me data I hadn\'t seen."','"I try not to disagree to maintain team harmony."'],
+          c:2, xp:15, ex:'Intellectual humility at Anthropic = confident engagement + genuine updating on evidence. Not deference (B), not stubbornness (A), not avoidance (D). Option C shows real belief-change — the target behaviour.' },
+        { q:'You discover a critical bug 48 hours before a major launch. What is the Anthropic-aligned response?',
+          opts:['Fix it quietly overnight to protect the launch date','Escalate immediately with clear impact analysis, even if it risks delaying the launch','Ship and patch in the next release to meet the deadline','Wait to see if users report the bug first'],
+          c:1, xp:15, ex:'Anthropic values radical transparency and facing hard truths early. Hiding a critical bug to protect a deadline violates core honesty principles. The right move: escalate with clear severity so leadership can make an informed decision — even if it\'s painful.' },
+      ]},
+    /* 8 — Final Boss */
+    { type:'final', icon:'⚡', title:'FINAL BOSS — Knowledge Gauntlet', sub:'10 questions · All topics · Maximum XP available',
+      quiz:[
+        { q:'What was the primary motivation for Anthropic\'s founding team leaving OpenAI?',
+          opts:['Disagreements over compute allocation','Wanting to build a more commercial product','Fundamental concerns about AI safety and responsible development','To pursue research in robotics'],
+          c:2, xp:20, ex:'The founding team left OpenAI primarily due to disagreements about how to handle the safety implications of increasingly powerful AI. Anthropic was explicitly founded to pursue safety-oriented AI development at the frontier.' },
+        { q:'What is the time complexity of lookup in a hash table (average case)?',
+          opts:['O(n)','O(log n)','O(1)','O(n log n)'],
+          c:2, xp:20, ex:'Hash table average-case lookup is O(1) — constant time. With a good hash function and appropriate load factor, collisions are rare. This makes hash maps ideal for Two Sum, frequency counting, and deduplication problems.' },
+        { q:'In transformer self-attention, what does the Query (Q) represent conceptually?',
+          opts:['A token being fetched from an external database','The current token asking: "what information is relevant to me?"','The output of the feedforward network','The positional embedding added to the token'],
+          c:1, xp:20, ex:'Q = "what am I looking for?", K = "what do I offer?", V = "what information do I contain?" Attention weights = softmax(QKᵀ/√dₖ) — the Query is matched against all Keys to determine how much to attend to each Value.' },
+        { q:'The Chinchilla scaling law showed that previous large models like GPT-3 were:',
+          opts:['Too large for their compute budget','Undertrained — they needed more data relative to their parameter count','Optimally trained but too expensive to serve','Too small to benefit from more training data'],
+          c:1, xp:20, ex:'Chinchilla (2022): GPT-3 (175B params) was significantly undertrained. Compute-optimal: scale parameters and training tokens roughly equally. This led to Llama, Mistral, and others — smaller models on far more data.' },
+        { q:'What does "ASL-3" refer to in Anthropic\'s Responsible Scaling Policy?',
+          opts:['The third version of Claude\'s model architecture','The capability level triggering mandatory safety measures — including CBRN uplift evaluations','A 3-layer review process for all deployments','The minimum safety score needed to pass a model eval'],
+          c:1, xp:20, ex:'ASL (AI Safety Level) 3 in the RSP: a model demonstrates meaningful uplift for CBRN weapons or critical infrastructure attacks. At ASL-3, Anthropic must implement enhanced security, access restrictions, and monitoring before deployment.' },
+        { q:'What is "reward hacking" in the context of RLHF?',
+          opts:['A technique making reward model training more efficient','Exploiting the reward model by optimising the proxy metric in ways that don\'t reflect actual human preferences','A security vulnerability in RL libraries','Hacking competitors\' reward training data'],
+          c:1, xp:20, ex:'Goodhart\'s Law applied to AI: when a measure becomes a target, it ceases to be a good measure. A capable model optimised against a reward model may find high-scoring behaviours that fool the proxy while failing the actual goal of being helpful and safe.' },
+        { q:'Which rate-limiting algorithm best handles bursty traffic while enforcing a sustained average rate?',
+          opts:['Fixed-window counter','Leaky bucket (enforces constant rate, drops excess immediately)','Token bucket (allows burst up to bucket capacity, refills at steady rate)','Hard IP block after threshold exceeded'],
+          c:2, xp:20, ex:'Token bucket: holds up to N tokens, refills at rate R/second. Each request consumes one token. Allows bursting up to capacity while enforcing a sustained average rate — more user-friendly than leaky bucket, which drops or delays bursts immediately.' },
+        { q:'What distinguishes "deceptive alignment" from ordinary misalignment?',
+          opts:['Deceptive alignment means the model lies in text outputs','Deceptive alignment is when a model appears aligned during evaluation but behaves differently during deployment','Deceptive alignment is a model that doesn\'t know it\'s misaligned','Deceptive alignment only occurs in multi-agent systems'],
+          c:1, xp:20, ex:'Ordinary misalignment: the model just learned the wrong objective. Deceptive alignment: the model learned to detect evaluation conditions and behaves safely specifically when it believes it\'s being evaluated — far harder to detect from observed behaviour alone.' },
+        { q:'In a behavioral interview, if you genuinely don\'t know the right answer to a values-based scenario, the best move is:',
+          opts:['Say what you think the interviewer wants to hear','Deflect with a related story to avoid the question','Think out loud, share your reasoning, and acknowledge the uncertainty honestly','Give a confident answer even if you\'re unsure'],
+          c:2, xp:20, ex:'Anthropic values intellectual honesty and calibrated uncertainty. "I\'m not sure, but here\'s how I\'d think about it" is a legitimate and valued answer. Thinking out loud demonstrates the reasoning process — often more revealing than a confident but hollow answer.' },
+        { q:'What is the primary goal of mechanistic interpretability research at Anthropic?',
+          opts:['Making Claude\'s code outputs easier to read','Understanding which internal computations produce specific behaviours, to verify safety properties before deployment','Reducing the computational cost of transformer inference','Creating better documentation for the Claude API'],
+          c:1, xp:20, ex:'Mechanistic interpretability reverse-engineers neural networks — finding the circuits, features, and algorithms inside that produce specific model behaviours. Safety motivation: you can\'t trust a system you can\'t inspect. Internal understanding is necessary to verify alignment.' },
+      ]},
+  ];
+
+  function wizRender() {
+    if (!_wizContainer) return;
+    var s = _wD[_wizState.step];
+    var total = _wD.length - 1;
+    var pct = Math.round((_wizState.step / total) * 100);
+    var h = '<div class="wiz-wrap">';
+
+    /* Header */
+    h += '<div class="wiz-hdr">'
+      + '<span class="wiz-step-tag">' + (_wizState.step === 0 ? 'START' : _wizState.step === total ? 'FINAL BOSS' : 'Step ' + _wizState.step + '/' + total) + '</span>'
+      + '<div class="wiz-prog-wrap"><div class="wiz-prog-label">' + escHtml(s.title) + '</div>'
+      + '<div class="wiz-prog-bar"><div class="wiz-prog-fill" id="wiz-fill" style="width:' + pct + '%"></div></div></div>'
+      + '<div class="wiz-xp">⚡ ' + _wizState.xp + ' XP</div>'
+      + '</div>';
+
+    /* Card */
+    h += '<div class="wiz-card">';
+    h += '<div class="wiz-card-hdr"><span class="wiz-card-icon">' + s.icon + '</span>'
+      + '<div class="wiz-card-title">' + escHtml(s.title) + '</div>'
+      + '<div class="wiz-card-sub">' + escHtml(s.sub || '') + '</div></div>';
+
+    if (s.type === 'class') {
+      h += '<div style="padding:14px 22px 10px;font-size:.875rem;color:#5a4a3a;line-height:1.65;">Choose your class — the guide covers all roles, but knowing your track helps focus on the right boss fights.</div>';
+      h += '<div class="wiz-class-grid">';
+      s.classes.forEach(function(c) {
+        h += '<button class="wiz-cls' + (_wizState.cls === c.id ? ' sel' : '') + '" onclick="wizPickClass(\'' + c.id + '\')">'
+          + '<span class="wiz-cls-icon">' + c.icon + '</span>'
+          + '<span class="wiz-cls-name">' + escHtml(c.name) + '</span>'
+          + '<span class="wiz-cls-tag">' + escHtml(c.tag) + '</span>'
+          + '<span class="wiz-cls-hint">' + escHtml(c.hint) + '</span>'
+          + '</button>';
+      });
+      h += '</div>';
+      h += '<button id="wiz-start" class="wiz-start' + (_wizState.cls ? ' on' : '') + '" onclick="wizNext()">⚔️ Begin Quest →</button>';
+
+    } else {
+      /* Content blocks */
+      if (s.content) {
+        h += '<div class="wiz-card-body">';
+        s.content.forEach(function(b) {
+          if (b.h)   h += '<div class="wiz-h4">' + escHtml(b.h) + '</div>';
+          if (b.p)   h += '<p class="wiz-p">' + b.p + '</p>';
+          if (b.tip) h += '<div class="wiz-tip">' + escHtml(b.tip) + '</div>';
+          if (b.ul)  { h += '<ul class="wiz-ul">'; b.ul.forEach(function(i){ h += '<li class="wiz-li">' + i + '</li>'; }); h += '</ul>'; }
+        });
+        h += '</div>';
+      }
+      /* Quiz */
+      if (s.quiz) {
+        h += '<div class="wiz-quiz-sep"></div><div class="wiz-quiz-hdr">🎯 Knowledge Check — answer all questions to continue</div>';
+        var L = ['A','B','C','D'];
+        s.quiz.forEach(function(q, qi) {
+          var key = _wizState.step + '_' + qi;
+          var ans = _wizState.answers[key];
+          var done = ans !== undefined;
+          h += '<div class="wiz-q"><div class="wiz-q-text"><span class="wiz-q-num">' + (qi+1) + '</span>' + escHtml(q.q) + '</div><div class="wiz-opts">';
+          q.opts.forEach(function(o, oi) {
+            var cls = done ? (oi === q.c ? ' correct' : (oi === ans ? ' wrong' : '')) : '';
+            h += '<button class="wiz-opt' + cls + '"' + (done ? ' disabled' : '') + ' onclick="wizAnswer(' + qi + ',' + oi + ')">'
+              + '<span class="wiz-opt-ltr">' + L[oi] + '</span>' + escHtml(o) + '</button>';
+          });
+          h += '</div>';
+          if (done) {
+            var ok = ans === q.c;
+            h += '<div class="wiz-explain">' + (ok ? '✓ Correct! ' : '✗ Not quite — ') + escHtml(q.ex) + '</div>';
+            if (ok) h += '<div class="wiz-xp-earn">+' + q.xp + ' XP earned</div>';
+          }
+          h += '</div>';
+        });
+      }
+      /* Nav */
+      var allDone = !s.quiz || s.quiz.every(function(q,qi){ return _wizState.answers[_wizState.step+'_'+qi] !== undefined; });
+      var isLast = _wizState.step === total;
+      h += '<div class="wiz-nav">'
+        + (_wizState.step > 0 ? '<button class="wiz-btn wiz-btn-back" onclick="wizBack()">← Back</button>' : '<span></span>')
+        + '<span class="wiz-nav-mid">' + _wizState.step + '/' + total + ' complete</span>'
+        + '<button class="wiz-btn wiz-btn-next"' + (allDone ? '' : ' disabled') + ' onclick="wizNext()">'
+        + (isLast ? 'See Results 🏆' : 'Next →') + '</button>'
+        + '</div>';
+    }
+    h += '</div></div>';
+    _wizContainer.innerHTML = h;
+    _wizContainer.scrollTop = 0;
+    window.scrollTo(0, 0);
+  }
+
+  function wizVictory() {
+    var maxXP = 0;
+    _wD.forEach(function(s){ if(s.quiz) s.quiz.forEach(function(q){ maxXP += q.xp; }); });
+    var pct = maxXP ? Math.round((_wizState.xp/maxXP)*100) : 0;
+    var medal, level;
+    if (pct >= 90) { medal='🏆'; level='TOP CANDIDATE — You\'re ready 🚀'; }
+    else if (pct >= 75) { medal='🥇'; level='LIKELY HIRE — Strong prep'; }
+    else if (pct >= 55) { medal='🥈'; level='STRONG CANDIDATE — A few gaps'; }
+    else if (pct >= 35) { medal='🥉'; level='PROMISING — Keep studying'; }
+    else               { medal='💪'; level='KEEP GRINDING — You\'ve got this'; }
+
+    var achs = [];
+    achs.push('🎮 Quest Complete');
+    if (_wizState.cls) achs.push({eng:'⚙️ Engineer',ml:'🔬 Researcher',safety:'🛡️ Safety Scholar',ops:'🏗️ Operator'}[_wizState.cls] + ' Class');
+    if (pct >= 50)  achs.push('⚡ Half Power');
+    if (pct >= 75)  achs.push('⭐ Top Candidate');
+    if (pct >= 95)  achs.push('✨ Perfect Run');
+
+    var h = '<div class="wiz-wrap"><div class="wiz-card">'
+      + '<div class="wiz-card-hdr" style="text-align:center;padding:26px 22px;">'
+      + '<span class="wiz-card-icon" style="font-size:2.4rem;">' + medal + '</span>'
+      + '<div class="wiz-card-title">Quest Complete!</div>'
+      + '<div class="wiz-card-sub">Anthropic Interview Prep Wizard</div>'
+      + '</div>'
+      + '<div class="wiz-victory">'
+      + '<span class="wiz-v-xp">' + _wizState.xp + ' XP</span>'
+      + '<span class="wiz-v-level">' + level + ' · ' + pct + '% correct</span>'
+      + '<div class="wiz-achs">' + achs.map(function(a){ return '<span class="wiz-ach">'+a+'</span>'; }).join('') + '</div>'
+      + '<button class="wiz-restart" onclick="wizRestart()">🔄 Play Again</button>'
+      + '</div></div></div>';
+    _wizContainer.innerHTML = h;
+    window.scrollTo(0,0);
+  }
+
+  function wizPickClass(id) {
+    _wizState.cls = id;
+    wizRender();
+  }
+  function wizNext() {
+    if (_wizState.step >= _wD.length - 1) { wizVictory(); return; }
+    _wizState.step++;
+    wizRender();
+  }
+  function wizBack() {
+    if (_wizState.step > 0) { _wizState.step--; wizRender(); }
+  }
+  function wizAnswer(qi, oi) {
+    var key = _wizState.step + '_' + qi;
+    if (_wizState.answers[key] !== undefined) return;
+    _wizState.answers[key] = oi;
+    var q = _wD[_wizState.step].quiz[qi];
+    if (oi === q.c) {
+      _wizState.xp += q.xp;
+      wizToast('+' + q.xp + ' XP — Correct! ⚡');
+    }
+    wizRender();
+  }
+  function wizRestart() {
+    _wizState = { step:0, xp:0, cls:'', answers:{}, achievements:[] };
+    wizRender();
+  }
+  function initWizard(container) {
+    _wizContainer = container;
+    _wizState = { step:0, xp:0, cls:'', answers:{}, achievements:[] };
+    wizRender();
+  }
 
   /* ── Dashboard builder ───────────────────────────────── */
   function buildDashboard(d) {
@@ -1050,6 +1517,7 @@
           var hash = window.location.hash || '';
           var isHome = !hash || hash === '#' || hash === '#/';
           var isNews = hash.includes('docs/NEWS');
+          var isInterview = hash.indexOf('INTERVIEW') !== -1;
           var ms = document.querySelector('.markdown-section');
           if (!ms) return;
 
@@ -1149,6 +1617,13 @@
               });
               topTable.replaceWith(grid);
             }
+          }
+
+          /* ── Interview Wizard ────────────────── */
+          if (isInterview && !ms.querySelector('.wiz-wrap')) {
+            ms.innerHTML = '';
+            initWizard(ms);
+            return;
           }
 
           /* ── Source badge coloring in tables ──── */
