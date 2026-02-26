@@ -29,7 +29,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Set up Node.js (for Claude CLI)
+      - name: Set up Node.js (for Claude CLI summarization)
         uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -37,12 +37,13 @@ jobs:
       - name: Install Claude CLI
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Authenticate Claude CLI (Claude Code Max)
+      - name: Authenticate Claude CLI with Max subscription
+        # Set CLAUDE_CREDENTIALS secret to the contents of ~/.claude/credentials.json
+        # Refresh credentials: close Claude Code → open terminal → run `claude` → re-add secret
         if: ${{ secrets.CLAUDE_CREDENTIALS != '' }}
         run: |
           mkdir -p ~/.claude
           echo '${{ secrets.CLAUDE_CREDENTIALS }}' > ~/.claude/credentials.json
-          echo "Claude credentials configured."
 
       - name: Fetch news from all sources
         run: python scripts/fetch_news.py
@@ -64,6 +65,5 @@ jobs:
       - name: Write job summary
         if: always()
         run: |
-          echo "## Daily News Update — $(date -u +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "## Daily News — $(date -u +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
           python scripts/fetch_news.py --summary 2>/dev/null >> $GITHUB_STEP_SUMMARY || true
