@@ -328,13 +328,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last fetched: <!-- NEWS_DATE -->2026-02-26
 
 <!-- NEWS_START -->
-### Top Stories — 2026-02-26
+### Top Stories — February 26, 2026
 
 - [They're shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) - 1682 pts on r/ClaudeAI.
 - [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) - 1227 pts on r/ClaudeAI.
+- [Yeah buddy… Lightweight!!!💪](https://reddit.com/r/ClaudeAI/comments/1rf25vv/yeah_buddy_lightweight/) - 987 pts on r/ClaudeAI.
 - [Anthropic Drops Flagship Safety Pledge](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) - 631 pts on Hacker News.
-- [Update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) - 497 pts on r/ClaudeAI.
-- [Claude Code subagents built a 3D renderer from scratch in 3 days](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) - 299 pts on r/ClaudeAI.
+- [Official: An update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) - 605 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
