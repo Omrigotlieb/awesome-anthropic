@@ -1,0 +1,27 @@
+{
+  "name": "awesome-anthropic",
+  "version": "1.0.0",
+  "description": "[![GitHub Stars](https://img.shields.io/github/stars/Omrigotlieb/awesome-anthropic?style=flat-square&logo=github&color=yellow)](https://github.com/Omrigotlieb/awesome-anthropic/stargazers) [![Last Commit](https://img.shields.io/github/last-commit/Omrigotlieb/awesome-anthropic?style=flat-square&color=green)](https://github.com/Omrigotlieb/awesome-anthropic/commits/main) [![Daily Update](https://img.shields.io/badge/auto--updated-daily-blue?style=flat-square&logo=github-actions)](https://github.com/Omrigotlieb/awesome-anthropic/actions) [![Contributors](https://img.shields.io/github/contributors/Omrigotlieb/awesome-anthropic?style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/graphs/contributors) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![License: CC0](https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg?style=flat-square)](LICENSE) [![Changelog Sync](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/changelog-check.yml?label=changelog%20sync&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/changelog-check.yml) [![Link Check](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/link-checker.yml?label=links&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/link-checker.yml)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omrigotlieb/awesome-anthropic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omrigotlieb/awesome-anthropic/issues"
+  },
+  "homepage": "https://github.com/Omrigotlieb/awesome-anthropic#readme",
+  "dependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
