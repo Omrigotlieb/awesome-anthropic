@@ -1,0 +1,44 @@
+{
+  "anthropic_blog": {
+    "enabled": true,
+    "url": "https://www.anthropic.com/news",
+    "fetch_interval_hours": 6,
+    "type": "scrape"
+  },
+  "hacker_news": {
+    "enabled": true,
+    "api_url": "https://hn.algolia.com/api/v1/search",
+    "queries": ["anthropic", "claude AI model"],
+    "min_score": 10,
+    "fetch_interval_hours": 12,
+    "type": "api"
+  },
+  "reddit": {
+    "enabled": true,
+    "subreddits": ["ClaudeAI", "Anthropic", "MachineLearning", "LocalLLaMA"],
+    "keywords": ["anthropic", "claude"],
+    "min_score": 50,
+    "fetch_interval_hours": 12,
+    "type": "praw"
+  },
+  "arxiv": {
+    "enabled": true,
+    "search_query": "au:anthropic OR ti:claude",
+    "categories": ["cs.AI", "cs.LG", "cs.CL"],
+    "fetch_interval_hours": 24,
+    "type": "arxiv_api"
+  },
+  "github_anthropics": {
+    "enabled": true,
+    "org": "anthropics",
+    "watch_types": ["release", "new_repo"],
+    "fetch_interval_hours": 6,
+    "type": "github_api"
+  },
+  "changelog": {
+    "enabled": true,
+    "url": "https://docs.anthropic.com/en/release-notes/overview",
+    "fetch_interval_hours": 6,
+    "type": "scrape"
+  }
+}
