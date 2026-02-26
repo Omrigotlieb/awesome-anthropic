@@ -345,7 +345,7 @@
     .rmodal-title { font-family:'DM Serif Display',serif; font-size:1.12rem; color:var(--anthro-dark); line-height:1.3; flex:1; }
     .rmodal-close { background:none; border:none; font-size:1.1rem; color:var(--anthro-mid); cursor:pointer; padding:3px 7px; border-radius:6px; flex-shrink:0; line-height:1; transition:background .12s; }
     .rmodal-close:hover { background:var(--anthro-cream); }
-    .rmodal-meta { font-family:'Inter',sans-serif; font-size:.7rem; color:var(--anthro-mid); padding:7px 18px; border-bottom:1px solid var(--anthro-border); background:var(--anthro-cream); display:flex; gap:1.2rem; flex-shrink:0; }
+    .rmodal-meta { font-family:'Inter',sans-serif; font-size:.7rem; color:var(--anthro-mid); padding:7px 18px; border-bottom:1px solid var(--anthro-border); background:var(--anthro-cream); display:flex; gap:1rem; flex-shrink:0; align-items:center; flex-wrap:wrap; }
     .rmodal-body { padding:14px 18px; overflow-y:auto; flex:1; }
     .rmodal-selftext { font-family:'Inter',sans-serif; font-size:.87rem; color:#3a3530; line-height:1.72; margin-bottom:1rem; padding-bottom:1rem; border-bottom:1px solid var(--anthro-border); white-space:pre-wrap; }
     .rmodal-clabel { font-family:'Inter',sans-serif; font-size:.6rem; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--anthro-mid); margin-bottom:8px; }
@@ -597,6 +597,118 @@
     if (resEl)  resEl.innerHTML = '';
   }
 
+  /* ── Story modal ─────────────────────────────────────── */
+  var _sModal = null;
+  function closeSModal() { if (_sModal) { _sModal.remove(); _sModal = null; } }
+  document.addEventListener('keydown', function(e){ if (e.key==='Escape') closeSModal(); });
+
+  function openStoryModal(href, title, source, score) {
+    closeSModal();
+    var srcColors = {'hacker news':'#FF6600','reddit':'#FF4500','anthropic':'#D97757','arxiv':'#1A5EA8','github':'#24292E'};
+    var srcColor  = srcColors[(source||'').toLowerCase()] || '#888';
+    var isHN      = href.indexOf('news.ycombinator.com/item') !== -1;
+    var hnMatch   = href.match(/[?&]id=(\d+)/);
+
+    var srcBadge = source
+      ? '<span style="background:'+srcColor+';color:#fff;padding:2px 8px;border-radius:4px;font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;flex-shrink:0;">'+escHtml(source)+'</span>'
+      : '';
+    var initialMeta =
+      srcBadge +
+      (score ? '<span>▲ '+escHtml(String(score))+' pts</span>' : '') +
+      '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Open ↗</a>';
+
+    var initialBody = isHN && hnMatch
+      ? '<div class="rmodal-loading"><div class="rmodal-spinner"></div>Loading HN discussion…</div>'
+      : '<div style="padding:28px 18px;text-align:center;font-family:Inter,sans-serif;">'+
+          '<div style="font-size:2.2rem;margin-bottom:10px;">🔗</div>'+
+          '<div style="font-size:.86rem;color:var(--anthro-mid);">Click <strong style="color:var(--anthro-dark);">Open ↗</strong> to read the full article.</div>'+
+        '</div>';
+
+    var ov = document.createElement('div');
+    ov.className = 'rmodal-overlay';
+    ov.addEventListener('click', function(e){ if (e.target===ov) closeSModal(); });
+    ov.innerHTML =
+      '<div class="rmodal-box">'+
+        '<div class="rmodal-head">'+
+          '<div style="flex:1">'+
+            (source ? '<span class="rmodal-sub">'+escHtml(source)+'</span>' : '')+
+            '<div class="rmodal-title">'+escHtml(title||href)+'</div>'+
+          '</div>'+
+          '<button class="rmodal-close" onclick="closeSModal()">✕</button>'+
+        '</div>'+
+        '<div class="rmodal-meta" id="sm-meta">'+initialMeta+'</div>'+
+        '<div class="rmodal-body" id="sm-body">'+initialBody+'</div>'+
+        '<div class="rmodal-foot">'+
+          '<span style="font-family:Inter,sans-serif;font-size:.67rem;color:var(--anthro-mid);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;">'+escHtml(href.replace(/^https?:\/\//,'').slice(0,72))+'</span>'+
+          '<button class="rmodal-btn rmodal-btn-s" onclick="closeSModal()">Close</button>'+
+        '</div>'+
+      '</div>';
+    document.body.appendChild(ov);
+    _sModal = ov;
+
+    /* HN: fetch discussion via CORS-enabled Firebase API */
+    if (!isHN || !hnMatch) return;
+    var hnId = hnMatch[1];
+    fetch('https://hacker-news.firebaseio.com/v0/item/'+hnId+'.json')
+      .then(function(r){ return r.json(); })
+      .then(function(item){
+        var metaEl = document.getElementById('sm-meta');
+        if (metaEl) metaEl.innerHTML =
+          '<span style="background:#FF6600;color:#fff;padding:2px 8px;border-radius:4px;font-size:.62rem;font-weight:700;letter-spacing:.04em;flex-shrink:0;">Hacker News</span>'+
+          '<span>▲ '+(item.score||score||0)+' pts</span>'+
+          '<span>💬 '+(item.descendants||0)+' comments</span>'+
+          (item.url ? '<a href="'+escHtml(item.url)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Read article ↗</a>'+
+                      '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-s" style="font-size:.71rem;padding:4px 10px;">HN thread</a>'
+                    : '<a href="'+escHtml(href)+'" target="_blank" rel="noopener" class="rmodal-btn rmodal-btn-p" style="margin-left:auto;font-size:.71rem;padding:4px 13px;">Open ↗</a>');
+        var kids = (item.kids||[]).slice(0,6);
+        if (!kids.length) {
+          var bodyEl = document.getElementById('sm-body');
+          if (bodyEl) bodyEl.innerHTML='<div style="padding:20px 18px;font-family:Inter,sans-serif;font-size:.83rem;color:var(--anthro-mid);text-align:center;">No comments yet.</div>';
+          return;
+        }
+        return Promise.all(kids.map(function(id){
+          return fetch('https://hacker-news.firebaseio.com/v0/item/'+id+'.json').then(function(r){ return r.json(); }).catch(function(){ return null; });
+        }));
+      })
+      .then(function(comments){
+        if (!comments) return;
+        var bodyEl = document.getElementById('sm-body');
+        if (!bodyEl) return;
+        var items = comments.filter(function(c){ return c && c.text; });
+        if (!items.length) return;
+        var html = '<div class="rmodal-clabel" style="padding:12px 18px 4px;">Top HN Comments</div>';
+        html += items.map(function(c){
+          var txt = (c.text||'')
+            .replace(/<a[^>]*href="([^"]*)"[^>]*>.*?<\/a>/g,'$1')
+            .replace(/<[^>]+>/g,' ')
+            .replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#x2F;/g,'/').replace(/&#x27;/g,"'").replace(/\s+/g,' ').trim();
+          if (txt.length>400) txt=txt.slice(0,400)+'…';
+          return '<div class="rmodal-comment">'+
+            '<div class="rmodal-cmeta"><strong style="color:var(--anthro-dark);">'+escHtml(c.by||'?')+'</strong>&nbsp;·&nbsp;▲ '+(c.score||0)+'</div>'+
+            '<div class="rmodal-cbody">'+escHtml(txt)+'</div>'+
+          '</div>';
+        }).join('');
+        bodyEl.innerHTML = html;
+      })
+      .catch(function(){
+        var bodyEl = document.getElementById('sm-body');
+        if (bodyEl) bodyEl.innerHTML='<div style="padding:20px 18px;font-family:Inter,sans-serif;font-size:.83rem;color:var(--anthro-mid);text-align:center;">Could not load discussion.</div>';
+      });
+  }
+
+  /* Intercept clicks on story links (marked with data-sm) */
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a[data-sm]');
+    if (!a) return;
+    e.preventDefault();
+    openStoryModal(
+      a.getAttribute('href')||'',
+      a.dataset.smTitle || a.textContent.trim(),
+      a.dataset.smSrc   || '',
+      parseInt(a.dataset.smScore||'0') || 0
+    );
+  }, true);
+
   /* ── Dashboard builder ───────────────────────────────── */
   function buildDashboard(d) {
     var stories=d.stories||[], announces=d.announces||[], sdks=d.sdks||[];
@@ -623,7 +735,7 @@
     var leadW='<div class="dash-widget ws-4 wr-2">'+
       '<div class="dash-wh"><span class="dash-wh-icon">🔥</span><span class="dash-wh-label">Top Story</span>'+
         '<a href="#/docs/NEWS" class="dash-wh-link">All stories →</a></div>'+
-      '<a href="'+escHtml(lead.href||'#')+'" class="dash-lead-card '+lsc+'" rel="noopener noreferrer" target="_blank">'+
+      '<a href="'+escHtml(lead.href||'#')+'" class="dash-lead-card '+lsc+'" data-sm="1" data-sm-title="'+escHtml(lead.title||'')+'" data-sm-src="'+escHtml(lead.source||'')+'" data-sm-score="'+escHtml(String(lead.score||0))+'">'+
         '<span class="dash-lead-rank">1</span>'+
         '<div class="dash-lead-overlay">'+
           '<span class="dash-lead-inner-title">'+escHtml(lead.title||'')+'</span>'+
@@ -643,7 +755,7 @@
       return '<div class="dash-lb-row" style="--sp:'+pct+'%">'+
         '<span class="dash-lb-rank'+hot+'">'+r+'</span>'+
         '<div>'+
-          '<a href="'+escHtml(s.href)+'" rel="noopener noreferrer" target="_blank" class="dash-lb-title">'+escHtml(s.title)+'</a>'+
+          '<a href="'+escHtml(s.href)+'" class="dash-lb-title" data-sm="1" data-sm-title="'+escHtml(s.title)+'" data-sm-src="'+escHtml(s.source)+'" data-sm-score="'+escHtml(String(s.score))+'">'+escHtml(s.title)+'</a>'+
           '<span class="dash-lb-src">'+escHtml(s.source)+'</span>'+
         '</div>'+
         '<span class="dash-lb-score">▲&nbsp;'+escHtml(String(s.score))+'</span>'+
@@ -695,7 +807,7 @@
     /* Announcements */
     var annItems=announces.slice(0,5).map(function(a){
       return '<div class="dash-ann-item"><div class="dash-ann-dot"></div><div>'+
-        '<a href="'+escHtml(a.href)+'" target="_blank" rel="noopener" class="dash-ann-title">'+escHtml(a.title)+'</a>'+
+        '<a href="'+escHtml(a.href)+'" class="dash-ann-title" data-sm="1" data-sm-title="'+escHtml(a.title)+'" data-sm-src="'+escHtml(a.source||'')+'" data-sm-score="0">'+escHtml(a.title)+'</a>'+
         '<span class="dash-ann-src">'+escHtml(a.source)+'</span>'+
       '</div></div>';
     }).join('');
@@ -794,7 +906,7 @@
     Object.keys(dSrcs).sort(function(a,b){ return dSrcs[b]-dSrcs[a]; }).forEach(function(k){ dSrcList.push(k); });
     var dLead = lead.title ? 'Top story — <strong>'+escHtml(lead.title)+'</strong> (▲&nbsp;'+escHtml(String(lead.score||''))+' on '+escHtml(lead.source||'')+').' : 'Dashboard loading…';
     var dOthers = stories.slice(1,3).map(function(s){
-      return '<a href="'+escHtml(s.href)+'" target="_blank" rel="noopener" style="color:var(--anthro-rust);text-decoration:none;border-bottom:1px solid rgba(217,119,87,.3);">'+escHtml(s.title)+'</a>';
+      return '<a href="'+escHtml(s.href)+'" data-sm="1" data-sm-title="'+escHtml(s.title)+'" data-sm-src="'+escHtml(s.source)+'" data-sm-score="'+escHtml(String(s.score))+'" style="color:var(--anthro-rust);text-decoration:none;border-bottom:1px solid rgba(217,119,87,.3);">'+escHtml(s.title)+'</a>';
     });
     var dBody = dLead + (dOthers.length ? ' Also trending: '+dOthers.join(' and ')+'.':'');
     var digestW='<div class="dash-widget ws-12">'+
@@ -870,7 +982,7 @@
     var buzCards = stories.slice(0,8).map(function(s) {
       var key = (s.source||'').toLowerCase();
       var meta = buzSrcMeta[key] || { bg:'#888', initials:(s.source||'?').slice(0,2) };
-      return '<a href="'+escHtml(s.href)+'" class="dash-tweet" target="_blank" rel="noopener noreferrer">'+
+      return '<a href="'+escHtml(s.href)+'" class="dash-tweet" data-sm="1" data-sm-title="'+escHtml(s.title||'')+'" data-sm-src="'+escHtml(s.source||'')+'" data-sm-score="'+escHtml(String(s.score||0))+'">'+
         '<div class="dash-tweet-head">'+
           '<div class="dash-tweet-av" style="background:'+meta.bg+'">'+escHtml(meta.initials)+'</div>'+
           '<div style="flex:1;min-width:0;">'+
