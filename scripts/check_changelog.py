@@ -120,35 +120,33 @@ def save_hash(h: str) -> None:
 
 
 def format_entry(entry: ChangelogEntry) -> str:
-    lines = [f"### {entry.date}: {entry.title}", ""]
-    lines.append(entry.content)
+    """Format as '## Month D, YYYY — Title' to match the JS parseChangelog parser."""
+    try:
+        human_date = datetime.strptime(entry.date, "%Y-%m-%d").strftime("%B %-d, %Y")
+    except ValueError:
+        human_date = entry.date
+    title = entry.title.rstrip(".")
+    lines = [f"## {human_date} — {title}", ""]
+    lines.append(entry.content.strip())
+    lines.append("")
+    lines.append("---")
     lines.append("")
     return "\n".join(lines)
 
 
 def write_changelog(entries: list[ChangelogEntry]) -> None:
+    """Fully replace changelog content (hash check ensures this only runs when changed)."""
     DOCS_DIR.mkdir(exist_ok=True)
     path = DOCS_DIR / "CHANGELOG.md"
     synced_at = datetime.now(tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    new_block = "\n".join(format_entry(e) for e in entries)
-
-    if path.exists():
-        existing = path.read_text()
-        # Prepend new entries after the header
-        header_end = existing.find("\n\n") + 2
-        if header_end < 2:
-            header_end = len(existing)
-        content = existing[:header_end] + new_block + "\n---\n\n" + existing[header_end:]
-    else:
-        header = (
-            "# Anthropic Changelog Mirror\n\n"
-            f"> Auto-synced from [{CHANGELOG_URL}]({CHANGELOG_URL})\n"
-            f"> Last sync: {synced_at}\n\n"
-        )
-        content = header + new_block
-
-    path.write_text(content)
+    header = (
+        "# Anthropic Changelog\n\n"
+        f"> Auto-synced from [{CHANGELOG_URL}]({CHANGELOG_URL})."
+        f" Updated {synced_at}\n\n---\n\n"
+    )
+    body = "\n".join(format_entry(e) for e in entries)
+    path.write_text(header + body)
 
 
 def update_readme_date() -> None:
