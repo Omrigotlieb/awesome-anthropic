@@ -71,7 +71,8 @@ test.describe('Sidebar navigation', () => {
   test('Changelog link navigates and loads', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
-    await page.click('.sidebar a:has-text("Changelog")');
+    // Use href selector to avoid matching "Changelog (Auto-updated)" sub-heading in page TOC
+    await page.click('.sidebar a[href="#/docs/CHANGELOG"]');
     await page.waitForURL(/docs\/CHANGELOG/, { timeout: 10000 });
     await expect(page.locator('.markdown-section')).toContainText('Anthropic Changelog', { timeout: 15000 });
   });
