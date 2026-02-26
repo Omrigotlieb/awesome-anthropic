@@ -326,7 +326,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last fetched: <!-- NEWS_DATE -->2026-02-26
 
 <!-- NEWS_START -->
-### Top Stories — February 26, 2026
+### Top Stories — 2026-02-26
 
 - [They're shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) - 1682 pts on r/ClaudeAI.
 - [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) - 1227 pts on r/ClaudeAI.
