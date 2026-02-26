@@ -139,21 +139,21 @@
     .dash-stat-num { display:block; font-family:'DM Serif Display',serif; font-size:1.5rem; color:#d97757; line-height:1; }
     .dash-stat-label { display:block; font-family:'Inter',sans-serif; font-size:.57rem; color:#7a6a5a; text-transform:uppercase; letter-spacing:.1em; margin-top:4px; font-weight:600; }
 
-    /* ── Source gradient backgrounds ──────────────────── */
-    .ci-hn        { background:radial-gradient(ellipse at 85% 10%,rgba(255,230,150,.42) 0%,transparent 50%),linear-gradient(145deg,#FF9A5C 0%,#C84800 100%); }
-    .ci-reddit    { background:radial-gradient(ellipse at 85% 10%,rgba(255,200,140,.38) 0%,transparent 50%),linear-gradient(145deg,#FF7A5A 0%,#B83000 100%); }
-    .ci-arxiv     { background:radial-gradient(ellipse at 85% 10%,rgba(160,220,255,.38) 0%,transparent 50%),linear-gradient(145deg,#5BAFD6 0%,#1A5EA8 100%); }
-    .ci-anthropic { background:radial-gradient(ellipse at 85% 10%,rgba(255,230,190,.42) 0%,transparent 50%),linear-gradient(145deg,#F4A67A 0%,#C25C30 100%); }
-    .ci-github    { background:radial-gradient(ellipse at 85% 10%,rgba(180,210,240,.28) 0%,transparent 50%),linear-gradient(145deg,#8A9299 0%,#3A4048 100%); }
-    .ci-default   { background:radial-gradient(ellipse at 85% 10%,rgba(210,190,170,.32) 0%,transparent 50%),linear-gradient(145deg,#A08878 0%,#5A4A3A 100%); }
+    /* ── Source image backgrounds (Imagen 4 generated) ── */
+    .ci-hn        { background:linear-gradient(to bottom,rgba(0,0,0,.08) 0%,rgba(0,0,0,.45) 100%),url('assets/img/thumb-hn.jpg') center/cover no-repeat; }
+    .ci-reddit    { background:linear-gradient(to bottom,rgba(0,0,0,.08) 0%,rgba(0,0,0,.45) 100%),url('assets/img/thumb-reddit.jpg') center/cover no-repeat; }
+    .ci-arxiv     { background:linear-gradient(to bottom,rgba(0,0,0,.08) 0%,rgba(0,0,0,.45) 100%),url('assets/img/thumb-arxiv.jpg') center/cover no-repeat; }
+    .ci-anthropic { background:linear-gradient(to bottom,rgba(0,0,0,.08) 0%,rgba(0,0,0,.45) 100%),url('assets/img/thumb-anthropic.jpg') center/cover no-repeat; }
+    .ci-github    { background:linear-gradient(to bottom,rgba(0,0,0,.08) 0%,rgba(0,0,0,.45) 100%),url('assets/img/thumb-github.jpg') center/cover no-repeat; }
+    .ci-default   { background:linear-gradient(to bottom,rgba(0,0,0,.08) 0%,rgba(0,0,0,.45) 100%),url('assets/img/thumb-anthropic.jpg') center/cover no-repeat; }
 
     /* Decorative watermark characters per source type */
-    .ci-hn::before       { content:'HN'; position:absolute; right:10px; top:-6px; font-family:'Impact','Arial Black',sans-serif; font-size:5.5rem; font-weight:900; color:rgba(255,255,255,.14); line-height:1; pointer-events:none; user-select:none; z-index:0; }
-    .ci-reddit::before   { content:'r/'; position:absolute; right:8px; top:-2px; font-family:'Inter',sans-serif; font-size:5.5rem; font-weight:900; color:rgba(255,255,255,.14); line-height:1; pointer-events:none; user-select:none; z-index:0; }
-    .ci-arxiv::before    { content:'∑'; position:absolute; right:8px; top:-12px; font-family:'DM Serif Display',Georgia,serif; font-size:6.5rem; font-weight:400; color:rgba(255,255,255,.16); line-height:1; pointer-events:none; user-select:none; z-index:0; }
-    .ci-anthropic::before { content:'A'; position:absolute; right:10px; top:-8px; font-family:'DM Serif Display',Georgia,serif; font-size:6.5rem; font-weight:400; color:rgba(255,255,255,.13); line-height:1; pointer-events:none; user-select:none; z-index:0; }
-    .ci-github::before   { content:'</>'; position:absolute; right:6px; top:2px; font-family:ui-monospace,'SF Mono',Menlo,monospace; font-size:3rem; font-weight:700; color:rgba(255,255,255,.13); line-height:1; pointer-events:none; user-select:none; z-index:0; }
-    .ci-default::before  { content:'⚡'; position:absolute; right:10px; top:-4px; font-size:5rem; color:rgba(255,255,255,.11); line-height:1; pointer-events:none; user-select:none; z-index:0; }
+    .ci-hn::before       { content:'HN'; position:absolute; right:10px; top:-6px; font-family:'Impact','Arial Black',sans-serif; font-size:5.5rem; font-weight:900; color:rgba(255,255,255,.22); line-height:1; pointer-events:none; user-select:none; z-index:0; }
+    .ci-reddit::before   { content:'r/'; position:absolute; right:8px; top:-2px; font-family:'Inter',sans-serif; font-size:5.5rem; font-weight:900; color:rgba(255,255,255,.22); line-height:1; pointer-events:none; user-select:none; z-index:0; }
+    .ci-arxiv::before    { content:'∑'; position:absolute; right:8px; top:-12px; font-family:'DM Serif Display',Georgia,serif; font-size:6.5rem; font-weight:400; color:rgba(255,255,255,.24); line-height:1; pointer-events:none; user-select:none; z-index:0; }
+    .ci-anthropic::before { content:'A'; position:absolute; right:10px; top:-8px; font-family:'DM Serif Display',Georgia,serif; font-size:6.5rem; font-weight:400; color:rgba(255,255,255,.2); line-height:1; pointer-events:none; user-select:none; z-index:0; }
+    .ci-github::before   { content:'</>'; position:absolute; right:6px; top:2px; font-family:ui-monospace,'SF Mono',Menlo,monospace; font-size:3rem; font-weight:700; color:rgba(255,255,255,.2); line-height:1; pointer-events:none; user-select:none; z-index:0; }
+    .ci-default::before  { content:'⚡'; position:absolute; right:10px; top:-4px; font-size:5rem; color:rgba(255,255,255,.18); line-height:1; pointer-events:none; user-select:none; z-index:0; }
 
     /* ── Lead story — title-in-image layout ───────────── */
     .dash-lead-card {
