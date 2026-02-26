@@ -355,12 +355,12 @@ def append_to_news_md(items: list[NewsItem]) -> None:
             lines.append(f"  > {item.summary}")
     lines.append("")
 
-    existing = news_path.read_text() if news_path.exists() else "# Anthropic News Archive\n\n"
-    # Insert after the top-level header
-    header_end = existing.find("\n\n") + 2
-    if header_end < 2:
-        header_end = 0
-    new_content = existing[:header_end] + "\n".join(lines) + "\n" + existing[header_end:]
+    existing = news_path.read_text() if news_path.exists() else "# Anthropic News Feed\n\n"
+    # Insert before the first date section (## heading), keeping the intro block intact
+    import re as _re
+    match = _re.search(r'\n## ', existing)
+    insert_pos = (match.start() + 1) if match else len(existing)
+    new_content = existing[:insert_pos] + "\n".join(lines) + "\n" + existing[insert_pos:]
     news_path.write_text(new_content)
 
 
