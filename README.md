@@ -64,12 +64,13 @@ This list is **automatically updated every day** — changelog synced from the o
 
 ## Models
 
-### Claude 4 Family (2025)
+### Claude 4 Family (2025–2026)
 
 | Model | Context | Best For |
 |-------|---------|----------|
-| **Claude Opus 4** | 200K tokens | Most capable — complex reasoning, research, long documents |
-| **Claude Sonnet 4.6** | 200K tokens | Balanced performance and cost — most popular for production |
+| **Claude Opus 4.6** | 1M tokens (beta) | Most intelligent — complex agentic tasks, long-horizon work |
+| **Claude Opus 4.5** | 200K tokens | Vision, coding, computer use at accessible price |
+| **Claude Sonnet 4.6** | 1M tokens (beta) | Balanced performance and cost — most popular for production |
 | **Claude Haiku 4.5** | 200K tokens | Fastest and cheapest — real-time applications, high volume |
 
 ### Claude 3 Family (2024)
@@ -83,7 +84,7 @@ This list is **automatically updated every day** — changelog synced from the o
 
 ### Specialized Capabilities
 
-- **Extended Thinking** — Deep reasoning with visible thought chains (Opus 4, Sonnet 3.7+).
+- **Extended Thinking** — Deep reasoning with visible thought chains (Opus 4.6, Opus 4.5, Sonnet 4.6+).
 - **Computer Use** — Autonomous GUI interaction (Sonnet 3.5+).
 - **Tool Use / Function Calling** — Structured JSON tool integration across all models.
 - **Vision** — Image understanding across all current models.
@@ -315,27 +316,22 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last synced: <!-- CHANGELOG_DATE -->2026-02-26
 
 <!-- CHANGELOG_START -->
-### 2026-02-19: We've launched automatic caching for the Messages API. Add a single cache_contro...
+### Feb 19, 2026 — Automatic Caching + Model Retirements
 
-We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in our prompt caching documentation . 
- We've retired the Claude Sonnet 3.7 model ( claude-3-7-sonnet-20250219 ) and the Claude Haiku 3.5 model ( claude-3-5-haiku-20241022 ). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Haiku 4.5 respectively. Researchers can request ongoing access through the External Researcher Access Program . 
- We announced the deprecation of the Claude Haiku 3 model ( claude-3-haiku-20240307 ), with retirement scheduled for
+**Automatic prompt caching** is now available on the Messages API — add a single `cache_control` field and the system auto-caches without manual breakpoints. Available on Claude API and Azure AI Foundry (preview).
 
-### 2026-04-19: . We recommend migrating to Claude Haiku 4.5 . Read more in model deprecations .
+**Model retirements:** `claude-3-7-sonnet-20250219` and `claude-3-5-haiku-20241022` retired. Upgrade to **Claude Sonnet 4.6** and **Claude Haiku 4.5** respectively.
 
-. We recommend migrating to Claude Haiku 4.5 . Read more in model deprecations .
+### Feb 17, 2026 — Claude Sonnet 4.6 Launch
 
-### 2026-02-17: We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and...
+**Claude Sonnet 4.6** — improved agentic search, fewer tokens consumed, extended thinking support, 1M token context window (beta). Code execution now **free when used with web search or web fetch**. Web search + programmatic tool calling now GA (no beta header required).
 
-We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details. 
- API code execution is now free when used with web search or web fetch . Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage. 
- The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering , which uses code execution to filter results before they reach the context window for better performance and reduced token cost. 
- The code execution tool , web fetch tool , tool search tool , tool use examples , and memory tool are now generally available (no beta header required).
+### Feb 5, 2026 — Claude Opus 4.6 Launch
 
-[Full changelog history →](docs/CHANGELOG.md)
+**Claude Opus 4.6** — most intelligent model for complex agentic tasks. Uses `thinking: {type: "adaptive"}` by default. New **`effort` parameter** (GA), **Compaction API** (beta), **data residency controls** via `inference_geo`.
+
+[Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
-
-[Full changelog history →](docs/CHANGELOG.md)
 
 ---
 
@@ -345,24 +341,20 @@ We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and
 > Last fetched: <!-- NEWS_DATE -->2026-02-26
 
 <!-- NEWS_START -->
-## Weekly Digest — 2026-02-26
+### Top Stories — Feb 26, 2026
 
-### Recent News
+| ⭐ | Story | Source |
+|---:|-------|--------|
+| 1682 | [They’re shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) | r/ClaudeAI |
+| 1227 | [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) | r/ClaudeAI |
+| 631 | [Anthropic Drops Flagship Safety Pledge](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) | Hacker News |
+| 497 | [Update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) | r/ClaudeAI |
+| 299 | [Claude Code subagents built a 3D renderer from scratch in 3 days](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) | r/ClaudeAI |
 
-# Anthropic News Archive
+**Official:** [Anthropic acquires Vercept AI](https://www.anthropic.com/news/acquires-vercept) · [RSP v3.0](https://www.anthropic.com/news/responsible-scaling-policy-v3) · [Claude Code Security](https://www.anthropic.com/news/claude-code-security)
 
-## 2026-02-26
-
-- [They’re shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) — r/ClaudeAI | Score: 1682
-- [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) — r/ClaudeAI | Score: 1227
-- [Official: An update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) — r/ClaudeAI | Score: 497
-- [Claude Code with subagents inside subagents cooked for 3 days - Delivered 3D renderer that draws with terminal symbols](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) — r/ClaudeAI | Score: 299
-- [Dear Mr. Amodei](https://reddit.com/r/Anthropic/comments/1reljtv/dear_mr_amodei/) — r/Anthropic | Score: 218
-
-[View all news →](docs/NEWS.md)
+[Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
-
-[Full news archive →](docs/NEWS.md)
 
 ---
 
