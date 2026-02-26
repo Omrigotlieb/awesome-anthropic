@@ -58,11 +58,16 @@ def generate_with_claude(news: str, changelog: str) -> str:
     try:
         import sys
         sys.path.insert(0, str(ROOT))
-        from scripts.utils.anthropic_api import _make_client, is_api_available, _default_model
+        from scripts.utils.anthropic_api import is_api_available, _summarize_via_cli, _api_key_available
         if not is_api_available():
             raise ValueError("No credentials available")
 
-        client = _make_client()
+        if _api_key_available():
+            import anthropic
+            client = anthropic.Anthropic()
+            use_cli = False
+        else:
+            use_cli = True
         prompt = f"""You are maintaining an "awesome-anthropic" GitHub repository that tracks Anthropic news.
 
 Based on the following recent news and changelog entries, write a concise weekly digest in Markdown format.
@@ -89,8 +94,10 @@ RECENT CHANGELOG:
 
 Write the digest now. Be concise and developer-focused."""
 
+        if use_cli:
+            return _summarize_via_cli("digest", "", prompt[:2000])
         message = client.messages.create(
-            model=_default_model(),
+            model="claude-haiku-4-5-20251001",
             max_tokens=800,
             messages=[{"role": "user", "content": prompt}],
         )
