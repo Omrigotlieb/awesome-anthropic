@@ -10,48 +10,270 @@
   <meta property="og:type" content="website" />
   <link rel="icon" href="https://anthropic.com/favicon.ico" />
 
+  <!-- Anthropic-style typography: Lora (body serif) + DM Serif Display (headings) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
 
   <style>
+    /* ══════════════════════════════════════════════════════════
+       ANTHROPIC DESIGN SYSTEM
+       Colors from anthropic.com + claude.ai brand guidelines
+       ══════════════════════════════════════════════════════════ */
     :root {
-      --theme-color: #c97a4b;
-      --sidebar-bg:  #1a1a2e;
+      /* Anthropic brand palette */
+      --anthro-dark:    #141413;
+      --anthro-light:   #faf9f5;
+      --anthro-cream:   #f4f3ee;
+      --anthro-border:  #e8e6dc;
+      --anthro-mid:     #b0aea5;
+      --anthro-orange:  #d97757;
+      --anthro-rust:    #ae5630;
+      --anthro-blue:    #6a9bcc;
+
+      /* Sidebar — warm deep brown (not cold navy) */
+      --sidebar-bg:     #1c1108;
+      --sidebar-hover:  #2e1e0e;
+      --sidebar-active: #3d2510;
+
+      /* Docsify overrides */
+      --theme-color: #d97757;
     }
 
-    /* Sidebar */
-    .sidebar { background: var(--sidebar-bg) !important; border-right: 1px solid #2a2a4a; }
-    .sidebar ul li a { color: #e8e8f0 !important; font-size: 0.88rem; transition: color 0.15s; }
-    .sidebar ul li a:hover, .sidebar ul li.active > a { color: #f0a870 !important; font-weight: 600; }
-    .sidebar ul li strong { color: #c97a4b !important; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 1rem; display: block; }
+    /* ── Base & body ────────────────────────────────────────── */
+    body, .app-wrapper {
+      background: var(--anthro-light) !important;
+      color: var(--anthro-dark);
+      font-family: 'Lora', ui-serif, Georgia, serif;
+    }
+
+    /* ── Sidebar ─────────────────────────────────────────────── */
+    .sidebar {
+      background: var(--sidebar-bg) !important;
+      border-right: 1px solid #3d2510;
+    }
+    .sidebar-nav { padding: 4px 6px 12px; }
+
+    .app-name {
+      padding: 20px 16px 8px;
+      border-bottom: 1px solid #3d2510;
+      margin-bottom: 8px;
+    }
+    .app-name-link {
+      color: #f0c4a0 !important;
+      font-family: 'DM Serif Display', ui-serif, Georgia, serif !important;
+      font-size: 1.15rem !important;
+      letter-spacing: -0.01em;
+    }
+
+    .sidebar ul li a {
+      color: #c8bfb0 !important;
+      font-family: 'Lora', ui-serif, Georgia, serif;
+      font-size: 0.87rem;
+      padding: 5px 10px;
+      border-radius: 6px;
+      display: block;
+      transition: background 0.15s, color 0.15s;
+    }
+    .sidebar ul li a:hover {
+      background: var(--sidebar-hover) !important;
+      color: #f0c4a0 !important;
+    }
+    .sidebar ul li.active > a {
+      background: var(--sidebar-active) !important;
+      color: #f5d0a8 !important;
+      font-weight: 600;
+      border-left: 3px solid var(--anthro-orange);
+      padding-left: 7px;
+    }
+    .sidebar ul li strong {
+      color: #b07040 !important;
+      font-family: 'Lora', ui-serif, Georgia, serif;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin: 1.2rem 0 0.3rem 10px;
+      display: block;
+      font-style: normal;
+    }
     .sidebar-toggle { background: var(--sidebar-bg) !important; }
-    .app-name-link { color: #f0a870 !important; font-weight: 700; font-size: 1.05rem; }
 
-    /* Search */
-    .search input { background: #12122a !important; color: #e0e0f0 !important; border: 1px solid #3a3a5a !important; border-radius: 6px; padding: 7px 10px; width: 100%; font-size: 0.85rem; }
-    .search input::placeholder { color: #6060a0; }
-    .search .results-panel { background: #1a1a2e; border: 1px solid #2a2a4a; }
-    .search .results-panel .matching-post { color: #c0c0e0; }
-    .search .results-panel .matching-post:hover { background: #2a2a4a; }
-    .search .results-panel h2 { color: #c97a4b; font-size: 0.9rem; }
+    /* ── Search ──────────────────────────────────────────────── */
+    .search { padding: 10px 8px; }
+    .search input {
+      background: #0e0904 !important;
+      color: #e8e0d0 !important;
+      border: 1px solid #3d2510 !important;
+      border-radius: 8px;
+      padding: 8px 12px;
+      width: 100%;
+      font-family: 'Lora', Georgia, serif;
+      font-size: 0.84rem;
+      transition: border-color 0.2s;
+    }
+    .search input:focus { border-color: var(--anthro-orange) !important; outline: none; }
+    .search input::placeholder { color: #6a5a40; }
+    .search .results-panel {
+      background: #1c1108;
+      border: 1px solid #3d2510;
+      border-radius: 8px;
+      margin-top: 4px;
+    }
+    .search .results-panel .matching-post { color: #c8bfb0; padding: 8px 12px; }
+    .search .results-panel .matching-post:hover { background: var(--sidebar-hover); }
+    .search .results-panel h2 { color: var(--anthro-orange); font-size: 0.85rem; }
 
-    /* Content */
-    h2 { border-bottom: 2px solid var(--theme-color); padding-bottom: 6px; }
-    .markdown-section a { color: #b56c30; text-decoration: none; border-bottom: 1px dotted #c97a4b; transition: color 0.15s; }
-    .markdown-section a:hover { color: var(--theme-color); border-bottom-style: solid; }
-    p code, li code { background: #f0ede8; color: #8b3a0f; border-radius: 4px; padding: 1px 5px; font-size: 0.85em; }
+    /* ── Main content ────────────────────────────────────────── */
+    .content { background: var(--anthro-light) !important; }
+    .markdown-section { max-width: 880px; padding: 2rem 2.5rem; }
 
-    /* Tables */
-    table { border-collapse: collapse; width: 100%; font-size: 0.9rem; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
-    thead tr { background: var(--theme-color); color: #fff; }
-    thead th { padding: 10px 14px; text-align: left; }
-    tbody tr:nth-child(even) { background: #f7f4f1; }
-    tbody td { padding: 8px 14px; border-top: 1px solid #eee; }
+    /* Headings — DM Serif Display for that editorial feel */
+    h1 {
+      font-family: 'DM Serif Display', ui-serif, Georgia, serif;
+      font-size: 2.2rem;
+      color: var(--anthro-dark);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+    h2 {
+      font-family: 'DM Serif Display', ui-serif, Georgia, serif;
+      border-bottom: 2px solid var(--anthro-border);
+      padding-bottom: 8px;
+      margin-top: 2.5rem;
+      font-size: 1.4rem;
+      color: var(--anthro-dark);
+      font-weight: 400;
+    }
+    h3 {
+      font-family: 'Lora', ui-serif, Georgia, serif;
+      font-size: 1.05rem;
+      color: var(--anthro-rust);
+      margin-top: 1.8rem;
+      font-style: italic;
+    }
 
-    /* Footer */
-    .page-footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid #e0dbd4; font-size: 0.78rem; color: #888; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px; }
-    .page-footer a { color: #b56c30; border: none; }
+    /* Body text */
+    .markdown-section p, .markdown-section li {
+      font-family: 'Lora', ui-serif, Georgia, serif;
+      line-height: 1.75;
+      color: #2a2520;
+      font-size: 0.97rem;
+    }
 
-    @media (max-width: 768px) { .content { padding: 0 16px; } table { font-size: 0.8rem; } }
+    /* Links */
+    .markdown-section a {
+      color: var(--anthro-rust);
+      text-decoration: none;
+      border-bottom: 1px solid #d9775740;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .markdown-section a:hover {
+      color: var(--anthro-orange);
+      border-bottom-color: var(--anthro-orange);
+    }
+
+    /* Inline code */
+    p code, li code {
+      background: #f0ece4;
+      color: var(--anthro-rust);
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-size: 0.85em;
+      border: 1px solid var(--anthro-border);
+      font-family: ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
+    }
+
+    /* Blockquote */
+    blockquote {
+      border-left: 3px solid var(--anthro-orange);
+      background: var(--anthro-cream);
+      margin: 1.2rem 0;
+      padding: 0.8rem 1.4rem;
+      border-radius: 0 8px 8px 0;
+      color: #5a524a;
+      font-style: italic;
+      font-size: 0.93rem;
+    }
+    blockquote p { color: #5a524a; }
+
+    /* ── Tables ──────────────────────────────────────────────── */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 0.9rem;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(20, 12, 5, 0.08);
+      margin: 1.2rem 0;
+      font-family: 'Lora', ui-serif, Georgia, serif;
+    }
+    thead tr { background: var(--anthro-orange); }
+    thead th {
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 0.83rem;
+      color: #fff;
+      letter-spacing: 0.04em;
+      font-style: normal;
+      font-family: 'Lora', ui-serif, Georgia, serif;
+    }
+    tbody tr { transition: background 0.1s; }
+    tbody tr:nth-child(even) { background: var(--anthro-cream); }
+    tbody tr:hover { background: #efe8dc; }
+    tbody td {
+      padding: 10px 16px;
+      border-top: 1px solid var(--anthro-border);
+      color: #2a2520;
+    }
+
+    /* Right-aligned score column */
+    tbody td:first-child { color: var(--anthro-rust); font-weight: 600; }
+
+    /* ── Horizontal rules ────────────────────────────────────── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--anthro-border);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Footer ──────────────────────────────────────────────── */
+    .page-footer {
+      margin-top: 3rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid var(--anthro-border);
+      font-size: 0.78rem;
+      color: var(--anthro-mid);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 4px;
+      font-family: 'Lora', Georgia, serif;
+    }
+    .page-footer a { color: var(--anthro-rust); border: none !important; }
+    .page-footer a:hover { color: var(--anthro-orange); }
+
+    /* ── Badges ──────────────────────────────────────────────── */
+    .markdown-section p:first-of-type { line-height: 2; }
+    .markdown-section p img[src*="shields.io"] { border-radius: 3px; }
+
+    /* ── Code blocks ─────────────────────────────────────────── */
+    pre {
+      background: var(--anthro-dark) !important;
+      border-radius: 8px;
+      padding: 1.2rem 1.4rem;
+    }
+    pre code { font-size: 0.87rem; }
+
+    /* ── Mobile ──────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .markdown-section { padding: 1.2rem 1rem; }
+      table { font-size: 0.8rem; }
+      h1 { font-size: 1.6rem; }
+    }
   </style>
 </head>
 <body>
@@ -61,13 +283,15 @@
     name: '⚡ Awesome Anthropic',
     repo: 'https://github.com/Omrigotlieb/awesome-anthropic',
     homepage: 'README.md',
+    basePath: '/awesome-anthropic/',
     loadSidebar: true,
     subMaxLevel: 2,
-    themeColor: '#c97a4b',
+    themeColor: '#d97757',
     externalLinkTarget: '_blank',
+    notFoundPage: true,
     search: {
       maxAge: 86400000,
-      paths: ['/', '/docs/NEWS', '/docs/CHANGELOG', '/docs/ARCHIVE/2024-news', '/CONTRIBUTING'],
+      paths: ['/', '/docs/NEWS', '/docs/CHANGELOG', '/docs/BENCHMARKS', '/docs/ARCHIVE/2024-news', '/CONTRIBUTING'],
       placeholder: 'Search resources…',
       noData: 'No results.',
       depth: 4,
@@ -86,10 +310,10 @@
       function(hook) {
         hook.afterEach(function(html) {
           return html + `<footer class="page-footer">
-            <span>Auto-updated daily · Claude &amp; Anthropic resources</span>
+            <span>Auto-updated daily &middot; Claude &amp; Anthropic resources</span>
             <span>
-              <a href="https://github.com/Omrigotlieb/awesome-anthropic" target="_blank">GitHub</a> ·
-              <a href="https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> ·
+              <a href="https://github.com/Omrigotlieb/awesome-anthropic" target="_blank">GitHub</a> &middot;
+              <a href="https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> &middot;
               <a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new" target="_blank">Report Issue</a>
             </span>
           </footer>`;
@@ -105,5 +329,6 @@
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
 </body>
 </html>

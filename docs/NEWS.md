@@ -1,12 +1,8 @@
 # Anthropic News Feed
 
-> Updated daily. Sorted by community score — highest engagement first.
+> **Updated daily** · Aggregated from Hacker News, Reddit, Anthropic Blog, arXiv, and GitHub · Sorted by community engagement
 
 ---
-
-## 2026-02-26
-
-- [Official: Anthropic just released Claude Code 2.1.59 with 7 CLI &amp; 5 prompt changes, details below](https://reddit.com/r/ClaudeAI/comments/1rf6ajn/official_anthropic_just_released_claude_code_2159/) — r/ClaudeAI | Score: 64
 
 ## February 26, 2026
 
@@ -29,25 +25,31 @@
 
 ### 📰 Official Announcements
 
-- [Anthropic acquires Vercept to advance Claude's computer use capabilities](https://www.anthropic.com/news/acquires-vercept) — Anthropic Blog
-- [Responsible Scaling Policy v3.0](https://www.anthropic.com/news/responsible-scaling-policy-v3) — Anthropic Blog
-- [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) — Anthropic Blog
-- [Making frontier cybersecurity capabilities available to defenders](https://www.anthropic.com/news/claude-code-security) — Anthropic Blog
+| Title | Source |
+|-------|--------|
+| [Anthropic acquires Vercept to advance Claude's computer use capabilities](https://www.anthropic.com/news/acquires-vercept) | Anthropic Blog |
+| [Responsible Scaling Policy v3.0](https://www.anthropic.com/news/responsible-scaling-policy-v3) | Anthropic Blog |
+| [Detecting and preventing distillation attacks](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) | Anthropic Blog |
+| [Making frontier cybersecurity capabilities available to defenders](https://www.anthropic.com/news/claude-code-security) | Anthropic Blog |
 
 ### 🔬 Research
 
-- [Red-Teaming Claude Opus and ChatGPT-based Security Advisors for TEEs](http://arxiv.org/abs/2602.19450v1) — arXiv
+| Title | Source |
+|-------|--------|
+| [Red-Teaming Claude Opus and ChatGPT-based Security Advisors for TEEs](http://arxiv.org/abs/2602.19450v1) | arXiv |
 
 ### 🛠️ SDK & Tool Releases
 
-- [claude-code v2.1.59](https://github.com/anthropics/claude-code/releases/tag/v2.1.59) — Auto-memory, `/copy` command, improved "always allow" suggestions
-- [claude-code v2.1.58](https://github.com/anthropics/claude-code/releases/tag/v2.1.58) — Remote Control expanded to more users
-- [anthropic-sdk-python v0.84.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0) — array_format changes
-- [anthropic-sdk-python v0.83.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.83.0) — Top-level cache control (automatic caching)
-- [anthropic-sdk-typescript sdk-v0.78.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.78.0) — Automatic caching support
-- [anthropic-sdk-java v2.15.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.15.0) — Top-level cache control
-- [claude-agent-sdk-python v0.1.44](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.44) — Bundled Claude CLI v2.1.59
-- [claude-agent-sdk-typescript v0.2.59](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.59) — `getSessionMessages()` for reading conversation history
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.59](https://github.com/anthropics/claude-code/releases/tag/v2.1.59) | Auto-memory, `/copy` command, improved "always allow" suggestions |
+| [claude-code v2.1.58](https://github.com/anthropics/claude-code/releases/tag/v2.1.58) | Remote Control expanded to more users |
+| [anthropic-sdk-python v0.84.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0) | array_format changes |
+| [anthropic-sdk-python v0.83.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.83.0) | Top-level cache control (automatic caching) |
+| [anthropic-sdk-typescript sdk-v0.78.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.78.0) | Automatic caching support |
+| [anthropic-sdk-java v2.15.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.15.0) | Top-level cache control |
+| [claude-agent-sdk-python v0.1.44](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.44) | Bundled Claude CLI v2.1.59 |
+| [claude-agent-sdk-typescript v0.2.59](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.59) | `getSessionMessages()` for reading conversation history |
 
 ---
 
