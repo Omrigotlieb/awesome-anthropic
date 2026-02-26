@@ -345,18 +345,19 @@ We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and
 > Last fetched: <!-- NEWS_DATE -->2026-02-26
 
 <!-- NEWS_START -->
+## Weekly Digest — 2026-02-26
+
+### Recent News
+
+# Anthropic News Archive
+
 ## 2026-02-26
 
-- [The Pentagon threatens Anthropic](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) — Hacker News | Score: 173
-  > The Pentagon threatens Anthropic
-- [Launch HN: TeamOut (YC W22) – AI agent for planning company retreats](https://app.teamout.com/ai) — Hacker News | Score: 52
-  > Launch HN: TeamOut (YC W22) – AI agent for planning company retreats
-- [The Hater's Guide to Anthropic](https://www.wheresyoured.at/premium-the-haters-guide-to-anthropic/) — Hacker News | Score: 31
-  > The Hater's Guide to Anthropic
-- [Show HN: Sgai – Goal-driven multi-agent software dev (GOAL.md → working code)](https://github.com/sandgardenhq/sgai) — Hacker News | Score: 31
-  > Show HN: Sgai – Goal-driven multi-agent software dev (GOAL.md → working code)
-- [Show HN: OpenSwarm – Multi‑Agent Claude CLI Orchestrator for Linear/GitHub](https://github.com/Intrect-io/OpenSwarm) — Hacker News | Score: 28
-  > Show HN: OpenSwarm – Multi‑Agent Claude CLI Orchestrator for Linear/GitHub
+- [They’re shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) — r/ClaudeAI | Score: 1682
+- [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) — r/ClaudeAI | Score: 1227
+- [Official: An update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) — r/ClaudeAI | Score: 497
+- [Claude Code with subagents inside subagents cooked for 3 days - Delivered 3D renderer that draws with terminal symbols](https://reddit.com/r/ClaudeAI/comments/1rerl6w/claude_code_with_subagents_inside_subagents/) — r/ClaudeAI | Score: 299
+- [Dear Mr. Amodei](https://reddit.com/r/Anthropic/comments/1reljtv/dear_mr_amodei/) — r/Anthropic | Score: 218
 
 [View all news →](docs/NEWS.md)
 <!-- NEWS_END -->
