@@ -12,7 +12,7 @@ jobs:
   fetch-news:
     name: Fetch & Inject Daily News
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -26,19 +26,28 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Set up Node.js (for Claude CLI)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Authenticate Claude CLI (Claude Code Max)
+        if: ${{ secrets.CLAUDE_CREDENTIALS != '' }}
+        run: |
+          mkdir -p ~/.claude
+          echo '${{ secrets.CLAUDE_CREDENTIALS }}' > ~/.claude/credentials.json
+          echo "Claude credentials configured."
+
       - name: Fetch news from all sources
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
-          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: python scripts/fetch_news.py
 
       - name: Generate daily digest
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/generate_digest.py
 
       - name: Inject digest into README
@@ -55,7 +64,6 @@ jobs:
       - name: Write job summary
         if: always()
         run: |
-          echo "## Daily News Update" >> $GITHUB_STEP_SUMMARY
-          echo "**Date:** $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> $GITHUB_STEP_SUMMARY
+          echo "## Daily News Update — $(date -u +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          python scripts/fetch_news.py --summary 2>/dev/null >> $GITHUB_STEP_SUMMARY || echo "_Summary unavailable_" >> $GITHUB_STEP_SUMMARY
+          python scripts/fetch_news.py --summary 2>/dev/null >> $GITHUB_STEP_SUMMARY || true
