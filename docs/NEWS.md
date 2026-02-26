@@ -55,4 +55,4 @@
 
 ## Archive
 
-- [2024 News](/docs/ARCHIVE/2024-news)
+- [2024 News](docs/ARCHIVE/2024-news)
