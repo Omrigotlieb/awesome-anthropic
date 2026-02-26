@@ -127,25 +127,25 @@
     .dash-wh-link:hover { color:var(--anthro-rust); }
 
     /* ── Masthead ─────────────────────────────────────── */
-    .dash-masthead { grid-column:1 / -1; background:var(--anthro-dark); border:1px solid #2a2520; border-radius:var(--card-r); padding:16px 22px; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; position:relative; overflow:hidden; }
-    .dash-masthead::before { content:''; position:absolute; top:-50px; right:-20px; width:200px; height:200px; background:radial-gradient(circle,rgba(217,119,87,.2) 0%,transparent 60%); pointer-events:none; }
-    .dash-masthead::after { content:''; position:absolute; bottom:-40px; left:30px; width:150px; height:150px; background:radial-gradient(circle,rgba(174,86,48,.13) 0%,transparent 65%); pointer-events:none; }
+    .dash-masthead { grid-column:1 / -1; background:#fff; border:1px solid var(--anthro-border); border-radius:var(--card-r); padding:16px 22px; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; position:relative; overflow:hidden; box-shadow:0 1px 4px rgba(20,12,5,.06); }
+    .dash-masthead::before { content:''; position:absolute; top:-50px; right:-20px; width:220px; height:220px; background:radial-gradient(circle,rgba(217,119,87,.1) 0%,transparent 60%); pointer-events:none; }
+    .dash-masthead::after { content:''; position:absolute; bottom:-40px; left:30px; width:160px; height:160px; background:radial-gradient(circle,rgba(174,86,48,.06) 0%,transparent 65%); pointer-events:none; }
     .dash-mhead-brand { display:flex; flex-direction:column; gap:2px; }
-    .dash-mhead-eyebrow { font-family:'Inter',sans-serif; font-size:.58rem; color:#5a4a32; text-transform:uppercase; letter-spacing:.15em; font-weight:700; }
-    .dash-mhead-title { font-family:'DM Serif Display',serif; font-size:1.5rem; background:linear-gradient(135deg,#f0c4a0 0%,#d97757 55%,#f0c4a0 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.15; letter-spacing:-.02em; }
-    .dash-mhead-sub { font-family:'Inter',sans-serif; font-size:.68rem; color:#5a4a32; }
+    .dash-mhead-eyebrow { font-family:'Inter',sans-serif; font-size:.58rem; color:var(--anthro-orange); text-transform:uppercase; letter-spacing:.15em; font-weight:700; }
+    .dash-mhead-title { font-family:'DM Serif Display',serif; font-size:1.5rem; background:linear-gradient(135deg,#c96840 0%,#d97757 55%,#ae5630 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.15; letter-spacing:-.02em; }
+    .dash-mhead-sub { font-family:'Inter',sans-serif; font-size:.68rem; color:#7a6a5a; }
     .dash-mhead-stats { display:flex; gap:2rem; }
     .dash-stat { text-align:center; }
     .dash-stat-num { display:block; font-family:'DM Serif Display',serif; font-size:1.5rem; color:#d97757; line-height:1; }
-    .dash-stat-label { display:block; font-family:'Inter',sans-serif; font-size:.57rem; color:#5a4a32; text-transform:uppercase; letter-spacing:.1em; margin-top:4px; font-weight:600; }
+    .dash-stat-label { display:block; font-family:'Inter',sans-serif; font-size:.57rem; color:#7a6a5a; text-transform:uppercase; letter-spacing:.1em; margin-top:4px; font-weight:600; }
 
     /* ── Source gradient backgrounds ──────────────────── */
-    .ci-hn        { background:linear-gradient(145deg,#e05000 0%,#7a2200 100%); }
-    .ci-reddit    { background:linear-gradient(145deg,#c83a00 0%,#6e1400 100%); }
-    .ci-arxiv     { background:linear-gradient(145deg,#1460b8 0%,#083880 100%); }
-    .ci-anthropic { background:linear-gradient(145deg,#d97757 0%,#6a2a0a 100%); }
-    .ci-github    { background:linear-gradient(145deg,#24292e 0%,#444d56 100%); }
-    .ci-default   { background:linear-gradient(145deg,#4a2e1a 0%,#1c1108 100%); }
+    .ci-hn        { background:linear-gradient(145deg,#FF9A5C 0%,#C84800 100%); }
+    .ci-reddit    { background:linear-gradient(145deg,#FF7A5A 0%,#B83000 100%); }
+    .ci-arxiv     { background:linear-gradient(145deg,#5BAFD6 0%,#1A5EA8 100%); }
+    .ci-anthropic { background:linear-gradient(145deg,#F4A67A 0%,#C25C30 100%); }
+    .ci-github    { background:linear-gradient(145deg,#8A9299 0%,#3A4048 100%); }
+    .ci-default   { background:linear-gradient(145deg,#A08878 0%,#5A4A3A 100%); }
 
     /* ── Lead story — title-in-image layout ───────────── */
     .dash-lead-card {
@@ -200,7 +200,7 @@
     .dash-bench-wrap { flex:1; overflow:auto; }
     .dash-bench-wrap table { margin:0 !important; border-radius:0 !important; box-shadow:none !important; border:none !important; font-size:.76rem !important; }
     .dash-bench-wrap thead tr { background:transparent !important; }
-    .dash-bench-wrap thead th { padding:6px 10px !important; font-size:.6rem !important; color:var(--anthro-mid) !important; background:var(--anthro-cream); border-bottom:1px solid var(--anthro-border); }
+    .dash-bench-wrap thead th { padding:6px 10px !important; font-size:.6rem !important; color:var(--anthro-mid) !important; background:var(--anthro-cream) !important; border-bottom:1px solid var(--anthro-border) !important; }
     .dash-bench-wrap tbody td { padding:6px 10px !important; font-size:.76rem !important; border-top:1px solid var(--anthro-border) !important; color:#3a3530 !important; font-weight:400 !important; }
     .dash-bench-wrap tbody td:first-child { font-weight:600 !important; color:var(--anthro-dark) !important; }
     .dash-bench-wrap .best { color:var(--anthro-orange) !important; font-weight:700 !important; }
@@ -610,12 +610,12 @@
       '</div>'+
       '<div class="dash-bench-wrap">'+
         '<table><thead><tr><th>Model</th><th>GPQA ↑</th><th>SWE ↑</th><th>LMSYS Elo</th><th>Rank</th></tr></thead><tbody>'+
-          '<tr><td>Opus 4.6</td><td class="best">91.3%<span class="bbar" style="width:40px"></span></td><td class="dim">—</td><td class="best">~1500+</td><td class="best">#1</td></tr>'+
-          '<tr><td>Opus 4.5</td><td>87.0%<span class="bbar" style="width:38px"></span></td><td class="best">80.9%<span class="bbar" style="width:40px"></span></td><td>1472</td><td>#4</td></tr>'+
-          '<tr><td>Sonnet 4.5</td><td>83.4%<span class="bbar" style="width:36px"></span></td><td>77.2%<span class="bbar" style="width:38px"></span></td><td>~1430</td><td>#20</td></tr>'+
-          '<tr><td>Sonnet 4</td><td>72.5%<span class="bbar" style="width:32px"></span></td><td>~50%<span class="bbar" style="width:25px"></span></td><td>—</td><td>—</td></tr>'+
-          '<tr class="comp"><td>GPT-4o</td><td>~53%<span class="bbar" style="width:23px"></span></td><td>~33%<span class="bbar" style="width:16px"></span></td><td>—</td><td>—</td></tr>'+
-          '<tr class="comp"><td>Gemini 2.0 Flash</td><td>~70%<span class="bbar" style="width:31px"></span></td><td>—</td><td>—</td><td>—</td></tr>'+
+          '<tr><td>Opus 4.6</td><td class="best">91.3%</td><td class="dim">—</td><td class="best">~1500+</td><td class="best">#1</td></tr>'+
+          '<tr><td>Opus 4.5</td><td>87.0%</td><td class="best">80.9%</td><td>1472</td><td>#4</td></tr>'+
+          '<tr><td>Sonnet 4.5</td><td>83.4%</td><td>77.2%</td><td>~1430</td><td>#20</td></tr>'+
+          '<tr><td>Sonnet 4</td><td>72.5%</td><td>~50%</td><td>—</td><td>—</td></tr>'+
+          '<tr class="comp"><td>GPT-4o</td><td>~53%</td><td>~33%</td><td>—</td><td>—</td></tr>'+
+          '<tr class="comp"><td>Gemini 2.0 Flash</td><td>~70%</td><td>—</td><td>—</td><td>—</td></tr>'+
         '</tbody></table>'+
       '</div>'+
     '</div>';
