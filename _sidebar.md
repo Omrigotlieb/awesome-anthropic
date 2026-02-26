@@ -1,7 +1,7 @@
 - [🏠 Home](#/)
 
 - **Resources**
-- [📋 Awesome List](#/)
+- [📋 Awesome List](#/README)
 - [📊 Model Benchmarks](#/docs/BENCHMARKS)
 - [📈 CC Perf Tracker](https://marginlab.ai/trackers/claude-code/ ':target=_blank')
 
