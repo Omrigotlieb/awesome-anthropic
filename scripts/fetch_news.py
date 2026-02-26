@@ -283,6 +283,98 @@ def fetch_arxiv(since_days: int = 7) -> list[NewsItem]:
     return items
 
 
+def fetch_twitter_accounts(since_hours: int = 48) -> list[NewsItem]:
+    """
+    Fetch recent tweets from curated accounts via Nitter RSS (no API key needed).
+
+    Tracks builders who regularly post informative Claude/Anthropic content.
+    Falls back gracefully if Nitter instances are down.
+    """
+    import re as _re
+
+    # Curated accounts: (handle, display_name)
+    ACCOUNTS = [
+        ("bcherny", "Boris Cherney"),     # Claude Code lead
+        ("alexalbert__", "Alex Albert"),  # Anthropic Head of Developer Relations
+        ("AnthropicAI", "Anthropic"),
+    ]
+
+    # Public Nitter instances (try in order until one works)
+    NITTER_HOSTS = [
+        "nitter.net",
+        "nitter.privacydev.net",
+        "nitter.poast.org",
+    ]
+
+    items: list[NewsItem] = []
+    since = datetime.now(tz=timezone.utc) - timedelta(hours=since_hours)
+
+    def _try_nitter(handle: str, display: str) -> list[NewsItem]:
+        for host in NITTER_HOSTS:
+            url = f"https://{host}/{handle}/rss"
+            try:
+                with httpx.Client(timeout=15, follow_redirects=True) as client:
+                    resp = client.get(url, headers={"User-Agent": "awesome-anthropic-bot/1.0"})
+                    if resp.status_code != 200:
+                        continue
+                    # Parse RSS XML
+                    from xml.etree import ElementTree as ET
+                    root = ET.fromstring(resp.text)
+                    ns = {"dc": "http://purl.org/dc/elements/1.1/"}
+                    channel = root.find("channel")
+                    if channel is None:
+                        continue
+                    result = []
+                    for item_el in channel.findall("item")[:20]:
+                        title_el = item_el.find("title")
+                        link_el  = item_el.find("link")
+                        pub_el   = item_el.find("pubDate")
+                        if title_el is None or link_el is None:
+                            continue
+                        raw_title = (title_el.text or "").strip()
+                        # Skip retweets and replies (Nitter prefixes "RT @" and "R to @")
+                        if _re.match(r"^(RT |R to @|@)", raw_title):
+                            continue
+                        # Strip "handle: " prefix Nitter sometimes adds
+                        raw_title = _re.sub(r"^@?\w+:\s+", "", raw_title)
+                        # Only keep tweets mentioning Claude/Anthropic (skip off-topic)
+                        combined = raw_title.lower()
+                        if not any(kw in combined for kw in ("claude", "anthropic", "llm", "ai ", "model", "agent", "code", "context")):
+                            continue
+                        # Normalise Nitter link → x.com, strip #m anchor
+                        link = _re.sub(r"https?://[^/]+/", "https://x.com/", link_el.text or "")
+                        link = link.split("#")[0]
+                        pub_dt = datetime.now(tz=timezone.utc)
+                        if pub_el is not None and pub_el.text:
+                            try:
+                                from email.utils import parsedate_to_datetime
+                                pub_dt = parsedate_to_datetime(pub_el.text).astimezone(timezone.utc)
+                            except Exception:
+                                pass
+                        if pub_dt < since:
+                            continue
+                        result.append(NewsItem(
+                            title=raw_title[:200] or f"Tweet by {display}",
+                            url=link,
+                            source="X / Twitter",
+                            published_at=pub_dt.isoformat(),
+                            summary=display,
+                            item_id=f"tweet_{handle}_{link.split('/')[-1]}",
+                        ))
+                    return result  # success — don't try other hosts
+            except Exception as e:
+                print(f"[twitter] {host}/{handle} failed: {e}", file=sys.stderr)
+                continue
+        return []
+
+    for handle, display in ACCOUNTS:
+        found = _try_nitter(handle, display)
+        items.extend(found)
+        print(f"[twitter] @{handle}: {len(found)} tweets", file=sys.stderr)
+
+    return items
+
+
 def fetch_github_releases() -> list[NewsItem]:
     """Fetch recent releases from the anthropics GitHub org."""
     import sys as _sys
@@ -343,25 +435,85 @@ def deduplicate(items: list[NewsItem], seen: set[str]) -> list[NewsItem]:
 # ---------------------------------------------------------------------------
 
 def append_to_news_md(items: list[NewsItem]) -> None:
+    """Write new items to NEWS.md using the section+table format the dashboard parser expects."""
     DOCS_DIR.mkdir(exist_ok=True)
     news_path = DOCS_DIR / "NEWS.md"
-    today = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
 
-    lines = [f"## {today}\n"]
-    for item in sorted(items, key=lambda x: x.score, reverse=True):
-        score_str = f" | Score: {item.score}" if item.score else ""
-        lines.append(f"- [{item.title}]({item.url}) — {item.source}{score_str}")
-        if item.summary:
-            lines.append(f"  > {item.summary}")
-    lines.append("")
+    # Human-readable date header (e.g. "February 26, 2026")
+    today = datetime.now(tz=timezone.utc).strftime("%B %-d, %Y")
 
-    existing = news_path.read_text() if news_path.exists() else "# Anthropic News Feed\n\n"
-    # Insert before the first date section (## heading), keeping the intro block intact
+    # Categorise items
+    SDK_SOURCES = {"GitHub Release", "github_release"}
+    ANNOUNCE_SOURCES = {"Anthropic Blog"}
+    RESEARCH_SOURCES = {"arXiv"}
+    TWEET_SOURCES = {"X / Twitter"}
+
+    stories = sorted(
+        [i for i in items if i.source not in SDK_SOURCES | ANNOUNCE_SOURCES | RESEARCH_SOURCES | TWEET_SOURCES],
+        key=lambda x: x.score, reverse=True,
+    )
+    announcements = [i for i in items if i.source in ANNOUNCE_SOURCES]
+    research      = [i for i in items if i.source in RESEARCH_SOURCES]
+    sdk           = [i for i in items if i.source in SDK_SOURCES]
+    tweets        = [i for i in items if i.source in TWEET_SOURCES]
+
+    def _esc(s: str) -> str:
+        return s.replace("|", "\\|")
+
+    lines: list[str] = [f"## {today}", ""]
+
+    if stories:
+        lines += ["### 🔥 Top Stories", "",
+                  "| Score | Title | Source |",
+                  "|------:|-------|--------|"]
+        for item in stories[:15]:
+            lines.append(f"| {item.score} | [{_esc(item.title)}]({item.url}) | {_esc(item.source)} |")
+        lines.append("")
+
+    if announcements:
+        lines += ["### 📰 Official Announcements", "",
+                  "| Title | Source |",
+                  "|-------|--------|"]
+        for item in announcements:
+            lines.append(f"| [{_esc(item.title)}]({item.url}) | {_esc(item.source)} |")
+        lines.append("")
+
+    if tweets:
+        lines += ["### 🐦 From the Builders", "",
+                  "| Tweet | Author |",
+                  "|-------|--------|"]
+        for item in tweets:
+            lines.append(f"| [{_esc(item.title)}]({item.url}) | {_esc(item.summary or 'Boris Cherney')} |")
+        lines.append("")
+
+    if research:
+        lines += ["### 🔬 Research", "",
+                  "| Title | Source |",
+                  "|-------|--------|"]
+        for item in research:
+            lines.append(f"| [{_esc(item.title)}]({item.url}) | {_esc(item.source)} |")
+        lines.append("")
+
+    if sdk:
+        lines += ["### 🛠️ SDK & Tool Releases", "",
+                  "| Release | Highlights |",
+                  "|---------|------------|"]
+        for item in sdk:
+            notes = (item.summary or "").replace("\n", " ").replace("|", "\\|")[:100]
+            lines.append(f"| [{_esc(item.title)}]({item.url}) | {notes} |")
+        lines.append("")
+
+    lines += ["---", ""]
+
+    existing = news_path.read_text() if news_path.exists() else (
+        "# Anthropic News Feed\n\n"
+        "> **Updated daily** · Aggregated from Hacker News, Reddit, "
+        "Anthropic Blog, arXiv, GitHub, and X/Twitter · Sorted by community engagement\n\n---\n\n"
+    )
     import re as _re
     match = _re.search(r'\n## ', existing)
     insert_pos = (match.start() + 1) if match else len(existing)
-    new_content = existing[:insert_pos] + "\n".join(lines) + "\n" + existing[insert_pos:]
-    news_path.write_text(new_content)
+    news_path.write_text(existing[:insert_pos] + "\n".join(lines) + "\n" + existing[insert_pos:])
 
 
 # ---------------------------------------------------------------------------
@@ -381,6 +533,7 @@ def main():
     all_items.extend(fetch_reddit())
     all_items.extend(fetch_arxiv())
     all_items.extend(fetch_github_releases())
+    all_items.extend(fetch_twitter_accounts())
 
     seen = load_seen_ids()
     new_items = deduplicate(all_items, seen)
