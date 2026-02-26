@@ -15,6 +15,8 @@
 
 - **Learn**
 - [🎯 Interview Prep](#/docs/INTERVIEW)
+- [📚 Prompt Library](#/docs/PROMPTS)
+- [🛠️ Tools Directory](#/docs/TOOLS)
 
 - **Archive**
 - [2024 News](#/docs/ARCHIVE/2024-news)

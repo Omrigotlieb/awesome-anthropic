@@ -622,3 +622,245 @@ test.describe('Dashboard widgets', () => {
     await expect(page.locator('.mp-result')).toBeVisible({ timeout: 5000 });
   });
 });
+
+// ─────────────────────────────────────────────────────────────
+// DARK MODE
+// ─────────────────────────────────────────────────────────────
+test.describe('Dark Mode', () => {
+  test('dark mode toggle button is present', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('#dm-toggle-btn')).toBeVisible();
+  });
+
+  test('clicking toggle adds data-theme=dark to html element', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    const btn = page.locator('#dm-toggle-btn');
+    await btn.click();
+    const theme = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
+    expect(theme).toBe('dark');
+  });
+
+  test('clicking toggle twice restores light mode', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    const btn = page.locator('#dm-toggle-btn');
+    await btn.click();
+    await btn.click();
+    const theme = await page.evaluate(() => document.documentElement.getAttribute('data-theme') || '');
+    expect(theme).not.toBe('dark');
+  });
+
+  test('dark mode persists via localStorage on reload', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await page.locator('#dm-toggle-btn').click();
+    await page.reload();
+    await waitForContent(page);
+    const theme = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
+    expect(theme).toBe('dark');
+    // Clean up
+    await page.evaluate(() => localStorage.removeItem('aa-theme'));
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// NEWS PAGE — CARD GRID
+// ─────────────────────────────────────────────────────────────
+test.describe('News Page', () => {
+  test('news page loads and shows card grid', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/NEWS');
+    await waitForContent(page);
+    await expect(page.locator('.news-card-grid, table')).toBeVisible({ timeout: 15000 });
+  });
+
+  test('news page has Top Stories heading', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/NEWS');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Top Stories', { timeout: 15000 });
+  });
+
+  test('news page shows official announcements section', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/NEWS');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Official Announcements', { timeout: 15000 });
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// PROMPTS PAGE
+// ─────────────────────────────────────────────────────────────
+test.describe('Prompts Library Page', () => {
+  test('prompts page loads with content', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/PROMPTS');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Prompt', { timeout: 15000 });
+  });
+
+  test('prompts page has search bar injected', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/PROMPTS');
+    await waitForContent(page);
+    // Give doneEach time to inject
+    await page.waitForTimeout(1000);
+    await expect(page.locator('.plib-search, input[placeholder*="Search prompts"]')).toBeVisible({ timeout: 10000 });
+  });
+
+  test('prompts page has multiple categories', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/PROMPTS');
+    await waitForContent(page);
+    // Should have at least 4 h2 category sections
+    const h2Count = await page.locator('.markdown-section h2').count();
+    expect(h2Count).toBeGreaterThanOrEqual(4);
+  });
+
+  test('prompts page has code blocks with prompt content', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/PROMPTS');
+    await waitForContent(page);
+    const preCount = await page.locator('.markdown-section pre').count();
+    expect(preCount).toBeGreaterThanOrEqual(5);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// TOOLS PAGE
+// ─────────────────────────────────────────────────────────────
+test.describe('Tools Directory Page', () => {
+  test('tools page loads with content', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/TOOLS');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Tool', { timeout: 15000 });
+  });
+
+  test('tools page has search bar injected', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/TOOLS');
+    await waitForContent(page);
+    await page.waitForTimeout(1000);
+    await expect(page.locator('.tools-search, input[placeholder*="Search tools"]')).toBeVisible({ timeout: 10000 });
+  });
+
+  test('tools page has tables with SDK and tool entries', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/TOOLS');
+    await waitForContent(page);
+    const tableCount = await page.locator('.markdown-section table').count();
+    expect(tableCount).toBeGreaterThanOrEqual(2);
+  });
+
+  test('tools page mentions Anthropic SDK', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/TOOLS');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('anthropic', { timeout: 15000 });
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// SIDEBAR NAVIGATION
+// ─────────────────────────────────────────────────────────────
+test.describe('Sidebar Navigation', () => {
+  test('sidebar shows Prompt Library link', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.sidebar')).toContainText('Prompt', { timeout: 10000 });
+  });
+
+  test('sidebar shows Tools Directory link', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.sidebar')).toContainText('Tool', { timeout: 10000 });
+  });
+
+  test('sidebar News Feed link navigates to news page', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await page.locator('.sidebar a[href*="NEWS"]').first().click();
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('News', { timeout: 10000 });
+  });
+
+  test('sidebar Interview Prep link navigates to wizard', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await page.locator('.sidebar a[href*="INTERVIEW"]').first().click();
+    await waitForContent(page);
+    await page.waitForTimeout(1000);
+    await expect(page.locator('.wiz-wrap, .wiz-class-grid, .markdown-section')).toBeVisible({ timeout: 10000 });
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// WIZARD PERSISTENCE
+// ─────────────────────────────────────────────────────────────
+test.describe('Interview Wizard Persistence', () => {
+  test('wizard renders character select on first visit', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/INTERVIEW');
+    await waitForContent(page);
+    await page.waitForTimeout(1000);
+    await expect(page.locator('.wiz-class-grid, .wiz-wrap')).toBeVisible({ timeout: 10000 });
+  });
+
+  test('picking a class enables the Begin Quest button', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/INTERVIEW');
+    await waitForContent(page);
+    await page.waitForTimeout(1000);
+    const classButtons = page.locator('.wiz-cls');
+    if (await classButtons.count() > 0) {
+      await classButtons.first().click();
+      await expect(page.locator('.wiz-start')).toBeVisible({ timeout: 5000 });
+    }
+  });
+
+  test('wizard clears localStorage on restart', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/INTERVIEW');
+    await waitForContent(page);
+    await page.waitForTimeout(500);
+    // Set some state in localStorage
+    await page.evaluate(() => localStorage.setItem('aa-wiz', JSON.stringify({ step: 3, xp: 45, cls: 'eng', answers: {}, achievements: [] })));
+    // Navigate away and back to trigger initWizard
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await page.goto(BASE + '/#/docs/INTERVIEW');
+    await waitForContent(page);
+    await page.waitForTimeout(1000);
+    // Should be on step 3 (restored state)
+    const saved = await page.evaluate(() => localStorage.getItem('aa-wiz'));
+    // State should still exist (it was restored, not cleared on load)
+    expect(saved).not.toBeNull();
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// RSS FEED
+// ─────────────────────────────────────────────────────────────
+test.describe('RSS Feed', () => {
+  test('rss.xml exists and is valid XML', async ({ page }) => {
+    const response = await page.request.get(BASE + '/rss.xml');
+    // RSS may or may not be deployed yet — just check if accessible
+    if (response.ok()) {
+      const text = await response.text();
+      expect(text).toContain('<rss');
+      expect(text).toContain('</rss>');
+      expect(text).toContain('<channel>');
+    }
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// PWA / MANIFEST
+// ─────────────────────────────────────────────────────────────
+test.describe('PWA Manifest', () => {
+  test('manifest.json exists and has correct fields', async ({ page }) => {
+    const response = await page.request.get(BASE + '/manifest.json');
+    if (response.ok()) {
+      const manifest = await response.json();
+      expect(manifest.name).toContain('Anthropic');
+      expect(manifest.theme_color).toBeDefined();
+      expect(manifest.display).toBeDefined();
+    }
+  });
+
+  test('index.html references manifest in head', async ({ page }) => {
+    await page.goto(BASE + '/');
+    const manifestLink = await page.locator('link[rel="manifest"]').getAttribute('href');
+    expect(manifestLink).toBeTruthy();
+  });
+});

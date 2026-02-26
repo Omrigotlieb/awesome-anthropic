@@ -28,6 +28,9 @@ git pull --rebase --quiet 2>&1 | tee -a "$LOG"
 log "Fetching news..."
 python3 scripts/fetch_news.py 2>&1 | tee -a "$LOG"
 
+log "Generating RSS feed..."
+python3 scripts/generate_rss.py 2>&1 | tee -a "$LOG"
+
 log "Checking changelog..."
 python3 scripts/check_changelog.py 2>&1 | tee -a "$LOG"
 

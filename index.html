@@ -9,6 +9,12 @@
   <meta property="og:description" content="Daily-updated curated resources for Claude AI and Anthropic." />
   <meta property="og:type" content="website" />
   <link rel="icon" href="https://anthropic.com/favicon.ico" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#d97757" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Awesome Anthropic" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -500,11 +506,72 @@
     @keyframes wizPop { 0%{transform:scale(.4);opacity:0} 70%{transform:scale(1.12)} 100%{transform:scale(1);opacity:1} }
     .wiz-toast { position:fixed; bottom:18px; right:18px; background:var(--anthro-dark); color:var(--anthro-orange); padding:9px 15px; border-radius:10px; font-family:'Inter',sans-serif; font-size:.76rem; font-weight:700; box-shadow:0 8px 28px rgba(0,0,0,.32); z-index:99998; transform:translateY(70px); opacity:0; transition:transform .3s ease,opacity .3s ease; pointer-events:none; max-width:270px; }
     .wiz-toast.on { transform:translateY(0); opacity:1; }
+
+    /* ══════════════════════════════════════════════════
+       DARK MODE
+       ══════════════════════════════════════════════════ */
+    [data-theme="dark"] {
+      --anthro-light:   #141413;
+      --anthro-cream:   #1e1d1b;
+      --anthro-border:  #2e2c28;
+      --anthro-dark:    #f0ece4;
+      --anthro-mid:     #8a8278;
+      --sidebar-bg:     #1a1917;
+      --sidebar-hover:  #242220;
+      --sidebar-active: rgba(217,119,87,.15);
+      --card-bg:        #1a1917;
+    }
+    [data-theme="dark"] body,
+    [data-theme="dark"] .app-wrapper { background: var(--anthro-light) !important; }
+    [data-theme="dark"] .content { background: var(--anthro-light) !important; }
+    [data-theme="dark"] .markdown-section p,
+    [data-theme="dark"] .markdown-section li { color: #c8c0b4; }
+    [data-theme="dark"] .markdown-section a { color: #e09070; }
+    [data-theme="dark"] .rmodal-box { background: #1a1917; }
+    [data-theme="dark"] .rmodal-head,
+    [data-theme="dark"] .rmodal-foot { background: #141413; }
+    [data-theme="dark"] .rmodal-comment { background: #1a1917; border-color: #2e2c28; }
+    [data-theme="dark"] .dash-lb-row:hover { background: linear-gradient(to right, rgba(217,119,87,.13) var(--sp), rgba(30,29,27,1) var(--sp)) !important; }
+    [data-theme="dark"] .wiz-card { background: #1a1917; }
+    [data-theme="dark"] .wiz-card-body { background: #1a1917; }
+    [data-theme="dark"] .wiz-hdr,
+    [data-theme="dark"] .wiz-nav { background: #141413; }
+    [data-theme="dark"] .wiz-opt { background: #1e1d1b; }
+    [data-theme="dark"] .wiz-opt:hover:not([disabled]) { background: #2a2825; }
+    [data-theme="dark"] .wiz-tip { background: rgba(217,119,87,.1); }
+
+    /* Dark mode toggle button */
+    .dm-toggle { position:fixed; bottom:18px; left:18px; z-index:9990; width:38px; height:38px; border-radius:50%; background:var(--anthro-cream); border:1px solid var(--anthro-border); cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:1rem; box-shadow:0 2px 8px rgba(0,0,0,.15); transition:background .2s,transform .15s; color:var(--anthro-dark); }
+    .dm-toggle:hover { transform:scale(1.08); background:var(--anthro-border); }
   </style>
 </head>
 <body>
 <div id="app">Loading…</div>
 <script>
+  /* ── Dark mode ───────────────────────────────────────── */
+  (function() {
+    var saved = localStorage.getItem('aa-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+    function injectToggle() {
+      if (document.getElementById('dm-toggle-btn')) return;
+      var btn = document.createElement('button');
+      btn.id = 'dm-toggle-btn';
+      btn.className = 'dm-toggle';
+      btn.title = 'Toggle dark mode';
+      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      btn.textContent = isDark ? '☀️' : '🌙';
+      btn.addEventListener('click', function() {
+        var next = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('aa-theme', next);
+        btn.textContent = next === 'dark' ? '☀️' : '🌙';
+      });
+      document.body.appendChild(btn);
+    }
+    if (document.body) injectToggle();
+    else window.addEventListener('DOMContentLoaded', injectToggle);
+  })();
+
   /* ── Source helpers ──────────────────────────────────── */
   function srcClass(s) {
     if (!s) return 'ci-default';
@@ -683,6 +750,11 @@
   /* ── Story modal ─────────────────────────────────────── */
   var _sModal = null;
   function closeSModal() { if (_sModal) { _sModal.remove(); _sModal = null; } }
+  function _shareStory(href, title) {
+    if (navigator.share) {
+      navigator.share({ title: title, url: href }).catch(function(){});
+    }
+  }
   document.addEventListener('keydown', function(e){ if (e.key==='Escape') closeSModal(); });
 
   function openStoryModal(href, title, source, score) {
@@ -716,6 +788,7 @@
         '<div class="rmodal-body" id="sm-body"><div class="rmodal-loading"><div class="rmodal-spinner"></div>Loading article preview…</div></div>'+
         '<div class="rmodal-foot">'+
           '<span style="font-family:Inter,sans-serif;font-size:.67rem;color:var(--anthro-mid);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;">'+escHtml(href.replace(/^https?:\/\//,'').slice(0,72))+'</span>'+
+          (navigator.share ? '<button class="rmodal-btn rmodal-btn-s" onclick="_shareStory(\''+escHtml(href).replace(/'/g,"\\'")+'\',\''+escHtml(title||'').replace(/'/g,"\\'")+'\')">Share ↗</button>' : '')+
           '<button class="rmodal-btn rmodal-btn-s" onclick="closeSModal()">Close</button>'+
         '</div>'+
       '</div>';
@@ -1179,15 +1252,17 @@
 
   function wizPickClass(id) {
     _wizState.cls = id;
+    _wizSave();
     wizRender();
   }
   function wizNext() {
     if (_wizState.step >= _wD.length - 1) { wizVictory(); return; }
     _wizState.step++;
+    _wizSave();
     wizRender();
   }
   function wizBack() {
-    if (_wizState.step > 0) { _wizState.step--; wizRender(); }
+    if (_wizState.step > 0) { _wizState.step--; _wizSave(); wizRender(); }
   }
   function wizAnswer(qi, oi) {
     var key = _wizState.step + '_' + qi;
@@ -1198,15 +1273,22 @@
       _wizState.xp += q.xp;
       wizToast('+' + q.xp + ' XP — Correct! ⚡');
     }
+    _wizSave();
     wizRender();
   }
   function wizRestart() {
     _wizState = { step:0, xp:0, cls:'', answers:{}, achievements:[] };
+    try { localStorage.removeItem('aa-wiz'); } catch(e) {}
     wizRender();
+  }
+  function _wizSave() {
+    try { localStorage.setItem('aa-wiz', JSON.stringify(_wizState)); } catch(e) {}
   }
   function initWizard(container) {
     _wizContainer = container;
-    _wizState = { step:0, xp:0, cls:'', answers:{}, achievements:[] };
+    var saved = null;
+    try { var s = localStorage.getItem('aa-wiz'); if (s) saved = JSON.parse(s); } catch(e) {}
+    _wizState = saved || { step:0, xp:0, cls:'', answers:{}, achievements:[] };
     wizRender();
   }
 
@@ -1550,6 +1632,8 @@
           var isHome = !hash || hash === '#' || hash === '#/';
           var isNews = hash.includes('docs/NEWS');
           var isInterview = hash.indexOf('INTERVIEW') !== -1;
+          var isPrompts = hash.indexOf('PROMPTS') !== -1;
+          var isTools = hash.indexOf('TOOLS') !== -1;
           var ms = document.querySelector('.markdown-section');
           if (!ms) return;
 
@@ -1656,6 +1740,50 @@
             ms.innerHTML = '';
             initWizard(ms);
             return;
+          }
+
+          /* ── Prompts page search bar ─────────── */
+          if (isPrompts && !ms.querySelector('.plib-search')) {
+            var psearch = document.createElement('div');
+            psearch.style.cssText = 'margin:0 0 1.5rem;display:flex;gap:10px;align-items:center;flex-wrap:wrap;';
+            psearch.innerHTML = '<input id="plib-input" class="plib-search" placeholder="🔍 Search prompts…" style="flex:1;min-width:200px;padding:9px 14px;border:1px solid var(--anthro-border);border-radius:8px;font-family:Inter,sans-serif;font-size:.87rem;background:var(--anthro-cream);color:var(--anthro-dark);outline:none;" />';
+            ms.insertBefore(psearch, ms.firstChild);
+            document.getElementById('plib-input').addEventListener('input', function() {
+              var q = this.value.toLowerCase().trim();
+              ms.querySelectorAll('pre').forEach(function(pre) {
+                var section = pre.closest('h3') || pre.previousElementSibling;
+                var text = (pre.textContent + (pre.previousElementSibling ? pre.previousElementSibling.textContent : '') + (pre.parentElement ? pre.parentElement.textContent : '')).toLowerCase();
+                pre.style.display = (!q || text.includes(q)) ? '' : 'none';
+              });
+              ms.querySelectorAll('h3').forEach(function(h) {
+                var next = h.nextElementSibling;
+                var show = false;
+                if (!q) { show = true; }
+                else {
+                  var el = h.nextElementSibling;
+                  while (el && el.tagName !== 'H3' && el.tagName !== 'H2') {
+                    if (el.textContent.toLowerCase().includes(q)) { show = true; break; }
+                    el = el.nextElementSibling;
+                  }
+                  if (h.textContent.toLowerCase().includes(q)) show = true;
+                }
+                h.style.display = show ? '' : 'none';
+              });
+            });
+          }
+
+          /* ── Tools page search bar ───────────── */
+          if (isTools && !ms.querySelector('.tools-search')) {
+            var tsearch = document.createElement('div');
+            tsearch.style.cssText = 'margin:0 0 1.5rem;display:flex;gap:10px;align-items:center;flex-wrap:wrap;';
+            tsearch.innerHTML = '<input id="tools-input" class="tools-search" placeholder="🔍 Search tools…" style="flex:1;min-width:200px;padding:9px 14px;border:1px solid var(--anthro-border);border-radius:8px;font-family:Inter,sans-serif;font-size:.87rem;background:var(--anthro-cream);color:var(--anthro-dark);outline:none;" />';
+            ms.insertBefore(tsearch, ms.firstChild);
+            document.getElementById('tools-input').addEventListener('input', function() {
+              var q = this.value.toLowerCase().trim();
+              ms.querySelectorAll('tbody tr').forEach(function(tr) {
+                tr.style.display = (!q || tr.textContent.toLowerCase().includes(q)) ? '' : 'none';
+              });
+            });
           }
 
           /* ── Source badge coloring in tables ──── */
