@@ -18,8 +18,7 @@
 
   <style>
     /* ══════════════════════════════════════════════════════════
-       AWESOME ANTHROPIC — Blog-card redesign
-       Inspired by: Tasky Blog, Moltbook, Linear, Anthropic.com
+       AWESOME ANTHROPIC — Dashboard / Control Center
        ══════════════════════════════════════════════════════════ */
     :root {
       --anthro-dark:    #141413;
@@ -127,7 +126,7 @@
 
     /* ── Main content ──────────────────────────────────────── */
     .content { background: var(--anthro-light) !important; }
-    .markdown-section { max-width: 960px; padding: 2rem 2.5rem; }
+    .markdown-section { max-width: 1120px; padding: 1.5rem 2rem; }
 
     /* ── Typography ────────────────────────────────────────── */
     .markdown-section h1 {
@@ -199,7 +198,7 @@
     }
     blockquote p { color: #5a524a; margin: 0; font-style: italic; }
 
-    /* ── Standard tables (non-news pages) ──────────────────── */
+    /* ── Standard tables ──────────────────────────────────── */
     table {
       border-collapse: collapse;
       width: 100%;
@@ -234,186 +233,7 @@
     }
     tbody td:first-child { color: var(--anthro-rust); font-weight: 700; }
 
-    /* ══════════════════════════════════════════════════════════
-       BLOG CARD GRID — injected by JS on News page
-       ══════════════════════════════════════════════════════════ */
-    .news-card-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-      margin: 1.2rem 0 2rem;
-    }
-
-    /* Lead card: full row, two-column layout (image left, text right) */
-    .news-card-lead {
-      grid-column: 1 / -1;
-      display: grid;
-      grid-template-columns: 1.2fr 1fr;
-      border-radius: var(--card-radius);
-      overflow: hidden;
-      border: 1px solid var(--anthro-border);
-      background: var(--card-bg);
-      box-shadow: 0 2px 8px rgba(20,12,5,0.07);
-      transition: transform 0.22s ease, box-shadow 0.22s ease;
-      text-decoration: none !important;
-    }
-    .news-card-lead:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 10px 32px rgba(20,12,5,0.13);
-    }
-    .news-card-lead .card-image {
-      height: 260px;
-      border-radius: 0;
-    }
-    .news-card-lead .card-body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 2rem 2.2rem;
-      gap: 0.8rem;
-    }
-    .news-card-lead .card-title {
-      font-size: 1.5rem !important;
-      line-height: 1.3 !important;
-    }
-
-    /* Regular card */
-    .news-card {
-      background: var(--card-bg);
-      border-radius: var(--card-radius);
-      border: 1px solid var(--anthro-border);
-      overflow: hidden;
-      box-shadow: 0 2px 6px rgba(20,12,5,0.05);
-      transition: transform 0.22s ease, box-shadow 0.22s ease;
-      display: flex;
-      flex-direction: column;
-    }
-    .news-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 28px rgba(20,12,5,0.12);
-    }
-
-    /* ── Card image area (gradient per source) ─────────────── */
-    .card-image {
-      height: 150px;
-      position: relative;
-      overflow: hidden;
-      flex-shrink: 0;
-    }
-    .card-image a { display: block; height: 100%; border-bottom: none !important; }
-
-    /* Source gradient themes */
-    .ci-hn        { background: linear-gradient(135deg, #e05000 0%, #7a2200 100%); }
-    .ci-reddit    { background: linear-gradient(135deg, #c83a00 0%, #6e1400 100%); }
-    .ci-arxiv     { background: linear-gradient(135deg, #1460b8 0%, #083880 100%); }
-    .ci-anthropic { background: linear-gradient(135deg, #d97757 0%, #6a2a0a 100%); }
-    .ci-github    { background: linear-gradient(135deg, #24292e 0%, #444d56 100%); }
-    .ci-default   { background: linear-gradient(135deg, #4a2e1a 0%, #1c1108 100%); }
-
-    /* Large rank number as image texture */
-    .card-rank-bg {
-      position: absolute;
-      right: 0.4rem;
-      bottom: -0.6rem;
-      font-family: 'DM Serif Display', serif;
-      font-size: 6rem;
-      font-weight: 400;
-      color: rgba(255,255,255,0.11);
-      line-height: 1;
-      pointer-events: none;
-      user-select: none;
-      letter-spacing: -0.04em;
-    }
-
-    /* Subtle noise texture overlay */
-    .card-image::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-      pointer-events: none;
-    }
-
-    .card-image-footer {
-      position: absolute;
-      bottom: 12px;
-      left: 12px;
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      z-index: 1;
-    }
-    .card-score-pill {
-      background: rgba(0,0,0,0.38);
-      color: #fff;
-      padding: 3px 10px;
-      border-radius: 20px;
-      font-size: 0.7rem;
-      font-weight: 700;
-      font-family: 'Inter', sans-serif;
-      backdrop-filter: blur(6px);
-      white-space: nowrap;
-    }
-    .card-src-tag {
-      background: rgba(255,255,255,0.16);
-      color: rgba(255,255,255,0.88);
-      padding: 3px 9px;
-      border-radius: 4px;
-      font-size: 0.63rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      font-family: 'Inter', sans-serif;
-      backdrop-filter: blur(6px);
-      white-space: nowrap;
-    }
-
-    /* ── Card body ─────────────────────────────────────────── */
-    .card-body {
-      padding: 1rem 1.1rem 1.2rem;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-    .card-meta {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-    .card-title {
-      font-family: 'DM Serif Display', serif !important;
-      font-size: 1rem !important;
-      color: var(--anthro-dark) !important;
-      line-height: 1.42 !important;
-      border-bottom: none !important;
-      font-weight: 400;
-      display: block;
-      text-decoration: none;
-    }
-    .card-title:hover {
-      color: var(--anthro-orange) !important;
-      border-bottom: none !important;
-    }
-    .card-read-more {
-      font-family: 'Inter', sans-serif;
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--anthro-orange);
-      text-decoration: none;
-      border-bottom: none !important;
-      margin-top: auto;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-    .card-read-more:hover { color: var(--anthro-rust) !important; border-bottom: none !important; }
-
-    /* Lead card: meta + read more layout */
-    .news-card-lead .card-meta { margin-bottom: 0.4rem; }
-    .news-card-lead .card-read-more { margin-top: 1rem; font-size: 0.85rem; }
-
-    /* ── Source badge pills (for remaining tables) ─────────── */
+    /* ── Source badge pills ─────────────────────────────────── */
     .src-hn {
       display: inline-block; padding: 2px 8px; border-radius: 4px;
       font-size: 0.67rem; font-weight: 700; letter-spacing: 0.04em;
@@ -445,90 +265,10 @@
       border: 1px solid rgba(0,0,0,0.14); font-family: 'Inter', sans-serif; white-space: nowrap;
     }
 
-    /* ── Homepage hero ─────────────────────────────────────── */
-    .site-hero {
-      background: linear-gradient(135deg, #1c1108 0%, #271408 55%, #141413 100%);
-      border-radius: 18px;
-      padding: 2.6rem 2.8rem;
-      margin-bottom: 2.5rem;
-      border: 1px solid #3d2510;
-      position: relative;
-      overflow: hidden;
-    }
-    .site-hero::before {
-      content: '';
-      position: absolute;
-      top: -70px; right: -50px;
-      width: 320px; height: 320px;
-      background: radial-gradient(circle, rgba(217,119,87,0.22) 0%, transparent 65%);
-      pointer-events: none;
-    }
-    .site-hero::after {
-      content: '';
-      position: absolute;
-      bottom: -50px; left: 20px;
-      width: 240px; height: 240px;
-      background: radial-gradient(circle, rgba(174,86,48,0.13) 0%, transparent 65%);
-      pointer-events: none;
-    }
-    .hero-eyebrow {
-      font-family: 'Inter', sans-serif;
-      font-size: 0.68rem;
-      color: #d97757;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      font-weight: 700;
-      margin-bottom: 0.7rem;
-    }
-    .hero-title {
-      font-family: 'DM Serif Display', serif;
-      font-size: 2.2rem;
-      background: linear-gradient(135deg, #f0c4a0 0%, #d97757 55%, #f0c4a0 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      line-height: 1.15;
-      letter-spacing: -0.02em;
-      margin-bottom: 0.65rem;
-    }
-    .hero-subtitle {
-      font-family: 'Inter', sans-serif;
-      font-size: 0.93rem;
-      color: #7a6a58;
-      line-height: 1.65;
-      max-width: 500px;
-    }
-    .hero-stats {
-      display: flex;
-      gap: 2.5rem;
-      margin-top: 1.8rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid rgba(61,37,16,0.55);
-    }
-    .hero-stat-num {
-      font-family: 'DM Serif Display', serif;
-      font-size: 2rem;
-      color: #d97757;
-      display: block;
-      line-height: 1;
-    }
-    .hero-stat-label {
-      font-family: 'Inter', sans-serif;
-      font-size: 0.65rem;
-      color: #6a5a40;
-      text-transform: uppercase;
-      letter-spacing: 0.11em;
-      display: block;
-      margin-top: 5px;
-      font-weight: 600;
-    }
-
-    /* ── HR ────────────────────────────────────────────────── */
+    /* ── HR / Footer ───────────────────────────────────────── */
     hr { border: none; border-top: 1px solid var(--anthro-border); margin: 2.5rem 0; }
-
-    /* ── Footer ────────────────────────────────────────────── */
     .page-footer {
-      margin-top: 3.5rem;
+      margin-top: 2.5rem;
       padding-top: 1.2rem;
       border-top: 1px solid var(--anthro-border);
       font-size: 0.77rem;
@@ -542,10 +282,6 @@
     .page-footer a { color: var(--anthro-rust); border: none !important; }
     .page-footer a:hover { color: var(--anthro-orange); }
 
-    /* ── Shields badges row ─────────────────────────────────── */
-    .markdown-section p:first-of-type { line-height: 2.2; }
-    .markdown-section p img[src*="shields.io"] { border-radius: 3px; }
-
     /* ── Code blocks ────────────────────────────────────────── */
     pre {
       background: var(--anthro-dark) !important;
@@ -555,31 +291,558 @@
     }
     pre code { font-size: 0.86rem; }
 
-    /* ── Mobile ─────────────────────────────────────────────── */
-    @media (max-width: 900px) {
+    /* ══════════════════════════════════════════════════════════
+       DASHBOARD — Control Center Layout
+       ══════════════════════════════════════════════════════════ */
+
+    /* Grid container */
+    .dash-grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 12px;
+      margin: 0;
+    }
+
+    /* Grid span helpers */
+    .ws-12 { grid-column: span 12; }
+    .ws-5  { grid-column: span 5; }
+    .ws-4  { grid-column: span 4; }
+    .ws-3  { grid-column: span 3; }
+    .wr-2  { grid-row: span 2; }
+
+    /* Base widget */
+    .dash-widget {
+      background: var(--card-bg);
+      border: 1px solid var(--anthro-border);
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1px 4px rgba(20,12,5,0.05);
+    }
+
+    /* ── Masthead ─────────────────────────────────────────── */
+    .dash-masthead {
+      grid-column: 1 / -1;
+      background: var(--anthro-dark);
+      border: 1px solid #2a2520;
+      border-radius: var(--card-radius);
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .dash-masthead::before {
+      content: '';
+      position: absolute;
+      top: -50px; right: -20px;
+      width: 220px; height: 220px;
+      background: radial-gradient(circle, rgba(217,119,87,0.2) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .dash-masthead::after {
+      content: '';
+      position: absolute;
+      bottom: -40px; left: 40px;
+      width: 160px; height: 160px;
+      background: radial-gradient(circle, rgba(174,86,48,0.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .dash-masthead-brand { display: flex; flex-direction: column; gap: 3px; }
+    .dash-masthead-eyebrow {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.6rem;
+      color: #6a5a40;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-weight: 700;
+    }
+    .dash-masthead-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.55rem;
+      background: linear-gradient(135deg, #f0c4a0 0%, #d97757 55%, #f0c4a0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+    .dash-masthead-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem;
+      color: #5a4a32;
+    }
+    .dash-masthead-stats { display: flex; gap: 2rem; }
+    .dash-stat { text-align: center; }
+    .dash-stat-num {
+      display: block;
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.6rem;
+      color: #d97757;
+      line-height: 1;
+    }
+    .dash-stat-label {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.57rem;
+      color: #5a4a32;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    /* ── Widget header ───────────────────────────────────── */
+    .dash-wh {
+      padding: 10px 14px 9px;
+      border-bottom: 1px solid var(--anthro-border);
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      flex-shrink: 0;
+    }
+    .dash-wh-icon { font-size: 0.85rem; line-height: 1; }
+    .dash-wh-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--anthro-mid);
+      flex: 1;
+    }
+    .dash-wh-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--anthro-orange);
+      text-decoration: none;
+      border-bottom: none !important;
+      transition: color 0.15s;
+    }
+    .dash-wh-link:hover { color: var(--anthro-rust); }
+
+    /* ── Lead Story widget ──────────────────────────────── */
+    .dash-lead-img {
+      height: 190px;
+      flex-shrink: 0;
+      position: relative;
+      overflow: hidden;
+      display: block;
+      text-decoration: none !important;
+      border-bottom: none !important;
+    }
+    .ci-hn        { background: linear-gradient(135deg, #e05000 0%, #7a2200 100%); }
+    .ci-reddit    { background: linear-gradient(135deg, #c83a00 0%, #6e1400 100%); }
+    .ci-arxiv     { background: linear-gradient(135deg, #1460b8 0%, #083880 100%); }
+    .ci-anthropic { background: linear-gradient(135deg, #d97757 0%, #6a2a0a 100%); }
+    .ci-github    { background: linear-gradient(135deg, #24292e 0%, #444d56 100%); }
+    .ci-default   { background: linear-gradient(135deg, #4a2e1a 0%, #1c1108 100%); }
+
+    .dash-rank-bg {
+      position: absolute;
+      right: 0.5rem; bottom: -0.8rem;
+      font-family: 'DM Serif Display', serif;
+      font-size: 7rem;
+      font-weight: 400;
+      color: rgba(255,255,255,0.1);
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+      letter-spacing: -0.04em;
+    }
+    .dash-img-footer {
+      position: absolute;
+      bottom: 10px; left: 12px;
+      display: flex; align-items: center; gap: 6px; z-index: 1;
+    }
+    .dash-score-pill {
+      background: rgba(0,0,0,0.4);
+      color: #fff;
+      padding: 3px 9px;
+      border-radius: 20px;
+      font-size: 0.68rem; font-weight: 700;
+      font-family: 'Inter', sans-serif;
+      backdrop-filter: blur(6px);
+    }
+    .dash-src-tag {
+      background: rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.9);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.6rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      font-family: 'Inter', sans-serif;
+      backdrop-filter: blur(6px);
+    }
+    .dash-lead-body {
+      padding: 14px 16px 16px;
+      flex: 1;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .dash-lead-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.12rem;
+      color: var(--anthro-dark) !important;
+      line-height: 1.38;
+      border-bottom: none !important;
+      text-decoration: none;
+      display: block;
+    }
+    .dash-lead-title:hover { color: var(--anthro-orange) !important; }
+    .dash-lead-meta {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem;
+      color: var(--anthro-mid);
+    }
+    .dash-read-more {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.76rem; font-weight: 600;
+      color: var(--anthro-orange);
+      text-decoration: none;
+      border-bottom: none !important;
+      margin-top: auto;
+      display: inline-flex; align-items: center; gap: 4px;
+    }
+    .dash-read-more:hover { color: var(--anthro-rust) !important; }
+
+    /* ── Leaderboard widget ─────────────────────────────── */
+    .dash-lb-list { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
+    .dash-lb-row {
+      padding: 8px 14px;
+      display: grid;
+      grid-template-columns: 26px 1fr 46px;
+      align-items: center;
+      gap: 9px;
+      border-bottom: 1px solid var(--anthro-border);
+      transition: background 0.12s;
+    }
+    .dash-lb-row:last-child { border-bottom: none; }
+    .dash-lb-row:hover { background: var(--anthro-cream); }
+    .dash-lb-rank {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.05rem;
+      color: var(--anthro-mid);
+      text-align: center; line-height: 1;
+    }
+    .dash-lb-rank.hot { color: var(--anthro-orange); }
+    .dash-lb-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      color: var(--anthro-dark);
+      line-height: 1.3;
+      display: block;
+      text-decoration: none;
+      border-bottom: none !important;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .dash-lb-title:hover { color: var(--anthro-orange); }
+    .dash-lb-src {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.62rem; color: var(--anthro-mid);
+      display: block; margin-top: 1px;
+    }
+    .dash-lb-score {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem; font-weight: 700;
+      color: var(--anthro-rust); text-align: right;
+    }
+
+    /* ── Benchmarks widget ──────────────────────────────── */
+    .dash-metrics { display: flex; flex-direction: column; flex: 1; }
+    .dash-metric {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--anthro-border);
+      flex: 1;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+    .dash-metric:last-child { border-bottom: none; }
+    .dash-metric-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 2px; }
+    .dash-metric-val {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.9rem;
+      color: var(--anthro-orange);
+      line-height: 1;
+    }
+    .dash-metric-bench {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.65rem; font-weight: 700;
+      color: var(--anthro-mid);
+      text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .dash-metric-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.68rem;
+      color: #8a8078;
+      line-height: 1.4;
+    }
+
+    /* ── Changelog widget ───────────────────────────────── */
+    .dash-cl-list { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
+    .dash-cl-item {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--anthro-border);
+    }
+    .dash-cl-item:last-child { border-bottom: none; }
+    .dash-cl-date {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.6rem; font-weight: 700;
+      color: var(--anthro-orange);
+      text-transform: uppercase; letter-spacing: 0.08em;
+      margin-bottom: 3px;
+    }
+    .dash-cl-headline {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.81rem; font-weight: 600;
+      color: var(--anthro-dark);
+      line-height: 1.3; margin-bottom: 3px;
+    }
+    .dash-cl-body {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.73rem;
+      color: #7a7068;
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* ── Announcements widget ───────────────────────────── */
+    .dash-ann-list { display: flex; flex-direction: column; flex: 1; }
+    .dash-ann-item {
+      padding: 9px 14px;
+      border-bottom: 1px solid var(--anthro-border);
+      display: flex; align-items: flex-start; gap: 9px;
+      transition: background 0.12s;
+    }
+    .dash-ann-item:last-child { border-bottom: none; }
+    .dash-ann-item:hover { background: var(--anthro-cream); }
+    .dash-ann-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--anthro-orange);
+      flex-shrink: 0; margin-top: 5px;
+    }
+    .dash-ann-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      color: var(--anthro-dark);
+      text-decoration: none;
+      border-bottom: none !important;
+      line-height: 1.35; display: block;
+    }
+    .dash-ann-title:hover { color: var(--anthro-orange); }
+    .dash-ann-src {
+      font-size: 0.62rem; color: var(--anthro-mid);
+      margin-top: 2px; display: block;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* ── SDK Releases widget ────────────────────────────── */
+    .dash-sdk-list {
+      padding: 8px 12px;
+      display: flex; flex-direction: column; gap: 6px;
+      flex: 1;
+    }
+    .dash-sdk-row {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 8px; align-items: start;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--anthro-border);
+    }
+    .dash-sdk-row:last-child { border-bottom: none; padding-bottom: 0; }
+    .dash-sdk-badge {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.64rem; font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: rgba(217,119,87,0.1);
+      color: var(--anthro-rust);
+      border: 1px solid rgba(217,119,87,0.25);
+      white-space: nowrap;
+      text-decoration: none;
+      border-bottom: none !important;
+      transition: background 0.12s;
+    }
+    .dash-sdk-badge:hover { background: rgba(217,119,87,0.2); }
+    .dash-sdk-note {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem; color: #7a7068; line-height: 1.4;
+    }
+
+    /* ── Research widget ────────────────────────────────── */
+    .dash-res-list { display: flex; flex-direction: column; flex: 1; }
+    .dash-res-item {
+      padding: 9px 14px;
+      border-bottom: 1px solid var(--anthro-border);
+      display: flex; align-items: flex-start; gap: 9px;
+      transition: background 0.12s;
+    }
+    .dash-res-item:last-child { border-bottom: none; }
+    .dash-res-item:hover { background: var(--anthro-cream); }
+    .dash-res-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--anthro-blue);
+      flex-shrink: 0; margin-top: 5px;
+    }
+    .dash-res-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      color: var(--anthro-dark);
+      text-decoration: none;
+      border-bottom: none !important;
+      line-height: 1.35; display: block;
+    }
+    .dash-res-title:hover { color: var(--anthro-blue); }
+    .dash-res-src {
+      font-size: 0.62rem; color: var(--anthro-mid);
+      margin-top: 2px; display: block;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* ── Loading state ──────────────────────────────────── */
+    .dash-loading {
+      display: flex; align-items: center; justify-content: center;
+      height: 280px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      color: var(--anthro-mid);
+      letter-spacing: 0.05em;
+    }
+
+    /* ══════════════════════════════════════════════════════════
+       NEWS PAGE — Blog card grid
+       ══════════════════════════════════════════════════════════ */
+    .news-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 1.2rem 0 2rem;
+    }
+    .news-card-lead {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      border: 1px solid var(--anthro-border);
+      background: var(--card-bg);
+      box-shadow: 0 2px 8px rgba(20,12,5,0.07);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+    .news-card-lead:hover { transform: translateY(-3px); box-shadow: 0 10px 32px rgba(20,12,5,0.13); }
+    .news-card-lead .card-image { height: 260px; border-radius: 0; }
+    .news-card-lead .card-body {
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 2rem 2.2rem; gap: 0.8rem;
+    }
+    .news-card-lead .card-title { font-size: 1.5rem !important; line-height: 1.3 !important; }
+
+    .news-card {
+      background: var(--card-bg);
+      border-radius: var(--card-radius);
+      border: 1px solid var(--anthro-border);
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(20,12,5,0.05);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+      display: flex; flex-direction: column;
+    }
+    .news-card:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(20,12,5,0.12); }
+
+    .card-image {
+      height: 150px;
+      position: relative; overflow: hidden; flex-shrink: 0;
+    }
+    .card-image a { display: block; height: 100%; border-bottom: none !important; }
+    .card-image::after {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+    .card-rank-bg {
+      position: absolute; right: 0.4rem; bottom: -0.6rem;
+      font-family: 'DM Serif Display', serif;
+      font-size: 6rem; font-weight: 400;
+      color: rgba(255,255,255,0.11);
+      line-height: 1; pointer-events: none; user-select: none; letter-spacing: -0.04em;
+    }
+    .card-image-footer {
+      position: absolute; bottom: 12px; left: 12px;
+      display: flex; align-items: center; gap: 7px; z-index: 1;
+    }
+    .card-score-pill {
+      background: rgba(0,0,0,0.38); color: #fff;
+      padding: 3px 10px; border-radius: 20px;
+      font-size: 0.7rem; font-weight: 700;
+      font-family: 'Inter', sans-serif; backdrop-filter: blur(6px);
+    }
+    .card-src-tag {
+      background: rgba(255,255,255,0.16); color: rgba(255,255,255,0.88);
+      padding: 3px 9px; border-radius: 4px;
+      font-size: 0.63rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      font-family: 'Inter', sans-serif; backdrop-filter: blur(6px);
+    }
+    .card-body {
+      padding: 1rem 1.1rem 1.2rem;
+      flex: 1; display: flex; flex-direction: column; gap: 0.5rem;
+    }
+    .card-title {
+      font-family: 'DM Serif Display', serif !important;
+      font-size: 1rem !important;
+      color: var(--anthro-dark) !important;
+      line-height: 1.42 !important;
+      border-bottom: none !important;
+      font-weight: 400; display: block; text-decoration: none;
+    }
+    .card-title:hover { color: var(--anthro-orange) !important; border-bottom: none !important; }
+    .card-read-more {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem; font-weight: 600;
+      color: var(--anthro-orange);
+      text-decoration: none; border-bottom: none !important;
+      margin-top: auto; display: inline-flex; align-items: center; gap: 4px;
+    }
+    .card-read-more:hover { color: var(--anthro-rust) !important; border-bottom: none !important; }
+    .news-card-lead .card-read-more { margin-top: 1rem; font-size: 0.85rem; }
+
+    /* ── Responsive ─────────────────────────────────────── */
+    @media (max-width: 1100px) {
+      .dash-grid { grid-template-columns: repeat(6, 1fr); gap: 10px; }
+      .ws-12 { grid-column: span 6; }
+      .ws-5  { grid-column: span 6; }
+      .ws-4  { grid-column: span 3; }
+      .ws-3  { grid-column: span 3; }
+      .wr-2  { grid-row: span 1; }
+      .dash-masthead { flex-direction: column; align-items: flex-start; }
+      .dash-masthead-stats { flex-wrap: wrap; gap: 1.2rem; }
       .news-card-grid { grid-template-columns: repeat(2, 1fr); }
       .news-card-lead { grid-template-columns: 1fr; }
       .news-card-lead .card-image { height: 200px; }
-      .news-card-lead .card-body { padding: 1.4rem; }
-      .news-card-lead .card-title { font-size: 1.2rem !important; }
     }
-    @media (max-width: 600px) {
-      .markdown-section { padding: 1.2rem 1rem; }
+    @media (max-width: 700px) {
+      .markdown-section { padding: 1rem 0.8rem; }
+      .dash-grid { grid-template-columns: 1fr; gap: 8px; }
+      .ws-12, .ws-5, .ws-4, .ws-3 { grid-column: span 1; }
       .news-card-grid { grid-template-columns: 1fr; }
       .markdown-section h1 { font-size: 1.8rem; }
-      .hero-stats { gap: 1.4rem; }
-      .site-hero { padding: 1.6rem 1.4rem; }
-      .hero-title { font-size: 1.7rem; }
     }
   </style>
 </head>
 <body>
 <div id="app">Loading…</div>
 <script>
-  /* ── Helpers ─────────────────────────────────────────────── */
+  /* ── Source class helpers ─────────────────────────────── */
   function srcClass(source) {
     if (!source) return 'ci-default';
-    const s = source.toLowerCase();
+    var s = source.toLowerCase();
     if (s.includes('hacker news')) return 'ci-hn';
     if (s.startsWith('r/') || s.includes('reddit')) return 'ci-reddit';
     if (s.includes('arxiv')) return 'ci-arxiv';
@@ -589,7 +852,7 @@
   }
   function srcBadgeClass(source) {
     if (!source) return '';
-    const s = source.toLowerCase();
+    var s = source.toLowerCase();
     if (s.includes('hacker news')) return 'src-hn';
     if (s.startsWith('r/') || s.includes('reddit')) return 'src-reddit';
     if (s.includes('arxiv')) return 'src-arxiv';
@@ -597,6 +860,276 @@
     if (s.includes('github')) return 'src-github';
     return '';
   }
+
+  /* ── Dashboard data parsers ──────────────────────────── */
+  function escHtml(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function parseMdLink(str) {
+    var m = String(str).match(/\[([^\]]*)\]\(([^)]*)\)/);
+    return m ? { text: m[1].trim(), href: m[2].trim() } : { text: str.trim(), href: '#' };
+  }
+  function stripMd(str) {
+    return String(str)
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+      .replace(/\*\*([^*]*)\*\*/g, '$1')
+      .replace(/\*([^*]*)\*/g, '$1')
+      .trim();
+  }
+
+  function parseSection(text, sectionHeading) {
+    /* Returns lines after sectionHeading until next ### or ## or --- */
+    var lines = text.split('\n');
+    var found = false;
+    var result = [];
+    for (var i = 0; i < lines.length; i++) {
+      if (!found) {
+        if (lines[i].includes(sectionHeading)) found = true;
+        continue;
+      }
+      var t = lines[i].trim();
+      if (t.startsWith('##') || t === '---') break;
+      result.push(lines[i]);
+    }
+    return result;
+  }
+
+  function parseTableRows(lines) {
+    var rows = [], headerPassed = false;
+    for (var i = 0; i < lines.length; i++) {
+      var t = lines[i].trim();
+      if (!t.startsWith('|')) { if (headerPassed) break; continue; }
+      if (/^[|\s:>-]+$/.test(t)) { headerPassed = true; continue; }
+      if (headerPassed) {
+        var cells = t.split('|').slice(1, -1).map(function(c) { return c.trim(); });
+        if (cells.length >= 1) rows.push(cells);
+      }
+    }
+    return rows;
+  }
+
+  function parseTopStories(text) {
+    var lines = parseSection(text, '🔥 Top Stories');
+    return parseTableRows(lines).map(function(cells) {
+      var link = parseMdLink(cells[1] || '');
+      return { score: parseInt(cells[0]) || 0, title: link.text, href: link.href, source: stripMd(cells[2] || '') };
+    });
+  }
+
+  function parseAnnouncements(text) {
+    var lines = parseSection(text, 'Official Announcements');
+    return parseTableRows(lines).map(function(cells) {
+      var link = parseMdLink(cells[0] || '');
+      return { title: link.text, href: link.href, source: stripMd(cells[1] || '') };
+    });
+  }
+
+  function parseSDK(text) {
+    var lines = parseSection(text, 'SDK');
+    return parseTableRows(lines).slice(0, 6).map(function(cells) {
+      var link = parseMdLink(cells[0] || '');
+      return { name: link.text, href: link.href, notes: stripMd(cells[1] || '') };
+    });
+  }
+
+  function parseResearch(text) {
+    var lines = parseSection(text, 'Research');
+    return parseTableRows(lines).map(function(cells) {
+      var link = parseMdLink(cells[0] || '');
+      return { title: link.text, href: link.href, source: stripMd(cells[1] || '') };
+    });
+  }
+
+  function parseChangelog(text) {
+    if (!text) return [];
+    var sections = text.split(/\n(?=## )/);
+    var entries = [];
+    for (var i = 0; i < sections.length && entries.length < 4; i++) {
+      var s = sections[i].trim();
+      if (!s.startsWith('## ')) continue;
+      var lines = s.split('\n');
+      var headline = lines[0].replace(/^## /, '').trim();
+      var di = headline.indexOf(' — ');
+      var date = di >= 0 ? headline.substring(0, di) : '';
+      var title = di >= 0 ? headline.substring(di + 3) : headline;
+      var body = '';
+      for (var j = 1; j < Math.min(lines.length, 10); j++) {
+        var l = lines[j].trim();
+        if (l && !l.startsWith('---') && !l.startsWith('#') && !l.startsWith('|') && !l.startsWith('>')) {
+          var clean = l.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*([^*]+)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '$1');
+          if (clean.length > 15) { body = clean; break; }
+        }
+      }
+      if (title) entries.push({ date: date, title: title, body: body });
+    }
+    return entries;
+  }
+
+  function parseBenchmarks(text) {
+    var b = { gpqa: '91.3%', swe: '82.0%', lmsys: '#1' };
+    if (!text) return b;
+    try {
+      var gm = text.match(/GPQA[\s\S]{0,600}\*\*(\d{2,3}\.\d+%)\*\*/);
+      if (gm) b.gpqa = gm[1];
+      var sm = text.match(/SWE-bench[\s\S]{0,500}(\d{2,3}\.\d+%)\s*\|\s*With parallel/);
+      if (sm) b.swe = sm[1];
+      var lm = text.match(/LMSYS[\s\S]{0,400}#(\d+)\s*\|/);
+      if (lm) b.lmsys = '#' + lm[1];
+    } catch(e) {}
+    return b;
+  }
+
+  /* ── Dashboard builder ───────────────────────────────── */
+  function buildDashboard(d) {
+    var stories = d.stories || [];
+    var announces = d.announces || [];
+    var sdkReleases = d.sdkReleases || [];
+    var research = d.research || [];
+    var clEntries = d.clEntries || [];
+    var bench = d.bench || { gpqa: '91.3%', swe: '82.0%', lmsys: '#1' };
+    var newsDate = d.newsDate || 'Today';
+    var lead = stories[0] || {};
+    var maxScore = lead.score || 1;
+
+    /* Masthead */
+    var masthead = '<div class="dash-masthead">' +
+      '<div class="dash-masthead-brand">' +
+        '<div class="dash-masthead-eyebrow">⚡ Control Center &nbsp;·&nbsp; Daily updated</div>' +
+        '<div class="dash-masthead-title">Awesome Anthropic</div>' +
+        '<div class="dash-masthead-sub">' + escHtml(newsDate) + ' &nbsp;·&nbsp; Claude &amp; Anthropic intelligence hub</div>' +
+      '</div>' +
+      '<div class="dash-masthead-stats">' +
+        '<div class="dash-stat"><span class="dash-stat-num">' + bench.lmsys + '</span><span class="dash-stat-label">LMSYS Rank</span></div>' +
+        '<div class="dash-stat"><span class="dash-stat-num">' + bench.gpqa + '</span><span class="dash-stat-label">GPQA Score</span></div>' +
+        '<div class="dash-stat"><span class="dash-stat-num">' + (lead.score || '—') + '</span><span class="dash-stat-label">Top Score</span></div>' +
+        '<div class="dash-stat"><span class="dash-stat-num">' + stories.length + '</span><span class="dash-stat-label">Stories Today</span></div>' +
+      '</div>' +
+    '</div>';
+
+    /* Lead story */
+    var leadSc = srcClass(lead.source || '');
+    var leadWidget = '<div class="dash-widget ws-5 wr-2">' +
+      '<div class="dash-wh"><span class="dash-wh-icon">🔥</span><span class="dash-wh-label">Top Story</span>' +
+        '<a href="#/docs/NEWS" class="dash-wh-link">All stories →</a></div>' +
+      '<a href="' + escHtml(lead.href || '#') + '" target="_blank" rel="noopener" class="dash-lead-img ' + leadSc + '">' +
+        '<span class="dash-rank-bg">1</span>' +
+        '<div class="dash-img-footer">' +
+          '<span class="dash-score-pill">▲ ' + escHtml(String(lead.score || '')) + '</span>' +
+          '<span class="dash-src-tag">' + escHtml(lead.source || '') + '</span>' +
+        '</div>' +
+      '</a>' +
+      '<div class="dash-lead-body">' +
+        '<a href="' + escHtml(lead.href || '#') + '" target="_blank" rel="noopener" class="dash-lead-title">' + escHtml(lead.title || '') + '</a>' +
+        '<div class="dash-lead-meta">Community score: <strong style="color:var(--anthro-rust)">' + escHtml(String(lead.score || '')) + '</strong> &nbsp;·&nbsp; ' + escHtml(lead.source || '') + '</div>' +
+        '<a href="' + escHtml(lead.href || '#') + '" target="_blank" rel="noopener" class="dash-read-more">Read story →</a>' +
+      '</div>' +
+    '</div>';
+
+    /* Leaderboard */
+    var lbRows = stories.slice(1, 9).map(function(s, i) {
+      var rank = i + 2;
+      var hot = rank <= 3 ? ' hot' : '';
+      return '<div class="dash-lb-row">' +
+        '<span class="dash-lb-rank' + hot + '">' + rank + '</span>' +
+        '<div>' +
+          '<a href="' + escHtml(s.href) + '" target="_blank" rel="noopener" class="dash-lb-title">' + escHtml(s.title) + '</a>' +
+          '<span class="dash-lb-src">' + escHtml(s.source) + '</span>' +
+        '</div>' +
+        '<span class="dash-lb-score">▲&nbsp;' + escHtml(String(s.score)) + '</span>' +
+      '</div>';
+    }).join('');
+    var lbWidget = '<div class="dash-widget ws-4 wr-2">' +
+      '<div class="dash-wh"><span class="dash-wh-icon">📊</span><span class="dash-wh-label">Trending Now</span>' +
+        '<a href="#/docs/NEWS" class="dash-wh-link">Full feed →</a></div>' +
+      '<div class="dash-lb-list">' + lbRows + '</div>' +
+    '</div>';
+
+    /* Benchmarks */
+    var benchWidget = '<div class="dash-widget ws-3">' +
+      '<div class="dash-wh"><span class="dash-wh-icon">🏆</span><span class="dash-wh-label">Benchmarks</span>' +
+        '<a href="#/docs/BENCHMARKS" class="dash-wh-link">More →</a></div>' +
+      '<div class="dash-metrics">' +
+        '<div class="dash-metric">' +
+          '<div class="dash-metric-row"><span class="dash-metric-val">' + escHtml(bench.gpqa) + '</span><span class="dash-metric-bench">GPQA</span></div>' +
+          '<div class="dash-metric-sub">Opus 4.6 &nbsp;·&nbsp; PhD-level science &nbsp;·&nbsp; +26% over experts</div>' +
+        '</div>' +
+        '<div class="dash-metric">' +
+          '<div class="dash-metric-row"><span class="dash-metric-val">' + escHtml(bench.swe) + '</span><span class="dash-metric-bench">SWE-bench</span></div>' +
+          '<div class="dash-metric-sub">Sonnet 4.5 parallel &nbsp;·&nbsp; Real-world coding</div>' +
+        '</div>' +
+        '<div class="dash-metric">' +
+          '<div class="dash-metric-row"><span class="dash-metric-val">' + escHtml(bench.lmsys) + '</span><span class="dash-metric-bench">LMSYS Arena</span></div>' +
+          '<div class="dash-metric-sub">Opus 4.6 &nbsp;·&nbsp; ~1500+ Elo &nbsp;·&nbsp; Human preference</div>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+
+    /* Changelog */
+    var clItems = clEntries.slice(0, 3).map(function(e) {
+      return '<div class="dash-cl-item">' +
+        '<div class="dash-cl-date">' + escHtml(e.date) + '</div>' +
+        '<div class="dash-cl-headline">' + escHtml(e.title) + '</div>' +
+        (e.body ? '<div class="dash-cl-body">' + escHtml(e.body) + '</div>' : '') +
+      '</div>';
+    }).join('');
+    var clWidget = '<div class="dash-widget ws-3">' +
+      '<div class="dash-wh"><span class="dash-wh-icon">🔄</span><span class="dash-wh-label">Changelog</span>' +
+        '<a href="#/docs/CHANGELOG" class="dash-wh-link">Full log →</a></div>' +
+      '<div class="dash-cl-list">' + clItems + '</div>' +
+    '</div>';
+
+    /* Announcements */
+    var annItems = announces.slice(0, 5).map(function(a) {
+      return '<div class="dash-ann-item">' +
+        '<div class="dash-ann-dot"></div>' +
+        '<div>' +
+          '<a href="' + escHtml(a.href) + '" target="_blank" rel="noopener" class="dash-ann-title">' + escHtml(a.title) + '</a>' +
+          '<span class="dash-ann-src">' + escHtml(a.source) + '</span>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+    var annWidget = '<div class="dash-widget ws-5">' +
+      '<div class="dash-wh"><span class="dash-wh-icon">📢</span><span class="dash-wh-label">Official Announcements</span>' +
+        '<a href="#/docs/NEWS" class="dash-wh-link">See all →</a></div>' +
+      '<div class="dash-ann-list">' + annItems + '</div>' +
+    '</div>';
+
+    /* SDK Releases */
+    var sdkItems = sdkReleases.slice(0, 5).map(function(s) {
+      return '<div class="dash-sdk-row">' +
+        '<a href="' + escHtml(s.href) + '" target="_blank" rel="noopener" class="dash-sdk-badge">' + escHtml(s.name) + '</a>' +
+        '<div class="dash-sdk-note">' + escHtml(s.notes) + '</div>' +
+      '</div>';
+    }).join('');
+    var sdkWidget = '<div class="dash-widget ws-4">' +
+      '<div class="dash-wh"><span class="dash-wh-icon">🛠️</span><span class="dash-wh-label">SDK &amp; Tool Releases</span></div>' +
+      '<div class="dash-sdk-list">' + sdkItems + '</div>' +
+    '</div>';
+
+    /* Research */
+    var resItems = research.slice(0, 4).map(function(r) {
+      return '<div class="dash-res-item">' +
+        '<div class="dash-res-dot"></div>' +
+        '<div>' +
+          '<a href="' + escHtml(r.href) + '" target="_blank" rel="noopener" class="dash-res-title">' + escHtml(r.title) + '</a>' +
+          '<span class="dash-res-src">' + escHtml(r.source) + '</span>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+    var resWidget = (resItems
+      ? '<div class="dash-widget ws-3"><div class="dash-wh"><span class="dash-wh-icon">🔬</span><span class="dash-wh-label">Research</span></div><div class="dash-res-list">' + resItems + '</div></div>'
+      : '');
+
+    return '<div class="dash-grid">' +
+      masthead + leadWidget + lbWidget + benchWidget + clWidget +
+      annWidget + sdkWidget + resWidget +
+    '</div>';
+  }
+
+  /* ── Dashboard data cache ────────────────────────────── */
+  var _dashCache = null;
 
   window.$docsify = {
     name: '⚡ Awesome Anthropic',
@@ -617,54 +1150,84 @@
     markdown: {
       renderer: {
         link(href, title, text) {
-          const ext = href && href.startsWith('http');
-          const t = ext ? ' target="_blank" rel="noopener noreferrer"' : '';
-          const ti = title ? ` title="${title}"` : '';
-          return `<a href="${href}"${ti}${t}>${text}</a>`;
+          var ext = href && href.startsWith('http');
+          var t = ext ? ' target="_blank" rel="noopener noreferrer"' : '';
+          var ti = title ? ' title="' + title + '"' : '';
+          return '<a href="' + href + '"' + ti + t + '>' + text + '</a>';
         }
       }
     },
     plugins: [
       function(hook) {
 
-        /* ── Footer on every page ─────────────────────────── */
+        /* ── Footer on every page ─────────────────────── */
         hook.afterEach(function(html) {
-          return html + `<footer class="page-footer">
-            <span>Auto-updated daily &middot; Claude &amp; Anthropic resources</span>
-            <span>
-              <a href="https://github.com/Omrigotlieb/awesome-anthropic" target="_blank">GitHub</a> &middot;
-              <a href="https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> &middot;
-              <a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new" target="_blank">Report Issue</a>
-            </span>
-          </footer>`;
+          return html + '<footer class="page-footer">' +
+            '<span>Auto-updated daily &middot; Claude &amp; Anthropic resources</span>' +
+            '<span>' +
+              '<a href="https://github.com/Omrigotlieb/awesome-anthropic" target="_blank">GitHub</a> &middot; ' +
+              '<a href="https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> &middot; ' +
+              '<a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new" target="_blank">Report Issue</a>' +
+            '</span>' +
+          '</footer>';
         });
 
-        /* ── Post-render DOM enhancements ─────────────────── */
+        /* ── Post-render enhancements ─────────────────── */
         hook.doneEach(function() {
           var hash = window.location.hash || '';
-          var isHome = !hash || hash === '#/' || (!hash.includes('/docs/') && !hash.includes('CONTRIBUTING') && !hash.includes('CODE_OF_CONDUCT'));
+          var isHome = !hash || hash === '#' || hash === '#/';
           var isNews = hash.includes('docs/NEWS');
           var ms = document.querySelector('.markdown-section');
           if (!ms) return;
 
-          /* 1 ── Hero banner on homepage ─────────────────── */
-          if (isHome && !ms.querySelector('.site-hero')) {
-            var hero = document.createElement('div');
-            hero.className = 'site-hero';
-            hero.innerHTML =
-              '<div class="hero-eyebrow">⚡ Daily Updated &nbsp;·&nbsp; Auto-synced from Anthropic</div>' +
-              '<div class="hero-title">Awesome Anthropic</div>' +
-              '<div class="hero-subtitle">The most complete curated resource for Claude AI — models, SDKs, research, news, and community projects, refreshed every 24 hours.</div>' +
-              '<div class="hero-stats">' +
-                '<div><span class="hero-stat-num">4+</span><span class="hero-stat-label">Claude Models</span></div>' +
-                '<div><span class="hero-stat-num">500+</span><span class="hero-stat-label">Resources</span></div>' +
-                '<div><span class="hero-stat-num">24h</span><span class="hero-stat-label">News Lag</span></div>' +
-                '<div><span class="hero-stat-num">∞</span><span class="hero-stat-label">Updates</span></div>' +
-              '</div>';
-            ms.insertBefore(hero, ms.firstChild);
+          /* 1 ── Dashboard on homepage ──────────────── */
+          if (isHome) {
+            var footer = ms.querySelector('.page-footer');
+
+            if (_dashCache) {
+              ms.innerHTML = _dashCache;
+              if (footer) ms.appendChild(footer);
+              return;
+            }
+
+            /* Show loading skeleton immediately */
+            ms.innerHTML = '<div class="dash-loading">Loading dashboard…</div>';
+            if (footer) ms.appendChild(footer);
+
+            var base = window.location.href.split('#')[0].replace(/\/?$/, '/');
+            Promise.all([
+              fetch(base + 'docs/NEWS.md').then(function(r) { return r.ok ? r.text() : ''; }).catch(function() { return ''; }),
+              fetch(base + 'docs/CHANGELOG.md').then(function(r) { return r.ok ? r.text() : ''; }).catch(function() { return ''; }),
+              fetch(base + 'docs/BENCHMARKS.md').then(function(r) { return r.ok ? r.text() : ''; }).catch(function() { return ''; })
+            ]).then(function(texts) {
+              var newsText = texts[0], clText = texts[1], benchText = texts[2];
+              var stories = parseTopStories(newsText);
+              var announces = parseAnnouncements(newsText);
+              var sdkReleases = parseSDK(newsText);
+              var research = parseResearch(newsText);
+              var clEntries = parseChangelog(clText);
+              var bench = parseBenchmarks(benchText);
+              var dateMatch = newsText.match(/## ([A-Za-z]+ \d+, \d{4})/);
+              var newsDate = dateMatch ? dateMatch[1] : 'Today';
+
+              var html = buildDashboard({
+                stories: stories, announces: announces,
+                sdkReleases: sdkReleases, research: research,
+                clEntries: clEntries, bench: bench, newsDate: newsDate
+              });
+
+              _dashCache = html;
+              var savedFooter = ms.querySelector('.page-footer');
+              ms.innerHTML = html;
+              if (savedFooter) ms.appendChild(savedFooter);
+            }).catch(function(err) {
+              console.warn('Dashboard load error:', err);
+              ms.innerHTML = '<div class="dash-loading">Could not load dashboard data.</div>';
+            });
+            return;
           }
 
-          /* 2 ── Blog card grid on News page ─────────────── */
+          /* 2 ── Blog card grid on News page ────────── */
           if (isNews) {
             var tables = ms.querySelectorAll('table');
             var topTable = tables[0];
@@ -676,7 +1239,6 @@
               rows.forEach(function(row, i) {
                 var cells = row.querySelectorAll('td');
                 if (cells.length < 3) return;
-
                 var score  = cells[0].textContent.trim();
                 var link   = cells[1].querySelector('a');
                 var title  = link ? link.textContent.trim() : cells[1].textContent.trim();
@@ -709,7 +1271,7 @@
             }
           }
 
-          /* 3 ── Color-code source badges in remaining tables */
+          /* 3 ── Color-code source badges in tables ──── */
           ms.querySelectorAll('tbody td').forEach(function(td) {
             if (td.querySelector('[class^="src-"]')) return;
             var text = td.textContent.trim();
