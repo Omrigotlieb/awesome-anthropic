@@ -1,7 +1,7 @@
-- [🏠 Home](/)
+- [🏠 Home](#/)
 
 - **Resources**
-- [📋 Awesome List](/)
+- [📋 Awesome List](#/)
 - [📊 Model Benchmarks](#/docs/BENCHMARKS)
 
 - **Daily Updates**
