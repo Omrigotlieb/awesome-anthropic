@@ -307,6 +307,14 @@
     @keyframes spin { to { transform:rotate(360deg); } }
     .rmodal-spinner { width:26px; height:26px; border:3px solid var(--anthro-border); border-top-color:var(--anthro-orange); border-radius:50%; animation:spin .75s linear infinite; margin:0 auto 14px; }
 
+    /* ── Claude Code quick-links row ─────────────────── */
+    .dash-cc-row { display:flex; gap:0; flex:1; overflow:hidden; padding:0 4px 8px; }
+    .dash-cc-item { flex:1; display:flex; align-items:center; gap:8px; padding:4px 10px; border-radius:8px; text-decoration:none; border-bottom:none !important; transition:background .12s; min-width:0; }
+    .dash-cc-item:hover { background:var(--anthro-cream); }
+    .dash-cc-icon { font-size:1.2rem; flex-shrink:0; line-height:1; }
+    .dash-cc-label { font-family:'Inter',sans-serif; font-size:.77rem; font-weight:600; color:var(--anthro-dark); display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .dash-cc-sub { font-family:'Inter',sans-serif; font-size:.62rem; color:var(--anthro-mid); display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
     /* ── Claude Code Tracker widget ──────────────────── */
     .dash-tracker-body { display:flex; gap:0; flex:1; overflow:hidden; }
     .dash-tracker-stats { display:flex; flex-direction:column; gap:0; flex-shrink:0; width:160px; border-right:1px solid var(--anthro-border); }
@@ -732,7 +740,29 @@
       '</div>'+
     '</div>';
 
-    return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+trackerW+'</div>';
+    /* Claude Code Ecosystem quick-links */
+    var ccLinks = [
+      {icon:'🔌', label:'MCP Servers', sub:'Model Context Protocol', href:'#/docs/CLAUDE_CODE'},
+      {icon:'⚡', label:'Skills & Commands', sub:'/commit /review /test…', href:'#/docs/CLAUDE_CODE'},
+      {icon:'🌐', label:'Remote Control', sub:'Feb 2026 · outbound HTTPS', href:'#/docs/CLAUDE_CODE'},
+      {icon:'🪝', label:'Hooks & Automation', sub:'15 event types', href:'#/docs/CLAUDE_CODE'},
+      {icon:'🤖', label:'Multi-Agent', sub:'Subagents · parallel teams', href:'#/docs/CLAUDE_CODE'},
+      {icon:'🎯', label:'Interview Prep', sub:'Anthropic jobs guide', href:'#/docs/INTERVIEW'},
+    ];
+    var ccItems = ccLinks.map(function(l){
+      return '<a href="'+l.href+'" class="dash-cc-item">'+
+        '<span class="dash-cc-icon">'+l.icon+'</span>'+
+        '<div><span class="dash-cc-label">'+escHtml(l.label)+'</span>'+
+        '<span class="dash-cc-sub">'+escHtml(l.sub)+'</span></div>'+
+      '</a>';
+    }).join('');
+    var ccW='<div class="dash-widget ws-12" style="max-height:82px;">'+
+      '<div class="dash-wh" style="border-bottom:none;padding-bottom:6px;"><span class="dash-wh-icon">⚡</span><span class="dash-wh-label">Claude Code</span>'+
+        '<a href="#/docs/CLAUDE_CODE" class="dash-wh-link">Full guide →</a></div>'+
+      '<div class="dash-cc-row">'+ccItems+'</div>'+
+    '</div>';
+
+    return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+trackerW+ccW+'</div>';
   }
 
   /* ── Dashboard cache (1-hour TTL) ───────────────────── */
