@@ -1,121 +1,72 @@
-"""Thin wrapper around the Anthropic SDK for summarization tasks.
+"""
+AI summarization utilities.
 
-Authentication priority:
-  1. ANTHROPIC_API_KEY env var (standard API key from console.anthropic.com)
-  2. Claude Code OAuth credentials from ~/.claude/credentials.json (Max subscription)
+Priority order:
+  1. ANTHROPIC_API_KEY env var → use Python SDK directly
+  2. `claude` CLI in PATH (not nested inside Claude Code) → use subprocess
+  3. No credentials → skip summarization, use item title as fallback
+
+This means:
+  - Local runs (outside Claude Code): uses `claude` CLI with your Max subscription
+  - GitHub Actions with claude installed: uses `claude` CLI
+  - GitHub Actions without claude: gracefully skips (titles used as summaries)
+  - Inside Claude Code sessions: skips (nested sessions are blocked by design)
 """
 from __future__ import annotations
 
-import json
 import os
-from pathlib import Path
+import shutil
+import subprocess
+import sys
 
 
-def _get_claude_code_token() -> str | None:
-    """Read the OAuth access token from Claude Code credentials."""
-    creds_path = Path.home() / ".claude" / "credentials.json"
-    if not creds_path.exists():
-        return None
-    try:
-        data = json.loads(creds_path.read_text())
-        return data.get("claudeAiOauth", {}).get("accessToken")
-    except Exception:
-        return None
+def _inside_claude_code() -> bool:
+    """True when running as a subprocess of Claude Code."""
+    return bool(os.environ.get("CLAUDECODE"))
 
 
-def _resolve_key() -> tuple[str, str]:
-    """
-    Return (api_key, method) where method is 'api_key', 'session_token', or 'oauth'.
-    Raises RuntimeError if no credentials are found.
-    """
-    # 1. Standard API key from console.anthropic.com
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if api_key:
-        return api_key, "api_key"
-
-    # 2. Claude Code session token (injected automatically when running inside Claude Code)
-    session_token = os.environ.get("CLAUDE_CODE_SESSION_ACCESS_TOKEN")
-    if session_token:
-        return session_token, "session_token"
-
-    # 3. Claude Code OAuth token from credentials file
-    oauth_token = _get_claude_code_token()
-    if oauth_token:
-        return oauth_token, "oauth"
-
-    raise RuntimeError(
-        "No Anthropic credentials found. Set ANTHROPIC_API_KEY or run inside Claude Code."
-    )
+def _claude_cli_available() -> bool:
+    """True if `claude` CLI is in PATH and we're not inside a Claude Code session."""
+    return not _inside_claude_code() and shutil.which("claude") is not None
 
 
-def _make_client():
-    """Create an Anthropic client using available credentials."""
-    import anthropic
-
-    key, method = _resolve_key()
-    if method == "api_key":
-        return anthropic.Anthropic(api_key=key)
-    # Session tokens and OAuth tokens use Bearer auth
-    return anthropic.Anthropic(auth_token=key)
+def _api_key_available() -> bool:
+    return bool(os.environ.get("ANTHROPIC_API_KEY"))
 
 
 def is_api_available() -> bool:
-    """Check if any Anthropic credentials are available."""
-    try:
-        _resolve_key()
-        return True
-    except RuntimeError:
-        return False
-
-
-def _default_model() -> str:
-    """Pick the summarization model."""
-    return "claude-haiku-4-5-20251001"
+    """Return True if any summarization method is available."""
+    return _api_key_available() or _claude_cli_available()
 
 
 def summarize_news_item(title: str, url: str, body: str = "") -> str:
     """
-    Return a one-sentence developer-oriented summary of a news item.
-    Falls back to returning the title if no credentials are available.
+    Return a one-sentence developer-oriented summary.
+    Falls back to the title if no summarization method is available.
     """
     if not is_api_available():
         return title
 
-    try:
-        client = _make_client()
-        prompt = (
-            "Summarize the following news item in exactly one sentence for a developer audience. "
-            "Be specific and informative. Do not start with 'This article' or 'This post'.\n\n"
-            f"Title: {title}\nURL: {url}\n"
-            f"Content snippet: {body[:500] if body else 'N/A'}"
-        )
-        message = client.messages.create(
-            model=_default_model(),
-            max_tokens=150,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return message.content[0].text.strip()
-    except Exception:
-        return title
+    if _api_key_available():
+        return _summarize_via_sdk(title, url, body)
+
+    return _summarize_via_cli(title, url, body)
 
 
 def batch_summarize(items: list[dict]) -> list[str]:
     """
-    Summarize multiple news items.
-    When using Claude Code OAuth, summarizes sequentially (batches API not available via claude.ai).
-    Falls back to returning titles if no credentials are available.
+    Summarize multiple items. Falls back to titles if nothing is available.
     """
     if not is_api_available() or not items:
         return [item.get("title", "") for item in items]
 
-    # If we have a standard API key, use the efficient Batches API
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        return _batch_via_api(items)
+    if _api_key_available():
+        return _batch_via_sdk(items)
 
-    # Claude Code OAuth: sequential summarization
+    # CLI: summarize sequentially (batching not applicable)
     results = []
     for item in items:
-        summary = summarize_news_item(
+        summary = _summarize_via_cli(
             title=item.get("title", ""),
             url=item.get("url", ""),
             body=item.get("body", ""),
@@ -124,27 +75,51 @@ def batch_summarize(items: list[dict]) -> list[str]:
     return results
 
 
-def _batch_via_api(items: list[dict]) -> list[str]:
-    """Use the Messages Batches API (requires standard API key)."""
+# ---------------------------------------------------------------------------
+# Implementation: Python SDK
+# ---------------------------------------------------------------------------
+
+def _summarize_via_sdk(title: str, url: str, body: str) -> str:
+    try:
+        import anthropic
+
+        client = anthropic.Anthropic()
+        prompt = (
+            "Summarize the following news item in exactly one sentence for a developer audience. "
+            "Be specific and informative. Do not start with 'This article' or 'This post'.\n\n"
+            f"Title: {title}\nURL: {url}\n"
+            f"Content: {body[:500] if body else 'N/A'}"
+        )
+        message = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=150,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return message.content[0].text.strip()
+    except Exception:
+        return title
+
+
+def _batch_via_sdk(items: list[dict]) -> list[str]:
+    """Use the Messages Batches API for efficient batch summarization."""
     import time
-    import anthropic
 
     try:
-        client = anthropic.Anthropic()
-        model = "claude-haiku-4-5-20251001"
+        import anthropic
 
+        client = anthropic.Anthropic()
         batch = client.messages.batches.create(
             requests=[
                 {
                     "custom_id": str(i),
                     "params": {
-                        "model": model,
+                        "model": "claude-haiku-4-5-20251001",
                         "max_tokens": 150,
                         "messages": [
                             {
                                 "role": "user",
                                 "content": (
-                                    f"Summarize in one sentence for developers: "
+                                    "Summarize in one sentence for developers: "
                                     f"Title: {item.get('title', '')}. "
                                     f"Content: {item.get('body', '')[:500]}"
                                 ),
@@ -155,7 +130,6 @@ def _batch_via_api(items: list[dict]) -> list[str]:
                 for i, item in enumerate(items)
             ]
         )
-
         while batch.processing_status == "in_progress":
             time.sleep(5)
             batch = client.messages.batches.retrieve(batch.id)
@@ -168,6 +142,33 @@ def _batch_via_api(items: list[dict]) -> list[str]:
             else:
                 results[idx] = items[idx].get("title", "")
         return results
-
     except Exception:
         return [item.get("title", "") for item in items]
+
+
+# ---------------------------------------------------------------------------
+# Implementation: claude CLI subprocess
+# ---------------------------------------------------------------------------
+
+def _summarize_via_cli(title: str, url: str, body: str) -> str:
+    """Use the `claude` CLI to summarize a single item."""
+    prompt = (
+        f"Summarize in one sentence for developers (be specific, no filler):\n"
+        f"Title: {title}\n"
+        f"URL: {url}\n"
+        f"Content: {body[:400] if body else 'N/A'}\n\n"
+        f"Reply with only the one-sentence summary."
+    )
+    try:
+        result = subprocess.run(
+            ["claude", "--print", "--no-notifications", "-p", prompt],
+            capture_output=True,
+            text=True,
+            timeout=30,
+            env={**os.environ, "FORCE_COLOR": "0"},
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout.strip().split("\n")[0]
+    except Exception as e:
+        print(f"[cli] summarize error: {e}", file=sys.stderr)
+    return title

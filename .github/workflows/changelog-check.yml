@@ -26,13 +26,11 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
 
       - name: Check changelog for new entries
         id: changelog_check
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/check_changelog.py
           echo "changed=$(cat /tmp/changelog_changed.txt 2>/dev/null || echo 'false')" >> $GITHUB_OUTPUT
@@ -52,6 +50,4 @@ jobs:
 
       - name: Write job summary
         if: steps.changelog_check.outputs.changed == 'true'
-        run: |
-          echo "## Changelog Updated" >> $GITHUB_STEP_SUMMARY
-          echo "New entries detected and synced from docs.anthropic.com" >> $GITHUB_STEP_SUMMARY
+        run: echo "Changelog updated — new entries synced from docs.anthropic.com" >> $GITHUB_STEP_SUMMARY
