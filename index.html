@@ -252,6 +252,26 @@
     .dash-res-title:hover { color:var(--anthro-blue); }
     .dash-res-src { font-size:.61rem; color:var(--anthro-mid); margin-top:2px; display:block; font-family:'Inter',sans-serif; }
 
+    /* ── Community Buzz / Tweet cards ───────────────────*/
+    .dash-buzz-outer { position:relative; flex:1; overflow:hidden; }
+    .dash-buzz-outer::after { content:''; position:absolute; right:0; top:0; bottom:0; width:60px; background:linear-gradient(to right,transparent,var(--card-bg)); pointer-events:none; z-index:2; }
+    .dash-buzz-scroll { display:flex; gap:10px; overflow-x:auto; padding:10px 12px 12px; scrollbar-width:thin; scrollbar-color:var(--anthro-border) transparent; }
+    .dash-buzz-scroll::-webkit-scrollbar { height:4px; }
+    .dash-buzz-scroll::-webkit-scrollbar-thumb { background:var(--anthro-border); border-radius:2px; }
+    .dash-tweet { flex-shrink:0; width:210px; background:var(--anthro-light); border:1px solid var(--anthro-border); border-radius:14px; padding:11px 12px 9px; display:flex; flex-direction:column; gap:7px; cursor:pointer; transition:transform .15s,box-shadow .15s,border-color .15s; text-decoration:none !important; border-bottom:none !important; color:inherit; }
+    .dash-tweet:hover { transform:translateY(-2px); box-shadow:0 6px 22px rgba(20,12,5,.1); border-color:var(--anthro-orange); }
+    .dash-tweet-head { display:flex; align-items:center; gap:7px; }
+    .dash-tweet-av { width:30px; height:30px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-family:'Inter',sans-serif; font-size:.7rem; font-weight:800; color:#fff; letter-spacing:-.01em; }
+    .dash-tweet-meta { flex:1; min-width:0; }
+    .dash-tweet-name { font-family:'Inter',sans-serif; font-size:.73rem; font-weight:700; color:var(--anthro-dark); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .dash-tweet-handle { font-family:'Inter',sans-serif; font-size:.61rem; color:var(--anthro-mid); }
+    .dash-tweet-x { font-size:.88rem; color:#1DA1F2; opacity:.7; flex-shrink:0; font-family:sans-serif; font-weight:900; }
+    .dash-tweet-body { font-family:'Inter',sans-serif; font-size:.77rem; color:#3a3530; line-height:1.5; display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; overflow:hidden; flex:1; }
+    .dash-tweet-foot { display:flex; align-items:center; gap:8px; border-top:1px solid var(--anthro-border); padding-top:7px; font-family:'Inter',sans-serif; font-size:.65rem; color:var(--anthro-mid); }
+    .dash-tweet-score { display:flex; align-items:center; gap:3px; }
+    .dash-tweet-open { margin-left:auto; color:var(--anthro-orange); text-decoration:none; border-bottom:none !important; font-weight:700; font-size:.67rem; transition:color .12s; }
+    .dash-tweet-open:hover { color:var(--anthro-rust); }
+
     /* ── Loading ──────────────────────────────────────── */
     .dash-loading { display:flex; align-items:center; justify-content:center; height:260px; font-family:'Inter',sans-serif; font-size:.85rem; color:var(--anthro-mid); }
 
@@ -767,7 +787,42 @@
       '<div class="dash-cc-row">'+ccItems+'</div>'+
     '</div>';
 
-    return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+trackerW+ccW+'</div>';
+    /* Community Buzz — top stories styled as tweet cards */
+    var buzSrcMeta = {
+      'hacker news': { bg:'#FF6600', initials:'HN' },
+      'reddit':      { bg:'#FF4500', initials:'Re' },
+      'anthropic':   { bg:'#D97757', initials:'An' },
+      'arxiv':       { bg:'#1A5EA8', initials:'Ax' },
+      'github':      { bg:'#24292E', initials:'GH' },
+    };
+    var buzCards = stories.slice(0,8).map(function(s) {
+      var key = (s.source||'').toLowerCase();
+      var meta = buzSrcMeta[key] || { bg:'#888', initials:(s.source||'?').slice(0,2) };
+      return '<a href="'+escHtml(s.href)+'" class="dash-tweet" target="_blank" rel="noopener noreferrer">'+
+        '<div class="dash-tweet-head">'+
+          '<div class="dash-tweet-av" style="background:'+meta.bg+'">'+escHtml(meta.initials)+'</div>'+
+          '<div style="flex:1;min-width:0;">'+
+            '<div style="font-size:.7rem;font-weight:700;color:var(--anthro-dark);font-family:Inter,sans-serif;line-height:1.2;">'+escHtml(s.source||'Community')+'</div>'+
+            '<div style="font-size:.62rem;color:var(--anthro-mid);font-family:Inter,sans-serif;">Community</div>'+
+          '</div>'+
+          '<span class="dash-tweet-x">𝕏</span>'+
+        '</div>'+
+        '<div class="dash-tweet-body">'+escHtml(s.title||'')+'</div>'+
+        '<div class="dash-tweet-foot">'+
+          '<span style="font-size:.68rem;color:var(--anthro-mid);font-family:Inter,sans-serif;">❤️ '+escHtml(String(s.score||0))+'</span>'+
+          '<span class="dash-tweet-open">Open →</span>'+
+        '</div>'+
+      '</a>';
+    }).join('');
+    var buzzW='<div class="dash-widget ws-12" style="padding-bottom:4px;">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">💬</span><span class="dash-wh-label">Community Buzz</span>'+
+        '<a href="#/docs/NEWS" class="dash-wh-link">All stories →</a></div>'+
+      '<div class="dash-buzz-outer">'+
+        '<div class="dash-buzz-scroll">'+buzCards+'</div>'+
+      '</div>'+
+    '</div>';
+
+    return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+trackerW+buzzW+ccW+'</div>';
   }
 
   /* ── Dashboard cache (1-hour TTL) ───────────────────── */
