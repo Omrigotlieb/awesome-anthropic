@@ -295,7 +295,20 @@
     .rmodal-btn-p:hover { background:var(--anthro-rust); }
     .rmodal-btn-s { background:var(--anthro-cream); color:var(--anthro-dark); border:1px solid var(--anthro-border) !important; }
     .rmodal-btn-s:hover { background:#ece5d8; }
-    .rmodal-loading { padding:50px; text-align:center; font-family:'Inter',sans-serif; font-size:.85rem; color:var(--anthro-mid); }
+    .rmodal-loading { padding:40px 50px; text-align:center; font-family:'Inter',sans-serif; font-size:.85rem; color:var(--anthro-mid); }
+    @keyframes spin { to { transform:rotate(360deg); } }
+    .rmodal-spinner { width:26px; height:26px; border:3px solid var(--anthro-border); border-top-color:var(--anthro-orange); border-radius:50%; animation:spin .75s linear infinite; margin:0 auto 14px; }
+
+    /* ── Dashboard entrance animation ────────────────── */
+    @keyframes dashIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+    .dash-grid { animation:dashIn .35s ease both; }
+
+    /* ── Leaderboard score bar (CSS gradient per row) ─── */
+    .dash-lb-row { --sp:0%; background:linear-gradient(to right,rgba(217,119,87,.07) var(--sp),transparent var(--sp)) !important; }
+    .dash-lb-row:hover { background:linear-gradient(to right,rgba(217,119,87,.13) var(--sp),rgba(244,243,238,1) var(--sp)) !important; }
+
+    /* ── Benchmark mini bars ──────────────────────────── */
+    .bbar { display:inline-block; height:2px; vertical-align:middle; margin-left:5px; border-radius:1px; background:currentColor; opacity:.38; }
 
     /* ── Responsive ───────────────────────────────────── */
     @media (max-width:1100px) {
@@ -446,23 +459,29 @@
 
   /* ── Reddit modal ────────────────────────────────────── */
   var _rModal = null;
+  function closeRModal() { if(_rModal){_rModal.remove();_rModal=null;} }
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeRModal(); });
+
   function openRedditModal(href) {
     var m = href.match(/(https?:\/\/(?:www\.)?reddit\.com\/r\/[^/]+\/comments\/[^/?#]+)/i);
     var jsonUrl = m ? m[1]+'.json?limit=10&raw_json=1' : null;
 
-    if (_rModal) _rModal.remove();
+    closeRModal();
     var ov = document.createElement('div');
     ov.className = 'rmodal-overlay';
-    ov.innerHTML = '<div class="rmodal-box"><div class="rmodal-loading">Loading post…</div></div>';
+    ov.innerHTML = '<div class="rmodal-box"><div class="rmodal-loading"><div class="rmodal-spinner"></div>Loading post…</div></div>';
     document.body.appendChild(ov);
     _rModal = ov;
 
-    ov.addEventListener('click', function(e){ if(e.target===ov){ov.remove();_rModal=null;} });
+    ov.addEventListener('click', function(e){ if(e.target===ov) closeRModal(); });
 
-    if (!jsonUrl) { window.open(href,'_blank'); ov.remove(); _rModal=null; return; }
+    if (!jsonUrl) { window.open(href,'_blank'); closeRModal(); return; }
 
-    fetch(jsonUrl)
-      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    var ctrl = new AbortController();
+    var timer = setTimeout(function(){ ctrl.abort(); }, 7000);
+
+    fetch(jsonUrl, { signal: ctrl.signal })
+      .then(function(r){ clearTimeout(timer); if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
       .then(function(data) {
         var post = data[0].data.children[0].data;
         var comments = (data[1].data.children||[]).filter(function(c){return c.kind==='t1';}).slice(0,6);
@@ -501,8 +520,8 @@
             '<button class="rmodal-btn rmodal-btn-s" id="rmodal-close2">Close</button>'+
           '</div>';
 
-        document.getElementById('rmodal-x').onclick = function(){ ov.remove(); _rModal=null; };
-        document.getElementById('rmodal-close2').onclick = function(){ ov.remove(); _rModal=null; };
+        document.getElementById('rmodal-x').onclick = closeRModal;
+        document.getElementById('rmodal-close2').onclick = closeRModal;
       })
       .catch(function(err) {
         console.warn('Reddit fetch:', err);
@@ -564,7 +583,8 @@
     /* Leaderboard */
     var lbRows=stories.slice(1,9).map(function(s,i){
       var r=i+2, hot=r<=3?' hot':'';
-      return '<div class="dash-lb-row">'+
+      var pct=Math.round((s.score/maxSc)*100);
+      return '<div class="dash-lb-row" style="--sp:'+pct+'%">'+
         '<span class="dash-lb-rank'+hot+'">'+r+'</span>'+
         '<div>'+
           '<a href="'+escHtml(s.href)+'" rel="noopener" class="dash-lb-title">'+escHtml(s.title)+'</a>'+
@@ -589,13 +609,13 @@
         '<div class="dash-bench-topstat"><span class="dash-bench-topval">'+escHtml(bench.lmsys||'#1')+'</span><span class="dash-bench-toplabel">LMSYS Arena</span></div>'+
       '</div>'+
       '<div class="dash-bench-wrap">'+
-        '<table><thead><tr><th>Model</th><th>GPQA</th><th>SWE-bench</th><th>LMSYS Elo</th><th>Arena</th></tr></thead><tbody>'+
-          '<tr><td>Opus 4.6</td><td class="best">91.3%</td><td class="dim">—</td><td class="best">~1500+</td><td class="best">#1</td></tr>'+
-          '<tr><td>Opus 4.5</td><td>87.0%</td><td class="best">80.9%</td><td>1472</td><td>#4</td></tr>'+
-          '<tr><td>Sonnet 4.5</td><td>83.4%</td><td>77.2%</td><td>~1430</td><td>#20</td></tr>'+
-          '<tr><td>Sonnet 4</td><td>72.5%</td><td>~50%</td><td>—</td><td>—</td></tr>'+
-          '<tr class="comp"><td>GPT-4o</td><td>~53%</td><td>~33%</td><td>—</td><td>—</td></tr>'+
-          '<tr class="comp"><td>Gemini 2.0 Flash</td><td>~70%</td><td>—</td><td>—</td><td>—</td></tr>'+
+        '<table><thead><tr><th>Model</th><th>GPQA ↑</th><th>SWE ↑</th><th>LMSYS Elo</th><th>Rank</th></tr></thead><tbody>'+
+          '<tr><td>Opus 4.6</td><td class="best">91.3%<span class="bbar" style="width:40px"></span></td><td class="dim">—</td><td class="best">~1500+</td><td class="best">#1</td></tr>'+
+          '<tr><td>Opus 4.5</td><td>87.0%<span class="bbar" style="width:38px"></span></td><td class="best">80.9%<span class="bbar" style="width:40px"></span></td><td>1472</td><td>#4</td></tr>'+
+          '<tr><td>Sonnet 4.5</td><td>83.4%<span class="bbar" style="width:36px"></span></td><td>77.2%<span class="bbar" style="width:38px"></span></td><td>~1430</td><td>#20</td></tr>'+
+          '<tr><td>Sonnet 4</td><td>72.5%<span class="bbar" style="width:32px"></span></td><td>~50%<span class="bbar" style="width:25px"></span></td><td>—</td><td>—</td></tr>'+
+          '<tr class="comp"><td>GPT-4o</td><td>~53%<span class="bbar" style="width:23px"></span></td><td>~33%<span class="bbar" style="width:16px"></span></td><td>—</td><td>—</td></tr>'+
+          '<tr class="comp"><td>Gemini 2.0 Flash</td><td>~70%<span class="bbar" style="width:31px"></span></td><td>—</td><td>—</td><td>—</td></tr>'+
         '</tbody></table>'+
       '</div>'+
     '</div>';
@@ -652,8 +672,8 @@
     return '<div class="dash-grid">'+mhead+leadW+lbW+benchW+clW+annW+sdkResW+'</div>';
   }
 
-  /* ── Dashboard cache ─────────────────────────────────── */
-  var _dashCache = null;
+  /* ── Dashboard cache (1-hour TTL) ───────────────────── */
+  var _dashCache = null, _dashCacheTs = 0;
 
   window.$docsify = {
     name: '⚡ Awesome Anthropic',
@@ -703,7 +723,7 @@
           if (isHome) {
             var footer = ms.querySelector('.page-footer');
 
-            if (_dashCache) {
+            if (_dashCache && (Date.now() - _dashCacheTs) < 3600000) {
               ms.innerHTML = _dashCache;
               if (footer) ms.appendChild(footer);
               return;
@@ -713,13 +733,15 @@
             if (footer) ms.appendChild(footer);
 
             var base = window.location.href.split('#')[0].replace(/\/?$/,'/');
-            Promise.all([
-              fetch(base+'docs/NEWS.md').then(function(r){return r.ok?r.text():'';}).catch(function(){return '';}),
-              fetch(base+'docs/CHANGELOG.md').then(function(r){return r.ok?r.text():'';}).catch(function(){return '';}),
-              fetch(base+'docs/BENCHMARKS.md').then(function(r){return r.ok?r.text():'';}).catch(function(){return '';})
-            ]).then(function(texts) {
-              var newsText=texts[0], clText=texts[1], benchText=texts[2];
-              var dm=newsText.match(/## ([A-Za-z]+ \d+, \d{4})/);
+            Promise.allSettled([
+              fetch(base+'docs/NEWS.md').then(function(r){return r.ok?r.text():'';}),
+              fetch(base+'docs/CHANGELOG.md').then(function(r){return r.ok?r.text():'';}),
+              fetch(base+'docs/BENCHMARKS.md').then(function(r){return r.ok?r.text():'';})
+            ]).then(function(results) {
+              var newsText = results[0].status==='fulfilled' ? results[0].value : '';
+              var clText   = results[1].status==='fulfilled' ? results[1].value : '';
+              var benchText= results[2].status==='fulfilled' ? results[2].value : '';
+              var dm = newsText.match(/## ([A-Za-z]+ \d+, \d{4})/);
               var html = buildDashboard({
                 stories: parseTopStories(newsText),
                 announces: parseAnnouncements(newsText),
@@ -730,11 +752,10 @@
                 newsDate: dm ? dm[1] : 'Today'
               });
               _dashCache = html;
+              _dashCacheTs = Date.now();
               var sf = ms.querySelector('.page-footer');
               ms.innerHTML = html;
               if (sf) ms.appendChild(sf);
-            }).catch(function(err){
-              console.warn('Dashboard error:', err);
             });
             return;
           }

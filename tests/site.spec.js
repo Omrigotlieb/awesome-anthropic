@@ -31,28 +31,30 @@ test.describe('Homepage', () => {
     await expect(page.locator('.sidebar')).toBeVisible();
   });
 
-  test('shows Models section', async ({ page }) => {
+  test('shows dashboard masthead', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
-    await expect(page.locator('.markdown-section')).toContainText('Claude 4 Family');
+    await expect(page.locator('.dash-masthead')).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('.markdown-section')).toContainText('Awesome Anthropic');
   });
 
-  test('shows Claude Opus 4.6 in model table', async ({ page }) => {
+  test('shows benchmark comparison table with Opus 4.6', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
-    await expect(page.locator('.markdown-section')).toContainText('Claude Opus 4.6');
+    await expect(page.locator('.dash-bench-wrap')).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('.markdown-section')).toContainText('Opus 4.6');
   });
 
-  test('changelog auto-updated section is present', async ({ page }) => {
+  test('shows changelog widget', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
-    await expect(page.locator('.markdown-section')).toContainText('Changelog (Auto-updated)');
+    await expect(page.locator('.markdown-section')).toContainText('Changelog', { timeout: 15000 });
   });
 
-  test('news digest section is present', async ({ page }) => {
+  test('shows trending leaderboard widget', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
-    await expect(page.locator('.markdown-section')).toContainText('News Digest');
+    await expect(page.locator('.markdown-section')).toContainText('Trending Now', { timeout: 15000 });
   });
 });
 
