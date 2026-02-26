@@ -12,14 +12,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
 
   <style>
     /* ══════════════════════════════════════════════════════════
-       ANTHROPIC DESIGN SYSTEM v2
-       Inspired by anthropic.com, Linear changelog, Mintlify
+       AWESOME ANTHROPIC — Blog-card redesign
+       Inspired by: Tasky Blog, Moltbook, Linear, Anthropic.com
        ══════════════════════════════════════════════════════════ */
     :root {
       --anthro-dark:    #141413;
@@ -34,13 +34,15 @@
       --sidebar-hover:  #2e1e0e;
       --sidebar-active: #3d2510;
       --theme-color:    #d97757;
+      --card-bg:        #ffffff;
+      --card-radius:    14px;
     }
 
     /* ── Base ──────────────────────────────────────────────── */
     body, .app-wrapper {
       background: var(--anthro-light) !important;
       color: var(--anthro-dark);
-      font-family: 'Lora', ui-serif, Georgia, serif;
+      font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
     }
 
     /* ── Sidebar ───────────────────────────────────────────── */
@@ -48,7 +50,6 @@
       background: var(--sidebar-bg) !important;
       border-right: 1px solid #3d2510;
     }
-    /* Orange gradient bar at top — premium touch */
     .sidebar::before {
       content: '';
       display: block;
@@ -56,7 +57,6 @@
       background: linear-gradient(90deg, #d97757 0%, #ae5630 60%, transparent 100%);
     }
     .sidebar-nav { padding: 4px 6px 12px; }
-
     .app-name {
       padding: 18px 16px 8px;
       border-bottom: 1px solid #3d2510;
@@ -68,11 +68,10 @@
       font-size: 1.1rem !important;
       letter-spacing: -0.01em;
     }
-
     .sidebar ul li a {
       color: #c8bfb0 !important;
-      font-family: 'Lora', ui-serif, Georgia, serif;
-      font-size: 0.87rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
       padding: 5px 10px;
       border-radius: 6px;
       display: block;
@@ -91,10 +90,10 @@
     }
     .sidebar ul li strong {
       color: #b07040 !important;
-      font-family: 'Lora', ui-serif, Georgia, serif;
-      font-size: 0.65rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.63rem;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
+      letter-spacing: 0.13em;
       margin: 1.2rem 0 0.3rem 10px;
       display: block;
       font-style: normal;
@@ -110,8 +109,8 @@
       border-radius: 8px;
       padding: 8px 12px;
       width: 100%;
-      font-family: 'Lora', Georgia, serif;
-      font-size: 0.84rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.83rem;
       transition: border-color 0.2s;
     }
     .search input:focus { border-color: var(--anthro-orange) !important; outline: none; }
@@ -128,9 +127,9 @@
 
     /* ── Main content ──────────────────────────────────────── */
     .content { background: var(--anthro-light) !important; }
-    .markdown-section { max-width: 900px; padding: 2rem 2.5rem; }
+    .markdown-section { max-width: 960px; padding: 2rem 2.5rem; }
 
-    /* ── H1: gradient text ─────────────────────────────────── */
+    /* ── Typography ────────────────────────────────────────── */
     .markdown-section h1 {
       font-family: 'DM Serif Display', ui-serif, Georgia, serif;
       font-size: 2.4rem;
@@ -143,8 +142,6 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-
-    /* ── H2: left accent bar (Linear/Vercel pattern) ───────── */
     .markdown-section h2 {
       font-family: 'DM Serif Display', ui-serif, Georgia, serif;
       font-size: 1.45rem;
@@ -157,25 +154,22 @@
       border-bottom: none;
       line-height: 1.3;
     }
-
-    /* ── H3: warm rust, italic ─────────────────────────────── */
     .markdown-section h3 {
-      font-family: 'Lora', ui-serif, Georgia, serif;
-      font-size: 1.05rem;
-      color: var(--anthro-rust);
-      margin-top: 1.8rem;
-      font-style: italic;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--anthro-mid);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
     }
-
-    /* ── Body text ─────────────────────────────────────────── */
     .markdown-section p, .markdown-section li {
-      font-family: 'Lora', ui-serif, Georgia, serif;
-      line-height: 1.78;
-      color: #2a2520;
-      font-size: 0.97rem;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.75;
+      color: #3a3530;
+      font-size: 0.95rem;
     }
-
-    /* ── Links ─────────────────────────────────────────────── */
     .markdown-section a {
       color: var(--anthro-rust);
       text-decoration: none;
@@ -186,8 +180,6 @@
       color: var(--anthro-orange);
       border-bottom-color: var(--anthro-orange);
     }
-
-    /* ── Inline code ───────────────────────────────────────── */
     p code, li code {
       background: #f0ece4;
       color: var(--anthro-rust);
@@ -195,32 +187,28 @@
       padding: 1px 6px;
       font-size: 0.85em;
       border: 1px solid var(--anthro-border);
-      font-family: ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
+      font-family: ui-monospace, 'SF Mono', monospace;
     }
-
-    /* ── Blockquote ────────────────────────────────────────── */
     blockquote {
       border-left: 3px solid var(--anthro-orange);
       background: linear-gradient(to right, var(--anthro-cream), var(--anthro-light));
       margin: 1.2rem 0;
       padding: 0.8rem 1.4rem;
       border-radius: 0 8px 8px 0;
-      color: #5a524a;
-      font-style: italic;
       font-size: 0.93rem;
     }
-    blockquote p { color: #5a524a; margin: 0; }
+    blockquote p { color: #5a524a; margin: 0; font-style: italic; }
 
-    /* ── Tables: dark header (Anthropic news style) ─────────── */
+    /* ── Standard tables (non-news pages) ──────────────────── */
     table {
       border-collapse: collapse;
       width: 100%;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 1px 3px rgba(20,12,5,0.06), 0 4px 16px rgba(20,12,5,0.06);
+      box-shadow: 0 1px 3px rgba(20,12,5,0.06), 0 4px 16px rgba(20,12,5,0.05);
       margin: 1.4rem 0;
-      font-family: 'Lora', ui-serif, Georgia, serif;
+      font-family: 'Inter', sans-serif;
       border: 1px solid var(--anthro-border);
     }
     thead tr { background: var(--anthro-dark); }
@@ -228,12 +216,11 @@
       padding: 11px 16px;
       text-align: left;
       font-weight: 600;
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       color: #b0aea5;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.09em;
       text-transform: uppercase;
-      font-style: normal;
-      font-family: 'Lora', ui-serif, Georgia, serif;
+      font-family: 'Inter', sans-serif;
     }
     tbody tr { transition: background 0.12s; }
     tbody tr:nth-child(even) { background: var(--anthro-cream); }
@@ -243,51 +230,226 @@
       border-top: 1px solid var(--anthro-border);
       color: #2a2520;
       vertical-align: middle;
+      font-family: 'Inter', sans-serif;
     }
     tbody td:first-child { color: var(--anthro-rust); font-weight: 700; }
 
-    /* ── Source badge helpers (applied by JS) ──────────────── */
+    /* ══════════════════════════════════════════════════════════
+       BLOG CARD GRID — injected by JS on News page
+       ══════════════════════════════════════════════════════════ */
+    .news-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 1.2rem 0 2rem;
+    }
+
+    /* Lead card: full row, two-column layout (image left, text right) */
+    .news-card-lead {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      border-radius: var(--card-radius);
+      overflow: hidden;
+      border: 1px solid var(--anthro-border);
+      background: var(--card-bg);
+      box-shadow: 0 2px 8px rgba(20,12,5,0.07);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+      text-decoration: none !important;
+    }
+    .news-card-lead:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 32px rgba(20,12,5,0.13);
+    }
+    .news-card-lead .card-image {
+      height: 260px;
+      border-radius: 0;
+    }
+    .news-card-lead .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem 2.2rem;
+      gap: 0.8rem;
+    }
+    .news-card-lead .card-title {
+      font-size: 1.5rem !important;
+      line-height: 1.3 !important;
+    }
+
+    /* Regular card */
+    .news-card {
+      background: var(--card-bg);
+      border-radius: var(--card-radius);
+      border: 1px solid var(--anthro-border);
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(20,12,5,0.05);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .news-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(20,12,5,0.12);
+    }
+
+    /* ── Card image area (gradient per source) ─────────────── */
+    .card-image {
+      height: 150px;
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .card-image a { display: block; height: 100%; border-bottom: none !important; }
+
+    /* Source gradient themes */
+    .ci-hn        { background: linear-gradient(135deg, #e05000 0%, #7a2200 100%); }
+    .ci-reddit    { background: linear-gradient(135deg, #c83a00 0%, #6e1400 100%); }
+    .ci-arxiv     { background: linear-gradient(135deg, #1460b8 0%, #083880 100%); }
+    .ci-anthropic { background: linear-gradient(135deg, #d97757 0%, #6a2a0a 100%); }
+    .ci-github    { background: linear-gradient(135deg, #24292e 0%, #444d56 100%); }
+    .ci-default   { background: linear-gradient(135deg, #4a2e1a 0%, #1c1108 100%); }
+
+    /* Large rank number as image texture */
+    .card-rank-bg {
+      position: absolute;
+      right: 0.4rem;
+      bottom: -0.6rem;
+      font-family: 'DM Serif Display', serif;
+      font-size: 6rem;
+      font-weight: 400;
+      color: rgba(255,255,255,0.11);
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+      letter-spacing: -0.04em;
+    }
+
+    /* Subtle noise texture overlay */
+    .card-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .card-image-footer {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      z-index: 1;
+    }
+    .card-score-pill {
+      background: rgba(0,0,0,0.38);
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+      backdrop-filter: blur(6px);
+      white-space: nowrap;
+    }
+    .card-src-tag {
+      background: rgba(255,255,255,0.16);
+      color: rgba(255,255,255,0.88);
+      padding: 3px 9px;
+      border-radius: 4px;
+      font-size: 0.63rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-family: 'Inter', sans-serif;
+      backdrop-filter: blur(6px);
+      white-space: nowrap;
+    }
+
+    /* ── Card body ─────────────────────────────────────────── */
+    .card-body {
+      padding: 1rem 1.1rem 1.2rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .card-title {
+      font-family: 'DM Serif Display', serif !important;
+      font-size: 1rem !important;
+      color: var(--anthro-dark) !important;
+      line-height: 1.42 !important;
+      border-bottom: none !important;
+      font-weight: 400;
+      display: block;
+      text-decoration: none;
+    }
+    .card-title:hover {
+      color: var(--anthro-orange) !important;
+      border-bottom: none !important;
+    }
+    .card-read-more {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--anthro-orange);
+      text-decoration: none;
+      border-bottom: none !important;
+      margin-top: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .card-read-more:hover { color: var(--anthro-rust) !important; border-bottom: none !important; }
+
+    /* Lead card: meta + read more layout */
+    .news-card-lead .card-meta { margin-bottom: 0.4rem; }
+    .news-card-lead .card-read-more { margin-top: 1rem; font-size: 0.85rem; }
+
+    /* ── Source badge pills (for remaining tables) ─────────── */
     .src-hn {
       display: inline-block; padding: 2px 8px; border-radius: 4px;
-      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      font-size: 0.67rem; font-weight: 700; letter-spacing: 0.04em;
       background: rgba(255,102,0,0.1); color: #b84800;
-      border: 1px solid rgba(255,102,0,0.22);
-      font-family: 'Lora', serif; white-space: nowrap;
+      border: 1px solid rgba(255,102,0,0.22); font-family: 'Inter', sans-serif; white-space: nowrap;
     }
     .src-reddit {
       display: inline-block; padding: 2px 8px; border-radius: 4px;
-      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
-      background: rgba(255,69,0,0.09); color: #b83a00;
-      border: 1px solid rgba(255,69,0,0.2);
-      font-family: 'Lora', serif; white-space: nowrap;
+      font-size: 0.67rem; font-weight: 700; letter-spacing: 0.04em;
+      background: rgba(200,58,0,0.09); color: #a03200;
+      border: 1px solid rgba(200,58,0,0.2); font-family: 'Inter', sans-serif; white-space: nowrap;
     }
     .src-arxiv {
       display: inline-block; padding: 2px 8px; border-radius: 4px;
-      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      font-size: 0.67rem; font-weight: 700; letter-spacing: 0.04em;
       background: rgba(106,155,204,0.12); color: #3e6a9a;
-      border: 1px solid rgba(106,155,204,0.28);
-      font-family: 'Lora', serif; white-space: nowrap;
+      border: 1px solid rgba(106,155,204,0.28); font-family: 'Inter', sans-serif; white-space: nowrap;
     }
     .src-anthropic {
       display: inline-block; padding: 2px 8px; border-radius: 4px;
-      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      font-size: 0.67rem; font-weight: 700; letter-spacing: 0.04em;
       background: rgba(217,119,87,0.1); color: #ae5630;
-      border: 1px solid rgba(217,119,87,0.25);
-      font-family: 'Lora', serif; white-space: nowrap;
+      border: 1px solid rgba(217,119,87,0.25); font-family: 'Inter', sans-serif; white-space: nowrap;
     }
     .src-github {
       display: inline-block; padding: 2px 8px; border-radius: 4px;
-      font-size: 0.69rem; font-weight: 700; letter-spacing: 0.04em;
+      font-size: 0.67rem; font-weight: 700; letter-spacing: 0.04em;
       background: rgba(80,80,80,0.08); color: #444;
-      border: 1px solid rgba(0,0,0,0.14);
-      font-family: 'Lora', serif; white-space: nowrap;
+      border: 1px solid rgba(0,0,0,0.14); font-family: 'Inter', sans-serif; white-space: nowrap;
     }
 
-    /* ── Hero banner (injected by JS on homepage) ──────────── */
+    /* ── Homepage hero ─────────────────────────────────────── */
     .site-hero {
       background: linear-gradient(135deg, #1c1108 0%, #271408 55%, #141413 100%);
-      border-radius: 16px;
-      padding: 2.4rem 2.8rem;
+      border-radius: 18px;
+      padding: 2.6rem 2.8rem;
       margin-bottom: 2.5rem;
       border: 1px solid #3d2510;
       position: relative;
@@ -297,44 +459,44 @@
       content: '';
       position: absolute;
       top: -70px; right: -50px;
-      width: 300px; height: 300px;
-      background: radial-gradient(circle, rgba(217,119,87,0.2) 0%, transparent 65%);
+      width: 320px; height: 320px;
+      background: radial-gradient(circle, rgba(217,119,87,0.22) 0%, transparent 65%);
       pointer-events: none;
     }
     .site-hero::after {
       content: '';
       position: absolute;
-      bottom: -50px; left: 30px;
-      width: 220px; height: 220px;
-      background: radial-gradient(circle, rgba(174,86,48,0.12) 0%, transparent 65%);
+      bottom: -50px; left: 20px;
+      width: 240px; height: 240px;
+      background: radial-gradient(circle, rgba(174,86,48,0.13) 0%, transparent 65%);
       pointer-events: none;
     }
     .hero-eyebrow {
-      font-family: 'Lora', serif;
-      font-size: 0.7rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.68rem;
       color: #d97757;
       text-transform: uppercase;
-      letter-spacing: 0.15em;
-      font-weight: 600;
-      margin-bottom: 0.65rem;
+      letter-spacing: 0.16em;
+      font-weight: 700;
+      margin-bottom: 0.7rem;
     }
     .hero-title {
       font-family: 'DM Serif Display', serif;
-      font-size: 2.1rem;
+      font-size: 2.2rem;
       background: linear-gradient(135deg, #f0c4a0 0%, #d97757 55%, #f0c4a0 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       line-height: 1.15;
       letter-spacing: -0.02em;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.65rem;
     }
     .hero-subtitle {
-      font-family: 'Lora', serif;
-      font-size: 0.92rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.93rem;
       color: #7a6a58;
       line-height: 1.65;
-      max-width: 480px;
+      max-width: 500px;
     }
     .hero-stats {
       display: flex;
@@ -345,54 +507,42 @@
     }
     .hero-stat-num {
       font-family: 'DM Serif Display', serif;
-      font-size: 1.9rem;
+      font-size: 2rem;
       color: #d97757;
       display: block;
       line-height: 1;
     }
     .hero-stat-label {
-      font-family: 'Lora', serif;
-      font-size: 0.67rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.65rem;
       color: #6a5a40;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.11em;
       display: block;
-      margin-top: 4px;
-    }
-
-    /* ── Top news row highlight (applied by JS) ────────────── */
-    .news-featured td {
-      background: linear-gradient(to right, rgba(217,119,87,0.07), transparent) !important;
-      border-left: 3px solid #d97757;
-    }
-    tbody tr.news-featured:hover td {
-      background: rgba(217,119,87,0.12) !important;
+      margin-top: 5px;
+      font-weight: 600;
     }
 
     /* ── HR ────────────────────────────────────────────────── */
-    hr {
-      border: none;
-      border-top: 1px solid var(--anthro-border);
-      margin: 2.5rem 0;
-    }
+    hr { border: none; border-top: 1px solid var(--anthro-border); margin: 2.5rem 0; }
 
     /* ── Footer ────────────────────────────────────────────── */
     .page-footer {
       margin-top: 3.5rem;
       padding-top: 1.2rem;
       border-top: 1px solid var(--anthro-border);
-      font-size: 0.78rem;
+      font-size: 0.77rem;
       color: var(--anthro-mid);
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 4px;
-      font-family: 'Lora', Georgia, serif;
+      font-family: 'Inter', sans-serif;
     }
     .page-footer a { color: var(--anthro-rust); border: none !important; }
     .page-footer a:hover { color: var(--anthro-orange); }
 
-    /* ── Badges row spacing ─────────────────────────────────── */
+    /* ── Shields badges row ─────────────────────────────────── */
     .markdown-section p:first-of-type { line-height: 2.2; }
     .markdown-section p img[src*="shields.io"] { border-radius: 3px; }
 
@@ -403,22 +553,51 @@
       padding: 1.2rem 1.4rem;
       border: 1px solid #2a2520;
     }
-    pre code { font-size: 0.87rem; }
+    pre code { font-size: 0.86rem; }
 
     /* ── Mobile ─────────────────────────────────────────────── */
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
+      .news-card-grid { grid-template-columns: repeat(2, 1fr); }
+      .news-card-lead { grid-template-columns: 1fr; }
+      .news-card-lead .card-image { height: 200px; }
+      .news-card-lead .card-body { padding: 1.4rem; }
+      .news-card-lead .card-title { font-size: 1.2rem !important; }
+    }
+    @media (max-width: 600px) {
       .markdown-section { padding: 1.2rem 1rem; }
-      table { font-size: 0.8rem; }
-      .markdown-section h1 { font-size: 1.7rem; }
-      .hero-stats { gap: 1.5rem; }
+      .news-card-grid { grid-template-columns: 1fr; }
+      .markdown-section h1 { font-size: 1.8rem; }
+      .hero-stats { gap: 1.4rem; }
       .site-hero { padding: 1.6rem 1.4rem; }
-      .hero-title { font-size: 1.6rem; }
+      .hero-title { font-size: 1.7rem; }
     }
   </style>
 </head>
 <body>
 <div id="app">Loading…</div>
 <script>
+  /* ── Helpers ─────────────────────────────────────────────── */
+  function srcClass(source) {
+    if (!source) return 'ci-default';
+    const s = source.toLowerCase();
+    if (s.includes('hacker news')) return 'ci-hn';
+    if (s.startsWith('r/') || s.includes('reddit')) return 'ci-reddit';
+    if (s.includes('arxiv')) return 'ci-arxiv';
+    if (s.includes('anthropic')) return 'ci-anthropic';
+    if (s.includes('github')) return 'ci-github';
+    return 'ci-default';
+  }
+  function srcBadgeClass(source) {
+    if (!source) return '';
+    const s = source.toLowerCase();
+    if (s.includes('hacker news')) return 'src-hn';
+    if (s.startsWith('r/') || s.includes('reddit')) return 'src-reddit';
+    if (s.includes('arxiv')) return 'src-arxiv';
+    if (s.includes('anthropic')) return 'src-anthropic';
+    if (s.includes('github')) return 'src-github';
+    return '';
+  }
+
   window.$docsify = {
     name: '⚡ Awesome Anthropic',
     repo: 'https://github.com/Omrigotlieb/awesome-anthropic',
@@ -448,7 +627,7 @@
     plugins: [
       function(hook) {
 
-        // ── Footer on every page ──────────────────────────────
+        /* ── Footer on every page ─────────────────────────── */
         hook.afterEach(function(html) {
           return html + `<footer class="page-footer">
             <span>Auto-updated daily &middot; Claude &amp; Anthropic resources</span>
@@ -460,65 +639,83 @@
           </footer>`;
         });
 
-        // ── Post-render DOM enhancements ──────────────────────
+        /* ── Post-render DOM enhancements ─────────────────── */
         hook.doneEach(function() {
-          const hash = window.location.hash || '';
-          const isHome = !hash || hash === '#/' || (!hash.includes('/docs/') && !hash.includes('CONTRIBUTING') && !hash.includes('CODE_OF_CONDUCT'));
-          const isNews = hash.includes('docs/NEWS');
+          var hash = window.location.hash || '';
+          var isHome = !hash || hash === '#/' || (!hash.includes('/docs/') && !hash.includes('CONTRIBUTING') && !hash.includes('CODE_OF_CONDUCT'));
+          var isNews = hash.includes('docs/NEWS');
+          var ms = document.querySelector('.markdown-section');
+          if (!ms) return;
 
-          // 1. Hero banner on homepage
-          if (isHome) {
-            const ms = document.querySelector('.markdown-section');
-            if (ms && !ms.querySelector('.site-hero')) {
-              const hero = document.createElement('div');
-              hero.className = 'site-hero';
-              hero.innerHTML = `
-                <div class="hero-eyebrow">⚡ Daily Updated &nbsp;·&nbsp; Auto-synced from Anthropic</div>
-                <div class="hero-title">Awesome Anthropic</div>
-                <div class="hero-subtitle">The most complete curated resource for Claude AI — models, SDKs, research, news, and community projects, refreshed every day.</div>
-                <div class="hero-stats">
-                  <div class="hero-stat">
-                    <span class="hero-stat-num">4+</span>
-                    <span class="hero-stat-label">Claude Models</span>
-                  </div>
-                  <div class="hero-stat">
-                    <span class="hero-stat-num">500+</span>
-                    <span class="hero-stat-label">Resources</span>
-                  </div>
-                  <div class="hero-stat">
-                    <span class="hero-stat-num">24h</span>
-                    <span class="hero-stat-label">News Lag</span>
-                  </div>
-                  <div class="hero-stat">
-                    <span class="hero-stat-num">∞</span>
-                    <span class="hero-stat-label">Updates</span>
-                  </div>
-                </div>
-              `;
-              ms.insertBefore(hero, ms.firstChild);
-            }
+          /* 1 ── Hero banner on homepage ─────────────────── */
+          if (isHome && !ms.querySelector('.site-hero')) {
+            var hero = document.createElement('div');
+            hero.className = 'site-hero';
+            hero.innerHTML =
+              '<div class="hero-eyebrow">⚡ Daily Updated &nbsp;·&nbsp; Auto-synced from Anthropic</div>' +
+              '<div class="hero-title">Awesome Anthropic</div>' +
+              '<div class="hero-subtitle">The most complete curated resource for Claude AI — models, SDKs, research, news, and community projects, refreshed every 24 hours.</div>' +
+              '<div class="hero-stats">' +
+                '<div><span class="hero-stat-num">4+</span><span class="hero-stat-label">Claude Models</span></div>' +
+                '<div><span class="hero-stat-num">500+</span><span class="hero-stat-label">Resources</span></div>' +
+                '<div><span class="hero-stat-num">24h</span><span class="hero-stat-label">News Lag</span></div>' +
+                '<div><span class="hero-stat-num">∞</span><span class="hero-stat-label">Updates</span></div>' +
+              '</div>';
+            ms.insertBefore(hero, ms.firstChild);
           }
 
-          // 2. Color-code source badges in all tables
-          document.querySelectorAll('tbody td').forEach(function(td) {
-            if (td.querySelector('span.src-hn, span.src-reddit, span.src-arxiv, span.src-anthropic, span.src-github')) return;
-            const text = td.textContent.trim();
-            let cls = '';
-            if (text === 'Hacker News' || text.includes('Hacker News')) cls = 'src-hn';
-            else if (text.startsWith('r/') || text.includes('Reddit') || text.includes('reddit.com')) cls = 'src-reddit';
-            else if (text === 'arXiv' || text.includes('arXiv')) cls = 'src-arxiv';
-            else if (text.includes('Anthropic Blog') || text === 'Anthropic') cls = 'src-anthropic';
-            else if (text === 'GitHub' || text.includes('GitHub') || text.includes('github.com')) cls = 'src-github';
-            if (cls) {
-              td.innerHTML = '<span class="' + cls + '">' + text + '</span>';
-            }
-          });
-
-          // 3. Highlight top story row on news page
+          /* 2 ── Blog card grid on News page ─────────────── */
           if (isNews) {
-            const firstRow = document.querySelector('tbody tr:first-child');
-            if (firstRow) firstRow.classList.add('news-featured');
+            var tables = ms.querySelectorAll('table');
+            var topTable = tables[0];
+            if (topTable && !ms.querySelector('.news-card-grid')) {
+              var rows = Array.from(topTable.querySelectorAll('tbody tr'));
+              var grid = document.createElement('div');
+              grid.className = 'news-card-grid';
+
+              rows.forEach(function(row, i) {
+                var cells = row.querySelectorAll('td');
+                if (cells.length < 3) return;
+
+                var score  = cells[0].textContent.trim();
+                var link   = cells[1].querySelector('a');
+                var title  = link ? link.textContent.trim() : cells[1].textContent.trim();
+                var href   = link ? link.getAttribute('href') : '#';
+                var source = cells[2].textContent.trim();
+                var sc     = srcClass(source);
+                var rank   = i + 1;
+
+                var card = document.createElement('div');
+                card.className = i === 0 ? 'news-card-lead' : 'news-card';
+                card.innerHTML =
+                  '<a href="' + href + '" target="_blank" rel="noopener noreferrer" style="display:block;border-bottom:none;">' +
+                    '<div class="card-image ' + sc + '">' +
+                      '<span class="card-rank-bg">' + rank + '</span>' +
+                      '<div class="card-image-footer">' +
+                        '<span class="card-score-pill">▲ ' + score + '</span>' +
+                        '<span class="card-src-tag">' + source + '</span>' +
+                      '</div>' +
+                    '</div>' +
+                  '</a>' +
+                  '<div class="card-body">' +
+                    '<a href="' + href + '" target="_blank" rel="noopener noreferrer" class="card-title">' + title + '</a>' +
+                    '<a href="' + href + '" target="_blank" rel="noopener noreferrer" class="card-read-more">Read story →</a>' +
+                  '</div>';
+
+                grid.appendChild(card);
+              });
+
+              topTable.replaceWith(grid);
+            }
           }
+
+          /* 3 ── Color-code source badges in remaining tables */
+          ms.querySelectorAll('tbody td').forEach(function(td) {
+            if (td.querySelector('[class^="src-"]')) return;
+            var text = td.textContent.trim();
+            var cls = srcBadgeClass(text);
+            if (cls) td.innerHTML = '<span class="' + cls + '">' + text + '</span>';
+          });
         });
       }
     ]
