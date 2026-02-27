@@ -4,6 +4,70 @@
 
 ---
 
+## February 27, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1548 | [Statement from Dario Amodei on our discussions with the Department of War](https://www.anthropic.com/news/statement-department-of-war) | Hacker News |
+| 830 | [Statement from Dario Amodei on our discussions with the Department of War](https://reddit.com/r/ClaudeAI/comments/1rfp7u4/statement_from_dario_amodei_on_our_discussions/) | r/ClaudeAI |
+| 718 | [Dario after not not folding to the Pentagon's pressure](https://reddit.com/r/ClaudeAI/comments/1rfq8pw/dario_after_not_not_folding_to_the_pentagons/) | r/ClaudeAI |
+| 662 | [New Memory Feature?](https://reddit.com/r/ClaudeAI/comments/1rfo9ea/new_memory_feature/) | r/ClaudeAI |
+| 609 | [Statement from Dario Amodei on our discussions with the Department of War](https://reddit.com/r/Anthropic/comments/1rfp1ns/statement_from_dario_amodei_on_our_discussions/) | r/Anthropic |
+| 453 | [Statement from Dario Amodei on our discussions with the Department of War](https://reddit.com/r/ClaudeAI/comments/1rfq7ij/statement_from_dario_amodei_on_our_discussions/) | r/ClaudeAI |
+| 361 | [thank you.](https://reddit.com/r/Anthropic/comments/1rfpnpc/thank_you/) | r/Anthropic |
+| 224 | [I'm glad Anthropic didn't fold](https://reddit.com/r/Anthropic/comments/1rfr6du/im_glad_anthropic_didnt_fold/) | r/Anthropic |
+| 221 | [Google workers seek 'red lines' on military A.I., echoing Anthropic](https://www.nytimes.com/2026/02/26/technology/google-deepmind-letter-pentagon.html) | Hacker News |
+| 128 | [In official statement, Dario Amodei stands firm against Pentagon’s demand to use of Claude for surveillance and autonomous weaponry](https://reddit.com/r/Anthropic/comments/1rfqwb3/in_official_statement_dario_amodei_stands_firm/) | r/Anthropic |
+| 91 | [In its fight with Hegseth, Anthropic confronts perhaps the biggest crisis in its five-year existence](https://reddit.com/r/Anthropic/comments/1rfcthc/in_its_fight_with_hegseth_anthropic_confronts/) | r/Anthropic |
+| 86 | [Told the AIs I 'already fumbled 2026'. ChatGPT coached me, Grok memed me, but Claude literally sent me the crisis hotline 💀](https://reddit.com/r/ClaudeAI/comments/1rfu7el/told_the_ais_i_already_fumbled_2026_chatgpt/) | r/ClaudeAI |
+| 75 | [Anthropic says company 'cannot in good conscience accede' to Pentagon's demands](https://apnews.com/article/anthropic-ai-pentagon-hegseth-dario-amodei-9b28dda41bdb52b6a378fa9fc80b8fda) | Hacker News |
+| 52 | [Has anyone else lost motivation in systems or software engineering since passing Claude to your workflow?](https://reddit.com/r/ClaudeAI/comments/1rfksj2/has_anyone_else_lost_motivation_in_systems_or/) | r/ClaudeAI |
+| 16 | [AI Code Review Gets Better When I Ask Models to Debate: Claude, Gemini, Codex](https://milvus.io/blog/ai-code-review-gets-better-when-models-debate-claude-vs-gemini-vs-codex-vs-qwen-vs-minimax.md) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Statement from Dario Amodei on our discussions with the Department of War A statement from our CEO on national security ](https://www.anthropic.com/news/statement-department-of-war) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [So much of what makes Claude Code great came from feedback from OSS developers. Excited we can give back a little.](https://x.com/bcherny/status/2027132703808872726) | Boris Cherney |
+| [A statement from Anthropic CEO, Dario Amodei, on our discussions with the Department of War.
+
+https://www.anthropic.com/news/statement-department-of-war](https://x.com/AnthropicAI/status/2027150818575528261) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.62](https://github.com/anthropics/claude-code/releases/tag/v2.1.62) | ## What's changed  - Fixed prompt suggestion cache regression that reduced cache hit rates  |
+| [claude-code v2.1.61](https://github.com/anthropics/claude-code/releases/tag/v2.1.61) | ## What's changed  - Fixed concurrent writes corrupting config file on Windows  |
+| [claude-code v2.1.59](https://github.com/anthropics/claude-code/releases/tag/v2.1.59) | ## What's changed  - Claude automatically saves useful context to auto-memory. Manage with /memory - |
+| [claude-code v2.1.58](https://github.com/anthropics/claude-code/releases/tag/v2.1.58) | ## What's changed  - Expand Remote Control to more users  |
+| [claude-code v2.1.56](https://github.com/anthropics/claude-code/releases/tag/v2.1.56) | ## What's changed  - VS Code: Fixed another cause of "command 'claude-vscode.editor.openLast' not fo |
+| [claude-agent-sdk-typescript v0.2.62](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.62) |   |
+| [claude-agent-sdk-typescript v0.2.61](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.61) | ## What's changed  - Updated to parity with Claude Code v2.1.61  ## Update  ```sh npm install @anthr |
+| [claude-agent-sdk-typescript v0.2.59](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.59) | ## What's changed  - Added `getSessionMessages()` function for reading a session's conversation hist |
+| [claude-agent-sdk-typescript v0.2.58](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.58) | ## What's changed  - Updated to parity with Claude Code v2.1.58  ## Update  ```sh npm install @anthr |
+| [claude-agent-sdk-typescript v0.2.56](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.56) | ## What's changed  - Updated to parity with Claude Code v2.1.56  ## Update  ```sh npm install @anthr |
+| [anthropic-sdk-python v0.84.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0) | ## 0.84.0 (2026-02-25)  Full Changelog: [v0.83.0...v0.84.0](https://github.com/anthropics/anthropic- |
+| [claude-code-action v1.0.63](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.63) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.63 |
+| [claude-code-action v1.0.62](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.62) | ## What's Changed * Add gh.sh wrapper for gh CLI commands in issue triage workflows by @OctavianGuzu |
+| [claude-code-action v1.0.61](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.61) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.61 |
+| [claude-code-action v1.0.60](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.60) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.60 |
+| [claude-agent-sdk-python v0.1.44](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.44) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.59   ---  **PyPI:** https:/ |
+| [claude-agent-sdk-python v0.1.43](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.43) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.56   ---  **PyPI:** https:/ |
+| [claude-agent-sdk-python v0.1.42](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.42) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.55   ---  **PyPI:** https:/ |
+| [claude-agent-sdk-python v0.1.41](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.41) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.52   ---  **PyPI:** https:/ |
+| [claude-agent-sdk-python v0.1.40](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.40) |  ### Bug Fixes  - **Unknown message type handling**: Fixed an issue where unrecognized CLI message t |
+
+---
+
 ## February 26, 2026
 
 ### 🔥 Top Stories

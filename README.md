@@ -308,7 +308,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-02-26
+> Last synced: <!-- CHANGELOG_DATE -->2026-02-27
 
 <!-- CHANGELOG_START -->
 ### February 19, 2026 — Automatic Caching + Model Retirements
@@ -325,16 +325,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-02-26
+> Last fetched: <!-- NEWS_DATE -->2026-02-27
 
 <!-- NEWS_START -->
-### Top Stories — February 26, 2026
+### Top Stories — February 27, 2026
 
 - [They're shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) - 1682 pts on r/ClaudeAI.
+- [Statement from Dario Amodei on our discussions with the Department of War](https://www.anthropic.com/news/statement-department-of-war) - 1548 pts on Hacker News.
 - [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) - 1227 pts on r/ClaudeAI.
 - [Yeah buddy… Lightweight!!!💪](https://reddit.com/r/ClaudeAI/comments/1rf25vv/yeah_buddy_lightweight/) - 987 pts on r/ClaudeAI.
-- [Anthropic Drops Flagship Safety Pledge](https://www.astralcodexten.com/p/the-pentagon-threatens-anthropic) - 631 pts on Hacker News.
-- [Official: An update on model deprecation commitments for Claude Opus 3](https://reddit.com/r/ClaudeAI/comments/1req1ad/official_an_update_on_model_deprecation/) - 605 pts on r/ClaudeAI.
+- [Statement from Dario Amodei on our discussions with the Department of War](https://reddit.com/r/ClaudeAI/comments/1rfp7u4/statement_from_dario_amodei_on_our_discussions/) - 830 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
