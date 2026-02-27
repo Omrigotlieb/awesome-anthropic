@@ -63,7 +63,13 @@ def _parse_table(text: str, heading: str, max_rows: int) -> list[dict]:
         if header_passed:
             cols = [c.strip() for c in t.split("|")[1:-1]]
             if cols:
-                m = re.match(r"\[([^\]]*)\]\(([^)]*)\)", cols[0] if len(cols) == 1 else cols[1] if len(cols) > 1 else "")
+                # Top Stories table stores link in column 2; announcement table stores link in column 1.
+                link_col = ""
+                if len(cols) > 1 and cols[0].isdigit():
+                    link_col = cols[1]
+                elif cols:
+                    link_col = cols[0]
+                m = re.match(r"\[([^\]]*)\]\(([^)]*)\)", link_col)
                 if m:
                     rows.append({
                         "score": int(cols[0]) if len(cols) > 1 and cols[0].isdigit() else 0,
