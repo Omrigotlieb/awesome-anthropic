@@ -8,6 +8,7 @@
 - **Daily Updates**
 - [📰 News Feed](#/docs/NEWS)
 - [🔄 Changelog](#/docs/CHANGELOG)
+- [🧾 Daily Brief](#/docs/DAILY_ANTHROPIC)
 
 - **Claude Code**
 - [⚡ CC Ecosystem](#/docs/CLAUDE_CODE)

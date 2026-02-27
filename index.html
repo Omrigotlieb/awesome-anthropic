@@ -5,9 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Awesome Anthropic — Curated Claude & Anthropic Resources</title>
   <meta name="description" content="A curated, daily-updated list of awesome resources, tools, SDKs, research papers, and community projects for Anthropic and Claude AI." />
-  <meta property="og:title" content="Awesome Anthropic" />
-  <meta property="og:description" content="Daily-updated curated resources for Claude AI and Anthropic." />
+  <meta name="keywords" content="Claude AI, Anthropic, LLM, AI tools, Claude Code, prompt library, AI resources, machine learning" />
+  <meta name="author" content="Awesome Anthropic" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Awesome Anthropic — Curated Claude & Anthropic Resources" />
+  <meta property="og:description" content="Daily-updated curated resources for Claude AI and Anthropic. Prompts, tools, SDK releases, research papers, community news." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://omrigotlieb.github.io/awesome-anthropic/" />
+  <meta property="og:image" content="https://www.anthropic.com/images/index/og-anthropic-index.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Awesome Anthropic" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Awesome Anthropic — Curated Claude & Anthropic Resources" />
+  <meta name="twitter:description" content="Daily-updated curated resources for Claude AI and Anthropic. Prompts, tools, SDK releases, research papers, community news." />
+  <meta name="twitter:image" content="https://www.anthropic.com/images/index/og-anthropic-index.jpg" />
+  <meta name="twitter:site" content="@AnthropicAI" />
+
+  <!-- RSS Autodiscovery -->
+  <link rel="alternate" type="application/rss+xml" title="Awesome Anthropic News Feed" href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" />
   <link rel="icon" href="https://anthropic.com/favicon.ico" />
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#d97757" />
@@ -15,6 +36,33 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="Awesome Anthropic" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Awesome Anthropic",
+    "url": "https://omrigotlieb.github.io/awesome-anthropic/",
+    "description": "Daily-updated curated resources for Claude AI and Anthropic. Prompts, tools, SDK releases, research papers, community news.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://omrigotlieb.github.io/awesome-anthropic/#/?s={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Awesome Anthropic",
+      "url": "https://omrigotlieb.github.io/awesome-anthropic/"
+    },
+    "sameAs": [
+      "https://github.com/Omrigotlieb/awesome-anthropic"
+    ]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -125,6 +173,7 @@
 
     /* Widget base */
     .dash-widget { background:var(--card-bg); border:1px solid var(--anthro-border); border-radius:var(--card-r); overflow:hidden; display:flex; flex-direction:column; box-shadow:0 1px 4px rgba(20,12,5,.05); }
+    .dash-brief-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; padding:1rem 1.1rem; }
 
     /* Widget header */
     .dash-wh { padding:9px 13px 8px; border-bottom:1px solid var(--anthro-border); display:flex; align-items:center; gap:7px; flex-shrink:0; }
@@ -423,6 +472,7 @@
       .news-card-grid { grid-template-columns:repeat(2,1fr); }
       .news-card-lead { grid-template-columns:1fr; }
       .news-card-lead .card-image { height:200px; }
+      .dash-brief-grid { grid-template-columns:1fr; }
     }
     @media (max-width:700px) {
       .dash-mode .markdown-section { padding:.8rem !important; }
@@ -692,6 +742,25 @@
       var lm=text.match(/LMSYS[\s\S]{0,400}#(\d+)\s*\|/); if(lm) b.lmsys='#'+lm[1];
     } catch(e){}
     return b;
+  }
+  function parseDailyBrief(text) {
+    if (!text) return { date: '', highlights: [], improvements: [] };
+    var dateMatch = text.match(/^##\s+([^\n]+)/m);
+    var highlights = parseSection(text, 'Verified Product and Research Updates')
+      .map(function(l){ return l.trim(); })
+      .filter(function(l){ return l.startsWith('- '); })
+      .map(function(l){ return stripMd(l.replace(/^- /, '').trim()); })
+      .slice(0, 3);
+    var improvements = parseSection(text, 'Website Improvement Backlog')
+      .map(function(l){ return l.trim(); })
+      .filter(function(l){ return l.startsWith('- '); })
+      .map(function(l){ return stripMd(l.replace(/^- /, '').trim()); })
+      .slice(0, 3);
+    return {
+      date: dateMatch ? dateMatch[1].trim() : '',
+      highlights: highlights,
+      improvements: improvements
+    };
   }
 
   /* Reddit links open directly in a new tab (CORS blocks API access from browser) */
@@ -1296,6 +1365,7 @@
   function buildDashboard(d) {
     var stories=d.stories||[], announces=d.announces||[], sdks=d.sdks||[];
     var research=d.research||[], clEntries=d.clEntries||[], bench=d.bench||{};
+    var brief=d.brief||{date:'',highlights:[],improvements:[]};
     var lead=stories[0]||{}, maxSc=lead.score||1;
 
     /* Masthead */
@@ -1503,6 +1573,29 @@
       '</div>'+
     '</div>';
 
+    /* Daily Anthropic Brief */
+    var briefHighlights = (brief.highlights||[]).map(function(item){
+      return '<li style="margin:.25rem 0;line-height:1.45;">'+escHtml(item)+'</li>';
+    }).join('');
+    var briefImprovements = (brief.improvements||[]).map(function(item){
+      return '<li style="margin:.25rem 0;line-height:1.45;">'+escHtml(item)+'</li>';
+    }).join('');
+    var briefW = '<div class="dash-widget ws-12">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">🧾</span><span class="dash-wh-label">Daily Anthropic Brief</span>'+
+        '<span style="font-family:Inter,sans-serif;font-size:.62rem;color:var(--anthro-mid);">'+escHtml(brief.date||d.newsDate||'')+'</span>'+
+        '<a href="#/docs/DAILY_ANTHROPIC" class="dash-wh-link">Open brief →</a></div>'+
+      '<div class="dash-brief-grid">'+
+        '<div>'+
+          '<div style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--anthro-mid);font-family:Inter,sans-serif;margin-bottom:.45rem;">Verified Updates</div>'+
+          '<ul style="margin:0;padding-left:1rem;font-family:Inter,sans-serif;font-size:.82rem;color:#3a3530;">'+(briefHighlights||'<li>No highlights yet.</li>')+'</ul>'+
+        '</div>'+
+        '<div>'+
+          '<div style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--anthro-mid);font-family:Inter,sans-serif;margin-bottom:.45rem;">Website Improvements</div>'+
+          '<ul style="margin:0;padding-left:1rem;font-family:Inter,sans-serif;font-size:.82rem;color:#3a3530;">'+(briefImprovements||'<li>No improvements logged yet.</li>')+'</ul>'+
+        '</div>'+
+      '</div>'+
+    '</div>';
+
     /* Quick-Start code panel */
     var qsId = 'dash-qs-1';
     var qsSnippets = {
@@ -1587,7 +1680,7 @@
       '</div>'+
     '</div>';
 
-    return '<div class="dash-grid">'+mhead+digestW+leadW+lbW+benchW+clW+annW+sdkResW+qsW+mpW+trackerW+buzzW+ccW+'</div>';
+    return '<div class="dash-grid">'+mhead+digestW+briefW+leadW+lbW+benchW+clW+annW+sdkResW+qsW+mpW+trackerW+buzzW+ccW+'</div>';
   }
 
   /* ── Dashboard cache (1-hour TTL) ───────────────────── */
@@ -1657,11 +1750,13 @@
             Promise.allSettled([
               fetch(base+'docs/NEWS.md').then(function(r){return r.ok?r.text():'';}),
               fetch(base+'docs/CHANGELOG.md').then(function(r){return r.ok?r.text():'';}),
-              fetch(base+'docs/BENCHMARKS.md').then(function(r){return r.ok?r.text():'';})
+              fetch(base+'docs/BENCHMARKS.md').then(function(r){return r.ok?r.text():'';}),
+              fetch(base+'docs/DAILY_ANTHROPIC.md').then(function(r){return r.ok?r.text():'';})
             ]).then(function(results) {
               var newsText = results[0].status==='fulfilled' ? results[0].value : '';
               var clText   = results[1].status==='fulfilled' ? results[1].value : '';
               var benchText= results[2].status==='fulfilled' ? results[2].value : '';
+              var briefText= results[3].status==='fulfilled' ? results[3].value : '';
               var dm = newsText.match(/## ([A-Za-z]+ \d+, \d{4})/);
               var html = buildDashboard({
                 stories: parseTopStories(newsText),
@@ -1670,6 +1765,7 @@
                 research: parseResearch(newsText),
                 clEntries: parseChangelog(clText),
                 bench: parseBenchmarks(benchText),
+                brief: parseDailyBrief(briefText),
                 newsDate: dm ? dm[1] : 'Today'
               });
               _dashCache = html;
@@ -1797,6 +1893,15 @@
       }
     ]
   };
+
+/* ── Service Worker registration ─────────────────────── */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/awesome-anthropic/sw.js')
+      .then(function(reg) { console.log('[SW] Registered, scope:', reg.scope); })
+      .catch(function(err) { console.warn('[SW] Registration failed:', err); });
+  });
+}
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
