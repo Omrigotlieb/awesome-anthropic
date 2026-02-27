@@ -1,0 +1,110 @@
+import io
+import tempfile
+import unittest
+from contextlib import redirect_stdout
+from pathlib import Path
+from unittest.mock import patch
+
+from scripts import update_daily_anthropic as daily
+
+
+SAMPLE_NEWS = """# Anthropic News Feed
+
+## February 27, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 111 | [Story One](https://example.com/1) | Hacker News |
+| 99 | [Story Two](https://example.com/2) | r/ClaudeAI |
+| 88 | [Story Three](https://example.com/3) | Anthropic Blog |
+| 77 | [Story Four](https://example.com/4) | Anthropic Blog |
+"""
+
+
+class TestUpdateDailyAnthropic(unittest.TestCase):
+    def test_read_top_stories_parses_markdown_links(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            news.write_text(SAMPLE_NEWS, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news):
+                rows = daily.read_top_stories(limit=3)
+        self.assertEqual(len(rows), 3)
+        self.assertEqual(rows[0], "- [Story One](https://example.com/1)")
+        self.assertEqual(rows[2], "- [Story Three](https://example.com/3)")
+
+    def test_read_top_stories_empty_when_missing(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "missing.md"
+            with patch.object(daily, "NEWS_PATH", news):
+                rows = daily.read_top_stories(limit=3)
+        self.assertEqual(rows, [])
+
+    def test_ensure_file_creates_header_when_missing(self):
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "DAILY_Anthropic.md"
+            with patch.object(daily, "DAILY_PATH", target):
+                text = daily.ensure_file()
+            self.assertIn("# DAILY Anthropic Run Log", text)
+            self.assertTrue(target.exists())
+
+    def test_ensure_file_returns_existing_content(self):
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "DAILY_Anthropic.md"
+            target.write_text("custom text", encoding="utf-8")
+            with patch.object(daily, "DAILY_PATH", target):
+                text = daily.ensure_file()
+            self.assertEqual(text, "custom text")
+
+    def test_main_appends_entry_with_stories(self):
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "DAILY_Anthropic.md"
+            news = Path(td) / "NEWS.md"
+            target.write_text("# DAILY Anthropic Run Log\n", encoding="utf-8")
+            news.write_text(SAMPLE_NEWS, encoding="utf-8")
+            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch(
+                "scripts.update_daily_anthropic.datetime"
+            ) as dt_mock:
+                dt_mock.now.return_value.strftime.return_value = "2026-02-27"
+                dt_mock.now.return_value = dt_mock.now.return_value
+                code = daily.main()
+            content = target.read_text(encoding="utf-8")
+            self.assertEqual(code, 0)
+            self.assertIn("## 2026-02-27", content)
+            self.assertIn("Story One", content)
+
+    def test_main_is_idempotent_same_day(self):
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "DAILY_Anthropic.md"
+            news = Path(td) / "NEWS.md"
+            target.write_text("# DAILY Anthropic Run Log\n\n## 2026-02-27\n", encoding="utf-8")
+            news.write_text(SAMPLE_NEWS, encoding="utf-8")
+            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch(
+                "scripts.update_daily_anthropic.datetime"
+            ) as dt_mock:
+                dt_mock.now.return_value.strftime.return_value = "2026-02-27"
+                buf = io.StringIO()
+                with redirect_stdout(buf):
+                    code = daily.main()
+            out = buf.getvalue()
+            self.assertEqual(code, 0)
+            self.assertIn("already exists", out)
+
+    def test_main_fallback_when_news_table_missing(self):
+        with tempfile.TemporaryDirectory() as td:
+            target = Path(td) / "DAILY_Anthropic.md"
+            news = Path(td) / "NEWS.md"
+            target.write_text("# DAILY Anthropic Run Log\n", encoding="utf-8")
+            news.write_text("no top stories section", encoding="utf-8")
+            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch(
+                "scripts.update_daily_anthropic.datetime"
+            ) as dt_mock:
+                dt_mock.now.return_value.strftime.return_value = "2026-02-27"
+                daily.main()
+            content = target.read_text(encoding="utf-8")
+            self.assertIn("News table unavailable", content)
+
+
+if __name__ == "__main__":
+    unittest.main()

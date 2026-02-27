@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:unit",
+    "test:unit": "python3 -m unittest discover -s tests/unit -p 'test_*.py'",
+    "test:e2e": "npx playwright test tests/site.spec.js"
   },
   "repository": {
     "type": "git",
