@@ -864,3 +864,51 @@ test.describe('PWA Manifest', () => {
     expect(manifestLink).toBeTruthy();
   });
 });
+
+// ─────────────────────────────────────────────────────────────
+// DISTRIBUTION + DAILY BRIEF
+// ─────────────────────────────────────────────────────────────
+test.describe('Distribution and Daily Brief', () => {
+  test('sidebar shows Distribution Playbook link', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.sidebar')).toContainText('Distribution Playbook', { timeout: 10000 });
+  });
+
+  test('distribution page direct route loads', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/DISTRIBUTION');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Distribution Playbook', { timeout: 15000 });
+    await expect(page.locator('.markdown-section')).toContainText('Telegram', { timeout: 15000 });
+    await expect(page.locator('.markdown-section')).toContainText('Discord', { timeout: 15000 });
+    await expect(page.locator('.markdown-section')).toContainText('Buttondown', { timeout: 15000 });
+  });
+
+  test('daily brief page direct route loads', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/DAILY_ANTHROPIC');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Daily Anthropic Brief', { timeout: 15000 });
+    await expect(page.locator('.markdown-section')).toContainText('Website Improvement Backlog', { timeout: 15000 });
+  });
+
+  test('dashboard shows Daily Anthropic Brief widget', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await expect(page.locator('.markdown-section')).toContainText('Daily Anthropic Brief', { timeout: 15000 });
+  });
+
+  test('dashboard brief widget links to brief doc', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    const link = page.locator('a[href*="docs/DAILY_ANTHROPIC"]').first();
+    await expect(link).toBeVisible({ timeout: 15000 });
+  });
+
+  test('sidebar Daily Brief link navigates correctly', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    await page.click('.sidebar a[href="#/docs/DAILY_ANTHROPIC"]');
+    await page.waitForURL(/docs\/DAILY_ANTHROPIC/, { timeout: 10000 });
+    await expect(page.locator('.markdown-section')).toContainText('Daily Anthropic Brief', { timeout: 15000 });
+  });
+});
