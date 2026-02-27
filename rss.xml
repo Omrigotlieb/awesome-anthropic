@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Awesome Anthropic — Daily News</title>
+    <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
+    <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Feb 2026 07:00:34 +0000</lastBuildDate>
+    <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
+      <title>Awesome Anthropic — Daily News</title>
+      <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
+    </image>
+  <item>
+    <title>Statement from Dario Amodei on our discussions with the Department of War</title>
+    <link>https://www.anthropic.com/news/statement-department-of-war</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/statement-department-of-war</guid>
+    <description>▲ 1548 points · Hacker News · Statement from Dario Amodei on our discussions with the Department of War</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Statement from Dario Amodei on our discussions with the Department of War</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rfp7u4/statement_from_dario_amodei_on_our_discussions/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rfp7u4/statement_from_dario_amodei_on_our_discussions/</guid>
+    <description>▲ 830 points · r/ClaudeAI · Statement from Dario Amodei on our discussions with the Department of War</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Dario after not not folding to the Pentagon&apos;s pressure</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rfq8pw/dario_after_not_not_folding_to_the_pentagons/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rfq8pw/dario_after_not_not_folding_to_the_pentagons/</guid>
+    <description>▲ 718 points · r/ClaudeAI · Dario after not not folding to the Pentagon&apos;s pressure</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New Memory Feature?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rfo9ea/new_memory_feature/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rfo9ea/new_memory_feature/</guid>
+    <description>▲ 662 points · r/ClaudeAI · New Memory Feature?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Statement from Dario Amodei on our discussions with the Department of War</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rfp1ns/statement_from_dario_amodei_on_our_discussions/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rfp1ns/statement_from_dario_amodei_on_our_discussions/</guid>
+    <description>▲ 609 points · r/Anthropic · Statement from Dario Amodei on our discussions with the Department of War</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Statement from Dario Amodei on our discussions with the Department of War</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rfq7ij/statement_from_dario_amodei_on_our_discussions/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rfq7ij/statement_from_dario_amodei_on_our_discussions/</guid>
+    <description>▲ 453 points · r/ClaudeAI · Statement from Dario Amodei on our discussions with the Department of War</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>thank you.</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rfpnpc/thank_you/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rfpnpc/thank_you/</guid>
+    <description>▲ 361 points · r/Anthropic · thank you.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I&apos;m glad Anthropic didn&apos;t fold</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rfr6du/im_glad_anthropic_didnt_fold/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rfr6du/im_glad_anthropic_didnt_fold/</guid>
+    <description>▲ 224 points · r/Anthropic · I&apos;m glad Anthropic didn&apos;t fold</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Google workers seek &apos;red lines&apos; on military A.I., echoing Anthropic</title>
+    <link>https://www.nytimes.com/2026/02/26/technology/google-deepmind-letter-pentagon.html</link>
+    <guid isPermaLink="true">https://www.nytimes.com/2026/02/26/technology/google-deepmind-letter-pentagon.html</guid>
+    <description>▲ 221 points · Hacker News · Google workers seek &apos;red lines&apos; on military A.I., echoing Anthropic</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>In official statement, Dario Amodei stands firm against Pentagon’s demand to use of Claude for surveillance and autonomous weaponry</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rfqwb3/in_official_statement_dario_amodei_stands_firm/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rfqwb3/in_official_statement_dario_amodei_stands_firm/</guid>
+    <description>▲ 128 points · r/Anthropic · In official statement, Dario Amodei stands firm against Pentagon’s demand to use of Claude for surveillance and autonomous weaponry</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>In its fight with Hegseth, Anthropic confronts perhaps the biggest crisis in its five-year existence</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rfcthc/in_its_fight_with_hegseth_anthropic_confronts/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rfcthc/in_its_fight_with_hegseth_anthropic_confronts/</guid>
+    <description>▲ 91 points · r/Anthropic · In its fight with Hegseth, Anthropic confronts perhaps the biggest crisis in its five-year existence</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Told the AIs I &apos;already fumbled 2026&apos;. ChatGPT coached me, Grok memed me, but Claude literally sent me the crisis hotline 💀</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rfu7el/told_the_ais_i_already_fumbled_2026_chatgpt/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rfu7el/told_the_ais_i_already_fumbled_2026_chatgpt/</guid>
+    <description>▲ 86 points · r/ClaudeAI · Told the AIs I &apos;already fumbled 2026&apos;. ChatGPT coached me, Grok memed me, but Claude literally sent me the crisis hotline 💀</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic says company &apos;cannot in good conscience accede&apos; to Pentagon&apos;s demands</title>
+    <link>https://apnews.com/article/anthropic-ai-pentagon-hegseth-dario-amodei-9b28dda41bdb52b6a378fa9fc80b8fda</link>
+    <guid isPermaLink="true">https://apnews.com/article/anthropic-ai-pentagon-hegseth-dario-amodei-9b28dda41bdb52b6a378fa9fc80b8fda</guid>
+    <description>▲ 75 points · Hacker News · Anthropic says company &apos;cannot in good conscience accede&apos; to Pentagon&apos;s demands</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Has anyone else lost motivation in systems or software engineering since passing Claude to your workflow?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rfksj2/has_anyone_else_lost_motivation_in_systems_or/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rfksj2/has_anyone_else_lost_motivation_in_systems_or/</guid>
+    <description>▲ 52 points · r/ClaudeAI · Has anyone else lost motivation in systems or software engineering since passing Claude to your workflow?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>AI Code Review Gets Better When I Ask Models to Debate: Claude, Gemini, Codex</title>
+    <link>https://milvus.io/blog/ai-code-review-gets-better-when-models-debate-claude-vs-gemini-vs-codex-vs-qwen-vs-minimax.md</link>
+    <guid isPermaLink="true">https://milvus.io/blog/ai-code-review-gets-better-when-models-debate-claude-vs-gemini-vs-codex-vs-qwen-vs-minimax.md</guid>
+    <description>▲ 16 points · Hacker News · AI Code Review Gets Better When I Ask Models to Debate: Claude, Gemini, Codex</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 27 Feb 2026 09:00:00 +0000</pubDate>
+  </item>
+  </channel>
+</rss>
