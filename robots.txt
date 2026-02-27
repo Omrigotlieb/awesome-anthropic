@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://omrigotlieb.github.io/awesome-anthropic/sitemap.xml
+
+# Disallow data/logs directories
+Disallow: /data/
+Disallow: /logs/
+Disallow: /node_modules/
+Disallow: /scripts/
+Disallow: /test-results/
