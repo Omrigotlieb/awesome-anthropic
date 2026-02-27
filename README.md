@@ -41,6 +41,7 @@ This list is **automatically updated every day** — changelog synced from the o
 - [Comparisons & Benchmarks](#comparisons--benchmarks)
 - [Changelog (Auto-updated)](#changelog-auto-updated)
 - [News Digest (Auto-updated)](#news-digest-auto-updated)
+- [Distribution & Growth](#distribution--growth)
 
 ---
 
@@ -341,9 +342,29 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 
 ---
 
+## Distribution & Growth
+
+Use the built-in scripts to distribute the daily brief across owned channels:
+
+- Generate social copy for X, LinkedIn, Reddit, and HN:
+  - `python3 scripts/generate_social_posts.py`
+- Post to Telegram:
+  - `python3 scripts/notify_telegram.py`
+- Post to Discord via webhook:
+  - `python3 scripts/notify_discord.py`
+- Send email digest via Buttondown:
+  - `python3 scripts/email_digest.py`
+
+Run the full daily workflow (news + website + distribution):
+
+- `bash scripts/run_daily.sh`
+
+See detailed setup and channel strategy in [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md).
+
+---
+
 ## Contributing
 
 Contributions are welcome! Read the [contributing guidelines](https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md) and open a [pull request](https://github.com/Omrigotlieb/awesome-anthropic/compare). All list items must follow the format `- [Name](url) - Description.` Do not edit sections between `<!-- X_START -->` and `<!-- X_END -->` tags — they are auto-updated daily.
 
 ---
-
