@@ -434,6 +434,115 @@ def deduplicate(items: list[NewsItem], seen: set[str]) -> list[NewsItem]:
 # Writing output
 # ---------------------------------------------------------------------------
 
+SIGNAL_KEYWORDS = {
+    "anthropic",
+    "claude",
+    "sdk",
+    "release",
+    "policy",
+    "model",
+    "agent",
+    "mcp",
+    "security",
+    "safety",
+    "benchmark",
+    "api",
+}
+
+
+def title_fingerprint(title: str) -> str:
+    """Normalize titles so near-identical reposts can be collapsed."""
+    import re as _re
+
+    cleaned = _re.sub(r"[^a-z0-9\s]", " ", title.lower())
+    tokens = [t for t in cleaned.split() if t not in {"the", "a", "an", "and", "or", "to", "of"}]
+    return " ".join(tokens)
+
+
+def is_low_signal_story(item: NewsItem) -> bool:
+    """
+    Lightweight quality filter for community stories.
+
+    We only apply this to Reddit sources to reduce low-information chatter
+    while keeping official/product updates untouched.
+    """
+    import re as _re
+
+    source = item.source.lower()
+    if not source.startswith("r/"):
+        return False
+
+    title = item.title.strip()
+    title_l = title.lower().strip(" .!?,")
+    words = _re.findall(r"[a-z0-9']+", title_l)
+    if not words:
+        return True
+
+    # Very short question-only headlines without domain keywords are noisy.
+    if title.endswith("?") and len(words) <= 4 and not any(k in title_l for k in SIGNAL_KEYWORDS):
+        return True
+
+    # Short chatter lines with no Anthropic/Claude signal.
+    if len(words) <= 3 and not any(k in title_l for k in SIGNAL_KEYWORDS):
+        return True
+
+    # Pure gratitude/reaction posts tend to be low signal for a daily digest.
+    if _re.fullmatch(r"(thanks?|thank you|i m glad|i am glad)", title_l):
+        return True
+
+    return False
+
+
+def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source: int = 4) -> list[NewsItem]:
+    """
+    Rank top stories with quality constraints:
+      - remove low-signal Reddit chatter
+      - collapse near-duplicate headlines across sources
+      - keep source diversity by capping per-source items
+    """
+    ranked = sorted(stories, key=lambda x: x.score, reverse=True)
+    selected: list[NewsItem] = []
+    source_counts: dict[str, int] = {}
+    seen_fingerprints: set[str] = set()
+    deferred_for_source_cap: list[NewsItem] = []
+
+    for item in ranked:
+        if is_low_signal_story(item):
+            continue
+
+        fp = title_fingerprint(item.title)
+        if fp and fp in seen_fingerprints:
+            continue
+
+        src_count = source_counts.get(item.source, 0)
+        if src_count >= max_per_source:
+            deferred_for_source_cap.append(item)
+            continue
+
+        selected.append(item)
+        if fp:
+            seen_fingerprints.add(fp)
+        source_counts[item.source] = src_count + 1
+        if len(selected) >= limit:
+            return selected
+
+    # Backfill if strict source caps leave fewer than limit items.
+    if len(selected) < limit:
+        for item in deferred_for_source_cap:
+            if is_low_signal_story(item):
+                continue
+            fp = title_fingerprint(item.title)
+            if fp and fp in seen_fingerprints:
+                continue
+            selected.append(item)
+            if fp:
+                seen_fingerprints.add(fp)
+            if len(selected) >= limit:
+                break
+
+    return selected
+
+
 def append_to_news_md(items: list[NewsItem]) -> None:
     """Write new items to NEWS.md using the section+table format the dashboard parser expects."""
     DOCS_DIR.mkdir(exist_ok=True)
@@ -452,6 +561,7 @@ def append_to_news_md(items: list[NewsItem]) -> None:
         [i for i in items if i.source not in SDK_SOURCES | ANNOUNCE_SOURCES | RESEARCH_SOURCES | TWEET_SOURCES],
         key=lambda x: x.score, reverse=True,
     )
+    stories = select_top_stories(stories, limit=15, max_per_source=4)
     announcements = [i for i in items if i.source in ANNOUNCE_SOURCES]
     research      = [i for i in items if i.source in RESEARCH_SOURCES]
     sdk           = [i for i in items if i.source in SDK_SOURCES]
@@ -466,7 +576,7 @@ def append_to_news_md(items: list[NewsItem]) -> None:
         lines += ["### 🔥 Top Stories", "",
                   "| Score | Title | Source |",
                   "|------:|-------|--------|"]
-        for item in stories[:15]:
+        for item in stories:
             lines.append(f"| {item.score} | [{_esc(item.title)}]({item.url}) | {_esc(item.source)} |")
         lines.append("")
 
