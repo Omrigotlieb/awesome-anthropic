@@ -47,6 +47,14 @@ python3 scripts/check_changelog.py 2>&1 | tee -a "$LOG"
 log "Updating README..."
 python3 scripts/update_readme.py --section ALL 2>&1 | tee -a "$LOG"
 
+log "Generating multi-channel social copy..."
+python3 scripts/generate_social_posts.py 2>&1 | tee -a "$LOG"
+
+log "Running distribution channels (skip automatically if credentials are missing)..."
+python3 scripts/notify_telegram.py 2>&1 | tee -a "$LOG" || true
+python3 scripts/notify_discord.py 2>&1 | tee -a "$LOG" || true
+python3 scripts/email_digest.py 2>&1 | tee -a "$LOG" || true
+
 # Commit and push if anything changed
 git add DAILY_Anthropic.md docs/DAILY_ANTHROPIC.md docs/NEWS.md docs/CHANGELOG.md README.md data/ rss.xml
 if [ -f "sitemap.xml" ]; then
