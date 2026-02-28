@@ -309,7 +309,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-02-27
+> Last synced: <!-- CHANGELOG_DATE -->2026-02-28
 
 <!-- CHANGELOG_START -->
 ### February 19, 2026 — Automatic Caching + Model Retirements
@@ -326,16 +326,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-02-27
+> Last fetched: <!-- NEWS_DATE -->2026-02-28
 
 <!-- NEWS_START -->
-### Top Stories — February 27, 2026
+### Top Stories — February 28, 2026
 
+- [Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed](https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/) - 2733 pts on r/ClaudeAI.
+- [Outside Anthropic Office in SF "Thank You"](https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/) - 2627 pts on r/ClaudeAI.
 - [They're shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) - 1682 pts on r/ClaudeAI.
 - [Statement from Dario Amodei on our discussions with the Department of War](https://www.anthropic.com/news/statement-department-of-war) - 1548 pts on Hacker News.
-- [Pentagon, Claude and the military use](https://reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/) - 1227 pts on r/ClaudeAI.
-- [Yeah buddy… Lightweight!!!💪](https://reddit.com/r/ClaudeAI/comments/1rf25vv/yeah_buddy_lightweight/) - 987 pts on r/ClaudeAI.
-- [Statement from Dario Amodei on our discussions with the Department of War](https://reddit.com/r/ClaudeAI/comments/1rfp7u4/statement_from_dario_amodei_on_our_discussions/) - 830 pts on r/ClaudeAI.
+- [I am directing the Department of War to designate Anthropic a supply-chain risk](https://twitter.com/secwar/status/2027507717469049070) - 1238 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

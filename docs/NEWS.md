@@ -4,6 +4,59 @@
 
 ---
 
+## February 28, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2733 | [Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed](https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/) | r/ClaudeAI |
+| 2627 | [Outside Anthropic Office in SF "Thank You"](https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/) | r/ClaudeAI |
+| 1238 | [I am directing the Department of War to designate Anthropic a supply-chain risk](https://twitter.com/secwar/status/2027507717469049070) | Hacker News |
+| 818 | [Statement on the comments from Secretary of War Pete Hegseth](https://www.anthropic.com/news/statement-comments-secretary-war) | Hacker News |
+| 628 | [The Pentagon just proved Claude's dominance more convincingly than any benchmark](https://reddit.com/r/ClaudeAI/comments/1rgrmmv/the_pentagon_just_proved_claudes_dominance_more/) | r/ClaudeAI |
+| 564 | [OpenAI CEO Sam: For all the differences I have with Anthropic, I mostly trust them as a company and I think they really do care about safety](https://reddit.com/r/ClaudeAI/comments/1rgdolq/openai_ceo_sam_for_all_the_differences_i_have/) | r/ClaudeAI |
+| 519 | [Sam Altman says OpenAI shares Anthropic's red lines in Pentagon fight](https://reddit.com/r/Anthropic/comments/1rg9d7j/sam_altman_says_openai_shares_anthropics_red/) | r/Anthropic |
+| 501 | [Subscribed to Claude because they stood up to the fascist orange demented man baby - thx!](https://reddit.com/r/Anthropic/comments/1rgmygo/subscribed_to_claude_because_they_stood_up_to_the/) | r/Anthropic |
+| 460 | [Trump goes on Truth Social rant about Anthropic, orders federal agencies to cease usage of products](https://reddit.com/r/Anthropic/comments/1rgiyj2/trump_goes_on_truth_social_rant_about_anthropic/) | r/Anthropic |
+| 402 | [Trump demands EVERY agency to immediately cease all use of Anthropic tech and threatens “full power of presidency” to force Anthropic to comply.](https://reddit.com/r/Anthropic/comments/1rgisu0/trump_demands_every_agency_to_immediately_cease/) | r/Anthropic |
+| 249 | [President Trump bans Anthropic from use in government systems](https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban) | Hacker News |
+| 243 | [The Pentagon is making a mistake by threatening Anthropic](https://www.understandingai.org/p/the-pentagon-is-making-a-mistake) | Hacker News |
+| 535 | [BREAKING: Trump orders federal agencies to stop using Anthropic AI tech 'immediately'](https://reddit.com/r/ClaudeAI/comments/1rgjtmn/breaking_trump_orders_federal_agencies_to_stop/) | r/ClaudeAI |
+| 495 | [Thanks Anthropic for holding the line!!!](https://reddit.com/r/ClaudeAI/comments/1rgluip/thanks_anthropic_for_holding_the_line/) | r/ClaudeAI |
+| 483 | [Real Vibe Design is here](https://reddit.com/r/ClaudeAI/comments/1rg86um/real_vibe_design_is_here/) | r/ClaudeAI |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Statement on the comments from Secretary of War Pete Hegseth Anthropic's response to the Secretary of War and advice to ](https://www.anthropic.com/news/statement-comments-secretary-war) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [In the next version of Claude Code..
+
+We're introducing two new Skills: /simplify and /batch. I have been using both daily, and am excited to share them with everyone.
+
+Combined, these kills automate ](https://x.com/bcherny/status/2027534984534544489) | Boris Cherney |
+| [Proud to work at Anthropic.](https://x.com/bcherny/status/2027527707626774768) | Boris Cherney |
+| [Claude Code Remote is rolling out now for Pro users](https://x.com/bcherny/status/2027462787358949679) | Boris Cherney |
+| [A statement on the comments from Secretary of War Pete Hegseth. 
+
+https://anthropic.com/news/statement-comments-secretary-war](https://x.com/AnthropicAI/status/2027555481699446918) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.63](https://github.com/anthropics/claude-code/releases/tag/v2.1.63) | ## What's changed  - Added `/simplify` and `/batch` bundled slash commands - Fixed local slash comma |
+| [claude-agent-sdk-typescript v0.2.63](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.63) | ## What's changed  - SDK: Fixed `pathToClaudeCodeExecutable` failing when set to a bare command name |
+| [claude-code-action v1.0.64](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.64) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.64 |
+
+---
+
 ## February 27, 2026
 
 ### 🔥 Top Stories
