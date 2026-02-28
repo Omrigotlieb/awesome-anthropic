@@ -1,6 +1,12 @@
 import unittest
 
-from scripts.fetch_news import NewsItem, is_low_signal_story, select_top_stories, title_fingerprint
+from scripts.fetch_news import (
+    NewsItem,
+    canonical_story_url,
+    is_low_signal_story,
+    select_top_stories,
+    title_fingerprint,
+)
 
 
 def mk(
@@ -20,6 +26,10 @@ def mk(
 
 
 class TestFetchNewsQuality(unittest.TestCase):
+    def test_canonical_story_url_drops_tracking_params(self):
+        url = "https://example.com/path/?utm_source=x&ref=y&id=7#frag"
+        self.assertEqual(canonical_story_url(url), "https://example.com/path?id=7")
+
     def test_title_fingerprint_normalizes_punctuation_and_articles(self):
         fp = title_fingerprint("The Claude, SDK: Release!")
         self.assertEqual(fp, "claude sdk release")
@@ -40,6 +50,10 @@ class TestFetchNewsQuality(unittest.TestCase):
         item = mk("thank you")
         self.assertTrue(is_low_signal_story(item))
 
+    def test_low_signal_meme_without_keywords(self):
+        item = mk("Yeah buddy... Lightweight!!!")
+        self.assertTrue(is_low_signal_story(item))
+
     def test_select_top_stories_collapses_duplicate_titles(self):
         stories = [
             mk("Claude 4.6 released", source="Hacker News", score=500, url="https://a"),
@@ -50,6 +64,16 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertEqual(len(selected), 2)
         self.assertEqual(selected[0].source, "Hacker News")
         self.assertEqual(selected[1].title, "Anthropic security update")
+
+    def test_select_top_stories_collapses_duplicate_urls(self):
+        stories = [
+            mk("Release note thread", source="r/ClaudeAI", score=600, url="https://example.com/r?id=1&utm_source=reddit"),
+            mk("Release note thread on HN", source="Hacker News", score=700, url="https://example.com/r?id=1"),
+            mk("Another unique item", source="Hacker News", score=500, url="https://example.com/u?id=2"),
+        ]
+        selected = select_top_stories(stories, limit=10, max_per_source=4)
+        self.assertEqual(len(selected), 2)
+        self.assertEqual(selected[0].title, "Release note thread on HN")
 
     def test_select_top_stories_applies_source_cap_with_backfill(self):
         stories = [

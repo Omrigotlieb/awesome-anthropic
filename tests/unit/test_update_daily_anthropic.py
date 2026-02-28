@@ -20,6 +20,20 @@ SAMPLE_NEWS = """# Anthropic News Feed
 | 99 | [Story Two](https://example.com/2) | r/ClaudeAI |
 | 88 | [Story Three](https://example.com/3) | Anthropic Blog |
 | 77 | [Story Four](https://example.com/4) | Anthropic Blog |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Official One](https://example.com/official-1) | Anthropic Blog |
+| [Official Two](https://example.com/official-2) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.62](https://example.com/cc-262) | fixes |
+| [anthropic-sdk-python v0.84.0](https://example.com/py-084) | update |
 """
 
 
@@ -41,6 +55,20 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
                 rows = daily.read_top_stories(limit=3)
         self.assertEqual(rows, [])
 
+    def test_read_section_links_parses_announcements(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            news.write_text(SAMPLE_NEWS, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news):
+                rows = daily.read_section_links("📰 Official Announcements", title_col=0, limit=2)
+        self.assertEqual(
+            rows,
+            [
+                ("Official One", "https://example.com/official-1"),
+                ("Official Two", "https://example.com/official-2"),
+            ],
+        )
+
     def test_ensure_file_creates_header_when_missing(self):
         with tempfile.TemporaryDirectory() as td:
             target = Path(td) / "DAILY_Anthropic.md"
@@ -61,28 +89,35 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             target = Path(td) / "DAILY_Anthropic.md"
             news = Path(td) / "NEWS.md"
+            brief = Path(td) / "docs" / "DAILY_ANTHROPIC.md"
+            brief.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("# DAILY Anthropic Run Log\n", encoding="utf-8")
             news.write_text(SAMPLE_NEWS, encoding="utf-8")
-            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch(
-                "scripts.update_daily_anthropic.datetime"
-            ) as dt_mock:
+            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch.object(
+                daily, "DAILY_BRIEF_PATH", brief
+            ), patch("scripts.update_daily_anthropic.datetime") as dt_mock:
                 dt_mock.now.return_value.strftime.return_value = "2026-02-27"
                 dt_mock.now.return_value = dt_mock.now.return_value
                 code = daily.main()
             content = target.read_text(encoding="utf-8")
+            brief_content = brief.read_text(encoding="utf-8")
             self.assertEqual(code, 0)
             self.assertIn("## 2026-02-27", content)
             self.assertIn("Story One", content)
+            self.assertIn("# Daily Anthropic Brief", brief_content)
+            self.assertIn("claude-code v2.1.62", brief_content)
 
     def test_main_is_idempotent_same_day(self):
         with tempfile.TemporaryDirectory() as td:
             target = Path(td) / "DAILY_Anthropic.md"
             news = Path(td) / "NEWS.md"
+            brief = Path(td) / "docs" / "DAILY_ANTHROPIC.md"
+            brief.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("# DAILY Anthropic Run Log\n\n## 2026-02-27\n", encoding="utf-8")
             news.write_text(SAMPLE_NEWS, encoding="utf-8")
-            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch(
-                "scripts.update_daily_anthropic.datetime"
-            ) as dt_mock:
+            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch.object(
+                daily, "DAILY_BRIEF_PATH", brief
+            ), patch("scripts.update_daily_anthropic.datetime") as dt_mock:
                 dt_mock.now.return_value.strftime.return_value = "2026-02-27"
                 buf = io.StringIO()
                 with redirect_stdout(buf):
@@ -95,15 +130,19 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             target = Path(td) / "DAILY_Anthropic.md"
             news = Path(td) / "NEWS.md"
+            brief = Path(td) / "docs" / "DAILY_ANTHROPIC.md"
+            brief.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("# DAILY Anthropic Run Log\n", encoding="utf-8")
             news.write_text("no top stories section", encoding="utf-8")
-            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch(
-                "scripts.update_daily_anthropic.datetime"
-            ) as dt_mock:
+            with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch.object(
+                daily, "DAILY_BRIEF_PATH", brief
+            ), patch("scripts.update_daily_anthropic.datetime") as dt_mock:
                 dt_mock.now.return_value.strftime.return_value = "2026-02-27"
                 daily.main()
             content = target.read_text(encoding="utf-8")
+            brief_content = brief.read_text(encoding="utf-8")
             self.assertIn("News table unavailable", content)
+            self.assertIn("No new official announcements", brief_content)
 
 
 if __name__ == "__main__":

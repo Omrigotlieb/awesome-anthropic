@@ -21,6 +21,7 @@ import hashlib
 import json
 import os
 import sys
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -450,6 +451,26 @@ SIGNAL_KEYWORDS = {
 }
 
 
+def canonical_story_url(url: str) -> str:
+    """Drop tracking params and normalize URL for duplicate detection."""
+    try:
+        parts = urlsplit((url or "").strip())
+        if not parts.scheme or not parts.netloc:
+            return url.strip()
+        query_pairs = []
+        for key, value in parse_qsl(parts.query, keep_blank_values=True):
+            if key.lower().startswith("utm_"):
+                continue
+            if key.lower() in {"ref", "source", "s"}:
+                continue
+            query_pairs.append((key, value))
+        query = urlencode(query_pairs, doseq=True)
+        clean_path = parts.path.rstrip("/") or "/"
+        return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), clean_path, query, ""))
+    except Exception:
+        return url.strip()
+
+
 def title_fingerprint(title: str) -> str:
     """Normalize titles so near-identical reposts can be collapsed."""
     import re as _re
@@ -457,6 +478,13 @@ def title_fingerprint(title: str) -> str:
     cleaned = _re.sub(r"[^a-z0-9\s]", " ", title.lower())
     tokens = [t for t in cleaned.split() if t not in {"the", "a", "an", "and", "or", "to", "of"}]
     return " ".join(tokens)
+
+
+def story_dedup_key(item: NewsItem) -> str:
+    canonical = canonical_story_url(item.url)
+    if canonical:
+        return canonical
+    return title_fingerprint(item.title)
 
 
 def is_low_signal_story(item: NewsItem) -> bool:
@@ -490,6 +518,11 @@ def is_low_signal_story(item: NewsItem) -> bool:
     if _re.fullmatch(r"(thanks?|thank you|i m glad|i am glad)", title_l):
         return True
 
+    # Meme-only reactions add noise unless they include concrete product signals.
+    if _re.search(r"\b(yeah buddy|lightweight|lets go|we are so back)\b", title_l):
+        if not any(k in title_l for k in SIGNAL_KEYWORDS):
+            return True
+
     return False
 
 
@@ -503,15 +536,19 @@ def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source:
     ranked = sorted(stories, key=lambda x: x.score, reverse=True)
     selected: list[NewsItem] = []
     source_counts: dict[str, int] = {}
-    seen_fingerprints: set[str] = set()
+    seen_story_keys: set[str] = set()
+    seen_title_fingerprints: set[str] = set()
     deferred_for_source_cap: list[NewsItem] = []
 
     for item in ranked:
         if is_low_signal_story(item):
             continue
 
+        key = story_dedup_key(item)
         fp = title_fingerprint(item.title)
-        if fp and fp in seen_fingerprints:
+        if key and key in seen_story_keys:
+            continue
+        if fp and fp in seen_title_fingerprints:
             continue
 
         src_count = source_counts.get(item.source, 0)
@@ -520,8 +557,10 @@ def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source:
             continue
 
         selected.append(item)
+        if key:
+            seen_story_keys.add(key)
         if fp:
-            seen_fingerprints.add(fp)
+            seen_title_fingerprints.add(fp)
         source_counts[item.source] = src_count + 1
         if len(selected) >= limit:
             return selected
@@ -531,12 +570,17 @@ def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source:
         for item in deferred_for_source_cap:
             if is_low_signal_story(item):
                 continue
+            key = story_dedup_key(item)
             fp = title_fingerprint(item.title)
-            if fp and fp in seen_fingerprints:
+            if key and key in seen_story_keys:
+                continue
+            if fp and fp in seen_title_fingerprints:
                 continue
             selected.append(item)
+            if key:
+                seen_story_keys.add(key)
             if fp:
-                seen_fingerprints.add(fp)
+                seen_title_fingerprints.add(fp)
             if len(selected) >= limit:
                 break
 
