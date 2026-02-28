@@ -1596,6 +1596,40 @@
       '</div>'+
     '</div>';
 
+    /* Freshness + release watch */
+    var sourceCount = Object.keys(dSrcs).length;
+    var claudeCodeRelease = null;
+    for (var si = 0; si < sdks.length; si++) {
+      if ((sdks[si].name || '').toLowerCase().indexOf('claude-code ') === 0) {
+        claudeCodeRelease = sdks[si];
+        break;
+      }
+    }
+    var releaseSummary = claudeCodeRelease
+      ? '<a href="'+escHtml(claudeCodeRelease.href)+'" target="_blank" rel="noopener" style="font-weight:700;color:var(--anthro-rust);text-decoration:none;border-bottom:1px solid rgba(217,119,87,.35);">'+escHtml(claudeCodeRelease.name)+'</a>' +
+        '<div style="font-size:.77rem;color:#5c544b;margin-top:.4rem;line-height:1.4;">'+escHtml((claudeCodeRelease.notes||'').slice(0,140) || 'No release notes summary available.')+'</div>'
+      : '<div style="font-size:.82rem;color:#5c544b;">No Claude Code release found in the current news snapshot.</div>';
+    var opsW = '<div class="dash-widget ws-12">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">🧭</span><span class="dash-wh-label">Run Freshness & Release Watch</span>'+
+        '<span style="font-family:Inter,sans-serif;font-size:.62rem;color:var(--anthro-mid);">'+escHtml(d.newsDate||'')+'</span>'+
+        '<a href="#/docs/NEWS" class="dash-wh-link">Inspect feed →</a></div>'+
+      '<div class="dash-brief-grid">'+
+        '<div>'+
+          '<div style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--anthro-mid);font-family:Inter,sans-serif;margin-bottom:.45rem;">Freshness</div>'+
+          '<ul style="margin:0;padding-left:1rem;font-family:Inter,sans-serif;font-size:.82rem;color:#3a3530;">'+
+            '<li style="margin:.25rem 0;line-height:1.45;">News snapshot: '+escHtml(d.newsDate||'Unknown')+'</li>'+
+            '<li style="margin:.25rem 0;line-height:1.45;">Tracked top stories: '+stories.length+'</li>'+
+            '<li style="margin:.25rem 0;line-height:1.45;">Source diversity: '+sourceCount+' sources</li>'+
+            '<li style="margin:.25rem 0;line-height:1.45;">Official announcements: '+announces.length+'</li>'+
+          '</ul>'+
+        '</div>'+
+        '<div>'+
+          '<div style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--anthro-mid);font-family:Inter,sans-serif;margin-bottom:.45rem;">Claude Code Release Watch</div>'+
+          releaseSummary+
+        '</div>'+
+      '</div>'+
+    '</div>';
+
     /* Quick-Start code panel */
     var qsId = 'dash-qs-1';
     var qsSnippets = {
@@ -1680,7 +1714,7 @@
       '</div>'+
     '</div>';
 
-    return '<div class="dash-grid">'+mhead+digestW+briefW+leadW+lbW+benchW+clW+annW+sdkResW+qsW+mpW+trackerW+buzzW+ccW+'</div>';
+    return '<div class="dash-grid">'+mhead+digestW+briefW+opsW+leadW+lbW+benchW+clW+annW+sdkResW+qsW+mpW+trackerW+buzzW+ccW+'</div>';
   }
 
   /* ── Dashboard cache (1-hour TTL) ───────────────────── */
