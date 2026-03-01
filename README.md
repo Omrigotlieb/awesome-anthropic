@@ -231,6 +231,8 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [Zed](https://zed.dev) - High-performance code editor with Claude integration.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - Code search and AI assistant with Claude.
 
+- [OpenPaw](https://github.com/daxaur/openpaw) - Open-source CLI tool (`npx pawmode`) that turns Claude Code into a personal assistant with 38 skills. No daemon, no cloud, MIT licensed.
+
 ### Productivity & Workflows
 
 - [Raycast AI](https://raycast.com/ai) - macOS launcher with Claude integration.
