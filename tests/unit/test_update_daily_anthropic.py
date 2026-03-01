@@ -90,33 +90,42 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             target = Path(td) / "DAILY_Anthropic.md"
             news = Path(td) / "NEWS.md"
             brief = Path(td) / "docs" / "DAILY_ANTHROPIC.md"
+            blog = Path(td) / "docs" / "DAILY_BLOG.md"
             brief.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("# DAILY Anthropic Run Log\n", encoding="utf-8")
             news.write_text(SAMPLE_NEWS, encoding="utf-8")
             with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch.object(
                 daily, "DAILY_BRIEF_PATH", brief
+            ), patch.object(
+                daily, "DAILY_BLOG_PATH", blog
             ), patch("scripts.update_daily_anthropic.datetime") as dt_mock:
                 dt_mock.now.return_value.strftime.return_value = "2026-02-27"
                 dt_mock.now.return_value = dt_mock.now.return_value
                 code = daily.main()
             content = target.read_text(encoding="utf-8")
             brief_content = brief.read_text(encoding="utf-8")
+            blog_content = blog.read_text(encoding="utf-8")
             self.assertEqual(code, 0)
             self.assertIn("## 2026-02-27", content)
             self.assertIn("Story One", content)
             self.assertIn("# Daily Anthropic Brief", brief_content)
             self.assertIn("claude-code v2.1.62", brief_content)
+            self.assertIn("# Daily Anthropic Blog Post", blog_content)
+            self.assertIn("Executive Summary", blog_content)
 
     def test_main_is_idempotent_same_day(self):
         with tempfile.TemporaryDirectory() as td:
             target = Path(td) / "DAILY_Anthropic.md"
             news = Path(td) / "NEWS.md"
             brief = Path(td) / "docs" / "DAILY_ANTHROPIC.md"
+            blog = Path(td) / "docs" / "DAILY_BLOG.md"
             brief.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("# DAILY Anthropic Run Log\n\n## 2026-02-27\n", encoding="utf-8")
             news.write_text(SAMPLE_NEWS, encoding="utf-8")
             with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch.object(
                 daily, "DAILY_BRIEF_PATH", brief
+            ), patch.object(
+                daily, "DAILY_BLOG_PATH", blog
             ), patch("scripts.update_daily_anthropic.datetime") as dt_mock:
                 dt_mock.now.return_value.strftime.return_value = "2026-02-27"
                 buf = io.StringIO()
@@ -131,11 +140,14 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             target = Path(td) / "DAILY_Anthropic.md"
             news = Path(td) / "NEWS.md"
             brief = Path(td) / "docs" / "DAILY_ANTHROPIC.md"
+            blog = Path(td) / "docs" / "DAILY_BLOG.md"
             brief.parent.mkdir(parents=True, exist_ok=True)
             target.write_text("# DAILY Anthropic Run Log\n", encoding="utf-8")
             news.write_text("no top stories section", encoding="utf-8")
             with patch.object(daily, "DAILY_PATH", target), patch.object(daily, "NEWS_PATH", news), patch.object(
                 daily, "DAILY_BRIEF_PATH", brief
+            ), patch.object(
+                daily, "DAILY_BLOG_PATH", blog
             ), patch("scripts.update_daily_anthropic.datetime") as dt_mock:
                 dt_mock.now.return_value.strftime.return_value = "2026-02-27"
                 daily.main()
@@ -143,6 +155,18 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             brief_content = brief.read_text(encoding="utf-8")
             self.assertIn("News table unavailable", content)
             self.assertIn("No new official announcements", brief_content)
+
+    def test_write_daily_brief_includes_freshness_lag(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            brief = Path(td) / "docs" / "DAILY_ANTHROPIC.md"
+            brief.parent.mkdir(parents=True, exist_ok=True)
+            news.write_text(SAMPLE_NEWS, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news), patch.object(daily, "DAILY_BRIEF_PATH", brief):
+                daily.write_daily_brief("2026-03-01")
+            brief_content = brief.read_text(encoding="utf-8")
+            self.assertIn("Freshness Status", brief_content)
+            self.assertIn("Snapshot lag: 2 day(s)", brief_content)
 
 
 if __name__ == "__main__":

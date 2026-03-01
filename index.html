@@ -762,6 +762,21 @@
       improvements: improvements
     };
   }
+  function parseDailyBlog(text) {
+    if (!text) return { date: '', summary: '', takeaways: [] };
+    var dateMatch = text.match(/^##\s+([^\n]+)/m);
+    var summaryMatch = text.match(/###\s+Executive Summary[\s\S]*?\n\n([^\n]+)/);
+    var takeaways = parseSection(text, 'Key Takeaways')
+      .map(function(l){ return l.trim(); })
+      .filter(function(l){ return l.startsWith('- '); })
+      .map(function(l){ return stripMd(l.replace(/^- /, '').trim()); })
+      .slice(0, 3);
+    return {
+      date: dateMatch ? dateMatch[1].trim() : '',
+      summary: summaryMatch ? stripMd(summaryMatch[1].trim()) : '',
+      takeaways: takeaways
+    };
+  }
 
   /* Reddit links open directly in a new tab (CORS blocks API access from browser) */
 
@@ -1596,6 +1611,21 @@
       '</div>'+
     '</div>';
 
+    /* Daily blog post */
+    var blog = d.blog || {};
+    var blogTakeaways = (blog.takeaways||[]).map(function(item){
+      return '<li style="margin:.25rem 0;line-height:1.45;">'+escHtml(item)+'</li>';
+    }).join('');
+    var blogW = '<div class="dash-widget ws-12">'+
+      '<div class="dash-wh"><span class="dash-wh-icon">✍️</span><span class="dash-wh-label">Daily Blog Post</span>'+
+        '<span style="font-family:Inter,sans-serif;font-size:.62rem;color:var(--anthro-mid);">'+escHtml(blog.date||d.newsDate||'')+'</span>'+
+        '<a href="#/docs/DAILY_BLOG" class="dash-wh-link">Read post →</a></div>'+
+      '<div style="padding:1rem 1.1rem;">'+
+        '<div style="font-family:Inter,sans-serif;font-size:.84rem;color:#3a3530;line-height:1.55;margin-bottom:.75rem;">'+escHtml(blog.summary||'No blog summary available for this run.')+'</div>'+
+        '<ul style="margin:0;padding-left:1rem;font-family:Inter,sans-serif;font-size:.82rem;color:#3a3530;">'+(blogTakeaways||'<li>No key takeaways yet.</li>')+'</ul>'+
+      '</div>'+
+    '</div>';
+
     /* Freshness + release watch */
     var sourceCount = Object.keys(dSrcs).length;
     var claudeCodeRelease = null;
@@ -1714,7 +1744,7 @@
       '</div>'+
     '</div>';
 
-    return '<div class="dash-grid">'+mhead+digestW+briefW+opsW+leadW+lbW+benchW+clW+annW+sdkResW+qsW+mpW+trackerW+buzzW+ccW+'</div>';
+    return '<div class="dash-grid">'+mhead+digestW+briefW+blogW+opsW+leadW+lbW+benchW+clW+annW+sdkResW+qsW+mpW+trackerW+buzzW+ccW+'</div>';
   }
 
   /* ── Dashboard cache (1-hour TTL) ───────────────────── */
@@ -1785,12 +1815,14 @@
               fetch(base+'docs/NEWS.md').then(function(r){return r.ok?r.text():'';}),
               fetch(base+'docs/CHANGELOG.md').then(function(r){return r.ok?r.text():'';}),
               fetch(base+'docs/BENCHMARKS.md').then(function(r){return r.ok?r.text():'';}),
-              fetch(base+'docs/DAILY_ANTHROPIC.md').then(function(r){return r.ok?r.text():'';})
+              fetch(base+'docs/DAILY_ANTHROPIC.md').then(function(r){return r.ok?r.text():'';}),
+              fetch(base+'docs/DAILY_BLOG.md').then(function(r){return r.ok?r.text():'';})
             ]).then(function(results) {
               var newsText = results[0].status==='fulfilled' ? results[0].value : '';
               var clText   = results[1].status==='fulfilled' ? results[1].value : '';
               var benchText= results[2].status==='fulfilled' ? results[2].value : '';
               var briefText= results[3].status==='fulfilled' ? results[3].value : '';
+              var blogText = results[4].status==='fulfilled' ? results[4].value : '';
               var dm = newsText.match(/## ([A-Za-z]+ \d+, \d{4})/);
               var html = buildDashboard({
                 stories: parseTopStories(newsText),
@@ -1800,6 +1832,7 @@
                 clEntries: parseChangelog(clText),
                 bench: parseBenchmarks(benchText),
                 brief: parseDailyBrief(briefText),
+                blog: parseDailyBlog(blogText),
                 newsDate: dm ? dm[1] : 'Today'
               });
               _dashCache = html;
