@@ -8,6 +8,7 @@ daily-brief page from the newest section in docs/NEWS.md.
 from __future__ import annotations
 
 import re
+import datetime as dt
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,6 +16,7 @@ ROOT = Path(__file__).parent.parent
 DAILY_PATH = ROOT / "DAILY_Anthropic.md"
 NEWS_PATH = ROOT / "docs" / "NEWS.md"
 DAILY_BRIEF_PATH = ROOT / "docs" / "DAILY_ANTHROPIC.md"
+DAILY_BLOG_PATH = ROOT / "docs" / "DAILY_BLOG.md"
 
 
 def read_top_stories(limit: int = 3) -> list[str]:
@@ -54,6 +56,17 @@ def read_news_date() -> str:
     return match.group(1).strip() if match else ""
 
 
+def _parse_news_date(news_date: str) -> datetime | None:
+    if not news_date:
+        return None
+    for fmt in ("%B %d, %Y", "%b %d, %Y"):
+        try:
+            return dt.datetime.strptime(news_date, fmt).replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    return None
+
+
 def read_section_links(section_heading: str, title_col: int, limit: int = 5) -> list[tuple[str, str]]:
     if not NEWS_PATH.exists():
         return []
@@ -83,6 +96,9 @@ def write_daily_brief(today: str) -> None:
     stories = read_top_stories(limit=3)
     announcements = read_section_links("📰 Official Announcements", title_col=0, limit=3)
     releases = read_section_links("🛠️ SDK & Tool Releases", title_col=0, limit=8)
+    today_dt = dt.datetime.strptime(today, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    news_dt = _parse_news_date(news_date)
+    stale_days = (today_dt - news_dt).days if news_dt else 0
 
     claude_code_release = ""
     claude_code_release_url = ""
@@ -113,6 +129,17 @@ def write_daily_brief(today: str) -> None:
     if news_date:
         date_label = f"{today} (news snapshot: {news_date})"
 
+    freshness_lines = [
+        f"- Run date (UTC): {today}",
+        f"- News snapshot date: {news_date or 'Unknown'}",
+    ]
+    if news_dt and stale_days > 0:
+        freshness_lines.append(
+            f"- Snapshot lag: {stale_days} day(s). Live fetch likely unavailable; verify sources when connectivity resumes."
+        )
+    else:
+        freshness_lines.append("- Snapshot lag: 0 day(s).")
+
     content = "\n".join(
         [
             "# Daily Anthropic Brief",
@@ -128,6 +155,10 @@ def write_daily_brief(today: str) -> None:
             "### Top Story Snapshot",
             "",
             *story_lines,
+            "",
+            "### Freshness Status",
+            "",
+            *freshness_lines,
             "",
             "### Why This Matters for Builders",
             "",
@@ -152,6 +183,83 @@ def write_daily_brief(today: str) -> None:
     DAILY_BRIEF_PATH.write_text(content)
 
 
+def write_daily_blog(today: str) -> None:
+    news_date = read_news_date()
+    stories = read_top_stories(limit=3)
+    announcements = read_section_links("📰 Official Announcements", title_col=0, limit=2)
+    releases = read_section_links("🛠️ SDK & Tool Releases", title_col=0, limit=3)
+    today_dt = dt.datetime.strptime(today, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    news_dt = _parse_news_date(news_date)
+    stale_days = (today_dt - news_dt).days if news_dt else 0
+
+    release_line = "No new Claude Code release detected in the current snapshot."
+    for name, _ in releases:
+        if name.lower().startswith("claude-code "):
+            release_line = f"Latest release tracked: {name}."
+            break
+
+    key_takeaways = []
+    key_takeaways.append(
+        f"- The daily run on {today} uses the {news_date or 'latest available'} news snapshot."
+    )
+    key_takeaways.append(f"- {release_line}")
+    if announcements:
+        key_takeaways.append(
+            f"- Official channel signal remains active: {announcements[0][0]}."
+        )
+    else:
+        key_takeaways.append("- No official announcement row was parsed in this run.")
+    if stale_days > 0:
+        key_takeaways.append(
+            f"- Freshness risk: snapshot is {stale_days} day(s) old due to unavailable network fetch in this environment."
+        )
+
+    story_lines = stories if stories else ["- No top stories were parsed from docs/NEWS.md."]
+    improvements = [
+        "- Add a visible stale-data badge when snapshot lag is greater than 0 days.",
+        "- Show source diversity and announcement count as first-class dashboard metrics.",
+        "- Keep the Daily Brief and Daily Blog links in navigation for editorial continuity.",
+    ]
+    actions = [
+        "1. Re-run `python3 scripts/fetch_news.py` once DNS/network access is restored.",
+        "2. Validate that the next run moves the snapshot date to the current UTC day.",
+        "3. Continue tightening duplicate and low-signal social story filtering.",
+    ]
+
+    title_date = today
+    if news_date:
+        title_date = f"{today} (news snapshot: {news_date})"
+    content = "\n".join(
+        [
+            "# Daily Anthropic Blog Post",
+            "",
+            f"## {title_date}",
+            "",
+            "### Executive Summary",
+            "",
+            "Today’s run focused on Claude Code release watch, official Anthropic signals, and homepage dashboard quality.",
+            "",
+            "### Key Takeaways",
+            "",
+            *key_takeaways,
+            "",
+            "### Top Stories Referenced",
+            "",
+            *story_lines,
+            "",
+            "### Website Improvement Review",
+            "",
+            *improvements,
+            "",
+            "### Next Run Actions",
+            "",
+            *actions,
+            "",
+        ]
+    )
+    DAILY_BLOG_PATH.write_text(content)
+
+
 def ensure_file() -> str:
     if DAILY_PATH.exists():
         return DAILY_PATH.read_text()
@@ -171,8 +279,10 @@ def main() -> int:
 
     if day_header in existing:
         write_daily_brief(today=today)
+        write_daily_blog(today=today)
         print(f"[daily] {today} already exists in DAILY_Anthropic.md")
         print(f"[daily] Refreshed docs/DAILY_ANTHROPIC.md for {today}")
+        print(f"[daily] Refreshed docs/DAILY_BLOG.md for {today}")
         return 0
 
     stories = read_top_stories(limit=3)
@@ -197,8 +307,10 @@ def main() -> int:
 
     DAILY_PATH.write_text(existing.rstrip() + "\n" + entry)
     write_daily_brief(today=today)
+    write_daily_blog(today=today)
     print(f"[daily] Appended entry for {today} in DAILY_Anthropic.md")
     print(f"[daily] Refreshed docs/DAILY_ANTHROPIC.md for {today}")
+    print(f"[daily] Refreshed docs/DAILY_BLOG.md for {today}")
     return 0
 
 
