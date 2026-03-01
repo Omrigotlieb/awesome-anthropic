@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Feb 2026 07:00:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 07:00:33 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,28 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Looks like Anthropic&apos;s NO to the DOW has made it to Tumps twitter feed</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/</guid>
-    <description>▲ 2733 points · r/ClaudeAI · Looks like Anthropic&apos;s NO to the DOW has made it to Tumps twitter feed</description>
+    <title>Claude has overtaken ChatGPT in the Apple App Store</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/</guid>
+    <description>▲ 3216 points · r/ClaudeAI · Claude has overtaken ChatGPT in the Apple App Store</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Outside Anthropic Office in SF &quot;Thank You&quot;</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/</guid>
-    <description>▲ 2627 points · r/ClaudeAI · Outside Anthropic Office in SF &quot;Thank You&quot;</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I am directing the Department of War to designate Anthropic a supply-chain risk</title>
-    <link>https://twitter.com/secwar/status/2027507717469049070</link>
-    <guid isPermaLink="true">https://twitter.com/secwar/status/2027507717469049070</guid>
-    <description>▲ 1238 points · Hacker News · I am directing the Department of War to designate Anthropic a supply-chain risk</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Statement on the comments from Secretary of War Pete Hegseth</title>
-    <link>https://www.anthropic.com/news/statement-comments-secretary-war</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/statement-comments-secretary-war</guid>
-    <description>▲ 818 points · Hacker News · Statement on the comments from Secretary of War Pete Hegseth</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The Pentagon just proved Claude&apos;s dominance more convincingly than any benchmark</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rgrmmv/the_pentagon_just_proved_claudes_dominance_more/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rgrmmv/the_pentagon_just_proved_claudes_dominance_more/</guid>
-    <description>▲ 628 points · r/ClaudeAI · The Pentagon just proved Claude&apos;s dominance more convincingly than any benchmark</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>OpenAI CEO Sam: For all the differences I have with Anthropic, I mostly trust them as a company and I think they really do care about safety</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rgdolq/openai_ceo_sam_for_all_the_differences_i_have/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rgdolq/openai_ceo_sam_for_all_the_differences_i_have/</guid>
-    <description>▲ 564 points · r/ClaudeAI · OpenAI CEO Sam: For all the differences I have with Anthropic, I mostly trust them as a company and I think they really do care about safety</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Sam Altman says OpenAI shares Anthropic&apos;s red lines in Pentagon fight</title>
-    <link>https://reddit.com/r/Anthropic/comments/1rg9d7j/sam_altman_says_openai_shares_anthropics_red/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rg9d7j/sam_altman_says_openai_shares_anthropics_red/</guid>
-    <description>▲ 519 points · r/Anthropic · Sam Altman says OpenAI shares Anthropic&apos;s red lines in Pentagon fight</description>
+    <title>Petition to remove the ChatGPT link from the subreddit sidebar in reaction to OpenAI&apos;s capitulation</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rgwejw/petition_to_remove_the_chatgpt_link_from_the/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rgwejw/petition_to_remove_the_chatgpt_link_from_the/</guid>
+    <description>▲ 1653 points · r/Anthropic · Petition to remove the ChatGPT link from the subreddit sidebar in reaction to OpenAI&apos;s capitulation</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Subscribed to Claude because they stood up to the fascist orange demented man baby - thx!</title>
-    <link>https://reddit.com/r/Anthropic/comments/1rgmygo/subscribed_to_claude_because_they_stood_up_to_the/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rgmygo/subscribed_to_claude_because_they_stood_up_to_the/</guid>
-    <description>▲ 501 points · r/Anthropic · Subscribed to Claude because they stood up to the fascist orange demented man baby - thx!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Trump goes on Truth Social rant about Anthropic, orders federal agencies to cease usage of products</title>
-    <link>https://reddit.com/r/Anthropic/comments/1rgiyj2/trump_goes_on_truth_social_rant_about_anthropic/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rgiyj2/trump_goes_on_truth_social_rant_about_anthropic/</guid>
-    <description>▲ 460 points · r/Anthropic · Trump goes on Truth Social rant about Anthropic, orders federal agencies to cease usage of products</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Trump demands EVERY agency to immediately cease all use of Anthropic tech and threatens “full power of presidency” to force Anthropic to comply.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1rgisu0/trump_demands_every_agency_to_immediately_cease/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rgisu0/trump_demands_every_agency_to_immediately_cease/</guid>
-    <description>▲ 402 points · r/Anthropic · Trump demands EVERY agency to immediately cease all use of Anthropic tech and threatens “full power of presidency” to force Anthropic to comply.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>President Trump bans Anthropic from use in government systems</title>
-    <link>https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban</link>
-    <guid isPermaLink="true">https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban</guid>
-    <description>▲ 249 points · Hacker News · President Trump bans Anthropic from use in government systems</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The Pentagon is making a mistake by threatening Anthropic</title>
-    <link>https://www.understandingai.org/p/the-pentagon-is-making-a-mistake</link>
-    <guid isPermaLink="true">https://www.understandingai.org/p/the-pentagon-is-making-a-mistake</guid>
-    <description>▲ 243 points · Hacker News · The Pentagon is making a mistake by threatening Anthropic</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>BREAKING: Trump orders federal agencies to stop using Anthropic AI tech &apos;immediately&apos;</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rgjtmn/breaking_trump_orders_federal_agencies_to_stop/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rgjtmn/breaking_trump_orders_federal_agencies_to_stop/</guid>
-    <description>▲ 535 points · r/ClaudeAI · BREAKING: Trump orders federal agencies to stop using Anthropic AI tech &apos;immediately&apos;</description>
+    <title>Anthropic has opened up its entire educational curriculum for free</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rh92yp/anthropic_has_opened_up_its_entire_educational/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rh92yp/anthropic_has_opened_up_its_entire_educational/</guid>
+    <description>▲ 1620 points · r/ClaudeAI · Anthropic has opened up its entire educational curriculum for free</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Thanks Anthropic for holding the line!!!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rgluip/thanks_anthropic_for_holding_the_line/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rgluip/thanks_anthropic_for_holding_the_line/</guid>
-    <description>▲ 495 points · r/ClaudeAI · Thanks Anthropic for holding the line!!!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Real Vibe Design is here</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rg86um/real_vibe_design_is_here/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rg86um/real_vibe_design_is_here/</guid>
-    <description>▲ 483 points · r/ClaudeAI · Real Vibe Design is here</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 01 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

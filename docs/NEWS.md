@@ -4,6 +4,31 @@
 
 ---
 
+## March 1, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 3216 | [Claude has overtaken ChatGPT in the Apple App Store](https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/) | r/ClaudeAI |
+| 1653 | [Petition to remove the ChatGPT link from the subreddit sidebar in reaction to OpenAI's capitulation](https://reddit.com/r/Anthropic/comments/1rgwejw/petition_to_remove_the_chatgpt_link_from_the/) | r/Anthropic |
+| 1620 | [Anthropic has opened up its entire educational curriculum for free](https://reddit.com/r/ClaudeAI/comments/1rh92yp/anthropic_has_opened_up_its_entire_educational/) | r/ClaudeAI |
+| 1074 | [Pentagon: "Remove your safety limits or we cancel your $200M contract."
+Dario Amodei:](https://reddit.com/r/ClaudeAI/comments/1rh5gl8/pentagon_remove_your_safety_limits_or_we_cancel/) | r/ClaudeAI |
+| 764 | [Moving from ChatGPT to Claude](https://reddit.com/r/ClaudeAI/comments/1rh07wv/moving_from_chatgpt_to_claude/) | r/ClaudeAI |
+| 722 | [The Pentagon blacklisted Anthropic for refusing to remove surveillance safeguards. Hours later, OpenAI signed a deal keeping those same safeguards. I pulled the primary sources. Here's what I found.](https://reddit.com/r/Anthropic/comments/1rh5nzg/the_pentagon_blacklisted_anthropic_for_refusing/) | r/Anthropic |
+| 451 | [We do not think Anthropic should be designated as a supply chain risk](https://twitter.com/OpenAI/status/2027846016423321831) | Hacker News |
+| 432 | [Claude leading the liberty of the people \| Thanks Anthropic &lt;3](https://reddit.com/r/Anthropic/comments/1rh49c1/claude_leading_the_liberty_of_the_people_thanks/) | r/Anthropic |
+| 365 | [Thanks to Anthropic. I guess they made it out just in time.](https://reddit.com/r/Anthropic/comments/1rh2hw3/thanks_to_anthropic_i_guess_they_made_it_out_just/) | r/Anthropic |
+| 141 | ["Cancel ChatGPT" movement goes mainstream after OpenAI closes deal with U.S. Dow](https://www.windowscentral.com/artificial-intelligence/cancel-chatgpt-movement-goes-mainstream-after-openai-closes-deal-with-u-s-department-of-war-as-anthropic-refuses-to-surveil-american-citizens) | Hacker News |
+| 88 | [Timeline: Anthropic, OpenAI, and U.S. Government](https://anthropic-timeline.vercel.app) | Hacker News |
+| 54 | [Show HN: Xmloxide – an agent made rust replacement for libxml2](https://github.com/jonwiggins/xmloxide) | Hacker News |
+| 535 | [I vibe coded a 3D city with Claude Code in 1 day. every GitHub developer is a building. 500k+ views, 400+ stars.](https://reddit.com/r/ClaudeAI/comments/1rhf4s4/i_vibe_coded_a_3d_city_with_claude_code_in_1_day/) | r/ClaudeAI |
+| 506 | [Anthropic knows something others don't.](https://reddit.com/r/ClaudeAI/comments/1rgyoe8/anthropic_knows_something_others_dont/) | r/ClaudeAI |
+| 300 | [Huge Respect to Dario Amodei for standing his ground](https://reddit.com/r/ClaudeAI/comments/1rh6fle/huge_respect_to_dario_amodei_for_standing_his/) | r/ClaudeAI |
+
+---
+
 ## February 28, 2026
 
 ### 🔥 Top Stories
