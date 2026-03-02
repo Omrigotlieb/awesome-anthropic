@@ -31,3 +31,13 @@ This file is checked first at the start of each daily automation run.
 - [Outside Anthropic Office in SF "Thank You"](https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/)
 - [I am directing the Department of War to designate Anthropic a supply-chain risk](https://twitter.com/secwar/status/2027507717469049070)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-02
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Claude has overtaken ChatGPT in the Apple App Store](https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/)
+- [Petition to remove the ChatGPT link from the subreddit sidebar in reaction to OpenAI's capitulation](https://reddit.com/r/Anthropic/comments/1rgwejw/petition_to_remove_the_chatgpt_link_from_the/)
+- [Anthropic has opened up its entire educational curriculum for free](https://reddit.com/r/ClaudeAI/comments/1rh92yp/anthropic_has_opened_up_its_entire_educational/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
