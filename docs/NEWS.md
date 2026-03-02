@@ -4,6 +4,36 @@
 
 ---
 
+## March 2, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1684 | [Claude’s extended thinking found out about Iran in real time](https://reddit.com/r/ClaudeAI/comments/1ribnke/claudes_extended_thinking_found_out_about_iran_in/) | r/ClaudeAI |
+| 1604 | [New: Anthropic introduces a memory feature that lets users transfer their context and preferences from other AI tools into Claude](https://reddit.com/r/ClaudeAI/comments/1rhx7pq/new_anthropic_introduces_a_memory_feature_that/) | r/ClaudeAI |
+| 474 | [Get ready for barrage of complaints from new users](https://reddit.com/r/ClaudeAI/comments/1rhzfne/get_ready_for_barrage_of_complaints_from_new_users/) | r/ClaudeAI |
+| 331 | [Switch to Claude without starting over](https://reddit.com/r/Anthropic/comments/1rhuuc9/switch_to_claude_without_starting_over/) | r/Anthropic |
+| 312 | [Claude + Opus gives me a glimpse of what wealthy people have had for generations](https://reddit.com/r/ClaudeAI/comments/1ri9lng/claude_opus_gives_me_a_glimpse_of_what_wealthy/) | r/ClaudeAI |
+| 158 | [Trump banned Anthropic from federal contracts after they refused to enable autonomous weapons. A Star Trek episode from 1967 predicted exactly how this happens.](https://reddit.com/r/Anthropic/comments/1ri60wb/trump_banned_anthropic_from_federal_contracts/) | r/Anthropic |
+| 98 | [Claude hits #1 on the App Store as users rally behind Anthropic](https://9to5mac.com/2026/03/01/claude-hits-1-on-the-app-store-as-users-rally-behind-anthropics-government-standoff/) | Hacker News |
+| 88 | [Claude dethrones ChatGPT as top U.S. app after Pentagon saga](https://www.axios.com/2026/03/01/anthropic-claude-chatgpt-app-downloads-pentagon) | Hacker News |
+| 22 | [U.S. Strikes in Middle East Use Anthropic, Hours After Trump Ban](https://www.wsj.com/livecoverage/iran-strikes-2026/card/u-s-strikes-in-middle-east-use-anthropic-hours-after-trump-ban-ozNO0iClZpfpL7K7ElJ2) | Hacker News |
+| 15 | [6 Practices that turned AI from prototyper to workhorse (106 PRs in 14 days)](https://news.ycombinator.com/item?id=47208471) | Hacker News |
+| 191 | [Best practices I’ve learned after shipping multiple iOS apps with Claude Code](https://reddit.com/r/ClaudeAI/comments/1ridakj/best_practices_ive_learned_after_shipping/) | r/ClaudeAI |
+| 170 | [The Pentagon used Claude in an Iran strike hours after Trump banned Anthropic](https://reddit.com/r/ClaudeAI/comments/1rhzv4t/the_pentagon_used_claude_in_an_iran_strike_hours/) | r/ClaudeAI |
+| 120 | [Is it true that we're way underpaying for Claude, even for Max?](https://reddit.com/r/ClaudeAI/comments/1rignse/is_it_true_that_were_way_underpaying_for_claude/) | r/ClaudeAI |
+| 103 | [42, no coding background, just built my first app](https://reddit.com/r/ClaudeAI/comments/1rij6mp/42_no_coding_background_just_built_my_first_app/) | r/ClaudeAI |
+| 87 | [The one thing I'm going to miss about ChatGPT](https://reddit.com/r/ClaudeAI/comments/1ri05lg/the_one_thing_im_going_to_miss_about_chatgpt/) | r/ClaudeAI |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code-action v1.0.65](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.65) | ## What's Changed * Change the default `display_report` option to false to restrict exposed data by  |
+
+---
+
 ## March 1, 2026
 
 ### 🔥 Top Stories
