@@ -4,6 +4,51 @@
 
 ---
 
+## March 3, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1879 | [Claude is down](https://reddit.com/r/ClaudeAI/comments/1rir4n5/claude_is_down/) | r/ClaudeAI |
+| 1735 | [They are absolutely insane](https://reddit.com/r/ClaudeAI/comments/1rj3oax/they_are_absolutely_insane/) | r/ClaudeAI |
+| 742 | [It is the best.](https://reddit.com/r/ClaudeAI/comments/1rix9kt/it_is_the_best/) | r/ClaudeAI |
+| 704 | [Anthropic quietly removed session &amp; weekly usage progress bars from Settings → Usage](https://reddit.com/r/ClaudeAI/comments/1riw67y/anthropic_quietly_removed_session_weekly_usage/) | r/ClaudeAI |
+| 464 | [Congrats Anthropic](https://reddit.com/r/Anthropic/comments/1rinshl/congrats_anthropic/) | r/Anthropic |
+| 359 | [Anthropic Cowork feature creates 10GB VM bundle on macOS without warning](https://github.com/anthropics/claude-code/issues/22543) | Hacker News |
+| 306 | [Another day, another tweet from the Pentagon](https://reddit.com/r/Anthropic/comments/1rj5hmm/another_day_another_tweet_from_the_pentagon/) | r/Anthropic |
+| 286 | [Anthropic is a better fit for Europe than for the US](https://reddit.com/r/Anthropic/comments/1riqlx6/anthropic_is_a_better_fit_for_europe_than_for_the/) | r/Anthropic |
+| 189 | [Anthropic’s AI model Claude gets popularity boost after US military feud](https://reddit.com/r/Anthropic/comments/1rj5bak/anthropics_ai_model_claude_gets_popularity_boost/) | r/Anthropic |
+| 154 | [Show HN: Omni – Open-source workplace search and chat, built on Postgres](https://github.com/getomnico/omni) | Hacker News |
+| 39 | [How Talks Between Anthropic and the Defense Dept. Fell Apart](https://www.nytimes.com/2026/03/01/technology/anthropic-defense-dept-openai-talks.html) | Hacker News |
+| 38 | [How OpenAI caved to The Pentagon on AI surveillance](https://www.theverge.com/ai-artificial-intelligence/887309/openai-anthropic-dod-military-pentagon-contract-sam-altman-hegseth) | Hacker News |
+| 471 | [I see Claude's writing everywhere and it's starting to feel like an AI condom, I hate it](https://reddit.com/r/ClaudeAI/comments/1rjeqg3/i_see_claudes_writing_everywhere_and_its_starting/) | r/ClaudeAI |
+| 332 | [Is ClaudeAI down?](https://reddit.com/r/ClaudeAI/comments/1riqntw/is_claudeai_down/) | r/ClaudeAI |
+| 324 | [Major outage - claude.ai claude.ai/code, API, oauth and claude cowork all down for me, anyone else?](https://reddit.com/r/ClaudeAI/comments/1riqs17/major_outage_claudeai_claudeaicode_api_oauth_and/) | r/ClaudeAI |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [🎶 I've been using voice mode to write much of my CLI code this last week
+
+Can't wait to hear what you think.](https://x.com/bcherny/status/2028629573722939789) | Boris Cherney |
+| [It was easy to miss all the stuff we shipped at Anthropic this past week given... everything else that happened. A few of my favorites across Claude Code, claude dot ai, and Cowork:](https://x.com/alexalbert__/status/2028586222776721844) | Alex Albert |
+| [I go offline for one week:
+- DoW saga
+- everyone from trump to katy perry posts about us
+- Claude hits 1 on app store
+- sign-up records broken, servers are melting
+- oh also we shipped a ton of new st](https://x.com/alexalbert__/status/2028580050304389606) | Alex Albert |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code-action v1.0.66](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.66) | ## What's Changed * Only expose permission_denials count in sanitized output by @ddworken in https:/ |
+
+---
+
 ## March 2, 2026
 
 ### 🔥 Top Stories
