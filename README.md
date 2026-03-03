@@ -309,7 +309,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-02
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-03
 
 <!-- CHANGELOG_START -->
 ### February 19, 2026 — Automatic Caching + Model Retirements
@@ -326,16 +326,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-02
+> Last fetched: <!-- NEWS_DATE -->2026-03-03
 
 <!-- NEWS_START -->
-### Top Stories — March 2, 2026
+### Top Stories — March 3, 2026
 
 - [Claude has overtaken ChatGPT in the Apple App Store](https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/) - 3216 pts on r/ClaudeAI.
 - [Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed](https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/) - 2733 pts on r/ClaudeAI.
 - [Outside Anthropic Office in SF "Thank You"](https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/) - 2627 pts on r/ClaudeAI.
-- [Claude’s extended thinking found out about Iran in real time](https://reddit.com/r/ClaudeAI/comments/1ribnke/claudes_extended_thinking_found_out_about_iran_in/) - 1684 pts on r/ClaudeAI.
-- [They're shipping so fast](https://reddit.com/r/ClaudeAI/comments/1rep29w/theyre_shipping_so_fast/) - 1682 pts on r/ClaudeAI.
+- [Claude is down](https://reddit.com/r/ClaudeAI/comments/1rir4n5/claude_is_down/) - 1879 pts on r/ClaudeAI.
+- [They are absolutely insane](https://reddit.com/r/ClaudeAI/comments/1rj3oax/they_are_absolutely_insane/) - 1735 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
