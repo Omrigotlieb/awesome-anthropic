@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-03-03 (news snapshot: March 2, 2026)
+## 2026-03-04 (news snapshot: March 3, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -10,14 +10,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [Claude’s extended thinking found out about Iran in real time](https://reddit.com/r/ClaudeAI/comments/1ribnke/claudes_extended_thinking_found_out_about_iran_in/)
-- [New: Anthropic introduces a memory feature that lets users transfer their context and preferences from other AI tools into Claude](https://reddit.com/r/ClaudeAI/comments/1rhx7pq/new_anthropic_introduces_a_memory_feature_that/)
-- [Get ready for barrage of complaints from new users](https://reddit.com/r/ClaudeAI/comments/1rhzfne/get_ready_for_barrage_of_complaints_from_new_users/)
+- [Claude is down](https://reddit.com/r/ClaudeAI/comments/1rir4n5/claude_is_down/)
+- [They are absolutely insane](https://reddit.com/r/ClaudeAI/comments/1rj3oax/they_are_absolutely_insane/)
+- [It is the best.](https://reddit.com/r/ClaudeAI/comments/1rix9kt/it_is_the_best/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-03
-- News snapshot date: March 2, 2026
+- Run date (UTC): 2026-03-04
+- News snapshot date: March 3, 2026
 - Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
 
 ### Why This Matters for Builders

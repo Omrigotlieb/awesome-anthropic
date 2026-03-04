@@ -4,6 +4,39 @@
 
 ---
 
+## March 4, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1680 | [Claude and Claude Code traffic grew faster than expected this week](https://reddit.com/r/ClaudeAI/comments/1rjyp7d/claude_and_claude_code_traffic_grew_faster_than/) | r/ClaudeAI |
+| 1278 | [The AI not just fired us, It made our team irrelevant.](https://reddit.com/r/ClaudeAI/comments/1rk1ns5/the_ai_not_just_fired_us_it_made_our_team/) | r/ClaudeAI |
+| 795 | [OpenAI's post-training lead leaves and joins Anthropic: he helped ship GPT-5, 5.1, 5.2, 5.3-Codex, o3 and o1 and will return to hands-on RL research at Anthropic](https://reddit.com/r/ClaudeAI/comments/1rk7fwq/openais_posttraining_lead_leaves_and_joins/) | r/ClaudeAI |
+| 782 | [I laugh so hard when it happens](https://reddit.com/r/ClaudeAI/comments/1rk4tkh/i_laugh_so_hard_when_it_happens/) | r/ClaudeAI |
+| 14 | [Sen. Wyden Warns of Mass Surveillance Amid Pentagon's Fight with Anthropic](https://gizmodo.com/sen-wyden-warns-of-mass-surveillance-amid-pentagons-fight-with-anthropic-2000728971) | Hacker News |
+| 13 | [I lost my ability to learn anything new because of AI and I need your opinions](https://news.ycombinator.com/item?id=47240612) | Hacker News |
+| 10 | [Pentagon's Anthropic Designation Won't Survive First Contact with Legal System](https://www.lawfaremedia.org/article/pentagon%27s-anthropic-designation-won%27t-survive-first-contact-with-legal-system) | Hacker News |
+| 777 | [New: Voice mode is rolling out now in Claude Code, live for ~5% of users today, details below](https://reddit.com/r/ClaudeAI/comments/1rjkwqk/new_voice_mode_is_rolling_out_now_in_claude_code/) | r/ClaudeAI |
+| 633 | [And so they killed my sub for SuperWhisper](https://reddit.com/r/ClaudeAI/comments/1rjnvz5/and_so_they_killed_my_sub_for_superwhisper/) | r/ClaudeAI |
+| 290 | [BEWARE of factory.ai. 10x more expensive than Claude Code and you can't cancel your subscription.](https://reddit.com/r/ClaudeAI/comments/1rjmqen/beware_of_factoryai_10x_more_expensive_than/) | r/ClaudeAI |
+| 147 | [I gave Claude the ability to generate and run its own radio station 24/7 with music and talk segments etc](https://reddit.com/r/ClaudeAI/comments/1rjv1ih/i_gave_claude_the_ability_to_generate_and_run_its/) | r/ClaudeAI |
+| 135 | [Claude hits #1 on App Store while "Claude for Government" runs at 99.74% uptime through Iran operation](https://reddit.com/r/ClaudeAI/comments/1rk15v2/claude_hits_1_on_app_store_while_claude_for/) | r/ClaudeAI |
+| 134 | [US Government Open Data MCP](https://reddit.com/r/ClaudeAI/comments/1rjww4o/us_government_open_data_mcp/) | r/ClaudeAI |
+| 104 | [Opus 4.6 appreciation post](https://reddit.com/r/ClaudeAI/comments/1rk51ag/opus_46_appreciation_post/) | r/ClaudeAI |
+| 66 | [After DoW vs Anthropic, I built DystopiaBench to test the willingness of models to create an Orwellian nightmare](https://reddit.com/r/ClaudeAI/comments/1rk3cqg/after_dow_vs_anthropic_i_built_dystopiabench_to/) | r/ClaudeAI |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.66](https://github.com/anthropics/claude-code/releases/tag/v2.1.66) |   |
+| [claude-agent-sdk-python v0.1.45](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.45) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.63   ---  **PyPI:** https:/ |
+| [claude-code-action v1.0.67](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.67) | ## What's Changed * Improve gh.sh wrapper: stricter validation and better error messages by @Octavia |
+| [claude-agent-sdk-typescript v0.2.66](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.66) | ## What's changed  - Updated to parity with Claude Code v2.1.66  ## Update  ```sh npm install @anthr |
+
+---
+
 ## March 3, 2026
 
 ### 🔥 Top Stories
