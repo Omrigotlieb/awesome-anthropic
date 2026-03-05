@@ -4,6 +4,42 @@
 
 ---
 
+## March 5, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1161 | [Been using the Claude Excel plugin for a week and I genuinely didn’t expect it to hit this hard](https://reddit.com/r/ClaudeAI/comments/1rknoex/been_using_the_claude_excel_plugin_for_a_week_and/) | r/ClaudeAI |
+| 615 | [So Claude is #1 in the US Android Market](https://reddit.com/r/ClaudeAI/comments/1rkml4f/so_claude_is_1_in_the_us_android_market/) | r/ClaudeAI |
+| 467 | [Dario Amodei calls OpenAI’s messaging around military deal ‘straight up lies’](https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/) | Hacker News |
+| 338 | [Dario: Trump doesn't like us because we haven't given dictator-style praise](https://reddit.com/r/Anthropic/comments/1rl1ula/dario_trump_doesnt_like_us_because_we_havent/) | r/Anthropic |
+| 260 | [I had Opus 4.6 evaluate 547 Reddit investing recommendations on reasoning quality with no upvote counts, no popularity signals. Its filtered picks returned +37% vs the S&amp;P's +19%.](https://reddit.com/r/ClaudeAI/comments/1rkw25u/i_had_opus_46_evaluate_547_reddit_investing/) | r/ClaudeAI |
+| 212 | [Anthropic CEO on the two things he refuses to let the Pentagon use Claude for](https://reddit.com/r/Anthropic/comments/1rkf752/anthropic_ceo_on_the_two_things_he_refuses_to_let/) | r/Anthropic |
+| 194 | [I've been building Claude Skills for a month. Here's what I learned the hard way.](https://reddit.com/r/ClaudeAI/comments/1rklufk/ive_been_building_claude_skills_for_a_month_heres/) | r/ClaudeAI |
+| 117 | [Jensen Huang says Nvidia is pulling back from OpenAI and Anthropic](https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/) | Hacker News |
+| 68 | [Claude is amazing!! But I am missing a better Voice to Text and Text to Voice.](https://reddit.com/r/Anthropic/comments/1rkhfhy/claude_is_amazing_but_i_am_missing_a_better_voice/) | r/Anthropic |
+| 51 | [OpenAI vs Anthropic](https://reddit.com/r/Anthropic/comments/1rkj3rd/openai_vs_anthropic/) | r/Anthropic |
+| 38 | [Anthropic chief back in talks with Pentagon about AI deal](https://www.ft.com/content/97bda2ef-fc06-40b3-a867-f61a711b148b) | Hacker News |
+| 24 | [Anthropic's AI tool Claude central to U.S. campaign in Iran, amid a bitter feud](https://www.washingtonpost.com/technology/2026/03/04/anthropic-ai-iran-campaign/) | Hacker News |
+| 185 | [They brought the ULTRATHINK rainbow back 🌈 !](https://reddit.com/r/ClaudeAI/comments/1rkmqb1/they_brought_the_ultrathink_rainbow_back/) | r/ClaudeAI |
+| 179 | [Claude is my new work Husband](https://reddit.com/r/ClaudeAI/comments/1rkucr3/claude_is_my_new_work_husband/) | r/ClaudeAI |
+| 70 | [Strange Claude Response](https://reddit.com/r/ClaudeAI/comments/1rkwzcp/strange_claude_response/) | r/ClaudeAI |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.69](https://github.com/anthropics/claude-code/releases/tag/v2.1.69) | ## What's changed  - Added the `/claude-api` skill for building applications with the Claude API and |
+| [claude-code v2.1.68](https://github.com/anthropics/claude-code/releases/tag/v2.1.68) | ## What's changed  - Opus 4.6 now defaults to medium effort for Max and Team subscribers. Medium eff |
+| [claude-agent-sdk-python v0.1.46](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.46) |  ### New Features  - **Session history functions**: Added `list_sessions()` and `get_session_message |
+| [claude-agent-sdk-typescript v0.2.69](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.69) | ## What's changed  - Added `toolConfig.askUserQuestion.previewFormat` option to configure the conten |
+| [claude-agent-sdk-typescript v0.2.68](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.68) | ## What's changed  - Updated to parity with Claude Code v2.1.68  ## Update  ```sh npm install @anthr |
+| [claude-code-action v1.0.69](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.69) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.69 |
+| [claude-code-action v1.0.68](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.68) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.68 |
+
+---
+
 ## March 4, 2026
 
 ### 🔥 Top Stories
