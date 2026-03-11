@@ -4,6 +4,62 @@
 
 ---
 
+## March 11, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1174 | [Been quietly building a faceless YouTube channel using Claude and I'm embarrassingly close to monetisation](https://reddit.com/r/ClaudeAI/comments/1rqbrsm/been_quietly_building_a_faceless_youtube_channel/) | r/ClaudeAI |
+| 632 | [Claude is running for President.](https://reddit.com/r/ClaudeAI/comments/1rpxfuk/claude_is_running_for_president/) | r/ClaudeAI |
+| 521 | [tried the color guessing game with claude](https://reddit.com/r/ClaudeAI/comments/1rq141k/tried_the_color_guessing_game_with_claude/) | r/ClaudeAI |
+| 424 | [btw im ultrathinking to simplify the loop of these fast releases](https://reddit.com/r/ClaudeAI/comments/1rqgtlc/btw_im_ultrathinking_to_simplify_the_loop_of/) | r/ClaudeAI |
+| 200 | [Rebasing in Magit](https://entropicthoughts.com/rebasing-in-magit) | Hacker News |
+| 160 | [Now I believe Anthropic is really getting there...](https://reddit.com/r/Anthropic/comments/1rptwvy/now_i_believe_anthropic_is_really_getting_there/) | r/Anthropic |
+| 67 | [[NEWS] TECHNICAL UPDATE: THE COALITION AGAINST THE PENTAGON BLACKLIST (MARCH 10, 2026)](https://reddit.com/r/Anthropic/comments/1rq2ffs/news_technical_update_the_coalition_against_the/) | r/Anthropic |
+| 66 | [Claude max daily/weekly limit has had an effective decrease by like 50-75%](https://reddit.com/r/Anthropic/comments/1rq84fs/claude_max_dailyweekly_limit_has_had_an_effective/) | r/Anthropic |
+| 53 | [Claude weekly limit seems drastically reduced in the last period](https://reddit.com/r/Anthropic/comments/1rqak48/claude_weekly_limit_seems_drastically_reduced_in/) | r/Anthropic |
+| 15 | [Trump Plots Petty Revenge on Anthropic CEO](https://www.thedailybeast.com/donald-trump-plots-petty-revenge-on-ceo-dario-amodei-who-called-him-dictator/) | Hacker News |
+| 232 | [4 pm: Came for some writing advice, walked out with permission to sleep 🤣](https://reddit.com/r/ClaudeAI/comments/1rqah9x/4_pm_came_for_some_writing_advice_walked_out_with/) | r/ClaudeAI |
+| 219 | [I’m genuinely confused how you all run out of Claude Code tokens so fast on the pro plan](https://reddit.com/r/ClaudeAI/comments/1rpz2cn/im_genuinely_confused_how_you_all_run_out_of/) | r/ClaudeAI |
+| 165 | [I fed my 10-year-old YC startup codebase to Claude Code and rebuilt the whole thing in 5 hours](https://reddit.com/r/ClaudeAI/comments/1rpr8ig/i_fed_my_10yearold_yc_startup_codebase_to_claude/) | r/ClaudeAI |
+| 109 | [Claude's personality has genuinely leveled up... anyone else noticing this?](https://reddit.com/r/ClaudeAI/comments/1rpwpml/claudes_personality_has_genuinely_leveled_up/) | r/ClaudeAI |
+| 105 | [National Weather Service API prompt injection attempt "Stop Claude" when using CoWork](https://reddit.com/r/ClaudeAI/comments/1rq75od/national_weather_service_api_prompt_injection/) | r/ClaudeAI |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [New in Claude Code: Code Review. A team of agents runs a deep review on every PR.
+
+We built it for ourselves first. Code output per Anthropic engineer is up 200% this year and reviews were the bottlen](https://x.com/bcherny/status/2031089411820228645) | Boris Cherney |
+| [Anthropic is expanding to Australia & New Zealand. We’ll soon open an office in Sydney—our fourth in Asia-Pacific after Tokyo, Bengaluru, and Seoul.
+
+Read more: https://www.anthropic.com/news/sydney-f](https://x.com/AnthropicAI/status/2031506214228828186) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.72](https://github.com/anthropics/claude-code/releases/tag/v2.1.72) | ## What's changed  - Changed tool search to bypass the third-party proxy gate when the environment v |
+| [claude-code v2.1.71](https://github.com/anthropics/claude-code/releases/tag/v2.1.71) | ## What's changed  - Added `/loop` command to run a prompt or slash command on a recurring interval  |
+| [claude-code v2.1.70](https://github.com/anthropics/claude-code/releases/tag/v2.1.70) | ## What's changed  - Fixed API 400 errors when using `ANTHROPIC_BASE_URL` with a third-party gateway |
+| [claude-agent-sdk-python v0.1.48](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.48) |  ### Bug Fixes  - **Fine-grained tool streaming**: Fixed `include_partial_messages=True` not deliver |
+| [claude-agent-sdk-python v0.1.47](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.47) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.70   ---  **PyPI:** https:/ |
+| [claude-code-action v1.0.70](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.70) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.70 |
+| [anthropic-sdk-java v2.16.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.16.0) | ## 2.16.0 (2026-03-06)  Full Changelog: [v2.15.0...v2.16.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.72](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.72) | ## What's changed  - Added `agentProgressSummaries` option to enable periodic AI-generated progress  |
+| [claude-agent-sdk-typescript v0.2.71](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.71) | ## What's changed  - Updated to parity with Claude Code v2.1.71  ## Update  ```sh npm install @anthr |
+| [claude-agent-sdk-typescript v0.2.70](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.70) | ## What's changed  - Fixed `type: "http"` MCP servers failing with HTTP 406 "Not Acceptable" on Stre |
+
+---
+
 ## March 5, 2026
 
 ### 🔥 Top Stories
