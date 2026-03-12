@@ -4,6 +4,57 @@
 
 ---
 
+## March 12, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2149 | ["Claude, make a video about what it's like to be an LLM"](https://reddit.com/r/ClaudeAI/comments/1rqqtes/claude_make_a_video_about_what_its_like_to_be_an/) | r/ClaudeAI |
+| 1763 | [Stop paying $1,000+ for "AI Bootcamps". Anthropic (makers of Claude) just dropped a 100% free academy.](https://reddit.com/r/ClaudeAI/comments/1rqopis/stop_paying_1000_for_ai_bootcamps_anthropic/) | r/ClaudeAI |
+| 516 | [4 months of Claude Code and honestly the hardest part isn’t coding](https://reddit.com/r/ClaudeAI/comments/1rr1069/4_months_of_claude_code_and_honestly_the_hardest/) | r/ClaudeAI |
+| 465 | [I delayed my product launch for months because I couldn't afford demo videos. Spent a weekend with Claude Code and Remotion. Now my reels are getting thousands of views.](https://reddit.com/r/ClaudeAI/comments/1rr47ya/i_delayed_my_product_launch_for_months_because_i/) | r/ClaudeAI |
+| 284 | [The Most Disruptive Company in the World \| Time](https://reddit.com/r/Anthropic/comments/1rqug9j/the_most_disruptive_company_in_the_world_time/) | r/Anthropic |
+| 136 | [I'm glad the Anthropic fight is happening now](https://www.dwarkesh.com/p/dow-anthropic) | Hacker News |
+| 121 | [Show HN: Open-source browser for AI agents](https://github.com/theredsix/agent-browser-protocol) | Hacker News |
+| 44 | [Anthropic has strong case against Pentagon blacklisting, legal experts say](https://www.reuters.com/legal/legalindustry/anthropic-has-strong-case-against-pentagon-blacklisting-legal-experts-say-2026-03-11/) | Hacker News |
+| 28 | [Launch HN: Sentrial (YC W26) – Catch AI agent failures before your users do](https://www.sentrial.com/) | Hacker News |
+| 376 | [Anthropic gotta introduce a plan between 20$ and 100$. I'm currently running both OpenAI and Claude Subscriptions because 40$ &lt; 200$](https://reddit.com/r/ClaudeAI/comments/1rqmxag/anthropic_gotta_introduce_a_plan_between_20_and/) | r/ClaudeAI |
+| 299 | [Pure mafioso and gangster behavior by the Department of War](https://reddit.com/r/ClaudeAI/comments/1rquc3e/pure_mafioso_and_gangster_behavior_by_the/) | r/ClaudeAI |
+| 281 | [She is so on point lol.](https://reddit.com/r/ClaudeAI/comments/1rqpsv3/she_is_so_on_point_lol/) | r/ClaudeAI |
+| 220 | [I transferred my GPT data export over, and I think Claude is suggesting the pro subscription *might* not be enough to cover my usage...](https://reddit.com/r/ClaudeAI/comments/1rr67fg/i_transferred_my_gpt_data_export_over_and_i_think/) | r/ClaudeAI |
+| 194 | [Microsoft just launched an AI that does your office work for you — and it's built on Anthropic's Claude](https://reddit.com/r/ClaudeAI/comments/1rqt5u7/microsoft_just_launched_an_ai_that_does_your/) | r/ClaudeAI |
+| 171 | [Two Claude Code features I slept on that completely changed how I use it: Stop Hooks + Memory files](https://reddit.com/r/ClaudeAI/comments/1rqxzlp/two_claude_code_features_i_slept_on_that/) | r/ClaudeAI |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Claude for all things knowledge work feels like it is on a very similar trajectory to what agentic coding experienced last year.
+
+I expect entire industries that rely on spreadsheets and powerpoints t](https://x.com/alexalbert__/status/2031832967845462452) | Alex Albert |
+| [Introducing The Anthropic Institute, a new effort to advance the public conversation about powerful AI.
+
+https://www.anthropic.com/news/the-anthropic-institute](https://x.com/AnthropicAI/status/2031674087374815577) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.74](https://github.com/anthropics/claude-code/releases/tag/v2.1.74) | ## What's changed  - Added actionable suggestions to `/context` command — identifies context-heavy t |
+| [claude-code v2.1.73](https://github.com/anthropics/claude-code/releases/tag/v2.1.73) | ## What's changed  - Added `modelOverrides` setting to map model picker entries to custom provider m |
+| [claude-agent-sdk-typescript v0.2.74](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.74) | ## What's changed  - Added `renameSession(sessionId, title, opts?)` for renaming session files - Fix |
+| [claude-agent-sdk-typescript v0.2.73](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.73) | ## What's changed  - Fixed `options.env` being overridden by the `~/.claude/settings.json` env block |
+| [anthropic-sdk-java v2.16.1](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.16.1) | ## 2.16.1 (2026-03-11)  Full Changelog: [v2.16.0...v2.16.1](https://github.com/anthropics/anthropic- |
+
+---
+
 ## March 11, 2026
 
 ### 🔥 Top Stories
