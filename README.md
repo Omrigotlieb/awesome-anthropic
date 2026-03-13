@@ -309,7 +309,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-12
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-13
 
 <!-- CHANGELOG_START -->
 ### February 19, 2026 — We've launched automatic caching for the Messages API. Add a single cache_contro
@@ -326,16 +326,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-12
+> Last fetched: <!-- NEWS_DATE -->2026-03-13
 
 <!-- NEWS_START -->
-### Top Stories — March 12, 2026
+### Top Stories — March 13, 2026
 
 - [Claude has overtaken ChatGPT in the Apple App Store](https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/) - 3216 pts on r/ClaudeAI.
 - [Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed](https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/) - 2733 pts on r/ClaudeAI.
 - [Outside Anthropic Office in SF "Thank You"](https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/) - 2627 pts on r/ClaudeAI.
+- [Just picked up a new keyboard - can't wait to write a bunch of code with it](https://reddit.com/r/ClaudeAI/comments/1rru8zw/just_picked_up_a_new_keyboard_cant_wait_to_write/) - 2570 pts on r/ClaudeAI.
 - ["Claude, make a video about what it's like to be an LLM"](https://reddit.com/r/ClaudeAI/comments/1rqqtes/claude_make_a_video_about_what_its_like_to_be_an/) - 2149 pts on r/ClaudeAI.
-- [Claude is down](https://reddit.com/r/ClaudeAI/comments/1rir4n5/claude_is_down/) - 1879 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
