@@ -4,6 +4,41 @@
 
 ---
 
+## March 13, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2570 | [Just picked up a new keyboard - can't wait to write a bunch of code with it](https://reddit.com/r/ClaudeAI/comments/1rru8zw/just_picked_up_a_new_keyboard_cant_wait_to_write/) | r/ClaudeAI |
+| 1068 | [Claude now creates interactive charts, diagrams and visualizations](https://reddit.com/r/ClaudeAI/comments/1rruo4u/claude_now_creates_interactive_charts_diagrams/) | r/ClaudeAI |
+| 638 | [I asked Claude to make a wish](https://reddit.com/r/ClaudeAI/comments/1rsc1oo/i_asked_claude_to_make_a_wish/) | r/ClaudeAI |
+| 175 | [Show HN: Axe – A 12MB binary that replaces your AI framework](https://github.com/jrswab/axe) | Hacker News |
+| 137 | [Are LLM merge rates not getting better?](https://entropicthoughts.com/no-swe-bench-improvement) | Hacker News |
+| 111 | [Claude Code now builds entire games from a single prompt — GDScript, assets, and visual QA to find its own bugs](https://reddit.com/r/ClaudeAI/comments/1rrzlw2/claude_code_now_builds_entire_games_from_a_single/) | r/ClaudeAI |
+| 22 | [Claude 4.6 Opus can recite Linux's list.h](https://news.ycombinator.com/item?id=47348814) | Hacker News |
+| 19 | [Show HN: LogClaw – Open-source AI SRE that auto-creates tickets from logs](https://logclaw.ai) | Hacker News |
+| 83 | [Noticed this with in the sub as more ChatGPT users came in!](https://reddit.com/r/ClaudeAI/comments/1rselh3/noticed_this_with_in_the_sub_as_more_chatgpt/) | r/ClaudeAI |
+| 82 | [Something magical happened last night with Claude but, why?](https://reddit.com/r/ClaudeAI/comments/1rs3iga/something_magical_happened_last_night_with_claude/) | r/ClaudeAI |
+| 81 | [Cool new feature in Claude Code, isn't it?](https://reddit.com/r/ClaudeAI/comments/1rry83f/cool_new_feature_in_claude_code_isnt_it/) | r/ClaudeAI |
+| 65 | [What are the best Claude skills to download for writing, research, and productivity?](https://reddit.com/r/ClaudeAI/comments/1rrsrjx/what_are_the_best_claude_skills_to_download_for/) | r/ClaudeAI |
+| 52 | [Does anyone else say “thank you” to ClaudeAI?](https://reddit.com/r/ClaudeAI/comments/1rs4hye/does_anyone_else_say_thank_you_to_claudeai/) | r/ClaudeAI |
+| 14 | [Show HN: Slop or not – can you tell AI writing from human in everyday contexts?](https://slop-or-not.space) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code-action v1.0.71](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.71) | ## What's Changed * docs: warn that allowed_bots can expose the action to external triggers by @an-d |
+
+---
+
 ## March 12, 2026
 
 ### 🔥 Top Stories
