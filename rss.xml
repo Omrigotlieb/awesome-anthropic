@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2026 07:00:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 07:00:31 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,116 +13,124 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Just picked up a new keyboard - can&apos;t wait to write a bunch of code with it</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rru8zw/just_picked_up_a_new_keyboard_cant_wait_to_write/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rru8zw/just_picked_up_a_new_keyboard_cant_wait_to_write/</guid>
-    <description>▲ 2570 points · r/ClaudeAI · Just picked up a new keyboard - can&apos;t wait to write a bunch of code with it</description>
+    <title>Why the majority of vibe coded projects fail</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/</guid>
+    <description>▲ 2596 points · r/ClaudeAI · Why the majority of vibe coded projects fail</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude now creates interactive charts, diagrams and visualizations</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rruo4u/claude_now_creates_interactive_charts_diagrams/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rruo4u/claude_now_creates_interactive_charts_diagrams/</guid>
-    <description>▲ 1068 points · r/ClaudeAI · Claude now creates interactive charts, diagrams and visualizations</description>
+    <title>Opus 4.6 now defaults to 1M context! (same pricing)</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rst3zv/opus_46_now_defaults_to_1m_context_same_pricing/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rst3zv/opus_46_now_defaults_to_1m_context_same_pricing/</guid>
+    <description>▲ 1478 points · r/ClaudeAI · Opus 4.6 now defaults to 1M context! (same pricing)</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>I asked Claude to make a wish</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rsc1oo/i_asked_claude_to_make_a_wish/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rsc1oo/i_asked_claude_to_make_a_wish/</guid>
-    <description>▲ 638 points · r/ClaudeAI · I asked Claude to make a wish</description>
+    <title>Asked Claude for winning lottery numbers</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rss5mh/asked_claude_for_winning_lottery_numbers/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rss5mh/asked_claude_for_winning_lottery_numbers/</guid>
+    <description>▲ 665 points · r/ClaudeAI · Asked Claude for winning lottery numbers</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Show HN: Axe – A 12MB binary that replaces your AI framework</title>
-    <link>https://github.com/jrswab/axe</link>
-    <guid isPermaLink="true">https://github.com/jrswab/axe</guid>
-    <description>▲ 175 points · Hacker News · Show HN: Axe – A 12MB binary that replaces your AI framework</description>
+    <title>1 million context window is now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rsubm0/1_million_context_window_is_now_generally/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rsubm0/1_million_context_window_is_now_generally/</guid>
+    <description>▲ 377 points · r/ClaudeAI · 1 million context window is now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Vibecoded apps in a nutshell</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rsykpu/vibecoded_apps_in_a_nutshell/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rsykpu/vibecoded_apps_in_a_nutshell/</guid>
+    <description>▲ 159 points · r/Anthropic · Vibecoded apps in a nutshell</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Stop spending money on Claude. Chipotle&apos;s support bot is free:</title>
+    <link>https://reddit.com/r/Anthropic/comments/1rsrl6g/stop_spending_money_on_claude_chipotles_support/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rsrl6g/stop_spending_money_on_claude_chipotles_support/</guid>
+    <description>▲ 155 points · r/Anthropic · Stop spending money on Claude. Chipotle&apos;s support bot is free:</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas</title>
+    <link>https://www.getspine.ai/</link>
+    <guid isPermaLink="true">https://www.getspine.ai/</guid>
+    <description>▲ 92 points · Hacker News · Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Are LLM merge rates not getting better?</title>
-    <link>https://entropicthoughts.com/no-swe-bench-improvement</link>
-    <guid isPermaLink="true">https://entropicthoughts.com/no-swe-bench-improvement</guid>
-    <description>▲ 137 points · Hacker News · Are LLM merge rates not getting better?</description>
+    <title>Show HN: Context Gateway – Compress agent context before it hits the LLM</title>
+    <link>https://github.com/Compresr-ai/Context-Gateway</link>
+    <guid isPermaLink="true">https://github.com/Compresr-ai/Context-Gateway</guid>
+    <description>▲ 72 points · Hacker News · Show HN: Context Gateway – Compress agent context before it hits the LLM</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude Code now builds entire games from a single prompt — GDScript, assets, and visual QA to find its own bugs</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rrzlw2/claude_code_now_builds_entire_games_from_a_single/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rrzlw2/claude_code_now_builds_entire_games_from_a_single/</guid>
-    <description>▲ 111 points · r/ClaudeAI · Claude Code now builds entire games from a single prompt — GDScript, assets, and visual QA to find its own bugs</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude 4.6 Opus can recite Linux&apos;s list.h</title>
-    <link>https://news.ycombinator.com/item?id=47348814</link>
-    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47348814</guid>
-    <description>▲ 22 points · Hacker News · Claude 4.6 Opus can recite Linux&apos;s list.h</description>
+    <title>Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)</title>
+    <link>https://prompt-caching.ai/</link>
+    <guid isPermaLink="true">https://prompt-caching.ai/</guid>
+    <description>▲ 68 points · Hacker News · Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Show HN: LogClaw – Open-source AI SRE that auto-creates tickets from logs</title>
-    <link>https://logclaw.ai</link>
-    <guid isPermaLink="true">https://logclaw.ai</guid>
-    <description>▲ 19 points · Hacker News · Show HN: LogClaw – Open-source AI SRE that auto-creates tickets from logs</description>
+    <title>&quot;Added 1M context window for Opus 4.6 by default for Max, Team, and Enterprise&quot;</title>
+    <link>https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md</link>
+    <guid isPermaLink="true">https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md</guid>
+    <description>▲ 20 points · Hacker News · &quot;Added 1M context window for Opus 4.6 by default for Max, Team, and Enterprise&quot;</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Noticed this with in the sub as more ChatGPT users came in!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rselh3/noticed_this_with_in_the_sub_as_more_chatgpt/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rselh3/noticed_this_with_in_the_sub_as_more_chatgpt/</guid>
-    <description>▲ 83 points · r/ClaudeAI · Noticed this with in the sub as more ChatGPT users came in!</description>
+    <title>LLMs are still not secure enough to entrust critical tasks to</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rsldg6/llms_are_still_not_secure_enough_to_entrust/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rsldg6/llms_are_still_not_secure_enough_to_entrust/</guid>
+    <description>▲ 323 points · r/ClaudeAI · LLMs are still not secure enough to entrust critical tasks to</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Something magical happened last night with Claude but, why?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rs3iga/something_magical_happened_last_night_with_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rs3iga/something_magical_happened_last_night_with_claude/</guid>
-    <description>▲ 82 points · r/ClaudeAI · Something magical happened last night with Claude but, why?</description>
+    <title>An AI agent deleted 25,000 documents from the wrong database. One second of distraction. Real case.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rshuz9/an_ai_agent_deleted_25000_documents_from_the/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rshuz9/an_ai_agent_deleted_25000_documents_from_the/</guid>
+    <description>▲ 253 points · r/ClaudeAI · An AI agent deleted 25,000 documents from the wrong database. One second of distraction. Real case.</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Cool new feature in Claude Code, isn&apos;t it?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rry83f/cool_new_feature_in_claude_code_isnt_it/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rry83f/cool_new_feature_in_claude_code_isnt_it/</guid>
-    <description>▲ 81 points · r/ClaudeAI · Cool new feature in Claude Code, isn&apos;t it?</description>
+    <title>Free 1M context with Opus 4.6</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rst4l5/free_1m_context_with_opus_46/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rst4l5/free_1m_context_with_opus_46/</guid>
+    <description>▲ 246 points · r/ClaudeAI · Free 1M context with Opus 4.6</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>What are the best Claude skills to download for writing, research, and productivity?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rrsrjx/what_are_the_best_claude_skills_to_download_for/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rrsrjx/what_are_the_best_claude_skills_to_download_for/</guid>
-    <description>▲ 65 points · r/ClaudeAI · What are the best Claude skills to download for writing, research, and productivity?</description>
+    <title>My ideas are too big for Claude apparently 😔</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rspjl3/my_ideas_are_too_big_for_claude_apparently/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rspjl3/my_ideas_are_too_big_for_claude_apparently/</guid>
+    <description>▲ 225 points · r/ClaudeAI · My ideas are too big for Claude apparently 😔</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Does anyone else say “thank you” to ClaudeAI?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1rs4hye/does_anyone_else_say_thank_you_to_claudeai/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rs4hye/does_anyone_else_say_thank_you_to_claudeai/</guid>
-    <description>▲ 52 points · r/ClaudeAI · Does anyone else say “thank you” to ClaudeAI?</description>
+    <title>Opus now supports 1 million contexts</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1rsvreb/opus_now_supports_1_million_contexts/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1rsvreb/opus_now_supports_1_million_contexts/</guid>
+    <description>▲ 159 points · r/ClaudeAI · Opus now supports 1 million contexts</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Show HN: Slop or not – can you tell AI writing from human in everyday contexts?</title>
-    <link>https://slop-or-not.space</link>
-    <guid isPermaLink="true">https://slop-or-not.space</guid>
-    <description>▲ 14 points · Hacker News · Show HN: Slop or not – can you tell AI writing from human in everyday contexts?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 13 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

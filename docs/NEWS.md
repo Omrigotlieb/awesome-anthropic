@@ -4,6 +4,55 @@
 
 ---
 
+## March 14, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2596 | [Why the majority of vibe coded projects fail](https://reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/) | r/ClaudeAI |
+| 1478 | [Opus 4.6 now defaults to 1M context! (same pricing)](https://reddit.com/r/ClaudeAI/comments/1rst3zv/opus_46_now_defaults_to_1m_context_same_pricing/) | r/ClaudeAI |
+| 665 | [Asked Claude for winning lottery numbers](https://reddit.com/r/ClaudeAI/comments/1rss5mh/asked_claude_for_winning_lottery_numbers/) | r/ClaudeAI |
+| 377 | [1 million context window is now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.](https://reddit.com/r/ClaudeAI/comments/1rsubm0/1_million_context_window_is_now_generally/) | r/ClaudeAI |
+| 159 | [Vibecoded apps in a nutshell](https://reddit.com/r/Anthropic/comments/1rsykpu/vibecoded_apps_in_a_nutshell/) | r/Anthropic |
+| 155 | [Stop spending money on Claude. Chipotle's support bot is free:](https://reddit.com/r/Anthropic/comments/1rsrl6g/stop_spending_money_on_claude_chipotles_support/) | r/Anthropic |
+| 92 | [Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas](https://www.getspine.ai/) | Hacker News |
+| 72 | [Show HN: Context Gateway – Compress agent context before it hits the LLM](https://github.com/Compresr-ai/Context-Gateway) | Hacker News |
+| 68 | [Prompt-caching – auto-injects Anthropic cache breakpoints (90% token savings)](https://prompt-caching.ai/) | Hacker News |
+| 20 | ["Added 1M context window for Opus 4.6 by default for Max, Team, and Enterprise"](https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md) | Hacker News |
+| 323 | [LLMs are still not secure enough to entrust critical tasks to](https://reddit.com/r/ClaudeAI/comments/1rsldg6/llms_are_still_not_secure_enough_to_entrust/) | r/ClaudeAI |
+| 253 | [An AI agent deleted 25,000 documents from the wrong database. One second of distraction. Real case.](https://reddit.com/r/ClaudeAI/comments/1rshuz9/an_ai_agent_deleted_25000_documents_from_the/) | r/ClaudeAI |
+| 246 | [Free 1M context with Opus 4.6](https://reddit.com/r/ClaudeAI/comments/1rst4l5/free_1m_context_with_opus_46/) | r/ClaudeAI |
+| 225 | [My ideas are too big for Claude apparently 😔](https://reddit.com/r/ClaudeAI/comments/1rspjl3/my_ideas_are_too_big_for_claude_apparently/) | r/ClaudeAI |
+| 159 | [Opus now supports 1 million contexts](https://reddit.com/r/ClaudeAI/comments/1rsvreb/opus_now_supports_1_million_contexts/) | r/ClaudeAI |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [🤯 You can now launch Claude Code sessions on your laptop *from your phone*
+
+This blew my mind the first time I tried it](https://x.com/bcherny/status/2032578639276159438) | Boris Cherney |
+| [🎁 Happy Friday - Opus 4.6 1M is now the default Opus model for Claude Code users on Max, Team, and Enterprise plans.
+
+Pro and Sonnet users can opt in with /extra-usage.](https://x.com/bcherny/status/2032514807388123255) | Boris Cherney |
+| [Tons of improvements shipped with this one:
+- Opus 4.6 1M is now the default Opus model for Claude Code users on Max, Team, and Enterprise plans.
+- No more long context price increase in the API.
+- No](https://x.com/alexalbert__/status/2032522722551689363) | Alex Albert |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.76](https://github.com/anthropics/claude-code/releases/tag/v2.1.76) | ## What's changed  - Added MCP elicitation support — MCP servers can now request structured input mi |
+| [claude-code v2.1.75](https://github.com/anthropics/claude-code/releases/tag/v2.1.75) |   |
+| [claude-code-action v1.0.72](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.72) | ## What's Changed * Harden tag mode tool permissions against prompt injection by @km-anthropic in ht |
+| [claude-agent-sdk-typescript v0.2.76](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.76) | ## What's changed  - Added `forkSession(sessionId, opts?)` for branching conversations from a point  |
+| [claude-agent-sdk-typescript v0.2.75](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.75) | ## What's changed  - Updated to parity with Claude Code v2.1.75  ## Update  ```sh npm install @anthr |
+
+---
+
 ## March 13, 2026
 
 ### 🔥 Top Stories

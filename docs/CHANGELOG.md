@@ -1,6 +1,14 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-12T07:00:35Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-14T07:00:32Z
+
+---
+
+## March 13, 2026 — The 1M token context window is now generally available for Claude Opus 4.6 and S
+
+The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4. 
+ We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length. 
+ We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.
 
 ---
 
@@ -45,7 +53,7 @@ We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
 ## February 1, 2026 — 
 
 . 
- The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. Long context pricing applies to requests exceeding 200K input tokens. 
+ The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. Long context pricing applies to requests exceeding 200k input tokens. 
  Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format .
 
 ---
@@ -140,13 +148,5 @@ We've launched Claude Sonnet 4.5 , our best model for complex agents and coding,
  We've introduced a new stop reason model_context_window_exceeded that allows you to request the maximum possible tokens without calculating input size. Learn more in Handling stop reasons . 
  We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more in Memory tool . 
  We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token limits. Learn more in Context editing .
-
----
-
-## September 16, 2025 — We've unified our developer offerings under the Claude brand. You should see upd
-
-We've unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, but our developer interfaces will remain the same . Here are some notable changes: 
- 
- Claude Console ( console.anthropic.com ) → Claude Console ( platform.claude.com ). The console will be available at both URLs until
 
 ---
