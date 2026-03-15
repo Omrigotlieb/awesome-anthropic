@@ -4,6 +4,36 @@
 
 ---
 
+## March 15, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1388 | [Claude turns 3 today!](https://reddit.com/r/ClaudeAI/comments/1rtezds/claude_turns_3_today/) | r/ClaudeAI |
+| 726 | [No one cares what you built](https://reddit.com/r/ClaudeAI/comments/1rtey4g/no_one_cares_what_you_built/) | r/ClaudeAI |
+| 578 | [I used Claude Code to reverse engineer a 13-year-old game binary and crack a restriction nobody had solved — the community is losing it](https://reddit.com/r/ClaudeAI/comments/1ru3irp/i_used_claude_code_to_reverse_engineer_a/) | r/ClaudeAI |
+| 498 | [Best Tech Tweet of All Time](https://reddit.com/r/Anthropic/comments/1rteitv/best_tech_tweet_of_all_time/) | r/Anthropic |
+| 458 | [15 or so hours later since 1m context included in MAX and I'm feeling almost high](https://reddit.com/r/ClaudeAI/comments/1rtgq1o/15_or_so_hours_later_since_1m_context_included_in/) | r/ClaudeAI |
+| 181 | [Things Anthropic launched in last 70 days of 2026 (so far):](https://reddit.com/r/Anthropic/comments/1rto7xp/things_anthropic_launched_in_last_70_days_of_2026/) | r/Anthropic |
+| 128 | [Launching the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Hacker News |
+| 51 | [CShip: A beautiful, customizable statusline for Claude Code (with Starship passthrough) - Built with Claude Code!](https://reddit.com/r/Anthropic/comments/1rthrup/cship_a_beautiful_customizable_statusline_for/) | r/Anthropic |
+| 12 | [The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Hacker News |
+| 412 | [Anthropic just told you exactly when their servers are struggling, and they're paying you to help fix it](https://reddit.com/r/ClaudeAI/comments/1rtwiux/anthropic_just_told_you_exactly_when_their/) | r/ClaudeAI |
+| 364 | [Claude doubles usage in off-peak hours until March 27th](https://reddit.com/r/ClaudeAI/comments/1rtu3v4/claude_doubles_usage_in_offpeak_hours_until_march/) | r/ClaudeAI |
+| 283 | [Anthropic just wiped out another wave of startups, mostly in education. Custom charts, diagrams, and interactive visuals in Claude, learning mode.](https://reddit.com/r/ClaudeAI/comments/1rtxrt7/anthropic_just_wiped_out_another_wave_of_startups/) | r/ClaudeAI |
+| 282 | [I built, ehm, claude built an professional AI video editor in the browser. No server round trips, everything works on your GPU](https://reddit.com/r/ClaudeAI/comments/1rthbmn/i_built_ehm_claude_built_an_professional_ai_video/) | r/ClaudeAI |
+| 263 | [Claude gets interactive now, jaw dropped](https://reddit.com/r/ClaudeAI/comments/1rtxa2q/claude_gets_interactive_now_jaw_dropped/) | r/ClaudeAI |
+| 156 | [2 weeks of 2x rates : Life's Good !!!](https://reddit.com/r/ClaudeAI/comments/1rtyk4g/2_weeks_of_2x_rates_lifes_good/) | r/ClaudeAI |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We doubled Claude usage on weekends, and outside 5–11am PT on weekdays for the next 2 weeks.](https://x.com/bcherny/status/2032922838751928407) | Boris Cherney |
+
+---
+
 ## March 14, 2026
 
 ### 🔥 Top Stories
