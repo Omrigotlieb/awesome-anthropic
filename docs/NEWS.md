@@ -4,6 +4,29 @@
 
 ---
 
+## March 16, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 974 | [I fed 14 years of daily journals into Claude Code](https://reddit.com/r/ClaudeAI/comments/1rumjhd/i_fed_14_years_of_daily_journals_into_claude_code/) | r/ClaudeAI |
+| 869 | [Just passed the new Claude Certified Architect - Foundations (CCA-F) exam with a 985/1000!](https://reddit.com/r/ClaudeAI/comments/1ruf70b/just_passed_the_new_claude_certified_architect/) | r/ClaudeAI |
+| 636 | [I love that Claude doesn’t patronize me](https://reddit.com/r/ClaudeAI/comments/1rurfus/i_love_that_claude_doesnt_patronize_me/) | r/ClaudeAI |
+| 599 | [working w/ Claude for several hours feels like this](https://reddit.com/r/ClaudeAI/comments/1ruk2gy/working_w_claude_for_several_hours_feels_like_this/) | r/ClaudeAI |
+| 140 | [vibe marketing &gt; vibe coding](https://reddit.com/r/Anthropic/comments/1rucfre/vibe_marketing_vibe_coding/) | r/Anthropic |
+| 574 | [I turned my Claude Code agents into Tamagotchis so I can monitor them from tmux](https://reddit.com/r/ClaudeAI/comments/1ru9yda/i_turned_my_claude_code_agents_into_tamagotchis/) | r/ClaudeAI |
+| 306 | [I made a tool to check Claude's off-peak hours in your local time](https://reddit.com/r/ClaudeAI/comments/1runy7i/i_made_a_tool_to_check_claudes_offpeak_hours_in/) | r/ClaudeAI |
+| 188 | [Professional academic documents with zero effort. I built an open-source Claude Code workspace for scientific writing.](https://reddit.com/r/ClaudeAI/comments/1ru9ote/professional_academic_documents_with_zero_effort/) | r/ClaudeAI |
+| 172 | [Just want to say thanks.](https://reddit.com/r/ClaudeAI/comments/1ruezlq/just_want_to_say_thanks/) | r/ClaudeAI |
+| 140 | [What I actually use Cowork for (heavy non-coding user)](https://reddit.com/r/ClaudeAI/comments/1rubfbx/what_i_actually_use_cowork_for_heavy_noncoding/) | r/ClaudeAI |
+| 124 | [Claude decided I need a bedtime apparently](https://reddit.com/r/ClaudeAI/comments/1ruryxo/claude_decided_i_need_a_bedtime_apparently/) | r/ClaudeAI |
+| 124 | [Have you guys see this flag before?](https://reddit.com/r/ClaudeAI/comments/1rug4bp/have_you_guys_see_this_flag_before/) | r/ClaudeAI |
+| 81 | [6 Claude prompting tricks I wish I knew on day one — each took me weeks to figure out](https://reddit.com/r/ClaudeAI/comments/1rud92y/6_claude_prompting_tricks_i_wish_i_knew_on_day/) | r/ClaudeAI |
+| 59 | [1.7M visitors here per week - wth you building?](https://reddit.com/r/ClaudeAI/comments/1rukyw3/17m_visitors_here_per_week_wth_you_building/) | r/ClaudeAI |
+
+---
+
 ## March 15, 2026
 
 ### 🔥 Top Stories

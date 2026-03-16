@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-03-15 (news snapshot: March 14, 2026)
+## 2026-03-16 (news snapshot: March 15, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -11,14 +11,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [Why the majority of vibe coded projects fail](https://reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/)
-- [Opus 4.6 now defaults to 1M context! (same pricing)](https://reddit.com/r/ClaudeAI/comments/1rst3zv/opus_46_now_defaults_to_1m_context_same_pricing/)
-- [Asked Claude for winning lottery numbers](https://reddit.com/r/ClaudeAI/comments/1rss5mh/asked_claude_for_winning_lottery_numbers/)
+- [Claude turns 3 today!](https://reddit.com/r/ClaudeAI/comments/1rtezds/claude_turns_3_today/)
+- [No one cares what you built](https://reddit.com/r/ClaudeAI/comments/1rtey4g/no_one_cares_what_you_built/)
+- [I used Claude Code to reverse engineer a 13-year-old game binary and crack a restriction nobody had solved — the community is losing it](https://reddit.com/r/ClaudeAI/comments/1ru3irp/i_used_claude_code_to_reverse_engineer_a/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-15
-- News snapshot date: March 14, 2026
+- Run date (UTC): 2026-03-16
+- News snapshot date: March 15, 2026
 - Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
 
 ### Why This Matters for Builders
