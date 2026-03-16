@@ -309,7 +309,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-15
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-16
 
 <!-- CHANGELOG_START -->
 ### March 13, 2026 — The 1M token context window is now generally available for Claude Opus 4.6 and S
@@ -326,10 +326,10 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-15
+> Last fetched: <!-- NEWS_DATE -->2026-03-16
 
 <!-- NEWS_START -->
-### Top Stories — March 15, 2026
+### Top Stories — March 16, 2026
 
 - [Claude has overtaken ChatGPT in the Apple App Store](https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/) - 3216 pts on r/ClaudeAI.
 - [Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed](https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/) - 2733 pts on r/ClaudeAI.
