@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-14T07:00:32Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-17T07:00:36Z
+
+---
+
+## March 16, 2026 — We've launched the display field for extended thinking, letting you omit thinkin
+
+We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: "omitted" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display .
 
 ---
 
@@ -138,15 +144,5 @@ We've launched Agent Skills ( skills-2025-10-02 beta), a new way to extend Claud
 ## October 15, 2025 — We've launched Claude Haiku 4.5 , our fastest and most intelligent Haiku model w
 
 We've launched Claude Haiku 4.5 , our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more in Models overview .
-
----
-
-## September 29, 2025 — We've launched Claude Sonnet 4.5 , our best model for complex agents and coding,
-
-We've launched Claude Sonnet 4.5 , our best model for complex agents and coding, with the highest intelligence across most tasks. Learn more in the models overview . 
- We've introduced global endpoint pricing for AWS Bedrock and Google Vertex AI. The Claude API (1P) pricing is unaffected. 
- We've introduced a new stop reason model_context_window_exceeded that allows you to request the maximum possible tokens without calculating input size. Learn more in Handling stop reasons . 
- We've launched the memory tool in beta, enabling Claude to store and consult information across conversations. Learn more in Memory tool . 
- We've launched context editing in beta, providing strategies to automatically manage conversation context. The initial release supports clearing older tool results and calls when approaching token limits. Learn more in Context editing .
 
 ---

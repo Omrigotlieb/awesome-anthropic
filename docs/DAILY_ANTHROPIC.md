@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-03-16 (news snapshot: March 15, 2026)
+## 2026-03-17 (news snapshot: March 16, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -11,14 +11,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [Claude turns 3 today!](https://reddit.com/r/ClaudeAI/comments/1rtezds/claude_turns_3_today/)
-- [No one cares what you built](https://reddit.com/r/ClaudeAI/comments/1rtey4g/no_one_cares_what_you_built/)
-- [I used Claude Code to reverse engineer a 13-year-old game binary and crack a restriction nobody had solved — the community is losing it](https://reddit.com/r/ClaudeAI/comments/1ru3irp/i_used_claude_code_to_reverse_engineer_a/)
+- [I fed 14 years of daily journals into Claude Code](https://reddit.com/r/ClaudeAI/comments/1rumjhd/i_fed_14_years_of_daily_journals_into_claude_code/)
+- [Just passed the new Claude Certified Architect - Foundations (CCA-F) exam with a 985/1000!](https://reddit.com/r/ClaudeAI/comments/1ruf70b/just_passed_the_new_claude_certified_architect/)
+- [I love that Claude doesn’t patronize me](https://reddit.com/r/ClaudeAI/comments/1rurfus/i_love_that_claude_doesnt_patronize_me/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-16
-- News snapshot date: March 15, 2026
+- Run date (UTC): 2026-03-17
+- News snapshot date: March 16, 2026
 - Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
 
 ### Why This Matters for Builders
