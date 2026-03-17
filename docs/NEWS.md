@@ -4,6 +4,48 @@
 
 ---
 
+## March 17, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1643 | [Whenever I pour my heart out to Claude a little…](https://reddit.com/r/ClaudeAI/comments/1rvkpd5/whenever_i_pour_my_heart_out_to_claude_a_little/) | r/ClaudeAI |
+| 590 | [I asked Claude if everyone uses AI to write, what actually gets lost?](https://reddit.com/r/ClaudeAI/comments/1rvcwmu/i_asked_claude_if_everyone_uses_ai_to_write_what/) | r/ClaudeAI |
+| 490 | [I used Obsidian as a persistent brain for Claude Code and built a full open source tool over a weekend. happy to share the exact setup.](https://reddit.com/r/ClaudeAI/comments/1rv5ox0/i_used_obsidian_as_a_persistent_brain_for_claude/) | r/ClaudeAI |
+| 207 | [Claude Architect full course breakdown (even if you can’t take the exam)](https://reddit.com/r/ClaudeAI/comments/1rv3k1a/claude_architect_full_course_breakdown_even_if/) | r/ClaudeAI |
+| 157 | [Anthropic - Claude certified architect foundation exam](https://reddit.com/r/Anthropic/comments/1rv2geg/anthropic_claude_certified_architect_foundation/) | r/Anthropic |
+| 152 | [I built the Claude Code UI I always wanted for daily use and made it Open Source](https://reddit.com/r/Anthropic/comments/1rvfxwn/i_built_the_claude_code_ui_i_always_wanted_for/) | r/Anthropic |
+| 107 | [Opus 4.6 seems to have stopped real considerate thinking "outside peak-hours"](https://reddit.com/r/Anthropic/comments/1rv8y62/opus_46_seems_to_have_stopped_real_considerate/) | r/Anthropic |
+| 67 | [Anthropic suing Trump administration for violating 1st amendment rights... To NOT surveil US citizens and build automous kill machines](https://reddit.com/r/Anthropic/comments/1rvm0rr/anthropic_suing_trump_administration_for/) | r/Anthropic |
+| 191 | [Since Sam Altman hasn't done it yet I thought I'd beat him to the punch](https://reddit.com/r/ClaudeAI/comments/1rvtdyt/since_sam_altman_hasnt_done_it_yet_i_thought_id/) | r/ClaudeAI |
+| 178 | [1 mil context is so good.](https://reddit.com/r/ClaudeAI/comments/1rvmqs2/1_mil_context_is_so_good/) | r/ClaudeAI |
+| 101 | [Made a Music Maker using Claude Code where Claude can also participate in creating the music.](https://reddit.com/r/ClaudeAI/comments/1rvl61q/made_a_music_maker_using_claude_code_where_claude/) | r/ClaudeAI |
+| 78 | [the biggest productivity gain from claude code isn't code generation, it's codebase navigation](https://reddit.com/r/ClaudeAI/comments/1rv9o2g/the_biggest_productivity_gain_from_claude_code/) | r/ClaudeAI |
+| 66 | [Built a MCP tool that gives Claude Code a shared visual model of your project architecture to prevent drift](https://reddit.com/r/ClaudeAI/comments/1rve7l3/built_a_mcp_tool_that_gives_claude_code_a_shared/) | r/ClaudeAI |
+| 64 | [Slash commands and skills are now unified in Claude Cowork](https://reddit.com/r/ClaudeAI/comments/1rvdf6a/slash_commands_and_skills_are_now_unified_in/) | r/ClaudeAI |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.77](https://github.com/anthropics/claude-code/releases/tag/v2.1.77) | ## What's changed  - Increased default maximum output token limits for Claude Opus 4.6 to 64k tokens |
+| [anthropic-sdk-python v0.85.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.85.0) | ## 0.85.0 (2026-03-16)  Full Changelog: [v0.84.0...v0.85.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.27.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.27.0) | ## 1.27.0 (2026-03-16)  Full Changelog: [v1.26.0...v1.27.0](https://github.com/anthropics/anthropic- |
+| [connect-rust v0.2.0](https://github.com/anthropics/connect-rust/releases/tag/v0.2.0) | **Full Changelog**: https://github.com/anthropics/connect-rust/commits/v0.2.0 |
+| [buffa v0.2.0](https://github.com/anthropics/buffa/releases/tag/v0.2.0) | ## What's Changed * Move CLA signatures to dedicated branch by @iainmcgin in https://github.com/anth |
+| [claude-agent-sdk-typescript v0.2.77](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.77) | ## What's changed  - Added `api_retry` system messages when retrying transient API errors, exposing  |
+| [anthropic-sdk-php v0.7.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.7.0) | ## 0.7.0 (2026-03-16)  Full Changelog: [v0.6.0...v0.7.0](https://github.com/anthropics/anthropic-sdk |
+| [anthropic-sdk-typescript sdk-v0.79.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.79.0) | ## 0.79.0 (2026-03-16)  Full Changelog: [sdk-v0.78.0...sdk-v0.79.0](https://github.com/anthropics/an |
+| [anthropic-sdk-ruby v1.24.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.24.0) | ## 1.24.0 (2026-03-16)  Full Changelog: [v1.23.0...v1.24.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.17.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.17.0) | ## 2.17.0 (2026-03-16)  Full Changelog: [v2.16.1...v2.17.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Vertex-v0.1.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.1.0) | ## 0.1.0 (2026-03-16)  Full Changelog: [Vertex-v0.0.1...Vertex-v0.1.0](https://github.com/anthropics |
+| [anthropic-sdk-csharp Foundry-v0.5.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Foundry-v0.5.0) | ## 0.5.0 (2026-03-16)  Full Changelog: [Foundry-v0.4.2...Foundry-v0.5.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Bedrock-v0.1.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.1.0) | ## 0.1.0 (2026-03-16)  Full Changelog: [Bedrock-v0.0.1...Bedrock-v0.1.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.9.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.9.0) | ## 12.9.0 (2026-03-16)  Full Changelog: [Anthropic-v12.8.0...Anthropic-v12.9.0](https://github.com/a |
+
+---
+
 ## March 16, 2026
 
 ### 🔥 Top Stories
