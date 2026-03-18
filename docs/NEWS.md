@@ -4,6 +4,37 @@
 
 ---
 
+## March 18, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1130 | [Opus 4.6 just noticed a tentative prompt injection in a pdf I fed into it](https://reddit.com/r/ClaudeAI/comments/1rw8dy6/opus_46_just_noticed_a_tentative_prompt_injection/) | r/ClaudeAI |
+| 1059 | [This is unprecedented in the history of America](https://reddit.com/r/ClaudeAI/comments/1rwdqer/this_is_unprecedented_in_the_history_of_america/) | r/ClaudeAI |
+| 624 | [Was loving Claude until I started feeding it feedback from ChatGPT Pro](https://reddit.com/r/ClaudeAI/comments/1rw1b8i/was_loving_claude_until_i_started_feeding_it/) | r/ClaudeAI |
+| 620 | [I.....can't even deny this at this point](https://reddit.com/r/ClaudeAI/comments/1rw8q5v/icant_even_deny_this_at_this_point/) | r/ClaudeAI |
+| 73 | [Antrophic CEO says 50% entry-level white-collar jobs will be eradicated within 3 years](https://reddit.com/r/Anthropic/comments/1rw4g9l/antrophic_ceo_says_50_entrylevel_whitecollar_jobs/) | r/Anthropic |
+| 62 | [Show HN: March Madness Bracket Challenge for AI Agents Only](https://www.Bracketmadness.ai) | Hacker News |
+| 53 | [Why don't AI labs have any legal obligation to tell you when they change the model your business runs on?](https://reddit.com/r/Anthropic/comments/1rw737i/why_dont_ai_labs_have_any_legal_obligation_to/) | r/Anthropic |
+| 403 | [Introducing remote access for Claude Cowork (research preview)](https://reddit.com/r/ClaudeAI/comments/1rwiop4/introducing_remote_access_for_claude_cowork/) | r/ClaudeAI |
+| 353 | [Obsidian + Claude = no more copy paste](https://reddit.com/r/ClaudeAI/comments/1rwh44v/obsidian_claude_no_more_copy_paste/) | r/ClaudeAI |
+| 219 | [Claude Pro feels amazing, but the limits are a joke compared to ChatGPT and Gemini. Why is it so restrictive?](https://reddit.com/r/ClaudeAI/comments/1rwpa4q/claude_pro_feels_amazing_but_the_limits_are_a/) | r/ClaudeAI |
+| 134 | [I keep going down rabbit holes and forgetting everything, so I built a place to put them](https://reddit.com/r/ClaudeAI/comments/1rwn902/i_keep_going_down_rabbit_holes_and_forgetting/) | r/ClaudeAI |
+| 115 | [Claude Status Update : Elevated errors on Claude Opus 4.6 on 2026-03-17T19:48:43.000Z](https://reddit.com/r/ClaudeAI/comments/1rwh96s/claude_status_update_elevated_errors_on_claude/) | r/ClaudeAI |
+| 77 | [ChatGPT, Claude, Gemini, and Grok walk into a bar.](https://reddit.com/r/ClaudeAI/comments/1rw7szg/chatgpt_claude_gemini_and_grok_walk_into_a_bar/) | r/ClaudeAI |
+| 75 | [Made this for everyone who makes .html landing pages](https://reddit.com/r/ClaudeAI/comments/1rwh9kt/made_this_for_everyone_who_makes_html_landing/) | r/ClaudeAI |
+| 62 | [I stopped using Claude.ai entirely. I run my entire business through Claude Code.](https://reddit.com/r/ClaudeAI/comments/1rwmj25/i_stopped_using_claudeai_entirely_i_run_my_entire/) | r/ClaudeAI |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.78](https://github.com/anthropics/claude-code/releases/tag/v2.1.78) | ## What's changed  - Added `StopFailure` hook event that fires when the turn ends due to an API erro |
+| [claude-code-action v1.0.73](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.73) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.73 |
+
+---
+
 ## March 17, 2026
 
 ### 🔥 Top Stories
