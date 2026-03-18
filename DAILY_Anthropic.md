@@ -141,3 +141,13 @@ This file is checked first at the start of each daily automation run.
 - [Just passed the new Claude Certified Architect - Foundations (CCA-F) exam with a 985/1000!](https://reddit.com/r/ClaudeAI/comments/1ruf70b/just_passed_the_new_claude_certified_architect/)
 - [I love that Claude doesn’t patronize me](https://reddit.com/r/ClaudeAI/comments/1rurfus/i_love_that_claude_doesnt_patronize_me/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-18
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Whenever I pour my heart out to Claude a little…](https://reddit.com/r/ClaudeAI/comments/1rvkpd5/whenever_i_pour_my_heart_out_to_claude_a_little/)
+- [I asked Claude if everyone uses AI to write, what actually gets lost?](https://reddit.com/r/ClaudeAI/comments/1rvcwmu/i_asked_claude_if_everyone_uses_ai_to_write_what/)
+- [I used Obsidian as a persistent brain for Claude Code and built a full open source tool over a weekend. happy to share the exact setup.](https://reddit.com/r/ClaudeAI/comments/1rv5ox0/i_used_obsidian_as_a_persistent_brain_for_claude/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

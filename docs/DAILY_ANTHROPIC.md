@@ -1,24 +1,24 @@
 # Daily Anthropic Brief
 
-## 2026-03-17 (news snapshot: March 16, 2026)
+## 2026-03-18 (news snapshot: March 17, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.76](https://github.com/anthropics/claude-code/releases/tag/v2.1.76) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.77](https://github.com/anthropics/claude-code/releases/tag/v2.1.77) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 
 ### Top Story Snapshot
 
-- [I fed 14 years of daily journals into Claude Code](https://reddit.com/r/ClaudeAI/comments/1rumjhd/i_fed_14_years_of_daily_journals_into_claude_code/)
-- [Just passed the new Claude Certified Architect - Foundations (CCA-F) exam with a 985/1000!](https://reddit.com/r/ClaudeAI/comments/1ruf70b/just_passed_the_new_claude_certified_architect/)
-- [I love that Claude doesn’t patronize me](https://reddit.com/r/ClaudeAI/comments/1rurfus/i_love_that_claude_doesnt_patronize_me/)
+- [Whenever I pour my heart out to Claude a little…](https://reddit.com/r/ClaudeAI/comments/1rvkpd5/whenever_i_pour_my_heart_out_to_claude_a_little/)
+- [I asked Claude if everyone uses AI to write, what actually gets lost?](https://reddit.com/r/ClaudeAI/comments/1rvcwmu/i_asked_claude_if_everyone_uses_ai_to_write_what/)
+- [I used Obsidian as a persistent brain for Claude Code and built a full open source tool over a weekend. happy to share the exact setup.](https://reddit.com/r/ClaudeAI/comments/1rv5ox0/i_used_obsidian_as_a_persistent_brain_for_claude/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-17
-- News snapshot date: March 16, 2026
+- Run date (UTC): 2026-03-18
+- News snapshot date: March 17, 2026
 - Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
 
 ### Why This Matters for Builders
