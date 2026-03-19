@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-17T07:00:36Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-19T07:00:31Z
+
+---
+
+## March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
+
+We've added model capability fields to the Models API . GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens , max_tokens , and a capabilities object. Query the API to discover what each model supports.
 
 ---
 
@@ -138,11 +144,5 @@ We've launched Agent Skills ( skills-2025-10-02 beta), a new way to extend Claud
  Custom Skills : Upload your own Skills via the Skills API ( /v1/skills endpoints) to package domain expertise and organizational workflows 
  Skills require the code execution tool to be enabled 
  Learn more in Agent Skills and API reference
-
----
-
-## October 15, 2025 — We've launched Claude Haiku 4.5 , our fastest and most intelligent Haiku model w
-
-We've launched Claude Haiku 4.5 , our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more in Models overview .
 
 ---

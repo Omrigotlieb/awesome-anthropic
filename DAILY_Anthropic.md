@@ -151,3 +151,13 @@ This file is checked first at the start of each daily automation run.
 - [I asked Claude if everyone uses AI to write, what actually gets lost?](https://reddit.com/r/ClaudeAI/comments/1rvcwmu/i_asked_claude_if_everyone_uses_ai_to_write_what/)
 - [I used Obsidian as a persistent brain for Claude Code and built a full open source tool over a weekend. happy to share the exact setup.](https://reddit.com/r/ClaudeAI/comments/1rv5ox0/i_used_obsidian_as_a_persistent_brain_for_claude/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-19
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Opus 4.6 just noticed a tentative prompt injection in a pdf I fed into it](https://reddit.com/r/ClaudeAI/comments/1rw8dy6/opus_46_just_noticed_a_tentative_prompt_injection/)
+- [This is unprecedented in the history of America](https://reddit.com/r/ClaudeAI/comments/1rwdqer/this_is_unprecedented_in_the_history_of_america/)
+- [Was loving Claude until I started feeding it feedback from ChatGPT Pro](https://reddit.com/r/ClaudeAI/comments/1rw1b8i/was_loving_claude_until_i_started_feeding_it/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
