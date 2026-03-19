@@ -2,20 +2,45 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/Omrigotlieb/awesome-anthropic?style=flat-square&logo=github&color=yellow)](https://github.com/Omrigotlieb/awesome-anthropic/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/Omrigotlieb/awesome-anthropic?style=flat-square&color=green)](https://github.com/Omrigotlieb/awesome-anthropic/commits/main)
-[![Daily Update](https://img.shields.io/badge/auto--updated-daily-blue?style=flat-square&logo=github-actions)](https://github.com/Omrigotlieb/awesome-anthropic/actions)
+[![Daily Update](https://img.shields.io/badge/auto--updated-daily-blue?style=flat-square)](https://omrigotlieb.github.io/awesome-anthropic)
 [![Contributors](https://img.shields.io/github/contributors/Omrigotlieb/awesome-anthropic?style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/graphs/contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![License: CC0](https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg?style=flat-square)](LICENSE)
-[![Changelog Sync](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/changelog-check.yml?label=changelog%20sync&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/changelog-check.yml)
-[![Link Check](https://img.shields.io/github/actions/workflow/status/Omrigotlieb/awesome-anthropic/link-checker.yml?label=links&style=flat-square)](https://github.com/Omrigotlieb/awesome-anthropic/actions/workflows/link-checker.yml)
 
-## 🌐 [omrigotlieb.github.io/awesome-anthropic](https://omrigotlieb.github.io/awesome-anthropic)
+![Awesome Anthropic preview](assets/img/og-awesome-anthropic.svg)
 
-> A curated, **daily-updated** list of awesome resources, tools, SDKs, research papers, and community projects related to Anthropic and the Claude AI family.
+> A curated, daily-updated hub for Anthropic and Claude resources: official docs, SDKs, MCP tools, research, release notes, and community projects.
 
-Anthropic is an AI safety company building reliable, interpretable, and steerable AI systems. Claude is their flagship family of AI assistants, used by millions of developers and deployed across enterprise, research, and consumer applications worldwide.
+Human-curated, automation-assisted. The goal is simple: help builders find the best Anthropic resources fast and stay current without scraping half the internet themselves.
 
-This list is **automatically updated every day** — changelog synced from the official Anthropic docs, news aggregated from blogs, Hacker News, Reddit, arXiv, and GitHub.
+<p>
+  <a href="https://omrigotlieb.github.io/awesome-anthropic"><strong>Open the live dashboard</strong></a> ·
+  <a href="https://github.com/Omrigotlieb/awesome-anthropic/stargazers"><strong>Star on GitHub</strong></a> ·
+  <a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new?template=add-resource.md"><strong>Suggest a resource</strong></a> ·
+  <a href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml"><strong>Subscribe via RSS</strong></a>
+</p>
+
+## Why Star This Repo
+
+- Track Anthropic release notes, SDK updates, and ecosystem news from one place.
+- Discover production tools, MCP servers, tutorials, and research without noisy general AI lists.
+- Follow a live dashboard, RSS feed, and daily briefs that make the repo useful between stars.
+- Contribute new resources quickly through issues or pull requests.
+
+## Start Here
+
+- [Live dashboard](https://omrigotlieb.github.io/awesome-anthropic) - Browse the curated feed, top stories, benchmarks, and changelog in one UI.
+- [Official Resources](#official-resources) - Anthropic docs, blog, release notes, model spec, and prompt library.
+- [Claude API & SDKs](#claude-api--sdks) - Official and community SDKs plus integration libraries.
+- [Model Context Protocol (MCP)](#model-context-protocol-mcp) - Core MCP docs, SDKs, servers, and tools.
+- [Projects & Applications](#projects--applications) - Popular Claude-powered products, agents, and workflows.
+- [News Digest](#news-digest-auto-updated) - Daily snapshot of official launches, community buzz, and GitHub releases.
+
+## Quick Facts
+
+- Updated daily from official Anthropic release notes and ecosystem sources.
+- Includes a GitHub Pages dashboard, RSS feed, contribution templates, and distribution tooling.
+- Built for developers, researchers, founders, and operators following Claude closely.
 
 ---
 
@@ -346,18 +371,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 
 Use the built-in scripts to distribute the daily brief across owned channels:
 
-- Generate social copy for X, LinkedIn, Reddit, and HN:
-  - `python3 scripts/generate_social_posts.py`
-- Post to Telegram:
-  - `python3 scripts/notify_telegram.py`
-- Post to Discord via webhook:
-  - `python3 scripts/notify_discord.py`
-- Send email digest via Buttondown:
-  - `python3 scripts/email_digest.py`
+- Generate social copy for X, LinkedIn, Reddit, and HN: `python3 scripts/generate_social_posts.py`
+- Post to Telegram: `python3 scripts/notify_telegram.py`
+- Post to Discord via webhook: `python3 scripts/notify_discord.py`
+- Send email digest via Buttondown: `python3 scripts/email_digest.py`
 
 Run the full daily workflow (news + website + distribution):
 
-- `bash scripts/run_daily.sh`
+`bash scripts/run_daily.sh`
+
+Every outbound post should point to both the live dashboard and the GitHub repo so visitors can browse and star without extra clicks.
 
 See detailed setup and channel strategy in [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md).
 
@@ -365,6 +388,8 @@ See detailed setup and channel strategy in [docs/DISTRIBUTION.md](docs/DISTRIBUT
 
 ## Contributing
 
-Contributions are welcome! Read the [contributing guidelines](https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md) and open a [pull request](https://github.com/Omrigotlieb/awesome-anthropic/compare). All list items must follow the format `- [Name](url) - Description.` Do not edit sections between `<!-- X_START -->` and `<!-- X_END -->` tags — they are auto-updated daily.
+Contributions are welcome. Read the [contributing guidelines](https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md), open a [pull request](https://github.com/Omrigotlieb/awesome-anthropic/compare), or [submit a resource issue](https://github.com/Omrigotlieb/awesome-anthropic/issues/new?template=add-resource.md). All list items must follow the format `- [Name](url) - Description.` Do not edit sections between `<!-- X_START -->` and `<!-- X_END -->` tags because they are auto-updated daily.
+
+If this repo saves you time, [star it](https://github.com/Omrigotlieb/awesome-anthropic/stargazers) so more Anthropic builders can find it.
 
 ---

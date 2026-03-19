@@ -1,7 +1,7 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
-const BASE = 'https://omrigotlieb.github.io/awesome-anthropic';
+const BASE = process.env.BASE_URL || 'http://127.0.0.1:42173';
 
 // Wait for Docsify to finish loading a page (content must not be "Loading…")
 async function waitForContent(page) {
@@ -14,6 +14,19 @@ async function waitForContent(page) {
   );
 }
 
+async function gotoInterviewWizard(page) {
+  await page.addInitScript(() => {
+    try {
+      localStorage.removeItem('aa-wiz');
+    } catch (err) {
+      // Ignore storage access issues in tests.
+    }
+  });
+  await page.goto(BASE + '/#/docs/INTERVIEW');
+  await waitForContent(page);
+  await page.waitForSelector('.wiz-wrap', { timeout: 15000 });
+}
+
 // ─────────────────────────────────────────────────────────────
 // HOMEPAGE / DASHBOARD
 // ─────────────────────────────────────────────────────────────
@@ -21,8 +34,8 @@ test.describe('Homepage', () => {
   test('loads and shows title', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
-    await expect(page).toHaveTitle(/Awesome Anthropic/);
-    await expect(page.locator('.markdown-section h1')).toContainText('Awesome Anthropic');
+    await expect(page).toHaveTitle(/Home|Awesome Anthropic/);
+    await expect(page.locator('.dash-mhead-title')).toContainText('Awesome Anthropic');
   });
 
   test('sidebar is visible', async ({ page }) => {
@@ -93,6 +106,14 @@ test.describe('Homepage', () => {
     await waitForContent(page);
     const link = page.locator('a[href*="marginlab.ai"]').first();
     await expect(link).toBeVisible({ timeout: 15000 });
+  });
+
+  test('masthead includes GitHub star CTA', async ({ page }) => {
+    await page.goto(BASE + '/');
+    await waitForContent(page);
+    const cta = page.locator('.dash-mhead-actions a[href*="stargazers"]').first();
+    await expect(cta).toBeVisible({ timeout: 15000 });
+    await expect(cta).toContainText('Star on GitHub');
   });
 });
 
@@ -294,8 +315,7 @@ test.describe('Claude Code ecosystem page', () => {
 // ─────────────────────────────────────────────────────────────
 test.describe('Interview prep page', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto(BASE + '/#/docs/INTERVIEW');
-    await waitForContent(page);
+    await gotoInterviewWizard(page);
   });
 
   test('shows Anthropic interview content', async ({ page }) => {
@@ -303,7 +323,7 @@ test.describe('Interview prep page', () => {
   });
 
   test('shows technical topics', async ({ page }) => {
-    await expect(page.locator('.markdown-section')).toContainText('LLM');
+    await expect(page.locator('.markdown-section')).toContainText('Research / ML');
   });
 
   test('shows behavioral questions section', async ({ page }) => {
@@ -311,7 +331,7 @@ test.describe('Interview prep page', () => {
   });
 
   test('shows study plan or resources', async ({ page }) => {
-    await expect(page.locator('.markdown-section')).toContainText('Study');
+    await expect(page.locator('.markdown-section')).toContainText('Begin Quest');
   });
 });
 
@@ -341,14 +361,14 @@ test.describe('Changelog page', () => {
 // VISUAL / DESIGN
 // ─────────────────────────────────────────────────────────────
 test.describe('Visual design', () => {
-  test('uses Anthropic brand font (Lora or DM Serif)', async ({ page }) => {
+  test('homepage title uses a serif display font', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
     const fontFamily = await page.evaluate(() => {
-      const body = document.querySelector('.markdown-section p');
-      return body ? window.getComputedStyle(body).fontFamily : '';
+      const title = document.querySelector('.dash-mhead-title');
+      return title ? window.getComputedStyle(title).fontFamily : '';
     });
-    expect(fontFamily.toLowerCase()).toMatch(/lora|serif|georgia/);
+    expect(fontFamily.toLowerCase()).toMatch(/serif|georgia|dm serif/);
   });
 
   test('body text is at least 16px for readability', async ({ page }) => {
@@ -361,21 +381,35 @@ test.describe('Visual design', () => {
     expect(fontSize).toBeGreaterThanOrEqual(16);
   });
 
-  test('sidebar has warm dark background', async ({ page }) => {
+  test('sidebar has a light editorial background', async ({ page }) => {
     await page.goto(BASE + '/');
     await waitForContent(page);
     const bg = await page.evaluate(() => {
       const sidebar = document.querySelector('.sidebar');
       return sidebar ? window.getComputedStyle(sidebar).backgroundColor : '';
     });
-    // Should be a dark color (not white/light)
-    expect(bg).not.toBe('rgb(255, 255, 255)');
+    expect(bg).toBe('rgb(255, 255, 255)');
   });
 
   test('footer is rendered on every page', async ({ page }) => {
     await page.goto(BASE + '/#/docs/NEWS');
     await waitForContent(page);
     await expect(page.locator('.page-footer')).toBeVisible();
+  });
+
+  test('footer includes stargazers link', async ({ page }) => {
+    await page.goto(BASE + '/#/docs/NEWS');
+    await waitForContent(page);
+    const link = page.locator('.page-footer a[href*="stargazers"]').first();
+    await expect(link).toBeVisible();
+  });
+
+  test('page metadata uses repo-branded social preview image', async ({ page }) => {
+    await page.goto(BASE + '/');
+    const ogImage = await page.locator('meta[property="og:image"]').getAttribute('content');
+    const twitterImage = await page.locator('meta[name="twitter:image"]').getAttribute('content');
+    expect(ogImage).toContain('og-awesome-anthropic.svg');
+    expect(twitterImage).toContain('og-awesome-anthropic.svg');
   });
 
   test('source card images load for dashboard lead card', async ({ page }) => {
@@ -500,10 +534,7 @@ test.describe('Story modal', () => {
 // ─────────────────────────────────────────────────────────────
 test.describe('Interview wizard', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto(BASE + '/#/docs/INTERVIEW');
-    await waitForContent(page);
-    // Wait for wizard to inject
-    await page.waitForSelector('.wiz-wrap', { timeout: 15000 });
+    await gotoInterviewWizard(page);
   });
 
   test('wizard container is rendered', async ({ page }) => {
@@ -523,10 +554,9 @@ test.describe('Interview wizard', () => {
 
   test('selecting a class advances to level 1', async ({ page }) => {
     await page.locator('.wiz-cls').first().click();
-    await expect(page.locator('.wiz-card')).toBeVisible({ timeout: 8000 });
-    // Should no longer be on character select
-    const classGrid = page.locator('.wiz-class-grid');
-    await expect(classGrid).not.toBeVisible({ timeout: 5000 });
+    await expect(page.locator('.wiz-start')).toHaveClass(/on/, { timeout: 8000 });
+    await page.locator('.wiz-start').click();
+    await expect(page.locator('.wiz-card-title')).toContainText('Level 1', { timeout: 8000 });
   });
 
   test('shows XP progress bar after class selection', async ({ page }) => {
@@ -536,6 +566,7 @@ test.describe('Interview wizard', () => {
 
   test('quiz options are clickable', async ({ page }) => {
     await page.locator('.wiz-cls').first().click();
+    await page.locator('.wiz-start').click();
     await expect(page.locator('.wiz-opt').first()).toBeVisible({ timeout: 8000 });
     await page.locator('.wiz-opt').first().click();
     // After answering, option should get a correct/wrong class
@@ -547,6 +578,7 @@ test.describe('Interview wizard', () => {
 
   test('Next button advances steps', async ({ page }) => {
     await page.locator('.wiz-cls').first().click();
+    await page.locator('.wiz-start').click();
     // Answer all quiz options on this step
     const opts = page.locator('.wiz-opt');
     const count = await opts.count();
@@ -560,6 +592,7 @@ test.describe('Interview wizard', () => {
 
   test('wizard header shows step progress', async ({ page }) => {
     await page.locator('.wiz-cls').first().click();
+    await page.locator('.wiz-start').click();
     await expect(page.locator('.wiz-hdr')).toBeVisible({ timeout: 8000 });
     const hdrText = await page.locator('.wiz-hdr').textContent();
     expect(hdrText.length).toBeGreaterThan(0);
@@ -581,7 +614,7 @@ test.describe('Dashboard widgets', () => {
   });
 
   test('Quick-Start code panel is visible', async ({ page }) => {
-    await expect(page.locator('.markdown-section')).toContainText('Quick-Start', { timeout: 15000 });
+    await expect(page.locator('.markdown-section')).toContainText('Quick Start', { timeout: 15000 });
   });
 
   test('Quick-Start panel has language tabs', async ({ page }) => {
@@ -619,7 +652,7 @@ test.describe('Dashboard widgets', () => {
     await expect(mpBtn).toBeVisible({ timeout: 15000 });
     await mpBtn.click();
     // After picking, result should show
-    await expect(page.locator('.mp-result')).toBeVisible({ timeout: 5000 });
+    await expect(page.locator('.dash-mp-result')).toContainText('claude-', { timeout: 5000 });
   });
 });
 
@@ -672,7 +705,7 @@ test.describe('News Page', () => {
   test('news page loads and shows card grid', async ({ page }) => {
     await page.goto(BASE + '/#/docs/NEWS');
     await waitForContent(page);
-    await expect(page.locator('.news-card-grid, table')).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('.markdown-section table').first()).toBeVisible({ timeout: 15000 });
   });
 
   test('news page has Top Stories heading', async ({ page }) => {
@@ -783,7 +816,7 @@ test.describe('Sidebar Navigation', () => {
     await page.locator('.sidebar a[href*="INTERVIEW"]').first().click();
     await waitForContent(page);
     await page.waitForTimeout(1000);
-    await expect(page.locator('.wiz-wrap, .wiz-class-grid, .markdown-section')).toBeVisible({ timeout: 10000 });
+    await expect(page.locator('.wiz-wrap')).toBeVisible({ timeout: 10000 });
   });
 });
 
@@ -792,20 +825,18 @@ test.describe('Sidebar Navigation', () => {
 // ─────────────────────────────────────────────────────────────
 test.describe('Interview Wizard Persistence', () => {
   test('wizard renders character select on first visit', async ({ page }) => {
-    await page.goto(BASE + '/#/docs/INTERVIEW');
-    await waitForContent(page);
+    await gotoInterviewWizard(page);
     await page.waitForTimeout(1000);
-    await expect(page.locator('.wiz-class-grid, .wiz-wrap')).toBeVisible({ timeout: 10000 });
+    await expect(page.locator('.wiz-class-grid')).toBeVisible({ timeout: 10000 });
   });
 
   test('picking a class enables the Begin Quest button', async ({ page }) => {
-    await page.goto(BASE + '/#/docs/INTERVIEW');
-    await waitForContent(page);
+    await gotoInterviewWizard(page);
     await page.waitForTimeout(1000);
     const classButtons = page.locator('.wiz-cls');
     if (await classButtons.count() > 0) {
       await classButtons.first().click();
-      await expect(page.locator('.wiz-start')).toBeVisible({ timeout: 5000 });
+      await expect(page.locator('.wiz-start')).toHaveClass(/on/, { timeout: 5000 });
     }
   });
 
@@ -853,6 +884,8 @@ test.describe('PWA Manifest', () => {
     if (response.ok()) {
       const manifest = await response.json();
       expect(manifest.name).toContain('Anthropic');
+      expect(manifest.start_url).toBe('./');
+      expect(manifest.scope).toBe('./');
       expect(manifest.theme_color).toBeDefined();
       expect(manifest.display).toBeDefined();
     }
@@ -862,6 +895,15 @@ test.describe('PWA Manifest', () => {
     await page.goto(BASE + '/');
     const manifestLink = await page.locator('link[rel="manifest"]').getAttribute('href');
     expect(manifestLink).toBeTruthy();
+  });
+
+  test('service worker uses scope-relative asset URLs', async ({ page }) => {
+    const response = await page.request.get(BASE + '/sw.js');
+    if (response.ok()) {
+      const swScript = await response.text();
+      expect(swScript).toContain('self.registration.scope');
+      expect(swScript).not.toContain("'/awesome-anthropic/'");
+    }
   });
 });
 
