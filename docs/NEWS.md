@@ -4,6 +4,56 @@
 
 ---
 
+## March 19, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1299 | [73% of AI spend now on Anthropic, OpenAI now down to 26%](https://reddit.com/r/ClaudeAI/comments/1rxb8k3/73_of_ai_spend_now_on_anthropic_openai_now_down/) | r/ClaudeAI |
+| 566 | [Dear Anthropic: the ChatGPT refugees are here. Here’s why they’ll leave again.](https://reddit.com/r/ClaudeAI/comments/1rxle6k/dear_anthropic_the_chatgpt_refugees_are_here/) | r/ClaudeAI |
+| 558 | [I built a list of 48 design skill files with custom styles for you to choose from for Claude](https://reddit.com/r/ClaudeAI/comments/1rx7v8i/i_built_a_list_of_48_design_skill_files_with/) | r/ClaudeAI |
+| 299 | [Andrej Karpathy Admits Software Development Has Changed for Good](https://reddit.com/r/ClaudeAI/comments/1rxc7wj/andrej_karpathy_admits_software_development_has/) | r/ClaudeAI |
+| 71 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Hacker News |
+| 201 | [I built a browser game where you fight corporate AI bots using real consumer laws - now with 36 cases](https://reddit.com/r/ClaudeAI/comments/1rwyzpn/i_built_a_browser_game_where_you_fight_corporate/) | r/ClaudeAI |
+| 199 | [LinkedIn Cringebot 3000 (vibe coded with Claude)](https://reddit.com/r/ClaudeAI/comments/1rxkkjd/linkedin_cringebot_3000_vibe_coded_with_claude/) | r/ClaudeAI |
+| 171 | [Claude CoWork just got the 1M Context Window](https://reddit.com/r/ClaudeAI/comments/1rx8kvt/claude_cowork_just_got_the_1m_context_window/) | r/ClaudeAI |
+| 133 | [The 20 dollar tier kind of sucks by design.](https://reddit.com/r/ClaudeAI/comments/1rx6tfo/the_20_dollar_tier_kind_of_sucks_by_design/) | r/ClaudeAI |
+| 122 | [How long before AI wave hits??](https://reddit.com/r/ClaudeAI/comments/1rxdxzj/how_long_before_ai_wave_hits/) | r/ClaudeAI |
+| 73 | [Claude Status Update : Elevated errors across surfaces on 2026-03-19T00:28:57.000Z](https://reddit.com/r/ClaudeAI/comments/1rxlm0t/claude_status_update_elevated_errors_across/) | r/ClaudeAI |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We're hosting a webinar today at 10am PT that should be very helpful for folks trying to learn how to apply AI to their work.
+
+We'll be sharing best practices on how to use new products like Claude fo](https://x.com/alexalbert__/status/2034276242317566107) | Alex Albert |
+| [We invited Claude users to share how they use AI, what they dream it could make possible, and what they fear it might do.
+
+Nearly 81,000 people responded in one week—the largest qualitative study of i](https://x.com/AnthropicAI/status/2034302152945144166) | Anthropic |
+| [The open source ecosystem underpins nearly every software system in the world. As AI grows more capable, open source security becomes increasingly important.
+
+We're donating to the Linux Foundation to](https://x.com/AnthropicAI/status/2033939283313402138) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79) | ## What's changed  - Added `--console` flag to `claude auth login` for Anthropic Console (API billin |
+| [claude-code-action v1.0.75](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.75) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.75 |
+| [claude-code-action v1.0.74](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.74) | ## What's Changed * Restore .claude/ and .mcp.json from PR base branch before CLI runs by @km-anthro |
+| [claude-agent-sdk-typescript v0.2.79](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.79) | ## What's changed  - Added `'resume'` to the `ExitReason` type for distinguishing resume-triggered s |
+| [anthropic-sdk-typescript sdk-v0.80.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.80.0) | ## 0.80.0 (2026-03-18)  Full Changelog: [sdk-v0.79.0...sdk-v0.80.0](https://github.com/anthropics/an |
+| [anthropic-sdk-go v1.27.1](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.27.1) | ## 1.27.1 (2026-03-18)  Full Changelog: [v1.27.0...v1.27.1](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.8.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.8.0) | ## 0.8.0 (2026-03-18)  Full Changelog: [v0.7.0...v0.8.0](https://github.com/anthropics/anthropic-sdk |
+| [anthropic-sdk-python v0.86.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.86.0) | ## 0.86.0 (2026-03-18)  Full Changelog: [v0.85.0...v0.86.0](https://github.com/anthropics/anthropic- |
+| [connect-rust v0.2.1](https://github.com/anthropics/connect-rust/releases/tag/v0.2.1) | ## What's Changed * Strip IPv6 URI brackets before rustls ServerName parsing by @iainmcgin in https: |
+| [anthropic-sdk-ruby v1.25.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.25.0) | ## 1.25.0 (2026-03-18)  Full Changelog: [v1.24.0...v1.25.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.18.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.18.0) | ## 2.18.0 (2026-03-18)  Full Changelog: [v2.17.0...v2.18.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## March 18, 2026
 
 ### 🔥 Top Stories
