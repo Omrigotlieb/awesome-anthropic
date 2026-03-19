@@ -36,6 +36,54 @@ SAMPLE_NEWS = """# Anthropic News Feed
 | [anthropic-sdk-python v0.84.0](https://example.com/py-084) | update |
 """
 
+EDITORIAL_SAMPLE_NEWS = """# Anthropic News Feed
+
+## March 19, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 71 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Hacker News |
+| 55 | [Story Two](https://example.com/2) | r/ClaudeAI |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79) | ## What's changed  - Added `--console` flag to `claude auth login` for Anthropic Console (API billing) |
+
+---
+
+## March 13, 2026
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+
+---
+
+## March 12, 2026
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+
+---
+
+## March 11, 2026
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+"""
+
 
 class TestUpdateDailyAnthropic(unittest.TestCase):
     def test_read_top_stories_parses_markdown_links(self):
@@ -167,6 +215,51 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             brief_content = brief.read_text(encoding="utf-8")
             self.assertIn("Freshness Status", brief_content)
             self.assertIn("Snapshot lag: 2 day(s)", brief_content)
+
+    def test_read_recent_section_links_walks_multiple_sections(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            news.write_text(EDITORIAL_SAMPLE_NEWS, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news):
+                rows = daily.read_recent_section_links("📰 Official Announcements", title_col=0, limit=3, max_sections=4)
+        self.assertEqual(
+            rows,
+            [
+                (
+                    "Anthropic invests $100 million into the Claude Partner Network",
+                    "https://www.anthropic.com/news/claude-partner-network",
+                    "March 13, 2026",
+                ),
+                (
+                    "Introducing The Anthropic Institute",
+                    "https://www.anthropic.com/news/the-anthropic-institute",
+                    "March 12, 2026",
+                ),
+                (
+                    "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+                    "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+                    "March 11, 2026",
+                ),
+            ],
+        )
+
+    def test_write_daily_blog_builds_article_deck(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            blog = Path(td) / "docs" / "DAILY_BLOG.md"
+            blog.parent.mkdir(parents=True, exist_ok=True)
+            news.write_text(EDITORIAL_SAMPLE_NEWS, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news), patch.object(daily, "DAILY_BLOG_PATH", blog):
+                daily.write_daily_blog("2026-03-19")
+            blog_content = blog.read_text(encoding="utf-8")
+            self.assertIn("### Latest News Articles", blog_content)
+            self.assertIn("Article 1", blog_content)
+            self.assertIn("Article 2", blog_content)
+            self.assertIn("Article 3", blog_content)
+            self.assertIn("Article 4", blog_content)
+            self.assertIn("Article 5", blog_content)
+            self.assertIn("### Source Trail", blog_content)
+            self.assertIn("claude-code v2.1.79", blog_content)
 
 
 if __name__ == "__main__":

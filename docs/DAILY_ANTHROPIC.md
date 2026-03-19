@@ -1,25 +1,27 @@
 # Daily Anthropic Brief
 
-## 2026-03-19 (news snapshot: March 18, 2026)
+## 2026-03-19 (news snapshot: March 19, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.78](https://github.com/anthropics/claude-code/releases/tag/v2.1.78) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+- [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific)
 
 ### Top Story Snapshot
 
-- [Opus 4.6 just noticed a tentative prompt injection in a pdf I fed into it](https://reddit.com/r/ClaudeAI/comments/1rw8dy6/opus_46_just_noticed_a_tentative_prompt_injection/)
-- [This is unprecedented in the history of America](https://reddit.com/r/ClaudeAI/comments/1rwdqer/this_is_unprecedented_in_the_history_of_america/)
-- [Was loving Claude until I started feeding it feedback from ChatGPT Pro](https://reddit.com/r/ClaudeAI/comments/1rw1b8i/was_loving_claude_until_i_started_feeding_it/)
+- [73% of AI spend now on Anthropic, OpenAI now down to 26%](https://reddit.com/r/ClaudeAI/comments/1rxb8k3/73_of_ai_spend_now_on_anthropic_openai_now_down/)
+- [Dear Anthropic: the ChatGPT refugees are here. Here’s why they’ll leave again.](https://reddit.com/r/ClaudeAI/comments/1rxle6k/dear_anthropic_the_chatgpt_refugees_are_here/)
+- [I built a list of 48 design skill files with custom styles for you to choose from for Claude](https://reddit.com/r/ClaudeAI/comments/1rx7v8i/i_built_a_list_of_48_design_skill_files_with/)
 
 ### Freshness Status
 
 - Run date (UTC): 2026-03-19
-- News snapshot date: March 18, 2026
-- Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
+- News snapshot date: March 19, 2026
+- Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
 
