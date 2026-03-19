@@ -2,40 +2,62 @@
    Caches core assets for offline use.
    Cache-first for static assets, network-first for markdown docs.
 */
-const CACHE_VERSION = 'aa-v1';
+const CACHE_VERSION = 'aa-v2';
 const STATIC_CACHE = CACHE_VERSION + '-static';
 const DOCS_CACHE   = CACHE_VERSION + '-docs';
 
+const STATIC_PATHS = [
+  './',
+  './index.html',
+];
+
+const DOCS_PATHS = [
+  './_sidebar.md',
+  './README.md',
+  './docs/NEWS.md',
+  './docs/CHANGELOG.md',
+  './docs/BENCHMARKS.md',
+  './docs/CLAUDE_CODE.md',
+  './docs/INTERVIEW.md',
+  './docs/PROMPTS.md',
+  './docs/TOOLS.md',
+];
+
 const STATIC_ASSETS = [
-  '/awesome-anthropic/',
-  '/awesome-anthropic/index.html',
   'https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&display=swap',
   'https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js',
   'https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css',
   'https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js',
 ];
 
-const DOCS_ASSETS = [
-  '/awesome-anthropic/_sidebar.md',
-  '/awesome-anthropic/README.md',
-  '/awesome-anthropic/docs/NEWS.md',
-  '/awesome-anthropic/docs/CHANGELOG.md',
-  '/awesome-anthropic/docs/BENCHMARKS.md',
-  '/awesome-anthropic/docs/CLAUDE_CODE.md',
-  '/awesome-anthropic/docs/INTERVIEW.md',
-  '/awesome-anthropic/docs/PROMPTS.md',
-  '/awesome-anthropic/docs/TOOLS.md',
-];
+function scopedUrl(path) {
+  return new URL(path, self.registration.scope).toString();
+}
+
+function getStaticAssets() {
+  return STATIC_PATHS.map(scopedUrl).concat(STATIC_ASSETS);
+}
+
+function getDocsAssets() {
+  return DOCS_PATHS.map(scopedUrl);
+}
 
 // Install: cache static assets
 self.addEventListener('install', function(e) {
   self.skipWaiting();
   e.waitUntil(
-    caches.open(STATIC_CACHE).then(function(cache) {
-      return cache.addAll(STATIC_ASSETS).catch(function(err) {
-        console.warn('[SW] Static prefetch failed (non-fatal):', err);
-      });
-    })
+    Promise.all([
+      caches.open(STATIC_CACHE).then(function(cache) {
+        return cache.addAll(getStaticAssets()).catch(function(err) {
+          console.warn('[SW] Static prefetch failed (non-fatal):', err);
+        });
+      }),
+      caches.open(DOCS_CACHE).then(function(cache) {
+        return cache.addAll(getDocsAssets()).catch(function(err) {
+          console.warn('[SW] Docs prefetch failed (non-fatal):', err);
+        });
+      }),
+    ])
   );
 });
 
@@ -54,6 +76,7 @@ self.addEventListener('activate', function(e) {
 // Fetch: strategy depends on resource type
 self.addEventListener('fetch', function(e) {
   var url = e.request.url;
+  var requestPath = new URL(url).pathname;
 
   // Skip non-GET and non-http(s) requests
   if (e.request.method !== 'GET' || !url.startsWith('http')) return;
@@ -62,7 +85,9 @@ self.addEventListener('fetch', function(e) {
   if (url.includes('firebaseio.com') || url.includes('reddit.com/r/') || url.includes('nitter')) return;
 
   // Docs (markdown) — network first, fallback to cache
-  var isDoc = DOCS_ASSETS.some(function(d) { return url.endsWith(d) || url.includes(d.split('/').pop()); });
+  var isDoc = getDocsAssets().some(function(docUrl) {
+    return requestPath === new URL(docUrl).pathname;
+  });
   if (isDoc) {
     e.respondWith(
       fetch(e.request).then(function(res) {

@@ -67,6 +67,7 @@ class TestGenerateSocialPosts(unittest.TestCase):
         self.assertIn("## Reddit", out)
         self.assertIn("## Hacker News", out)
         self.assertIn("Story One", out)
+        self.assertIn(social.REPO_URL, out)
 
     def test_build_markdown_fallback_text_when_empty(self):
         out = social.build_markdown("February 27, 2026", [], [])

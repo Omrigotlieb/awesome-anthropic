@@ -22,6 +22,7 @@ OUT_ROOT = ROOT / "data" / "distribution"
 SITE_URL = "https://omrigotlieb.github.io/awesome-anthropic/"
 NEWS_URL = f"{SITE_URL}#/docs/NEWS"
 RSS_URL = f"{SITE_URL}rss.xml"
+REPO_URL = "https://github.com/Omrigotlieb/awesome-anthropic"
 
 
 def parse_date(text: str) -> str:
@@ -94,8 +95,9 @@ def build_markdown(date: str, stories: list[dict[str, str | int]], ann: list[dic
         f"1) {s1}\n"
         f"2) {s2}\n"
         f"3) {s3}\n\n"
-        f"Dashboard: {SITE_URL}\n"
-        f"RSS: {RSS_URL}"
+        f"Track it here:\n"
+        f"Repo: {REPO_URL}\n"
+        f"Dashboard: {SITE_URL}"
     )
 
     linkedin_post = (
@@ -105,7 +107,8 @@ def build_markdown(date: str, stories: list[dict[str, str | int]], ann: list[dic
         f"• {s2}\n"
         f"• {a1}\n\n"
         f"For builders tracking Claude Code and Anthropic product movement:\n"
-        f"{NEWS_URL}"
+        f"{NEWS_URL}\n\n"
+        f"Repository: {REPO_URL}"
     )
 
     reddit_post = (
@@ -115,11 +118,15 @@ def build_markdown(date: str, stories: list[dict[str, str | int]], ann: list[dic
         f"- {s2}\n"
         f"- {s3}\n\n"
         f"Full feed: {NEWS_URL}\n"
+        f"Repo: {REPO_URL}\n"
         f"RSS: {RSS_URL}"
     )
 
     hn_title = f"Daily Claude + Anthropic digest ({date}): {str(top.get('title', s1))[:80]}"
-    hn_body = f"Tracking daily product, release, and community signals here: {SITE_URL}"
+    hn_body = (
+        f"Tracking daily product, release, and community signals here: {SITE_URL} "
+        f"Repository: {REPO_URL}"
+    )
 
     lines = [
         f"# Daily Social Distribution Copy — {date}",

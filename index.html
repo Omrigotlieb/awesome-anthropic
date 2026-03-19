@@ -14,7 +14,7 @@
   <meta property="og:description" content="Daily-updated curated resources for Claude AI and Anthropic. Prompts, tools, SDK releases, research papers, community news." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://omrigotlieb.github.io/awesome-anthropic/" />
-  <meta property="og:image" content="https://www.anthropic.com/images/index/og-anthropic-index.jpg" />
+  <meta property="og:image" content="https://omrigotlieb.github.io/awesome-anthropic/assets/img/og-awesome-anthropic.svg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:site_name" content="Awesome Anthropic" />
@@ -24,8 +24,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Awesome Anthropic — Curated Claude & Anthropic Resources" />
   <meta name="twitter:description" content="Daily-updated curated resources for Claude AI and Anthropic. Prompts, tools, SDK releases, research papers, community news." />
-  <meta name="twitter:image" content="https://www.anthropic.com/images/index/og-anthropic-index.jpg" />
-  <meta name="twitter:site" content="@AnthropicAI" />
+  <meta name="twitter:image" content="https://omrigotlieb.github.io/awesome-anthropic/assets/img/og-awesome-anthropic.svg" />
 
   <!-- RSS Autodiscovery -->
   <link rel="alternate" type="application/rss+xml" title="Awesome Anthropic News Feed" href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" />
@@ -191,9 +190,16 @@
     .dash-mhead-title { font-family:'DM Serif Display',serif; font-size:1.5rem; background:linear-gradient(135deg,#c96840 0%,#d97757 55%,#ae5630 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; line-height:1.15; letter-spacing:-.02em; }
     .dash-mhead-sub { font-family:'Inter',sans-serif; font-size:.68rem; color:#7a6a5a; }
     .dash-mhead-stats { display:flex; gap:2rem; }
+    .dash-mhead-actions { display:flex; gap:.75rem; flex-wrap:wrap; position:relative; z-index:1; }
     .dash-stat { text-align:center; }
     .dash-stat-num { display:block; font-family:'DM Serif Display',serif; font-size:1.5rem; color:#d97757; line-height:1; }
     .dash-stat-label { display:block; font-family:'Inter',sans-serif; font-size:.67rem; color:#7a6a5a; text-transform:uppercase; letter-spacing:.1em; margin-top:4px; font-weight:600; }
+    .dash-cta { display:inline-flex; align-items:center; justify-content:center; gap:.4rem; min-height:42px; padding:0 16px; border-radius:999px; font-family:'Inter',sans-serif; font-size:.8rem; font-weight:700; text-decoration:none; border:none !important; transition:transform .12s, background .12s, color .12s, box-shadow .12s; }
+    .dash-cta:hover { transform:translateY(-1px); }
+    .dash-cta-primary { background:var(--anthro-orange); color:#fff !important; box-shadow:0 10px 24px rgba(217,119,87,.2); }
+    .dash-cta-primary:hover { background:var(--anthro-rust); }
+    .dash-cta-secondary { background:#fff; color:var(--anthro-rust) !important; border:1px solid rgba(174,86,48,.18) !important; }
+    .dash-cta-secondary:hover { background:var(--anthro-cream); }
 
     /* ── Source image backgrounds (Imagen 4 generated) ── */
     .ci-hn        { background:linear-gradient(to bottom,rgba(0,0,0,.08) 0%,rgba(0,0,0,.45) 100%),url('assets/img/thumb-hn.jpg') center/cover no-repeat; }
@@ -468,6 +474,7 @@
       .ws-4  { grid-column:span 3; }
       .wr-2  { grid-row:span 1; }
       .dash-mhead-stats { flex-wrap:wrap; gap:1rem; }
+      .dash-mhead-actions { width:100%; }
       .dash-masthead { flex-direction:column; align-items:flex-start; }
       .news-card-grid { grid-template-columns:repeat(2,1fr); }
       .news-card-lead { grid-template-columns:1fr; }
@@ -1396,6 +1403,10 @@
         '<div class="dash-stat"><span class="dash-stat-num">'+(lead.score||'—')+'</span><span class="dash-stat-label">Top Score</span></div>'+
         '<div class="dash-stat"><span class="dash-stat-num">'+stories.length+'</span><span class="dash-stat-label">Stories Today</span></div>'+
       '</div>'+
+      '<div class="dash-mhead-actions">'+
+        '<a href="https://github.com/Omrigotlieb/awesome-anthropic/stargazers" target="_blank" rel="noopener" class="dash-cta dash-cta-primary">Star on GitHub</a>'+
+        '<a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new?template=add-resource.md" target="_blank" rel="noopener" class="dash-cta dash-cta-secondary">Suggest a resource</a>'+
+      '</div>'+
     '</div>';
 
     /* Lead story: full-image with title overlay */
@@ -1669,7 +1680,7 @@
     };
     var qsTabs = [['py','Python'],['ts','TypeScript'],['curl','cURL']];
     var qsTabsHtml = qsTabs.map(function(t,i){
-      return '<button class="dash-qs-tab'+(i===0?' active':'')+'" data-lang="'+t[0]+'" onclick="dashQsTab(\''+qsId+'\',\''+t[0]+'\')">'+t[1]+'</button>';
+      return '<button class="dash-qs-tab qs-tab'+(i===0?' active':'')+'" data-lang="'+t[0]+'" onclick="dashQsTab(\''+qsId+'\',\''+t[0]+'\')">'+t[1]+'</button>';
     }).join('');
     var qsPanesHtml = qsTabs.map(function(t,i){
       return '<div class="dash-qs-pane'+(i===0?' active':'')+'" data-lang="'+t[0]+'">'+
@@ -1692,14 +1703,14 @@
     /* Model picker */
     var mpOptsHtml =
       '<div class="dash-mp-opts" id="dash-mp-opts">'+
-        '<button class="dash-mp-opt" onclick="dashMpPick(\'value\')">💰 Best Value</button>'+
-        '<button class="dash-mp-opt" onclick="dashMpPick(\'speed\')">⚡ Fastest</button>'+
-        '<button class="dash-mp-opt" onclick="dashMpPick(\'smart\')">🧠 Most Intelligent</button>'+
-        '<button class="dash-mp-opt" onclick="dashMpPick(\'code\')">💻 Coding / Agents</button>'+
-        '<button class="dash-mp-opt" onclick="dashMpPick(\'vision\')">👁️ Vision / Images</button>'+
-        '<button class="dash-mp-opt" onclick="dashMpPick(\'long\')">📄 Long Documents</button>'+
+        '<button class="dash-mp-opt mp-btn" onclick="dashMpPick(\'value\')">💰 Best Value</button>'+
+        '<button class="dash-mp-opt mp-btn" onclick="dashMpPick(\'speed\')">⚡ Fastest</button>'+
+        '<button class="dash-mp-opt mp-btn" onclick="dashMpPick(\'smart\')">🧠 Most Intelligent</button>'+
+        '<button class="dash-mp-opt mp-btn" onclick="dashMpPick(\'code\')">💻 Coding / Agents</button>'+
+        '<button class="dash-mp-opt mp-btn" onclick="dashMpPick(\'vision\')">👁️ Vision / Images</button>'+
+        '<button class="dash-mp-opt mp-btn" onclick="dashMpPick(\'long\')">📄 Long Documents</button>'+
       '</div>'+
-      '<div id="dash-mp-res"></div>';
+      '<div id="dash-mp-res" class="mp-result"></div>';
     var mpW='<div class="dash-widget ws-6">'+
       '<div class="dash-wh"><span class="dash-wh-icon">🎯</span><span class="dash-wh-label">Which Claude?</span>'+
         '<a href="#/docs/BENCHMARKS" class="dash-wh-link">Compare models →</a></div>'+
@@ -1775,9 +1786,10 @@
 
         hook.afterEach(function(html) {
           return html + '<footer class="page-footer">'+
-            '<span>Auto-updated daily &middot; Claude &amp; Anthropic resources</span>'+
+            '<span>Auto-updated daily &middot; Claude &amp; Anthropic resources &middot; <a href="https://github.com/Omrigotlieb/awesome-anthropic/stargazers" target="_blank">Star the repo</a></span>'+
             '<span>'+
               '<a href="https://github.com/Omrigotlieb/awesome-anthropic" target="_blank">GitHub</a> &middot; '+
+              '<a href="https://github.com/Omrigotlieb/awesome-anthropic/stargazers" target="_blank">Stargazers</a> &middot; '+
               '<a href="https://github.com/Omrigotlieb/awesome-anthropic/blob/main/CONTRIBUTING.md" target="_blank">Contribute</a> &middot; '+
               '<a href="https://github.com/Omrigotlieb/awesome-anthropic/issues/new" target="_blank">Report Issue</a>'+
             '</span>'+
@@ -1964,7 +1976,8 @@
 /* ── Service Worker registration ─────────────────────── */
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/awesome-anthropic/sw.js')
+    var swBase = window.location.pathname.indexOf('/awesome-anthropic/') === 0 ? '/awesome-anthropic/' : '/';
+    navigator.serviceWorker.register(swBase + 'sw.js')
       .then(function(reg) { console.log('[SW] Registered, scope:', reg.scope); })
       .catch(function(err) { console.warn('[SW] Registration failed:', err); });
   });
