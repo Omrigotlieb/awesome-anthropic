@@ -51,7 +51,7 @@ EDITORIAL_SAMPLE_NEWS = """# Anthropic News Feed
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79) | ## What's changed  - Added `--console` flag to `claude auth login` for Anthropic Console (API billing) |
+| [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80) | ## What's changed  - Added `rate_limits` field to statusline scripts for displaying Claude.ai rate limit usage |
 
 ---
 
@@ -259,7 +259,8 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             self.assertIn("Article 4", blog_content)
             self.assertIn("Article 5", blog_content)
             self.assertIn("### Source Trail", blog_content)
-            self.assertIn("claude-code v2.1.79", blog_content)
+            self.assertIn("claude-code v2.1.80", blog_content)
+            self.assertIn("rate_limits", blog_content)
 
 
 if __name__ == "__main__":

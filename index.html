@@ -173,6 +173,32 @@
     /* Widget base */
     .dash-widget { background:var(--card-bg); border:1px solid var(--anthro-border); border-radius:var(--card-r); overflow:hidden; display:flex; flex-direction:column; box-shadow:0 1px 4px rgba(20,12,5,.05); }
     .dash-brief-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; padding:1rem 1.1rem; }
+    .dash-blog-grid { display:grid; grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr); gap:1rem; padding:1rem 1.1rem; }
+    .dash-blog-main { display:flex; flex-direction:column; gap:.85rem; min-width:0; }
+    .dash-blog-summary { font-family:'Inter',sans-serif; font-size:.84rem; color:#3a3530; line-height:1.62; }
+    .dash-blog-stats { display:flex; flex-wrap:wrap; gap:8px; }
+    .dash-blog-stat { display:inline-flex; align-items:center; padding:4px 10px; border-radius:999px; background:rgba(217,119,87,.08); border:1px solid rgba(217,119,87,.18); font-family:'Inter',sans-serif; font-size:.67rem; font-weight:700; color:var(--anthro-rust); letter-spacing:.04em; }
+    .dash-blog-takeaways { margin:0; padding-left:1rem; font-family:'Inter',sans-serif; font-size:.82rem; color:#3a3530; }
+    .dash-blog-takeaways li { margin:.25rem 0; line-height:1.45; }
+    .dash-blog-deck { display:grid; gap:.7rem; min-width:0; }
+    .dash-blog-card { background:linear-gradient(180deg,#fff 0%,#fcfaf6 100%); border:1px solid rgba(217,119,87,.18); border-radius:16px; padding:.82rem .9rem; box-shadow:0 6px 18px rgba(20,12,5,.04); }
+    .dash-blog-kicker { font-family:'Inter',sans-serif; font-size:.6rem; font-weight:700; color:var(--anthro-mid); text-transform:uppercase; letter-spacing:.1em; margin-bottom:.35rem; }
+    .dash-blog-title-link { text-decoration:none !important; border-bottom:none !important; display:block; }
+    .dash-blog-title { font-family:'DM Serif Display',serif; font-size:1.02rem; color:var(--anthro-dark); line-height:1.2; margin-bottom:.5rem; transition:color .15s; }
+    .dash-blog-title-link:hover .dash-blog-title { color:var(--anthro-orange); }
+    .dash-blog-meta { display:flex; align-items:center; justify-content:space-between; gap:.7rem; font-family:'Inter',sans-serif; font-size:.7rem; color:#6e6257; }
+    .dash-blog-source { color:var(--anthro-rust); text-decoration:none; border-bottom:none !important; font-weight:600; }
+    .dash-blog-source:hover { color:var(--anthro-orange); }
+    .dash-blog-more { font-family:'Inter',sans-serif; font-size:.72rem; color:var(--anthro-mid); padding:0 .15rem; }
+    .dash-blog-sources { display:flex; flex-wrap:wrap; gap:6px; }
+    .dash-blog-chip { display:inline-flex; align-items:center; max-width:100%; padding:4px 10px; border-radius:999px; background:#fff; border:1px solid var(--anthro-border); font-family:'Inter',sans-serif; font-size:.67rem; color:#5f574d; text-decoration:none !important; border-bottom:none !important; }
+    .dash-blog-chip:hover { color:var(--anthro-rust); border-color:rgba(217,119,87,.3); }
+    .dash-blog-signalbar { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.7rem; }
+    .dash-blog-signal { background:rgba(255,255,255,.78); border:1px solid var(--anthro-border); border-radius:14px; padding:.72rem .8rem; min-width:0; }
+    .dash-blog-signal[data-state="stale"] { background:rgba(217,119,87,.07); border-color:rgba(217,119,87,.24); }
+    .dash-blog-signal[data-state="fresh"] { background:rgba(34,197,94,.06); border-color:rgba(34,197,94,.2); }
+    .dash-blog-signal-label { font-family:'Inter',sans-serif; font-size:.58rem; font-weight:700; letter-spacing:.11em; text-transform:uppercase; color:var(--anthro-mid); margin-bottom:.28rem; }
+    .dash-blog-signal-value { font-family:'DM Serif Display',serif; font-size:.98rem; color:var(--anthro-dark); line-height:1.15; }
 
     /* Widget header */
     .dash-wh { padding:11px 15px 10px; border-bottom:1px solid var(--anthro-border); display:flex; align-items:center; gap:7px; flex-shrink:0; }
@@ -480,12 +506,14 @@
       .news-card-lead { grid-template-columns:1fr; }
       .news-card-lead .card-image { height:200px; }
       .dash-brief-grid { grid-template-columns:1fr; }
+      .dash-blog-grid { grid-template-columns:1fr; }
     }
     @media (max-width:700px) {
       .dash-mode .markdown-section { padding:.8rem !important; }
       .dash-grid { grid-template-columns:1fr; gap:8px; }
       .ws-12, .ws-4 { grid-column:span 1; }
       .news-card-grid { grid-template-columns:1fr; }
+      .dash-blog-signalbar { grid-template-columns:1fr; }
       .markdown-section { padding:1.2rem 1rem; }
       .markdown-section h1 { font-size:1.8rem; }
     }
@@ -662,6 +690,22 @@
   function stripMd(str) {
     return String(str).replace(/\[([^\]]*)\]\([^)]*\)/g,'$1').replace(/\*\*([^*]*)\*\*/g,'$1').replace(/\*([^*]*)\*/g,'$1').trim();
   }
+  function sourceHost(href) {
+    var raw = String(href||'').trim();
+    if (!raw) return '';
+    try { return (new URL(raw)).hostname.replace(/^www\./,''); }
+    catch(e) { return raw.replace(/^https?:\/\//,'').split('/')[0].replace(/^www\./,''); }
+  }
+  function isFirstPartySource(href) {
+    var raw = String(href||'').trim();
+    var host = sourceHost(raw);
+    if (!host) return false;
+    if (host === 'anthropic.com' || host.endsWith('.anthropic.com')) return true;
+    if (host === 'claude.com' || host.endsWith('.claude.com')) return true;
+    if (host === 'claude.ai' || host.endsWith('.claude.ai')) return true;
+    if (host === 'github.com') return /^https?:\/\/github\.com\/anthropics\//i.test(raw);
+    return false;
+  }
   function timeAgo(utc) {
     var d = Date.now()/1000 - utc;
     if (d < 3600) return Math.floor(d/60)+'m ago';
@@ -772,18 +816,53 @@
     };
   }
   function parseDailyBlog(text) {
-    if (!text) return { date: '', summary: '', takeaways: [] };
+    if (!text) return { date: '', summary: '', takeaways: [], articles: [], sources: [], lagDays: null, officialSourceCount: 0, communityRefs: 0 };
     var dateMatch = text.match(/^##\s+([^\n]+)/m);
-    var summaryMatch = text.match(/###\s+Executive Summary[\s\S]*?\n\n([^\n]+)/);
+    var lagMatch = text.match(/lags by\s+(\d+)\s+day\(s\)/i) || text.match(/Freshness risk:\s+snapshot is\s+(\d+)\s+day\(s\)/i);
+    var summaryLines = parseSection(text, 'Executive Summary')
+      .map(function(l){ return l.trim(); })
+      .filter(function(l){ return l && !l.startsWith('#') && !l.startsWith('- '); })
+      .map(stripMd)
+      .slice(0, 2);
     var takeaways = parseSection(text, 'Key Takeaways')
       .map(function(l){ return l.trim(); })
       .filter(function(l){ return l.startsWith('- '); })
       .map(function(l){ return stripMd(l.replace(/^- /, '').trim()); })
       .slice(0, 3);
+    var articles = [];
+    var articleRe = /###\s+(Article\s+\d+)\s+—\s+([^\n]+)\n\n\*\*News peg \(([^)]+)\):\*\*\s+\[([^\]]+)\]\(([^)]+)\)/g;
+    var match;
+    while ((match = articleRe.exec(text)) && articles.length < 6) {
+      articles.push({
+        label: match[1].trim(),
+        title: stripMd(match[2].trim()),
+        date: match[3].trim(),
+        sourceTitle: match[4].trim(),
+        sourceUrl: match[5].trim()
+      });
+    }
+    var communityRefs = parseSection(text, 'Top Stories Referenced')
+      .map(function(l){ return l.trim(); })
+      .filter(function(l){ return l.startsWith('- '); })
+      .length;
+    var sources = parseSection(text, 'Source Trail')
+      .map(function(l){ return l.trim(); })
+      .filter(function(l){ return l.startsWith('- '); })
+      .map(function(l){
+        var lk = parseMdLink(l.replace(/^- /, '').trim());
+        return { title: lk.text, href: lk.href, host: sourceHost(lk.href), isFirstParty: isFirstPartySource(lk.href) };
+      })
+      .slice(0, 6);
+    var officialSourceCount = sources.filter(function(source){ return source.isFirstParty; }).length;
     return {
       date: dateMatch ? dateMatch[1].trim() : '',
-      summary: summaryMatch ? stripMd(summaryMatch[1].trim()) : '',
-      takeaways: takeaways
+      summary: summaryLines.join(' '),
+      takeaways: takeaways,
+      articles: articles,
+      sources: sources,
+      lagDays: lagMatch ? Number(lagMatch[1]) : null,
+      officialSourceCount: officialSourceCount,
+      communityRefs: communityRefs
     };
   }
 
@@ -1636,15 +1715,64 @@
     /* Daily blog post */
     var blog = d.blog || {};
     var blogTakeaways = (blog.takeaways||[]).map(function(item){
-      return '<li style="margin:.25rem 0;line-height:1.45;">'+escHtml(item)+'</li>';
+      return '<li>'+escHtml(item)+'</li>';
     }).join('');
+    var blogArticles = (blog.articles||[]).slice(0,3).map(function(article){
+      return '<div class="dash-blog-card">'+
+        '<div class="dash-blog-kicker">'+escHtml(article.label)+' · '+escHtml(article.date)+'</div>'+
+        '<a href="#/docs/DAILY_BLOG" class="dash-blog-title-link"><div class="dash-blog-title">'+escHtml(article.title)+'</div></a>'+
+        '<div class="dash-blog-meta">'+
+          '<span>Full post →</span>'+
+          '<a href="'+escHtml(article.sourceUrl)+'" target="_blank" rel="noopener" class="dash-blog-source">'+escHtml(article.sourceTitle)+' ↗</a>'+
+        '</div>'+
+      '</div>';
+    }).join('');
+    var blogSources = (blog.sources||[]).slice(0,4).map(function(source){
+      return '<a href="'+escHtml(source.href)+'" target="_blank" rel="noopener" class="dash-blog-chip">'+escHtml(source.title)+'</a>';
+    }).join('');
+    var blogArticleCount = (blog.articles||[]).length;
+    var blogSourceCount = (blog.sources||[]).length;
+    var blogLagDays = typeof blog.lagDays === 'number' ? blog.lagDays : lagDays;
+    var blogLagLabel = blogLagDays === null ? 'Unknown' : (blogLagDays > 0 ? ('Lag ' + blogLagDays + ' day(s)') : 'Current');
+    var blogLagState = blogLagDays === null ? 'unknown' : (blogLagDays > 0 ? 'stale' : 'fresh');
+    var blogOfficialSourceCount = blog.officialSourceCount || 0;
+    var blogCommunityRefCount = blog.communityRefs || 0;
+    var blogSignalBar = '<div class="dash-blog-signalbar">'+
+      '<div class="dash-blog-signal" data-state="'+escHtml(blogLagState)+'">'+
+        '<div class="dash-blog-signal-label">Snapshot freshness</div>'+
+        '<div class="dash-blog-signal-value">'+escHtml(blogLagLabel)+'</div>'+
+      '</div>'+
+      '<div class="dash-blog-signal">'+
+        '<div class="dash-blog-signal-label">First-party sources</div>'+
+        '<div class="dash-blog-signal-value">'+escHtml(String(blogOfficialSourceCount))+' of '+escHtml(String(blogSourceCount||0))+'</div>'+
+      '</div>'+
+      '<div class="dash-blog-signal">'+
+        '<div class="dash-blog-signal-label">Community refs</div>'+
+        '<div class="dash-blog-signal-value">'+escHtml(String(blogCommunityRefCount))+' referenced</div>'+
+      '</div>'+
+    '</div>';
+    var blogMore = blogArticleCount > 3
+      ? '<div class="dash-blog-more">+'+escHtml(String(blogArticleCount - 3))+' more article briefs in the full post</div>'
+      : '';
     var blogW = '<div class="dash-widget ws-12">'+
       '<div class="dash-wh"><span class="dash-wh-icon">✍️</span><span class="dash-wh-label">Daily Blog Post</span>'+
         '<span style="font-family:Inter,sans-serif;font-size:.62rem;color:var(--anthro-mid);">'+escHtml(blog.date||d.newsDate||'')+'</span>'+
         '<a href="#/docs/DAILY_BLOG" class="dash-wh-link">Read post →</a></div>'+
-      '<div style="padding:1rem 1.1rem;">'+
-        '<div style="font-family:Inter,sans-serif;font-size:.84rem;color:#3a3530;line-height:1.55;margin-bottom:.75rem;">'+escHtml(blog.summary||'No blog summary available for this run.')+'</div>'+
-        '<ul style="margin:0;padding-left:1rem;font-family:Inter,sans-serif;font-size:.82rem;color:#3a3530;">'+(blogTakeaways||'<li>No key takeaways yet.</li>')+'</ul>'+
+      '<div class="dash-blog-grid">'+
+        '<div class="dash-blog-main">'+
+          '<div class="dash-blog-summary">'+escHtml(blog.summary||'No blog summary available for this run.')+'</div>'+
+          '<div class="dash-blog-stats">'+
+            '<span class="dash-blog-stat">'+escHtml(String(blogArticleCount||0))+' article briefs</span>'+
+            '<span class="dash-blog-stat">'+escHtml(String(blogSourceCount||0))+' linked sources</span>'+
+          '</div>'+
+          blogSignalBar+
+          '<ul class="dash-blog-takeaways">'+(blogTakeaways||'<li>No key takeaways yet.</li>')+'</ul>'+
+          '<div class="dash-blog-sources">'+(blogSources||'<span class="dash-blog-stat">No source trail yet</span>')+'</div>'+
+        '</div>'+
+        '<div class="dash-blog-deck">'+
+          (blogArticles||'<div class="dash-blog-card"><div class="dash-blog-kicker">Article deck</div><div class="dash-blog-title">No article previews available for this run.</div></div>')+
+          blogMore+
+        '</div>'+
       '</div>'+
     '</div>';
 

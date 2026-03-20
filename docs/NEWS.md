@@ -40,6 +40,7 @@ We're donating to the Linux Foundation to](https://x.com/AnthropicAI/status/2033
 
 | Release | Highlights |
 |---------|------------|
+| [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80) | ## What's changed  - Added `rate_limits` field to statusline scripts for displaying Claude.ai rate limit usage |
 | [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79) | ## What's changed  - Added `--console` flag to `claude auth login` for Anthropic Console (API billin |
 | [claude-code-action v1.0.75](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.75) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.75 |
 | [claude-code-action v1.0.74](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.74) | ## What's Changed * Restore .claude/ and .mcp.json from PR base branch before CLI runs by @km-anthro |

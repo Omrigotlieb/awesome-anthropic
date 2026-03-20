@@ -6,7 +6,7 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 - [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific)
@@ -27,7 +27,7 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 - Claude Code release cadence remains a leading indicator for developer workflow changes.
 - Official Anthropic announcements should stay clearly separated from community commentary in daily reporting.
-- Daily brief freshness should be visible on the dashboard so readers can quickly assess data recency.
+- Dashboard freshness and first-party-source mix should stay visible so readers can judge recency and trust quickly.
 
 ## Website Improvement Backlog
 

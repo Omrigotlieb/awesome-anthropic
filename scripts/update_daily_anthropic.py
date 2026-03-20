@@ -233,6 +233,8 @@ def _build_release_article(release: tuple[str, str, str, str]) -> list[str]:
     clean_highlight = highlight.replace("## What's changed", "").strip(" -")
     if "--console" in clean_highlight and "claude auth login" in clean_highlight:
         clean_highlight = "Added `--console` flag to `claude auth login` for Anthropic Console billing flows."
+    if "rate_limits" in clean_highlight and "statusline scripts" in clean_highlight:
+        clean_highlight = "Added `rate_limits` field to statusline scripts so Claude.ai users can track 5-hour and 7-day rate-limit usage."
     clean_highlight = clean_highlight.rstrip(".")
     return _blog_story_section(
         "Article 5 — Release watch: Claude Code keeps shipping workflow polish at a rapid clip",
@@ -358,7 +360,7 @@ def write_daily_brief(today: str) -> None:
             "",
             "- Claude Code release cadence remains a leading indicator for developer workflow changes.",
             "- Official Anthropic announcements should stay clearly separated from community commentary in daily reporting.",
-            "- Daily brief freshness should be visible on the dashboard so readers can quickly assess data recency.",
+            "- Dashboard freshness and first-party-source mix should stay visible so readers can judge recency and trust quickly.",
             "",
             "## Website Improvement Backlog",
             "",
@@ -410,8 +412,8 @@ def write_daily_blog(today: str) -> None:
 
     story_lines = stories if stories else ["- No top stories were parsed from docs/NEWS.md."]
     improvements = [
-        "- Add a visible stale-data badge when snapshot lag is greater than 0 days.",
-        "- Show source diversity and announcement count as first-class dashboard metrics.",
+        "- Keep freshness and source-quality signals near the article deck so readers can assess recency at a glance.",
+        "- Add direct story deep links from dashboard cards once the blog format stabilizes.",
         "- Keep the Daily Brief and Daily Blog links in navigation for editorial continuity.",
     ]
     actions = [
