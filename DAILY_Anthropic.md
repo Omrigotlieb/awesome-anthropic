@@ -161,3 +161,13 @@ This file is checked first at the start of each daily automation run.
 - [This is unprecedented in the history of America](https://reddit.com/r/ClaudeAI/comments/1rwdqer/this_is_unprecedented_in_the_history_of_america/)
 - [Was loving Claude until I started feeding it feedback from ChatGPT Pro](https://reddit.com/r/ClaudeAI/comments/1rw1b8i/was_loving_claude_until_i_started_feeding_it/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-20
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [73% of AI spend now on Anthropic, OpenAI now down to 26%](https://reddit.com/r/ClaudeAI/comments/1rxb8k3/73_of_ai_spend_now_on_anthropic_openai_now_down/)
+- [Dear Anthropic: the ChatGPT refugees are here. Here’s why they’ll leave again.](https://reddit.com/r/ClaudeAI/comments/1rxle6k/dear_anthropic_the_chatgpt_refugees_are_here/)
+- [I built a list of 48 design skill files with custom styles for you to choose from for Claude](https://reddit.com/r/ClaudeAI/comments/1rx7v8i/i_built_a_list_of_48_design_skill_files_with/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

@@ -751,8 +751,9 @@
     return b;
   }
   function parseDailyBrief(text) {
-    if (!text) return { date: '', highlights: [], improvements: [] };
+    if (!text) return { date: '', highlights: [], improvements: [], lagDays: null };
     var dateMatch = text.match(/^##\s+([^\n]+)/m);
+    var lagMatch = text.match(/Snapshot lag:\s*(\d+)\s*day\(s\)/i);
     var highlights = parseSection(text, 'Verified Product and Research Updates')
       .map(function(l){ return l.trim(); })
       .filter(function(l){ return l.startsWith('- '); })
@@ -766,7 +767,8 @@
     return {
       date: dateMatch ? dateMatch[1].trim() : '',
       highlights: highlights,
-      improvements: improvements
+      improvements: improvements,
+      lagDays: lagMatch ? Number(lagMatch[1]) : null
     };
   }
   function parseDailyBlog(text) {
@@ -1606,9 +1608,18 @@
     var briefImprovements = (brief.improvements||[]).map(function(item){
       return '<li style="margin:.25rem 0;line-height:1.45;">'+escHtml(item)+'</li>';
     }).join('');
+    var lagDays = (typeof brief.lagDays === 'number' && !Number.isNaN(brief.lagDays)) ? brief.lagDays : null;
+    var lagBadgeLabel = lagDays === null ? 'Lag unknown' : (lagDays > 0 ? ('Stale +' + lagDays + 'd') : 'Fresh 0d');
+    var lagBadgeStyle = lagDays === null
+      ? 'background:rgba(107,114,128,.12);color:#4b5563;border:1px solid rgba(107,114,128,.28);'
+      : (lagDays > 0
+        ? 'background:rgba(217,119,87,.14);color:#ae5630;border:1px solid rgba(217,119,87,.32);'
+        : 'background:rgba(34,197,94,.12);color:#166534;border:1px solid rgba(34,197,94,.28);');
+    var lagBadge = '<span style="font-family:Inter,sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:999px;'+lagBadgeStyle+'">'+escHtml(lagBadgeLabel)+'</span>';
     var briefW = '<div class="dash-widget ws-12">'+
       '<div class="dash-wh"><span class="dash-wh-icon">🧾</span><span class="dash-wh-label">Daily Anthropic Brief</span>'+
         '<span style="font-family:Inter,sans-serif;font-size:.62rem;color:var(--anthro-mid);">'+escHtml(brief.date||d.newsDate||'')+'</span>'+
+        lagBadge+
         '<a href="#/docs/DAILY_ANTHROPIC" class="dash-wh-link">Open brief →</a></div>'+
       '<div class="dash-brief-grid">'+
         '<div>'+
@@ -1659,6 +1670,7 @@
           '<div style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--anthro-mid);font-family:Inter,sans-serif;margin-bottom:.45rem;">Freshness</div>'+
           '<ul style="margin:0;padding-left:1rem;font-family:Inter,sans-serif;font-size:.82rem;color:#3a3530;">'+
             '<li style="margin:.25rem 0;line-height:1.45;">News snapshot: '+escHtml(d.newsDate||'Unknown')+'</li>'+
+            '<li style="margin:.25rem 0;line-height:1.45;">Snapshot lag: '+escHtml(lagDays === null ? 'Unknown' : (String(lagDays)+' day(s)'))+'</li>'+
             '<li style="margin:.25rem 0;line-height:1.45;">Tracked top stories: '+stories.length+'</li>'+
             '<li style="margin:.25rem 0;line-height:1.45;">Source diversity: '+sourceCount+' sources</li>'+
             '<li style="margin:.25rem 0;line-height:1.45;">Official announcements: '+announces.length+'</li>'+
