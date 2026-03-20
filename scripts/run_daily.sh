@@ -31,6 +31,9 @@ git pull --rebase --quiet 2>&1 | tee -a "$LOG"
 log "Fetching news..."
 python3 scripts/fetch_news.py 2>&1 | tee -a "$LOG"
 
+log "Refreshing DAILY_Anthropic.md + daily docs after fetch..."
+python3 scripts/update_daily_anthropic.py 2>&1 | tee -a "$LOG"
+
 log "Generating RSS feed..."
 python3 scripts/generate_rss.py 2>&1 | tee -a "$LOG"
 
@@ -56,7 +59,7 @@ python3 scripts/notify_discord.py 2>&1 | tee -a "$LOG" || true
 python3 scripts/email_digest.py 2>&1 | tee -a "$LOG" || true
 
 # Commit and push if anything changed
-git add DAILY_Anthropic.md docs/DAILY_ANTHROPIC.md docs/NEWS.md docs/CHANGELOG.md README.md data/ rss.xml
+git add DAILY_Anthropic.md docs/DAILY_ANTHROPIC.md docs/DAILY_BLOG.md docs/NEWS.md docs/CHANGELOG.md README.md data/ rss.xml
 if [ -f "sitemap.xml" ]; then
   git add sitemap.xml
 fi
