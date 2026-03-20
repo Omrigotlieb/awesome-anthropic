@@ -632,6 +632,25 @@ test.describe('Dashboard widgets', () => {
     await expect(page.locator('.markdown-section')).toContainText('Community Buzz', { timeout: 15000 });
   });
 
+  test('Daily Blog widget previews article deck', async ({ page }) => {
+    const blogCards = page.locator('.dash-blog-card');
+    await expect(blogCards.first()).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('.dash-blog-stat').first()).toContainText('article briefs', { timeout: 15000 });
+  });
+
+  test('Daily Blog widget exposes source trail chips', async ({ page }) => {
+    const chips = page.locator('.dash-blog-chip');
+    await expect(chips.first()).toBeVisible({ timeout: 15000 });
+    const count = await chips.count();
+    expect(count).toBeGreaterThanOrEqual(2);
+  });
+
+  test('Daily Blog widget shows freshness and source quality signals', async ({ page }) => {
+    await expect(page.locator('.dash-blog-signal').filter({ hasText: 'Snapshot freshness' })).toBeVisible({ timeout: 15000 });
+    await expect(page.locator('.dash-blog-signal').filter({ hasText: 'First-party sources' })).toContainText('of', { timeout: 15000 });
+    await expect(page.locator('.dash-blog-signal').filter({ hasText: 'Community refs' })).toContainText('referenced', { timeout: 15000 });
+  });
+
   test('community buzz cards are rendered', async ({ page }) => {
     const tweets = page.locator('.dash-tweet');
     await expect(tweets.first()).toBeVisible({ timeout: 15000 });

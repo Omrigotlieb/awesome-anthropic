@@ -11,7 +11,7 @@ The current snapshot lags by 1 day(s), so the article deck stays anchored to the
 ### Key Takeaways
 
 - The daily run on 2026-03-20 uses the March 19, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.79.
+- Latest release tracked: claude-code v2.1.80.
 - Official channel signal remains active: Anthropic invests $100 million into the Claude Partner Network (March 13, 2026).
 - Freshness risk: snapshot is 1 day(s) old due to unavailable network fetch in this environment.
 
@@ -51,9 +51,9 @@ That makes this a useful builder story. The next phase of adoption is increasing
 
 ### Article 5 — Release watch: Claude Code keeps shipping workflow polish at a rapid clip
 
-**News peg (March 19, 2026):** [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79)
+**News peg (March 19, 2026):** [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80)
 
-The latest repository snapshot tracks [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79) as the current Claude Code release. The lead change surfaced in the feed is operational rather than flashy: Added `--console` flag to `claude auth login` for Anthropic Console billing flows.
+The latest repository snapshot tracks [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80) as the current Claude Code release. The lead change surfaced in the feed is operational rather than flashy: Added `rate_limits` field to statusline scripts so Claude.ai users can track 5-hour and 7-day rate-limit usage.
 
 That is still meaningful. The fastest-moving Claude Code improvements are increasingly about workflow polish, auth paths, and integration edges that reduce friction for heavy daily users. This repo should keep treating release-watch coverage as a standing article slot, because these smaller changes compound into real developer experience gains.
 
@@ -70,14 +70,14 @@ That is still meaningful. The fastest-moving Claude Code improvements are increa
 - March 12, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 - March 11, 2026: [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific)
 - March 19, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- March 19, 2026: [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80)
 - March 19, 2026: [claude-code v2.1.79](https://github.com/anthropics/claude-code/releases/tag/v2.1.79)
 - March 19, 2026: [claude-code-action v1.0.75](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.75)
-- March 19, 2026: [claude-code-action v1.0.74](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.74)
 
 ### Website Improvement Review
 
-- Add a visible stale-data badge when snapshot lag is greater than 0 days.
-- Show source diversity and announcement count as first-class dashboard metrics.
+- Keep freshness and source-quality signals near the article deck so readers can assess recency at a glance.
+- Add direct story deep links from dashboard cards once the blog format stabilizes.
 - Keep the Daily Brief and Daily Blog links in navigation for editorial continuity.
 
 ### Next Run Actions
