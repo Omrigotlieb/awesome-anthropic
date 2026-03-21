@@ -171,3 +171,13 @@ This file is checked first at the start of each daily automation run.
 - [Dear Anthropic: the ChatGPT refugees are here. Here’s why they’ll leave again.](https://reddit.com/r/ClaudeAI/comments/1rxle6k/dear_anthropic_the_chatgpt_refugees_are_here/)
 - [I built a list of 48 design skill files with custom styles for you to choose from for Claude](https://reddit.com/r/ClaudeAI/comments/1rx7v8i/i_built_a_list_of_48_design_skill_files_with/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-21
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+- [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
