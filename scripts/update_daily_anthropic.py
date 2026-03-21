@@ -143,8 +143,8 @@ def read_section_links(section_heading: str, title_col: int, limit: int = 5) -> 
 
 def _blog_intro(stale_days: int) -> list[str]:
     lines = [
-        "This edition upgrades the daily blog from a run log into a compact news desk.",
-        "Instead of only listing links, it turns the strongest current Anthropic signals into short articles that explain what changed, why it matters, and what builders should watch next.",
+        "This edition turns the daily log into a compact newsroom focused on product, release, and ecosystem signal.",
+        "Each article is generated from the current `docs/NEWS.md` snapshot so the editorial deck stays aligned with verified repository data.",
     ]
     if stale_days > 0:
         lines.append(
@@ -172,114 +172,167 @@ def _blog_story_section(
     return lines
 
 
-def _build_research_article(story: tuple[str, str, str, str]) -> list[str]:
-    title, url, _source, news_date = story
+def _compact(text: str, limit: int = 105) -> str:
+    clean = " ".join((text or "").replace("## What's changed", "").split()).strip()
+    if not clean:
+        return "No additional summary details were captured in this snapshot."
+    if len(clean) <= limit:
+        return clean
+    return clean[: limit - 1].rstrip() + "…"
+
+
+def _blog_angle(url: str, source: str) -> str:
+    host = url.lower()
+    source_l = source.lower()
+    if "anthropic.com/" in host:
+        return (
+            "This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation."
+        )
+    if "github.com/anthropics/claude-code" in host:
+        return (
+            "Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch."
+        )
+    if "github.com/anthropics/" in host:
+        return (
+            "SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly."
+        )
+    if source_l.startswith("r/"):
+        return (
+            "This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes."
+        )
+    return "This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage."
+
+
+def _build_dynamic_article(
+    article_num: int,
+    headline: str,
+    source_title: str,
+    url: str,
+    news_date: str,
+    source: str,
+    highlight: str,
+) -> list[str]:
     return _blog_story_section(
-        "Article 1 — Anthropic’s latest user study says the market wants leverage, not just faster chat",
+        f"Article {article_num} — {headline}",
         news_date,
-        title,
+        source_title,
         url,
         [
-            "Anthropic’s March 18 research reframes AI demand as a life-design question, not just a productivity race. The study covers 80,508 Claude users across 159 countries and 70 languages, and the biggest use-case cluster was professional excellence at 18.8% of responses. But the deeper signal is broader: people repeatedly asked for time, focus, learning, emotional support, and economic mobility.",
-            "For this repository, that changes the editorial target. The highest-signal Claude coverage is not generic benchmark talk. It is practical leverage: coding acceleration, research workflows, learning systems, personal organization, and entrepreneurship. The homepage and daily feed should keep highlighting concrete workflows that map back to those real user goals.",
-        ],
-    )
-
-
-def _build_partner_article(item: tuple[str, str, str]) -> list[str]:
-    title, url, news_date = item
-    return _blog_story_section(
-        "Article 2 — The $100 million Claude Partner Network is Anthropic’s enterprise distribution bet",
-        news_date,
-        title,
-        url,
-        [
-            "The Claude Partner Network announcement is a distribution story disguised as a program launch. Anthropic committed an initial $100 million to partner training, technical support, co-marketing, and joint market development, while also rolling out the first Claude technical certification and a code modernization starter kit.",
-            "That matters because it shows where Anthropic thinks enterprise adoption gets stuck: not at demo quality, but at implementation capacity, migration work, and moving from proof-of-concept to production. For readers here, partner coverage, certification resources, and migration playbooks deserve more attention because they are now part of Anthropic’s core go-to-market motion.",
-        ],
-    )
-
-
-def _build_institute_article(item: tuple[str, str, str]) -> list[str]:
-    title, url, news_date = item
-    return _blog_story_section(
-        "Article 3 — The Anthropic Institute makes governance and economic research part of the product story",
-        news_date,
-        title,
-        url,
-        [
-            "The Anthropic Institute turns safety, economic, and societal questions into a public-facing product line. Anthropic says the group will combine work across frontier red teaming, societal impacts, and economic research, and will publish what the company is learning as frontier systems get more capable. The launch also sits alongside expanded public policy hiring and a Washington, DC office opening in spring 2026.",
-            "This is strategically important because it signals that Anthropic wants to shape the policy narrative with first-party research, not occasional commentary. For this repo, governance coverage should not be treated as separate from product coverage anymore. Policy, economics, and capability are now part of the same news cycle.",
-        ],
-    )
-
-
-def _build_expansion_article(item: tuple[str, str, str]) -> list[str]:
-    title, url, news_date = item
-    return _blog_story_section(
-        "Article 4 — Sydney shows Anthropic is localizing enterprise coverage, not just scaling headcount",
-        news_date,
-        title,
-        url,
-        [
-            "Anthropic’s Sydney expansion is a regional demand signal, not just a hiring note. The company says Australia and New Zealand rank fourth and eighth globally in Claude.ai usage relative to population, and it explicitly ties the move to enterprise demand, local partnerships, and data-residency requirements.",
-            "That makes this a useful builder story. The next phase of adoption is increasingly local: regional compliance, infrastructure placement, consulting capacity, and customer success all matter more once products move beyond early-adopter enthusiasm. Coverage here should keep tracking where Anthropic is building local go-to-market capacity, not only what models it ships.",
-        ],
-    )
-
-
-def _build_release_article(release: tuple[str, str, str, str]) -> list[str]:
-    name, url, highlight, news_date = release
-    clean_highlight = highlight.replace("## What's changed", "").strip(" -")
-    if "--console" in clean_highlight and "claude auth login" in clean_highlight:
-        clean_highlight = "Added `--console` flag to `claude auth login` for Anthropic Console billing flows."
-    if "rate_limits" in clean_highlight and "statusline scripts" in clean_highlight:
-        clean_highlight = "Added `rate_limits` field to statusline scripts so Claude.ai users can track 5-hour and 7-day rate-limit usage."
-    clean_highlight = clean_highlight.rstrip(".")
-    return _blog_story_section(
-        "Article 5 — Release watch: Claude Code keeps shipping workflow polish at a rapid clip",
-        news_date,
-        name,
-        url,
-        [
-            f"The latest repository snapshot tracks [{name}]({url}) as the current Claude Code release. The lead change surfaced in the feed is operational rather than flashy: {clean_highlight}.",
-            "That is still meaningful. The fastest-moving Claude Code improvements are increasingly about workflow polish, auth paths, and integration edges that reduce friction for heavy daily users. This repo should keep treating release-watch coverage as a standing article slot, because these smaller changes compound into real developer experience gains.",
+            f"Snapshot update: {_compact(highlight, limit=220)}",
+            _blog_angle(url, source),
         ],
     )
 
 
 def build_blog_articles() -> list[str]:
-    story_rows = read_top_story_rows(limit=8, max_sections=1)
-    official_items = read_recent_section_links("📰 Official Announcements", title_col=0, limit=5, max_sections=10)
-    release_rows = read_release_rows(limit=8, max_sections=1)
+    story_rows = read_top_story_rows(limit=10, max_sections=1)
+    official_items = read_recent_section_links(
+        "📰 Official Announcements", title_col=0, limit=6, max_sections=10
+    )
+    release_rows = read_release_rows(limit=10, max_sections=1)
+
+    candidates: list[tuple[str, str, str, str, str, str]] = []
+    seen_urls: set[str] = set()
+
+    for title, url, news_date in official_items:
+        if not url or url in seen_urls:
+            continue
+        candidates.append(
+            (
+                "Official announcement watch",
+                title,
+                url,
+                news_date,
+                "Anthropic Blog",
+                title,
+            )
+        )
+        seen_urls.add(url)
+        if len(candidates) >= 3:
+            break
+
+    claude_code_release = next((row for row in release_rows if row[0].lower().startswith("claude-code ")), None)
+    if claude_code_release:
+        name, url, highlight, news_date = claude_code_release
+        if url and url not in seen_urls:
+            candidates.append(
+                (
+                    "Claude Code release watch",
+                    name,
+                    url,
+                    news_date,
+                    "GitHub Release",
+                    highlight or name,
+                )
+            )
+            seen_urls.add(url)
+
+    for title, url, source, news_date in story_rows:
+        if not url or url in seen_urls or "anthropic.com/" not in url:
+            continue
+        candidates.append(
+            (
+                "First-party story signal",
+                title,
+                url,
+                news_date,
+                source,
+                f"Top story source: {source}",
+            )
+        )
+        seen_urls.add(url)
+        break
+
+    for title, url, source, news_date in story_rows:
+        if not url or url in seen_urls:
+            continue
+        source_l = source.lower()
+        if source_l.startswith("r/"):
+            headline = "Community demand signal"
+        elif "github release" in source_l or "github.com/anthropics/" in url.lower():
+            headline = "Ecosystem release signal"
+        else:
+            headline = "Ecosystem watch signal"
+        candidates.append(
+            (
+                headline,
+                title,
+                url,
+                news_date,
+                source,
+                f"Top story source: {source}",
+            )
+        )
+        seen_urls.add(url)
+        if len(candidates) >= 5:
+            break
+
+    if not candidates:
+        return [
+            "### Article 1 — Snapshot quality gate: not enough structured signals",
+            "",
+            "**News peg (Unknown):** [Daily feed unavailable](https://www.anthropic.com/news)",
+            "",
+            "Snapshot update: The current feed did not include enough official, release, or top-story rows to produce article briefs.",
+            "",
+            "Run `python3 scripts/fetch_news.py` and rebuild the daily docs to restore article coverage.",
+            "",
+        ]
 
     sections: list[str] = []
-    feature_story = next((row for row in story_rows if "anthropic.com/" in row[1]), None)
-    partner_item = next((item for item in official_items if "partner network" in item[0].lower()), None)
-    institute_item = next((item for item in official_items if "institute" in item[0].lower()), None)
-    sydney_item = next((item for item in official_items if "sydney" in item[0].lower()), None)
-    claude_code_release = next((row for row in release_rows if row[0].lower().startswith("claude-code ")), None)
-
-    if feature_story:
-        sections.extend(_build_research_article(feature_story))
-    if partner_item:
-        sections.extend(_build_partner_article(partner_item))
-    if institute_item:
-        sections.extend(_build_institute_article(institute_item))
-    if sydney_item:
-        sections.extend(_build_expansion_article(sydney_item))
-    if claude_code_release:
-        sections.extend(_build_release_article(claude_code_release))
-
-    if sections:
-        return sections
-
-    return [
-        "### Article 1 — The feed has signal, but the article pipeline still needs more official sources",
-        "",
-        "The latest snapshot includes top stories, but there were not enough official or release signals parsed to build the full article deck. The next useful step is improving `docs/NEWS.md` source balance so the daily blog can consistently prioritize official announcements, research, and release notes over social chatter.",
-        "",
-    ]
+    for idx, (headline, title, url, news_date, source, highlight) in enumerate(candidates[:5], start=1):
+        sections.extend(
+            _build_dynamic_article(
+                article_num=idx,
+                headline=headline,
+                source_title=title,
+                url=url,
+                news_date=news_date,
+                source=source,
+                highlight=highlight,
+            )
+        )
+    return sections
 
 
 def write_daily_brief(today: str) -> None:
