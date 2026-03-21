@@ -22,11 +22,19 @@ log() { echo "[$(date -u '+%Y-%m-%d %H:%M:%S UTC')] $*" | tee -a "$LOG"; }
 log "=== awesome-anthropic daily update ==="
 cd "$REPO_DIR"
 
+DEFAULT_BRANCH="$(git symbolic-ref --short refs/remotes/origin/HEAD 2>/dev/null | sed 's#^origin/##')"
+if [ -z "$DEFAULT_BRANCH" ]; then
+  DEFAULT_BRANCH="main"
+fi
+
+log "Ensuring run executes on ${DEFAULT_BRANCH}..."
+git checkout "$DEFAULT_BRANCH" 2>&1 | tee -a "$LOG"
+
 log "Updating DAILY_Anthropic.md run log..."
 python3 scripts/update_daily_anthropic.py 2>&1 | tee -a "$LOG"
 
 # Pull latest changes first
-git pull --rebase --quiet 2>&1 | tee -a "$LOG"
+git pull --rebase --quiet origin "$DEFAULT_BRANCH" 2>&1 | tee -a "$LOG"
 
 log "Fetching news..."
 python3 scripts/fetch_news.py 2>&1 | tee -a "$LOG"
@@ -65,7 +73,7 @@ if [ -f "sitemap.xml" ]; then
 fi
 if ! git diff --staged --quiet; then
     git commit -m "chore(bot): daily update $(date -u +%Y-%m-%d)"
-    git push
+    git push origin "$DEFAULT_BRANCH"
     log "Pushed update to GitHub."
 else
     log "No changes to commit."
