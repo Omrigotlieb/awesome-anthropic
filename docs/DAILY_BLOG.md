@@ -1,53 +1,83 @@
 # Daily Anthropic Blog Post
 
-## March 20, 2026 — Shipping a More Reliable Daily Anthropic Desk
+## 2026-03-21 (news snapshot: March 21, 2026)
 
-Today’s release focused on one goal: make the daily Anthropic update loop more trustworthy for readers and easier to operate for maintainers.
+### Executive Summary
 
-## What We Published Today
+This edition turns the daily log into a compact newsroom focused on product, release, and ecosystem signal.
+Each article is generated from the current `docs/NEWS.md` snapshot so the editorial deck stays aligned with verified repository data.
 
-- Updated the daily tracking flow for Anthropic product/news coverage, including Claude Code release watch.
-- Refreshed the daily brief and dashboard context for the current run.
-- Captured and surfaced data freshness status when live fetch is unavailable.
+### Key Takeaways
 
-## What We Improved in the Website
+- The daily run on 2026-03-21 uses the March 21, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.81.
+- Official channel signal remains active: What 81,000 people want from AI (March 21, 2026).
 
-### 1) Freshness Is Now Explicit, Not Implicit
+### Latest News Articles
 
-The dashboard now parses and displays snapshot lag as a first-class status signal. Instead of forcing readers to infer recency from dates, the interface shows whether the run is fresh or stale and by how many days.
+### Article 1 — Official announcement watch
 
-Why this matters:
-- readers can immediately judge whether the feed reflects live conditions
-- editorial trust improves when data limitations are visible
-- operational teams can triage fetch/network issues faster
+**News peg (March 21, 2026):** [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 
-### 2) Daily Brief Context Is Easier to Scan
+Snapshot update: What 81,000 people want from AI
 
-The brief and dashboard now align on the same reliability cues: snapshot date, lag, source diversity, and release-watch visibility. This reduces ambiguity and keeps critical context in one glance.
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-## What We Improved in the Automation Pipeline
+### Article 2 — Official announcement watch
 
-### 1) Rebuild Brief/Blog After Fetch
+**News peg (March 21, 2026):** [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 
-The daily runner now regenerates `DAILY_Anthropic.md`, `docs/DAILY_ANTHROPIC.md`, and `docs/DAILY_BLOG.md` after `fetch_news.py` executes. This ensures the same run captures the latest available feed state instead of publishing stale narrative from pre-fetch data.
+Snapshot update: Anthropic invests $100 million into the Claude Partner Network
 
-### 2) Stage Daily Blog in Commit Set
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-`docs/DAILY_BLOG.md` is now explicitly staged in the automation commit flow, preventing content drift between generated editorial output and pushed repository state.
+### Article 3 — Official announcement watch
 
-## Current Snapshot Status
+**News peg (March 21, 2026):** [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 
-- Run date: March 20, 2026
-- News snapshot date: March 19, 2026
-- Lag: 1 day
-- Operational note: live fetch can degrade under DNS/network restrictions; lag remains visible on the dashboard until refreshed
+Snapshot update: Introducing The Anthropic Institute
 
-## Why This Matters for Builders
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-Daily AI reporting is only useful if it is both current and auditable. By exposing freshness directly, tightening pipeline ordering, and committing generated editorial artifacts consistently, this project moves closer to production-grade daily intelligence rather than a best-effort link feed.
+### Article 4 — Claude Code release watch
 
-## Next Steps
+**News peg (March 21, 2026):** [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
 
-1. Continue prioritizing first-party Anthropic sources for top slots.
-2. Further reduce low-signal social duplicates in top stories.
-3. Add a compact run health panel (fetch success/failure by source) to make reliability diagnostics even faster.
+Snapshot update: Added `--bare` mode for scripted calls, `--channels` permission relay, and reliability fixes across auth, remote control, and background tasks
+
+Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+
+### Article 5 — Ecosystem release signal
+
+**News peg (March 21, 2026):** [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+
+Snapshot update: Top story source: GitHub Release
+
+Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+
+
+### Top Stories Referenced
+
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+- [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+
+### Source Trail
+
+- March 21, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- March 21, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+- March 21, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- March 21, 2026: [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+- March 21, 2026: [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+
+### Website Improvement Review
+
+- Keep freshness and source-quality signals near the article deck so readers can assess recency at a glance.
+- Add direct story deep links from dashboard cards once the blog format stabilizes.
+- Keep the Daily Brief and Daily Blog links in navigation for editorial continuity.
+
+### Next Run Actions
+
+1. Re-run `python3 scripts/fetch_news.py` once DNS/network access is restored.
+2. Validate that the next run moves the snapshot date to the current UTC day.
+3. Continue tightening duplicate and low-signal social story filtering.
