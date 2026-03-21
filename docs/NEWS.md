@@ -10,6 +10,45 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
+| 825 | [Projects are now available in Cowork.](https://reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/) | r/ClaudeAI |
+| 565 | [I have made a macOS menu bar app that shows your Claude usage](https://reddit.com/r/ClaudeAI/comments/1ryuwrk/i_have_made_a_macos_menu_bar_app_that_shows_your/) | r/ClaudeAI |
+| 345 | [What happens when you stop adding rules to CLAUDE.md and start building infrastructure instead](https://reddit.com/r/ClaudeAI/comments/1rz2oo3/what_happens_when_you_stop_adding_rules_to/) | r/ClaudeAI |
+| 173 | [I made Claude respond to my Microsoft Teams messages](https://reddit.com/r/ClaudeAI/comments/1rz3qkp/i_made_claude_respond_to_my_microsoft_teams/) | r/ClaudeAI |
+| 33 | [Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility](https://news.ycombinator.com/item?id=47457472) | Hacker News |
+| 153 | [How I got 20 AI agents to autonomously trade in a medieval village economy with zero behavioral instructions](https://reddit.com/r/ClaudeAI/comments/1ryyu3q/how_i_got_20_ai_agents_to_autonomously_trade_in_a/) | r/ClaudeAI |
+| 136 | [Coding w/ Claude while in VR!](https://reddit.com/r/ClaudeAI/comments/1ryrvls/coding_w_claude_while_in_vr/) | r/ClaudeAI |
+| 135 | [I gave Claude 150+ mental models and a framework for detecting when your reasoning is compromised. It stopped saying "You're absolutely right!"](https://reddit.com/r/ClaudeAI/comments/1rz40f5/i_gave_claude_150_mental_models_and_a_framework/) | r/ClaudeAI |
+| 59 | [I built a Claude skill that writes accurate prompts for any AI tool. To stop burning credits on bad prompts. We just gained 1000 stars on GitHub in a day‼️v1.5 out now](https://reddit.com/r/ClaudeAI/comments/1ryxr3d/i_built_a_claude_skill_that_writes_accurate/) | r/ClaudeAI |
+| 55 | [Got tired of Claude's rate limit banner so I built a dedicated hardware widget to track it - ESP8266 + OLED + Chrome extension](https://reddit.com/r/ClaudeAI/comments/1rzfdl3/got_tired_of_claudes_rate_limit_banner_so_i_built/) | r/ClaudeAI |
+| 54 | [Cut hallucination by half with pre-output prompt injection](https://reddit.com/r/ClaudeAI/comments/1rz9i7n/cut_hallucination_by_half_with_preoutput_prompt/) | r/ClaudeAI |
+| 51 | [Do projects still mater at this point?](https://reddit.com/r/ClaudeAI/comments/1rz86mw/do_projects_still_mater_at_this_point/) | r/ClaudeAI |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Desktop and http://claude.ai should be feeling faster](https://x.com/bcherny/status/2035156025913782633) | Boris Cherney |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | ## What's changed  - Added `--bare` flag for scripted `-p` calls — skips hooks, LSP, plugin sync, an |
+| [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80) | ## What's changed  - Added `rate_limits` field to statusline scripts for displaying Claude.ai rate l |
+| [claude-agent-sdk-typescript v0.2.81](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.81) | ## What's changed  - Fixed `canUseTool` not providing a working `addRules` suggestion when a write u |
+| [claude-agent-sdk-typescript v0.2.80](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.80) | ## What's changed  - Fixed `getSessionMessages()` dropping parallel tool results — sessions with par |
+| [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.76 |
+| [claude-agent-sdk-python v0.1.50](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.50) |  ### New Features  - **Session info**: Added `tag` and `created_at` fields to `SDKSessionInfo` and n |
+| [claude-agent-sdk-python v0.1.49](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.49) |  ### New Features  - **AgentDefinition**: Added `skills`, `memory`, and `mcpServers` fields (#684) - |
+
+---
+
+## March 21, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
 | 1000 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
 | 970 | [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | GitHub Release |
 | 930 | [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76) | GitHub Release |

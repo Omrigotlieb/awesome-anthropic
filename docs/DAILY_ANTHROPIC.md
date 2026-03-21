@@ -13,9 +13,9 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
-- [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+- [Projects are now available in Cowork.](https://reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/)
+- [I have made a macOS menu bar app that shows your Claude usage](https://reddit.com/r/ClaudeAI/comments/1ryuwrk/i_have_made_a_macos_menu_bar_app_that_shows_your/)
+- [What happens when you stop adding rules to CLAUDE.md and start building infrastructure instead](https://reddit.com/r/ClaudeAI/comments/1rz2oo3/what_happens_when_you_stop_adding_rules_to/)
 
 ### Freshness Status
 

@@ -43,24 +43,24 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 **News peg (March 21, 2026):** [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
 
-Snapshot update: Added `--bare` mode for scripted calls, `--channels` permission relay, and reliability fixes across auth, remote control, and background tasks
+Snapshot update: - Added `--bare` flag for scripted `-p` calls — skips hooks, LSP, plugin sync, an
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Community demand signal
 
-**News peg (March 21, 2026):** [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+**News peg (March 21, 2026):** [Projects are now available in Cowork.](https://reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
-- [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+- [Projects are now available in Cowork.](https://reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/)
+- [I have made a macOS menu bar app that shows your Claude usage](https://reddit.com/r/ClaudeAI/comments/1ryuwrk/i_have_made_a_macos_menu_bar_app_that_shows_your/)
+- [What happens when you stop adding rules to CLAUDE.md and start building infrastructure instead](https://reddit.com/r/ClaudeAI/comments/1rz2oo3/what_happens_when_you_stop_adding_rules_to/)
 
 ### Source Trail
 
@@ -68,7 +68,8 @@ Claude Code release notes usually reflect near-term developer workflow changes, 
 - March 21, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - March 21, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 - March 21, 2026: [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
-- March 21, 2026: [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
+- March 21, 2026: [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80)
+- March 21, 2026: [claude-agent-sdk-typescript v0.2.81](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.81)
 
 ### Website Improvement Review
 
