@@ -587,13 +587,9 @@ def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source:
     return selected
 
 
-def append_to_news_md(items: list[NewsItem]) -> None:
-    """Write new items to NEWS.md using the section+table format the dashboard parser expects."""
+def _build_news_section(today: str, items: list[NewsItem]) -> str:
+    """Render a single dated NEWS.md section."""
     DOCS_DIR.mkdir(exist_ok=True)
-    news_path = DOCS_DIR / "NEWS.md"
-
-    # Human-readable date header (e.g. "February 26, 2026")
-    today = datetime.now(tz=timezone.utc).strftime("%B %-d, %Y")
 
     # Categorise items
     SDK_SOURCES = {"GitHub Release", "github_release"}
@@ -658,16 +654,47 @@ def append_to_news_md(items: list[NewsItem]) -> None:
         lines.append("")
 
     lines += ["---", ""]
+    return "\n".join(lines) + "\n"
+
+
+def _upsert_news_section(existing: str, today: str, rendered_section: str) -> str:
+    """
+    Insert today's section at the top or replace it in-place if it already exists.
+
+    This prevents duplicate `## <today>` sections when fetch runs multiple times.
+    """
+    import re as _re
+
+    heading_pattern = _re.compile(r"^##\s+[^\n]+$", flags=_re.MULTILINE)
+    headings = list(heading_pattern.finditer(existing))
+    today_heading = f"## {today}"
+
+    today_match = next((m for m in headings if m.group(0).strip() == today_heading), None)
+    if today_match:
+        start = today_match.start()
+        next_heading = next((m for m in headings if m.start() > start), None)
+        end = next_heading.start() if next_heading else len(existing)
+        suffix = existing[end:].lstrip("\n")
+        return existing[:start] + rendered_section + (("\n" + suffix) if suffix else "")
+
+    first_heading_start = headings[0].start() if headings else len(existing)
+    return existing[:first_heading_start] + rendered_section + existing[first_heading_start:]
+
+
+def append_to_news_md(items: list[NewsItem]) -> None:
+    """Write new items to NEWS.md using the section+table format the dashboard parser expects."""
+    news_path = DOCS_DIR / "NEWS.md"
+
+    # Human-readable date header (e.g. "February 26, 2026")
+    today = datetime.now(tz=timezone.utc).strftime("%B %-d, %Y")
+    section = _build_news_section(today=today, items=items)
 
     existing = news_path.read_text() if news_path.exists() else (
         "# Anthropic News Feed\n\n"
         "> **Updated daily** · Aggregated from Hacker News, Reddit, "
         "Anthropic Blog, arXiv, GitHub, and X/Twitter · Sorted by community engagement\n\n---\n\n"
     )
-    import re as _re
-    match = _re.search(r'\n## ', existing)
-    insert_pos = (match.start() + 1) if match else len(existing)
-    news_path.write_text(existing[:insert_pos] + "\n".join(lines) + "\n" + existing[insert_pos:])
+    news_path.write_text(_upsert_news_section(existing=existing, today=today, rendered_section=section))
 
 
 # ---------------------------------------------------------------------------
