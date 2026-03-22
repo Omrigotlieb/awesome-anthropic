@@ -2,6 +2,7 @@ import unittest
 
 from scripts.fetch_news import (
     NewsItem,
+    _upsert_news_section,
     canonical_story_url,
     is_low_signal_story,
     select_top_stories,
@@ -26,6 +27,28 @@ def mk(
 
 
 class TestFetchNewsQuality(unittest.TestCase):
+    def test_upsert_news_section_replaces_existing_day(self):
+        existing = (
+            "# Anthropic News Feed\n\n---\n\n"
+            "## March 22, 2026\n\nold content\n\n---\n\n"
+            "## March 21, 2026\n\nolder content\n\n---\n\n"
+        )
+        rendered = "## March 22, 2026\n\nnew content\n\n---\n\n"
+        out = _upsert_news_section(existing=existing, today="March 22, 2026", rendered_section=rendered)
+        self.assertEqual(out.count("## March 22, 2026"), 1)
+        self.assertIn("new content", out)
+        self.assertNotIn("old content", out)
+
+    def test_upsert_news_section_inserts_new_day_at_top(self):
+        existing = (
+            "# Anthropic News Feed\n\n---\n\n"
+            "## March 21, 2026\n\nolder content\n\n---\n\n"
+        )
+        rendered = "## March 22, 2026\n\nnew content\n\n---\n\n"
+        out = _upsert_news_section(existing=existing, today="March 22, 2026", rendered_section=rendered)
+        self.assertTrue(out.index("## March 22, 2026") < out.index("## March 21, 2026"))
+        self.assertEqual(out.count("## March 22, 2026"), 1)
+
     def test_canonical_story_url_drops_tracking_params(self):
         url = "https://example.com/path/?utm_source=x&ref=y&id=7#frag"
         self.assertEqual(canonical_story_url(url), "https://example.com/path?id=7")
