@@ -4,6 +4,18 @@
 
 ---
 
+## March 22, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 134 | [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/) | r/Anthropic |
+| 81 | [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/) | r/Anthropic |
+| 22 | [Show HN: AI SDLC Scaffold, repo template for AI-assisted software development](https://github.com/pangon/ai-sdlc-scaffold/) | Hacker News |
+
+---
+
 ## March 21, 2026
 
 ### 🔥 Top Stories

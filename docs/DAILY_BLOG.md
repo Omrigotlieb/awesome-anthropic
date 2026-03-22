@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-03-21 (news snapshot: March 21, 2026)
+## 2026-03-22 (news snapshot: March 22, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-03-21 uses the March 21, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.81.
+- The daily run on 2026-03-22 uses the March 22, 2026 news snapshot.
+- No new Claude Code release detected in the current snapshot.
 - Official channel signal remains active: What 81,000 people want from AI (March 21, 2026).
 
 ### Latest News Articles
@@ -39,37 +39,34 @@ Snapshot update: Introducing The Anthropic Institute
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 4 — Claude Code release watch
+### Article 4 — Community demand signal
 
-**News peg (March 21, 2026):** [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+**News peg (March 22, 2026):** [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/)
 
-Snapshot update: - Added `--bare` flag for scripted `-p` calls — skips hooks, LSP, plugin sync, an
+Snapshot update: Top story source: r/Anthropic
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 ### Article 5 — Community demand signal
 
-**News peg (March 21, 2026):** [Projects are now available in Cowork.](https://reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/)
+**News peg (March 22, 2026):** [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/)
 
-Snapshot update: Top story source: r/ClaudeAI
+Snapshot update: Top story source: r/Anthropic
 
 This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [Projects are now available in Cowork.](https://reddit.com/r/ClaudeAI/comments/1rz0go2/projects_are_now_available_in_cowork/)
-- [I have made a macOS menu bar app that shows your Claude usage](https://reddit.com/r/ClaudeAI/comments/1ryuwrk/i_have_made_a_macos_menu_bar_app_that_shows_your/)
-- [What happens when you stop adding rules to CLAUDE.md and start building infrastructure instead](https://reddit.com/r/ClaudeAI/comments/1rz2oo3/what_happens_when_you_stop_adding_rules_to/)
+- [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/)
+- [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/)
+- [Show HN: AI SDLC Scaffold, repo template for AI-assisted software development](https://github.com/pangon/ai-sdlc-scaffold/)
 
 ### Source Trail
 
 - March 21, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 - March 21, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - March 21, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
-- March 21, 2026: [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
-- March 21, 2026: [claude-code v2.1.80](https://github.com/anthropics/claude-code/releases/tag/v2.1.80)
-- March 21, 2026: [claude-agent-sdk-typescript v0.2.81](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.81)
 
 ### Website Improvement Review
 
