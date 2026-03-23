@@ -197,6 +197,7 @@
     .dash-blog-signal { background:rgba(255,255,255,.78); border:1px solid var(--anthro-border); border-radius:14px; padding:.72rem .8rem; min-width:0; }
     .dash-blog-signal[data-state="stale"] { background:rgba(217,119,87,.07); border-color:rgba(217,119,87,.24); }
     .dash-blog-signal[data-state="fresh"] { background:rgba(34,197,94,.06); border-color:rgba(34,197,94,.2); }
+    .dash-blog-signal[data-state="warn"] { background:rgba(245,158,11,.08); border-color:rgba(245,158,11,.25); }
     .dash-blog-signal-label { font-family:'Inter',sans-serif; font-size:.58rem; font-weight:700; letter-spacing:.11em; text-transform:uppercase; color:var(--anthro-mid); margin-bottom:.28rem; }
     .dash-blog-signal-value { font-family:'DM Serif Display',serif; font-size:.98rem; color:var(--anthro-dark); line-height:1.15; }
 
@@ -1737,14 +1738,30 @@
     var blogLagState = blogLagDays === null ? 'unknown' : (blogLagDays > 0 ? 'stale' : 'fresh');
     var blogOfficialSourceCount = blog.officialSourceCount || 0;
     var blogCommunityRefCount = blog.communityRefs || 0;
+    var blogFirstPartyRatio = blogSourceCount ? (blogOfficialSourceCount / blogSourceCount) : null;
+    var blogSourceState = 'warn';
+    var blogSourceLabel = String(blogOfficialSourceCount)+' of '+String(blogSourceCount||0);
+    if (blogFirstPartyRatio === null) {
+      blogSourceState = 'unknown';
+      blogSourceLabel += ' (unknown)';
+    } else if (blogFirstPartyRatio >= 0.6) {
+      blogSourceState = 'fresh';
+      blogSourceLabel += ' (strong)';
+    } else if (blogFirstPartyRatio >= 0.3) {
+      blogSourceState = 'warn';
+      blogSourceLabel += ' (mixed)';
+    } else {
+      blogSourceState = 'stale';
+      blogSourceLabel += ' (low)';
+    }
     var blogSignalBar = '<div class="dash-blog-signalbar">'+
       '<div class="dash-blog-signal" data-state="'+escHtml(blogLagState)+'">'+
         '<div class="dash-blog-signal-label">Snapshot freshness</div>'+
         '<div class="dash-blog-signal-value">'+escHtml(blogLagLabel)+'</div>'+
       '</div>'+
-      '<div class="dash-blog-signal">'+
+      '<div class="dash-blog-signal" data-state="'+escHtml(blogSourceState)+'">'+
         '<div class="dash-blog-signal-label">First-party sources</div>'+
-        '<div class="dash-blog-signal-value">'+escHtml(String(blogOfficialSourceCount))+' of '+escHtml(String(blogSourceCount||0))+'</div>'+
+        '<div class="dash-blog-signal-value">'+escHtml(blogSourceLabel)+'</div>'+
       '</div>'+
       '<div class="dash-blog-signal">'+
         '<div class="dash-blog-signal-label">Community refs</div>'+

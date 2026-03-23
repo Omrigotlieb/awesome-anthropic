@@ -587,6 +587,28 @@ def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source:
     return selected
 
 
+def upsert_news_date_section(existing: str, date_heading: str, section_markdown: str) -> str:
+    """
+    Ensure docs/NEWS.md contains exactly one section for `date_heading`.
+
+    If the date already exists one or more times, remove all those sections and
+    insert the latest section once at the top of the dated sections list.
+    """
+    import re as _re
+
+    date_re = _re.compile(
+        rf"(?ms)^##\s+{_re.escape(date_heading)}\n.*?(?=^##\s+|\Z)"
+    )
+    without_same_day = _re.sub(date_re, "", existing).rstrip() + "\n"
+    new_section = section_markdown.rstrip() + "\n\n"
+
+    first_section_match = _re.search(r"\n##\s+", without_same_day)
+    if first_section_match:
+        insert_pos = first_section_match.start() + 1
+        return without_same_day[:insert_pos] + new_section + without_same_day[insert_pos:]
+    return without_same_day + "\n" + new_section
+
+
 def append_to_news_md(items: list[NewsItem]) -> None:
     """Write new items to NEWS.md using the section+table format the dashboard parser expects."""
     DOCS_DIR.mkdir(exist_ok=True)
@@ -664,10 +686,9 @@ def append_to_news_md(items: list[NewsItem]) -> None:
         "> **Updated daily** · Aggregated from Hacker News, Reddit, "
         "Anthropic Blog, arXiv, GitHub, and X/Twitter · Sorted by community engagement\n\n---\n\n"
     )
-    import re as _re
-    match = _re.search(r'\n## ', existing)
-    insert_pos = (match.start() + 1) if match else len(existing)
-    news_path.write_text(existing[:insert_pos] + "\n".join(lines) + "\n" + existing[insert_pos:])
+    section_text = "\n".join(lines)
+    updated = upsert_news_date_section(existing, today, section_text)
+    news_path.write_text(updated)
 
 
 # ---------------------------------------------------------------------------
