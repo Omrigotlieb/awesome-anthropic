@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-03-22 (news snapshot: March 22, 2026)
+## 2026-03-23 (news snapshot: March 23, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-03-22 uses the March 22, 2026 news snapshot.
+- The daily run on 2026-03-23 uses the March 23, 2026 news snapshot.
 - No new Claude Code release detected in the current snapshot.
 - Official channel signal remains active: What 81,000 people want from AI (March 21, 2026).
 
@@ -41,26 +41,26 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Community demand signal
 
-**News peg (March 22, 2026):** [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/)
+**News peg (March 23, 2026):** [Im a teacher and a Claude nerd. The impact on education is different than what most think.](https://reddit.com/r/ClaudeAI/comments/1s0j0pw/im_a_teacher_and_a_claude_nerd_the_impact_on/)
 
-Snapshot update: Top story source: r/Anthropic
+Snapshot update: Top story source: r/ClaudeAI
 
 This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 ### Article 5 — Community demand signal
 
-**News peg (March 22, 2026):** [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/)
+**News peg (March 23, 2026):** [Claude, realizing protests are going on right outside his office:](https://reddit.com/r/ClaudeAI/comments/1s0nxji/claude_realizing_protests_are_going_on_right/)
 
-Snapshot update: Top story source: r/Anthropic
+Snapshot update: Top story source: r/ClaudeAI
 
 This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/)
-- [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/)
-- [Show HN: AI SDLC Scaffold, repo template for AI-assisted software development](https://github.com/pangon/ai-sdlc-scaffold/)
+- [Im a teacher and a Claude nerd. The impact on education is different than what most think.](https://reddit.com/r/ClaudeAI/comments/1s0j0pw/im_a_teacher_and_a_claude_nerd_the_impact_on/)
+- [Claude, realizing protests are going on right outside his office:](https://reddit.com/r/ClaudeAI/comments/1s0nxji/claude_realizing_protests_are_going_on_right/)
+- [Claude (Opus 4.6) figured out how to patch my childhood game to play it on modern Windows](https://reddit.com/r/ClaudeAI/comments/1s0z27t/claude_opus_46_figured_out_how_to_patch_my/)
 
 ### Source Trail
 

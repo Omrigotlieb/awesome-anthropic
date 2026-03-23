@@ -4,6 +4,29 @@
 
 ---
 
+## March 23, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 709 | [Im a teacher and a Claude nerd. The impact on education is different than what most think.](https://reddit.com/r/ClaudeAI/comments/1s0j0pw/im_a_teacher_and_a_claude_nerd_the_impact_on/) | r/ClaudeAI |
+| 623 | [Claude, realizing protests are going on right outside his office:](https://reddit.com/r/ClaudeAI/comments/1s0nxji/claude_realizing_protests_are_going_on_right/) | r/ClaudeAI |
+| 397 | [Claude (Opus 4.6) figured out how to patch my childhood game to play it on modern Windows](https://reddit.com/r/ClaudeAI/comments/1s0z27t/claude_opus_46_figured_out_how_to_patch_my/) | r/ClaudeAI |
+| 197 | [Has anyone actually made money with "vibe coding"? (genuine question from a Chinese dev)](https://reddit.com/r/ClaudeAI/comments/1s0fd1u/has_anyone_actually_made_money_with_vibe_coding/) | r/ClaudeAI |
+| 193 | [MCP servers I use every single day. What's in your stack?](https://reddit.com/r/ClaudeAI/comments/1s0u2ms/mcp_servers_i_use_every_single_day_whats_in_your/) | r/ClaudeAI |
+| 128 | [Can someone with zero coding experience actually use Claude Code (or similar) to build stuff now?](https://reddit.com/r/ClaudeAI/comments/1s0krn2/can_someone_with_zero_coding_experience_actually/) | r/ClaudeAI |
+| 127 | [This "don't manage my feelings" personality prompt is the BEST!](https://reddit.com/r/ClaudeAI/comments/1s0j2ej/this_dont_manage_my_feelings_personality_prompt/) | r/ClaudeAI |
+| 125 | [Petition to force Claude to check datetime before making reference to date, time, or going to bed.](https://reddit.com/r/ClaudeAI/comments/1s16eiz/petition_to_force_claude_to_check_datetime_before/) | r/ClaudeAI |
+| 107 | [LLM failure modes map surprisingly well onto ADHD cognitive science. Six parallels from independent research.](https://reddit.com/r/ClaudeAI/comments/1s0x7va/llm_failure_modes_map_surprisingly_well_onto_adhd/) | r/ClaudeAI |
+| 106 | [Boris Cherny shows Claude Code’s success came from relentless focus, not short sprints](https://reddit.com/r/ClaudeAI/comments/1s0rrnm/boris_cherny_shows_claude_codes_success_came_from/) | r/ClaudeAI |
+| 98 | [Hey I've seen this movie](https://reddit.com/r/ClaudeAI/comments/1s0qtn1/hey_ive_seen_this_movie/) | r/ClaudeAI |
+| 87 | [What a Claude Max weekly limit is actually worth in API dollars](https://reddit.com/r/ClaudeAI/comments/1s0n5bf/what_a_claude_max_weekly_limit_is_actually_worth/) | r/ClaudeAI |
+| 68 | [I built a dating app for Claude agents](https://reddit.com/r/ClaudeAI/comments/1s0u5rn/i_built_a_dating_app_for_claude_agents/) | r/ClaudeAI |
+| 60 | [I had SO MUCH FUN building this thing this weekend.](https://reddit.com/r/ClaudeAI/comments/1s107ab/i_had_so_much_fun_building_this_thing_this_weekend/) | r/ClaudeAI |
+
+---
+
 ## March 22, 2026
 
 ### 🔥 Top Stories

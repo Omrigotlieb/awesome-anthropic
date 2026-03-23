@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Mar 2026 07:00:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2026 07:02:45 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,28 +13,116 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/</guid>
-    <description>▲ 134 points · r/Anthropic · Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sun, 22 Mar 2026 09:00:00 +0000</pubDate>
+    <title>Im a teacher and a Claude nerd. The impact on education is different than what most think.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0j0pw/im_a_teacher_and_a_claude_nerd_the_impact_on/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0j0pw/im_a_teacher_and_a_claude_nerd_the_impact_on/</guid>
+    <description>▲ 709 points · r/ClaudeAI · Im a teacher and a Claude nerd. The impact on education is different than what most think.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput</title>
-    <link>https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/</guid>
-    <description>▲ 81 points · r/Anthropic · New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sun, 22 Mar 2026 09:00:00 +0000</pubDate>
+    <title>Claude, realizing protests are going on right outside his office:</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0nxji/claude_realizing_protests_are_going_on_right/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0nxji/claude_realizing_protests_are_going_on_right/</guid>
+    <description>▲ 623 points · r/ClaudeAI · Claude, realizing protests are going on right outside his office:</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Show HN: AI SDLC Scaffold, repo template for AI-assisted software development</title>
-    <link>https://github.com/pangon/ai-sdlc-scaffold/</link>
-    <guid isPermaLink="true">https://github.com/pangon/ai-sdlc-scaffold/</guid>
-    <description>▲ 22 points · Hacker News · Show HN: AI SDLC Scaffold, repo template for AI-assisted software development</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sun, 22 Mar 2026 09:00:00 +0000</pubDate>
+    <title>Claude (Opus 4.6) figured out how to patch my childhood game to play it on modern Windows</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0z27t/claude_opus_46_figured_out_how_to_patch_my/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0z27t/claude_opus_46_figured_out_how_to_patch_my/</guid>
+    <description>▲ 397 points · r/ClaudeAI · Claude (Opus 4.6) figured out how to patch my childhood game to play it on modern Windows</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Has anyone actually made money with &quot;vibe coding&quot;? (genuine question from a Chinese dev)</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0fd1u/has_anyone_actually_made_money_with_vibe_coding/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0fd1u/has_anyone_actually_made_money_with_vibe_coding/</guid>
+    <description>▲ 197 points · r/ClaudeAI · Has anyone actually made money with &quot;vibe coding&quot;? (genuine question from a Chinese dev)</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>MCP servers I use every single day. What&apos;s in your stack?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0u2ms/mcp_servers_i_use_every_single_day_whats_in_your/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0u2ms/mcp_servers_i_use_every_single_day_whats_in_your/</guid>
+    <description>▲ 193 points · r/ClaudeAI · MCP servers I use every single day. What&apos;s in your stack?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Can someone with zero coding experience actually use Claude Code (or similar) to build stuff now?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0krn2/can_someone_with_zero_coding_experience_actually/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0krn2/can_someone_with_zero_coding_experience_actually/</guid>
+    <description>▲ 128 points · r/ClaudeAI · Can someone with zero coding experience actually use Claude Code (or similar) to build stuff now?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>This &quot;don&apos;t manage my feelings&quot; personality prompt is the BEST!</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0j2ej/this_dont_manage_my_feelings_personality_prompt/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0j2ej/this_dont_manage_my_feelings_personality_prompt/</guid>
+    <description>▲ 127 points · r/ClaudeAI · This &quot;don&apos;t manage my feelings&quot; personality prompt is the BEST!</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Petition to force Claude to check datetime before making reference to date, time, or going to bed.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s16eiz/petition_to_force_claude_to_check_datetime_before/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s16eiz/petition_to_force_claude_to_check_datetime_before/</guid>
+    <description>▲ 125 points · r/ClaudeAI · Petition to force Claude to check datetime before making reference to date, time, or going to bed.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>LLM failure modes map surprisingly well onto ADHD cognitive science. Six parallels from independent research.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0x7va/llm_failure_modes_map_surprisingly_well_onto_adhd/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0x7va/llm_failure_modes_map_surprisingly_well_onto_adhd/</guid>
+    <description>▲ 107 points · r/ClaudeAI · LLM failure modes map surprisingly well onto ADHD cognitive science. Six parallels from independent research.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Boris Cherny shows Claude Code’s success came from relentless focus, not short sprints</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0rrnm/boris_cherny_shows_claude_codes_success_came_from/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0rrnm/boris_cherny_shows_claude_codes_success_came_from/</guid>
+    <description>▲ 106 points · r/ClaudeAI · Boris Cherny shows Claude Code’s success came from relentless focus, not short sprints</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Hey I&apos;ve seen this movie</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0qtn1/hey_ive_seen_this_movie/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0qtn1/hey_ive_seen_this_movie/</guid>
+    <description>▲ 98 points · r/ClaudeAI · Hey I&apos;ve seen this movie</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>What a Claude Max weekly limit is actually worth in API dollars</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0n5bf/what_a_claude_max_weekly_limit_is_actually_worth/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0n5bf/what_a_claude_max_weekly_limit_is_actually_worth/</guid>
+    <description>▲ 87 points · r/ClaudeAI · What a Claude Max weekly limit is actually worth in API dollars</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I built a dating app for Claude agents</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s0u5rn/i_built_a_dating_app_for_claude_agents/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s0u5rn/i_built_a_dating_app_for_claude_agents/</guid>
+    <description>▲ 68 points · r/ClaudeAI · I built a dating app for Claude agents</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I had SO MUCH FUN building this thing this weekend.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s107ab/i_had_so_much_fun_building_this_thing_this_weekend/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s107ab/i_had_so_much_fun_building_this_thing_this_weekend/</guid>
+    <description>▲ 60 points · r/ClaudeAI · I had SO MUCH FUN building this thing this weekend.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

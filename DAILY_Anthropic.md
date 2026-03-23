@@ -191,3 +191,13 @@ This file is checked first at the start of each daily automation run.
 - [I have made a macOS menu bar app that shows your Claude usage](https://reddit.com/r/ClaudeAI/comments/1ryuwrk/i_have_made_a_macos_menu_bar_app_that_shows_your/)
 - [What happens when you stop adding rules to CLAUDE.md and start building infrastructure instead](https://reddit.com/r/ClaudeAI/comments/1rz2oo3/what_happens_when_you_stop_adding_rules_to/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-23
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/)
+- [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/)
+- [Show HN: AI SDLC Scaffold, repo template for AI-assisted software development](https://github.com/pangon/ai-sdlc-scaffold/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
