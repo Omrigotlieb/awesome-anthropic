@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-03-22 (news snapshot: March 22, 2026)
+## 2026-03-23 (news snapshot: March 23, 2026)
 
 ### Executive Summary
 
@@ -9,64 +9,67 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-03-22 uses the March 22, 2026 news snapshot.
-- No new Claude Code release detected in the current snapshot.
-- Official channel signal remains active: What 81,000 people want from AI (March 21, 2026).
+- The daily run on 2026-03-23 uses the March 23, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.81.
+- Official channel signal remains active: Introducing The Anthropic Institute (March 23, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (March 21, 2026):** [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-
-Snapshot update: What 81,000 people want from AI
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 2 — Official announcement watch
-
-**News peg (March 21, 2026):** [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
-
-Snapshot update: Anthropic invests $100 million into the Claude Partner Network
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
-
-**News peg (March 21, 2026):** [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+**News peg (March 23, 2026):** [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 
 Snapshot update: Introducing The Anthropic Institute
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 4 — Community demand signal
+### Article 2 — Official announcement watch
 
-**News peg (March 22, 2026):** [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/)
+**News peg (March 23, 2026):** [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific)
 
-Snapshot update: Top story source: r/Anthropic
+Snapshot update: Sydney will become Anthropic’s fourth office in Asia-Pacific
 
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 5 — Community demand signal
+### Article 3 — Official announcement watch
 
-**News peg (March 22, 2026):** [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/)
+**News peg (March 23, 2026):** [Partnering with Mozilla to improve Firefox’s security](https://www.anthropic.com/news/partnering-with-mozilla-to-improve-firefox-security)
 
-Snapshot update: Top story source: r/Anthropic
+Snapshot update: Partnering with Mozilla to improve Firefox’s security
 
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 4 — Claude Code release watch
+
+**News peg (March 23, 2026):** [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+
+Snapshot update: Latest Claude Code release visible in current repository snapshot (run environment DNS restricted).
+
+Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+
+### Article 5 — First-party story signal
+
+**News peg (March 23, 2026):** [Where things stand with the Department of War](https://www.anthropic.com/news/where-things-stand-with-the-department-of-war)
+
+Snapshot update: Top story source: Anthropic Blog
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
 
 ### Top Stories Referenced
 
-- [Trump Wants to Destroy Anthropic Because It Is Doing Congress’ Job of Preventing Him from Abusing AI](https://reddit.com/r/Anthropic/comments/1s09i0i/trump_wants_to_destroy_anthropic_because_it_is/)
-- [New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput](https://reddit.com/r/Anthropic/comments/1rzwxs2/new_court_filing_reveals_pentagon_told_anthropic/)
-- [Show HN: AI SDLC Scaffold, repo template for AI-assisted software development](https://github.com/pangon/ai-sdlc-scaffold/)
+- [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- [Where things stand with the Department of War](https://www.anthropic.com/news/where-things-stand-with-the-department-of-war)
+- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
 
 ### Source Trail
 
-- March 21, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- March 21, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
-- March 21, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- March 23, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- March 23, 2026: [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific)
+- March 23, 2026: [Partnering with Mozilla to improve Firefox’s security](https://www.anthropic.com/news/partnering-with-mozilla-to-improve-firefox-security)
+- March 23, 2026: [Where things stand with the Department of War](https://www.anthropic.com/news/where-things-stand-with-the-department-of-war)
+- March 23, 2026: [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+- March 23, 2026: [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
 
 ### Website Improvement Review
 

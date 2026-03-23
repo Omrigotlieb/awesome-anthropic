@@ -6,6 +6,7 @@ from scripts.fetch_news import (
     is_low_signal_story,
     select_top_stories,
     title_fingerprint,
+    upsert_news_date_section,
 )
 
 
@@ -102,6 +103,35 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertNotIn("thank you", titles)
         self.assertIn("Claude Code release notes", titles)
         self.assertIn("Anthropic policy update", titles)
+
+    def test_upsert_news_date_section_inserts_when_missing(self):
+        existing = (
+            "# Anthropic News Feed\n\n"
+            "> Intro\n\n"
+            "---\n\n"
+            "## March 22, 2026\n\n"
+            "A\n"
+        )
+        section = "## March 23, 2026\n\nB\n\n---"
+        updated = upsert_news_date_section(existing, "March 23, 2026", section)
+        self.assertIn("## March 23, 2026", updated)
+        self.assertEqual(updated.count("## March 23, 2026"), 1)
+        self.assertLess(updated.find("## March 23, 2026"), updated.find("## March 22, 2026"))
+
+    def test_upsert_news_date_section_replaces_duplicate_same_day_sections(self):
+        existing = (
+            "# Anthropic News Feed\n\n"
+            "---\n\n"
+            "## March 23, 2026\n\nOld A\n\n---\n\n"
+            "## March 22, 2026\n\nOlder\n\n---\n\n"
+            "## March 23, 2026\n\nOld B\n\n---\n"
+        )
+        section = "## March 23, 2026\n\nFresh block\n\n---"
+        updated = upsert_news_date_section(existing, "March 23, 2026", section)
+        self.assertEqual(updated.count("## March 23, 2026"), 1)
+        self.assertIn("Fresh block", updated)
+        self.assertNotIn("Old A", updated)
+        self.assertNotIn("Old B", updated)
 
 
 if __name__ == "__main__":

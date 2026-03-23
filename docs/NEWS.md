@@ -4,6 +4,36 @@
 
 ---
 
+## March 23, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1000 | [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+| 950 | [Where things stand with the Department of War](https://www.anthropic.com/news/where-things-stand-with-the-department-of-war) | Anthropic Blog |
+| 920 | [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | GitHub Release |
+| 900 | [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76) | GitHub Release |
+| 860 | [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+| [Partnering with Mozilla to improve Firefox’s security](https://www.anthropic.com/news/partnering-with-mozilla-to-improve-firefox-security) | Anthropic Blog |
+| [Where things stand with the Department of War](https://www.anthropic.com/news/where-things-stand-with-the-department-of-war) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | Latest Claude Code release visible in current repository snapshot (run environment DNS restricted). |
+| [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76) | Latest Claude Code Action release visible in current repository snapshot (run environment DNS restricted). |
+
+---
+
 ## March 22, 2026
 
 ### 🔥 Top Stories
