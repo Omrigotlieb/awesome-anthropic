@@ -4,6 +4,54 @@
 
 ---
 
+## March 24, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1316 | [not sure how I feel about this](https://reddit.com/r/ClaudeAI/comments/1s1d0vc/not_sure_how_i_feel_about_this/) | r/ClaudeAI |
+| 1025 | [Claude can now use your computer](https://reddit.com/r/ClaudeAI/comments/1s1ujv6/claude_can_now_use_your_computer/) | r/ClaudeAI |
+| 726 | [The 5 levels of Claude Code (and how to know when you've hit the ceiling on each one)](https://reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/) | r/ClaudeAI |
+| 316 | [How is Anthropic releasing new features so quickly?](https://reddit.com/r/ClaudeAI/comments/1s1xzel/how_is_anthropic_releasing_new_features_so_quickly/) | r/ClaudeAI |
+| 116 | [Show HN: Cq – Stack Overflow for AI coding agents](https://blog.mozilla.ai/cq-stack-overflow-for-agents/) | Hacker News |
+| 243 | [Next update is to make humans optional](https://reddit.com/r/ClaudeAI/comments/1s1ya9p/next_update_is_to_make_humans_optional/) | r/ClaudeAI |
+| 204 | [*Proceeds to complete the task in under 3 minutes*](https://reddit.com/r/ClaudeAI/comments/1s1tyoe/proceeds_to_complete_the_task_in_under_3_minutes/) | r/ClaudeAI |
+| 190 | [Claude self portrait](https://reddit.com/r/ClaudeAI/comments/1s1jetw/claude_self_portrait/) | r/ClaudeAI |
+| 124 | [I built an app where AI agents autonomously create tasks, review each other's work, message each other — while you watch everything happen on a board. Free, open source.](https://reddit.com/r/ClaudeAI/comments/1s1rfiv/i_built_an_app_where_ai_agents_autonomously/) | r/ClaudeAI |
+| 86 | [If you have ADHD and are time blind or procrastinate, add this to your custom instructions](https://reddit.com/r/ClaudeAI/comments/1s1ln43/if_you_have_adhd_and_are_time_blind_or/) | r/ClaudeAI |
+| 84 | ["Act as an expert" is useless - Ask for research](https://reddit.com/r/ClaudeAI/comments/1s1vy2k/act_as_an_expert_is_useless_ask_for_research/) | r/ClaudeAI |
+| 84 | [I asked Claude to analyze 6 months of my cold outreach data and it found a pattern that doubled my reply rate in 3 weeks, this is the most useful non-coding thing I've done with it](https://reddit.com/r/ClaudeAI/comments/1s1vlgr/i_asked_claude_to_analyze_6_months_of_my_cold/) | r/ClaudeAI |
+| 76 | [This is how I actually collaborate with AI.](https://reddit.com/r/ClaudeAI/comments/1s1hkmo/this_is_how_i_actually_collaborate_with_ai/) | r/ClaudeAI |
+| 57 | [built myself a team of clankers who now manage my life](https://reddit.com/r/ClaudeAI/comments/1s1xxmx/built_myself_a_team_of_clankers_who_now_manage_my/) | r/ClaudeAI |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Little known fact, the Anthropic Labs team (the team I joined Anthropic to be on) shipped:
+
+- MCP
+- Skills
+- Claude Desktop app
+- Claude Code
+
+It was just a few of us, shipping fast, trying to keep pa](https://x.com/bcherny/status/2036286592089022699) | Boris Cherney |
+| [Highly recommend reading this guest post by theoretical physicist Matthew Schwartz to get a sense of how AI is helping science.
+
+He found Opus 4.5 to be roughly the level of a second-year grad student](https://x.com/alexalbert__/status/2036232980059062550) | Alex Albert |
+| [Introducing the Anthropic Science Blog.
+
+Increasing the pace of scientific progress is a core part of Anthropic’s mission. The Science Blog will feature new research and stories of how scientists are ](https://x.com/AnthropicAI/status/2036179042081317370) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77) | ## Subprocess environment scrubbing for untrusted-input workflows  Workflows that configure `allowed |
+
+---
+
 ## March 23, 2026
 
 ### 🔥 Top Stories

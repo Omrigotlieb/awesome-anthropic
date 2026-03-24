@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-03-23 (news snapshot: March 23, 2026)
+## 2026-03-24 (news snapshot: March 24, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -13,14 +13,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [Im a teacher and a Claude nerd. The impact on education is different than what most think.](https://reddit.com/r/ClaudeAI/comments/1s0j0pw/im_a_teacher_and_a_claude_nerd_the_impact_on/)
-- [Claude, realizing protests are going on right outside his office:](https://reddit.com/r/ClaudeAI/comments/1s0nxji/claude_realizing_protests_are_going_on_right/)
-- [Claude (Opus 4.6) figured out how to patch my childhood game to play it on modern Windows](https://reddit.com/r/ClaudeAI/comments/1s0z27t/claude_opus_46_figured_out_how_to_patch_my/)
+- [not sure how I feel about this](https://reddit.com/r/ClaudeAI/comments/1s1d0vc/not_sure_how_i_feel_about_this/)
+- [Claude can now use your computer](https://reddit.com/r/ClaudeAI/comments/1s1ujv6/claude_can_now_use_your_computer/)
+- [The 5 levels of Claude Code (and how to know when you've hit the ceiling on each one)](https://reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-23
-- News snapshot date: March 23, 2026
+- Run date (UTC): 2026-03-24
+- News snapshot date: March 24, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
