@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-03-24 (news snapshot: March 24, 2026)
+## 2026-03-25 (news snapshot: March 25, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -13,14 +13,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [not sure how I feel about this](https://reddit.com/r/ClaudeAI/comments/1s1d0vc/not_sure_how_i_feel_about_this/)
-- [Claude can now use your computer](https://reddit.com/r/ClaudeAI/comments/1s1ujv6/claude_can_now_use_your_computer/)
-- [The 5 levels of Claude Code (and how to know when you've hit the ceiling on each one)](https://reddit.com/r/ClaudeAI/comments/1s1ipep/the_5_levels_of_claude_code_and_how_to_know_when/)
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+- [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-24
-- News snapshot date: March 24, 2026
+- Run date (UTC): 2026-03-25
+- News snapshot date: March 25, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

@@ -11,6 +11,7 @@ import re
 import datetime as dt
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 ROOT = Path(__file__).parent.parent
 DAILY_PATH = ROOT / "DAILY_Anthropic.md"
@@ -104,6 +105,63 @@ def read_release_rows(limit: int = 6, max_sections: int = 1) -> list[tuple[str, 
             if len(releases) >= limit:
                 return releases
     return releases
+
+
+def _parse_semver_from_title(title: str, prefix: str) -> Optional[tuple[int, ...]]:
+    match = re.match(rf"^{re.escape(prefix)}v(\d+)\.(\d+)\.(\d+)\b", title.strip(), flags=re.IGNORECASE)
+    if not match:
+        return None
+    return tuple(int(part) for part in match.groups())
+
+
+def find_latest_release(prefix: str = "claude-code ", max_sections: int = 10) -> tuple[str, str, str, str] | None:
+    """
+    Find the latest matching release row across recent news sections.
+
+    Prefers the highest semantic version when available, with date as a tiebreaker.
+    Falls back to the first matching row encountered when version parsing fails.
+    """
+    best_row: tuple[str, str, str, str] | None = None
+    best_version: tuple[int, ...] | None = None
+    best_date: datetime | None = None
+
+    for news_date, section_text in read_news_sections()[:max_sections]:
+        news_dt = _parse_news_date(news_date)
+        for cols in _parse_table_rows(section_text, "🛠️ SDK & Tool Releases"):
+            if len(cols) < 2:
+                continue
+            title, url = _extract_link(cols[0])
+            if not title.lower().startswith(prefix.lower()):
+                continue
+
+            highlight = cols[1]
+            row = (title, url, highlight, news_date)
+            version = _parse_semver_from_title(title, prefix)
+
+            if best_row is None:
+                best_row = row
+                best_version = version
+                best_date = news_dt
+                continue
+
+            if version is not None and (best_version is None or version > best_version):
+                best_row = row
+                best_version = version
+                best_date = news_dt
+                continue
+
+            if version is not None and best_version is not None and version == best_version:
+                if news_dt and (best_date is None or news_dt > best_date):
+                    best_row = row
+                    best_date = news_dt
+                continue
+
+            if version is None and best_version is None:
+                if news_dt and (best_date is None or news_dt > best_date):
+                    best_row = row
+                    best_date = news_dt
+
+    return best_row
 
 
 def read_top_stories(limit: int = 3) -> list[str]:
@@ -251,7 +309,7 @@ def build_blog_articles() -> list[str]:
         if len(candidates) >= 3:
             break
 
-    claude_code_release = next((row for row in release_rows if row[0].lower().startswith("claude-code ")), None)
+    claude_code_release = find_latest_release(prefix="claude-code ", max_sections=10)
     if claude_code_release:
         name, url, highlight, news_date = claude_code_release
         if url and url not in seen_urls:
@@ -351,11 +409,10 @@ def write_daily_brief(today: str) -> None:
 
     claude_code_release = ""
     claude_code_release_url = ""
-    for name, url in releases:
-        if name.lower().startswith("claude-code "):
-            claude_code_release = name
-            claude_code_release_url = url
-            break
+    latest_claude_code = find_latest_release(prefix="claude-code ", max_sections=10)
+    if latest_claude_code:
+        claude_code_release = latest_claude_code[0]
+        claude_code_release_url = latest_claude_code[1]
 
     verified_updates: list[str] = []
     if claude_code_release:
@@ -442,10 +499,9 @@ def write_daily_blog(today: str) -> None:
     stale_days = (today_dt - news_dt).days if news_dt else 0
 
     release_line = "No new Claude Code release detected in the current snapshot."
-    for name, _url, _highlight, _date in releases:
-        if name.lower().startswith("claude-code "):
-            release_line = f"Latest release tracked: {name}."
-            break
+    latest_claude_code = find_latest_release(prefix="claude-code ", max_sections=10)
+    if latest_claude_code:
+        release_line = f"Latest release tracked: {latest_claude_code[0]}."
 
     key_takeaways = []
     key_takeaways.append(

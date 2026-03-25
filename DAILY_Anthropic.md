@@ -211,3 +211,13 @@ This file is checked first at the start of each daily automation run.
 - [Claude, realizing protests are going on right outside his office:](https://reddit.com/r/ClaudeAI/comments/1s0nxji/claude_realizing_protests_are_going_on_right/)
 - [Claude (Opus 4.6) figured out how to patch my childhood game to play it on modern Windows](https://reddit.com/r/ClaudeAI/comments/1s0z27t/claude_opus_46_figured_out_how_to_patch_my/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-25
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+- [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

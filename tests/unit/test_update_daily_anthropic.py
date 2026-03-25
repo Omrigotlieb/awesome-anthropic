@@ -84,6 +84,28 @@ EDITORIAL_SAMPLE_NEWS = """# Anthropic News Feed
 | [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
 """
 
+RELEASE_FALLBACK_NEWS = """# Anthropic News Feed
+
+## March 24, 2026
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77) | Subprocess environment scrubbing |
+
+---
+
+## March 21, 2026
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | Added --bare and reliability fixes |
+| [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76) | Maintenance release |
+"""
+
 
 class TestUpdateDailyAnthropic(unittest.TestCase):
     def test_read_top_stories_parses_markdown_links(self):
@@ -261,6 +283,33 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             self.assertIn("### Source Trail", blog_content)
             self.assertIn("claude-code v2.1.80", blog_content)
             self.assertIn("rate_limits", blog_content)
+
+    def test_find_latest_release_scans_recent_sections(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            news.write_text(RELEASE_FALLBACK_NEWS, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news):
+                row = daily.find_latest_release(prefix="claude-code ", max_sections=10)
+        self.assertEqual(
+            row,
+            (
+                "claude-code v2.1.81",
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.81",
+                "Added --bare and reliability fixes",
+                "March 21, 2026",
+            ),
+        )
+
+    def test_write_daily_blog_uses_latest_claude_code_across_sections(self):
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            blog = Path(td) / "docs" / "DAILY_BLOG.md"
+            blog.parent.mkdir(parents=True, exist_ok=True)
+            news.write_text(RELEASE_FALLBACK_NEWS, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news), patch.object(daily, "DAILY_BLOG_PATH", blog):
+                daily.write_daily_blog("2026-03-25")
+            blog_content = blog.read_text(encoding="utf-8")
+            self.assertIn("Latest release tracked: claude-code v2.1.81.", blog_content)
 
 
 if __name__ == "__main__":

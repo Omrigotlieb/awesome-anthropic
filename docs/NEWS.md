@@ -4,6 +4,36 @@
 
 ---
 
+## March 25, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1000 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
+| 970 | [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | GitHub Release |
+| 940 | [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77) | GitHub Release |
+| 900 | [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+| 860 | [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
+| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | Added `--bare` mode for scripted calls, `--channels` permission relay, and reliability fixes across auth, remote control, and background tasks |
+| [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77) | Added subprocess environment scrubbing for untrusted-input workflows (`CLAUDE_CODE_SUBPROCESS_ENV_SCRUB=1`) |
+
+---
+
 ## March 24, 2026
 
 ### 🔥 Top Stories
