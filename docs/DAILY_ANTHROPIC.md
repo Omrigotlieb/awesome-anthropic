@@ -6,16 +6,16 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83) is currently the latest Claude Code release visible in this repository snapshot.
 - [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 - [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 
 ### Top Story Snapshot
 
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
-- [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77)
+- [Claude made me a 'working' website! I am bursting with joy!](https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/)
+- [Devs are worried about the wrong thing](https://reddit.com/r/ClaudeAI/comments/1s2j176/devs_are_worried_about_the_wrong_thing/)
+- [Claude Code now has auto mode](https://reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/)
 
 ### Freshness Status
 

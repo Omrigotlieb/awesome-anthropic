@@ -10,14 +10,14 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 ### Key Takeaways
 
 - The daily run on 2026-03-25 uses the March 25, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.81.
-- Official channel signal remains active: What 81,000 people want from AI (March 25, 2026).
+- Latest release tracked: claude-code v2.1.83.
+- Official channel signal remains active: What 81,000 people want from AI (March 21, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (March 25, 2026):** [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+**News peg (March 21, 2026):** [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 
 Snapshot update: What 81,000 people want from AI
 
@@ -25,7 +25,7 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 2 — Official announcement watch
 
-**News peg (March 25, 2026):** [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+**News peg (March 21, 2026):** [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 
 Snapshot update: Anthropic invests $100 million into the Claude Partner Network
 
@@ -33,7 +33,7 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 3 — Official announcement watch
 
-**News peg (March 25, 2026):** [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+**News peg (March 21, 2026):** [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 
 Snapshot update: Introducing The Anthropic Institute
 
@@ -41,34 +41,35 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (March 25, 2026):** [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
+**News peg (March 25, 2026):** [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83)
 
-Snapshot update: Added `--bare` mode for scripted calls, `--channels` permission relay, and reliability fixes across auth, remote control, and background tasks
-
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
-
-### Article 5 — Ecosystem release signal
-
-**News peg (March 25, 2026):** [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77)
-
-Snapshot update: Top story source: GitHub Release
+Snapshot update: - Added `managed-settings.d/` drop-in directory alongside `managed-settings.json`
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+
+### Article 5 — Community demand signal
+
+**News peg (March 25, 2026):** [Claude made me a 'working' website! I am bursting with joy!](https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/)
+
+Snapshot update: Top story source: r/ClaudeAI
+
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
-- [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77)
+- [Claude made me a 'working' website! I am bursting with joy!](https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/)
+- [Devs are worried about the wrong thing](https://reddit.com/r/ClaudeAI/comments/1s2j176/devs_are_worried_about_the_wrong_thing/)
+- [Claude Code now has auto mode](https://reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/)
 
 ### Source Trail
 
-- March 25, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- March 25, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
-- March 25, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
-- March 25, 2026: [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81)
-- March 25, 2026: [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77)
+- March 21, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- March 21, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+- March 21, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- March 25, 2026: [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83)
+- March 25, 2026: [claude-code-action v1.0.78](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.78)
+- March 25, 2026: [claude-agent-sdk-typescript v0.2.83](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.83)
 
 ### Website Improvement Review
 

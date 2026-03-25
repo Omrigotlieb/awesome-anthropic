@@ -10,27 +10,42 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 1000 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
-| 970 | [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | GitHub Release |
-| 940 | [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77) | GitHub Release |
-| 900 | [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
-| 860 | [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+| 646 | [Claude made me a 'working' website! I am bursting with joy!](https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/) | r/ClaudeAI |
+| 631 | [Devs are worried about the wrong thing](https://reddit.com/r/ClaudeAI/comments/1s2j176/devs_are_worried_about_the_wrong_thing/) | r/ClaudeAI |
+| 534 | [Claude Code now has auto mode](https://reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/) | r/ClaudeAI |
+| 378 | [My company bought me Claude Max. Took me 3 weeks to figure out I was using it completely wrong.](https://reddit.com/r/ClaudeAI/comments/1s2zpnk/my_company_bought_me_claude_max_took_me_3_weeks/) | r/ClaudeAI |
+| 291 | [You can now enable Claude to use your computer to complete tasks !](https://reddit.com/r/Anthropic/comments/1s2gp5r/you_can_now_enable_claude_to_use_your_computer_to/) | r/Anthropic |
+| 200 | [Tested Claude's finance plugins and holy shit analysts are cooked](https://reddit.com/r/Anthropic/comments/1s29r6w/tested_claudes_finance_plugins_and_holy_shit/) | r/Anthropic |
+| 156 | [Pentagon’s ‘Attempt to Cripple’ Anthropic Is Troublesome, Judge Says](https://reddit.com/r/Anthropic/comments/1s2sf6p/pentagons_attempt_to_cripple_anthropic_is/) | r/Anthropic |
+| 100 | [Anthropic CEO predicts AI could handle end-to-end software development in 6–12 months](https://reddit.com/r/Anthropic/comments/1s2b1dh/anthropic_ceo_predicts_ai_could_handle_endtoend/) | r/Anthropic |
+| 19 | [U.S. Government's Ban on Anthropic Looks Like Punishment Attempt, Judge Says](https://www.wsj.com/tech/ai/u-s-governments-ban-on-anthropic-looks-like-punishment-attempt-judge-says-2ff98fe3) | Hacker News |
+| 341 | [How safe (Security-Wise) do you guys think is Claude's new feature on long-term?](https://reddit.com/r/ClaudeAI/comments/1s2e50x/how_safe_securitywise_do_you_guys_think_is/) | r/ClaudeAI |
+| 247 | [Agent Flow: A beautiful way to visualize what Claude Code does](https://reddit.com/r/ClaudeAI/comments/1s286nb/agent_flow_a_beautiful_way_to_visualize_what/) | r/ClaudeAI |
+| 243 | [Anthropic's latest data that shows global Al adoption](https://reddit.com/r/ClaudeAI/comments/1s2rl90/anthropics_latest_data_that_shows_global_al/) | r/ClaudeAI |
+| 240 | [I asked 6 models which AI lab has the highest ethical standards. 5 out of 6 voted against their own lab.](https://reddit.com/r/ClaudeAI/comments/1s2v1gi/i_asked_6_models_which_ai_lab_has_the_highest/) | r/ClaudeAI |
+| 195 | [What’s the difference between Claude and Claude Code](https://reddit.com/r/ClaudeAI/comments/1s28mnc/whats_the_difference_between_claude_and_claude/) | r/ClaudeAI |
+| 94 | [Built a 122K-line trading simulator almost entirely with Claude - what worked and what didn't](https://reddit.com/r/ClaudeAI/comments/1s2lyu2/built_a_122kline_trading_simulator_almost/) | r/ClaudeAI |
 
-### 📰 Official Announcements
+### 🐦 From the Builders
 
-| Title | Source |
+| Tweet | Author |
 |-------|--------|
-| [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
-| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
-| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
-| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+| [New from the Anthropic Economic Index: how people’s use of Claude changes with experience.
+
+Longer-term users are more likely to iterate carefully with Claude, and less likely to hand it full autonomy](https://x.com/AnthropicAI/status/2036499691571953848) | Anthropic |
+| [New on the Anthropic Engineering Blog: 
+
+How we use a multi-agent harness to push Claude further in frontend design and long-running autonomous software engineering.
+
+Read more: https://www.anthropic.](https://x.com/AnthropicAI/status/2036481033621623056) | Anthropic |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.81](https://github.com/anthropics/claude-code/releases/tag/v2.1.81) | Added `--bare` mode for scripted calls, `--channels` permission relay, and reliability fixes across auth, remote control, and background tasks |
-| [claude-code-action v1.0.77](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.77) | Added subprocess environment scrubbing for untrusted-input workflows (`CLAUDE_CODE_SUBPROCESS_ENV_SCRUB=1`) |
+| [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83) | ## What's changed  - Added `managed-settings.d/` drop-in directory alongside `managed-settings.json` |
+| [claude-code-action v1.0.78](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.78) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.78 |
+| [claude-agent-sdk-typescript v0.2.83](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.83) | ## What's changed  - Added `seed_read_state` control subtype to seed `readFileState` with `{path, mt |
 
 ---
 
