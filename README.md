@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-25
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-26
 
 <!-- CHANGELOG_START -->
 ### March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-25
+> Last fetched: <!-- NEWS_DATE -->2026-03-26
 
 <!-- NEWS_START -->
-### Top Stories — March 25, 2026
+### Top Stories — March 26, 2026
 
-- [Claude has overtaken ChatGPT in the Apple App Store](https://reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/) - 3216 pts on r/ClaudeAI.
-- [Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed](https://reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/) - 2733 pts on r/ClaudeAI.
-- [Outside Anthropic Office in SF "Thank You"](https://reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/) - 2627 pts on r/ClaudeAI.
-- [Why the majority of vibe coded projects fail](https://reddit.com/r/ClaudeAI/comments/1rt31th/why_the_majority_of_vibe_coded_projects_fail/) - 2596 pts on r/ClaudeAI.
-- [Just picked up a new keyboard - can't wait to write a bunch of code with it](https://reddit.com/r/ClaudeAI/comments/1rru8zw/just_picked_up_a_new_keyboard_cant_wait_to_write/) - 2570 pts on r/ClaudeAI.
+- [This new Claude update is crazy](https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/) - 2586 pts on r/ClaudeAI.
+- [Giving Claude access to my MacBook / macOS](https://reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/) - 1615 pts on r/ClaudeAI.
+- [Saying 'hey' cost me 22% of my usage limits](https://reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/) - 631 pts on r/ClaudeAI.
+- [US judge says Pentagon's blacklisting of Anthropic looks like punishment for its views on AI safety](https://reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/) - 332 pts on r/ClaudeAI.
+- [This So Helpful I Hope They Add More Things](https://reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/) - 251 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

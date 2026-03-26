@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2026 07:00:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 07:00:32 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,116 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Claude made me a &apos;working&apos; website! I am bursting with joy!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/</guid>
-    <description>▲ 646 points · r/ClaudeAI · Claude made me a &apos;working&apos; website! I am bursting with joy!</description>
+    <title>This new Claude update is crazy</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/</guid>
+    <description>▲ 2586 points · r/ClaudeAI · This new Claude update is crazy</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Devs are worried about the wrong thing</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s2j176/devs_are_worried_about_the_wrong_thing/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s2j176/devs_are_worried_about_the_wrong_thing/</guid>
-    <description>▲ 631 points · r/ClaudeAI · Devs are worried about the wrong thing</description>
+    <title>Giving Claude access to my MacBook / macOS</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/</guid>
+    <description>▲ 1615 points · r/ClaudeAI · Giving Claude access to my MacBook / macOS</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude Code now has auto mode</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/</guid>
-    <description>▲ 534 points · r/ClaudeAI · Claude Code now has auto mode</description>
+    <title>Saying &apos;hey&apos; cost me 22% of my usage limits</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/</guid>
+    <description>▲ 631 points · r/ClaudeAI · Saying &apos;hey&apos; cost me 22% of my usage limits</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>My company bought me Claude Max. Took me 3 weeks to figure out I was using it completely wrong.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s2zpnk/my_company_bought_me_claude_max_took_me_3_weeks/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s2zpnk/my_company_bought_me_claude_max_took_me_3_weeks/</guid>
-    <description>▲ 378 points · r/ClaudeAI · My company bought me Claude Max. Took me 3 weeks to figure out I was using it completely wrong.</description>
+    <title>US judge says Pentagon&apos;s blacklisting of Anthropic looks like punishment for its views on AI safety</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/</guid>
+    <description>▲ 332 points · r/ClaudeAI · US judge says Pentagon&apos;s blacklisting of Anthropic looks like punishment for its views on AI safety</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>You can now enable Claude to use your computer to complete tasks !</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s2gp5r/you_can_now_enable_claude_to_use_your_computer_to/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s2gp5r/you_can_now_enable_claude_to_use_your_computer_to/</guid>
-    <description>▲ 291 points · r/Anthropic · You can now enable Claude to use your computer to complete tasks !</description>
+    <title>10 TRICKS TO STOP HITTING CLAUDE&apos;S USAGE LIMITS ( I learned these the hard way)</title>
+    <link>https://reddit.com/r/Anthropic/comments/1s39xh1/10_tricks_to_stop_hitting_claudes_usage_limits_i/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s39xh1/10_tricks_to_stop_hitting_claudes_usage_limits_i/</guid>
+    <description>▲ 129 points · r/Anthropic · 10 TRICKS TO STOP HITTING CLAUDE&apos;S USAGE LIMITS ( I learned these the hard way)</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Tested Claude&apos;s finance plugins and holy shit analysts are cooked</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s29r6w/tested_claudes_finance_plugins_and_holy_shit/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s29r6w/tested_claudes_finance_plugins_and_holy_shit/</guid>
-    <description>▲ 200 points · r/Anthropic · Tested Claude&apos;s finance plugins and holy shit analysts are cooked</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Pentagon’s ‘Attempt to Cripple’ Anthropic Is Troublesome, Judge Says</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s2sf6p/pentagons_attempt_to_cripple_anthropic_is/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s2sf6p/pentagons_attempt_to_cripple_anthropic_is/</guid>
-    <description>▲ 156 points · r/Anthropic · Pentagon’s ‘Attempt to Cripple’ Anthropic Is Troublesome, Judge Says</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic CEO predicts AI could handle end-to-end software development in 6–12 months</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s2b1dh/anthropic_ceo_predicts_ai_could_handle_endtoend/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s2b1dh/anthropic_ceo_predicts_ai_could_handle_endtoend/</guid>
-    <description>▲ 100 points · r/Anthropic · Anthropic CEO predicts AI could handle end-to-end software development in 6–12 months</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>U.S. Government&apos;s Ban on Anthropic Looks Like Punishment Attempt, Judge Says</title>
-    <link>https://www.wsj.com/tech/ai/u-s-governments-ban-on-anthropic-looks-like-punishment-attempt-judge-says-2ff98fe3</link>
-    <guid isPermaLink="true">https://www.wsj.com/tech/ai/u-s-governments-ban-on-anthropic-looks-like-punishment-attempt-judge-says-2ff98fe3</guid>
-    <description>▲ 19 points · Hacker News · U.S. Government&apos;s Ban on Anthropic Looks Like Punishment Attempt, Judge Says</description>
+    <title>A lawyer won Anthropic&apos;s hackathon – what everyone missed</title>
+    <link>https://hadleylab.org/blogs/2026-03-22-the-lawyer-who-won/</link>
+    <guid isPermaLink="true">https://hadleylab.org/blogs/2026-03-22-the-lawyer-who-won/</guid>
+    <description>▲ 13 points · Hacker News · A lawyer won Anthropic&apos;s hackathon – what everyone missed</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>How safe (Security-Wise) do you guys think is Claude&apos;s new feature on long-term?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s2e50x/how_safe_securitywise_do_you_guys_think_is/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s2e50x/how_safe_securitywise_do_you_guys_think_is/</guid>
-    <description>▲ 341 points · r/ClaudeAI · How safe (Security-Wise) do you guys think is Claude&apos;s new feature on long-term?</description>
+    <title>This So Helpful I Hope They Add More Things</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/</guid>
+    <description>▲ 251 points · r/ClaudeAI · This So Helpful I Hope They Add More Things</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Agent Flow: A beautiful way to visualize what Claude Code does</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s286nb/agent_flow_a_beautiful_way_to_visualize_what/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s286nb/agent_flow_a_beautiful_way_to_visualize_what/</guid>
-    <description>▲ 247 points · r/ClaudeAI · Agent Flow: A beautiful way to visualize what Claude Code does</description>
+    <title>Claude Code: 6 Github repositories to 10x Your Next Project</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s33th2/claude_code_6_github_repositories_to_10x_your/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s33th2/claude_code_6_github_repositories_to_10x_your/</guid>
+    <description>▲ 232 points · r/ClaudeAI · Claude Code: 6 Github repositories to 10x Your Next Project</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic&apos;s latest data that shows global Al adoption</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s2rl90/anthropics_latest_data_that_shows_global_al/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s2rl90/anthropics_latest_data_that_shows_global_al/</guid>
-    <description>▲ 243 points · r/ClaudeAI · Anthropic&apos;s latest data that shows global Al adoption</description>
+    <title>Your Claude Code Limits Didn&apos;t Shrink — I Think the 1M Context Window Is Eating Them Alive</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3bcit/your_claude_code_limits_didnt_shrink_i_think_the/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3bcit/your_claude_code_limits_didnt_shrink_i_think_the/</guid>
+    <description>▲ 230 points · r/ClaudeAI · Your Claude Code Limits Didn&apos;t Shrink — I Think the 1M Context Window Is Eating Them Alive</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>I asked 6 models which AI lab has the highest ethical standards. 5 out of 6 voted against their own lab.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s2v1gi/i_asked_6_models_which_ai_lab_has_the_highest/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s2v1gi/i_asked_6_models_which_ai_lab_has_the_highest/</guid>
-    <description>▲ 240 points · r/ClaudeAI · I asked 6 models which AI lab has the highest ethical standards. 5 out of 6 voted against their own lab.</description>
+    <title>I&apos;m out of tokens with just 3-4 prompts, need advice to use efficiently please</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3dw1w/im_out_of_tokens_with_just_34_prompts_need_advice/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3dw1w/im_out_of_tokens_with_just_34_prompts_need_advice/</guid>
+    <description>▲ 140 points · r/ClaudeAI · I&apos;m out of tokens with just 3-4 prompts, need advice to use efficiently please</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>What’s the difference between Claude and Claude Code</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s28mnc/whats_the_difference_between_claude_and_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s28mnc/whats_the_difference_between_claude_and_claude/</guid>
-    <description>▲ 195 points · r/ClaudeAI · What’s the difference between Claude and Claude Code</description>
+    <title>Claude Status Update : Elevated Errors on claude.ai on 2026-03-25T13:45:25.000Z</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3b9fi/claude_status_update_elevated_errors_on_claudeai/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3b9fi/claude_status_update_elevated_errors_on_claudeai/</guid>
+    <description>▲ 101 points · r/ClaudeAI · Claude Status Update : Elevated Errors on claude.ai on 2026-03-25T13:45:25.000Z</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Built a 122K-line trading simulator almost entirely with Claude - what worked and what didn&apos;t</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s2lyu2/built_a_122kline_trading_simulator_almost/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s2lyu2/built_a_122kline_trading_simulator_almost/</guid>
-    <description>▲ 94 points · r/ClaudeAI · Built a 122K-line trading simulator almost entirely with Claude - what worked and what didn&apos;t</description>
+    <title>I got tired of scrolling through AI slop on Reddit so I built an algorithm to surface only the actually useful posts</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s38n7x/i_got_tired_of_scrolling_through_ai_slop_on/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s38n7x/i_got_tired_of_scrolling_through_ai_slop_on/</guid>
+    <description>▲ 78 points · r/ClaudeAI · I got tired of scrolling through AI slop on Reddit so I built an algorithm to surface only the actually useful posts</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 25 Mar 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude Status Update : Elevated Errors on claude.ai on 2026-03-25T13:52:44.000Z</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3bd5y/claude_status_update_elevated_errors_on_claudeai/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3bd5y/claude_status_update_elevated_errors_on_claudeai/</guid>
+    <description>▲ 73 points · r/ClaudeAI · Claude Status Update : Elevated Errors on claude.ai on 2026-03-25T13:52:44.000Z</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>built an MCP server that stops claude code from ever seeing your real API keys</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s3n40n/built_an_mcp_server_that_stops_claude_code_from/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s3n40n/built_an_mcp_server_that_stops_claude_code_from/</guid>
+    <description>▲ 68 points · r/ClaudeAI · built an MCP server that stops claude code from ever seeing your real API keys</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

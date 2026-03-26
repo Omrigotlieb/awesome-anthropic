@@ -4,6 +4,45 @@
 
 ---
 
+## March 26, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2586 | [This new Claude update is crazy](https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/) | r/ClaudeAI |
+| 1615 | [Giving Claude access to my MacBook / macOS](https://reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/) | r/ClaudeAI |
+| 631 | [Saying 'hey' cost me 22% of my usage limits](https://reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/) | r/ClaudeAI |
+| 332 | [US judge says Pentagon's blacklisting of Anthropic looks like punishment for its views on AI safety](https://reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/) | r/ClaudeAI |
+| 129 | [10 TRICKS TO STOP HITTING CLAUDE'S USAGE LIMITS ( I learned these the hard way)](https://reddit.com/r/Anthropic/comments/1s39xh1/10_tricks_to_stop_hitting_claudes_usage_limits_i/) | r/Anthropic |
+| 13 | [A lawyer won Anthropic's hackathon – what everyone missed](https://hadleylab.org/blogs/2026-03-22-the-lawyer-who-won/) | Hacker News |
+| 251 | [This So Helpful I Hope They Add More Things](https://reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/) | r/ClaudeAI |
+| 232 | [Claude Code: 6 Github repositories to 10x Your Next Project](https://reddit.com/r/ClaudeAI/comments/1s33th2/claude_code_6_github_repositories_to_10x_your/) | r/ClaudeAI |
+| 230 | [Your Claude Code Limits Didn't Shrink — I Think the 1M Context Window Is Eating Them Alive](https://reddit.com/r/ClaudeAI/comments/1s3bcit/your_claude_code_limits_didnt_shrink_i_think_the/) | r/ClaudeAI |
+| 140 | [I'm out of tokens with just 3-4 prompts, need advice to use efficiently please](https://reddit.com/r/ClaudeAI/comments/1s3dw1w/im_out_of_tokens_with_just_34_prompts_need_advice/) | r/ClaudeAI |
+| 101 | [Claude Status Update : Elevated Errors on claude.ai on 2026-03-25T13:45:25.000Z](https://reddit.com/r/ClaudeAI/comments/1s3b9fi/claude_status_update_elevated_errors_on_claudeai/) | r/ClaudeAI |
+| 78 | [I got tired of scrolling through AI slop on Reddit so I built an algorithm to surface only the actually useful posts](https://reddit.com/r/ClaudeAI/comments/1s38n7x/i_got_tired_of_scrolling_through_ai_slop_on/) | r/ClaudeAI |
+| 73 | [Claude Status Update : Elevated Errors on claude.ai on 2026-03-25T13:52:44.000Z](https://reddit.com/r/ClaudeAI/comments/1s3bd5y/claude_status_update_elevated_errors_on_claudeai/) | r/ClaudeAI |
+| 68 | [built an MCP server that stops claude code from ever seeing your real API keys](https://reddit.com/r/ClaudeAI/comments/1s3n40n/built_an_mcp_server_that_stops_claude_code_from/) | r/ClaudeAI |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [New on the Engineering Blog: How we designed Claude Code auto mode.
+
+Many Claude Code users let Claude work without permission prompts. Auto mode is a safer middle ground: we built and tested classifi](https://x.com/AnthropicAI/status/2036944806317088921) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.84](https://github.com/anthropics/claude-code/releases/tag/v2.1.84) | ## What's changed  - Added PowerShell tool for Windows as an opt-in preview. Learn more at https://c |
+| [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.79 |
+| [claude-agent-sdk-typescript v0.2.84](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.84) | ## What's changed  - Added `taskBudget` option for API-side token budget awareness, allowing the mod |
+
+---
+
 ## March 25, 2026
 
 ### 🔥 Top Stories
@@ -44,7 +83,7 @@ Read more: https://www.anthropic.](https://x.com/AnthropicAI/status/203648103362
 | Release | Highlights |
 |---------|------------|
 | [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83) | ## What's changed  - Added `managed-settings.d/` drop-in directory alongside `managed-settings.json` |
-| [claude-code-action v1.0.78](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.78) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.78 |
+| [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76) | Latest published action tag as of March 26, 2026 (per repository tags). |
 | [claude-agent-sdk-typescript v0.2.83](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.83) | ## What's changed  - Added `seed_read_state` control subtype to seed `readFileState` with `{path, mt |
 
 ---

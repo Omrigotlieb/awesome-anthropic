@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-03-25 (news snapshot: March 25, 2026)
+## 2026-03-26 (news snapshot: March 26, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-03-25 uses the March 25, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.83.
+- The daily run on 2026-03-26 uses the March 26, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.84.
 - Official channel signal remains active: What 81,000 people want from AI (March 21, 2026).
 
 ### Latest News Articles
@@ -41,15 +41,15 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (March 25, 2026):** [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83)
+**News peg (March 26, 2026):** [claude-code v2.1.84](https://github.com/anthropics/claude-code/releases/tag/v2.1.84)
 
-Snapshot update: - Added `managed-settings.d/` drop-in directory alongside `managed-settings.json`
+Snapshot update: - Added PowerShell tool for Windows as an opt-in preview. Learn more at https://c
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
 ### Article 5 — Community demand signal
 
-**News peg (March 25, 2026):** [Claude made me a 'working' website! I am bursting with joy!](https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/)
+**News peg (March 26, 2026):** [This new Claude update is crazy](https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
@@ -58,18 +58,18 @@ This is community signal; it is useful for demand sensing, but should stay clear
 
 ### Top Stories Referenced
 
-- [Claude made me a 'working' website! I am bursting with joy!](https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/)
-- [Devs are worried about the wrong thing](https://reddit.com/r/ClaudeAI/comments/1s2j176/devs_are_worried_about_the_wrong_thing/)
-- [Claude Code now has auto mode](https://reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/)
+- [This new Claude update is crazy](https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/)
+- [Giving Claude access to my MacBook / macOS](https://reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/)
+- [Saying 'hey' cost me 22% of my usage limits](https://reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/)
 
 ### Source Trail
 
 - March 21, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 - March 21, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - March 21, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
-- March 25, 2026: [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83)
-- March 25, 2026: [claude-code-action v1.0.78](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.78)
-- March 25, 2026: [claude-agent-sdk-typescript v0.2.83](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.83)
+- March 26, 2026: [claude-code v2.1.84](https://github.com/anthropics/claude-code/releases/tag/v2.1.84)
+- March 26, 2026: [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79)
+- March 26, 2026: [claude-agent-sdk-typescript v0.2.84](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.84)
 
 ### Website Improvement Review
 

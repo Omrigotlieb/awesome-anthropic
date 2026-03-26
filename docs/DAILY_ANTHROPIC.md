@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-03-25 (news snapshot: March 25, 2026)
+## 2026-03-26 (news snapshot: March 26, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.84](https://github.com/anthropics/claude-code/releases/tag/v2.1.84) is currently the latest Claude Code release visible in this repository snapshot.
 - [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 - [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 
 ### Top Story Snapshot
 
-- [Claude made me a 'working' website! I am bursting with joy!](https://reddit.com/r/ClaudeAI/comments/1s27ay8/claude_made_me_a_working_website_i_am_bursting/)
-- [Devs are worried about the wrong thing](https://reddit.com/r/ClaudeAI/comments/1s2j176/devs_are_worried_about_the_wrong_thing/)
-- [Claude Code now has auto mode](https://reddit.com/r/ClaudeAI/comments/1s2ok85/claude_code_now_has_auto_mode/)
+- [This new Claude update is crazy](https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/)
+- [Giving Claude access to my MacBook / macOS](https://reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/)
+- [Saying 'hey' cost me 22% of my usage limits](https://reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-25
-- News snapshot date: March 25, 2026
+- Run date (UTC): 2026-03-26
+- News snapshot date: March 26, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
