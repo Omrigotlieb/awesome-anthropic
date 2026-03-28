@@ -13,9 +13,9 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86)
-- [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79)
+- [Claude Uno](https://reddit.com/r/ClaudeAI/comments/1s54mpo/claude_uno/)
+- [One sentence that instantly improves any Claude conversation — borrowed from how GANs work](https://reddit.com/r/ClaudeAI/comments/1s4zqeq/one_sentence_that_instantly_improves_any_claude/)
+- [Subscribed yesterday to Pro and I’m already hit by limits. Is this a scam?](https://reddit.com/r/ClaudeAI/comments/1s54pfu/subscribed_yesterday_to_pro_and_im_already_hit_by/)
 
 ### Freshness Status
 

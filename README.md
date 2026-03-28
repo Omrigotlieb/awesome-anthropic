@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — March 28, 2026
 
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) - 1000 pts on Anthropic Blog.
-- [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) - 980 pts on GitHub Release.
-- [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79) - 960 pts on GitHub Release.
-- [claude-agent-sdk-typescript v0.2.86](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.86) - 930 pts on GitHub Release.
-- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) - 900 pts on Anthropic Blog.
+- [Claude Uno](https://reddit.com/r/ClaudeAI/comments/1s54mpo/claude_uno/) - 1463 pts on r/ClaudeAI.
+- [One sentence that instantly improves any Claude conversation — borrowed from how GANs work](https://reddit.com/r/ClaudeAI/comments/1s4zqeq/one_sentence_that_instantly_improves_any_claude/) - 465 pts on r/ClaudeAI.
+- [Subscribed yesterday to Pro and I’m already hit by limits. Is this a scam?](https://reddit.com/r/ClaudeAI/comments/1s54pfu/subscribed_yesterday_to_pro_and_im_already_hit_by/) - 418 pts on r/ClaudeAI.
+- [This isn’t right](https://reddit.com/r/ClaudeAI/comments/1s55mvg/this_isnt_right/) - 411 pts on r/ClaudeAI.
+- [An open letter to Anthropic: Want to free up compute during peak hours? How about restricting free accounts to off peak hours instead of punishing your paid users](https://reddit.com/r/ClaudeAI/comments/1s5nxwe/an_open_letter_to_anthropic_want_to_free_up/) - 403 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

@@ -10,28 +10,33 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 1000 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
-| 980 | [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) | GitHub Release |
-| 960 | [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79) | GitHub Release |
-| 930 | [claude-agent-sdk-typescript v0.2.86](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.86) | GitHub Release |
-| 900 | [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
-
-### 📰 Official Announcements
-
-| Title | Source |
-|-------|--------|
-| [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
-| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
-| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
-| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+| 1463 | [Claude Uno](https://reddit.com/r/ClaudeAI/comments/1s54mpo/claude_uno/) | r/ClaudeAI |
+| 465 | [One sentence that instantly improves any Claude conversation — borrowed from how GANs work](https://reddit.com/r/ClaudeAI/comments/1s4zqeq/one_sentence_that_instantly_improves_any_claude/) | r/ClaudeAI |
+| 418 | [Subscribed yesterday to Pro and I’m already hit by limits. Is this a scam?](https://reddit.com/r/ClaudeAI/comments/1s54pfu/subscribed_yesterday_to_pro_and_im_already_hit_by/) | r/ClaudeAI |
+| 411 | [This isn’t right](https://reddit.com/r/ClaudeAI/comments/1s55mvg/this_isnt_right/) | r/ClaudeAI |
+| 191 | [New Model Leak, and more…](https://reddit.com/r/Anthropic/comments/1s518u8/new_model_leak_and_more/) | r/Anthropic |
+| 176 | [I will never give Anthropic another red cent](https://reddit.com/r/Anthropic/comments/1s4zc6p/i_will_never_give_anthropic_another_red_cent/) | r/Anthropic |
+| 51 | [Not a single message has gone through within the last 6 hours ..](https://reddit.com/r/Anthropic/comments/1s53805/not_a_single_message_has_gone_through_within_the/) | r/Anthropic |
+| 30 | [Anthropic is preparing to release new models – Mythos and Capybara](https://m1astra-mythos.pages.dev/) | Hacker News |
+| 403 | [An open letter to Anthropic: Want to free up compute during peak hours? How about restricting free accounts to off peak hours instead of punishing your paid users](https://reddit.com/r/ClaudeAI/comments/1s5nxwe/an_open_letter_to_anthropic_want_to_free_up/) | r/ClaudeAI |
+| 304 | [Claude watching me write code manually after I hit the daily limit](https://reddit.com/r/ClaudeAI/comments/1s5ok5r/claude_watching_me_write_code_manually_after_i/) | r/ClaudeAI |
+| 256 | [2 prompts = 100% session usage for Pro account, 40 prompts = 7% session usage for Max 20X account.  The math isn't mathing..](https://reddit.com/r/ClaudeAI/comments/1s5f5fq/2_prompts_100_session_usage_for_pro_account_40/) | r/ClaudeAI |
+| 248 | [[Showcase] (World Visualizer) Is claude dumb for you today?](https://reddit.com/r/ClaudeAI/comments/1s5bc5e/showcase_world_visualizer_is_claude_dumb_for_you/) | r/ClaudeAI |
+| 201 | [Claud is robbing people with their usage limit.](https://reddit.com/r/ClaudeAI/comments/1s5j52m/claud_is_robbing_people_with_their_usage_limit/) | r/ClaudeAI |
+| 156 | [how it feels writing a CLAUDE.md](https://reddit.com/r/ClaudeAI/comments/1s5j1tw/how_it_feels_writing_a_claudemd/) | r/ClaudeAI |
+| 110 | [Claude Code on Windows: 6 critical bugs closed as "not planned" — is Anthropic aware that 70% of the world and nearly all enterprise IT runs Windows?](https://reddit.com/r/ClaudeAI/comments/1s5cbrn/claude_code_on_windows_6_critical_bugs_closed_as/) | r/ClaudeAI |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) | Added `X-Claude-Code-Session-Id` header support, fixed cross-root file access regressions, and shipped multiple stability/performance fixes. |
-| [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79) | Latest verifiable action tag in the repository releases listing available in this run. |
-| [claude-agent-sdk-typescript v0.2.86](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.86) | Added `getContextUsage()`, made `session_id` optional for user messages, and updated parity with Claude Code v2.1.86. |
+| [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) | ## What's changed  - Added `X-Claude-Code-Session-Id` header to API requests so proxies can aggregat |
+| [claude-code v2.1.85](https://github.com/anthropics/claude-code/releases/tag/v2.1.85) | ## What's changed  - Added `CLAUDE_CODE_MCP_SERVER_NAME` and `CLAUDE_CODE_MCP_SERVER_URL` environmen |
+| [claude-agent-sdk-typescript v0.2.86](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.86) | ## What's changed  - Added `getContextUsage()` control method to retrieve a breakdown of context win |
+| [claude-agent-sdk-typescript v0.2.85](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.85) | ## What's changed  - Added `reloadPlugins()` SDK method to reload plugins and receive refreshed comm |
+| [claude-agent-sdk-python v0.1.51](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.51) |  ### New Features  - **Session management**: Added `fork_session()`, `delete_session()`, and offset- |
+| [claude-code-action v1.0.81](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.81) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.81 |
+| [claude-code-action v1.0.80](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.80) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.80 |
 
 ---
 
