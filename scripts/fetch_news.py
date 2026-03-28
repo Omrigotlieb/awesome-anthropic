@@ -20,6 +20,7 @@ import argparse
 import hashlib
 import json
 import os
+import socket
 import sys
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from dataclasses import asdict, dataclass, field
@@ -48,6 +49,23 @@ class NewsItem:
     def __post_init__(self):
         if not self.item_id:
             self.item_id = hashlib.sha256(self.url.encode()).hexdigest()[:16]
+
+
+def has_network_connectivity() -> bool:
+    """
+    Fast DNS preflight for daily automation environments.
+
+    When DNS is unavailable (common in sandboxed runs), we skip source fetches
+    and avoid emitting noisy per-source resolver failures.
+    """
+    hosts = ("www.anthropic.com", "github.com", "www.reddit.com", "hn.algolia.com")
+    for host in hosts:
+        try:
+            socket.getaddrinfo(host, 443, proto=socket.IPPROTO_TCP)
+            return True
+        except socket.gaierror:
+            continue
+    return False
 
 
 # ---------------------------------------------------------------------------
@@ -702,6 +720,17 @@ def main():
     args = parser.parse_args()
 
     print("Fetching news from all sources...", file=sys.stderr)
+    if not has_network_connectivity():
+        print(
+            "[network] DNS/network unavailable. Skipping source fetches and keeping existing docs/NEWS.md unchanged.",
+            file=sys.stderr,
+        )
+        if args.summary:
+            print("- **Total fetched:** 0")
+            print("- **New items:** 0")
+            print("  - Network: unavailable")
+        return
+
     all_items: list[NewsItem] = []
     all_items.extend(fetch_anthropic_blog())
     all_items.extend(fetch_hacker_news())

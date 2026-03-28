@@ -231,3 +231,13 @@ This file is checked first at the start of each daily automation run.
 - [claude-code v2.1.83](https://github.com/anthropics/claude-code/releases/tag/v2.1.83)
 - [claude-code-action v1.0.76](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.76)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-28
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86)
+- [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

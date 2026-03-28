@@ -53,9 +53,41 @@ def get_news_preview() -> str:
             date_heading = line.lstrip("# ").strip()
             break
 
-    # Extract rows from the score table: | score | [title](url) | source |
-    import re
-    rows = re.findall(r"^\|\s*(\d+)\s*\|\s*(\[.+?\]\(.+?\))\s*\|\s*(.+?)\s*\|", text, re.MULTILINE)
+    # Extract rows only from the first "🔥 Top Stories" table (newest section).
+    table_lines: list[str] = []
+    found_top = False
+    for line in text.splitlines():
+        if not found_top:
+            if "🔥 Top Stories" in line:
+                found_top = True
+            continue
+        stripped = line.strip()
+        if stripped.startswith("## ") or stripped == "---":
+            break
+        table_lines.append(line)
+
+    rows: list[tuple[str, str, str]] = []
+    header_passed = False
+    for line in table_lines:
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            if header_passed:
+                break
+            continue
+        if re.match(r"^[|\s:>\-]+$", stripped):
+            header_passed = True
+            continue
+        if not header_passed:
+            continue
+
+        cols = [c.strip() for c in stripped.split("|")[1:-1]]
+        if len(cols) < 3:
+            continue
+        score = cols[0]
+        link = cols[1]
+        source = cols[2]
+        if re.match(r"^\d+$", score):
+            rows.append((score, link, source))
 
     if not rows:
         return "_No recent news items found._"

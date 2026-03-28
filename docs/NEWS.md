@@ -4,6 +4,37 @@
 
 ---
 
+## March 28, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1000 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
+| 980 | [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) | GitHub Release |
+| 960 | [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79) | GitHub Release |
+| 930 | [claude-agent-sdk-typescript v0.2.86](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.86) | GitHub Release |
+| 900 | [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
+| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-fourth-office-asia-pacific) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) | Added `X-Claude-Code-Session-Id` header support, fixed cross-root file access regressions, and shipped multiple stability/performance fixes. |
+| [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79) | Latest verifiable action tag in the repository releases listing available in this run. |
+| [claude-agent-sdk-typescript v0.2.86](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.86) | Added `getContextUsage()`, made `session_id` optional for user messages, and updated parity with Claude Code v2.1.86. |
+
+---
+
 ## March 26, 2026
 
 ### 🔥 Top Stories

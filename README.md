@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-26
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-28
 
 <!-- CHANGELOG_START -->
 ### March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-26
+> Last fetched: <!-- NEWS_DATE -->2026-03-28
 
 <!-- NEWS_START -->
-### Top Stories — March 26, 2026
+### Top Stories — March 28, 2026
 
-- [This new Claude update is crazy](https://reddit.com/r/ClaudeAI/comments/1s37yiy/this_new_claude_update_is_crazy/) - 2586 pts on r/ClaudeAI.
-- [Giving Claude access to my MacBook / macOS](https://reddit.com/r/ClaudeAI/comments/1s3ss8s/giving_claude_access_to_my_macbook_macos/) - 1615 pts on r/ClaudeAI.
-- [Saying 'hey' cost me 22% of my usage limits](https://reddit.com/r/ClaudeAI/comments/1s3hh29/saying_hey_cost_me_22_of_my_usage_limits/) - 631 pts on r/ClaudeAI.
-- [US judge says Pentagon's blacklisting of Anthropic looks like punishment for its views on AI safety](https://reddit.com/r/ClaudeAI/comments/1s3dmzr/us_judge_says_pentagons_blacklisting_of_anthropic/) - 332 pts on r/ClaudeAI.
-- [This So Helpful I Hope They Add More Things](https://reddit.com/r/ClaudeAI/comments/1s39fxd/this_so_helpful_i_hope_they_add_more_things/) - 251 pts on r/ClaudeAI.
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) - 1000 pts on Anthropic Blog.
+- [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) - 980 pts on GitHub Release.
+- [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79) - 960 pts on GitHub Release.
+- [claude-agent-sdk-typescript v0.2.86](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.86) - 930 pts on GitHub Release.
+- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) - 900 pts on Anthropic Blog.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
