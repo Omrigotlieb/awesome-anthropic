@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-03-28 (news snapshot: March 28, 2026)
+## 2026-03-29 (news snapshot: March 29, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
 - [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) is currently the latest Claude Code release visible in this repository snapshot.
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 - [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office)
 
 ### Top Story Snapshot
 
-- [Claude Uno](https://reddit.com/r/ClaudeAI/comments/1s54mpo/claude_uno/)
-- [One sentence that instantly improves any Claude conversation — borrowed from how GANs work](https://reddit.com/r/ClaudeAI/comments/1s4zqeq/one_sentence_that_instantly_improves_any_claude/)
-- [Subscribed yesterday to Pro and I’m already hit by limits. Is this a scam?](https://reddit.com/r/ClaudeAI/comments/1s54pfu/subscribed_yesterday_to_pro_and_im_already_hit_by/)
+- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+- [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-28
-- News snapshot date: March 28, 2026
+- Run date (UTC): 2026-03-29
+- News snapshot date: March 29, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

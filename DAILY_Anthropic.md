@@ -241,3 +241,13 @@ This file is checked first at the start of each daily automation run.
 - [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86)
 - [claude-code-action v1.0.79](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.79)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-03-29
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+- [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-28
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-29
 
 <!-- CHANGELOG_START -->
 ### March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-28
+> Last fetched: <!-- NEWS_DATE -->2026-03-29
 
 <!-- NEWS_START -->
-### Top Stories — March 28, 2026
+### Top Stories — March 29, 2026
 
-- [Claude Uno](https://reddit.com/r/ClaudeAI/comments/1s54mpo/claude_uno/) - 1463 pts on r/ClaudeAI.
-- [One sentence that instantly improves any Claude conversation — borrowed from how GANs work](https://reddit.com/r/ClaudeAI/comments/1s4zqeq/one_sentence_that_instantly_improves_any_claude/) - 465 pts on r/ClaudeAI.
-- [Subscribed yesterday to Pro and I’m already hit by limits. Is this a scam?](https://reddit.com/r/ClaudeAI/comments/1s54pfu/subscribed_yesterday_to_pro_and_im_already_hit_by/) - 418 pts on r/ClaudeAI.
-- [This isn’t right](https://reddit.com/r/ClaudeAI/comments/1s55mvg/this_isnt_right/) - 411 pts on r/ClaudeAI.
-- [An open letter to Anthropic: Want to free up compute during peak hours? How about restricting free accounts to off peak hours instead of punishing your paid users](https://reddit.com/r/ClaudeAI/comments/1s5nxwe/an_open_letter_to_anthropic_want_to_free_up/) - 403 pts on r/ClaudeAI.
+- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) - 1000 pts on Anthropic Blog.
+- [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) - 980 pts on Anthropic Blog.
+- [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office) - 960 pts on Anthropic Blog.
+- [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) - 940 pts on GitHub Release.
+- [claude-code-action v1.0.81](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.81) - 920 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

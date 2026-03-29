@@ -1,8 +1,10 @@
 import unittest
+from datetime import datetime, timezone
 
 from scripts.fetch_news import (
     NewsItem,
     canonical_story_url,
+    extract_anthropic_items_from_html,
     is_low_signal_story,
     select_top_stories,
     title_fingerprint,
@@ -132,6 +134,36 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertIn("Fresh block", updated)
         self.assertNotIn("Old A", updated)
         self.assertNotIn("Old B", updated)
+
+    def test_extract_anthropic_items_includes_features_posts(self):
+        html = """
+        <html><body>
+          <a href="/features/81k-interviews">Product Mar 21, 2026 What 81,000 people want from AI</a>
+          <a href="/news/claude-partner-network">Announcements Mar 12, 2026 Anthropic invests $100 million into the Claude Partner Network</a>
+          <a href="https://example.com/off-topic">Mar 21, 2026 unrelated link</a>
+        </body></html>
+        """
+        since = datetime(2026, 3, 1, tzinfo=timezone.utc)
+        items = extract_anthropic_items_from_html(html, since=since)
+        urls = [item.url for item in items]
+
+        self.assertIn("https://www.anthropic.com/features/81k-interviews", urls)
+        self.assertIn("https://www.anthropic.com/news/claude-partner-network", urls)
+        self.assertNotIn("https://example.com/off-topic", urls)
+
+    def test_extract_anthropic_items_respects_since_filter(self):
+        html = """
+        <html><body>
+          <a href="/news/old-item">Announcements Feb 10, 2026 Older post</a>
+          <a href="/news/new-item">Announcements Mar 12, 2026 Newer post</a>
+        </body></html>
+        """
+        since = datetime(2026, 3, 1, tzinfo=timezone.utc)
+        items = extract_anthropic_items_from_html(html, since=since)
+        urls = [item.url for item in items]
+
+        self.assertNotIn("https://www.anthropic.com/news/old-item", urls)
+        self.assertIn("https://www.anthropic.com/news/new-item", urls)
 
 
 if __name__ == "__main__":

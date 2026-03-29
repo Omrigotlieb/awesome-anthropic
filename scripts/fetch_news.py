@@ -74,16 +74,10 @@ def has_network_connectivity() -> bool:
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
 def fetch_anthropic_blog(since_hours: int = 48) -> list[NewsItem]:
-    """Scrape https://www.anthropic.com/news for recent posts."""
+    """Scrape https://www.anthropic.com/news for recent first-party posts."""
     import re as _re
 
-    items = []
     since = datetime.now(tz=timezone.utc) - timedelta(hours=since_hours)
-    date_pattern = _re.compile(
-        r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
-        r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
-        r"\s+\d{1,2},\s+20\d\d"
-    )
     try:
         with httpx.Client(timeout=30, follow_redirects=True) as client:
             resp = client.get(
@@ -91,50 +85,61 @@ def fetch_anthropic_blog(since_hours: int = 48) -> list[NewsItem]:
                 headers={"User-Agent": "Mozilla/5.0 awesome-anthropic-bot/1.0"},
             )
             resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "lxml")
-
-        seen_hrefs: set[str] = set()
-        for a_tag in soup.find_all("a", href=True):
-            href = a_tag["href"]
-            if "/news/" not in href or href in seen_hrefs:
-                continue
-            seen_hrefs.add(href)
-
-            raw_text = a_tag.get_text(" ", strip=True)
-            # Extract date from text if present
-            date_match = date_pattern.search(raw_text)
-            pub_dt = datetime.now(tz=timezone.utc)
-            if date_match:
-                try:
-                    pub_dt = datetime.strptime(date_match.group(), "%b %d, %Y").replace(tzinfo=timezone.utc)
-                except ValueError:
-                    try:
-                        pub_dt = datetime.strptime(date_match.group(), "%B %d, %Y").replace(tzinfo=timezone.utc)
-                    except ValueError:
-                        pass
-                # Remove date and categories from text to get title
-                raw_text = date_pattern.sub("", raw_text)
-
-            # Strip known category words
-            for cat in ("Announcements", "Product", "Research", "Policy", "News", "Careers"):
-                raw_text = raw_text.replace(cat, " ")
-            title = " ".join(raw_text.split())[:120]
-            if not title or len(title) < 5:
-                continue
-
-            url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
-            if pub_dt >= since:
-                items.append(
-                    NewsItem(
-                        title=title,
-                        url=url,
-                        source="Anthropic Blog",
-                        published_at=pub_dt.isoformat(),
-                        item_id=f"blog_{href.split('/')[-1]}",
-                    )
-                )
+        return extract_anthropic_items_from_html(resp.text, since)
     except Exception as e:
         print(f"[blog] Error: {e}", file=sys.stderr)
+    return []
+
+
+def extract_anthropic_items_from_html(html: str, since: datetime) -> list[NewsItem]:
+    """Extract recent official Anthropic posts from newsroom HTML."""
+    import re as _re
+
+    date_pattern = _re.compile(
+        r"(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+        r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+        r"\s+\d{1,2},\s+20\d\d"
+    )
+    official_paths = ("/news/", "/features/", "/research/", "/engineering/")
+
+    items: list[NewsItem] = []
+    soup = BeautifulSoup(html, "lxml")
+    seen_hrefs: set[str] = set()
+    for a_tag in soup.find_all("a", href=True):
+        href = a_tag["href"]
+        if href in seen_hrefs or not any(path in href for path in official_paths):
+            continue
+        seen_hrefs.add(href)
+
+        raw_text = a_tag.get_text(" ", strip=True)
+        date_match = date_pattern.search(raw_text)
+        pub_dt = datetime.now(tz=timezone.utc)
+        if date_match:
+            try:
+                pub_dt = datetime.strptime(date_match.group(), "%b %d, %Y").replace(tzinfo=timezone.utc)
+            except ValueError:
+                try:
+                    pub_dt = datetime.strptime(date_match.group(), "%B %d, %Y").replace(tzinfo=timezone.utc)
+                except ValueError:
+                    pass
+            raw_text = date_pattern.sub("", raw_text)
+
+        for cat in ("Announcements", "Product", "Research", "Policy", "News", "Careers"):
+            raw_text = raw_text.replace(cat, " ")
+        title = " ".join(raw_text.split())[:120]
+        if not title or len(title) < 5 or pub_dt < since:
+            continue
+
+        url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
+        items.append(
+            NewsItem(
+                title=title,
+                url=url,
+                source="Anthropic Blog",
+                published_at=pub_dt.isoformat(),
+                item_id=f"blog_{href.split('/')[-1]}",
+            )
+        )
     return items
 
 
