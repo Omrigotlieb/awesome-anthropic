@@ -6,16 +6,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) is currently the latest Claude Code release visible in this repository snapshot.
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 - [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 - [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
-- [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office)
 
 ### Top Story Snapshot
 
-- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
-- [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
-- [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office)
+- [Anthropic's Mythos leak: 3k files in a public CMS, and what the docs revealed](https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8)
 
 ### Freshness Status
 

@@ -10,27 +10,22 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 1000 | [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
-| 980 | [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
-| 960 | [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office) | Anthropic Blog |
-| 940 | [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) | GitHub Release |
-| 920 | [claude-code-action v1.0.81](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.81) | GitHub Release |
+| 20 | [Anthropic's Mythos leak: 3k files in a public CMS, and what the docs revealed](https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8) | Hacker News |
 
-### 📰 Official Announcements
+### 🐦 From the Builders
 
-| Announcement | Notes |
-|-------------|-------|
-| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Latest Anthropic newsroom announcement currently listed (Mar 12, 2026). |
-| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic launched a dedicated institute program (Mar 11, 2026). |
-| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office) | Regional expansion update from the newsroom (Mar 10, 2026). |
+| Tweet | Author |
+|-------|--------|
+| [A weird part of working at Anthropic: getting a few of these each day](https://x.com/bcherny/status/2038056509805142383) | Boris Cherney |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.86](https://github.com/anthropics/claude-code/releases/tag/v2.1.86) | Added `X-Claude-Code-Session-Id` header, plus reliability fixes around resume/bare-mode and plugin scripts. |
-| [claude-code-action v1.0.81](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.81) | Latest published action tag in the releases feed (Mar 27, 2026). |
-| [claude-agent-sdk-typescript v0.2.87](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.87) | Updated to parity with Claude Code v2.1.87 and shipped `@anthropic-ai/claude-agent-sdk@0.2.87`. |
+| [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) | ## What's changed  - Fixed messages in Cowork Dispatch not getting delivered  |
+| [claude-agent-sdk-typescript v0.2.87](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.87) | ## What's changed  - Updated to parity with Claude Code v2.1.87  ## Update  ```sh npm install @anthr |
+| [claude-agent-sdk-python v0.1.52](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.52) |  ### New Features  - **Context usage**: Added `get_context_usage()` method to `ClaudeSDKClient` for  |
+| [claude-code-action v1.0.82](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.82) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.82 |
 
 ---
 

@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2026 05:02:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 06:00:44 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,43 +13,11 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic invests $100 million into the Claude Partner Network</title>
-    <link>https://www.anthropic.com/news/claude-partner-network</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-partner-network</guid>
-    <description>▲ 1000 points · Anthropic Blog · Anthropic invests $100 million into the Claude Partner Network</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Sun, 29 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Introducing The Anthropic Institute</title>
-    <link>https://www.anthropic.com/news/the-anthropic-institute</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/the-anthropic-institute</guid>
-    <description>▲ 980 points · Anthropic Blog · Introducing The Anthropic Institute</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Sun, 29 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Sydney will become Anthropic’s fourth office in Asia-Pacific</title>
-    <link>https://www.anthropic.com/news/sydney-office</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/sydney-office</guid>
-    <description>▲ 960 points · Anthropic Blog · Sydney will become Anthropic’s fourth office in Asia-Pacific</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Sun, 29 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code v2.1.86</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.86</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.86</guid>
-    <description>▲ 940 points · GitHub Release · claude-code v2.1.86</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sun, 29 Mar 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code-action v1.0.81</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.81</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.81</guid>
-    <description>▲ 920 points · GitHub Release · claude-code-action v1.0.81</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Anthropic&apos;s Mythos leak: 3k files in a public CMS, and what the docs revealed</title>
+    <link>https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8</link>
+    <guid isPermaLink="true">https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8</guid>
+    <description>▲ 20 points · Hacker News · Anthropic&apos;s Mythos leak: 3k files in a public CMS, and what the docs revealed</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Sun, 29 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
