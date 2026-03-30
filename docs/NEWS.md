@@ -10,26 +10,30 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
-| 95 | [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) | GitHub Release |
-| 90 | [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+| 483 | [Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost](https://reddit.com/r/ClaudeAI/comments/1s739lc/nicolas_carlini_672k_citations_on_google_scholar/) | r/ClaudeAI |
+| 464 | [I am fully addicted to building dumb little AI web apps. I love it.](https://reddit.com/r/ClaudeAI/comments/1s6of32/i_am_fully_addicted_to_building_dumb_little_ai/) | r/ClaudeAI |
+| 421 | [Jean-Claude](https://reddit.com/r/ClaudeAI/comments/1s76jgs/jeanclaude/) | r/ClaudeAI |
+| 342 | [The biggest difference in AI outcomes is between using "we" versus "do this for me"](https://reddit.com/r/ClaudeAI/comments/1s6xxt8/the_biggest_difference_in_ai_outcomes_is_between/) | r/ClaudeAI |
+| 286 | [Did Anthropic release some f*ing update?](https://reddit.com/r/Anthropic/comments/1s6smsf/did_anthropic_release_some_fing_update/) | r/Anthropic |
+| 224 | [Claude Code runs Git reset –hard origin/main against project repo every 10 mins](https://github.com/anthropics/claude-code/issues/40710) | Hacker News |
+| 135 | [1 prompt = 1% of usage](https://reddit.com/r/Anthropic/comments/1s6xvga/1_prompt_1_of_usage/) | r/Anthropic |
+| 60 | [Hegseth’s War On Anthropic Encounters The First Amendment](https://reddit.com/r/Anthropic/comments/1s725ot/hegseths_war_on_anthropic_encounters_the_first/) | r/Anthropic |
+| 330 | [20x max usage gone in 19 minutes??](https://reddit.com/r/ClaudeAI/comments/1s6yv86/20x_max_usage_gone_in_19_minutes/) | r/ClaudeAI |
+| 285 | [What is the most impressive thing you’ve done or built with Claude so far?](https://reddit.com/r/ClaudeAI/comments/1s6r359/what_is_the_most_impressive_thing_youve_done_or/) | r/ClaudeAI |
+| 226 | [[Built with Claude] Real-time conflict monitor ㅡ scores the impact of 100+ news sources
+  across all countries](https://reddit.com/r/ClaudeAI/comments/1s6vpxh/built_with_claude_realtime_conflict_monitor_ㅡ/) | r/ClaudeAI |
+| 160 | [Claude is not a night owl and not in the mood to troubleshoot.](https://reddit.com/r/ClaudeAI/comments/1s6sl7j/claude_is_not_a_night_owl_and_not_in_the_mood_to/) | r/ClaudeAI |
+| 116 | [The agentic frame work I built with Claude got into a $4million hackathon - and now it's Top 10 among 2000+ applications](https://reddit.com/r/ClaudeAI/comments/1s6v41a/the_agentic_frame_work_i_built_with_claude_got/) | r/ClaudeAI |
+| 87 | [Claude Usage Limits Discussion Megathread Ongoing (sort this by New!)](https://reddit.com/r/ClaudeAI/comments/1s7fcjf/claude_usage_limits_discussion_megathread_ongoing/) | r/ClaudeAI |
+| 53 | [Non-Coding Claude Usage](https://reddit.com/r/ClaudeAI/comments/1s6xebp/noncoding_claude_usage/) | r/ClaudeAI |
 
-### 📰 Official Announcements
+### 🐦 From the Builders
 
-| Title | Source |
+| Tweet | Author |
 |-------|--------|
-| [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
-| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
-| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
-| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office) | Anthropic Blog |
+| [I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.
 
-### 🛠️ SDK & Tool Releases
-
-| Release | Highlights |
-|---------|------------|
-| [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) | Fixed messages in Cowork Dispatch not getting delivered. |
-| [claude-agent-sdk-typescript v0.2.87](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.87) | Updated to parity with Claude Code v2.1.87. |
-| [claude-agent-sdk-python v0.1.52](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.52) | Added context usage support and CLI parity updates. |
+Here goes.](https://x.com/bcherny/status/2038454336355999749) | Boris Cherney |
 
 ---
 

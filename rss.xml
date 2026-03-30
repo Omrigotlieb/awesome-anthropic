@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2026 05:03:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 06:01:13 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,27 +13,83 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>What 81,000 people want from AI</title>
-    <link>https://www.anthropic.com/features/81k-interviews</link>
-    <guid isPermaLink="true">https://www.anthropic.com/features/81k-interviews</guid>
-    <description>▲ 100 points · Anthropic Blog · What 81,000 people want from AI</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s739lc/nicolas_carlini_672k_citations_on_google_scholar/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s739lc/nicolas_carlini_672k_citations_on_google_scholar/</guid>
+    <description>▲ 483 points · r/ClaudeAI · Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.87</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.87</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.87</guid>
-    <description>▲ 95 points · GitHub Release · claude-code v2.1.87</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>I am fully addicted to building dumb little AI web apps. I love it.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s6of32/i_am_fully_addicted_to_building_dumb_little_ai/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s6of32/i_am_fully_addicted_to_building_dumb_little_ai/</guid>
+    <description>▲ 464 points · r/ClaudeAI · I am fully addicted to building dumb little AI web apps. I love it.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic invests $100 million into the Claude Partner Network</title>
-    <link>https://www.anthropic.com/news/claude-partner-network</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-partner-network</guid>
-    <description>▲ 90 points · Anthropic Blog · Anthropic invests $100 million into the Claude Partner Network</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>Jean-Claude</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s76jgs/jeanclaude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s76jgs/jeanclaude/</guid>
+    <description>▲ 421 points · r/ClaudeAI · Jean-Claude</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The biggest difference in AI outcomes is between using &quot;we&quot; versus &quot;do this for me&quot;</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s6xxt8/the_biggest_difference_in_ai_outcomes_is_between/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s6xxt8/the_biggest_difference_in_ai_outcomes_is_between/</guid>
+    <description>▲ 342 points · r/ClaudeAI · The biggest difference in AI outcomes is between using &quot;we&quot; versus &quot;do this for me&quot;</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Did Anthropic release some f*ing update?</title>
+    <link>https://reddit.com/r/Anthropic/comments/1s6smsf/did_anthropic_release_some_fing_update/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s6smsf/did_anthropic_release_some_fing_update/</guid>
+    <description>▲ 286 points · r/Anthropic · Did Anthropic release some f*ing update?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude Code runs Git reset –hard origin/main against project repo every 10 mins</title>
+    <link>https://github.com/anthropics/claude-code/issues/40710</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/40710</guid>
+    <description>▲ 224 points · Hacker News · Claude Code runs Git reset –hard origin/main against project repo every 10 mins</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>1 prompt = 1% of usage</title>
+    <link>https://reddit.com/r/Anthropic/comments/1s6xvga/1_prompt_1_of_usage/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s6xvga/1_prompt_1_of_usage/</guid>
+    <description>▲ 135 points · r/Anthropic · 1 prompt = 1% of usage</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Hegseth’s War On Anthropic Encounters The First Amendment</title>
+    <link>https://reddit.com/r/Anthropic/comments/1s725ot/hegseths_war_on_anthropic_encounters_the_first/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s725ot/hegseths_war_on_anthropic_encounters_the_first/</guid>
+    <description>▲ 60 points · r/Anthropic · Hegseth’s War On Anthropic Encounters The First Amendment</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>20x max usage gone in 19 minutes??</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s6yv86/20x_max_usage_gone_in_19_minutes/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s6yv86/20x_max_usage_gone_in_19_minutes/</guid>
+    <description>▲ 330 points · r/ClaudeAI · 20x max usage gone in 19 minutes??</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>What is the most impressive thing you’ve done or built with Claude so far?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1s6r359/what_is_the_most_impressive_thing_youve_done_or/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s6r359/what_is_the_most_impressive_thing_youve_done_or/</guid>
+    <description>▲ 285 points · r/ClaudeAI · What is the most impressive thing you’ve done or built with Claude so far?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>

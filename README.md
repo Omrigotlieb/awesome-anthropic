@@ -356,9 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — March 30, 2026
 
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) - 95 pts on GitHub Release.
-- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) - 90 pts on Anthropic Blog.
+- [Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost](https://reddit.com/r/ClaudeAI/comments/1s739lc/nicolas_carlini_672k_citations_on_google_scholar/) - 483 pts on r/ClaudeAI.
+- [I am fully addicted to building dumb little AI web apps. I love it.](https://reddit.com/r/ClaudeAI/comments/1s6of32/i_am_fully_addicted_to_building_dumb_little_ai/) - 464 pts on r/ClaudeAI.
+- [Jean-Claude](https://reddit.com/r/ClaudeAI/comments/1s76jgs/jeanclaude/) - 421 pts on r/ClaudeAI.
+- [The biggest difference in AI outcomes is between using "we" versus "do this for me"](https://reddit.com/r/ClaudeAI/comments/1s6xxt8/the_biggest_difference_in_ai_outcomes_is_between/) - 342 pts on r/ClaudeAI.
+- [20x max usage gone in 19 minutes??](https://reddit.com/r/ClaudeAI/comments/1s6yv86/20x_max_usage_gone_in_19_minutes/) - 330 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
