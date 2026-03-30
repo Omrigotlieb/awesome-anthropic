@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-29
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-30
 
 <!-- CHANGELOG_START -->
 ### March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
@@ -351,12 +351,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-29
+> Last fetched: <!-- NEWS_DATE -->2026-03-30
 
 <!-- NEWS_START -->
-### Top Stories — March 29, 2026
+### Top Stories — March 30, 2026
 
-- [Anthropic's Mythos leak: 3k files in a public CMS, and what the docs revealed](https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8) - 20 pts on Hacker News.
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) - 95 pts on GitHub Release.
+- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) - 90 pts on Anthropic Blog.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

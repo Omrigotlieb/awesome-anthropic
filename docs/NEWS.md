@@ -4,6 +4,35 @@
 
 ---
 
+## March 30, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
+| 95 | [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) | GitHub Release |
+| 90 | [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
+| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+| [Sydney will become Anthropic’s fourth office in Asia-Pacific](https://www.anthropic.com/news/sydney-office) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) | Fixed messages in Cowork Dispatch not getting delivered. |
+| [claude-agent-sdk-typescript v0.2.87](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.87) | Updated to parity with Claude Code v2.1.87. |
+| [claude-agent-sdk-python v0.1.52](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.52) | Added context usage support and CLI parity updates. |
+
+---
+
 ## March 29, 2026
 
 ### 🔥 Top Stories

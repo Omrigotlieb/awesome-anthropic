@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2026 06:00:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 05:03:34 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,12 +13,28 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic&apos;s Mythos leak: 3k files in a public CMS, and what the docs revealed</title>
-    <link>https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8</link>
-    <guid isPermaLink="true">https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8</guid>
-    <description>▲ 20 points · Hacker News · Anthropic&apos;s Mythos leak: 3k files in a public CMS, and what the docs revealed</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sun, 29 Mar 2026 09:00:00 +0000</pubDate>
+    <title>What 81,000 people want from AI</title>
+    <link>https://www.anthropic.com/features/81k-interviews</link>
+    <guid isPermaLink="true">https://www.anthropic.com/features/81k-interviews</guid>
+    <description>▲ 100 points · Anthropic Blog · What 81,000 people want from AI</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code v2.1.87</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.87</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.87</guid>
+    <description>▲ 95 points · GitHub Release · claude-code v2.1.87</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic invests $100 million into the Claude Partner Network</title>
+    <link>https://www.anthropic.com/news/claude-partner-network</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/claude-partner-network</guid>
+    <description>▲ 90 points · Anthropic Blog · Anthropic invests $100 million into the Claude Partner Network</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Mon, 30 Mar 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

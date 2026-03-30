@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 
 from scripts.fetch_news import (
     NewsItem,
+    build_primary_story_fallback,
     canonical_story_url,
     extract_anthropic_items_from_html,
     is_low_signal_story,
@@ -105,6 +106,31 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertNotIn("thank you", titles)
         self.assertIn("Claude Code release notes", titles)
         self.assertIn("Anthropic policy update", titles)
+
+    def test_primary_story_fallback_prefers_announcements_then_releases(self):
+        announcements = [
+            mk(
+                "What 81,000 people want from AI",
+                source="Anthropic Blog",
+                score=0,
+                url="https://www.anthropic.com/features/81k-interviews",
+                published_at="2026-03-18T00:00:00+00:00",
+            )
+        ]
+        releases = [
+            mk(
+                "claude-code v2.1.87",
+                source="GitHub Release",
+                score=0,
+                url="https://github.com/anthropics/claude-code/releases/tag/v2.1.87",
+                published_at="2026-03-29T00:00:00+00:00",
+            )
+        ]
+        selected = build_primary_story_fallback(announcements, releases, limit=3)
+        self.assertEqual(len(selected), 2)
+        self.assertEqual(selected[0].source, "Anthropic Blog")
+        self.assertEqual(selected[1].source, "GitHub Release")
+        self.assertGreater(selected[0].score, selected[1].score)
 
     def test_upsert_news_date_section_inserts_when_missing(self):
         existing = (

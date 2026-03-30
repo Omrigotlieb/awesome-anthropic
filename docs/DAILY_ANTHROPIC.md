@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-03-29 (news snapshot: March 29, 2026)
+## 2026-03-30 (news snapshot: March 30, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -13,12 +13,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [Anthropic's Mythos leak: 3k files in a public CMS, and what the docs revealed](https://medium.com/ai-advances/anthropic-claude-mythos-leak-analysis-b77c1b304eb8)
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87)
+- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-29
-- News snapshot date: March 29, 2026
+- Run date (UTC): 2026-03-30
+- News snapshot date: March 30, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

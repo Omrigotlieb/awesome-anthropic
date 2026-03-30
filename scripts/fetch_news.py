@@ -610,6 +610,48 @@ def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source:
     return selected
 
 
+def build_primary_story_fallback(
+    announcements: list[NewsItem],
+    sdk_releases: list[NewsItem],
+    limit: int = 5,
+) -> list[NewsItem]:
+    """
+    Build a deterministic top-stories fallback from first-party announcements
+    and SDK/tool releases when community stories are unavailable or filtered.
+    """
+    selected: list[NewsItem] = []
+    seen_urls: set[str] = set()
+
+    def _append(items: list[NewsItem], base_score: int, step: int) -> None:
+        nonlocal selected
+        rank = 0
+        for item in sorted(items, key=lambda i: i.published_at, reverse=True):
+            key = canonical_story_url(item.url)
+            if not key or key in seen_urls:
+                continue
+            score = item.score if item.score > 0 else max(base_score - (rank * step), 1)
+            selected.append(
+                NewsItem(
+                    title=item.title,
+                    url=item.url,
+                    source=item.source,
+                    published_at=item.published_at,
+                    summary=item.summary,
+                    score=score,
+                    item_id=item.item_id,
+                )
+            )
+            seen_urls.add(key)
+            rank += 1
+            if len(selected) >= limit:
+                return
+
+    _append(announcements, base_score=100, step=5)
+    if len(selected) < limit:
+        _append(sdk_releases, base_score=85, step=5)
+    return selected[:limit]
+
+
 def upsert_news_date_section(existing: str, date_heading: str, section_markdown: str) -> str:
     """
     Ensure docs/NEWS.md contains exactly one section for `date_heading`.
@@ -650,11 +692,13 @@ def append_to_news_md(items: list[NewsItem]) -> None:
         [i for i in items if i.source not in SDK_SOURCES | ANNOUNCE_SOURCES | RESEARCH_SOURCES | TWEET_SOURCES],
         key=lambda x: x.score, reverse=True,
     )
-    stories = select_top_stories(stories, limit=15, max_per_source=4)
     announcements = [i for i in items if i.source in ANNOUNCE_SOURCES]
     research      = [i for i in items if i.source in RESEARCH_SOURCES]
     sdk           = [i for i in items if i.source in SDK_SOURCES]
     tweets        = [i for i in items if i.source in TWEET_SOURCES]
+    stories = select_top_stories(stories, limit=15, max_per_source=4)
+    if not stories:
+        stories = build_primary_story_fallback(announcements=announcements, sdk_releases=sdk, limit=8)
 
     def _esc(s: str) -> str:
         return s.replace("|", "\\|")
