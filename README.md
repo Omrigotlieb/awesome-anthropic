@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-30
+> Last synced: <!-- CHANGELOG_DATE -->2026-03-31
 
 <!-- CHANGELOG_START -->
+### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
+
+### April 30, 2026 — . After that date, requests that include the context-1m-2025-08-07 beta header o
+
 ### March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
-
-### March 16, 2026 — We've launched the display field for extended thinking, letting you omit thinkin
-
-### March 13, 2026 — The 1M token context window is now generally available for Claude Opus 4.6 and S
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-30
+> Last fetched: <!-- NEWS_DATE -->2026-03-31
 
 <!-- NEWS_START -->
-### Top Stories — March 30, 2026
+### Top Stories — March 31, 2026
 
-- [Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost](https://reddit.com/r/ClaudeAI/comments/1s739lc/nicolas_carlini_672k_citations_on_google_scholar/) - 483 pts on r/ClaudeAI.
-- [I am fully addicted to building dumb little AI web apps. I love it.](https://reddit.com/r/ClaudeAI/comments/1s6of32/i_am_fully_addicted_to_building_dumb_little_ai/) - 464 pts on r/ClaudeAI.
-- [Jean-Claude](https://reddit.com/r/ClaudeAI/comments/1s76jgs/jeanclaude/) - 421 pts on r/ClaudeAI.
-- [The biggest difference in AI outcomes is between using "we" versus "do this for me"](https://reddit.com/r/ClaudeAI/comments/1s6xxt8/the_biggest_difference_in_ai_outcomes_is_between/) - 342 pts on r/ClaudeAI.
-- [20x max usage gone in 19 minutes??](https://reddit.com/r/ClaudeAI/comments/1s6yv86/20x_max_usage_gone_in_19_minutes/) - 330 pts on r/ClaudeAI.
+- [Robots won't take your job. They'll bury you in work.](https://reddit.com/r/ClaudeAI/comments/1s7qs82/robots_wont_take_your_job_theyll_bury_you_in_work/) - 1068 pts on r/ClaudeAI.
+- [Claude subscriptions double in just two months, overshadowing users leaving because of rate limits](https://reddit.com/r/ClaudeAI/comments/1s7pipg/claude_subscriptions_double_in_just_two_months/) - 975 pts on r/ClaudeAI.
+- [PSA: Claude Code has two cache bugs that can silently 10-20x your API costs — here's the root cause and workarounds](https://reddit.com/r/ClaudeAI/comments/1s7mkn3/psa_claude_code_has_two_cache_bugs_that_can/) - 751 pts on r/ClaudeAI.
+- [I gave Claude its own computer and let it run 24/7. Here's what it built.](https://reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/) - 668 pts on r/ClaudeAI.
+- [Computer use is now in Claude Code.](https://reddit.com/r/ClaudeAI/comments/1s7wkky/computer_use_is_now_in_claude_code/) - 582 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

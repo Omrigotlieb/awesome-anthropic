@@ -1,26 +1,23 @@
 # Daily Anthropic Brief
 
-## 2026-03-30 (news snapshot: March 30, 2026)
+## 2026-03-31 (news snapshot: March 31, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.87](https://github.com/anthropics/claude-code/releases/tag/v2.1.87) is currently the latest Claude Code release visible in this repository snapshot.
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
-- [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- [claude-code v2.1.88](https://github.com/anthropics/claude-code/releases/tag/v2.1.88) is currently the latest Claude Code release visible in this repository snapshot.
 
 ### Top Story Snapshot
 
-- [Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 million from exploiting smart contracts, and found vulnerabilities in Linux and Ghost](https://reddit.com/r/ClaudeAI/comments/1s739lc/nicolas_carlini_672k_citations_on_google_scholar/)
-- [I am fully addicted to building dumb little AI web apps. I love it.](https://reddit.com/r/ClaudeAI/comments/1s6of32/i_am_fully_addicted_to_building_dumb_little_ai/)
-- [Jean-Claude](https://reddit.com/r/ClaudeAI/comments/1s76jgs/jeanclaude/)
+- [Robots won't take your job. They'll bury you in work.](https://reddit.com/r/ClaudeAI/comments/1s7qs82/robots_wont_take_your_job_theyll_bury_you_in_work/)
+- [Claude subscriptions double in just two months, overshadowing users leaving because of rate limits](https://reddit.com/r/ClaudeAI/comments/1s7pipg/claude_subscriptions_double_in_just_two_months/)
+- [PSA: Claude Code has two cache bugs that can silently 10-20x your API costs — here's the root cause and workarounds](https://reddit.com/r/ClaudeAI/comments/1s7mkn3/psa_claude_code_has_two_cache_bugs_that_can/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-03-30
-- News snapshot date: March 30, 2026
+- Run date (UTC): 2026-03-31
+- News snapshot date: March 31, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

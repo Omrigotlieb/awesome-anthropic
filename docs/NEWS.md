@@ -4,6 +4,38 @@
 
 ---
 
+## March 31, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1068 | [Robots won't take your job. They'll bury you in work.](https://reddit.com/r/ClaudeAI/comments/1s7qs82/robots_wont_take_your_job_theyll_bury_you_in_work/) | r/ClaudeAI |
+| 975 | [Claude subscriptions double in just two months, overshadowing users leaving because of rate limits](https://reddit.com/r/ClaudeAI/comments/1s7pipg/claude_subscriptions_double_in_just_two_months/) | r/ClaudeAI |
+| 751 | [PSA: Claude Code has two cache bugs that can silently 10-20x your API costs — here's the root cause and workarounds](https://reddit.com/r/ClaudeAI/comments/1s7mkn3/psa_claude_code_has_two_cache_bugs_that_can/) | r/ClaudeAI |
+| 668 | [I gave Claude its own computer and let it run 24/7. Here's what it built.](https://reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/) | r/ClaudeAI |
+| 11 | [Show HN: We scored 50k PRs with AI – what we learned about code complexity](https://gitvelocity.dev) | Hacker News |
+| 582 | [Computer use is now in Claude Code.](https://reddit.com/r/ClaudeAI/comments/1s7wkky/computer_use_is_now_in_claude_code/) | r/ClaudeAI |
+| 486 | [Investigating usage limits hitting faster than expected](https://reddit.com/r/ClaudeAI/comments/1s7zgj0/investigating_usage_limits_hitting_faster_than/) | r/ClaudeAI |
+| 373 | [15 New Claude Code Hidden Features from Boris Cherny (creator of CC) on 30 Mar 2026](https://reddit.com/r/ClaudeAI/comments/1s7j9f2/15_new_claude_code_hidden_features_from_boris/) | r/ClaudeAI |
+| 292 | [claude-code-best-practice trending on GitHub with 25,000★](https://reddit.com/r/ClaudeAI/comments/1s7onll/claudecodebestpractice_trending_on_github_with/) | r/ClaudeAI |
+| 284 | [Don’t let Claude use your actual computer from the CLI](https://reddit.com/r/ClaudeAI/comments/1s839hp/dont_let_claude_use_your_actual_computer_from_the/) | r/ClaudeAI |
+| 239 | [Garry Tan open-sourced gstack : his personal skill pack for Claude Code (56k stars)](https://reddit.com/r/ClaudeAI/comments/1s7jdof/garry_tan_opensourced_gstack_his_personal_skill/) | r/ClaudeAI |
+| 222 | [I built a universal CLAUDE.md that cuts Claude output tokens by 63% - validated with benchmarks, fully open source](https://reddit.com/r/ClaudeAI/comments/1s7qu07/i_built_a_universal_claudemd_that_cuts_claude/) | r/ClaudeAI |
+| 213 | [I built a Steam game in 10 days with Claude Code — here's what actually happened behind the scenes](https://reddit.com/r/ClaudeAI/comments/1s7mfil/i_built_a_steam_game_in_10_days_with_claude_code/) | r/ClaudeAI |
+| 127 | [I built a physical Tamagotchi that feeds on my Claude Code activity](https://reddit.com/r/ClaudeAI/comments/1s7lwao/i_built_a_physical_tamagotchi_that_feeds_on_my/) | r/ClaudeAI |
+| 71 | [I vibe-coded a full WC2 inspired RTS game with Claude - 9 factions, 200+ units, multiplayer, AI commanders, and it runs in your browser](https://reddit.com/r/ClaudeAI/comments/1s828ad/i_vibecoded_a_full_wc2_inspired_rts_game_with/) | r/ClaudeAI |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.88](https://github.com/anthropics/claude-code/releases/tag/v2.1.88) | ## What's changed  - Added `CLAUDE_CODE_NO_FLICKER=1` environment variable to opt into flicker-free  |
+| [claude-agent-sdk-python v0.1.53](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.53) |  ### Bug Fixes  - **Setting sources flag**: Fixed `--setting-sources` being passed as an empty strin |
+| [claude-agent-sdk-typescript v0.2.88](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.88) | ## What's changed  - Added `includeSystemMessages` option to `getSessionMessages()` to optionally in |
+
+---
+
 ## March 30, 2026
 
 ### 🔥 Top Stories

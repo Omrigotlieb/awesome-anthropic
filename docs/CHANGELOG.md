@@ -1,6 +1,19 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-30T06:01:15Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-31T06:02:53Z
+
+---
+
+## March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
+
+We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks. 
+ We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on
+
+---
+
+## April 30, 2026 — . After that date, requests that include the context-1m-2025-08-07 beta header o
+
+. After that date, requests that include the context-1m-2025-08-07 beta header on these models will return a 400 error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6 , which support the full 1M token context window at standard pricing with no beta header required.
 
 ---
 
@@ -124,24 +137,5 @@ We've launched Claude in Microsoft Foundry , bringing Claude models to Azure cus
 ## November 14, 2025 — We've launched structured outputs in public beta, providing guaranteed schema co
 
 We've launched structured outputs in public beta, providing guaranteed schema conformance for Claude's responses. Use JSON outputs for structured data responses or strict tool use for validated tool inputs. Available for Claude Sonnet 4.5 and Claude Opus 4.1. To enable, use the beta header structured-outputs-2025-11-13 .
-
----
-
-## October 28, 2025 — We announced the deprecation of the Claude Sonnet 3.7 model. Read more in Model 
-
-We announced the deprecation of the Claude Sonnet 3.7 model. Read more in Model deprecations . 
- We've retired the Claude Sonnet 3.5 models. All requests to these models will now return an error. 
- We've expanded context editing with thinking block clearing ( clear_thinking_20251015 ), enabling automatic management of thinking blocks. Learn more in Context editing .
-
----
-
-## October 16, 2025 — We've launched Agent Skills ( skills-2025-10-02 beta), a new way to extend Claud
-
-We've launched Agent Skills ( skills-2025-10-02 beta), a new way to extend Claude's capabilities. Skills are organized folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks. The initial release includes: 
- 
- Anthropic-managed Skills : Pre-built Skills for working with PowerPoint (.pptx), Excel (.xlsx), Word (.docx), and PDF files 
- Custom Skills : Upload your own Skills via the Skills API ( /v1/skills endpoints) to package domain expertise and organizational workflows 
- Skills require the code execution tool to be enabled 
- Learn more in Agent Skills and API reference
 
 ---
