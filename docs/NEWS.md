@@ -4,6 +4,59 @@
 
 ---
 
+## April 1, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 4149 | [i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged](https://reddit.com/r/ClaudeAI/comments/1s8lkkm/i_dug_through_claude_codes_leaked_source_and/) | r/ClaudeAI |
+| 2095 | [Claude code source code has been leaked via a map file in their npm registry](https://reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/) | r/ClaudeAI |
+| 1231 | [Claude code just got leaked in npm](https://reddit.com/r/Anthropic/comments/1s8n865/claude_code_just_got_leaked_in_npm/) | r/Anthropic |
+| 1138 | [Thanks to the leaked source code for Claude Code, I used Codex to find and patch the root cause of the insane token drain in Claude Code and patched it. Usage limits are back to normal for me!](https://reddit.com/r/ClaudeAI/comments/1s8zxt4/thanks_to_the_leaked_source_code_for_claude_code/) | r/ClaudeAI |
+| 1034 | [Guys, stop bad mouthing your AI.](https://reddit.com/r/ClaudeAI/comments/1s8tf4q/guys_stop_bad_mouthing_your_ai/) | r/ClaudeAI |
+| 449 | [I didn't want to believe it... (I'm on Max Plan...)](https://reddit.com/r/Anthropic/comments/1s8mgb7/i_didnt_want_to_believe_it_im_on_max_plan/) | r/Anthropic |
+| 293 | [Claude Code users hitting usage limits 'way faster than expected'](https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/) | Hacker News |
+| 149 | [Dear Anthropic, I can’t work like this](https://reddit.com/r/Anthropic/comments/1s91hqd/dear_anthropic_i_cant_work_like_this/) | r/Anthropic |
+| 100 | [13% usage for one “hello” is insane( Max20 plan)](https://reddit.com/r/Anthropic/comments/1s8wwra/13_usage_for_one_hello_is_insane_max20_plan/) | r/Anthropic |
+| 443 | [Did Claude just troll me?](https://reddit.com/r/ClaudeAI/comments/1s8n50m/did_claude_just_troll_me/) | r/ClaudeAI |
+| 338 | [You can now build a fully functional Claude Code executable directly from source code now - modding claude code has never been easier](https://reddit.com/r/ClaudeAI/comments/1s98srg/you_can_now_build_a_fully_functional_claude_code/) | r/ClaudeAI |
+| 299 | [I wrote a cron job that saves me ~2 hours of dead time on Claude Code every day](https://reddit.com/r/ClaudeAI/comments/1s8pae9/i_wrote_a_cron_job_that_saves_me_2_hours_of_dead/) | r/ClaudeAI |
+| 289 | [I read 17 papers on agentic AI workflows. Most Claude Code advice is measurably wrong](https://reddit.com/r/ClaudeAI/comments/1s8mbqm/i_read_17_papers_on_agentic_ai_workflows_most/) | r/ClaudeAI |
+| 281 | [Claude Code's source code just leaked — so I had Claude Code analyze its own internals and build an open-source multi-agent framework from it](https://reddit.com/r/ClaudeAI/comments/1s8xfwt/claude_codes_source_code_just_leaked_so_i_had/) | r/ClaudeAI |
+| 279 | [heads up: axios@1.14.1 is compromised. if you vibe code with claude, check your lockfiles.](https://reddit.com/r/ClaudeAI/comments/1s8h27r/heads_up_axios1141_is_compromised_if_you_vibe/) | r/ClaudeAI |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We've signed an MOU with the Australian Government to collaborate on AI safety research and support Australia's National AI Plan.
+
+Read more: https://www.anthropic.com/news/australia-MOU](https://x.com/AnthropicAI/status/2039137425214353555) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.89](https://github.com/anthropics/claude-code/releases/tag/v2.1.89) | ## What's changed  - Added `"defer"` permission decision to `PreToolUse` hooks — headless sessions c |
+| [claude-agent-sdk-typescript v0.2.89](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.89) | ## What's changed  - Added `startup()` to pre-warm the CLI subprocess before `query()`, making the f |
+| [claude-code-action v1.0.83](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.83) | ## What's Changed * Add subprocess isolation setup and git credential helper by @OctavianGuzu in htt |
+| [anthropic-sdk-python v0.87.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.87.0) | ## 0.87.0 (2026-03-31)  Full Changelog: [v0.86.0...v0.87.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.81.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.81.0) | ## 0.81.0 (2026-03-31)  Full Changelog: [sdk-v0.80.0...sdk-v0.81.0](https://github.com/anthropics/an |
+| [anthropic-sdk-go v1.28.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.28.0) | ## 1.28.0 (2026-03-31)  Full Changelog: [v1.27.1...v1.28.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.26.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.26.0) | ## 1.26.0 (2026-03-31)  Full Changelog: [v1.25.0...v1.26.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.19.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.19.0) | ## 2.19.0 (2026-03-31)  Full Changelog: [v2.18.0...v2.19.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Bedrock-v0.1.1](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.1.1) | ## 0.1.1 (2026-03-31)  Full Changelog: [Bedrock-v0.1.0...Bedrock-v0.1.1](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.10.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.10.0) | ## 12.10.0 (2026-03-31)  Full Changelog: [Anthropic-v12.9.0...Anthropic-v12.10.0](https://github.com |
+
+---
+
 ## March 31, 2026
 
 ### 🔥 Top Stories

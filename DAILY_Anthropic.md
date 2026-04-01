@@ -271,3 +271,13 @@ This file is checked first at the start of each daily automation run.
 - [I am fully addicted to building dumb little AI web apps. I love it.](https://reddit.com/r/ClaudeAI/comments/1s6of32/i_am_fully_addicted_to_building_dumb_little_ai/)
 - [Jean-Claude](https://reddit.com/r/ClaudeAI/comments/1s76jgs/jeanclaude/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-01
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Robots won't take your job. They'll bury you in work.](https://reddit.com/r/ClaudeAI/comments/1s7qs82/robots_wont_take_your_job_theyll_bury_you_in_work/)
+- [Claude subscriptions double in just two months, overshadowing users leaving because of rate limits](https://reddit.com/r/ClaudeAI/comments/1s7pipg/claude_subscriptions_double_in_just_two_months/)
+- [PSA: Claude Code has two cache bugs that can silently 10-20x your API costs — here's the root cause and workarounds](https://reddit.com/r/ClaudeAI/comments/1s7mkn3/psa_claude_code_has_two_cache_bugs_that_can/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

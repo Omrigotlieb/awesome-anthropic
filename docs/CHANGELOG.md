@@ -1,6 +1,6 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-03-31T06:02:53Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-01T06:00:49Z
 
 ---
 
@@ -11,9 +11,9 @@ We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
 
 ---
 
-## April 30, 2026 — . After that date, requests that include the context-1m-2025-08-07 beta header o
+## April 30, 2026 — . After that date, the context-1m-2025-08-07 beta header will have no effect on 
 
-. After that date, requests that include the context-1m-2025-08-07 beta header on these models will return a 400 error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6 , which support the full 1M token context window at standard pricing with no beta header required.
+. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6 , which support the full 1M token context window at standard pricing with no beta header required.
 
 ---
 

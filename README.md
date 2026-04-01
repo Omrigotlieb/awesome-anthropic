@@ -334,12 +334,12 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-03-31
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-01
 
 <!-- CHANGELOG_START -->
 ### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
 
-### April 30, 2026 — . After that date, requests that include the context-1m-2025-08-07 beta header o
+### April 30, 2026 — . After that date, the context-1m-2025-08-07 beta header will have no effect on
 
 ### March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
 
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-03-31
+> Last fetched: <!-- NEWS_DATE -->2026-04-01
 
 <!-- NEWS_START -->
-### Top Stories — March 31, 2026
+### Top Stories — April 1, 2026
 
-- [Robots won't take your job. They'll bury you in work.](https://reddit.com/r/ClaudeAI/comments/1s7qs82/robots_wont_take_your_job_theyll_bury_you_in_work/) - 1068 pts on r/ClaudeAI.
-- [Claude subscriptions double in just two months, overshadowing users leaving because of rate limits](https://reddit.com/r/ClaudeAI/comments/1s7pipg/claude_subscriptions_double_in_just_two_months/) - 975 pts on r/ClaudeAI.
-- [PSA: Claude Code has two cache bugs that can silently 10-20x your API costs — here's the root cause and workarounds](https://reddit.com/r/ClaudeAI/comments/1s7mkn3/psa_claude_code_has_two_cache_bugs_that_can/) - 751 pts on r/ClaudeAI.
-- [I gave Claude its own computer and let it run 24/7. Here's what it built.](https://reddit.com/r/ClaudeAI/comments/1s84l18/i_gave_claude_its_own_computer_and_let_it_run_247/) - 668 pts on r/ClaudeAI.
-- [Computer use is now in Claude Code.](https://reddit.com/r/ClaudeAI/comments/1s7wkky/computer_use_is_now_in_claude_code/) - 582 pts on r/ClaudeAI.
+- [i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged](https://reddit.com/r/ClaudeAI/comments/1s8lkkm/i_dug_through_claude_codes_leaked_source_and/) - 4149 pts on r/ClaudeAI.
+- [Claude code source code has been leaked via a map file in their npm registry](https://reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/) - 2095 pts on r/ClaudeAI.
+- [Claude code just got leaked in npm](https://reddit.com/r/Anthropic/comments/1s8n865/claude_code_just_got_leaked_in_npm/) - 1231 pts on r/Anthropic.
+- [Thanks to the leaked source code for Claude Code, I used Codex to find and patch the root cause of the insane token drain in Claude Code and patched it. Usage limits are back to normal for me!](https://reddit.com/r/ClaudeAI/comments/1s8zxt4/thanks_to_the_leaked_source_code_for_claude_code/) - 1138 pts on r/ClaudeAI.
+- [Guys, stop bad mouthing your AI.](https://reddit.com/r/ClaudeAI/comments/1s8tf4q/guys_stop_bad_mouthing_your_ai/) - 1034 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
