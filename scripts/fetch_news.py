@@ -652,6 +652,58 @@ def build_primary_story_fallback(
     return selected[:limit]
 
 
+def ensure_primary_signal_stories(
+    stories: list[NewsItem],
+    announcements: list[NewsItem],
+    sdk_releases: list[NewsItem],
+    min_count: int = 1,
+    max_total: int = 15,
+) -> list[NewsItem]:
+    """
+    Ensure top stories include first-party/product release signal.
+
+    When community stories dominate, we still include a small number of
+    official announcements or release-watch items so the dashboard reflects
+    product movement, not only social sentiment.
+    """
+    if min_count <= 0 or not stories:
+        return stories[:max_total]
+
+    def _is_primary(item: NewsItem) -> bool:
+        src = (item.source or "").lower()
+        return src in {"anthropic blog", "github release"}
+
+    existing_primary = sum(1 for item in stories if _is_primary(item))
+    if existing_primary >= min_count:
+        return stories[:max_total]
+
+    candidates = build_primary_story_fallback(
+        announcements=announcements,
+        sdk_releases=sdk_releases,
+        limit=max(min_count * 3, 6),
+    )
+    story_keys = {story_dedup_key(item) for item in stories}
+    additions: list[NewsItem] = []
+    for item in candidates:
+        key = story_dedup_key(item)
+        if not key or key in story_keys:
+            continue
+        additions.append(item)
+        story_keys.add(key)
+        if existing_primary + len(additions) >= min_count:
+            break
+
+    if not additions:
+        return stories[:max_total]
+
+    # Keep ranking stable by replacing the lowest-scored tail with primary
+    # signal items instead of increasing card count.
+    trim = min(len(additions), len(stories))
+    rebalance = stories[: max(len(stories) - trim, 0)] + additions
+    rebalance = sorted(rebalance, key=lambda x: x.score, reverse=True)
+    return rebalance[:max_total]
+
+
 def upsert_news_date_section(existing: str, date_heading: str, section_markdown: str) -> str:
     """
     Ensure docs/NEWS.md contains exactly one section for `date_heading`.
@@ -697,6 +749,13 @@ def append_to_news_md(items: list[NewsItem]) -> None:
     sdk           = [i for i in items if i.source in SDK_SOURCES]
     tweets        = [i for i in items if i.source in TWEET_SOURCES]
     stories = select_top_stories(stories, limit=15, max_per_source=4)
+    stories = ensure_primary_signal_stories(
+        stories=stories,
+        announcements=announcements,
+        sdk_releases=sdk,
+        min_count=1,
+        max_total=15,
+    )
     if not stories:
         stories = build_primary_story_fallback(announcements=announcements, sdk_releases=sdk, limit=8)
 

@@ -5,6 +5,7 @@ from scripts.fetch_news import (
     NewsItem,
     build_primary_story_fallback,
     canonical_story_url,
+    ensure_primary_signal_stories,
     extract_anthropic_items_from_html,
     is_low_signal_story,
     select_top_stories,
@@ -131,6 +132,52 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertEqual(selected[0].source, "Anthropic Blog")
         self.assertEqual(selected[1].source, "GitHub Release")
         self.assertGreater(selected[0].score, selected[1].score)
+
+    def test_ensure_primary_signal_stories_injects_release_when_missing(self):
+        stories = [
+            mk("Community story 1", source="r/ClaudeAI", score=900, url="https://example.com/s1"),
+            mk("Community story 2", source="r/ClaudeAI", score=800, url="https://example.com/s2"),
+            mk("Community story 3", source="Hacker News", score=700, url="https://example.com/s3"),
+        ]
+        announcements = []
+        releases = [
+            mk(
+                "claude-code v2.1.90",
+                source="GitHub Release",
+                score=0,
+                url="https://github.com/anthropics/claude-code/releases/tag/v2.1.90",
+                published_at="2026-04-02T00:00:00+00:00",
+            )
+        ]
+        selected = ensure_primary_signal_stories(
+            stories=stories,
+            announcements=announcements,
+            sdk_releases=releases,
+            min_count=1,
+            max_total=3,
+        )
+        self.assertEqual(len(selected), 3)
+        self.assertTrue(any(s.source == "GitHub Release" for s in selected))
+
+    def test_ensure_primary_signal_stories_keeps_existing_primary(self):
+        stories = [
+            mk(
+                "Australian government and Anthropic sign MOU for AI safety and research",
+                source="Anthropic Blog",
+                score=120,
+                url="https://www.anthropic.com/news/australia-MOU",
+                published_at="2026-03-31T00:00:00+00:00",
+            ),
+            mk("Community story", source="r/ClaudeAI", score=100, url="https://example.com/s1"),
+        ]
+        selected = ensure_primary_signal_stories(
+            stories=stories,
+            announcements=[],
+            sdk_releases=[],
+            min_count=1,
+            max_total=2,
+        )
+        self.assertEqual([s.url for s in selected], [s.url for s in stories])
 
     def test_upsert_news_date_section_inserts_when_missing(self):
         existing = (
