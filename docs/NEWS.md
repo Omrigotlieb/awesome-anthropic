@@ -4,6 +4,61 @@
 
 ---
 
+## April 2, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 778 | [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/) | r/ClaudeAI |
+| 501 | [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/) | r/ClaudeAI |
+| 368 | [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/) | r/ClaudeAI |
+| 301 | [Anthropic suddenly cares about the copyright](https://reddit.com/r/Anthropic/comments/1s9kwhl/anthropic_suddenly_cares_about_the_copyright/) | r/Anthropic |
+| 265 | [Claude is unsuable on the 20$](https://reddit.com/r/Anthropic/comments/1s9fsxu/claude_is_unsuable_on_the_20/) | r/Anthropic |
+| 180 | [My Opus model has gone off the rails](https://reddit.com/r/ClaudeAI/comments/1s9vry6/my_opus_model_has_gone_off_the_rails/) | r/ClaudeAI |
+| 143 | [I used 2% in my sleep](https://reddit.com/r/Anthropic/comments/1s9n98i/i_used_2_in_my_sleep/) | r/Anthropic |
+| 136 | [Day 3 with no real answer, this is about transparency, not tokens](https://reddit.com/r/Anthropic/comments/1s9j46y/day_3_with_no_real_answer_this_is_about/) | r/Anthropic |
+| 135 | [OpenAI demand sinks on secondary market as Anthropic runs hot](https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot) | Hacker News |
+| 50 | [Ask HN: Client took over development by vibe coding. What to do?](https://news.ycombinator.com/item?id=47599303) | Hacker News |
+| 21 | [Anthropic Races to Contain Leak of Code Behind Claude AI Agent](https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7) | Hacker News |
+| 163 | [I made a free interactive guide for people who want to try Claude Code but don't know what a terminal is](https://reddit.com/r/ClaudeAI/comments/1s9mn6t/i_made_a_free_interactive_guide_for_people_who/) | r/ClaudeAI |
+| 157 | [Hitler Finds Out About the Claude Code Leak](https://reddit.com/r/ClaudeAI/comments/1s9v5v9/hitler_finds_out_about_the_claude_code_leak/) | r/ClaudeAI |
+| 145 | [Revenge for all the unfair lateral thinking puzzles Claude gives me](https://reddit.com/r/ClaudeAI/comments/1s9msw3/revenge_for_all_the_unfair_lateral_thinking/) | r/ClaudeAI |
+| 135 | [Wow. Anthropic. Kindly, get your shit together.](https://reddit.com/r/Anthropic/comments/1s9guaz/wow_anthropic_kindly_get_your_shit_together/) | r/Anthropic |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Today we're excited to announce NO_FLICKER mode for Claude Code in the terminal
+
+It uses an experimental new renderer that we're excited about. The renderer is early and has tradeoffs, but already we'](https://x.com/bcherny/status/2039421575422980329) | Boris Cherney |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.90](https://github.com/anthropics/claude-code/releases/tag/v2.1.90) | ## What's changed  - Added `/powerup` — interactive lessons teaching Claude Code features with anima |
+| [anthropic-sdk-python v0.88.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.88.0) | ## 0.88.0 (2026-04-01)  Full Changelog: [v0.87.0...v0.88.0](https://github.com/anthropics/anthropic- |
+| [claude-code-action v1.0.85](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.85) | ## What's Changed * fix: fall back to repo default_branch instead of hardcoded "main" by @ashwin-ant |
+| [claude-code-action v1.0.84](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.84) | ## What's Changed * Pin Claude Code to 2.1.87 by @ashwin-ant in https://github.com/anthropics/claude |
+| [claude-agent-sdk-python v0.1.54](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.54) |  ---  **PyPI:** https://pypi.org/project/claude-agent-sdk/0.1.54/  ```bash pip install claude-agent- |
+| [anthropic-sdk-typescript sdk-v0.82.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.82.0) | ## 0.82.0 (2026-04-01)  Full Changelog: [sdk-v0.81.0...sdk-v0.82.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript bedrock-sdk-v0.27.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.27.0) | ## 0.27.0 (2026-04-01)  Full Changelog: [bedrock-sdk-v0.26.4...bedrock-sdk-v0.27.0](https://github.c |
+| [anthropic-sdk-typescript aws-sdk-v0.2.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.2.0) | ## 0.2.0 (2026-04-01)  Full Changelog: [aws-sdk-v0.1.0...aws-sdk-v0.2.0](https://github.com/anthropi |
+| [claude-agent-sdk-typescript v0.2.90](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.90) | ## What's changed  - Updated to parity with Claude Code v2.1.90  ## Update  ```sh npm install @anthr |
+| [buffa v0.3.0](https://github.com/anthropics/buffa/releases/tag/v0.3.0) | ## What's Changed * Add full protobuf extension support by @iainmcgin in https://github.com/anthropi |
+| [connect-rust v0.3.0](https://github.com/anthropics/connect-rust/releases/tag/v0.3.0) | ## What's Changed * Remove in-repo BSR plugin artifacts by @iainmcgin in https://github.com/anthropi |
+| [anthropic-sdk-go v1.29.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.29.0) | ## 1.29.0 (2026-04-01)  Full Changelog: [v1.28.0...v1.29.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Bedrock-v0.1.2](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.1.2) | ## 0.1.2 (2026-04-01)  Full Changelog: [Bedrock-v0.1.1...Bedrock-v0.1.2](https://github.com/anthropi |
+| [anthropic-sdk-csharp Aws-v0.2.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Aws-v0.2.0) | ## 0.2.0 (2026-04-01)  Full Changelog: [Aws-v0.1.0...Aws-v0.2.0](https://github.com/anthropics/anthr |
+| [anthropic-sdk-csharp Anthropic-v12.11.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.11.0) | ## 12.11.0 (2026-04-01)  Full Changelog: [Anthropic-v12.10.0...Anthropic-v12.11.0](https://github.co |
+| [anthropic-sdk-java v2.20.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.20.0) | ## 2.20.0 (2026-04-01)  Full Changelog: [v2.19.0...v2.20.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.9.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.9.0) | ## 0.9.0 (2026-04-01)  Full Changelog: [v0.8.0...v0.9.0](https://github.com/anthropics/anthropic-sdk |
+| [anthropic-sdk-ruby v1.27.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.27.0) | ## 1.27.0 (2026-04-01)  Full Changelog: [v1.26.0...v1.27.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## April 1, 2026
 
 ### 🔥 Top Stories

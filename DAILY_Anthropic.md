@@ -281,3 +281,13 @@ This file is checked first at the start of each daily automation run.
 - [Claude subscriptions double in just two months, overshadowing users leaving because of rate limits](https://reddit.com/r/ClaudeAI/comments/1s7pipg/claude_subscriptions_double_in_just_two_months/)
 - [PSA: Claude Code has two cache bugs that can silently 10-20x your API costs — here's the root cause and workarounds](https://reddit.com/r/ClaudeAI/comments/1s7mkn3/psa_claude_code_has_two_cache_bugs_that_can/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-02
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged](https://reddit.com/r/ClaudeAI/comments/1s8lkkm/i_dug_through_claude_codes_leaked_source_and/)
+- [Claude code source code has been leaked via a map file in their npm registry](https://reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/)
+- [Claude code just got leaked in npm](https://reddit.com/r/Anthropic/comments/1s8n865/claude_code_just_got_leaked_in_npm/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

@@ -1,24 +1,24 @@
 # Daily Anthropic Brief
 
-## 2026-04-01 (news snapshot: April 1, 2026)
+## 2026-04-02 (news snapshot: April 2, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.89](https://github.com/anthropics/claude-code/releases/tag/v2.1.89) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.90](https://github.com/anthropics/claude-code/releases/tag/v2.1.90) is currently the latest Claude Code release visible in this repository snapshot.
 - [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Top Story Snapshot
 
-- [i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged](https://reddit.com/r/ClaudeAI/comments/1s8lkkm/i_dug_through_claude_codes_leaked_source_and/)
-- [Claude code source code has been leaked via a map file in their npm registry](https://reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/)
-- [Claude code just got leaked in npm](https://reddit.com/r/Anthropic/comments/1s8n865/claude_code_just_got_leaked_in_npm/)
+- [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/)
+- [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/)
+- [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-01
-- News snapshot date: April 1, 2026
+- Run date (UTC): 2026-04-02
+- News snapshot date: April 2, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
