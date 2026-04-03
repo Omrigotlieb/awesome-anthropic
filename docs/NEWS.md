@@ -10,28 +10,46 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 320 | [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | GitHub Release |
-| 260 | [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | GitHub Release |
-| 210 | [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) | Anthropic Blog |
-| 180 | [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/) | r/ClaudeAI |
-| 160 | [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/) | r/ClaudeAI |
-| 140 | [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/) | r/ClaudeAI |
+| 828 | [I gave several AIs money to invest in the stock market](https://reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/) | r/ClaudeAI |
+| 512 | [Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions](https://reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/) | r/ClaudeAI |
+| 496 | [Claude - tried to kill me](https://reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/) | r/ClaudeAI |
+| 475 | [Switched from MCPs to CLIs for Claude Code and honestly never going back](https://reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/) | r/ClaudeAI |
+| 336 | [How are people using Claude as a personal assistant (Slack + Outlook + To-Do)? ADHD-friendly setup help 🙏](https://reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/) | r/ClaudeAI |
+| 210 | [Claude launches NO_FLICKER Mode - Boris Cherny Thread (9 details)](https://reddit.com/r/ClaudeAI/comments/1sakkoh/claude_launches_no_flicker_mode_boris_cherny/) | r/ClaudeAI |
+| 89 | [I used Claude Code to build a portable AI worker Desktop from scratch — the open-source community gave it 391 stars in 6 days](https://reddit.com/r/ClaudeAI/comments/1sai916/i_used_claude_code_to_build_a_portable_ai_worker/) | r/ClaudeAI |
+| 85 | [claude-agent-sdk-python v0.1.55](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55) | GitHub Release |
+| 83 | [Claude usage gets burned absurdly fast for serious work, even with tools/features disabled. How are people optimizing this?](https://reddit.com/r/ClaudeAI/comments/1satb89/claude_usage_gets_burned_absurdly_fast_for/) | r/ClaudeAI |
+| 80 | [I connected Claude Voice Mode to Claude Code and it’s kind of great.](https://reddit.com/r/ClaudeAI/comments/1saow7z/i_connected_claude_voice_mode_to_claude_code_and/) | r/ClaudeAI |
+| 70 | [Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens](https://reddit.com/r/ClaudeAI/comments/1saq6kp/sigrid_jin_the_author_of_claw_code_was_already/) | r/ClaudeAI |
+| 65 | [These 10 GitHub repos completely changed how I use Claude Code](https://reddit.com/r/ClaudeAI/comments/1sapnyb/these_10_github_repos_completely_changed_how_i/) | r/ClaudeAI |
+| 59 | [Is there a way to limit how many sources Claude searches?](https://reddit.com/r/ClaudeAI/comments/1safaok/is_there_a_way_to_limit_how_many_sources_claude/) | r/ClaudeAI |
+| 12 | [Anthropic's AutoDream Is Flawed](https://substack.com/home/post/p-192893121) | Hacker News |
+| 11 | [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) | Hacker News |
 
-### 📰 Official Announcements
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [New Anthropic research: Emotion concepts and their function in a large language model.
+
+All LLMs sometimes act like they have emotions. But why? We found internal representations of emotion concepts t](https://x.com/AnthropicAI/status/2039749628737019925) | Anthropic |
+
+### 🔬 Research
 
 | Title | Source |
 |-------|--------|
-| [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) | Anthropic Blog |
-| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+| [Does Claude's Constitution Have a Culture?](http://arxiv.org/abs/2603.28123v1) | arXiv |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | Added MCP result-size override and stronger skill/plugin controls. |
-| [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | Latest action tag published on April 3, 2026 with full changelog from v1. |
-| [claude-agent-sdk-typescript v0.2.90](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.90) | Updated to parity with Claude Code v2.1.90. |
-| [anthropic-sdk-python v0.88.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.88.0) | Latest Python SDK release from April 1, 2026 in current snapshot. |
+| [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | ## What's changed  - Added MCP tool result persistence override via `_meta["anthropic/maxResultSizeC |
+| [claude-agent-sdk-python v0.1.55](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55) |  ### Bug Fixes  - **MCP large tool results**: Forward `maxResultSizeChars` from `ToolAnnotations` vi |
+| [connect-rust v0.3.1](https://github.com/anthropics/connect-rust/releases/tag/v0.3.1) | ## What's Changed * Expose emit_register_fn option in codegen and build configs by @iainmcgin in htt |
+| [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.87 |
+| [claude-code-action v1.0.86](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.86) | ## What's Changed * Fix subprocess isolation install step not running by @OctavianGuzu in https://gi |
+| [claude-agent-sdk-typescript v0.2.91](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.91) | ## What's changed  - Added optional `terminal_reason` field to result messages, exposing why the que |
 
 ---
 

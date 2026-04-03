@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 3, 2026
 
-- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) - 320 pts on GitHub Release.
-- [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) - 260 pts on GitHub Release.
-- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) - 210 pts on Anthropic Blog.
-- [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/) - 180 pts on r/ClaudeAI.
-- [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/) - 160 pts on r/ClaudeAI.
+- [I gave several AIs money to invest in the stock market](https://reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/) - 828 pts on r/ClaudeAI.
+- [Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions](https://reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/) - 512 pts on r/ClaudeAI.
+- [Claude - tried to kill me](https://reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/) - 496 pts on r/ClaudeAI.
+- [Switched from MCPs to CLIs for Claude Code and honestly never going back](https://reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/) - 475 pts on r/ClaudeAI.
+- [How are people using Claude as a personal assistant (Slack + Outlook + To-Do)? ADHD-friendly setup help 🙏](https://reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/) - 336 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2026 05:04:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 06:00:39 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,51 +13,123 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>claude-code v2.1.91</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.91</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.91</guid>
-    <description>▲ 320 points · GitHub Release · claude-code v2.1.91</description>
+    <title>I gave several AIs money to invest in the stock market</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/</guid>
+    <description>▲ 828 points · r/ClaudeAI · I gave several AIs money to invest in the stock market</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/</guid>
+    <description>▲ 512 points · r/ClaudeAI · Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude - tried to kill me</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/</guid>
+    <description>▲ 496 points · r/ClaudeAI · Claude - tried to kill me</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Switched from MCPs to CLIs for Claude Code and honestly never going back</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/</guid>
+    <description>▲ 475 points · r/ClaudeAI · Switched from MCPs to CLIs for Claude Code and honestly never going back</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>How are people using Claude as a personal assistant (Slack + Outlook + To-Do)? ADHD-friendly setup help 🙏</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/</guid>
+    <description>▲ 336 points · r/ClaudeAI · How are people using Claude as a personal assistant (Slack + Outlook + To-Do)? ADHD-friendly setup help 🙏</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude launches NO_FLICKER Mode - Boris Cherny Thread (9 details)</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sakkoh/claude_launches_no_flicker_mode_boris_cherny/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sakkoh/claude_launches_no_flicker_mode_boris_cherny/</guid>
+    <description>▲ 210 points · r/ClaudeAI · Claude launches NO_FLICKER Mode - Boris Cherny Thread (9 details)</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I used Claude Code to build a portable AI worker Desktop from scratch — the open-source community gave it 391 stars in 6 days</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sai916/i_used_claude_code_to_build_a_portable_ai_worker/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sai916/i_used_claude_code_to_build_a_portable_ai_worker/</guid>
+    <description>▲ 89 points · r/ClaudeAI · I used Claude Code to build a portable AI worker Desktop from scratch — the open-source community gave it 391 stars in 6 days</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-agent-sdk-python v0.1.55</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.55</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
     <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.87</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87</guid>
-    <description>▲ 260 points · GitHub Release · claude-code-action v1.0.87</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Australian government and Anthropic sign MOU for AI safety and research</title>
-    <link>https://www.anthropic.com/news/australia-MOU</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/australia-MOU</guid>
-    <description>▲ 210 points · Anthropic Blog · Australian government and Anthropic sign MOU for AI safety and research</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic staff reacts to Claude code leak 👀</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/</guid>
-    <description>▲ 180 points · r/ClaudeAI · Anthropic staff reacts to Claude code leak 👀</description>
+    <title>Claude usage gets burned absurdly fast for serious work, even with tools/features disabled. How are people optimizing this?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1satb89/claude_usage_gets_burned_absurdly_fast_for/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1satb89/claude_usage_gets_burned_absurdly_fast_for/</guid>
+    <description>▲ 83 points · r/ClaudeAI · Claude usage gets burned absurdly fast for serious work, even with tools/features disabled. How are people optimizing this?</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>AI’s fault, or more AI? That’s the question</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/</guid>
-    <description>▲ 160 points · r/ClaudeAI · AI’s fault, or more AI? That’s the question</description>
+    <title>I connected Claude Voice Mode to Claude Code and it’s kind of great.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1saow7z/i_connected_claude_voice_mode_to_claude_code_and/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1saow7z/i_connected_claude_voice_mode_to_claude_code_and/</guid>
+    <description>▲ 80 points · r/ClaudeAI · I connected Claude Voice Mode to Claude Code and it’s kind of great.</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude Code Source Leak Megathread</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/</guid>
-    <description>▲ 140 points · r/ClaudeAI · Claude Code Source Leak Megathread</description>
+    <title>Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1saq6kp/sigrid_jin_the_author_of_claw_code_was_already/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1saq6kp/sigrid_jin_the_author_of_claw_code_was_already/</guid>
+    <description>▲ 70 points · r/ClaudeAI · Sigrid Jin, the author of Claw Code, was already featured in The Wall Street Journal on March 20 for using 25 billion Claude Code tokens</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>These 10 GitHub repos completely changed how I use Claude Code</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sapnyb/these_10_github_repos_completely_changed_how_i/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sapnyb/these_10_github_repos_completely_changed_how_i/</guid>
+    <description>▲ 65 points · r/ClaudeAI · These 10 GitHub repos completely changed how I use Claude Code</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Is there a way to limit how many sources Claude searches?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1safaok/is_there_a_way_to_limit_how_many_sources_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1safaok/is_there_a_way_to_limit_how_many_sources_claude/</guid>
+    <description>▲ 59 points · r/ClaudeAI · Is there a way to limit how many sources Claude searches?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic&apos;s AutoDream Is Flawed</title>
+    <link>https://substack.com/home/post/p-192893121</link>
+    <guid isPermaLink="true">https://substack.com/home/post/p-192893121</guid>
+    <description>▲ 12 points · Hacker News · Anthropic&apos;s AutoDream Is Flawed</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Emotion concepts and their function in a large language model</title>
+    <link>https://www.anthropic.com/research/emotion-concepts-function</link>
+    <guid isPermaLink="true">https://www.anthropic.com/research/emotion-concepts-function</guid>
+    <description>▲ 11 points · Hacker News · Emotion concepts and their function in a large language model</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
