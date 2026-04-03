@@ -199,6 +199,20 @@ def read_section_links(section_heading: str, title_col: int, limit: int = 5) -> 
     ]
 
 
+def unique_links_in_order(items: list[tuple[str, str]], limit: int | None = None) -> list[tuple[str, str]]:
+    """Preserve order while removing duplicate URLs across recent sections."""
+    seen_urls: set[str] = set()
+    unique: list[tuple[str, str]] = []
+    for title, url in items:
+        if not url or url in seen_urls:
+            continue
+        seen_urls.add(url)
+        unique.append((title, url))
+        if limit is not None and len(unique) >= limit:
+            break
+    return unique
+
+
 def _blog_intro(stale_days: int) -> list[str]:
     lines = [
         "This edition turns the daily log into a compact newsroom focused on product, release, and ecosystem signal.",
@@ -396,12 +410,12 @@ def build_blog_articles() -> list[str]:
 def write_daily_brief(today: str) -> None:
     news_date = read_news_date()
     stories = read_top_stories(limit=3)
-    announcements = [
+    announcements = unique_links_in_order([
         (title, url)
         for title, url, _date in read_recent_section_links(
             "📰 Official Announcements", title_col=0, limit=3, max_sections=10
         )
-    ]
+    ], limit=3)
     releases = read_section_links("🛠️ SDK & Tool Releases", title_col=0, limit=8)
     today_dt = dt.datetime.strptime(today, "%Y-%m-%d").replace(tzinfo=timezone.utc)
     news_dt = _parse_news_date(news_date)

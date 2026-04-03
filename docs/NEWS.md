@@ -4,6 +4,37 @@
 
 ---
 
+## April 3, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 320 | [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | GitHub Release |
+| 260 | [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | GitHub Release |
+| 210 | [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) | Anthropic Blog |
+| 180 | [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/) | r/ClaudeAI |
+| 160 | [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/) | r/ClaudeAI |
+| 140 | [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/) | r/ClaudeAI |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) | Anthropic Blog |
+| [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | Added MCP result-size override and stronger skill/plugin controls. |
+| [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | Latest action tag published on April 3, 2026 with full changelog from v1. |
+| [claude-agent-sdk-typescript v0.2.90](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.90) | Updated to parity with Claude Code v2.1.90. |
+| [anthropic-sdk-python v0.88.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.88.0) | Latest Python SDK release from April 1, 2026 in current snapshot. |
+
+---
+
 ## April 2, 2026
 
 ### 🔥 Top Stories

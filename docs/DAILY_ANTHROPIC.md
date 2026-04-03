@@ -1,24 +1,25 @@
 # Daily Anthropic Brief
 
-## 2026-04-02 (news snapshot: April 2, 2026)
+## 2026-04-03 (news snapshot: April 3, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.90](https://github.com/anthropics/claude-code/releases/tag/v2.1.90) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) is currently the latest Claude Code release visible in this repository snapshot.
 - [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
+- [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 
 ### Top Story Snapshot
 
-- [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/)
-- [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/)
-- [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/)
+- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+- [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87)
+- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-02
-- News snapshot date: April 2, 2026
+- Run date (UTC): 2026-04-03
+- News snapshot date: April 3, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

@@ -139,6 +139,20 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             ],
         )
 
+    def test_unique_links_in_order_deduplicates_by_url(self):
+        rows = [
+            ("Official One", "https://example.com/official-1"),
+            ("Official One duplicate", "https://example.com/official-1"),
+            ("Official Two", "https://example.com/official-2"),
+        ]
+        self.assertEqual(
+            daily.unique_links_in_order(rows, limit=3),
+            [
+                ("Official One", "https://example.com/official-1"),
+                ("Official Two", "https://example.com/official-2"),
+            ],
+        )
+
     def test_ensure_file_creates_header_when_missing(self):
         with tempfile.TemporaryDirectory() as td:
             target = Path(td) / "DAILY_Anthropic.md"

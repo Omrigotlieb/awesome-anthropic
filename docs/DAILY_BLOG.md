@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-02 (news snapshot: April 2, 2026)
+## 2026-04-03 (news snapshot: April 3, 2026)
 
 ### Executive Summary
 
@@ -9,47 +9,47 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-02 uses the April 2, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.90.
-- Official channel signal remains active: Australian government and Anthropic sign MOU for AI safety and research (April 1, 2026).
+- The daily run on 2026-04-03 uses the April 3, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.91.
+- Official channel signal remains active: Australian government and Anthropic sign MOU for AI safety and research (April 3, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 1, 2026):** [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
+**News peg (April 3, 2026):** [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 Snapshot update: Australian government and Anthropic sign MOU for AI safety and research
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Claude Code release watch
+### Article 2 — Official announcement watch
 
-**News peg (April 2, 2026):** [claude-code v2.1.90](https://github.com/anthropics/claude-code/releases/tag/v2.1.90)
+**News peg (April 3, 2026):** [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
 
-Snapshot update: - Added `/powerup` — interactive lessons teaching Claude Code features with anima
+Snapshot update: Anthropic invests $100 million into the Claude Partner Network
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 3 — Claude Code release watch
+
+**News peg (April 3, 2026):** [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+
+Snapshot update: Added MCP result-size override and stronger skill/plugin controls.
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 3 — Community demand signal
+### Article 4 — Ecosystem release signal
 
-**News peg (April 2, 2026):** [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/)
+**News peg (April 3, 2026):** [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87)
 
-Snapshot update: Top story source: r/ClaudeAI
+Snapshot update: Top story source: GitHub Release
 
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
-
-### Article 4 — Community demand signal
-
-**News peg (April 2, 2026):** [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/)
-
-Snapshot update: Top story source: r/ClaudeAI
-
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
 ### Article 5 — Community demand signal
 
-**News peg (April 2, 2026):** [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/)
+**News peg (April 3, 2026):** [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
@@ -58,16 +58,17 @@ This is community signal; it is useful for demand sensing, but should stay clear
 
 ### Top Stories Referenced
 
-- [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/)
-- [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/)
-- [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/)
+- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+- [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87)
+- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Source Trail
 
-- April 1, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
-- April 2, 2026: [claude-code v2.1.90](https://github.com/anthropics/claude-code/releases/tag/v2.1.90)
-- April 2, 2026: [anthropic-sdk-python v0.88.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.88.0)
-- April 2, 2026: [claude-code-action v1.0.85](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.85)
+- April 3, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
+- April 3, 2026: [Anthropic invests $100 million into the Claude Partner Network](https://www.anthropic.com/news/claude-partner-network)
+- April 3, 2026: [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+- April 3, 2026: [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87)
+- April 3, 2026: [claude-agent-sdk-typescript v0.2.90](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.90)
 
 ### Website Improvement Review
 

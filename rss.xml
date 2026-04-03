@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2026 17:20:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 05:04:38 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,52 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
+    <title>claude-code v2.1.91</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.91</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.91</guid>
+    <description>▲ 320 points · GitHub Release · claude-code v2.1.91</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.87</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87</guid>
+    <description>▲ 260 points · GitHub Release · claude-code-action v1.0.87</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Australian government and Anthropic sign MOU for AI safety and research</title>
+    <link>https://www.anthropic.com/news/australia-MOU</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/australia-MOU</guid>
+    <description>▲ 210 points · Anthropic Blog · Australian government and Anthropic sign MOU for AI safety and research</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
     <title>Anthropic staff reacts to Claude code leak 👀</title>
     <link>https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/</link>
     <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/</guid>
-    <description>▲ 778 points · r/ClaudeAI · Anthropic staff reacts to Claude code leak 👀</description>
+    <description>▲ 180 points · r/ClaudeAI · Anthropic staff reacts to Claude code leak 👀</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>AI’s fault, or more AI? That’s the question</title>
     <link>https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/</link>
     <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/</guid>
-    <description>▲ 501 points · r/ClaudeAI · AI’s fault, or more AI? That’s the question</description>
+    <description>▲ 160 points · r/ClaudeAI · AI’s fault, or more AI? That’s the question</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>Claude Code Source Leak Megathread</title>
     <link>https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/</link>
     <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/</guid>
-    <description>▲ 368 points · r/ClaudeAI · Claude Code Source Leak Megathread</description>
+    <description>▲ 140 points · r/ClaudeAI · Claude Code Source Leak Megathread</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic suddenly cares about the copyright</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s9kwhl/anthropic_suddenly_cares_about_the_copyright/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s9kwhl/anthropic_suddenly_cares_about_the_copyright/</guid>
-    <description>▲ 301 points · r/Anthropic · Anthropic suddenly cares about the copyright</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude is unsuable on the 20$</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s9fsxu/claude_is_unsuable_on_the_20/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s9fsxu/claude_is_unsuable_on_the_20/</guid>
-    <description>▲ 265 points · r/Anthropic · Claude is unsuable on the 20$</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>My Opus model has gone off the rails</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s9vry6/my_opus_model_has_gone_off_the_rails/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9vry6/my_opus_model_has_gone_off_the_rails/</guid>
-    <description>▲ 180 points · r/ClaudeAI · My Opus model has gone off the rails</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I used 2% in my sleep</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s9n98i/i_used_2_in_my_sleep/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s9n98i/i_used_2_in_my_sleep/</guid>
-    <description>▲ 143 points · r/Anthropic · I used 2% in my sleep</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Day 3 with no real answer, this is about transparency, not tokens</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s9j46y/day_3_with_no_real_answer_this_is_about/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s9j46y/day_3_with_no_real_answer_this_is_about/</guid>
-    <description>▲ 136 points · r/Anthropic · Day 3 with no real answer, this is about transparency, not tokens</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>OpenAI demand sinks on secondary market as Anthropic runs hot</title>
-    <link>https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot</link>
-    <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot</guid>
-    <description>▲ 135 points · Hacker News · OpenAI demand sinks on secondary market as Anthropic runs hot</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Ask HN: Client took over development by vibe coding. What to do?</title>
-    <link>https://news.ycombinator.com/item?id=47599303</link>
-    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47599303</guid>
-    <description>▲ 50 points · Hacker News · Ask HN: Client took over development by vibe coding. What to do?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic Races to Contain Leak of Code Behind Claude AI Agent</title>
-    <link>https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7</link>
-    <guid isPermaLink="true">https://www.wsj.com/tech/ai/anthropic-races-to-contain-leak-of-code-behind-claude-ai-agent-4bc5acc7</guid>
-    <description>▲ 21 points · Hacker News · Anthropic Races to Contain Leak of Code Behind Claude AI Agent</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I made a free interactive guide for people who want to try Claude Code but don&apos;t know what a terminal is</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s9mn6t/i_made_a_free_interactive_guide_for_people_who/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9mn6t/i_made_a_free_interactive_guide_for_people_who/</guid>
-    <description>▲ 163 points · r/ClaudeAI · I made a free interactive guide for people who want to try Claude Code but don&apos;t know what a terminal is</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Hitler Finds Out About the Claude Code Leak</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s9v5v9/hitler_finds_out_about_the_claude_code_leak/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9v5v9/hitler_finds_out_about_the_claude_code_leak/</guid>
-    <description>▲ 157 points · r/ClaudeAI · Hitler Finds Out About the Claude Code Leak</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Revenge for all the unfair lateral thinking puzzles Claude gives me</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1s9msw3/revenge_for_all_the_unfair_lateral_thinking/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1s9msw3/revenge_for_all_the_unfair_lateral_thinking/</guid>
-    <description>▲ 145 points · r/ClaudeAI · Revenge for all the unfair lateral thinking puzzles Claude gives me</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Wow. Anthropic. Kindly, get your shit together.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1s9guaz/wow_anthropic_kindly_get_your_shit_together/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1s9guaz/wow_anthropic_kindly_get_your_shit_together/</guid>
-    <description>▲ 135 points · r/Anthropic · Wow. Anthropic. Kindly, get your shit together.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 02 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 03 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

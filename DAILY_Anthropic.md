@@ -291,3 +291,13 @@ This file is checked first at the start of each daily automation run.
 - [Claude code source code has been leaked via a map file in their npm registry](https://reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/)
 - [Claude code just got leaked in npm](https://reddit.com/r/Anthropic/comments/1s8n865/claude_code_just_got_leaked_in_npm/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-03
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+- [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87)
+- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

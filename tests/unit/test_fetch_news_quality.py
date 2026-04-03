@@ -9,6 +9,7 @@ from scripts.fetch_news import (
     extract_anthropic_items_from_html,
     is_low_signal_story,
     select_top_stories,
+    sort_stories_for_output,
     title_fingerprint,
     upsert_news_date_section,
 )
@@ -107,6 +108,33 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertNotIn("thank you", titles)
         self.assertIn("Claude Code release notes", titles)
         self.assertIn("Anthropic policy update", titles)
+
+    def test_sort_stories_for_output_orders_by_score_then_date(self):
+        stories = [
+            mk(
+                "Older high score",
+                source="r/ClaudeAI",
+                score=500,
+                url="https://example.com/1",
+                published_at="2026-04-01T00:00:00+00:00",
+            ),
+            mk(
+                "Newer high score",
+                source="r/ClaudeAI",
+                score=500,
+                url="https://example.com/2",
+                published_at="2026-04-02T00:00:00+00:00",
+            ),
+            mk(
+                "Lower score",
+                source="Hacker News",
+                score=300,
+                url="https://example.com/3",
+                published_at="2026-04-03T00:00:00+00:00",
+            ),
+        ]
+        ordered = sort_stories_for_output(stories)
+        self.assertEqual([s.title for s in ordered], ["Newer high score", "Older high score", "Lower score"])
 
     def test_primary_story_fallback_prefers_announcements_then_releases(self):
         announcements = [

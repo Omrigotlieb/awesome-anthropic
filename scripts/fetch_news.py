@@ -610,6 +610,16 @@ def select_top_stories(stories: list[NewsItem], limit: int = 15, max_per_source:
     return selected
 
 
+def sort_stories_for_output(stories: list[NewsItem]) -> list[NewsItem]:
+    """
+    Deterministically sort top stories for markdown output.
+
+    Primary key is score (descending), then publication timestamp (newest first),
+    then title (ascending) for stable ties.
+    """
+    return sorted(stories, key=lambda i: (i.score, i.published_at, i.title.lower()), reverse=True)
+
+
 def build_primary_story_fallback(
     announcements: list[NewsItem],
     sdk_releases: list[NewsItem],
@@ -758,6 +768,7 @@ def append_to_news_md(items: list[NewsItem]) -> None:
     )
     if not stories:
         stories = build_primary_story_fallback(announcements=announcements, sdk_releases=sdk, limit=8)
+    stories = sort_stories_for_output(stories)
 
     def _esc(s: str) -> str:
         return s.replace("|", "\\|")

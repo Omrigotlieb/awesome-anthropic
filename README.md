@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-02
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-03
 
 <!-- CHANGELOG_START -->
 ### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-02
+> Last fetched: <!-- NEWS_DATE -->2026-04-03
 
 <!-- NEWS_START -->
-### Top Stories — April 2, 2026
+### Top Stories — April 3, 2026
 
-- [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/) - 778 pts on r/ClaudeAI.
-- [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/) - 501 pts on r/ClaudeAI.
-- [Claude Code Source Leak Megathread](https://reddit.com/r/ClaudeAI/comments/1s9d9j9/claude_code_source_leak_megathread/) - 368 pts on r/ClaudeAI.
-- [Anthropic suddenly cares about the copyright](https://reddit.com/r/Anthropic/comments/1s9kwhl/anthropic_suddenly_cares_about_the_copyright/) - 301 pts on r/Anthropic.
-- [Claude is unsuable on the 20$](https://reddit.com/r/Anthropic/comments/1s9fsxu/claude_is_unsuable_on_the_20/) - 265 pts on r/Anthropic.
+- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) - 320 pts on GitHub Release.
+- [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) - 260 pts on GitHub Release.
+- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) - 210 pts on Anthropic Blog.
+- [Anthropic staff reacts to Claude code leak 👀](https://reddit.com/r/ClaudeAI/comments/1s9dvi8/anthropic_staff_reacts_to_claude_code_leak/) - 180 pts on r/ClaudeAI.
+- [AI’s fault, or more AI? That’s the question](https://reddit.com/r/ClaudeAI/comments/1s9c5af/ais_fault_or_more_ai_thats_the_question/) - 160 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
