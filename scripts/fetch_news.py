@@ -100,7 +100,7 @@ def extract_anthropic_items_from_html(html: str, since: datetime) -> list[NewsIt
         r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
         r"\s+\d{1,2},\s+20\d\d"
     )
-    official_paths = ("/news/", "/features/", "/research/", "/engineering/")
+    official_paths = ("/news/", "/features/", "/research/", "/engineering/", "/events/")
 
     items: list[NewsItem] = []
     soup = BeautifulSoup(html, "lxml")
@@ -124,7 +124,7 @@ def extract_anthropic_items_from_html(html: str, since: datetime) -> list[NewsIt
                     pass
             raw_text = date_pattern.sub("", raw_text)
 
-        for cat in ("Announcements", "Product", "Research", "Policy", "News", "Careers"):
+        for cat in ("Announcements", "Product", "Research", "Policy", "News", "Careers", "Events"):
             raw_text = raw_text.replace(cat, " ")
         title = " ".join(raw_text.split())[:120]
         if not title or len(title) < 5 or pub_dt < since:

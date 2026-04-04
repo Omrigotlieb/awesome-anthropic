@@ -4,6 +4,35 @@
 
 ---
 
+## April 4, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 420 | [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) | Anthropic Blog |
+| 260 | [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Blog |
+| 180 | [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | GitHub Release |
+| 130 | [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | GitHub Release |
+| 120 | [claude-agent-sdk-python v0.1.55](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55) | GitHub Release |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) | Anthropic Blog |
+| [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | Added MCP tool result persistence override and operational reliability fixes. |
+| [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | Latest release in the v1.0.x action line for Claude Code GitHub automation. |
+| [claude-agent-sdk-python v0.1.55](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55) | Bug fixes and MCP large-tool-result handling improvements. |
+
+---
+
 ## April 3, 2026
 
 ### 🔥 Top Stories

@@ -1,24 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-04-03 (news snapshot: April 3, 2026)
+## 2026-04-04 (news snapshot: April 4, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
 - [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) is currently the latest Claude Code release visible in this repository snapshot.
+- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
+- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
 - [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Top Story Snapshot
 
-- [I gave several AIs money to invest in the stock market](https://reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/)
-- [Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions](https://reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/)
-- [Claude - tried to kill me](https://reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/)
+- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
+- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
+- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-03
-- News snapshot date: April 3, 2026
+- Run date (UTC): 2026-04-04
+- News snapshot date: April 4, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

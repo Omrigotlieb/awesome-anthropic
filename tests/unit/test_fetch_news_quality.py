@@ -252,6 +252,20 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertIn("https://www.anthropic.com/news/claude-partner-network", urls)
         self.assertNotIn("https://example.com/off-topic", urls)
 
+    def test_extract_anthropic_items_includes_event_posts(self):
+        html = """
+        <html><body>
+          <a href="/events/anthropic-at-google-cloud-next-2026">Events Apr 22, 2026 Anthropic at Google Cloud Next 2026</a>
+          <a href="/careers/jobs">Careers Apr 22, 2026 Join us</a>
+        </body></html>
+        """
+        since = datetime(2026, 4, 1, tzinfo=timezone.utc)
+        items = extract_anthropic_items_from_html(html, since=since)
+        urls = [item.url for item in items]
+
+        self.assertIn("https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026", urls)
+        self.assertNotIn("https://www.anthropic.com/careers/jobs", urls)
+
     def test_extract_anthropic_items_respects_since_filter(self):
         html = """
         <html><body>
