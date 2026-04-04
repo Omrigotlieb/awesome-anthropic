@@ -10,26 +10,35 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 420 | [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) | Anthropic Blog |
-| 260 | [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Blog |
-| 180 | [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | GitHub Release |
-| 130 | [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | GitHub Release |
-| 120 | [claude-agent-sdk-python v0.1.55](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55) | GitHub Release |
+| 481 | [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396) | Hacker News |
+| 85 | [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56) | GitHub Release |
 
-### 📰 Official Announcements
+### 🐦 From the Builders
 
-| Title | Source |
+| Tweet | Author |
 |-------|--------|
-| [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) | Anthropic Blog |
-| [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Blog |
+| [Starting tomorrow at 12pm PT, Claude subscriptions will no longer cover usage on third-party tools like OpenClaw.
+
+You can still use these tools with your Claude login via extra usage bundles (now ava](https://x.com/bcherny/status/2040206440556826908) | Boris Cherney |
+| [New Anthropic Fellows Research: a new method for surfacing behavioral differences between AI models.
+
+We apply the “diff” principle from software development to compare open-weight AI models and ident](https://x.com/AnthropicAI/status/2040179539738030182) | Anthropic |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) | Added MCP tool result persistence override and operational reliability fixes. |
-| [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87) | Latest release in the v1.0.x action line for Claude Code GitHub automation. |
-| [claude-agent-sdk-python v0.1.55](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55) | Bug fixes and MCP large-tool-result handling improvements. |
+| [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) | ## What's changed  - Added `forceRemoteSettingsRefresh` policy setting: when set, the CLI blocks sta |
+| [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.92   ---  **PyPI:** https:/ |
+| [claude-code-action v1.0.88](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.88) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.88 |
+| [anthropic-sdk-python v0.89.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.89.0) | ## 0.89.0 (2026-04-03)  Full Changelog: [v0.88.0...v0.89.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript vertex-sdk-v0.15.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.15.0) | ## 0.15.0 (2026-04-03)  Full Changelog: [vertex-sdk-v0.14.4...vertex-sdk-v0.15.0](https://github.com |
+| [anthropic-sdk-typescript sdk-v0.83.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.83.0) | ## 0.83.0 (2026-04-03)  Full Changelog: [sdk-v0.82.0...sdk-v0.83.0](https://github.com/anthropics/an |
+| [claude-agent-sdk-typescript v0.2.92](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.92) | ## What's changed  - Updated to parity with Claude Code v2.1.92  ## Update  ```sh npm install @anthr |
+| [connect-rust v0.3.2](https://github.com/anthropics/connect-rust/releases/tag/v0.3.2) | ## What's Changed * Add Bazel example for buffa+connectrpc protoc plugins by @iainmcgin in https://g |
+| [anthropic-sdk-csharp Vertex-v0.2.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.2.0) | ## 0.2.0 (2026-04-03)  Full Changelog: [Vertex-v0.1.0...Vertex-v0.2.0](https://github.com/anthropics |
+| [anthropic-sdk-ruby v1.28.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.28.0) | ## 1.28.0 (2026-04-03)  Full Changelog: [v1.27.0...v1.28.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.30.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.30.0) | ## 1.30.0 (2026-04-03)  Full Changelog: [v1.29.0...v1.30.0](https://github.com/anthropics/anthropic- |
 
 ---
 

@@ -6,16 +6,13 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91) is currently the latest Claude Code release visible in this repository snapshot.
-- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
-- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
+- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) is currently the latest Claude Code release visible in this repository snapshot.
 - [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Top Story Snapshot
 
-- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
-- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
-- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+- [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396)
+- [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
 
 ### Freshness Status
 

@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-03
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-04
 
 <!-- CHANGELOG_START -->
 ### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
@@ -351,16 +351,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-03
+> Last fetched: <!-- NEWS_DATE -->2026-04-04
 
 <!-- NEWS_START -->
-### Top Stories — April 3, 2026
+### Top Stories — April 4, 2026
 
-- [I gave several AIs money to invest in the stock market](https://reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/) - 828 pts on r/ClaudeAI.
-- [Latest Research By Anthrophic Highlights that Claude Might Have Functional Emotions](https://reddit.com/r/ClaudeAI/comments/1saoa8i/latest_research_by_anthrophic_highlights_that/) - 512 pts on r/ClaudeAI.
-- [Claude - tried to kill me](https://reddit.com/r/ClaudeAI/comments/1sam5pw/claude_tried_to_kill_me/) - 496 pts on r/ClaudeAI.
-- [Switched from MCPs to CLIs for Claude Code and honestly never going back](https://reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/) - 475 pts on r/ClaudeAI.
-- [How are people using Claude as a personal assistant (Slack + Outlook + To-Do)? ADHD-friendly setup help 🙏](https://reddit.com/r/ClaudeAI/comments/1sad9rb/how_are_people_using_claude_as_a_personal/) - 336 pts on r/ClaudeAI.
+- [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396) - 481 pts on Hacker News.
+- [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

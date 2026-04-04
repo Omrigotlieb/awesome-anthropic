@@ -10,28 +10,12 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 ### Key Takeaways
 
 - The daily run on 2026-04-04 uses the April 4, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.91.
-- Official channel signal remains active: Emotion concepts and their function in a large language model (April 4, 2026).
+- Latest release tracked: claude-code v2.1.92.
+- Official channel signal remains active: Australian government and Anthropic sign MOU for AI safety and research (April 1, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
-
-**News peg (April 4, 2026):** [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
-
-Snapshot update: Emotion concepts and their function in a large language model
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 2 — Official announcement watch
-
-**News peg (April 4, 2026):** [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
-
-Snapshot update: Anthropic at Google Cloud Next 2026
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
 
 **News peg (April 1, 2026):** [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
@@ -39,37 +23,42 @@ Snapshot update: Australian government and Anthropic sign MOU for AI safety and 
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 4 — Claude Code release watch
+### Article 2 — Claude Code release watch
 
-**News peg (April 4, 2026):** [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+**News peg (April 4, 2026):** [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
 
-Snapshot update: Added MCP tool result persistence override and operational reliability fixes.
+Snapshot update: - Added `forceRemoteSettingsRefresh` policy setting: when set, the CLI blocks sta
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 5 — Ecosystem release signal
+### Article 3 — Ecosystem watch signal
 
-**News peg (April 4, 2026):** [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87)
+**News peg (April 4, 2026):** [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396)
+
+Snapshot update: Top story source: Hacker News
+
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+
+### Article 4 — Ecosystem release signal
+
+**News peg (April 4, 2026):** [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
 
 Snapshot update: Top story source: GitHub Release
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
 
 
 ### Top Stories Referenced
 
-- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
-- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
-- [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
+- [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396)
+- [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
 
 ### Source Trail
 
-- April 4, 2026: [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
-- April 4, 2026: [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
 - April 1, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
-- April 4, 2026: [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
-- April 4, 2026: [claude-code-action v1.0.87](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.87)
-- April 4, 2026: [claude-agent-sdk-python v0.1.55](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.55)
+- April 4, 2026: [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
+- April 4, 2026: [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
+- April 4, 2026: [claude-code-action v1.0.88](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.88)
 
 ### Website Improvement Review
 
