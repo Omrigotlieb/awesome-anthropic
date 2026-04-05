@@ -354,10 +354,10 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last fetched: <!-- NEWS_DATE -->2026-04-05
 
 <!-- NEWS_START -->
-### Top Stories — April 4, 2026
+### Top Stories — April 5, 2026
 
-- [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396) - 481 pts on Hacker News.
-- [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56) - 85 pts on GitHub Release.
+- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) - 167 pts on Hacker News.
+- [Banning All Anthropic Employees](https://joeyh.name/blog/entry/banning_all_Anthropic_employees/) - 17 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

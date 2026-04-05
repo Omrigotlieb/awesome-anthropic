@@ -4,6 +4,17 @@
 
 ---
 
+## April 5, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 167 | [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) | Hacker News |
+| 17 | [Banning All Anthropic Employees](https://joeyh.name/blog/entry/banning_all_Anthropic_employees/) | Hacker News |
+
+---
+
 ## April 4, 2026
 
 ### 🔥 Top Stories

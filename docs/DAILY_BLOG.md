@@ -1,19 +1,17 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-05 (news snapshot: April 4, 2026)
+## 2026-04-05 (news snapshot: April 5, 2026)
 
 ### Executive Summary
 
 This edition turns the daily log into a compact newsroom focused on product, release, and ecosystem signal.
 Each article is generated from the current `docs/NEWS.md` snapshot so the editorial deck stays aligned with verified repository data.
-The current snapshot lags by 1 day(s), so the article deck stays anchored to the latest verified items available in `docs/NEWS.md`.
 
 ### Key Takeaways
 
-- The daily run on 2026-04-05 uses the April 4, 2026 news snapshot.
+- The daily run on 2026-04-05 uses the April 5, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.92.
 - Official channel signal remains active: Australian government and Anthropic sign MOU for AI safety and research (April 1, 2026).
-- Freshness risk: snapshot is 1 day(s) old due to unavailable network fetch in this environment.
 
 ### Latest News Articles
 
@@ -33,34 +31,32 @@ Snapshot update: - Added `forceRemoteSettingsRefresh` policy setting: when set, 
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 3 — Ecosystem watch signal
+### Article 3 — First-party story signal
 
-**News peg (April 4, 2026):** [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396)
+**News peg (April 5, 2026):** [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
+
+Snapshot update: Top story source: Hacker News
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 4 — Ecosystem watch signal
+
+**News peg (April 5, 2026):** [Banning All Anthropic Employees](https://joeyh.name/blog/entry/banning_all_Anthropic_employees/)
 
 Snapshot update: Top story source: Hacker News
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 4 — Ecosystem release signal
-
-**News peg (April 4, 2026):** [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
-
-Snapshot update: Top story source: GitHub Release
-
-SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
-
 
 ### Top Stories Referenced
 
-- [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396)
-- [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
+- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
+- [Banning All Anthropic Employees](https://joeyh.name/blog/entry/banning_all_Anthropic_employees/)
 
 ### Source Trail
 
 - April 1, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
-- April 4, 2026: [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
-- April 4, 2026: [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
-- April 4, 2026: [claude-code-action v1.0.88](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.88)
+- April 5, 2026: [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
 
 ### Website Improvement Review
 
