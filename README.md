@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-04
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-05
 
 <!-- CHANGELOG_START -->
 ### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
@@ -351,7 +351,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-04
+> Last fetched: <!-- NEWS_DATE -->2026-04-05
 
 <!-- NEWS_START -->
 ### Top Stories — April 4, 2026

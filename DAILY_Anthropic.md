@@ -311,3 +311,12 @@ This file is checked first at the start of each daily automation run.
 - [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
 - [claude-code v2.1.91](https://github.com/anthropics/claude-code/releases/tag/v2.1.91)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-05
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw](https://news.ycombinator.com/item?id=47633396)
+- [claude-agent-sdk-python v0.1.56](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.56)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

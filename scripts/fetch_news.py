@@ -437,6 +437,33 @@ def load_seen_ids() -> set[str]:
     return set()
 
 
+def get_latest_news_snapshot_date() -> tuple[str, int] | None:
+    """
+    Read the newest date heading from docs/NEWS.md and return `(label, lag_days)`.
+    """
+    import re as _re
+
+    news_path = DOCS_DIR / "NEWS.md"
+    if not news_path.exists():
+        return None
+
+    text = news_path.read_text()
+    match = _re.search(r"^##\s+([^\n]+)$", text, flags=_re.MULTILINE)
+    if not match:
+        return None
+
+    label = match.group(1).strip()
+    for fmt in ("%B %d, %Y", "%b %d, %Y"):
+        try:
+            snapshot_dt = datetime.strptime(label, fmt).replace(tzinfo=timezone.utc)
+            lag = (datetime.now(tz=timezone.utc).date() - snapshot_dt.date()).days
+            return label, max(lag, 0)
+        except ValueError:
+            continue
+
+    return label, -1
+
+
 def save_seen_ids(seen: set[str]) -> None:
     DATA_DIR.mkdir(exist_ok=True)
     path = DATA_DIR / "last_news_fetch.json"
@@ -845,9 +872,16 @@ def main():
             file=sys.stderr,
         )
         if args.summary:
+            snapshot = get_latest_news_snapshot_date()
             print("- **Total fetched:** 0")
             print("- **New items:** 0")
             print("  - Network: unavailable")
+            if snapshot:
+                snap_label, lag_days = snapshot
+                if lag_days >= 0:
+                    print(f"  - Carrying snapshot: {snap_label} (lag: {lag_days} day(s))")
+                else:
+                    print(f"  - Carrying snapshot: {snap_label}")
         return
 
     all_items: list[NewsItem] = []
