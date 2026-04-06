@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-04-06 (news snapshot: April 5, 2026)
+## 2026-04-06 (news snapshot: April 6, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -11,14 +11,15 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function)
-- [Banning All Anthropic Employees](https://joeyh.name/blog/entry/banning_all_Anthropic_employees/)
+- [Opus 4.6 destroys a user’s session costing them real money](https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/)
+- [Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.](https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/)
+- [OpenAI's fall from grace as investors race to Anthropic](https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic)
 
 ### Freshness Status
 
 - Run date (UTC): 2026-04-06
-- News snapshot date: April 5, 2026
-- Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
+- News snapshot date: April 6, 2026
+- Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
 

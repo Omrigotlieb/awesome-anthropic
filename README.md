@@ -351,13 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-05
+> Last fetched: <!-- NEWS_DATE -->2026-04-06
 
 <!-- NEWS_START -->
-### Top Stories — April 5, 2026
+### Top Stories — April 6, 2026
 
-- [Emotion concepts and their function in a large language model](https://www.anthropic.com/research/emotion-concepts-function) - 167 pts on Hacker News.
-- [Banning All Anthropic Employees](https://joeyh.name/blog/entry/banning_all_Anthropic_employees/) - 17 pts on Hacker News.
+- [Opus 4.6 destroys a user’s session costing them real money](https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/) - 439 pts on r/Anthropic.
+- [Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.](https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/) - 175 pts on r/Anthropic.
+- [OpenAI's fall from grace as investors race to Anthropic](https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic) - 138 pts on Hacker News.
+- [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) - 85 pts on GitHub Release.
+- [One Opus prompt in Claude code eats through an entire pro plan session](https://reddit.com/r/Anthropic/comments/1sdarjy/one_opus_prompt_in_claude_code_eats_through_an/) - 64 pts on r/Anthropic.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

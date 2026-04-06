@@ -4,6 +4,26 @@
 
 ---
 
+## April 6, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 439 | [Opus 4.6 destroys a user’s session costing them real money](https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/) | r/Anthropic |
+| 175 | [Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.](https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/) | r/Anthropic |
+| 138 | [OpenAI's fall from grace as investors race to Anthropic](https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic) | Hacker News |
+| 85 | [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) | GitHub Release |
+| 64 | [One Opus prompt in Claude code eats through an entire pro plan session](https://reddit.com/r/Anthropic/comments/1sdarjy/one_opus_prompt_in_claude_code_eats_through_an/) | r/Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) | ## What's Changed * fix: skip token revocation when no token was acquired by @Dave-London in https:/ |
+
+---
+
 ## April 5, 2026
 
 ### 🔥 Top Stories
