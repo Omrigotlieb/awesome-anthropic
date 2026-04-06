@@ -106,6 +106,28 @@ def get_news_preview() -> str:
     return "\n".join(lines)
 
 
+def get_news_snapshot_iso_date() -> str | None:
+    """
+    Return the first NEWS.md section heading date as YYYY-MM-DD.
+
+    This keeps README freshness aligned with the actual snapshot date when
+    fetch runs are offline and docs/NEWS.md is intentionally unchanged.
+    """
+    news_path = DOCS_DIR / "NEWS.md"
+    if not news_path.exists():
+        return None
+
+    for line in news_path.read_text().splitlines():
+        if not line.startswith("## "):
+            continue
+        heading = line.lstrip("# ").strip()
+        try:
+            return datetime.strptime(heading, "%B %d, %Y").strftime("%Y-%m-%d")
+        except ValueError:
+            return None
+    return None
+
+
 def get_changelog_preview() -> str:
     """Extract entry titles as bold text — no bullets, no links, no h2 headings."""
     cl_path = DOCS_DIR / "CHANGELOG.md"
@@ -130,11 +152,12 @@ def get_changelog_preview() -> str:
     return "\n".join(lines)
 
 
-def update_date_inline(text: str, zone: str) -> str:
+def update_date_inline(text: str, zone: str, value: str | None = None) -> str:
     today = datetime.now(tz=timezone.utc).strftime("%Y-%m-%d")
+    date_value = value or today
     return re.sub(
         rf"<!-- {zone}_DATE -->.*?(?=\n|$)",
-        f"<!-- {zone}_DATE -->{today}",
+        f"<!-- {zone}_DATE -->{date_value}",
         text,
     )
 
@@ -153,7 +176,7 @@ def main():
     if args.section in ("NEWS", "ALL"):
         content = get_news_preview()
         text = inject_zone(text, "NEWS", content)
-        text = update_date_inline(text, "NEWS")
+        text = update_date_inline(text, "NEWS", get_news_snapshot_iso_date())
 
     if args.section in ("CHANGELOG", "ALL"):
         content = get_changelog_preview()
