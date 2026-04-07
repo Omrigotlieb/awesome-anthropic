@@ -6,31 +6,25 @@
 
 ## April 7, 2026
 
-> Snapshot note: live source fetching was unavailable in this run environment, so this section prioritizes verified first-party Anthropic and release-watch links.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/partnership-with-google-and-broadcom) | Anthropic Blog |
-| 95 | [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) | GitHub Release |
-| 90 | [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) | GitHub Release |
-| 85 | [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) | Anthropic Blog |
+| 921 | [Issue: Claude Code is unusable for complex engineering tasks with Feb updates](https://github.com/anthropics/claude-code/issues/42796) | Hacker News |
+| 208 | [Anthropic expands partnership with Google and Broadcom for next-gen compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Hacker News |
+| 59 | [Anthropic is burning more and more dev goodwill](https://twitter.com/GergelyOrosz/status/2041133254586122605) | Hacker News |
 
 ### 📰 Official Announcements
 
 | Title | Source |
 |-------|--------|
-| [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/partnership-with-google-and-broadcom) | Anthropic Blog |
-| [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU) | Anthropic Blog |
-| [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute) | Anthropic Blog |
+| [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
 
-### 🛠️ SDK & Tool Releases
+### 🐦 From the Builders
 
-| Release | Highlights |
-|---------|------------|
-| [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) | Latest release on Apr 5, 2026 with reliability and workflow fixes across token handling, branch parsing, and execution stability. |
-| [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) | Latest Claude Code release on Apr 4, 2026; includes policy and tool-execution improvements. |
+| Tweet | Author |
+|-------|--------|
+| [We've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU capacity, coming online starting in 2027, to train and serve frontier Claude models.](https://x.com/AnthropicAI/status/2041275561704931636) | Anthropic |
 
 ---
 

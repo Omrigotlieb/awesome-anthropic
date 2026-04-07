@@ -356,10 +356,9 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 7, 2026
 
-- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/partnership-with-google-and-broadcom) - 100 pts on Anthropic Blog.
-- [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) - 95 pts on GitHub Release.
-- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) - 90 pts on GitHub Release.
-- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) - 85 pts on Anthropic Blog.
+- [Issue: Claude Code is unusable for complex engineering tasks with Feb updates](https://github.com/anthropics/claude-code/issues/42796) - 921 pts on Hacker News.
+- [Anthropic expands partnership with Google and Broadcom for next-gen compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) - 208 pts on Hacker News.
+- [Anthropic is burning more and more dev goodwill](https://twitter.com/GergelyOrosz/status/2041133254586122605) - 59 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

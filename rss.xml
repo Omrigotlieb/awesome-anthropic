@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2026 05:02:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 06:00:46 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,35 +13,27 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</title>
-    <link>https://www.anthropic.com/news/partnership-with-google-and-broadcom</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/partnership-with-google-and-broadcom</guid>
-    <description>▲ 100 points · Anthropic Blog · Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>Issue: Claude Code is unusable for complex engineering tasks with Feb updates</title>
+    <link>https://github.com/anthropics/claude-code/issues/42796</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/42796</guid>
+    <description>▲ 921 points · Hacker News · Issue: Claude Code is unusable for complex engineering tasks with Feb updates</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.89</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89</guid>
-    <description>▲ 95 points · GitHub Release · claude-code-action v1.0.89</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Anthropic expands partnership with Google and Broadcom for next-gen compute</title>
+    <link>https://www.anthropic.com/news/google-broadcom-partnership-compute</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/google-broadcom-partnership-compute</guid>
+    <description>▲ 208 points · Hacker News · Anthropic expands partnership with Google and Broadcom for next-gen compute</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.92</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.92</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.92</guid>
-    <description>▲ 90 points · GitHub Release · claude-code v2.1.92</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>What 81,000 people want from AI</title>
-    <link>https://www.anthropic.com/features/81k-interviews</link>
-    <guid isPermaLink="true">https://www.anthropic.com/features/81k-interviews</guid>
-    <description>▲ 85 points · Anthropic Blog · What 81,000 people want from AI</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>Anthropic is burning more and more dev goodwill</title>
+    <link>https://twitter.com/GergelyOrosz/status/2041133254586122605</link>
+    <guid isPermaLink="true">https://twitter.com/GergelyOrosz/status/2041133254586122605</guid>
+    <description>▲ 59 points · Hacker News · Anthropic is burning more and more dev goodwill</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
