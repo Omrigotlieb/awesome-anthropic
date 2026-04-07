@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-06 (news snapshot: April 6, 2026)
+## 2026-04-07 (news snapshot: April 7, 2026)
 
 ### Executive Summary
 
@@ -9,63 +9,67 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-06 uses the April 6, 2026 news snapshot.
+- The daily run on 2026-04-07 uses the April 7, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.92.
-- Official channel signal remains active: Australian government and Anthropic sign MOU for AI safety and research (April 1, 2026).
+- Official channel signal remains active: Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute (April 7, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 1, 2026):** [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
+**News peg (April 7, 2026):** [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/partnership-with-google-and-broadcom)
+
+Snapshot update: Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
+
+**News peg (April 7, 2026):** [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 Snapshot update: Australian government and Anthropic sign MOU for AI safety and research
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Claude Code release watch
+### Article 3 — Official announcement watch
 
-**News peg (April 4, 2026):** [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
+**News peg (April 7, 2026):** [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
 
-Snapshot update: - Added `forceRemoteSettingsRefresh` policy setting: when set, the CLI blocks sta
+Snapshot update: Introducing The Anthropic Institute
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 4 — Claude Code release watch
+
+**News peg (April 7, 2026):** [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
+
+Snapshot update: Latest Claude Code release on Apr 4, 2026; includes policy and tool-execution improvements.
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 3 — Community demand signal
+### Article 5 — First-party story signal
 
-**News peg (April 6, 2026):** [Opus 4.6 destroys a user’s session costing them real money](https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/)
+**News peg (April 7, 2026):** [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
 
-Snapshot update: Top story source: r/Anthropic
+Snapshot update: Top story source: Anthropic Blog
 
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
-
-### Article 4 — Community demand signal
-
-**News peg (April 6, 2026):** [Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.](https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/)
-
-Snapshot update: Top story source: r/Anthropic
-
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
-
-### Article 5 — Ecosystem watch signal
-
-**News peg (April 6, 2026):** [OpenAI's fall from grace as investors race to Anthropic](https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic)
-
-Snapshot update: Top story source: Hacker News
-
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
 
 ### Top Stories Referenced
 
-- [Opus 4.6 destroys a user’s session costing them real money](https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/)
-- [Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.](https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/)
-- [OpenAI's fall from grace as investors race to Anthropic](https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic)
+- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/partnership-with-google-and-broadcom)
+- [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89)
+- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
 
 ### Source Trail
 
-- April 1, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
-- April 6, 2026: [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89)
+- April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/partnership-with-google-and-broadcom)
+- April 7, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
+- April 7, 2026: [Introducing The Anthropic Institute](https://www.anthropic.com/news/the-anthropic-institute)
+- April 7, 2026: [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+- April 7, 2026: [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89)
+- April 7, 2026: [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
 
 ### Website Improvement Review
 

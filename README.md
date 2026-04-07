@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-06
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-07
 
 <!-- CHANGELOG_START -->
 ### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
@@ -351,16 +351,15 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-06
+> Last fetched: <!-- NEWS_DATE -->2026-04-07
 
 <!-- NEWS_START -->
-### Top Stories — April 6, 2026
+### Top Stories — April 7, 2026
 
-- [Opus 4.6 destroys a user’s session costing them real money](https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/) - 439 pts on r/Anthropic.
-- [Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.](https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/) - 175 pts on r/Anthropic.
-- [OpenAI's fall from grace as investors race to Anthropic](https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic) - 138 pts on Hacker News.
-- [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) - 85 pts on GitHub Release.
-- [One Opus prompt in Claude code eats through an entire pro plan session](https://reddit.com/r/Anthropic/comments/1sdarjy/one_opus_prompt_in_claude_code_eats_through_an/) - 64 pts on r/Anthropic.
+- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/partnership-with-google-and-broadcom) - 100 pts on Anthropic Blog.
+- [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) - 95 pts on GitHub Release.
+- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) - 90 pts on GitHub Release.
+- [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews) - 85 pts on Anthropic Blog.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

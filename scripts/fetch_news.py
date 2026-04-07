@@ -763,6 +763,39 @@ def upsert_news_date_section(existing: str, date_heading: str, section_markdown:
     return without_same_day + "\n" + new_section
 
 
+def carry_forward_latest_section_to_today() -> bool:
+    """
+    Duplicate the newest dated section under today's date when network is unavailable.
+
+    This keeps dashboard freshness metadata current while clearly signaling that the
+    underlying content is carried forward from the latest verified snapshot.
+    """
+    import re as _re
+
+    news_path = DOCS_DIR / "NEWS.md"
+    if not news_path.exists():
+        return False
+
+    existing = news_path.read_text()
+    today = datetime.now(tz=timezone.utc).strftime("%B %-d, %Y")
+    top_match = _re.search(r"(?ms)^##\s+([^\n]+)\n(?P<body>.*?)(?=^##\s+|\Z)", existing)
+    if not top_match:
+        return False
+
+    latest_label = top_match.group(1).strip()
+    if latest_label == today:
+        return False
+
+    carried_body = top_match.group("body").strip()
+    note = (
+        f"> Carry-forward snapshot from **{latest_label}** because DNS/network was unavailable during this run."
+    )
+    new_section = "\n".join([f"## {today}", "", note, "", carried_body])
+    updated = upsert_news_date_section(existing, today, new_section)
+    news_path.write_text(updated)
+    return True
+
+
 def append_to_news_md(items: list[NewsItem]) -> None:
     """Write new items to NEWS.md using the section+table format the dashboard parser expects."""
     DOCS_DIR.mkdir(exist_ok=True)
@@ -871,6 +904,14 @@ def main():
             "[network] DNS/network unavailable. Skipping source fetches and keeping existing docs/NEWS.md unchanged.",
             file=sys.stderr,
         )
+        carried = False
+        if not args.summary and not args.dry_run:
+            carried = carry_forward_latest_section_to_today()
+            if carried:
+                print(
+                    "[network] Added today's carry-forward section to docs/NEWS.md from the latest verified snapshot.",
+                    file=sys.stderr,
+                )
         if args.summary:
             snapshot = get_latest_news_snapshot_date()
             print("- **Total fetched:** 0")
@@ -882,6 +923,8 @@ def main():
                     print(f"  - Carrying snapshot: {snap_label} (lag: {lag_days} day(s))")
                 else:
                     print(f"  - Carrying snapshot: {snap_label}")
+            if carried:
+                print("  - Wrote today's carry-forward section: yes")
         return
 
     all_items: list[NewsItem] = []

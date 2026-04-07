@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2026 06:00:46 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2026 05:02:32 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,44 +13,36 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Opus 4.6 destroys a user’s session costing them real money</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sdd1ul/opus_46_destroys_a_users_session_costing_them/</guid>
-    <description>▲ 439 points · r/Anthropic · Opus 4.6 destroys a user’s session costing them real money</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sd018y/claude_is_running_out_of_resources_performance/</guid>
-    <description>▲ 175 points · r/Anthropic · Claude is running out of resources. Performance drops, shadow limits, and weird promo credits all point to it. My 2¢ after being watching all this drama for the past two months.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>OpenAI&apos;s fall from grace as investors race to Anthropic</title>
-    <link>https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic</link>
-    <guid isPermaLink="true">https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic</guid>
-    <description>▲ 138 points · Hacker News · OpenAI&apos;s fall from grace as investors race to Anthropic</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</title>
+    <link>https://www.anthropic.com/news/partnership-with-google-and-broadcom</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/partnership-with-google-and-broadcom</guid>
+    <description>▲ 100 points · Anthropic Blog · Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>claude-code-action v1.0.89</title>
     <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89</link>
     <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89</guid>
-    <description>▲ 85 points · GitHub Release · claude-code-action v1.0.89</description>
+    <description>▲ 95 points · GitHub Release · claude-code-action v1.0.89</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>One Opus prompt in Claude code eats through an entire pro plan session</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sdarjy/one_opus_prompt_in_claude_code_eats_through_an/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sdarjy/one_opus_prompt_in_claude_code_eats_through_an/</guid>
-    <description>▲ 64 points · r/Anthropic · One Opus prompt in Claude code eats through an entire pro plan session</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 06 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.92</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.92</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.92</guid>
+    <description>▲ 90 points · GitHub Release · claude-code v2.1.92</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>What 81,000 people want from AI</title>
+    <link>https://www.anthropic.com/features/81k-interviews</link>
+    <guid isPermaLink="true">https://www.anthropic.com/features/81k-interviews</guid>
+    <description>▲ 85 points · Anthropic Blog · What 81,000 people want from AI</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>
