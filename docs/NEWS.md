@@ -10,23 +10,64 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing) | Anthropic Blog |
-| 91 | [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
-| 84 | [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) | GitHub Release |
+| 1107 | [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing) | Hacker News |
+| 628 | [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf) | Hacker News |
+| 278 | [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/) | Hacker News |
+| 218 | [Claude Code login fails with OAuth timeout on Windows](https://github.com/anthropics/claude-code/issues/44257) | Hacker News |
+| 85 | [claude-code-action v1.0.90](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.90) | GitHub Release |
+| 42 | [Anthropic's Project Glasswing sounds necessary to me](https://simonwillison.net/2026/Apr/7/project-glasswing/) | Hacker News |
+| 24 | [Show HN: Marimo pair – Reactive Python notebooks as environments for agents](https://github.com/marimo-team/marimo-pair) | Hacker News |
 
 ### 📰 Official Announcements
 
 | Title | Source |
 |-------|--------|
-| [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing) | Anthropic Blog |
-| [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+| [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Mythos is very powerful, and should feel terrifying. I am proud of our approach to responsibly preview it with cyber defenders, rather than generally releasing it into the wild.
+
+Model card here: http](https://x.com/bcherny/status/2041605852382351666) | Boris Cherney |
+| [We released Claude Opus 4.6 just two months ago. Today we're sharing some info on our new model, Claude Mythos Preview.](https://x.com/alexalbert__/status/2041579938537775160) | Alex Albert |
+| [Glasswing is possibly the most consequential event in the AI industry I've seen up close since joining Anthropic almost 3 years ago. It feels like we're at a turning point in history.](https://x.com/alexalbert__/status/2041578743769280811) | Alex Albert |
+| [Introducing Project Glasswing: an urgent initiative to help secure the world’s most critical software.
+
+It’s powered by our newest frontier model, Claude Mythos Preview, which can find software vulner](https://x.com/AnthropicAI/status/2041578392852517128) | Anthropic |
+
+### 🔬 Research
+
+| Title | Source |
+|-------|--------|
+| [Poisoned Identifiers Survive LLM Deobfuscation: A Case Study on Claude Opus 4.6](http://arxiv.org/abs/2604.04289v1) | arXiv |
+| [Measuring the Permission Gate: A Stress-Test Evaluation of Claude Code's Auto Mode](http://arxiv.org/abs/2604.04978v1) | arXiv |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) | Added `forceRemoteSettingsRefresh` policy setting and related reliability updates. |
-| [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) | Fixes token revocation behavior when no token was acquired. |
+| [claude-code v2.1.96](https://github.com/anthropics/claude-code/releases/tag/v2.1.96) | ## What's changed  - Fixed Bedrock requests failing with `403 "Authorization header is missing"` whe |
+| [claude-code v2.1.94](https://github.com/anthropics/claude-code/releases/tag/v2.1.94) | ## What's changed  - Added support for Amazon Bedrock powered by Mantle, set `CLAUDE_CODE_USE_MANTLE |
+| [claude-code-action v1.0.90](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.90) | ## What's Changed * fix: forward MCP_TIMEOUT, MCP_TOOL_TIMEOUT, MAX_MCP_OUTPUT_TOKENS to action step |
+| [claude-agent-sdk-typescript v0.2.96](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.96) | ## What's changed  - Updated to parity with Claude Code v2.1.96  ## Update  ```sh npm install @anthr |
+| [claude-agent-sdk-typescript v0.2.94](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.94) | ## What's changed  - Fixed `getContextUsage()` to include agents passed via `options.agents` in the  |
+| [anthropic-sdk-php v0.11.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.11.0) | ## 0.11.0 (2026-04-07)  Full Changelog: [v0.10.0...v0.11.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.10.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.10.0) | ## 0.10.0 (2026-04-07)  Full Changelog: [v0.9.0...v0.10.0](https://github.com/anthropics/anthropic-s |
+| [anthropic-sdk-ruby v1.30.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.30.0) | ## 1.30.0 (2026-04-07)  Full Changelog: [v1.29.0...v1.30.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.29.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.29.0) | ## 1.29.0 (2026-04-07)  Full Changelog: [v1.28.0...v1.29.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Vertex-v0.2.1](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.2.1) | ## 0.2.1 (2026-04-07)  Full Changelog: [Vertex-v0.2.0...Vertex-v0.2.1](https://github.com/anthropics |
+| [anthropic-sdk-csharp Bedrock-v0.2.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.2.0) | ## 0.2.0 (2026-04-07)  Full Changelog: [Bedrock-v0.1.2...Bedrock-v0.2.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.12.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.12.0) | ## 12.12.0 (2026-04-07)  Full Changelog: [Anthropic-v12.11.0...Anthropic-v12.12.0](https://github.co |
+| [anthropic-sdk-java v2.21.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.21.0) | ## 2.21.0 (2026-04-07)  Full Changelog: [v2.20.0...v2.21.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.32.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.32.0) | ## 1.32.0 (2026-04-07)  Full Changelog: [v1.31.0...v1.32.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.31.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.31.0) | ## 1.31.0 (2026-04-07)  Full Changelog: [v1.30.0...v1.31.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-python v0.91.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.91.0) | ## 0.91.0 (2026-04-07)  Full Changelog: [v0.90.0...v0.91.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-python v0.90.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.90.0) | ## 0.90.0 (2026-04-07)  Full Changelog: [v0.89.0...v0.90.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.85.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.85.0) | ## 0.85.0 (2026-04-07)  Full Changelog: [sdk-v0.84.0...sdk-v0.85.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript sdk-v0.84.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.84.0) | ## 0.84.0 (2026-04-07)  Full Changelog: [sdk-v0.83.0...sdk-v0.84.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript bedrock-sdk-v0.28.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.28.0) | ## 0.28.0 (2026-04-07)  Full Changelog: [bedrock-sdk-v0.27.0...bedrock-sdk-v0.28.0](https://github.c |
 
 ---
 

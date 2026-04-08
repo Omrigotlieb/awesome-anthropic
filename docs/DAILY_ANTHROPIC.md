@@ -6,15 +6,16 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) is currently the latest Claude Code release visible in this repository snapshot.
-- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
+- [claude-code v2.1.96](https://github.com/anthropics/claude-code/releases/tag/v2.1.96) is currently the latest Claude Code release visible in this repository snapshot.
+- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Top Story Snapshot
 
 - [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
-- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
+- [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
+- [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
 
 ### Freshness Status
 

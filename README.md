@@ -337,11 +337,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last synced: <!-- CHANGELOG_DATE -->2026-04-08
 
 <!-- CHANGELOG_START -->
+### April 7, 2026 — We announced Claude Mythos Preview is available as a gated research preview for
+
 ### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
 
 ### April 30, 2026 — . After that date, the context-1m-2025-08-07 beta header will have no effect on
-
-### March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -356,9 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 8, 2026
 
-- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing) - 100 pts on Anthropic Blog.
-- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) - 91 pts on Anthropic Blog.
-- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) - 84 pts on GitHub Release.
+- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing) - 1107 pts on Hacker News.
+- [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf) - 628 pts on Hacker News.
+- [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/) - 278 pts on Hacker News.
+- [Claude Code login fails with OAuth timeout on Windows](https://github.com/anthropics/claude-code/issues/44257) - 218 pts on Hacker News.
+- [claude-code-action v1.0.90](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.90) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

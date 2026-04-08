@@ -1,6 +1,13 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-07T06:00:48Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-08T06:00:34Z
+
+---
+
+## April 7, 2026 — We announced Claude Mythos Preview is available as a gated research preview for 
+
+We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing . Access is invitation-only. 
+ The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1 ; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock .
 
 ---
 
@@ -131,11 +138,5 @@ We've launched a new documentation platform at platform.claude.com/docs . Our do
 ## November 18, 2025 — We've launched Claude in Microsoft Foundry , bringing Claude models to Azure cus
 
 We've launched Claude in Microsoft Foundry , bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more in Claude in Microsoft Foundry .
-
----
-
-## November 14, 2025 — We've launched structured outputs in public beta, providing guaranteed schema co
-
-We've launched structured outputs in public beta, providing guaranteed schema conformance for Claude's responses. Use JSON outputs for structured data responses or strict tool use for validated tool inputs. Available for Claude Sonnet 4.5 and Claude Opus 4.1. To enable, use the beta header structured-outputs-2025-11-13 .
 
 ---
