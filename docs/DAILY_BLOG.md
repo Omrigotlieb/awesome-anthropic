@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-07 (news snapshot: April 7, 2026)
+## 2026-04-08 (news snapshot: April 8, 2026)
 
 ### Executive Summary
 
@@ -9,21 +9,29 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-07 uses the April 7, 2026 news snapshot.
+- The daily run on 2026-04-08 uses the April 8, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.92.
-- Official channel signal remains active: Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute (April 7, 2026).
+- Official channel signal remains active: Project Glasswing: Securing critical software for the AI era (April 8, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 7, 2026):** [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+**News peg (April 8, 2026):** [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
+
+Snapshot update: Project Glasswing: Securing critical software for the AI era
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
+
+**News peg (April 8, 2026):** [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 
 Snapshot update: Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
+### Article 3 — Official announcement watch
 
 **News peg (April 1, 2026):** [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
@@ -31,41 +39,27 @@ Snapshot update: Australian government and Anthropic sign MOU for AI safety and 
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 3 — Claude Code release watch
+### Article 4 — Claude Code release watch
 
-**News peg (April 4, 2026):** [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
+**News peg (April 8, 2026):** [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
 
-Snapshot update: - Added `forceRemoteSettingsRefresh` policy setting: when set, the CLI blocks sta
-
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
-
-### Article 4 — Ecosystem release signal
-
-**News peg (April 7, 2026):** [Issue: Claude Code is unusable for complex engineering tasks with Feb updates](https://github.com/anthropics/claude-code/issues/42796)
-
-Snapshot update: Top story source: Hacker News
+Snapshot update: Added `forceRemoteSettingsRefresh` policy setting and related reliability updates.
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
-
-### Article 5 — Ecosystem watch signal
-
-**News peg (April 7, 2026):** [Anthropic is burning more and more dev goodwill](https://twitter.com/GergelyOrosz/status/2041133254586122605)
-
-Snapshot update: Top story source: Hacker News
-
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
 
 ### Top Stories Referenced
 
-- [Issue: Claude Code is unusable for complex engineering tasks with Feb updates](https://github.com/anthropics/claude-code/issues/42796)
-- [Anthropic expands partnership with Google and Broadcom for next-gen compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- [Anthropic is burning more and more dev goodwill](https://twitter.com/GergelyOrosz/status/2041133254586122605)
+- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
+- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
 
 ### Source Trail
 
-- April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- April 1, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
+- April 8, 2026: [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
+- April 8, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- April 8, 2026: [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92)
+- April 8, 2026: [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89)
 
 ### Website Improvement Review
 

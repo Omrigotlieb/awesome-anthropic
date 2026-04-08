@@ -280,6 +280,20 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertNotIn("https://www.anthropic.com/news/old-item", urls)
         self.assertIn("https://www.anthropic.com/news/new-item", urls)
 
+    def test_extract_anthropic_items_includes_glasswing_page(self):
+        html = """
+        <html><body>
+          <a href="/glasswing">Announcements Apr 7, 2026 Project Glasswing: Securing critical software for the AI era</a>
+          <a href="/about">About Anthropic</a>
+        </body></html>
+        """
+        since = datetime(2026, 4, 1, tzinfo=timezone.utc)
+        items = extract_anthropic_items_from_html(html, since=since)
+        urls = [item.url for item in items]
+
+        self.assertIn("https://www.anthropic.com/glasswing", urls)
+        self.assertNotIn("https://www.anthropic.com/about", urls)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -4,6 +4,32 @@
 
 ---
 
+## April 8, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing) | Anthropic Blog |
+| 91 | [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+| 84 | [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) | GitHub Release |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing) | Anthropic Blog |
+| [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.92](https://github.com/anthropics/claude-code/releases/tag/v2.1.92) | Added `forceRemoteSettingsRefresh` policy setting and related reliability updates. |
+| [claude-code-action v1.0.89](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.89) | Fixes token revocation behavior when no token was acquired. |
+
+---
+
 ## April 7, 2026
 
 ### 🔥 Top Stories

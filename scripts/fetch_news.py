@@ -100,7 +100,7 @@ def extract_anthropic_items_from_html(html: str, since: datetime) -> list[NewsIt
         r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
         r"\s+\d{1,2},\s+20\d\d"
     )
-    official_paths = ("/news/", "/features/", "/research/", "/engineering/", "/events/")
+    official_paths = ("/news/", "/features/", "/research/", "/engineering/", "/events/", "/glasswing")
 
     items: list[NewsItem] = []
     soup = BeautifulSoup(html, "lxml")
