@@ -85,13 +85,48 @@ def fetch_anthropic_blog(since_hours: int = 48) -> list[NewsItem]:
                 headers={"User-Agent": "Mozilla/5.0 awesome-anthropic-bot/1.0"},
             )
             resp.raise_for_status()
-        return extract_anthropic_items_from_html(resp.text, since)
+            return extract_anthropic_items_from_html(resp.text, since, client=client)
     except Exception as e:
         print(f"[blog] Error: {e}", file=sys.stderr)
     return []
 
 
-def extract_anthropic_items_from_html(html: str, since: datetime) -> list[NewsItem]:
+def _normalize_anthropic_title(text: str) -> str:
+    """Clean noisy title strings scraped from card-like links."""
+    text = " ".join((text or "").split())
+    for suffix in ("| Anthropic", "\\ Anthropic", " - Anthropic"):
+        if text.endswith(suffix):
+            text = text[: -len(suffix)].strip()
+    return text.strip()
+
+
+def _resolve_official_page_title(url: str, client: httpx.Client, cache: dict[str, str]) -> str:
+    """Read canonical title from official page metadata, with simple per-run caching."""
+    if url in cache:
+        return cache[url]
+    try:
+        resp = client.get(url, headers={"User-Agent": "Mozilla/5.0 awesome-anthropic-bot/1.0"}, timeout=20)
+        resp.raise_for_status()
+        page = BeautifulSoup(resp.text, "lxml")
+        og_title = page.select_one("meta[property='og:title']")
+        if og_title and og_title.get("content"):
+            title = _normalize_anthropic_title(og_title.get("content", ""))
+            if title:
+                cache[url] = title
+                return title
+        title_tag = page.title.string if page.title else ""
+        title = _normalize_anthropic_title(title_tag or "")
+        if title:
+            cache[url] = title
+            return title
+    except Exception:
+        pass
+    return ""
+
+
+def extract_anthropic_items_from_html(
+    html: str, since: datetime, client: httpx.Client | None = None
+) -> list[NewsItem]:
     """Extract recent official Anthropic posts from newsroom HTML."""
     import re as _re
 
@@ -103,6 +138,7 @@ def extract_anthropic_items_from_html(html: str, since: datetime) -> list[NewsIt
     official_paths = ("/news/", "/features/", "/research/", "/engineering/", "/events/", "/glasswing")
 
     items: list[NewsItem] = []
+    title_cache: dict[str, str] = {}
     soup = BeautifulSoup(html, "lxml")
     seen_hrefs: set[str] = set()
     for a_tag in soup.find_all("a", href=True):
@@ -131,6 +167,10 @@ def extract_anthropic_items_from_html(html: str, since: datetime) -> list[NewsIt
             continue
 
         url = href if href.startswith("http") else f"https://www.anthropic.com{href}"
+        if client is not None:
+            canonical_title = _resolve_official_page_title(url, client, title_cache)
+            if canonical_title:
+                title = canonical_title[:120]
         items.append(
             NewsItem(
                 title=title,

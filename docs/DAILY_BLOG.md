@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-08 (news snapshot: April 8, 2026)
+## 2026-04-09 (news snapshot: April 9, 2026)
 
 ### Executive Summary
 
@@ -9,17 +9,17 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-08 uses the April 8, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.96.
-- Official channel signal remains active: Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr (April 8, 2026).
+- The daily run on 2026-04-09 uses the April 9, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.97.
+- Official channel signal remains active: Project Glasswing: Securing critical software for the AI era (April 9, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 8, 2026):** [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
+**News peg (April 9, 2026):** [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
 
-Snapshot update: Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr
+Snapshot update: Project Glasswing: Securing critical software for the AI era
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
@@ -41,15 +41,15 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (April 8, 2026):** [claude-code v2.1.96](https://github.com/anthropics/claude-code/releases/tag/v2.1.96)
+**News peg (April 9, 2026):** [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97)
 
-Snapshot update: - Fixed Bedrock requests failing with `403 "Authorization header is missing"` whe
+Snapshot update: - Release published Apr 8, 2026; see upstream changelog for full notes
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
 ### Article 5 — First-party story signal
 
-**News peg (April 8, 2026):** [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
+**News peg (April 9, 2026):** [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
 
 Snapshot update: Top story source: Hacker News
 
@@ -64,13 +64,12 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Source Trail
 
-- April 8, 2026: [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
+- April 9, 2026: [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
 - April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- April 1, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
-- April 8, 2026: [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
-- April 8, 2026: [claude-code v2.1.96](https://github.com/anthropics/claude-code/releases/tag/v2.1.96)
-- April 8, 2026: [claude-code v2.1.94](https://github.com/anthropics/claude-code/releases/tag/v2.1.94)
-- April 8, 2026: [claude-code-action v1.0.90](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.90)
+- April 9, 2026: [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
+- April 9, 2026: [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97)
+- April 9, 2026: [claude-code v2.1.96](https://github.com/anthropics/claude-code/releases/tag/v2.1.96)
+- April 9, 2026: [claude-code v2.1.94](https://github.com/anthropics/claude-code/releases/tag/v2.1.94)
 
 ### Website Improvement Review
 

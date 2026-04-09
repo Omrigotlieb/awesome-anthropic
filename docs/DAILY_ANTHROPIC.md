@@ -1,15 +1,14 @@
 # Daily Anthropic Brief
 
-## 2026-04-08 (news snapshot: April 8, 2026)
+## 2026-04-09 (news snapshot: April 9, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.96](https://github.com/anthropics/claude-code/releases/tag/v2.1.96) is currently the latest Claude Code release visible in this repository snapshot.
-- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
+- [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97) is currently the latest Claude Code release visible in this repository snapshot.
+- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
 - [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Top Story Snapshot
 
@@ -19,8 +18,8 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-08
-- News snapshot date: April 8, 2026
+- Run date (UTC): 2026-04-09
+- News snapshot date: April 9, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

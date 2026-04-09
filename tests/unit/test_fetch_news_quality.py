@@ -32,6 +32,20 @@ def mk(
 
 
 class TestFetchNewsQuality(unittest.TestCase):
+    class _FakeResponse:
+        def __init__(self, text: str):
+            self.text = text
+
+        def raise_for_status(self):
+            return None
+
+    class _FakeClient:
+        def __init__(self, html_by_url: dict[str, str]):
+            self.html_by_url = html_by_url
+
+        def get(self, url: str, **_kwargs):
+            return TestFetchNewsQuality._FakeResponse(self.html_by_url.get(url, "<html></html>"))
+
     def test_canonical_story_url_drops_tracking_params(self):
         url = "https://example.com/path/?utm_source=x&ref=y&id=7#frag"
         self.assertEqual(canonical_story_url(url), "https://example.com/path?id=7")
@@ -293,6 +307,29 @@ class TestFetchNewsQuality(unittest.TestCase):
 
         self.assertIn("https://www.anthropic.com/glasswing", urls)
         self.assertNotIn("https://www.anthropic.com/about", urls)
+
+    def test_extract_anthropic_items_prefers_official_page_metadata_title(self):
+        html = """
+        <html><body>
+          <a href="/glasswing">
+            Announcements Apr 7, 2026
+            Project Glasswing A new initiative that brings together Amazon Web Services and others
+          </a>
+        </body></html>
+        """
+        client = self._FakeClient(
+            {
+                "https://www.anthropic.com/glasswing": (
+                    "<html><head>"
+                    "<meta property='og:title' content='Project Glasswing: Securing critical software for the AI era'/>"
+                    "</head><body></body></html>"
+                )
+            }
+        )
+        since = datetime(2026, 4, 1, tzinfo=timezone.utc)
+        items = extract_anthropic_items_from_html(html, since=since, client=client)
+
+        self.assertEqual(items[0].title, "Project Glasswing: Securing critical software for the AI era")
 
 
 if __name__ == "__main__":
