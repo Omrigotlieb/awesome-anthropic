@@ -7,14 +7,15 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 ### Verified Product and Research Updates
 
 - [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97) is currently the latest Claude Code release visible in this repository snapshot.
-- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
+- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Top Story Snapshot
 
-- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
-- [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
-- [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
+- [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/)
+- [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58)
+- [Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters](https://rival.tips/research/model-similarity)
 
 ### Freshness Status
 

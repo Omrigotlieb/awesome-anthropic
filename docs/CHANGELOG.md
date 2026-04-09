@@ -1,6 +1,13 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-08T06:00:34Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-09T06:00:48Z
+
+---
+
+## April 8, 2026 — We've launched Claude Managed Agents in public beta, a fully managed agent harne
+
+We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview . 
+ We've launched the ant CLI , a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference .
 
 ---
 
@@ -132,11 +139,5 @@ Search result content blocks are now generally available on Amazon Bedrock. Lear
 ## November 19, 2025 — We've launched a new documentation platform at platform.claude.com/docs . Our do
 
 We've launched a new documentation platform at platform.claude.com/docs . Our documentation now lives side by side with the Claude Console, providing a unified developer experience. The previous docs site at docs.claude.com will redirect to the new location.
-
----
-
-## November 18, 2025 — We've launched Claude in Microsoft Foundry , bringing Claude models to Azure cus
-
-We've launched Claude in Microsoft Foundry , bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more in Claude in Microsoft Foundry .
 
 ---

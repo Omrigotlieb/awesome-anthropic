@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 05:02:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 06:00:45 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,50 +13,34 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Project Glasswing: Securing critical software for the AI era</title>
-    <link>https://www.anthropic.com/glasswing</link>
-    <guid isPermaLink="true">https://www.anthropic.com/glasswing</guid>
-    <description>▲ 1107 points · Hacker News · Project Glasswing: Securing critical software for the AI era</description>
+    <title>I&apos;ve been waiting over a month for Anthropic to respond to my billing issue</title>
+    <link>https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/</link>
+    <guid isPermaLink="true">https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/</guid>
+    <description>▲ 327 points · Hacker News · I&apos;ve been waiting over a month for Anthropic to respond to my billing issue</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Assessing Claude Mythos Preview&apos;s cybersecurity capabilities</title>
-    <link>https://red.anthropic.com/2026/mythos-preview/</link>
-    <guid isPermaLink="true">https://red.anthropic.com/2026/mythos-preview/</guid>
-    <description>▲ 278 points · Hacker News · Assessing Claude Mythos Preview&apos;s cybersecurity capabilities</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Code login fails with OAuth timeout on Windows</title>
-    <link>https://github.com/anthropics/claude-code/issues/44257</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/44257</guid>
-    <description>▲ 218 points · Hacker News · Claude Code login fails with OAuth timeout on Windows</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code v2.1.97</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.97</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.97</guid>
-    <description>▲ 95 points · GitHub Release · claude-code v2.1.97</description>
+    <title>claude-agent-sdk-python v0.1.58</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.58</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
     <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic&apos;s Project Glasswing sounds necessary to me</title>
-    <link>https://simonwillison.net/2026/Apr/7/project-glasswing/</link>
-    <guid isPermaLink="true">https://simonwillison.net/2026/Apr/7/project-glasswing/</guid>
-    <description>▲ 42 points · Hacker News · Anthropic&apos;s Project Glasswing sounds necessary to me</description>
+    <title>Show HN: We fingerprinted 178 AI models&apos; writing styles and similarity clusters</title>
+    <link>https://rival.tips/research/model-similarity</link>
+    <guid isPermaLink="true">https://rival.tips/research/model-similarity</guid>
+    <description>▲ 76 points · Hacker News · Show HN: We fingerprinted 178 AI models&apos; writing styles and similarity clusters</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Show HN: Marimo pair – Reactive Python notebooks as environments for agents</title>
-    <link>https://github.com/marimo-team/marimo-pair</link>
-    <guid isPermaLink="true">https://github.com/marimo-team/marimo-pair</guid>
-    <description>▲ 24 points · Hacker News · Show HN: Marimo pair – Reactive Python notebooks as environments for agents</description>
+    <title>AMD AI director says Claude Code is becoming dumber and lazier since update</title>
+    <link>https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/</link>
+    <guid isPermaLink="true">https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/</guid>
+    <description>▲ 37 points · Hacker News · AMD AI director says Claude Code is becoming dumber and lazier since update</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
   </item>

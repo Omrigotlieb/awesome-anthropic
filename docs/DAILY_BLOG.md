@@ -11,15 +11,15 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 - The daily run on 2026-04-09 uses the April 9, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.97.
-- Official channel signal remains active: Project Glasswing: Securing critical software for the AI era (April 9, 2026).
+- Official channel signal remains active: Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr (April 8, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 9, 2026):** [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
+**News peg (April 8, 2026):** [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 
-Snapshot update: Project Glasswing: Securing critical software for the AI era
+Snapshot update: Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
@@ -43,33 +43,33 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 **News peg (April 9, 2026):** [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97)
 
-Snapshot update: - Release published Apr 8, 2026; see upstream changelog for full notes
+Snapshot update: - Added focus view toggle (`Ctrl+O`) in `NO_FLICKER` mode showing prompt, one-lin
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 5 — First-party story signal
+### Article 5 — Ecosystem watch signal
 
-**News peg (April 9, 2026):** [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
+**News peg (April 9, 2026):** [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/)
 
 Snapshot update: Top story source: Hacker News
 
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
 
 ### Top Stories Referenced
 
-- [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
-- [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
-- [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
+- [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/)
+- [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58)
+- [Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters](https://rival.tips/research/model-similarity)
 
 ### Source Trail
 
-- April 9, 2026: [Project Glasswing: Securing critical software for the AI era](https://www.anthropic.com/glasswing)
+- April 8, 2026: [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- April 9, 2026: [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
+- April 1, 2026: [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 - April 9, 2026: [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97)
-- April 9, 2026: [claude-code v2.1.96](https://github.com/anthropics/claude-code/releases/tag/v2.1.96)
-- April 9, 2026: [claude-code v2.1.94](https://github.com/anthropics/claude-code/releases/tag/v2.1.94)
+- April 9, 2026: [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58)
+- April 9, 2026: [claude-agent-sdk-python v0.1.57](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.57)
 
 ### Website Improvement Review
 
