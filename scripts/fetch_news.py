@@ -827,6 +827,8 @@ def carry_forward_latest_section_to_today() -> bool:
         return False
 
     carried_body = top_match.group("body").strip()
+    # Avoid stacking carry-forward notices on consecutive offline days.
+    carried_body = _strip_existing_carry_forward_note(carried_body)
     note = (
         f"> Carry-forward snapshot from **{latest_label}** because DNS/network was unavailable during this run."
     )
@@ -834,6 +836,16 @@ def carry_forward_latest_section_to_today() -> bool:
     updated = upsert_news_date_section(existing, today, new_section)
     news_path.write_text(updated)
     return True
+
+
+def _strip_existing_carry_forward_note(section_body: str) -> str:
+    """Remove a leading carry-forward note from a section body if present."""
+    import re as _re
+
+    cleaned = (section_body or "").lstrip()
+    pattern = r"^>\s*Carry-forward snapshot from \*\*[^*]+\*\* because DNS/network was unavailable during this run\.\n*"
+    cleaned = _re.sub(pattern, "", cleaned, count=1, flags=_re.IGNORECASE)
+    return cleaned.lstrip()
 
 
 def append_to_news_md(items: list[NewsItem]) -> None:

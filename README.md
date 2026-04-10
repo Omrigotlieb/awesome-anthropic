@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-09
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-10
 
 <!-- CHANGELOG_START -->
 ### April 8, 2026 — We've launched Claude Managed Agents in public beta, a fully managed agent harne
@@ -351,12 +351,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-09
+> Last fetched: <!-- NEWS_DATE -->2026-04-10
 
 <!-- NEWS_START -->
-### Top Stories — April 9, 2026
+### Top Stories — April 10, 2026
 
 - [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/) - 327 pts on Hacker News.
+- [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents) - 205 pts on Anthropic Research.
 - [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58) - 85 pts on GitHub Release.
 - [Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters](https://rival.tips/research/model-similarity) - 76 pts on Hacker News.
 - [AMD AI director says Claude Code is becoming dumber and lazier since update](https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/) - 37 pts on Hacker News.

@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 
 from scripts.fetch_news import (
     NewsItem,
+    _strip_existing_carry_forward_note,
     build_primary_story_fallback,
     canonical_story_url,
     ensure_primary_signal_stories,
@@ -330,6 +331,16 @@ class TestFetchNewsQuality(unittest.TestCase):
         items = extract_anthropic_items_from_html(html, since=since, client=client)
 
         self.assertEqual(items[0].title, "Project Glasswing: Securing critical software for the AI era")
+
+    def test_strip_existing_carry_forward_note(self):
+        body = (
+            "> Carry-forward snapshot from **April 9, 2026** because DNS/network was unavailable during this run.\n\n"
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+        )
+        cleaned = _strip_existing_carry_forward_note(body)
+        self.assertTrue(cleaned.startswith("### 🔥 Top Stories"))
+        self.assertNotIn("Carry-forward snapshot", cleaned)
 
 
 if __name__ == "__main__":

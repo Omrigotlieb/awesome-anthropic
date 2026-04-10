@@ -360,3 +360,13 @@ This file is checked first at the start of each daily automation run.
 - [System Card: Claude Mythos Preview [pdf]](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
 - [Assessing Claude Mythos Preview's cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-10
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/)
+- [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
+- [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

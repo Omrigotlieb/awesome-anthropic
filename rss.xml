@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Apr 2026 06:00:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 05:03:26 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -18,7 +18,15 @@
     <guid isPermaLink="true">https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/</guid>
     <description>▲ 327 points · Hacker News · I&apos;ve been waiting over a month for Anthropic to respond to my billing issue</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Trustworthy agents in practice</title>
+    <link>https://www.anthropic.com/research/trustworthy-agents</link>
+    <guid isPermaLink="true">https://www.anthropic.com/research/trustworthy-agents</guid>
+    <description>▲ 205 points · Anthropic Research · Trustworthy agents in practice</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Research</source>
+    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>claude-agent-sdk-python v0.1.58</title>
@@ -26,7 +34,7 @@
     <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58</guid>
     <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.58</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>Show HN: We fingerprinted 178 AI models&apos; writing styles and similarity clusters</title>
@@ -34,7 +42,7 @@
     <guid isPermaLink="true">https://rival.tips/research/model-similarity</guid>
     <description>▲ 76 points · Hacker News · Show HN: We fingerprinted 178 AI models&apos; writing styles and similarity clusters</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>AMD AI director says Claude Code is becoming dumber and lazier since update</title>
@@ -42,7 +50,7 @@
     <guid isPermaLink="true">https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/</guid>
     <description>▲ 37 points · Hacker News · AMD AI director says Claude Code is becoming dumber and lazier since update</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

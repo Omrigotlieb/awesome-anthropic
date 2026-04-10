@@ -4,6 +4,63 @@
 
 ---
 
+## April 10, 2026
+
+> Carry-forward snapshot from **April 9, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 327 | [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/) | Hacker News |
+| 205 | [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents) | Anthropic Research |
+| 85 | [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58) | GitHub Release |
+| 76 | [Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters](https://rival.tips/research/model-similarity) | Hacker News |
+| 37 | [AMD AI director says Claude Code is becoming dumber and lazier since update](https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents) | Anthropic Research |
+| [Project Glasswing](https://www.anthropic.com/glasswing) | Anthropic Blog |
+| [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [I've found Managed Agents to somehow be both the fastest way to hack together a weekend agent project and the most robust way to ship one to millions of users.
+
+It eliminates all the complexity of sel](https://x.com/alexalbert__/status/2041941720611614786) | Alex Albert |
+| [New on the Engineering Blog: 
+
+Building Managed Agents—our hosted service for long-running agents—meant solving an old problem in computing: how to design a system for “programs as yet unthought of.”
+](https://x.com/AnthropicAI/status/2041929199976640948) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97) | ## What's changed  - Added focus view toggle (`Ctrl+O`) in `NO_FLICKER` mode showing prompt, one-lin |
+| [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.97   ---  **PyPI:** https:/ |
+| [claude-agent-sdk-python v0.1.57](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.57) |  ### New Features  - **Cross-user prompt caching**: Added `exclude_dynamic_sections` option to `Syst |
+| [anthropic-sdk-csharp Bedrock-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.3.0) | ## 0.3.0 (2026-04-08)  Full Changelog: [Bedrock-v0.2.0...Bedrock-v0.3.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.13.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.13.0) | ## 12.13.0 (2026-04-08)  Full Changelog: [Anthropic-v12.12.0...Anthropic-v12.13.0](https://github.co |
+| [anthropic-sdk-python v0.92.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.92.0) | ## 0.92.0 (2026-04-08)  Full Changelog: [v0.91.0...v0.92.0](https://github.com/anthropics/anthropic- |
+| [anthropic-cli v1.0.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.0.0) | Initial release of the `ant` CLI. |
+| [anthropic-sdk-go v1.33.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.33.0) | ## 1.33.0 (2026-04-08)  Full Changelog: [v1.32.0...v1.33.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.97](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.97) | ## What's changed  - Updated to parity with Claude Code v2.1.97  ## Update  ```sh npm install @anthr |
+| [anthropic-sdk-java v2.22.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.22.0) | ## 2.22.0 (2026-04-08)  Full Changelog: [v2.21.0...v2.22.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.86.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.86.1) | ## 0.86.1 (2026-04-08)  Full Changelog: [sdk-v0.86.0...sdk-v0.86.1](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript sdk-v0.86.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.86.0) | ## 0.86.0 (2026-04-08)  Full Changelog: [sdk-v0.85.0...sdk-v0.86.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript bedrock-sdk-v0.28.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.28.1) | ## 0.28.1 (2026-04-08)  Full Changelog: [bedrock-sdk-v0.28.0...bedrock-sdk-v0.28.1](https://github.c |
+| [anthropic-sdk-typescript aws-sdk-v0.2.5](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.2.5) | ## 0.2.5 (2026-04-08)  Full Changelog: [aws-sdk-v0.2.4...aws-sdk-v0.2.5](https://github.com/anthropi |
+| [anthropic-sdk-php v0.12.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.12.0) | ## 0.12.0 (2026-04-08)  Full Changelog: [v0.11.0...v0.12.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.31.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.31.0) | ## 1.31.0 (2026-04-08)  Full Changelog: [v1.30.0...v1.31.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## April 9, 2026
 
 ### 🔥 Top Stories
