@@ -337,11 +337,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last synced: <!-- CHANGELOG_DATE -->2026-04-10
 
 <!-- CHANGELOG_START -->
+### April 9, 2026 — We've launched the advisor tool in public beta. Pair a faster executor model wit
+
 ### April 8, 2026 — We've launched Claude Managed Agents in public beta, a fully managed agent harne
 
 ### April 7, 2026 — We announced Claude Mythos Preview is available as a gated research preview for
-
-### March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 10, 2026
 
-- [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/) - 327 pts on Hacker News.
-- [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents) - 205 pts on Anthropic Research.
-- [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58) - 85 pts on GitHub Release.
-- [Show HN: We fingerprinted 178 AI models' writing styles and similarity clusters](https://rival.tips/research/model-similarity) - 76 pts on Hacker News.
-- [AMD AI director says Claude Code is becoming dumber and lazier since update](https://www.theregister.com/2026/04/06/anthropic_claude_code_dumber_lazier_amd_ai_director/) - 37 pts on Hacker News.
+- [BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats](https://reddit.com/r/ClaudeAI/comments/1sgs0b4/breaking_anthropics_new_mythos_model_reportedly/) - 3256 pts on r/ClaudeAI.
+- [Anthropic employees have had Mythos since Feb 24](https://reddit.com/r/ClaudeAI/comments/1sgt2el/anthropic_employees_have_had_mythos_since_feb_24/) - 661 pts on r/ClaudeAI.
+- [Anthropic must be doing something right!](https://reddit.com/r/Anthropic/comments/1sgy766/anthropic_must_be_doing_something_right/) - 473 pts on r/Anthropic.
+- [We're bringing the advisor strategy to the Claude Platform.](https://reddit.com/r/ClaudeAI/comments/1sgy11x/were_bringing_the_advisor_strategy_to_the_claude/) - 459 pts on r/ClaudeAI.
+- [A private company now has powerful zero-day exploits of almost every software project you've heard of.](https://reddit.com/r/Anthropic/comments/1sgom4u/a_private_company_now_has_powerful_zeroday/) - 404 pts on r/Anthropic.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

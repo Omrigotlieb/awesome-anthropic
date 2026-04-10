@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-09T06:00:48Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-10T06:00:57Z
+
+---
+
+## April 9, 2026 — We've launched the advisor tool in public beta. Pair a faster executor model wit
+
+We've launched the advisor tool in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo quality while the bulk of token generation happens at executor-model rates. Include the beta header advisor-tool-2026-03-01 in your requests.
 
 ---
 
@@ -92,7 +98,8 @@ We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
 ## February 1, 2026 — 
 
 . 
- The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. applies to requests exceeding 200k input tokens.
+ The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. Long context pricing applies to requests exceeding 200k input tokens. 
+ Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format .
 
 ---
 
@@ -133,11 +140,5 @@ We've launched Claude Opus 4.5 , our most intelligent model combining maximum ca
 ## November 21, 2025 — Search result content blocks are now generally available on Amazon Bedrock. Lear
 
 Search result content blocks are now generally available on Amazon Bedrock. Learn more in Search results .
-
----
-
-## November 19, 2025 — We've launched a new documentation platform at platform.claude.com/docs . Our do
-
-We've launched a new documentation platform at platform.claude.com/docs . Our documentation now lives side by side with the Claude Console, providing a unified developer experience. The previous docs site at docs.claude.com will redirect to the new location.
 
 ---

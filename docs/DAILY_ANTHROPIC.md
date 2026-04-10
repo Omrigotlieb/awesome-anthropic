@@ -6,16 +6,16 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.97](https://github.com/anthropics/claude-code/releases/tag/v2.1.97) is currently the latest Claude Code release visible in this repository snapshot.
-- [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
-- [Project Glasswing](https://www.anthropic.com/glasswing)
+- [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) is currently the latest Claude Code release visible in this repository snapshot.
+- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- [Australian government and Anthropic sign MOU for AI safety and research](https://www.anthropic.com/news/australia-MOU)
 
 ### Top Story Snapshot
 
-- [I've been waiting over a month for Anthropic to respond to my billing issue](https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/)
-- [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents)
-- [claude-agent-sdk-python v0.1.58](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.58)
+- [BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats](https://reddit.com/r/ClaudeAI/comments/1sgs0b4/breaking_anthropics_new_mythos_model_reportedly/)
+- [Anthropic employees have had Mythos since Feb 24](https://reddit.com/r/ClaudeAI/comments/1sgt2el/anthropic_employees_have_had_mythos_since_feb_24/)
+- [Anthropic must be doing something right!](https://reddit.com/r/Anthropic/comments/1sgy766/anthropic_must_be_doing_something_right/)
 
 ### Freshness Status
 
