@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2026 05:25:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 06:03:53 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,67 +13,123 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>claude-code v2.1.100</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.100</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.100</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.100</description>
+    <title>OpenAI researcher says his Anthropic roommate lost his mind over Mythos</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shs4ej/openai_researcher_says_his_anthropic_roommate/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shs4ej/openai_researcher_says_his_anthropic_roommate/</guid>
+    <description>▲ 2630 points · r/ClaudeAI · OpenAI researcher says his Anthropic roommate lost his mind over Mythos</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I automated most of my job</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shngqm/i_automated_most_of_my_job/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shngqm/i_automated_most_of_my_job/</guid>
+    <description>▲ 867 points · r/ClaudeAI · I automated most of my job</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Bro the chart. I am crying</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shssj4/bro_the_chart_i_am_crying/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shssj4/bro_the_chart_i_am_crying/</guid>
+    <description>▲ 724 points · r/ClaudeAI · Bro the chart. I am crying</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic just shipped 74 product releases in 52 days and silently turned Claude into something that isn&apos;t a chatbot anymore</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1she8ux/anthropic_just_shipped_74_product_releases_in_52/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1she8ux/anthropic_just_shipped_74_product_releases_in_52/</guid>
+    <description>▲ 660 points · r/ClaudeAI · Anthropic just shipped 74 product releases in 52 days and silently turned Claude into something that isn&apos;t a chatbot anymore</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Is anyone low-key embarrassed for humanity that our Robot Overlord is manifesting not as Skynet, but rather as a lippy spell checker that decided we needed a bedtime?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shjmpu/is_anyone_lowkey_embarrassed_for_humanity_that/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shjmpu/is_anyone_lowkey_embarrassed_for_humanity_that/</guid>
+    <description>▲ 625 points · r/ClaudeAI · Is anyone low-key embarrassed for humanity that our Robot Overlord is manifesting not as Skynet, but rather as a lippy spell checker that decided we needed a bedtime?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic is now banning people who are under 18</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1si5hel/anthropic_is_now_banning_people_who_are_under_18/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1si5hel/anthropic_is_now_banning_people_who_are_under_18/</guid>
+    <description>▲ 500 points · r/ClaudeAI · Anthropic is now banning people who are under 18</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude used to push back, now it just agrees with everything</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shexwv/claude_used_to_push_back_now_it_just_agrees_with/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shexwv/claude_used_to_push_back_now_it_just_agrees_with/</guid>
+    <description>▲ 481 points · r/ClaudeAI · Claude used to push back, now it just agrees with everything</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Mythos is Just Damage Control After the Leak</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shvzsn/mythos_is_just_damage_control_after_the_leak/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shvzsn/mythos_is_just_damage_control_after_the_leak/</guid>
+    <description>▲ 251 points · r/ClaudeAI · Mythos is Just Damage Control After the Leak</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic just released Claude Managed Agents. The bot wrapper graveyard is about to get a second floor.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shzvsp/anthropic_just_released_claude_managed_agents_the/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shzvsp/anthropic_just_released_claude_managed_agents_the/</guid>
+    <description>▲ 209 points · r/ClaudeAI · Anthropic just released Claude Managed Agents. The bot wrapper graveyard is about to get a second floor.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Hooks that force Claude Code to use LSP instead of Grep for code navigation. Saves ~80% tokens</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1shlcf0/hooks_that_force_claude_code_to_use_lsp_instead/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1shlcf0/hooks_that_force_claude_code_to_use_lsp_instead/</guid>
+    <description>▲ 154 points · r/ClaudeAI · Hooks that force Claude Code to use LSP instead of Grep for code navigation. Saves ~80% tokens</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>US summons bank bosses over cyber risks from Anthropic&apos;s latest AI model</title>
+    <link>https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model</link>
+    <guid isPermaLink="true">https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model</guid>
+    <description>▲ 105 points · Hacker News · US summons bank bosses over cyber risks from Anthropic&apos;s latest AI model</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>anthropic-sdk-csharp Vertex-v0.3.0</title>
+    <link>https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0</guid>
+    <description>▲ 85 points · GitHub Release · anthropic-sdk-csharp Vertex-v0.3.0</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
     <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.98</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.98</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.98</guid>
-    <description>▲ 80 points · GitHub Release · claude-code v2.1.98</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs</title>
+    <link>https://twill.ai</link>
+    <guid isPermaLink="true">https://twill.ai</guid>
+    <description>▲ 65 points · Hacker News · Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.92</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92</guid>
-    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.92</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Show HN: Eve – Managed OpenClaw for work</title>
+    <link>https://eve.new/login</link>
+    <guid isPermaLink="true">https://eve.new/login</guid>
+    <description>▲ 52 points · Hacker News · Show HN: Eve – Managed OpenClaw for work</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.91</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91</guid>
-    <description>▲ 70 points · GitHub Release · claude-code-action v1.0.91</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>anthropic-sdk-typescript sdk-v0.87.0</title>
-    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0</link>
-    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0</guid>
-    <description>▲ 65 points · GitHub Release · anthropic-sdk-typescript sdk-v0.87.0</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>anthropic-cli v1.1.0</title>
-    <link>https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0</link>
-    <guid isPermaLink="true">https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0</guid>
-    <description>▲ 60 points · GitHub Release · anthropic-cli v1.1.0</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-typescript v0.2.98</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98</guid>
-    <description>▲ 55 points · GitHub Release · claude-agent-sdk-typescript v0.2.98</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>anthropic-sdk-python v0.93.0</title>
-    <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0</link>
-    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0</guid>
-    <description>▲ 50 points · GitHub Release · anthropic-sdk-python v0.93.0</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Anthropic&apos;s Claude Mythos isn&apos;t a sentient super-hacker, it&apos;s a sales pitch</title>
+    <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-mythos-isnt-a-sentient-super-hacker-its-a-sales-pitch-claims-of-thousands-of-severe-zero-days-rely-on-just-198-manual-reviews</link>
+    <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-mythos-isnt-a-sentient-super-hacker-its-a-sales-pitch-claims-of-thousands-of-severe-zero-days-rely-on-just-198-manual-reviews</guid>
+    <description>▲ 36 points · Hacker News · Anthropic&apos;s Claude Mythos isn&apos;t a sentient super-hacker, it&apos;s a sales pitch</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>

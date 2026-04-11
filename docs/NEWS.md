@@ -6,48 +6,40 @@
 
 ## April 11, 2026
 
-> Carry-forward snapshot from **April 10, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 85 | [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) | GitHub Release |
-| 80 | [claude-code v2.1.98](https://github.com/anthropics/claude-code/releases/tag/v2.1.98) | GitHub Release |
-| 75 | [claude-code-action v1.0.92](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92) | GitHub Release |
-| 70 | [claude-code-action v1.0.91](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91) | GitHub Release |
-| 65 | [anthropic-sdk-typescript sdk-v0.87.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0) | GitHub Release |
-| 60 | [anthropic-cli v1.1.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0) | GitHub Release |
-| 55 | [claude-agent-sdk-typescript v0.2.98](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98) | GitHub Release |
-| 50 | [anthropic-sdk-python v0.93.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0) | GitHub Release |
-
-### 🐦 From the Builders
-
-| Tweet | Author |
-|-------|--------|
-| [Just got a nice DM from a big enterprise customer using Claude Code in one of the world's biggest codebases
-
-Here's how we made @-mentions 3x faster in large enterprise codebases 🧵](https://x.com/bcherny/status/2042352720489955539) | Boris Cherney |
-| [Claude Cowork, now generally available!](https://x.com/bcherny/status/2042344772153848043) | Boris Cherney |
+| 2630 | [OpenAI researcher says his Anthropic roommate lost his mind over Mythos](https://reddit.com/r/ClaudeAI/comments/1shs4ej/openai_researcher_says_his_anthropic_roommate/) | r/ClaudeAI |
+| 867 | [I automated most of my job](https://reddit.com/r/ClaudeAI/comments/1shngqm/i_automated_most_of_my_job/) | r/ClaudeAI |
+| 724 | [Bro the chart. I am crying](https://reddit.com/r/ClaudeAI/comments/1shssj4/bro_the_chart_i_am_crying/) | r/ClaudeAI |
+| 660 | [Anthropic just shipped 74 product releases in 52 days and silently turned Claude into something that isn't a chatbot anymore](https://reddit.com/r/ClaudeAI/comments/1she8ux/anthropic_just_shipped_74_product_releases_in_52/) | r/ClaudeAI |
+| 625 | [Is anyone low-key embarrassed for humanity that our Robot Overlord is manifesting not as Skynet, but rather as a lippy spell checker that decided we needed a bedtime?](https://reddit.com/r/ClaudeAI/comments/1shjmpu/is_anyone_lowkey_embarrassed_for_humanity_that/) | r/ClaudeAI |
+| 500 | [Anthropic is now banning people who are under 18](https://reddit.com/r/ClaudeAI/comments/1si5hel/anthropic_is_now_banning_people_who_are_under_18/) | r/ClaudeAI |
+| 481 | [Claude used to push back, now it just agrees with everything](https://reddit.com/r/ClaudeAI/comments/1shexwv/claude_used_to_push_back_now_it_just_agrees_with/) | r/ClaudeAI |
+| 251 | [Mythos is Just Damage Control After the Leak](https://reddit.com/r/ClaudeAI/comments/1shvzsn/mythos_is_just_damage_control_after_the_leak/) | r/ClaudeAI |
+| 209 | [Anthropic just released Claude Managed Agents. The bot wrapper graveyard is about to get a second floor.](https://reddit.com/r/ClaudeAI/comments/1shzvsp/anthropic_just_released_claude_managed_agents_the/) | r/ClaudeAI |
+| 154 | [Hooks that force Claude Code to use LSP instead of Grep for code navigation. Saves ~80% tokens](https://reddit.com/r/ClaudeAI/comments/1shlcf0/hooks_that_force_claude_code_to_use_lsp_instead/) | r/ClaudeAI |
+| 105 | [US summons bank bosses over cyber risks from Anthropic's latest AI model](https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model) | Hacker News |
+| 85 | [anthropic-sdk-csharp Vertex-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0) | GitHub Release |
+| 65 | [Launch HN: Twill.ai (YC S25) – Delegate to cloud agents, get back PRs](https://twill.ai) | Hacker News |
+| 52 | [Show HN: Eve – Managed OpenClaw for work](https://eve.new/login) | Hacker News |
+| 36 | [Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch](https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-mythos-isnt-a-sentient-super-hacker-its-a-sales-pitch-claims-of-thousands-of-severe-zero-days-rely-on-just-198-manual-reviews) | Hacker News |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) |   |
-| [claude-code v2.1.98](https://github.com/anthropics/claude-code/releases/tag/v2.1.98) | ## What's changed  - Added interactive Google Vertex AI setup wizard accessible from the login scree |
-| [claude-code-action v1.0.92](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.92 |
-| [claude-code-action v1.0.91](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91) | ## What's Changed * Use pinned bun binary for post-steps when allowed_non_write_users is set by @Oct |
-| [anthropic-sdk-typescript sdk-v0.87.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0) | ## 0.87.0 (2026-04-09)  Full Changelog: [sdk-v0.86.1...sdk-v0.87.0](https://github.com/anthropics/an |
-| [anthropic-cli v1.1.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0) | ## 1.1.0 (2026-04-09)  Full Changelog: [v1.0.0...v1.1.0](https://github.com/anthropics/anthropic-cli |
-| [claude-agent-sdk-typescript v0.2.98](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98) | ## What's changed  - Updated to parity with Claude Code v2.1.98  ## Update  ```sh npm install @anthr |
-| [anthropic-sdk-python v0.93.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0) | ## 0.93.0 (2026-04-09)  Full Changelog: [v0.92.0...v0.93.0](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-csharp Anthropic-v12.14.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.14.0) | ## 12.14.0 (2026-04-09)  Full Changelog: [Anthropic-v12.13.0...Anthropic-v12.14.0](https://github.co |
-| [anthropic-sdk-java v2.24.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.24.0) | ## 2.24.0 (2026-04-09)  Full Changelog: [v2.23.0...v2.24.0](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-java v2.23.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.23.0) | ## 2.23.0 (2026-04-09)  Full Changelog: [v2.22.0...v2.23.0](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-go v1.34.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.34.0) | ## 1.34.0 (2026-04-09)  Full Changelog: [v1.33.0...v1.34.0](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-ruby v1.32.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.32.0) | ## 1.32.0 (2026-04-09)  Full Changelog: [v1.31.0...v1.32.0](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-php v0.13.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.13.0) | ## 0.13.0 (2026-04-09)  Full Changelog: [v0.12.0...v0.13.0](https://github.com/anthropics/anthropic- |
+| [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | ## What's changed  - Added `/team-onboarding` command to generate a teammate ramp-up guide from your |
+| [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.93 |
+| [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) | ## 0.94.0 (2026-04-10)  Full Changelog: [v0.93.0...v0.94.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript vertex-sdk-v0.16.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0) | ## 0.16.0 (2026-04-10)  Full Changelog: [vertex-sdk-v0.15.0...vertex-sdk-v0.16.0](https://github.com |
+| [anthropic-sdk-typescript sdk-v0.88.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0) | ## 0.88.0 (2026-04-10)  Full Changelog: [sdk-v0.87.0...sdk-v0.88.0](https://github.com/anthropics/an |
+| [anthropic-sdk-csharp Vertex-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0) | ## 0.3.0 (2026-04-10)  Full Changelog: [Vertex-v0.2.1...Vertex-v0.3.0](https://github.com/anthropics |
+| [anthropic-sdk-php v0.14.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.14.0) | ## 0.14.0 (2026-04-10)  Full Changelog: [v0.13.0...v0.14.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.33.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.33.0) | ## 1.33.0 (2026-04-10)  Full Changelog: [v1.32.0...v1.33.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.35.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.35.0) | ## 1.35.0 (2026-04-10)  Full Changelog: [v1.34.0...v1.35.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.101](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.101) | ## What's changed  - Security: bumped `@anthropic-ai/sdk` to `^0.81.0` and `@modelcontextprotocol/sd |
 
 ---
 

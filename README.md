@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 11, 2026
 
-- [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) - 85 pts on GitHub Release.
-- [claude-code v2.1.98](https://github.com/anthropics/claude-code/releases/tag/v2.1.98) - 80 pts on GitHub Release.
-- [claude-code-action v1.0.92](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92) - 75 pts on GitHub Release.
-- [claude-code-action v1.0.91](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91) - 70 pts on GitHub Release.
-- [anthropic-sdk-typescript sdk-v0.87.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0) - 65 pts on GitHub Release.
+- [OpenAI researcher says his Anthropic roommate lost his mind over Mythos](https://reddit.com/r/ClaudeAI/comments/1shs4ej/openai_researcher_says_his_anthropic_roommate/) - 2630 pts on r/ClaudeAI.
+- [I automated most of my job](https://reddit.com/r/ClaudeAI/comments/1shngqm/i_automated_most_of_my_job/) - 867 pts on r/ClaudeAI.
+- [Bro the chart. I am crying](https://reddit.com/r/ClaudeAI/comments/1shssj4/bro_the_chart_i_am_crying/) - 724 pts on r/ClaudeAI.
+- [Anthropic just shipped 74 product releases in 52 days and silently turned Claude into something that isn't a chatbot anymore](https://reddit.com/r/ClaudeAI/comments/1she8ux/anthropic_just_shipped_74_product_releases_in_52/) - 660 pts on r/ClaudeAI.
+- [Is anyone low-key embarrassed for humanity that our Robot Overlord is manifesting not as Skynet, but rather as a lippy spell checker that decided we needed a bedtime?](https://reddit.com/r/ClaudeAI/comments/1shjmpu/is_anyone_lowkey_embarrassed_for_humanity_that/) - 625 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

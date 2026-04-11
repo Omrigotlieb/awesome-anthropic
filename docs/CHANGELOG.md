@@ -1,6 +1,6 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-10T06:00:57Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-11T06:03:56Z
 
 ---
 
@@ -20,7 +20,7 @@ We've launched Claude Managed Agents in public beta, a fully managed agent harne
 ## April 7, 2026 — We announced Claude Mythos Preview is available as a gated research preview for 
 
 We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing . Access is invitation-only. 
- The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1 ; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock .
+ The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1 ; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock (research preview) .
 
 ---
 

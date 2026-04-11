@@ -6,15 +6,15 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) is currently the latest Claude Code release visible in this repository snapshot.
 - [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 
 ### Top Story Snapshot
 
-- [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100)
-- [claude-code v2.1.98](https://github.com/anthropics/claude-code/releases/tag/v2.1.98)
-- [claude-code-action v1.0.92](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92)
+- [OpenAI researcher says his Anthropic roommate lost his mind over Mythos](https://reddit.com/r/ClaudeAI/comments/1shs4ej/openai_researcher_says_his_anthropic_roommate/)
+- [I automated most of my job](https://reddit.com/r/ClaudeAI/comments/1shngqm/i_automated_most_of_my_job/)
+- [Bro the chart. I am crying](https://reddit.com/r/ClaudeAI/comments/1shssj4/bro_the_chart_i_am_crying/)
 
 ### Freshness Status
 
