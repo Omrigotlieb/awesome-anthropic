@@ -4,6 +4,53 @@
 
 ---
 
+## April 11, 2026
+
+> Carry-forward snapshot from **April 10, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 85 | [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) | GitHub Release |
+| 80 | [claude-code v2.1.98](https://github.com/anthropics/claude-code/releases/tag/v2.1.98) | GitHub Release |
+| 75 | [claude-code-action v1.0.92](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92) | GitHub Release |
+| 70 | [claude-code-action v1.0.91](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91) | GitHub Release |
+| 65 | [anthropic-sdk-typescript sdk-v0.87.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0) | GitHub Release |
+| 60 | [anthropic-cli v1.1.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0) | GitHub Release |
+| 55 | [claude-agent-sdk-typescript v0.2.98](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98) | GitHub Release |
+| 50 | [anthropic-sdk-python v0.93.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0) | GitHub Release |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Just got a nice DM from a big enterprise customer using Claude Code in one of the world's biggest codebases
+
+Here's how we made @-mentions 3x faster in large enterprise codebases 🧵](https://x.com/bcherny/status/2042352720489955539) | Boris Cherney |
+| [Claude Cowork, now generally available!](https://x.com/bcherny/status/2042344772153848043) | Boris Cherney |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) |   |
+| [claude-code v2.1.98](https://github.com/anthropics/claude-code/releases/tag/v2.1.98) | ## What's changed  - Added interactive Google Vertex AI setup wizard accessible from the login scree |
+| [claude-code-action v1.0.92](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.92 |
+| [claude-code-action v1.0.91](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91) | ## What's Changed * Use pinned bun binary for post-steps when allowed_non_write_users is set by @Oct |
+| [anthropic-sdk-typescript sdk-v0.87.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0) | ## 0.87.0 (2026-04-09)  Full Changelog: [sdk-v0.86.1...sdk-v0.87.0](https://github.com/anthropics/an |
+| [anthropic-cli v1.1.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0) | ## 1.1.0 (2026-04-09)  Full Changelog: [v1.0.0...v1.1.0](https://github.com/anthropics/anthropic-cli |
+| [claude-agent-sdk-typescript v0.2.98](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98) | ## What's changed  - Updated to parity with Claude Code v2.1.98  ## Update  ```sh npm install @anthr |
+| [anthropic-sdk-python v0.93.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0) | ## 0.93.0 (2026-04-09)  Full Changelog: [v0.92.0...v0.93.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Anthropic-v12.14.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.14.0) | ## 12.14.0 (2026-04-09)  Full Changelog: [Anthropic-v12.13.0...Anthropic-v12.14.0](https://github.co |
+| [anthropic-sdk-java v2.24.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.24.0) | ## 2.24.0 (2026-04-09)  Full Changelog: [v2.23.0...v2.24.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.23.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.23.0) | ## 2.23.0 (2026-04-09)  Full Changelog: [v2.22.0...v2.23.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.34.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.34.0) | ## 1.34.0 (2026-04-09)  Full Changelog: [v1.33.0...v1.34.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.32.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.32.0) | ## 1.32.0 (2026-04-09)  Full Changelog: [v1.31.0...v1.32.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.13.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.13.0) | ## 0.13.0 (2026-04-09)  Full Changelog: [v0.12.0...v0.13.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## April 10, 2026
 
 ### 🔥 Top Stories

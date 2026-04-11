@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-10
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-11
 
 <!-- CHANGELOG_START -->
 ### April 9, 2026 — We've launched the advisor tool in public beta. Pair a faster executor model wit
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-10
+> Last fetched: <!-- NEWS_DATE -->2026-04-11
 
 <!-- NEWS_START -->
-### Top Stories — April 10, 2026
+### Top Stories — April 11, 2026
 
-- [BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats](https://reddit.com/r/ClaudeAI/comments/1sgs0b4/breaking_anthropics_new_mythos_model_reportedly/) - 3256 pts on r/ClaudeAI.
-- [Anthropic employees have had Mythos since Feb 24](https://reddit.com/r/ClaudeAI/comments/1sgt2el/anthropic_employees_have_had_mythos_since_feb_24/) - 661 pts on r/ClaudeAI.
-- [Anthropic must be doing something right!](https://reddit.com/r/Anthropic/comments/1sgy766/anthropic_must_be_doing_something_right/) - 473 pts on r/Anthropic.
-- [We're bringing the advisor strategy to the Claude Platform.](https://reddit.com/r/ClaudeAI/comments/1sgy11x/were_bringing_the_advisor_strategy_to_the_claude/) - 459 pts on r/ClaudeAI.
-- [A private company now has powerful zero-day exploits of almost every software project you've heard of.](https://reddit.com/r/Anthropic/comments/1sgom4u/a_private_company_now_has_powerful_zeroday/) - 404 pts on r/Anthropic.
+- [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) - 85 pts on GitHub Release.
+- [claude-code v2.1.98](https://github.com/anthropics/claude-code/releases/tag/v2.1.98) - 80 pts on GitHub Release.
+- [claude-code-action v1.0.92](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92) - 75 pts on GitHub Release.
+- [claude-code-action v1.0.91](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91) - 70 pts on GitHub Release.
+- [anthropic-sdk-typescript sdk-v0.87.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0) - 65 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

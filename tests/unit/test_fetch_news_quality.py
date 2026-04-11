@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 
 from scripts.fetch_news import (
     NewsItem,
+    _rebuild_carry_forward_top_stories,
     _strip_existing_carry_forward_note,
     build_primary_story_fallback,
     canonical_story_url,
@@ -341,6 +342,36 @@ class TestFetchNewsQuality(unittest.TestCase):
         cleaned = _strip_existing_carry_forward_note(body)
         self.assertTrue(cleaned.startswith("### 🔥 Top Stories"))
         self.assertNotIn("Carry-forward snapshot", cleaned)
+
+    def test_rebuild_carry_forward_top_stories_prefers_primary_signal(self):
+        body = (
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+            "|------:|-------|--------|\n"
+            "| 999 | [Rumor headline](https://reddit.com/r/ClaudeAI/comments/x) | r/ClaudeAI |\n\n"
+            "### 📰 Official Announcements\n\n"
+            "| Title | Source |\n"
+            "|-------|--------|\n"
+            "| [Project Glasswing](https://www.anthropic.com/glasswing) | Anthropic Blog |\n\n"
+            "### 🛠️ SDK & Tool Releases\n\n"
+            "| Release | Highlights |\n"
+            "|---------|------------|\n"
+            "| [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) | Stable update |\n"
+        )
+        rebuilt = _rebuild_carry_forward_top_stories(body, "April 10, 2026")
+        self.assertIn("Project Glasswing", rebuilt)
+        self.assertIn("claude-code v2.1.100", rebuilt)
+        self.assertNotIn("Rumor headline", rebuilt)
+
+    def test_rebuild_carry_forward_top_stories_no_primary_signal_keeps_original(self):
+        body = (
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+            "|------:|-------|--------|\n"
+            "| 100 | [Community thread](https://reddit.com/r/ClaudeAI/comments/y) | r/ClaudeAI |\n"
+        )
+        rebuilt = _rebuild_carry_forward_top_stories(body, "April 10, 2026")
+        self.assertEqual(rebuilt, body)
 
 
 if __name__ == "__main__":

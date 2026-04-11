@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2026 06:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 05:25:11 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,68 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sgs0b4/breaking_anthropics_new_mythos_model_reportedly/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sgs0b4/breaking_anthropics_new_mythos_model_reportedly/</guid>
-    <description>▲ 3256 points · r/ClaudeAI · BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic employees have had Mythos since Feb 24</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sgt2el/anthropic_employees_have_had_mythos_since_feb_24/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sgt2el/anthropic_employees_have_had_mythos_since_feb_24/</guid>
-    <description>▲ 661 points · r/ClaudeAI · Anthropic employees have had Mythos since Feb 24</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic must be doing something right!</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sgy766/anthropic_must_be_doing_something_right/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sgy766/anthropic_must_be_doing_something_right/</guid>
-    <description>▲ 473 points · r/Anthropic · Anthropic must be doing something right!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>We&apos;re bringing the advisor strategy to the Claude Platform.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sgy11x/were_bringing_the_advisor_strategy_to_the_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sgy11x/were_bringing_the_advisor_strategy_to_the_claude/</guid>
-    <description>▲ 459 points · r/ClaudeAI · We&apos;re bringing the advisor strategy to the Claude Platform.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>A private company now has powerful zero-day exploits of almost every software project you&apos;ve heard of.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sgom4u/a_private_company_now_has_powerful_zeroday/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sgom4u/a_private_company_now_has_powerful_zeroday/</guid>
-    <description>▲ 404 points · r/Anthropic · A private company now has powerful zero-day exploits of almost every software project you&apos;ve heard of.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude code hardware</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sgsofx/claude_code_hardware/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sgsofx/claude_code_hardware/</guid>
-    <description>▲ 380 points · r/ClaudeAI · claude code hardware</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>New: Context usage warning on session resume</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sgkju2/new_context_usage_warning_on_session_resume/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sgkju2/new_context_usage_warning_on_session_resume/</guid>
-    <description>▲ 190 points · r/ClaudeAI · New: Context usage warning on session resume</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>People with Max plan, are you doing ok?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sh1d4n/people_with_max_plan_are_you_doing_ok/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sh1d4n/people_with_max_plan_are_you_doing_ok/</guid>
-    <description>▲ 181 points · r/ClaudeAI · People with Max plan, are you doing ok?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Passed Anthropic&apos;s Claude Certified Architect (893/1000)</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sgn0cf/passed_anthropics_claude_certified_architect/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sgn0cf/passed_anthropics_claude_certified_architect/</guid>
-    <description>▲ 178 points · r/ClaudeAI · Passed Anthropic&apos;s Claude Certified Architect (893/1000)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I let Claude Code autonomously test my iOS app. It found real bugs in 8 minutes</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sh5aae/i_let_claude_code_autonomously_test_my_ios_app_it/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sh5aae/i_let_claude_code_autonomously_test_my_ios_app_it/</guid>
-    <description>▲ 176 points · r/ClaudeAI · I let Claude Code autonomously test my iOS app. It found real bugs in 8 minutes</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Show HN: CSS Studio. Design by hand, code by agent</title>
-    <link>https://cssstudio.ai</link>
-    <guid isPermaLink="true">https://cssstudio.ai</guid>
-    <description>▲ 146 points · Hacker News · Show HN: CSS Studio. Design by hand, code by agent</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>It&apos;s happening, they cut the usage for literally everyone now. I was in doubt and it was A/B testing for sure, a single prompt for 10 lines of code consumed 5% of session ON A MAX PLAN - I am cancelling, not really worth it anymore</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sgomf6/its_happening_they_cut_the_usage_for_literally/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sgomf6/its_happening_they_cut_the_usage_for_literally/</guid>
-    <description>▲ 136 points · r/Anthropic · It&apos;s happening, they cut the usage for literally everyone now. I was in doubt and it was A/B testing for sure, a single prompt for 10 lines of code consumed 5% of session ON A MAX PLAN - I am cancelling, not really worth it anymore</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>My &quot;Friend&quot; is always smarter than Claude Ops 4.6, Opus agrees.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sgynbi/my_friend_is_always_smarter_than_claude_ops_46/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sgynbi/my_friend_is_always_smarter_than_claude_ops_46/</guid>
-    <description>▲ 102 points · r/Anthropic · My &quot;Friend&quot; is always smarter than Claude Ops 4.6, Opus agrees.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
     <title>claude-code v2.1.100</title>
     <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.100</link>
     <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.100</guid>
     <description>▲ 85 points · GitHub Release · claude-code v2.1.100</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Launch HN: Relvy (YC F24) – On-call runbooks, automated</title>
-    <link>https://www.relvy.ai</link>
-    <guid isPermaLink="true">https://www.relvy.ai</guid>
-    <description>▲ 44 points · Hacker News · Launch HN: Relvy (YC F24) – On-call runbooks, automated</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 10 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.98</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.98</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.98</guid>
+    <description>▲ 80 points · GitHub Release · claude-code v2.1.98</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.92</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.92</guid>
+    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.92</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.91</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.91</guid>
+    <description>▲ 70 points · GitHub Release · claude-code-action v1.0.91</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>anthropic-sdk-typescript sdk-v0.87.0</title>
+    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.87.0</guid>
+    <description>▲ 65 points · GitHub Release · anthropic-sdk-typescript sdk-v0.87.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>anthropic-cli v1.1.0</title>
+    <link>https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-cli/releases/tag/v1.1.0</guid>
+    <description>▲ 60 points · GitHub Release · anthropic-cli v1.1.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-agent-sdk-typescript v0.2.98</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.98</guid>
+    <description>▲ 55 points · GitHub Release · claude-agent-sdk-typescript v0.2.98</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>anthropic-sdk-python v0.93.0</title>
+    <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.93.0</guid>
+    <description>▲ 50 points · GitHub Release · anthropic-sdk-python v0.93.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

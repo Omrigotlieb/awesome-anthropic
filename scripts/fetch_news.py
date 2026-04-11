@@ -829,6 +829,7 @@ def carry_forward_latest_section_to_today() -> bool:
     carried_body = top_match.group("body").strip()
     # Avoid stacking carry-forward notices on consecutive offline days.
     carried_body = _strip_existing_carry_forward_note(carried_body)
+    carried_body = _rebuild_carry_forward_top_stories(carried_body, latest_label)
     note = (
         f"> Carry-forward snapshot from **{latest_label}** because DNS/network was unavailable during this run."
     )
@@ -846,6 +847,118 @@ def _strip_existing_carry_forward_note(section_body: str) -> str:
     pattern = r"^>\s*Carry-forward snapshot from \*\*[^*]+\*\* because DNS/network was unavailable during this run\.\n*"
     cleaned = _re.sub(pattern, "", cleaned, count=1, flags=_re.IGNORECASE)
     return cleaned.lstrip()
+
+
+def _parse_table_rows_from_section(section_text: str, heading: str) -> list[list[str]]:
+    """Parse markdown table rows under a specific heading in a section body."""
+    import re as _re
+
+    section_match = _re.search(
+        rf"###\s*{_re.escape(heading)}\s*\n\n\|[^\n]*\n\|[^\n]*\n(?P<table>(?:\|[^\n]*(?:\n|$))+)",
+        section_text,
+    )
+    if not section_match:
+        return []
+
+    rows: list[list[str]] = []
+    for row in section_match.group("table").splitlines():
+        rows.append([c.strip() for c in row.strip().strip("|").split("|")])
+    return rows
+
+
+def _extract_markdown_link(value: str) -> tuple[str, str]:
+    """Extract markdown link text and URL from a table cell."""
+    import re as _re
+
+    link_match = _re.search(r"\[([^\]]+)\]\(([^)]+)\)", value or "")
+    if link_match:
+        return link_match.group(1), link_match.group(2)
+    text = (value or "").strip()
+    return text, ""
+
+
+def _render_top_stories_markdown(stories: list[NewsItem]) -> str:
+    """Render a top-stories table block."""
+    lines = [
+        "### 🔥 Top Stories",
+        "",
+        "| Score | Title | Source |",
+        "|------:|-------|--------|",
+    ]
+    for item in stories:
+        lines.append(f"| {item.score} | [{item.title}]({item.url}) | {item.source} |")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def _replace_top_stories_block(section_body: str, replacement_block: str) -> str:
+    """Replace Top Stories block if present; otherwise prepend it."""
+    import re as _re
+
+    body = (section_body or "").lstrip()
+    pattern = r"(?ms)^###\s*🔥 Top Stories\s*\n.*?(?=^###\s+|\Z)"
+    if _re.search(pattern, body):
+        return _re.sub(pattern, replacement_block + "\n", body, count=1)
+    return replacement_block + "\n" + body
+
+
+def _rebuild_carry_forward_top_stories(section_body: str, latest_label: str) -> str:
+    """
+    Rebuild carry-forward Top Stories from primary signals.
+
+    In offline runs we prioritize official announcements and release-watch rows
+    over stale community chatter copied from a previous day.
+    """
+    fallback_date = datetime.now(tz=timezone.utc).isoformat()
+    for fmt in ("%B %d, %Y", "%b %d, %Y"):
+        try:
+            fallback_date = datetime.strptime(latest_label, fmt).replace(tzinfo=timezone.utc).isoformat()
+            break
+        except ValueError:
+            continue
+
+    announcements: list[NewsItem] = []
+    for idx, cols in enumerate(_parse_table_rows_from_section(section_body, "📰 Official Announcements")):
+        if not cols:
+            continue
+        title, url = _extract_markdown_link(cols[0])
+        if not url:
+            continue
+        source = cols[1] if len(cols) > 1 and cols[1] else "Anthropic Blog"
+        announcements.append(
+            NewsItem(
+                title=title,
+                url=url,
+                source=source,
+                published_at=fallback_date,
+                score=max(100 - (idx * 5), 1),
+            )
+        )
+
+    releases: list[NewsItem] = []
+    for idx, cols in enumerate(_parse_table_rows_from_section(section_body, "🛠️ SDK & Tool Releases")):
+        if not cols:
+            continue
+        title, url = _extract_markdown_link(cols[0])
+        if not url:
+            continue
+        releases.append(
+            NewsItem(
+                title=title,
+                url=url,
+                source="GitHub Release",
+                published_at=fallback_date,
+                score=max(85 - (idx * 5), 1),
+                summary=cols[1] if len(cols) > 1 else "",
+            )
+        )
+
+    rebuilt = build_primary_story_fallback(announcements=announcements, sdk_releases=releases, limit=8)
+    if not rebuilt:
+        return section_body
+
+    replacement_block = _render_top_stories_markdown(rebuilt)
+    return _replace_top_stories_block(section_body, replacement_block)
 
 
 def append_to_news_md(items: list[NewsItem]) -> None:
