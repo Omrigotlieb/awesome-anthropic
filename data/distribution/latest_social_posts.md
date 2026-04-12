@@ -6,9 +6,9 @@ Use and adapt these drafts for channel distribution.
 
 ```text
 Claude + Anthropic daily pulse (April 12, 2026):
-1) Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr
-2) Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
-3) claude-code v2.1.101
+1) AMD AI directors analysis confirms lobotomization of Claude
+2) Anthropic: Stop shipping. Seriously.
+3) This is a medical emergency
 
 Track it here:
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -21,8 +21,8 @@ Dashboard: https://omrigotlieb.github.io/awesome-anthropic/
 We published today’s Awesome Anthropic brief (April 12, 2026).
 
 Highlights:
-• Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr
-• Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
+• AMD AI directors analysis confirms lobotomization of Claude
+• Anthropic: Stop shipping. Seriously.
 • Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr
 
 For builders tracking Claude Code and Anthropic product movement:
@@ -37,9 +37,9 @@ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 Daily Anthropic + Claude Code brief (April 12, 2026)
 
 Top signals:
-- Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr
-- Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
-- claude-code v2.1.101
+- AMD AI directors analysis confirms lobotomization of Claude
+- Anthropic: Stop shipping. Seriously.
+- This is a medical emergency
 
 Full feed: https://omrigotlieb.github.io/awesome-anthropic/#/docs/NEWS
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -49,6 +49,6 @@ RSS: https://omrigotlieb.github.io/awesome-anthropic/rss.xml
 ## Hacker News
 
 ```text
-Title: Daily Claude + Anthropic digest (April 12, 2026): Project Glasswing A new initiative that brings together Amazon Web Services, Ant
+Title: Daily Claude + Anthropic digest (April 12, 2026): AMD AI directors analysis confirms lobotomization of Claude
 Text: Tracking daily product, release, and community signals here: https://omrigotlieb.github.io/awesome-anthropic/ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 ```

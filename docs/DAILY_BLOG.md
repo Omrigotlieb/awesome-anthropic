@@ -33,42 +33,39 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 3 — Claude Code release watch
 
-**News peg (April 12, 2026):** [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101)
+**News peg (April 11, 2026):** [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101)
 
 Snapshot update: - Added `/team-onboarding` command to generate a teammate ramp-up guide from your
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 4 — Ecosystem release signal
+### Article 4 — Community demand signal
 
-**News peg (April 12, 2026):** [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93)
+**News peg (April 12, 2026):** [AMD AI directors analysis confirms lobotomization of Claude](https://reddit.com/r/ClaudeAI/comments/1sifepi/amd_ai_directors_analysis_confirms_lobotomization/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Community demand signal
 
-**News peg (April 12, 2026):** [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0)
+**News peg (April 12, 2026):** [Anthropic: Stop shipping. Seriously.](https://reddit.com/r/ClaudeAI/comments/1siqwmp/anthropic_stop_shipping_seriously/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
-- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101)
+- [AMD AI directors analysis confirms lobotomization of Claude](https://reddit.com/r/ClaudeAI/comments/1sifepi/amd_ai_directors_analysis_confirms_lobotomization/)
+- [Anthropic: Stop shipping. Seriously.](https://reddit.com/r/ClaudeAI/comments/1siqwmp/anthropic_stop_shipping_seriously/)
+- [This is a medical emergency](https://reddit.com/r/ClaudeAI/comments/1siheld/this_is_a_medical_emergency/)
 
 ### Source Trail
 
 - April 8, 2026: [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- April 12, 2026: [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101)
-- April 12, 2026: [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93)
-- April 12, 2026: [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0)
 
 ### Website Improvement Review
 
