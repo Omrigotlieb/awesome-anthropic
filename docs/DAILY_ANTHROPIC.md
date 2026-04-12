@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-04-11 (news snapshot: April 11, 2026)
+## 2026-04-12 (news snapshot: April 12, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -12,14 +12,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [OpenAI researcher says his Anthropic roommate lost his mind over Mythos](https://reddit.com/r/ClaudeAI/comments/1shs4ej/openai_researcher_says_his_anthropic_roommate/)
-- [I automated most of my job](https://reddit.com/r/ClaudeAI/comments/1shngqm/i_automated_most_of_my_job/)
-- [Bro the chart. I am crying](https://reddit.com/r/ClaudeAI/comments/1shssj4/bro_the_chart_i_am_crying/)
+- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
+- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-11
-- News snapshot date: April 11, 2026
+- Run date (UTC): 2026-04-12
+- News snapshot date: April 12, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

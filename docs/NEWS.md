@@ -4,6 +4,40 @@
 
 ---
 
+## April 12, 2026
+
+> Carry-forward snapshot from **April 11, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) | Anthropic Blog |
+| 100 | [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+| 85 | [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | GitHub Release |
+| 80 | [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) | GitHub Release |
+| 75 | [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) | GitHub Release |
+| 70 | [anthropic-sdk-typescript vertex-sdk-v0.16.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0) | GitHub Release |
+| 65 | [anthropic-sdk-typescript sdk-v0.88.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0) | GitHub Release |
+| 60 | [anthropic-sdk-csharp Vertex-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0) | GitHub Release |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | ## What's changed  - Added `/team-onboarding` command to generate a teammate ramp-up guide from your |
+| [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.93 |
+| [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) | ## 0.94.0 (2026-04-10)  Full Changelog: [v0.93.0...v0.94.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript vertex-sdk-v0.16.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0) | ## 0.16.0 (2026-04-10)  Full Changelog: [vertex-sdk-v0.15.0...vertex-sdk-v0.16.0](https://github.com |
+| [anthropic-sdk-typescript sdk-v0.88.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0) | ## 0.88.0 (2026-04-10)  Full Changelog: [sdk-v0.87.0...sdk-v0.88.0](https://github.com/anthropics/an |
+| [anthropic-sdk-csharp Vertex-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0) | ## 0.3.0 (2026-04-10)  Full Changelog: [Vertex-v0.2.1...Vertex-v0.3.0](https://github.com/anthropics |
+| [anthropic-sdk-php v0.14.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.14.0) | ## 0.14.0 (2026-04-10)  Full Changelog: [v0.13.0...v0.14.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.33.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.33.0) | ## 1.33.0 (2026-04-10)  Full Changelog: [v1.32.0...v1.33.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.35.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.35.0) | ## 1.35.0 (2026-04-10)  Full Changelog: [v1.34.0...v1.35.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.101](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.101) | ## What's changed  - Security: bumped `@anthropic-ai/sdk` to `^0.81.0` and `@modelcontextprotocol/sd |
+
+---
+
 ## April 11, 2026
 
 ### 🔥 Top Stories

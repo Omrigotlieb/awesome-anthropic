@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 
 from scripts.fetch_news import (
     NewsItem,
+    _collect_recent_primary_signal_rows,
     _rebuild_carry_forward_top_stories,
     _strip_existing_carry_forward_note,
     build_primary_story_fallback,
@@ -372,6 +373,38 @@ class TestFetchNewsQuality(unittest.TestCase):
         )
         rebuilt = _rebuild_carry_forward_top_stories(body, "April 10, 2026")
         self.assertEqual(rebuilt, body)
+
+    def test_rebuild_carry_forward_top_stories_uses_recent_section_fallback(self):
+        body = (
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+            "|------:|-------|--------|\n"
+            "| 100 | [Community thread](https://reddit.com/r/ClaudeAI/comments/y) | r/ClaudeAI |\n"
+        )
+        existing_news = (
+            "## April 11, 2026\n\n"
+            "### 📰 Official Announcements\n\n"
+            "| Title | Source |\n"
+            "|-------|--------|\n"
+            "| [Trustworthy agents in practice](https://www.anthropic.com/research/trustworthy-agents-in-practice) | Anthropic Blog |\n\n"
+            "### 🛠️ SDK & Tool Releases\n\n"
+            "| Release | Highlights |\n"
+            "|---------|------------|\n"
+            "| [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | Added team onboarding command |\n\n"
+            "---\n\n"
+            "## April 10, 2026\n\n"
+            "Older section\n"
+        )
+        announcements, releases = _collect_recent_primary_signal_rows(existing_news, max_sections=3)
+        rebuilt = _rebuild_carry_forward_top_stories(
+            body,
+            "April 12, 2026",
+            fallback_announcements=announcements,
+            fallback_releases=releases,
+        )
+        self.assertIn("Trustworthy agents in practice", rebuilt)
+        self.assertIn("claude-code v2.1.101", rebuilt)
+        self.assertNotIn("Community thread", rebuilt)
 
 
 if __name__ == "__main__":

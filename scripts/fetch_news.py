@@ -827,9 +827,15 @@ def carry_forward_latest_section_to_today() -> bool:
         return False
 
     carried_body = top_match.group("body").strip()
+    fallback_announcements, fallback_releases = _collect_recent_primary_signal_rows(existing, max_sections=6)
     # Avoid stacking carry-forward notices on consecutive offline days.
     carried_body = _strip_existing_carry_forward_note(carried_body)
-    carried_body = _rebuild_carry_forward_top_stories(carried_body, latest_label)
+    carried_body = _rebuild_carry_forward_top_stories(
+        carried_body,
+        latest_label,
+        fallback_announcements=fallback_announcements,
+        fallback_releases=fallback_releases,
+    )
     note = (
         f"> Carry-forward snapshot from **{latest_label}** because DNS/network was unavailable during this run."
     )
@@ -877,6 +883,81 @@ def _extract_markdown_link(value: str) -> tuple[str, str]:
     return text, ""
 
 
+def _collect_recent_primary_signal_rows(existing_news: str, max_sections: int = 6) -> tuple[list[NewsItem], list[NewsItem]]:
+    """
+    Collect official announcements and SDK releases from recent NEWS sections.
+
+    Used as fallback context during offline carry-forward when the latest section
+    has limited primary-signal rows.
+    """
+    import re as _re
+
+    announcements: list[NewsItem] = []
+    releases: list[NewsItem] = []
+    seen_announcement_urls: set[str] = set()
+    seen_release_urls: set[str] = set()
+
+    section_matches = list(_re.finditer(r"^##\s+([^\n]+)$", existing_news, flags=_re.MULTILINE))
+    for idx, match in enumerate(section_matches[:max_sections]):
+        start = match.end()
+        end = section_matches[idx + 1].start() if idx + 1 < len(section_matches) else len(existing_news)
+        section_body = existing_news[start:end].strip()
+        date_label = match.group(1).strip()
+
+        section_dt = datetime.now(tz=timezone.utc)
+        for fmt in ("%B %d, %Y", "%b %d, %Y"):
+            try:
+                section_dt = datetime.strptime(date_label, fmt).replace(tzinfo=timezone.utc)
+                break
+            except ValueError:
+                continue
+        published_at = section_dt.isoformat()
+
+        for row_idx, cols in enumerate(_parse_table_rows_from_section(section_body, "📰 Official Announcements")):
+            if not cols:
+                continue
+            title, url = _extract_markdown_link(cols[0])
+            if not url:
+                continue
+            key = canonical_story_url(url)
+            if not key or key in seen_announcement_urls:
+                continue
+            source = cols[1] if len(cols) > 1 and cols[1] else "Anthropic Blog"
+            announcements.append(
+                NewsItem(
+                    title=title,
+                    url=url,
+                    source=source,
+                    published_at=published_at,
+                    score=max(100 - (row_idx * 5), 1),
+                )
+            )
+            seen_announcement_urls.add(key)
+
+        for row_idx, cols in enumerate(_parse_table_rows_from_section(section_body, "🛠️ SDK & Tool Releases")):
+            if not cols:
+                continue
+            title, url = _extract_markdown_link(cols[0])
+            if not url:
+                continue
+            key = canonical_story_url(url)
+            if not key or key in seen_release_urls:
+                continue
+            releases.append(
+                NewsItem(
+                    title=title,
+                    url=url,
+                    source="GitHub Release",
+                    published_at=published_at,
+                    score=max(85 - (row_idx * 5), 1),
+                    summary=cols[1] if len(cols) > 1 else "",
+                )
+            )
+            seen_release_urls.add(key)
+
+    return announcements, releases
+
+
 def _render_top_stories_markdown(stories: list[NewsItem]) -> str:
     """Render a top-stories table block."""
     lines = [
@@ -902,7 +983,12 @@ def _replace_top_stories_block(section_body: str, replacement_block: str) -> str
     return replacement_block + "\n" + body
 
 
-def _rebuild_carry_forward_top_stories(section_body: str, latest_label: str) -> str:
+def _rebuild_carry_forward_top_stories(
+    section_body: str,
+    latest_label: str,
+    fallback_announcements: list[NewsItem] | None = None,
+    fallback_releases: list[NewsItem] | None = None,
+) -> str:
     """
     Rebuild carry-forward Top Stories from primary signals.
 
@@ -952,6 +1038,20 @@ def _rebuild_carry_forward_top_stories(section_body: str, latest_label: str) -> 
                 summary=cols[1] if len(cols) > 1 else "",
             )
         )
+
+    if fallback_announcements:
+        for item in fallback_announcements:
+            key = canonical_story_url(item.url)
+            if not key or any(canonical_story_url(existing.url) == key for existing in announcements):
+                continue
+            announcements.append(item)
+
+    if fallback_releases:
+        for item in fallback_releases:
+            key = canonical_story_url(item.url)
+            if not key or any(canonical_story_url(existing.url) == key for existing in releases):
+                continue
+            releases.append(item)
 
     rebuilt = build_primary_story_fallback(announcements=announcements, sdk_releases=releases, limit=8)
     if not rebuilt:
