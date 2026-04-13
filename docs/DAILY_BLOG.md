@@ -10,7 +10,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 ### Key Takeaways
 
 - The daily run on 2026-04-13 uses the April 13, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.101.
+- Latest release tracked: claude-code v2.1.104.
 - Official channel signal remains active: Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr (April 8, 2026).
 
 ### Latest News Articles
@@ -33,39 +33,41 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 3 — Claude Code release watch
 
-**News peg (April 11, 2026):** [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101)
+**News peg (April 13, 2026):** [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104)
 
-Snapshot update: - Added `/team-onboarding` command to generate a teammate ramp-up guide from your
-
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
-
-### Article 4 — Ecosystem release signal
-
-**News peg (April 13, 2026):** [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93)
-
-Snapshot update: Top story source: GitHub Release
+Snapshot update: claude-code v2.1.104
 
 Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 5 — Ecosystem release signal
+### Article 4 — Community demand signal
 
-**News peg (April 13, 2026):** [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0)
+**News peg (April 13, 2026):** [Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews](https://reddit.com/r/ClaudeAI/comments/1sjbsyg/anthropics_claude_mythos_isnt_a_sentient/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+
+### Article 5 — Community demand signal
+
+**News peg (April 13, 2026):** [The golden age is over](https://reddit.com/r/ClaudeAI/comments/1sjqn2e/the_golden_age_is_over/)
+
+Snapshot update: Top story source: r/ClaudeAI
+
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
-- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101)
+- [Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews](https://reddit.com/r/ClaudeAI/comments/1sjbsyg/anthropics_claude_mythos_isnt_a_sentient/)
+- [The golden age is over](https://reddit.com/r/ClaudeAI/comments/1sjqn2e/the_golden_age_is_over/)
+- [Mythos is Mostly Hype... (also the bugs it found were mostly unexploitable and exaggerated...)](https://reddit.com/r/Anthropic/comments/1sj9558/mythos_is_mostly_hype_also_the_bugs_it_found_were/)
 
 ### Source Trail
 
 - April 8, 2026: [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- April 13, 2026: [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104)
+- April 13, 2026: [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104)
 
 ### Website Improvement Review
 

@@ -6,20 +6,32 @@
 
 ## April 13, 2026
 
-> Carry-forward snapshot from **April 12, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) | Anthropic Blog |
-| 100 | [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
-| 85 | [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | GitHub Release |
-| 80 | [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) | GitHub Release |
-| 75 | [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) | GitHub Release |
-| 70 | [anthropic-sdk-typescript vertex-sdk-v0.16.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0) | GitHub Release |
-| 65 | [anthropic-sdk-typescript sdk-v0.88.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0) | GitHub Release |
-| 60 | [anthropic-sdk-csharp Vertex-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0) | GitHub Release |
+| 838 | [Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews](https://reddit.com/r/ClaudeAI/comments/1sjbsyg/anthropics_claude_mythos_isnt_a_sentient/) | r/ClaudeAI |
+| 803 | [The golden age is over](https://reddit.com/r/ClaudeAI/comments/1sjqn2e/the_golden_age_is_over/) | r/ClaudeAI |
+| 686 | [Mythos is Mostly Hype... (also the bugs it found were mostly unexploitable and exaggerated...)](https://reddit.com/r/Anthropic/comments/1sj9558/mythos_is_mostly_hype_also_the_bugs_it_found_were/) | r/Anthropic |
+| 580 | [Pro Max 5x quota exhausted in 1.5 hours despite moderate usage](https://github.com/anthropics/claude-code/issues/45756) | Hacker News |
+| 425 | [Frog put Claude in the box](https://reddit.com/r/ClaudeAI/comments/1sjex0y/frog_put_claude_in_the_box/) | r/ClaudeAI |
+| 308 | [Why Claude Code Max burns limits 40% faster with 20K less usable context. Proxy evidence inside.](https://reddit.com/r/ClaudeAI/comments/1sj8o9l/why_claude_code_max_burns_limits_40_faster_with/) | r/ClaudeAI |
+| 235 | [Claude isn't dumber, it's just not trying. Here's how to fix it in Chat.](https://reddit.com/r/ClaudeAI/comments/1sjz1hg/claude_isnt_dumber_its_just_not_trying_heres_how/) | r/ClaudeAI |
+| 147 | [Sonnet 4.5 vs Sonnet 4.6](https://reddit.com/r/Anthropic/comments/1sjg8vv/sonnet_45_vs_sonnet_46/) | r/Anthropic |
+| 141 | [Did they just find the issue with Claude? "Cache TTL silently regressed from 1h to 5m"](https://reddit.com/r/ClaudeAI/comments/1sjxrp1/did_they_just_find_the_issue_with_claude_cache/) | r/ClaudeAI |
+| 127 | [Is anyone else's boyfriend / girlfriend *consumed* by Claude?](https://reddit.com/r/ClaudeAI/comments/1sjufh3/is_anyone_elses_boyfriend_girlfriend_consumed_by/) | r/ClaudeAI |
+| 114 | [Gemma 4 26b crushes Opus 4.6 in consistency.](https://reddit.com/r/Anthropic/comments/1sjoeeo/gemma_4_26b_crushes_opus_46_in_consistency/) | r/Anthropic |
+| 106 | [&lt;total_tokens&gt; or how a new injection made Opus unusable](https://reddit.com/r/ClaudeAI/comments/1sjs4db/total_tokens_or_how_a_new_injection_made_opus/) | r/ClaudeAI |
+| 96 | [Claude does not play around when it comes to biology and silly questions.](https://reddit.com/r/ClaudeAI/comments/1sjjyfy/claude_does_not_play_around_when_it_comes_to/) | r/ClaudeAI |
+| 85 | [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) | GitHub Release |
+| 54 | [Anthropic has charged me £720 without my authorisation in sham gift purchases to myself, ignored my support emails for three weeks, and tried to just charge me again this morning. What is this company?](https://reddit.com/r/Anthropic/comments/1sjcex0/anthropic_has_charged_me_720_without_my/) | r/Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104) |   |
+| [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) |   |
 
 ---
 

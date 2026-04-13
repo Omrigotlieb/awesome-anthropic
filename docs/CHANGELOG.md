@@ -1,6 +1,6 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-12T06:00:54Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-13T06:00:57Z
 
 ---
 
@@ -98,7 +98,8 @@ We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
 ## February 1, 2026 — 
 
 . 
- The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. applies to requests exceeding 200k input tokens.
+ The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. Long context pricing applies to requests exceeding 200k input tokens. 
+ Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format .
 
 ---
 
