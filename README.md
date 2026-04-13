@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-12
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-13
 
 <!-- CHANGELOG_START -->
 ### April 9, 2026 — We've launched the advisor tool in public beta. Pair a faster executor model wit
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-12
+> Last fetched: <!-- NEWS_DATE -->2026-04-13
 
 <!-- NEWS_START -->
-### Top Stories — April 12, 2026
+### Top Stories — April 13, 2026
 
-- [AMD AI directors analysis confirms lobotomization of Claude](https://reddit.com/r/ClaudeAI/comments/1sifepi/amd_ai_directors_analysis_confirms_lobotomization/) - 1806 pts on r/ClaudeAI.
-- [Anthropic: Stop shipping. Seriously.](https://reddit.com/r/ClaudeAI/comments/1siqwmp/anthropic_stop_shipping_seriously/) - 1505 pts on r/ClaudeAI.
-- [This is a medical emergency](https://reddit.com/r/ClaudeAI/comments/1siheld/this_is_a_medical_emergency/) - 1406 pts on r/ClaudeAI.
-- [I set up a transparent API proxy and found Claude's hidden fallback-percentage: 0.5 header — every plan gets 50% of advertised capacity](https://reddit.com/r/ClaudeAI/comments/1sip74m/i_set_up_a_transparent_api_proxy_and_found/) - 220 pts on r/ClaudeAI.
-- [I released a small movie guessing game to the public. Within hours, bots were scanning for WordPress admin panels, SSH keys, and cloud metadata endpoints.](https://reddit.com/r/ClaudeAI/comments/1simegh/i_released_a_small_movie_guessing_game_to_the/) - 107 pts on r/ClaudeAI.
+- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) - 100 pts on Anthropic Blog.
+- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) - 85 pts on GitHub Release.
+- [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) - 80 pts on GitHub Release.
+- [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) - 75 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

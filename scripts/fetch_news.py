@@ -977,7 +977,7 @@ def _replace_top_stories_block(section_body: str, replacement_block: str) -> str
     import re as _re
 
     body = (section_body or "").lstrip()
-    pattern = r"(?ms)^###\s*🔥 Top Stories\s*\n.*?(?=^###\s+|\Z)"
+    pattern = r"(?ms)^###\s*🔥 Top Stories\s*\n.*?(?=^###\s+|^---\s*$|\Z)"
     if _re.search(pattern, body):
         return _re.sub(pattern, replacement_block + "\n", body, count=1)
     return replacement_block + "\n" + body

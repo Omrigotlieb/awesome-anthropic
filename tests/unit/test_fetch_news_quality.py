@@ -406,6 +406,26 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertIn("claude-code v2.1.101", rebuilt)
         self.assertNotIn("Community thread", rebuilt)
 
+    def test_rebuild_carry_forward_top_stories_preserves_section_divider(self):
+        body = (
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+            "|------:|-------|--------|\n"
+            "| 999 | [Rumor headline](https://reddit.com/r/ClaudeAI/comments/x) | r/ClaudeAI |\n\n"
+            "### 📰 Official Announcements\n\n"
+            "| Title | Source |\n"
+            "|-------|--------|\n"
+            "| [Project Glasswing](https://www.anthropic.com/glasswing) | Anthropic Blog |\n\n"
+            "### 🛠️ SDK & Tool Releases\n\n"
+            "| Release | Highlights |\n"
+            "|---------|------------|\n"
+            "| [claude-code v2.1.100](https://github.com/anthropics/claude-code/releases/tag/v2.1.100) | Stable update |\n\n"
+            "---\n"
+        )
+        rebuilt = _rebuild_carry_forward_top_stories(body, "April 10, 2026")
+        self.assertIn("---", rebuilt)
+        self.assertTrue(rebuilt.rstrip().endswith("---"))
+
 
 if __name__ == "__main__":
     unittest.main()

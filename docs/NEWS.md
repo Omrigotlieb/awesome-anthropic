@@ -4,6 +4,25 @@
 
 ---
 
+## April 13, 2026
+
+> Carry-forward snapshot from **April 12, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) | Anthropic Blog |
+| 100 | [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+| 85 | [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | GitHub Release |
+| 80 | [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) | GitHub Release |
+| 75 | [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) | GitHub Release |
+| 70 | [anthropic-sdk-typescript vertex-sdk-v0.16.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0) | GitHub Release |
+| 65 | [anthropic-sdk-typescript sdk-v0.88.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0) | GitHub Release |
+| 60 | [anthropic-sdk-csharp Vertex-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.0) | GitHub Release |
+
+---
+
 ## April 12, 2026
 
 ### 🔥 Top Stories
