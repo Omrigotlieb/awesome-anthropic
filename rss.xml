@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 06:00:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 05:04:21 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,68 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic&apos;s Claude Mythos isn&apos;t a sentient super-hacker, it&apos;s a sales pitch — claims of &apos;thousands&apos; of severe zero-days rely on just 198 manual reviews</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjbsyg/anthropics_claude_mythos_isnt_a_sentient/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjbsyg/anthropics_claude_mythos_isnt_a_sentient/</guid>
-    <description>▲ 838 points · r/ClaudeAI · Anthropic&apos;s Claude Mythos isn&apos;t a sentient super-hacker, it&apos;s a sales pitch — claims of &apos;thousands&apos; of severe zero-days rely on just 198 manual reviews</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr</title>
+    <link>https://www.anthropic.com/glasswing</link>
+    <guid isPermaLink="true">https://www.anthropic.com/glasswing</guid>
+    <description>▲ 100 points · Anthropic Blog · Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>The golden age is over</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjqn2e/the_golden_age_is_over/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjqn2e/the_golden_age_is_over/</guid>
-    <description>▲ 803 points · r/ClaudeAI · The golden age is over</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.105</title>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.105</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.105</guid>
+    <description>▲ 90 points · Claude Code Changelog · claude-code v2.1.105</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Mythos is Mostly Hype... (also the bugs it found were mostly unexploitable and exaggerated...)</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sj9558/mythos_is_mostly_hype_also_the_bugs_it_found_were/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sj9558/mythos_is_mostly_hype_also_the_bugs_it_found_were/</guid>
-    <description>▲ 686 points · r/Anthropic · Mythos is Mostly Hype... (also the bugs it found were mostly unexploitable and exaggerated...)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Pro Max 5x quota exhausted in 1.5 hours despite moderate usage</title>
-    <link>https://github.com/anthropics/claude-code/issues/45756</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/45756</guid>
-    <description>▲ 580 points · Hacker News · Pro Max 5x quota exhausted in 1.5 hours despite moderate usage</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Frog put Claude in the box</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjex0y/frog_put_claude_in_the_box/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjex0y/frog_put_claude_in_the_box/</guid>
-    <description>▲ 425 points · r/ClaudeAI · Frog put Claude in the box</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Why Claude Code Max burns limits 40% faster with 20K less usable context. Proxy evidence inside.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sj8o9l/why_claude_code_max_burns_limits_40_faster_with/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sj8o9l/why_claude_code_max_burns_limits_40_faster_with/</guid>
-    <description>▲ 308 points · r/ClaudeAI · Why Claude Code Max burns limits 40% faster with 20K less usable context. Proxy evidence inside.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude isn&apos;t dumber, it&apos;s just not trying. Here&apos;s how to fix it in Chat.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjz1hg/claude_isnt_dumber_its_just_not_trying_heres_how/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjz1hg/claude_isnt_dumber_its_just_not_trying_heres_how/</guid>
-    <description>▲ 235 points · r/ClaudeAI · Claude isn&apos;t dumber, it&apos;s just not trying. Here&apos;s how to fix it in Chat.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Sonnet 4.5 vs Sonnet 4.6</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sjg8vv/sonnet_45_vs_sonnet_46/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sjg8vv/sonnet_45_vs_sonnet_46/</guid>
-    <description>▲ 147 points · r/Anthropic · Sonnet 4.5 vs Sonnet 4.6</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Did they just find the issue with Claude? &quot;Cache TTL silently regressed from 1h to 5m&quot;</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjxrp1/did_they_just_find_the_issue_with_claude_cache/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjxrp1/did_they_just_find_the_issue_with_claude_cache/</guid>
-    <description>▲ 141 points · r/ClaudeAI · Did they just find the issue with Claude? &quot;Cache TTL silently regressed from 1h to 5m&quot;</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Is anyone else&apos;s boyfriend / girlfriend *consumed* by Claude?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjufh3/is_anyone_elses_boyfriend_girlfriend_consumed_by/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjufh3/is_anyone_elses_boyfriend_girlfriend_consumed_by/</guid>
-    <description>▲ 127 points · r/ClaudeAI · Is anyone else&apos;s boyfriend / girlfriend *consumed* by Claude?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Gemma 4 26b crushes Opus 4.6 in consistency.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sjoeeo/gemma_4_26b_crushes_opus_46_in_consistency/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sjoeeo/gemma_4_26b_crushes_opus_46_in_consistency/</guid>
-    <description>▲ 114 points · r/Anthropic · Gemma 4 26b crushes Opus 4.6 in consistency.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>&amp;lt;total_tokens&amp;gt; or how a new injection made Opus unusable</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjs4db/total_tokens_or_how_a_new_injection_made_opus/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjs4db/total_tokens_or_how_a_new_injection_made_opus/</guid>
-    <description>▲ 106 points · r/ClaudeAI · &amp;lt;total_tokens&amp;gt; or how a new injection made Opus unusable</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude does not play around when it comes to biology and silly questions.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sjjyfy/claude_does_not_play_around_when_it_comes_to/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sjjyfy/claude_does_not_play_around_when_it_comes_to/</guid>
-    <description>▲ 96 points · r/ClaudeAI · Claude does not play around when it comes to biology and silly questions.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.104</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.104</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.104</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.104</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>claude-agent-sdk-typescript v0.2.104</title>
     <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104</link>
     <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-typescript v0.2.104</description>
+    <description>▲ 80 points · GitHub Release · claude-agent-sdk-typescript v0.2.104</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic has charged me £720 without my authorisation in sham gift purchases to myself, ignored my support emails for three weeks, and tried to just charge me again this morning. What is this company?</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sjcex0/anthropic_has_charged_me_720_without_my/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sjcex0/anthropic_has_charged_me_720_without_my/</guid>
-    <description>▲ 54 points · r/Anthropic · Anthropic has charged me £720 without my authorisation in sham gift purchases to myself, ignored my support emails for three weeks, and tried to just charge me again this morning. What is this company?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 13 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code-action v1.0.93</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93</guid>
+    <description>▲ 80 points · GitHub Release · claude-code-action v1.0.93</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>anthropic-sdk-python v0.94.0</title>
+    <link>https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0</guid>
+    <description>▲ 75 points · GitHub Release · anthropic-sdk-python v0.94.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>anthropic-sdk-typescript vertex-sdk-v0.16.0</title>
+    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0</guid>
+    <description>▲ 70 points · GitHub Release · anthropic-sdk-typescript vertex-sdk-v0.16.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>anthropic-sdk-typescript sdk-v0.88.0</title>
+    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0</guid>
+    <description>▲ 65 points · GitHub Release · anthropic-sdk-typescript sdk-v0.88.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Tue, 14 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

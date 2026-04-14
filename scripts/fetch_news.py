@@ -462,6 +462,66 @@ def fetch_github_releases() -> list[NewsItem]:
     return items
 
 
+def extract_claude_code_changelog_items_from_html(html: str, since: datetime) -> list[NewsItem]:
+    """Extract recent Claude Code versions from the official changelog page."""
+    import re as _re
+
+    text = BeautifulSoup(html, "lxml").get_text("\n")
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    version_re = _re.compile(r"^\d+\.\d+\.\d+$")
+    date_re = _re.compile(
+        r"^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+20\d{2}$"
+    )
+    items: list[NewsItem] = []
+    seen_versions: set[str] = set()
+    for idx in range(len(lines) - 1):
+        version = lines[idx]
+        date_label = lines[idx + 1]
+        if not version_re.match(version) or not date_re.match(date_label):
+            continue
+        if version in seen_versions:
+            continue
+        try:
+            published = datetime.strptime(date_label, "%B %d, %Y").replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if published < since:
+            continue
+
+        seen_versions.add(version)
+        items.append(
+            NewsItem(
+                title=f"claude-code v{version}",
+                url=f"https://code.claude.com/docs/en/changelog?version={version}",
+                source="Claude Code Changelog",
+                published_at=published.isoformat(),
+                summary="Official Claude Code changelog entry",
+                score=max(95 - len(items), 1),
+                item_id=f"claude_code_changelog_{version}",
+            )
+        )
+
+    items.sort(key=lambda i: i.published_at, reverse=True)
+    return items
+
+
+def fetch_claude_code_changelog(since_days: int = 7, max_versions: int = 8) -> list[NewsItem]:
+    """Fetch recent Claude Code versions from the official changelog."""
+    since = datetime.now(tz=timezone.utc) - timedelta(days=since_days)
+    try:
+        with httpx.Client(timeout=25, follow_redirects=True) as client:
+            resp = client.get(
+                "https://code.claude.com/docs/en/changelog",
+                headers={"User-Agent": "Mozilla/5.0 awesome-anthropic-bot/1.0"},
+            )
+            resp.raise_for_status()
+            items = extract_claude_code_changelog_items_from_html(resp.text, since=since)
+            return items[:max_versions]
+    except Exception as e:
+        print(f"[claude-code-changelog] Error: {e}", file=sys.stderr)
+    return []
+
+
 # ---------------------------------------------------------------------------
 # Deduplication & persistence
 # ---------------------------------------------------------------------------
@@ -748,7 +808,7 @@ def ensure_primary_signal_stories(
 
     def _is_primary(item: NewsItem) -> bool:
         src = (item.source or "").lower()
-        return src in {"anthropic blog", "github release"}
+        return src in {"anthropic blog", "github release", "claude code changelog"}
 
     existing_primary = sum(1 for item in stories if _is_primary(item))
     if existing_primary >= min_count:
@@ -1070,7 +1130,7 @@ def append_to_news_md(items: list[NewsItem]) -> None:
     today = datetime.now(tz=timezone.utc).strftime("%B %-d, %Y")
 
     # Categorise items
-    SDK_SOURCES = {"GitHub Release", "github_release"}
+    SDK_SOURCES = {"GitHub Release", "github_release", "Claude Code Changelog"}
     ANNOUNCE_SOURCES = {"Anthropic Blog"}
     RESEARCH_SOURCES = {"arXiv"}
     TWEET_SOURCES = {"X / Twitter"}
@@ -1197,6 +1257,7 @@ def main():
     all_items.extend(fetch_hacker_news())
     all_items.extend(fetch_reddit())
     all_items.extend(fetch_arxiv())
+    all_items.extend(fetch_claude_code_changelog())
     all_items.extend(fetch_github_releases())
     all_items.extend(fetch_twitter_accounts())
 

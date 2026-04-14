@@ -4,6 +4,33 @@
 
 ---
 
+## April 14, 2026
+
+> Carry-forward snapshot from **April 13, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) | Anthropic Blog |
+| 90 | [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Claude Code Changelog |
+| 85 | [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104) | GitHub Release |
+| 80 | [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) | GitHub Release |
+| 80 | [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) | GitHub Release |
+| 75 | [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) | GitHub Release |
+| 70 | [anthropic-sdk-typescript vertex-sdk-v0.16.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0) | GitHub Release |
+| 65 | [anthropic-sdk-typescript sdk-v0.88.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0) | GitHub Release |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Official changelog entry dated April 13, 2026 |
+| [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104) |   |
+| [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) |   |
+
+---
+
 ## April 13, 2026
 
 ### 🔥 Top Stories

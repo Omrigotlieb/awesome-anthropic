@@ -9,6 +9,7 @@ from scripts.fetch_news import (
     build_primary_story_fallback,
     canonical_story_url,
     ensure_primary_signal_stories,
+    extract_claude_code_changelog_items_from_html,
     extract_anthropic_items_from_html,
     is_low_signal_story,
     select_top_stories,
@@ -333,6 +334,49 @@ class TestFetchNewsQuality(unittest.TestCase):
         items = extract_anthropic_items_from_html(html, since=since, client=client)
 
         self.assertEqual(items[0].title, "Project Glasswing: Securing critical software for the AI era")
+
+    def test_extract_claude_code_changelog_items_parses_recent_versions(self):
+        html = """
+        <html><body>
+          <h2>2.1.105</h2>
+          <p>April 13, 2026</p>
+          <ul><li>Fixed issue A</li></ul>
+          <h2>2.1.101</h2>
+          <p>April 10, 2026</p>
+          <h2>2.1.90</h2>
+          <p>March 31, 2026</p>
+        </body></html>
+        """
+        since = datetime(2026, 4, 1, tzinfo=timezone.utc)
+        items = extract_claude_code_changelog_items_from_html(html, since=since)
+        self.assertEqual([item.title for item in items], ["claude-code v2.1.105", "claude-code v2.1.101"])
+        self.assertEqual(items[0].source, "Claude Code Changelog")
+        self.assertTrue(items[0].url.startswith("https://code.claude.com/docs/en/changelog?version=2.1.105"))
+
+    def test_ensure_primary_signal_stories_accepts_claude_code_changelog_source(self):
+        stories = [
+            mk("Community story 1", source="r/ClaudeAI", score=900, url="https://example.com/s1"),
+            mk("Community story 2", source="r/ClaudeAI", score=800, url="https://example.com/s2"),
+            mk("Community story 3", source="Hacker News", score=700, url="https://example.com/s3"),
+        ]
+        releases = [
+            mk(
+                "claude-code v2.1.105",
+                source="Claude Code Changelog",
+                score=0,
+                url="https://code.claude.com/docs/en/changelog?version=2.1.105",
+                published_at="2026-04-13T00:00:00+00:00",
+            )
+        ]
+        selected = ensure_primary_signal_stories(
+            stories=stories,
+            announcements=[],
+            sdk_releases=releases,
+            min_count=1,
+            max_total=3,
+        )
+        self.assertEqual(len(selected), 3)
+        self.assertTrue(any(s.source == "Claude Code Changelog" for s in selected))
 
     def test_strip_existing_carry_forward_note(self):
         body = (

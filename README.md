@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-13
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-14
 
 <!-- CHANGELOG_START -->
 ### April 9, 2026 — We've launched the advisor tool in public beta. Pair a faster executor model wit
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-13
+> Last fetched: <!-- NEWS_DATE -->2026-04-14
 
 <!-- NEWS_START -->
-### Top Stories — April 13, 2026
+### Top Stories — April 14, 2026
 
-- [Anthropic's Claude Mythos isn't a sentient super-hacker, it's a sales pitch — claims of 'thousands' of severe zero-days rely on just 198 manual reviews](https://reddit.com/r/ClaudeAI/comments/1sjbsyg/anthropics_claude_mythos_isnt_a_sentient/) - 838 pts on r/ClaudeAI.
-- [The golden age is over](https://reddit.com/r/ClaudeAI/comments/1sjqn2e/the_golden_age_is_over/) - 803 pts on r/ClaudeAI.
-- [Mythos is Mostly Hype... (also the bugs it found were mostly unexploitable and exaggerated...)](https://reddit.com/r/Anthropic/comments/1sj9558/mythos_is_mostly_hype_also_the_bugs_it_found_were/) - 686 pts on r/Anthropic.
-- [Pro Max 5x quota exhausted in 1.5 hours despite moderate usage](https://github.com/anthropics/claude-code/issues/45756) - 580 pts on Hacker News.
-- [Frog put Claude in the box](https://reddit.com/r/ClaudeAI/comments/1sjex0y/frog_put_claude_in_the_box/) - 425 pts on r/ClaudeAI.
+- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) - 90 pts on Claude Code Changelog.
+- [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104) - 85 pts on GitHub Release.
+- [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) - 80 pts on GitHub Release.
+- [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) - 80 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
