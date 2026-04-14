@@ -12,9 +12,9 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
-- [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105)
-- [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104)
+- [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/)
+- [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/)
+- [The creator of Claude Code notes on the current Caching Issue](https://reddit.com/r/ClaudeAI/comments/1sk4wfx/the_creator_of_claude_code_notes_on_the_current/)
 
 ### Freshness Status
 

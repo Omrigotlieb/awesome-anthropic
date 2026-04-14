@@ -35,40 +35,40 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 **News peg (April 14, 2026):** [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105)
 
-Snapshot update: Official changelog entry dated April 13, 2026
+Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 4 — Ecosystem release signal
+### Article 4 — Community demand signal
 
-**News peg (April 14, 2026):** [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104)
+**News peg (April 14, 2026):** [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Community demand signal
 
-**News peg (April 14, 2026):** [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104)
+**News peg (April 14, 2026):** [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
-- [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105)
-- [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104)
+- [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/)
+- [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/)
+- [The creator of Claude Code notes on the current Caching Issue](https://reddit.com/r/ClaudeAI/comments/1sk4wfx/the_creator_of_claude_code_notes_on_the_current/)
 
 ### Source Trail
 
 - April 8, 2026: [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 - April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 - April 14, 2026: [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105)
-- April 14, 2026: [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104)
-- April 14, 2026: [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104)
+- April 14, 2026: [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101)
+- April 14, 2026: [claude-code v2.1.98](https://code.claude.com/docs/en/changelog?version=2.1.98)
 
 ### Website Improvement Review
 

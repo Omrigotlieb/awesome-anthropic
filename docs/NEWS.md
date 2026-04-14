@@ -6,28 +6,40 @@
 
 ## April 14, 2026
 
-> Carry-forward snapshot from **April 13, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) | Anthropic Blog |
-| 90 | [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Claude Code Changelog |
-| 85 | [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104) | GitHub Release |
-| 80 | [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) | GitHub Release |
-| 80 | [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) | GitHub Release |
-| 75 | [anthropic-sdk-python v0.94.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0) | GitHub Release |
-| 70 | [anthropic-sdk-typescript vertex-sdk-v0.16.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.0) | GitHub Release |
-| 65 | [anthropic-sdk-typescript sdk-v0.88.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.88.0) | GitHub Release |
+| 930 | [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/) | r/ClaudeAI |
+| 281 | [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/) | r/ClaudeAI |
+| 269 | [The creator of Claude Code notes on the current Caching Issue](https://reddit.com/r/ClaudeAI/comments/1sk4wfx/the_creator_of_claude_code_notes_on_the_current/) | r/ClaudeAI |
+| 268 | [TUI to see where Claude Code tokens actually go](https://reddit.com/r/ClaudeAI/comments/1skqub5/tui_to_see_where_claude_code_tokens_actually_go/) | r/ClaudeAI |
+| 151 | [Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z](https://reddit.com/r/ClaudeAI/comments/1sken9y/claude_status_update_claudeai_down_on/) | r/ClaudeAI |
+| 129 | [New to claude but found this extremely true](https://reddit.com/r/ClaudeAI/comments/1sk8w7q/new_to_claude_but_found_this_extremely_true/) | r/ClaudeAI |
+| 89 | [At this point, Claude Opus doesn't even bother to check the context, just fabricates. Any tips to fix this?](https://reddit.com/r/ClaudeAI/comments/1skgeer/at_this_point_claude_opus_doesnt_even_bother_to/) | r/ClaudeAI |
+| 85 | [claude-agent-sdk-python v0.1.59](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.59) | GitHub Release |
+| 65 | [Claude is amazing… but the weekly limits make no sense on a monthly plan](https://reddit.com/r/ClaudeAI/comments/1skdrpx/claude_is_amazing_but_the_weekly_limits_make_no/) | r/ClaudeAI |
+| 14 | [Palantir Stock Continues to Fall. Not Even the President Can Erase the Losses](https://www.barrons.com/articles/palantir-stock-price-president-trump-anthropic-7313031c) | Hacker News |
+| 14 | [Can AI be a 'child of God'? Inside Anthropic's meeting with Christian leaders](https://www.msn.com/en-us/news/us/can-ai-be-a-child-of-god-inside-anthropic-s-meeting-with-christian-leaders/ar-AA20Eb2w) | Hacker News |
+| 11 | [Show HN: Equirect – a Rust VR video player](https://github.com/greggman/equirect) | Hacker News |
+| 10 | [Tell HN: I regret every single time I use AI](https://news.ycombinator.com/item?id=47759065) | Hacker News |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Official changelog entry dated April 13, 2026 |
-| [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104) |   |
-| [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) |   |
+| [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Official Claude Code changelog entry |
+| [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101) | Official Claude Code changelog entry |
+| [claude-code v2.1.98](https://code.claude.com/docs/en/changelog?version=2.1.98) | Official Claude Code changelog entry |
+| [claude-code v2.1.97](https://code.claude.com/docs/en/changelog?version=2.1.97) | Official Claude Code changelog entry |
+| [claude-code v2.1.96](https://code.claude.com/docs/en/changelog?version=2.1.96) | Official Claude Code changelog entry |
+| [claude-code-action v1.0.94](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.94) | ## What's Changed * Prepend system bin dirs to PATH when allowed_non_write_users is set by @Octavian |
+| [claude-code v2.1.105](https://github.com/anthropics/claude-code/releases/tag/v2.1.105) | ## What's changed  - Added `path` parameter to the `EnterWorktree` tool to switch into an existing w |
+| [claude-agent-sdk-python v0.1.59](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.59) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.105   ---  **PyPI:** https: |
+| [anthropic-sdk-python v0.94.1](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.1) | ## 0.94.1 (2026-04-13)  Full Changelog: [v0.94.0...v0.94.1](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.35.1](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.35.1) | ## 1.35.1 (2026-04-13)  Full Changelog: [v1.35.0...v1.35.1](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.33.1](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.33.1) | ## 1.33.1 (2026-04-13)  Full Changelog: [v1.33.0...v1.33.1](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.105](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.105) | ## What's changed  - Added `system/memory_recall` event and `memory_paths` on `system/init` for SDK  |
 
 ---
 

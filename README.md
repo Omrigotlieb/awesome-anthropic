@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 14, 2026
 
-- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) - 90 pts on Claude Code Changelog.
-- [claude-code v2.1.104](https://github.com/anthropics/claude-code/releases/tag/v2.1.104) - 85 pts on GitHub Release.
-- [claude-agent-sdk-typescript v0.2.104](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.104) - 80 pts on GitHub Release.
-- [claude-code-action v1.0.93](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.93) - 80 pts on GitHub Release.
+- [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/) - 930 pts on r/ClaudeAI.
+- [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/) - 281 pts on r/ClaudeAI.
+- [The creator of Claude Code notes on the current Caching Issue](https://reddit.com/r/ClaudeAI/comments/1sk4wfx/the_creator_of_claude_code_notes_on_the_current/) - 269 pts on r/ClaudeAI.
+- [TUI to see where Claude Code tokens actually go](https://reddit.com/r/ClaudeAI/comments/1skqub5/tui_to_see_where_claude_code_tokens_actually_go/) - 268 pts on r/ClaudeAI.
+- [Claude Status Update : Claude.ai down on 2026-04-13T15:40:43.000Z](https://reddit.com/r/ClaudeAI/comments/1sken9y/claude_status_update_claudeai_down_on/) - 151 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
