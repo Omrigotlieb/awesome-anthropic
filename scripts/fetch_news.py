@@ -896,6 +896,10 @@ def carry_forward_latest_section_to_today() -> bool:
         fallback_announcements=fallback_announcements,
         fallback_releases=fallback_releases,
     )
+    carried_body = _ensure_carry_forward_official_announcements(
+        carried_body,
+        fallback_announcements=fallback_announcements,
+    )
     note = (
         f"> Carry-forward snapshot from **{latest_label}** because DNS/network was unavailable during this run."
     )
@@ -1041,6 +1045,59 @@ def _replace_top_stories_block(section_body: str, replacement_block: str) -> str
     if _re.search(pattern, body):
         return _re.sub(pattern, replacement_block + "\n", body, count=1)
     return replacement_block + "\n" + body
+
+
+def _render_official_announcements_markdown(items: list[NewsItem]) -> str:
+    """Render an official-announcements table block."""
+    lines = [
+        "### 📰 Official Announcements",
+        "",
+        "| Title | Source |",
+        "|-------|--------|",
+    ]
+    for item in items:
+        source = item.source or "Anthropic Blog"
+        lines.append(f"| [{item.title}]({item.url}) | {source} |")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def _ensure_carry_forward_official_announcements(
+    section_body: str,
+    fallback_announcements: list[NewsItem] | None = None,
+) -> str:
+    """
+    Ensure carry-forward sections include an official-announcements block.
+
+    If the section already has one, keep it unchanged. Otherwise inject up to
+    three fallback announcement rows gathered from recent sections.
+    """
+    import re as _re
+
+    body = (section_body or "").lstrip()
+    if _parse_table_rows_from_section(body, "📰 Official Announcements"):
+        return body
+    if not fallback_announcements:
+        return body
+
+    unique_announcements: list[NewsItem] = []
+    seen_urls: set[str] = set()
+    for item in fallback_announcements:
+        key = canonical_story_url(item.url)
+        if not key or key in seen_urls:
+            continue
+        unique_announcements.append(item)
+        seen_urls.add(key)
+        if len(unique_announcements) >= 3:
+            break
+    if not unique_announcements:
+        return body
+
+    block = _render_official_announcements_markdown(unique_announcements)
+    top_stories_pattern = r"(?ms)^###\s*🔥 Top Stories\s*\n.*?(?=^###\s+|^---\s*$|\Z)"
+    if _re.search(top_stories_pattern, body):
+        return _re.sub(top_stories_pattern, r"\g<0>\n" + block, body, count=1)
+    return block + "\n" + body
 
 
 def _rebuild_carry_forward_top_stories(

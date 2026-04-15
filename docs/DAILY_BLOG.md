@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-14 (news snapshot: April 14, 2026)
+## 2026-04-15 (news snapshot: April 15, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,29 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-14 uses the April 14, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.105.
-- Official channel signal remains active: Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr (April 8, 2026).
+- The daily run on 2026-04-15 uses the April 15, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.109.
+- Official channel signal remains active: Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors (April 15, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (April 15, 2026):** [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+
+Snapshot update: Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
+
+**News peg (April 15, 2026):** [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+
+Snapshot update: Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 3 — Official announcement watch
 
 **News peg (April 8, 2026):** [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 
@@ -23,52 +39,37 @@ Snapshot update: Project Glasswing A new initiative that brings together Amazon 
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
+### Article 4 — Claude Code release watch
 
-**News peg (April 7, 2026):** [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+**News peg (April 15, 2026):** [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
 
-Snapshot update: Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute
+Snapshot update: - Added command-history search in the slash-command picker (Ctrl+R) and fixed several mode-toggle and session-resume regressions
 
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
-### Article 3 — Claude Code release watch
+### Article 5 — Ecosystem release signal
 
-**News peg (April 14, 2026):** [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105)
+**News peg (April 15, 2026):** [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95)
 
-Snapshot update: Official Claude Code changelog entry
+Snapshot update: Top story source: GitHub Release
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
-
-### Article 4 — Community demand signal
-
-**News peg (April 14, 2026):** [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/)
-
-Snapshot update: Top story source: r/ClaudeAI
-
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
-
-### Article 5 — Community demand signal
-
-**News peg (April 14, 2026):** [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/)
-
-Snapshot update: Top story source: r/ClaudeAI
-
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
 
 ### Top Stories Referenced
 
-- [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/)
-- [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/)
-- [The creator of Claude Code notes on the current Caching Issue](https://reddit.com/r/ClaudeAI/comments/1sk4wfx/the_creator_of_claude_code_notes_on_the_current/)
+- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95)
 
 ### Source Trail
 
+- April 15, 2026: [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- April 15, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 - April 8, 2026: [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
-- April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
-- April 14, 2026: [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105)
-- April 14, 2026: [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101)
-- April 14, 2026: [claude-code v2.1.98](https://code.claude.com/docs/en/changelog?version=2.1.98)
+- April 15, 2026: [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
+- April 15, 2026: [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95)
+- April 15, 2026: [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105)
 
 ### Website Improvement Review
 

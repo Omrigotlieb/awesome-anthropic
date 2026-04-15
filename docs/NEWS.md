@@ -4,6 +4,50 @@
 
 ---
 
+## April 15, 2026
+
+> Carry-forward snapshot from **April 14, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | GitHub Release |
+| 95 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+| 90 | [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | GitHub Release |
+| 85 | [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Claude Code Changelog |
+| 80 | [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101) | Claude Code Changelog |
+| 75 | [claude-code v2.1.98](https://code.claude.com/docs/en/changelog?version=2.1.98) | Claude Code Changelog |
+| 70 | [claude-code v2.1.97](https://code.claude.com/docs/en/changelog?version=2.1.97) | Claude Code Changelog |
+| 65 | [claude-code v2.1.96](https://code.claude.com/docs/en/changelog?version=2.1.96) | Claude Code Changelog |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+| [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | ## What's changed  - Added command-history search in the slash-command picker (Ctrl+R) and fixed several mode-toggle and session-resume regressions |
+| [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | Full Changelog: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.95 |
+| [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Official Claude Code changelog entry |
+| [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101) | Official Claude Code changelog entry |
+| [claude-code v2.1.98](https://code.claude.com/docs/en/changelog?version=2.1.98) | Official Claude Code changelog entry |
+| [claude-code v2.1.97](https://code.claude.com/docs/en/changelog?version=2.1.97) | Official Claude Code changelog entry |
+| [claude-code v2.1.96](https://code.claude.com/docs/en/changelog?version=2.1.96) | Official Claude Code changelog entry |
+| [claude-code-action v1.0.94](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.94) | ## What's Changed * Prepend system bin dirs to PATH when allowed_non_write_users is set by @Octavian |
+| [claude-agent-sdk-python v0.1.59](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.59) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.105   ---  **PyPI:** https: |
+| [anthropic-sdk-python v0.94.1](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.1) | ## 0.94.1 (2026-04-13)  Full Changelog: [v0.94.0...v0.94.1](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.35.1](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.35.1) | ## 1.35.1 (2026-04-13)  Full Changelog: [v1.35.0...v1.35.1](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.33.1](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.33.1) | ## 1.33.1 (2026-04-13)  Full Changelog: [v1.33.0...v1.33.1](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.105](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.105) | ## What's changed  - Added `system/memory_recall` event and `memory_paths` on `system/init` for SDK  |
+
+---
+
 ## April 14, 2026
 
 ### 🔥 Top Stories

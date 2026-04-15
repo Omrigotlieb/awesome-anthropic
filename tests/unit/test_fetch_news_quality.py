@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 from scripts.fetch_news import (
     NewsItem,
     _collect_recent_primary_signal_rows,
+    _ensure_carry_forward_official_announcements,
     _rebuild_carry_forward_top_stories,
     _strip_existing_carry_forward_note,
     build_primary_story_fallback,
@@ -469,6 +470,60 @@ class TestFetchNewsQuality(unittest.TestCase):
         rebuilt = _rebuild_carry_forward_top_stories(body, "April 10, 2026")
         self.assertIn("---", rebuilt)
         self.assertTrue(rebuilt.rstrip().endswith("---"))
+
+    def test_ensure_carry_forward_official_announcements_inserts_when_missing(self):
+        body = (
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+            "|------:|-------|--------|\n"
+            "| 90 | [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | GitHub Release |\n\n"
+            "### 🛠️ SDK & Tool Releases\n\n"
+            "| Release | Highlights |\n"
+            "|---------|------------|\n"
+            "| [claude-code v2.1.101](https://github.com/anthropics/claude-code/releases/tag/v2.1.101) | Added team onboarding command |\n"
+        )
+        fallback_announcements = [
+            mk(
+                "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+                source="Anthropic Blog",
+                score=100,
+                url="https://www.anthropic.com/news/narasimhan-board",
+                published_at="2026-04-14T00:00:00+00:00",
+            )
+        ]
+        updated = _ensure_carry_forward_official_announcements(
+            body,
+            fallback_announcements=fallback_announcements,
+        )
+        self.assertIn("### 📰 Official Announcements", updated)
+        self.assertIn("narasimhan-board", updated)
+
+    def test_ensure_carry_forward_official_announcements_keeps_existing_block(self):
+        body = (
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+            "|------:|-------|--------|\n"
+            "| 90 | [Project Glasswing](https://www.anthropic.com/glasswing) | Anthropic Blog |\n\n"
+            "### 📰 Official Announcements\n\n"
+            "| Title | Source |\n"
+            "|-------|--------|\n"
+            "| [Project Glasswing](https://www.anthropic.com/glasswing) | Anthropic Blog |\n"
+        )
+        fallback_announcements = [
+            mk(
+                "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+                source="Anthropic Blog",
+                score=100,
+                url="https://www.anthropic.com/news/narasimhan-board",
+                published_at="2026-04-14T00:00:00+00:00",
+            )
+        ]
+        updated = _ensure_carry_forward_official_announcements(
+            body,
+            fallback_announcements=fallback_announcements,
+        )
+        self.assertEqual(updated.count("### 📰 Official Announcements"), 1)
+        self.assertNotIn("narasimhan-board", updated)
 
 
 if __name__ == "__main__":

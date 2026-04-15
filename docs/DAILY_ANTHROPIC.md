@@ -1,25 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-04-14 (news snapshot: April 14, 2026)
+## 2026-04-15 (news snapshot: April 15, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) is currently the latest Claude Code release visible in this repository snapshot.
-- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
+- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) is currently the latest Claude Code release visible in this repository snapshot.
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 - [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 
 ### Top Story Snapshot
 
-- [You can now switch models mid-chat](https://reddit.com/r/ClaudeAI/comments/1skm9tw/you_can_now_switch_models_midchat/)
-- [follow-up: anthropic quietly switched the default cache TTL from 1 hour to 5 minutes on april 2. here's the data.](https://reddit.com/r/ClaudeAI/comments/1sk3m12/followup_anthropic_quietly_switched_the_default/)
-- [The creator of Claude Code notes on the current Caching Issue](https://reddit.com/r/ClaudeAI/comments/1sk4wfx/the_creator_of_claude_code_notes_on_the_current/)
+- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-14
-- News snapshot date: April 14, 2026
+- Run date (UTC): 2026-04-15
+- News snapshot date: April 15, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
