@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-14T06:02:49Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-15T06:00:59Z
+
+---
+
+## June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.6 respectively. 
+
+. We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.6 respectively. Read more in model deprecations .
 
 ---
 
@@ -133,11 +139,5 @@ We've launched Claude Opus 4.5 , our most intelligent model combining maximum ca
  We've launched the tool search tool in public beta, enabling Claude to dynamically discover and load tools on-demand from large tool catalogs. 
  We've launched the effort parameter in public beta for Claude Opus 4.5, allowing you to control token usage by trading off between response thoroughness and efficiency. 
  We've added client-side compaction to our Python and TypeScript SDKs, automatically managing conversation context through summarization when using tool_runner .
-
----
-
-## November 21, 2025 — Search result content blocks are now generally available on Amazon Bedrock. Lear
-
-Search result content blocks are now generally available on Amazon Bedrock. Learn more in Search results .
 
 ---

@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Apr 2026 05:05:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 06:00:56 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,67 +13,115 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>claude-code v2.1.109</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.109</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.109</guid>
-    <description>▲ 100 points · GitHub Release · claude-code v2.1.109</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Just say the word…</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/</guid>
+    <description>▲ 3963 points · r/ClaudeAI · Just say the word…</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude&apos;s reaction to the recent meme.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sl9fub/claudes_reaction_to_the_recent_meme/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sl9fub/claudes_reaction_to_the_recent_meme/</guid>
+    <description>▲ 653 points · r/ClaudeAI · Claude&apos;s reaction to the recent meme.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude, what was that fake-out with June?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1slbtw1/claude_what_was_that_fakeout_with_june/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1slbtw1/claude_what_was_that_fakeout_with_june/</guid>
+    <description>▲ 611 points · r/ClaudeAI · Claude, what was that fake-out with June?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model/</guid>
+    <description>▲ 516 points · r/ClaudeAI · The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude Code on desktop, redesigned for parallel agentic work.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1slictc/claude_code_on_desktop_redesigned_for_parallel/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1slictc/claude_code_on_desktop_redesigned_for_parallel/</guid>
+    <description>▲ 286 points · r/ClaudeAI · Claude Code on desktop, redesigned for parallel agentic work.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>When, if ever, will open-source match the capability of Claude Opus 4.5?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sl3ew6/when_if_ever_will_opensource_match_the_capability/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sl3ew6/when_if_ever_will_opensource_match_the_capability/</guid>
+    <description>▲ 178 points · r/ClaudeAI · When, if ever, will open-source match the capability of Claude Opus 4.5?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I just used Caveman and it reduced generation time from 1 hour to 10 min on a complex benchmark. 50% less token spent.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sl967a/i_just_used_caveman_and_it_reduced_generation/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sl967a/i_just_used_caveman_and_it_reduced_generation/</guid>
+    <description>▲ 156 points · r/ClaudeAI · I just used Caveman and it reduced generation time from 1 hour to 10 min on a complex benchmark. 50% less token spent.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Thought it would land like a wholesome bonker</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sllo62/thought_it_would_land_like_a_wholesome_bonker/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sllo62/thought_it_would_land_like_a_wholesome_bonker/</guid>
+    <description>▲ 154 points · r/ClaudeAI · Thought it would land like a wholesome bonker</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Gigachad Claude refused to write a bit of code so i could learn.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sljajz/gigachad_claude_refused_to_write_a_bit_of_code_so/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sljajz/gigachad_claude_refused_to_write_a_bit_of_code_so/</guid>
+    <description>▲ 142 points · r/ClaudeAI · Gigachad Claude refused to write a bit of code so i could learn.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: LangAlpha – what if Claude Code was built for Wall Street?</title>
+    <link>https://github.com/ginlix-ai/langalpha</link>
+    <guid isPermaLink="true">https://github.com/ginlix-ai/langalpha</guid>
+    <description>▲ 128 points · Hacker News · Show HN: LangAlpha – what if Claude Code was built for Wall Street?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
     <link>https://www.anthropic.com/news/narasimhan-board</link>
     <guid isPermaLink="true">https://www.anthropic.com/news/narasimhan-board</guid>
-    <description>▲ 95 points · Anthropic Blog · Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</description>
+    <description>▲ 100 points · Anthropic Blog · Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
     <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.95</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95</guid>
-    <description>▲ 90 points · GitHub Release · claude-code-action v1.0.95</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>I made my first earning from a vibe coded app using Claude Code</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1slczgg/i_made_my_first_earning_from_a_vibe_coded_app/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1slczgg/i_made_my_first_earning_from_a_vibe_coded_app/</guid>
+    <description>▲ 99 points · r/ClaudeAI · I made my first earning from a vibe coded app using Claude Code</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.105</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.105</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.105</guid>
-    <description>▲ 85 points · Claude Code Changelog · claude-code v2.1.105</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
+    <title>Now in research preview: routines in Claude Code</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sle6tg/now_in_research_preview_routines_in_claude_code/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sle6tg/now_in_research_preview_routines_in_claude_code/</guid>
+    <description>▲ 90 points · r/ClaudeAI · Now in research preview: routines in Claude Code</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.101</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.101</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.101</guid>
-    <description>▲ 80 points · Claude Code Changelog · claude-code v2.1.101</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
-    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code v2.1.98</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.98</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.98</guid>
-    <description>▲ 75 points · Claude Code Changelog · claude-code v2.1.98</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
-    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code v2.1.97</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.97</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.97</guid>
-    <description>▲ 70 points · Claude Code Changelog · claude-code v2.1.97</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
-    <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code v2.1.96</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.96</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.96</guid>
-    <description>▲ 65 points · Claude Code Changelog · claude-code v2.1.96</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
+    <title>US Treasury Seeking Access to Anthropic&apos;s Mythos to Find Flaws</title>
+    <link>https://www.bloomberg.com/news/articles/2026-04-14/us-treasury-seeking-access-to-anthropic-s-mythos-to-find-flaws</link>
+    <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-04-14/us-treasury-seeking-access-to-anthropic-s-mythos-to-find-flaws</guid>
+    <description>▲ 17 points · Hacker News · US Treasury Seeking Access to Anthropic&apos;s Mythos to Find Flaws</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Wed, 15 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>

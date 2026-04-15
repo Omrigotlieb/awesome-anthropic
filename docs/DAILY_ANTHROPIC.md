@@ -8,14 +8,14 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 - [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
-- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 - [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
+- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 
 ### Top Story Snapshot
 
-- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
-- [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95)
+- [Just say the word…](https://reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/)
+- [Claude's reaction to the recent meme.](https://reddit.com/r/ClaudeAI/comments/1sl9fub/claudes_reaction_to_the_recent_meme/)
+- [Claude, what was that fake-out with June?](https://reddit.com/r/ClaudeAI/comments/1slbtw1/claude_what_was_that_fakeout_with_june/)
 
 ### Freshness Status
 

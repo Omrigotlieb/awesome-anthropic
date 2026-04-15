@@ -337,11 +337,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last synced: <!-- CHANGELOG_DATE -->2026-04-15
 
 <!-- CHANGELOG_START -->
+### June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.6 respectively.
+
 ### April 9, 2026 — We've launched the advisor tool in public beta. Pair a faster executor model wit
 
 ### April 8, 2026 — We've launched Claude Managed Agents in public beta, a fully managed agent harne
-
-### April 7, 2026 — We announced Claude Mythos Preview is available as a gated research preview for
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 15, 2026
 
-- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) - 100 pts on GitHub Release.
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 95 pts on Anthropic Blog.
-- [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) - 90 pts on GitHub Release.
-- [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) - 85 pts on Claude Code Changelog.
-- [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101) - 80 pts on Claude Code Changelog.
+- [Just say the word…](https://reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/) - 3963 pts on r/ClaudeAI.
+- [Claude's reaction to the recent meme.](https://reddit.com/r/ClaudeAI/comments/1sl9fub/claudes_reaction_to_the_recent_meme/) - 653 pts on r/ClaudeAI.
+- [Claude, what was that fake-out with June?](https://reddit.com/r/ClaudeAI/comments/1slbtw1/claude_what_was_that_fakeout_with_june/) - 611 pts on r/ClaudeAI.
+- [The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week](https://reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model/) - 516 pts on r/ClaudeAI.
+- [Claude Code on desktop, redesigned for parallel agentic work.](https://reddit.com/r/ClaudeAI/comments/1slictc/claude_code_on_desktop_redesigned_for_parallel/) - 286 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

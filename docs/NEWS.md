@@ -6,45 +6,68 @@
 
 ## April 15, 2026
 
-> Carry-forward snapshot from **April 14, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | GitHub Release |
-| 95 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-| 90 | [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | GitHub Release |
-| 85 | [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Claude Code Changelog |
-| 80 | [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101) | Claude Code Changelog |
-| 75 | [claude-code v2.1.98](https://code.claude.com/docs/en/changelog?version=2.1.98) | Claude Code Changelog |
-| 70 | [claude-code v2.1.97](https://code.claude.com/docs/en/changelog?version=2.1.97) | Claude Code Changelog |
-| 65 | [claude-code v2.1.96](https://code.claude.com/docs/en/changelog?version=2.1.96) | Claude Code Changelog |
+| 3963 | [Just say the word…](https://reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/) | r/ClaudeAI |
+| 653 | [Claude's reaction to the recent meme.](https://reddit.com/r/ClaudeAI/comments/1sl9fub/claudes_reaction_to_the_recent_meme/) | r/ClaudeAI |
+| 611 | [Claude, what was that fake-out with June?](https://reddit.com/r/ClaudeAI/comments/1slbtw1/claude_what_was_that_fakeout_with_june/) | r/ClaudeAI |
+| 516 | [The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week](https://reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model/) | r/ClaudeAI |
+| 286 | [Claude Code on desktop, redesigned for parallel agentic work.](https://reddit.com/r/ClaudeAI/comments/1slictc/claude_code_on_desktop_redesigned_for_parallel/) | r/ClaudeAI |
+| 178 | [When, if ever, will open-source match the capability of Claude Opus 4.5?](https://reddit.com/r/ClaudeAI/comments/1sl3ew6/when_if_ever_will_opensource_match_the_capability/) | r/ClaudeAI |
+| 156 | [I just used Caveman and it reduced generation time from 1 hour to 10 min on a complex benchmark. 50% less token spent.](https://reddit.com/r/ClaudeAI/comments/1sl967a/i_just_used_caveman_and_it_reduced_generation/) | r/ClaudeAI |
+| 154 | [Thought it would land like a wholesome bonker](https://reddit.com/r/ClaudeAI/comments/1sllo62/thought_it_would_land_like_a_wholesome_bonker/) | r/ClaudeAI |
+| 142 | [Gigachad Claude refused to write a bit of code so i could learn.](https://reddit.com/r/ClaudeAI/comments/1sljajz/gigachad_claude_refused_to_write_a_bit_of_code_so/) | r/ClaudeAI |
+| 128 | [Show HN: LangAlpha – what if Claude Code was built for Wall Street?](https://github.com/ginlix-ai/langalpha) | Hacker News |
+| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+| 99 | [I made my first earning from a vibe coded app using Claude Code](https://reddit.com/r/ClaudeAI/comments/1slczgg/i_made_my_first_earning_from_a_vibe_coded_app/) | r/ClaudeAI |
+| 90 | [Now in research preview: routines in Claude Code](https://reddit.com/r/ClaudeAI/comments/1sle6tg/now_in_research_preview_routines_in_claude_code/) | r/ClaudeAI |
+| 17 | [US Treasury Seeking Access to Anthropic's Mythos to Find Flaws](https://www.bloomberg.com/news/articles/2026-04-14/us-treasury-seeking-access-to-anthropic-s-mythos-to-find-flaws) | Hacker News |
 
 ### 📰 Official Announcements
 
 | Title | Source |
 |-------|--------|
 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-| [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [New version of Claude Code in the desktop app dropped today with tons of new features and performance improvements. 
+
+Between Cowork and Code, I've found I don't really need to open other apps (or eve](https://x.com/alexalbert__/status/2044144091395699055) | Alex Albert |
+| [New Anthropic Fellows research: developing an Automated Alignment Researcher.
+
+We ran an experiment to learn whether Claude Opus 4.6 could accelerate research on a key alignment problem: using a weak ](https://x.com/AnthropicAI/status/2044138481790648323) | Anthropic |
+| [Our Long-Term Benefit Trust has appointed Vas Narasimhan to Anthropic's Board of Directors.
+
+Vas brings more than two decades of experience in medicine and global health, including as CEO of Novartis.](https://x.com/AnthropicAI/status/2044057406167232964) | Anthropic |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | ## What's changed  - Added command-history search in the slash-command picker (Ctrl+R) and fixed several mode-toggle and session-resume regressions |
-| [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | Full Changelog: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.95 |
-| [claude-code v2.1.105](https://code.claude.com/docs/en/changelog?version=2.1.105) | Official Claude Code changelog entry |
-| [claude-code v2.1.101](https://code.claude.com/docs/en/changelog?version=2.1.101) | Official Claude Code changelog entry |
-| [claude-code v2.1.98](https://code.claude.com/docs/en/changelog?version=2.1.98) | Official Claude Code changelog entry |
-| [claude-code v2.1.97](https://code.claude.com/docs/en/changelog?version=2.1.97) | Official Claude Code changelog entry |
-| [claude-code v2.1.96](https://code.claude.com/docs/en/changelog?version=2.1.96) | Official Claude Code changelog entry |
-| [claude-code-action v1.0.94](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.94) | ## What's Changed * Prepend system bin dirs to PATH when allowed_non_write_users is set by @Octavian |
-| [claude-agent-sdk-python v0.1.59](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.59) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.105   ---  **PyPI:** https: |
-| [anthropic-sdk-python v0.94.1](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.1) | ## 0.94.1 (2026-04-13)  Full Changelog: [v0.94.0...v0.94.1](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-go v1.35.1](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.35.1) | ## 1.35.1 (2026-04-13)  Full Changelog: [v1.35.0...v1.35.1](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-ruby v1.33.1](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.33.1) | ## 1.33.1 (2026-04-13)  Full Changelog: [v1.33.0...v1.33.1](https://github.com/anthropics/anthropic- |
-| [claude-agent-sdk-typescript v0.2.105](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.105) | ## What's changed  - Added `system/memory_recall` event and `memory_paths` on `system/init` for SDK  |
+| [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108) | Official Claude Code changelog entry |
+| [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107) | Official Claude Code changelog entry |
+| [claude-code-action v1.0.96](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96) | ## What's Changed * fix: handle fork PRs by fetching via refs/pull/N/head by @stakeswky in https://g |
+| [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.95 |
+| [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | ## What's changed  - Improved the extended-thinking indicator with a rotating progress hint  |
+| [claude-code v2.1.108](https://github.com/anthropics/claude-code/releases/tag/v2.1.108) | ## What's changed  - Added `ENABLE_PROMPT_CACHING_1H` env var to opt into 1-hour prompt cache TTL on |
+| [claude-code v2.1.107](https://github.com/anthropics/claude-code/releases/tag/v2.1.107) | ## What's changed  - Show thinking hints sooner during long operations  |
+| [anthropic-sdk-python v0.95.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.95.0) | ## 0.95.0 (2026-04-14)  Full Changelog: [v0.94.1...v0.95.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.109](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.109) | ## What's changed  - Updated to parity with Claude Code v2.1.109  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.2.108](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.108) | ## What's changed  - `SDKStatus` now includes `'requesting'`; when `includePartialMessages` is enabl |
+| [claude-agent-sdk-typescript v0.2.107](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.107) | ## What's changed  - Updated to parity with Claude Code v2.1.107  ## Update  ```sh npm install @anth |
+| [anthropic-sdk-go v1.36.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.36.0) | ## 1.36.0 (2026-04-14)  Full Changelog: [v1.35.1...v1.36.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.89.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.89.0) | ## 0.89.0 (2026-04-14)  Full Changelog: [sdk-v0.88.0...sdk-v0.89.0](https://github.com/anthropics/an |
+| [anthropic-sdk-csharp Vertex-v0.3.1](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.1) | ## 0.3.1 (2026-04-14)  Full Changelog: [Vertex-v0.3.0...Vertex-v0.3.1](https://github.com/anthropics |
+| [anthropic-sdk-csharp Bedrock-v0.4.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.4.0) | ## 0.4.0 (2026-04-14)  Full Changelog: [Bedrock-v0.3.0...Bedrock-v0.4.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.15.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.15.0) | ## 12.15.0 (2026-04-14)  Full Changelog: [Anthropic-v12.14.0...Anthropic-v12.15.0](https://github.co |
+| [anthropic-sdk-php v0.15.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.15.0) | ## 0.15.0 (2026-04-14)  Full Changelog: [v0.14.0...v0.15.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.25.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.25.0) | ## 2.25.0 (2026-04-14)  Full Changelog: [v2.24.0...v2.25.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.34.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.34.0) | ## 1.34.0 (2026-04-14)  Full Changelog: [v1.33.1...v1.34.0](https://github.com/anthropics/anthropic- |
 
 ---
 

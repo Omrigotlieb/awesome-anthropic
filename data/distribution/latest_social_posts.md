@@ -6,9 +6,9 @@ Use and adapt these drafts for channel distribution.
 
 ```text
 Claude + Anthropic daily pulse (April 15, 2026):
-1) claude-code v2.1.109
-2) Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
-3) claude-code-action v1.0.95
+1) Just say the word…
+2) Claude's reaction to the recent meme.
+3) Claude, what was that fake-out with June?
 
 Track it here:
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -21,8 +21,8 @@ Dashboard: https://omrigotlieb.github.io/awesome-anthropic/
 We published today’s Awesome Anthropic brief (April 15, 2026).
 
 Highlights:
-• claude-code v2.1.109
-• Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
+• Just say the word…
+• Claude's reaction to the recent meme.
 • Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
 
 For builders tracking Claude Code and Anthropic product movement:
@@ -37,9 +37,9 @@ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 Daily Anthropic + Claude Code brief (April 15, 2026)
 
 Top signals:
-- claude-code v2.1.109
-- Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
-- claude-code-action v1.0.95
+- Just say the word…
+- Claude's reaction to the recent meme.
+- Claude, what was that fake-out with June?
 
 Full feed: https://omrigotlieb.github.io/awesome-anthropic/#/docs/NEWS
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -49,6 +49,6 @@ RSS: https://omrigotlieb.github.io/awesome-anthropic/rss.xml
 ## Hacker News
 
 ```text
-Title: Daily Claude + Anthropic digest (April 15, 2026): claude-code v2.1.109
+Title: Daily Claude + Anthropic digest (April 15, 2026): Just say the word…
 Text: Tracking daily product, release, and community signals here: https://omrigotlieb.github.io/awesome-anthropic/ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 ```
