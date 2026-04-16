@@ -30,11 +30,15 @@ fi
 log "Ensuring run executes on ${DEFAULT_BRANCH}..."
 git checkout "$DEFAULT_BRANCH" 2>&1 | tee -a "$LOG"
 
+log "Pulling latest changes from origin/${DEFAULT_BRANCH}..."
+if git pull --rebase --quiet origin "$DEFAULT_BRANCH" 2>&1 | tee -a "$LOG"; then
+  log "Pull completed."
+else
+  log "Pull failed (likely offline). Continuing with local daily generation."
+fi
+
 log "Updating DAILY_Anthropic.md run log..."
 python3 scripts/update_daily_anthropic.py 2>&1 | tee -a "$LOG"
-
-# Pull latest changes first
-git pull --rebase --quiet origin "$DEFAULT_BRANCH" 2>&1 | tee -a "$LOG"
 
 log "Fetching news..."
 python3 scripts/fetch_news.py 2>&1 | tee -a "$LOG"

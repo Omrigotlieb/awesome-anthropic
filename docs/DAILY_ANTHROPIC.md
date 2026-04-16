@@ -6,15 +6,15 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 - [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 
 ### Top Story Snapshot
 
 - [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
-- [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108)
-- [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107)
+- [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110)
+- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
 
 ### Freshness Status
 

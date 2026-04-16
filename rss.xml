@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Apr 2026 05:01:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 05:04:16 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -21,34 +21,10 @@
     <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.108</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.108</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.108</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.108</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code v2.1.107</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.107</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.107</guid>
-    <description>▲ 80 points · GitHub Release · claude-code v2.1.107</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code-action v1.0.96</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96</guid>
-    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.96</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code-action v1.0.95</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95</guid>
-    <description>▲ 70 points · GitHub Release · claude-code-action v1.0.95</description>
+    <title>claude-code v2.1.110</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.110</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.110</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.110</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
     <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
   </item>
@@ -56,7 +32,31 @@
     <title>claude-code v2.1.109</title>
     <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.109</link>
     <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.109</guid>
-    <description>▲ 65 points · GitHub Release · claude-code v2.1.109</description>
+    <description>▲ 80 points · GitHub Release · claude-code v2.1.109</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.97</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97</guid>
+    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.97</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.96</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96</guid>
+    <description>▲ 70 points · GitHub Release · claude-code-action v1.0.96</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.95</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95</guid>
+    <description>▲ 65 points · GitHub Release · claude-code-action v1.0.95</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
     <pubDate>Thu, 16 Apr 2026 09:00:00 +0000</pubDate>
   </item>

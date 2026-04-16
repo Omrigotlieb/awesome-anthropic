@@ -600,6 +600,30 @@ SIGNAL_KEYWORDS = {
     "api",
 }
 
+def _release_version_rank(item: NewsItem) -> tuple[int, int, int, int]:
+    """
+    Rank release-like items by family and semantic version.
+
+    Higher tuples are newer/more important:
+      - Claude Code releases/changelog entries
+      - Claude Code Action releases
+      - Other release items
+    """
+    import re as _re
+
+    title = (item.title or "").lower()
+    patterns = (
+        (r"claude-code-action v(\d+)\.(\d+)\.(\d+)", 1),
+        (r"claude-code v(\d+)\.(\d+)\.(\d+)", 2),
+    )
+    for pattern, family_rank in patterns:
+        match = _re.search(pattern, title)
+        if not match:
+            continue
+        major, minor, patch = (int(match.group(i)) for i in range(1, 4))
+        return (family_rank, major, minor, patch)
+    return (0, 0, 0, 0)
+
 
 def canonical_story_url(url: str) -> str:
     """Drop tracking params and normalize URL for duplicate detection."""
@@ -762,7 +786,11 @@ def build_primary_story_fallback(
     def _append(items: list[NewsItem], base_score: int, step: int) -> None:
         nonlocal selected
         rank = 0
-        for item in sorted(items, key=lambda i: i.published_at, reverse=True):
+        for item in sorted(
+            items,
+            key=lambda i: (i.published_at, _release_version_rank(i), i.title.lower()),
+            reverse=True,
+        ):
             key = canonical_story_url(item.url)
             if not key or key in seen_urls:
                 continue

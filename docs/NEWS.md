@@ -13,11 +13,11 @@
 | Score | Title | Source |
 |------:|-------|--------|
 | 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-| 85 | [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108) | GitHub Release |
-| 80 | [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107) | GitHub Release |
-| 75 | [claude-code-action v1.0.96](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96) | GitHub Release |
-| 70 | [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | GitHub Release |
-| 65 | [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | GitHub Release |
+| 85 | [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | GitHub Release |
+| 80 | [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | GitHub Release |
+| 75 | [claude-code-action v1.0.97](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97) | GitHub Release |
+| 70 | [claude-code-action v1.0.96](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96) | GitHub Release |
+| 65 | [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | GitHub Release |
 | 60 | [claude-code v2.1.108](https://github.com/anthropics/claude-code/releases/tag/v2.1.108) | GitHub Release |
 | 55 | [claude-code v2.1.107](https://github.com/anthropics/claude-code/releases/tag/v2.1.107) | GitHub Release |
 
@@ -45,13 +45,13 @@ Vas brings more than two decades of experience in medicine and global health, in
 
 | Release | Highlights |
 |---------|------------|
+| [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | ## What's changed  - Updated transitive deps: pyright 1.1.404 and @types/node 24.6.2  - Added a prompt-caching statusline extension |
+| [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) | Official Claude Code changelog entry |
 | [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108) | Official Claude Code changelog entry |
-| [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107) | Official Claude Code changelog entry |
+| [claude-code-action v1.0.97](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1.0.96...v1.0.97 |
 | [claude-code-action v1.0.96](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96) | ## What's Changed * fix: handle fork PRs by fetching via refs/pull/N/head by @stakeswky in https://g |
 | [claude-code-action v1.0.95](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.95) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.95 |
-| [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | ## What's changed  - Improved the extended-thinking indicator with a rotating progress hint  |
 | [claude-code v2.1.108](https://github.com/anthropics/claude-code/releases/tag/v2.1.108) | ## What's changed  - Added `ENABLE_PROMPT_CACHING_1H` env var to opt into 1-hour prompt cache TTL on |
-| [claude-code v2.1.107](https://github.com/anthropics/claude-code/releases/tag/v2.1.107) | ## What's changed  - Show thinking hints sooner during long operations  |
 | [anthropic-sdk-python v0.95.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.95.0) | ## 0.95.0 (2026-04-14)  Full Changelog: [v0.94.1...v0.95.0](https://github.com/anthropics/anthropic- |
 | [claude-agent-sdk-typescript v0.2.109](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.109) | ## What's changed  - Updated to parity with Claude Code v2.1.109  ## Update  ```sh npm install @anth |
 | [claude-agent-sdk-typescript v0.2.108](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.108) | ## What's changed  - `SDKStatus` now includes `'requesting'`; when `includePartialMessages` is enabl |

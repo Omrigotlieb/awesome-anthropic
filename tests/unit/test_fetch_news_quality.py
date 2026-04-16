@@ -180,6 +180,37 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertEqual(selected[1].source, "GitHub Release")
         self.assertGreater(selected[0].score, selected[1].score)
 
+    def test_primary_story_fallback_prefers_newer_claude_code_versions(self):
+        announcements = []
+        releases = [
+            mk(
+                "claude-code v2.1.109",
+                source="GitHub Release",
+                score=0,
+                url="https://github.com/anthropics/claude-code/releases/tag/v2.1.109",
+                published_at="2026-04-15T00:00:00+00:00",
+            ),
+            mk(
+                "claude-code v2.1.110",
+                source="GitHub Release",
+                score=0,
+                url="https://github.com/anthropics/claude-code/releases/tag/v2.1.110",
+                published_at="2026-04-15T00:00:00+00:00",
+            ),
+            mk(
+                "claude-code-action v1.0.97",
+                source="GitHub Release",
+                score=0,
+                url="https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97",
+                published_at="2026-04-15T00:00:00+00:00",
+            ),
+        ]
+        selected = build_primary_story_fallback(announcements, releases, limit=3)
+        self.assertEqual(
+            [item.title for item in selected],
+            ["claude-code v2.1.110", "claude-code v2.1.109", "claude-code-action v1.0.97"],
+        )
+
     def test_ensure_primary_signal_stories_injects_release_when_missing(self):
         stories = [
             mk("Community story 1", source="r/ClaudeAI", score=900, url="https://example.com/s1"),
