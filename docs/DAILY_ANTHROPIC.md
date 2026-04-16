@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-04-15 (news snapshot: April 15, 2026)
+## 2026-04-16 (news snapshot: April 16, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -9,18 +9,17 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 - [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 - [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
-- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 
 ### Top Story Snapshot
 
-- [Just say the word…](https://reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/)
-- [Claude's reaction to the recent meme.](https://reddit.com/r/ClaudeAI/comments/1sl9fub/claudes_reaction_to_the_recent_meme/)
-- [Claude, what was that fake-out with June?](https://reddit.com/r/ClaudeAI/comments/1slbtw1/claude_what_was_that_fakeout_with_june/)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108)
+- [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-15
-- News snapshot date: April 15, 2026
+- Run date (UTC): 2026-04-16
+- News snapshot date: April 16, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
