@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 16, 2026
 
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) - 85 pts on GitHub Release.
-- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) - 80 pts on GitHub Release.
-- [claude-code-action v1.0.97](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97) - 75 pts on GitHub Release.
-- [claude-code-action v1.0.96](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.96) - 70 pts on GitHub Release.
+- [Me when Claude already wrote like 3k lines of code and I notice an error on my prompt](https://reddit.com/r/ClaudeAI/comments/1smciwx/me_when_claude_already_wrote_like_3k_lines_of/) - 3056 pts on r/ClaudeAI.
+- [Claude had enough of this user](https://reddit.com/r/ClaudeAI/comments/1sm3jlg/claude_had_enough_of_this_user/) - 2764 pts on r/ClaudeAI.
+- [All Claude subs](https://reddit.com/r/ClaudeAI/comments/1sm2yom/all_claude_subs/) - 818 pts on r/ClaudeAI.
+- [Are we gonna look back on Mythos like this in a few years?](https://reddit.com/r/ClaudeAI/comments/1smgz06/are_we_gonna_look_back_on_mythos_like_this_in_a/) - 710 pts on r/ClaudeAI.
+- [Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it](https://reddit.com/r/ClaudeAI/comments/1sm4kto/built_an_antivibecoding_tool_for_claude_code/) - 503 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

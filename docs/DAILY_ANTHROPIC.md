@@ -6,15 +6,16 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 - [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
+- [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
 
 ### Top Story Snapshot
 
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
-- [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110)
-- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
+- [Me when Claude already wrote like 3k lines of code and I notice an error on my prompt](https://reddit.com/r/ClaudeAI/comments/1smciwx/me_when_claude_already_wrote_like_3k_lines_of/)
+- [Claude had enough of this user](https://reddit.com/r/ClaudeAI/comments/1sm3jlg/claude_had_enough_of_this_user/)
+- [All Claude subs](https://reddit.com/r/ClaudeAI/comments/1sm2yom/all_claude_subs/)
 
 ### Freshness Status
 

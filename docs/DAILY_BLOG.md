@@ -11,13 +11,13 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 - The daily run on 2026-04-16 uses the April 16, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.110.
-- Official channel signal remains active: Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors (April 16, 2026).
+- Official channel signal remains active: Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors (April 15, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 16, 2026):** [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+**News peg (April 15, 2026):** [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 
 Snapshot update: Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
 
@@ -41,34 +41,35 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (April 16, 2026):** [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110)
+**News peg (April 16, 2026):** [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110)
 
-Snapshot update: - Updated transitive deps: pyright 1.1.404 and @types/node 24.6.2 - Added a prompt-caching statusline extension
+Snapshot update: Official Claude Code changelog entry
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Community demand signal
 
-**News peg (April 16, 2026):** [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
+**News peg (April 16, 2026):** [Me when Claude already wrote like 3k lines of code and I notice an error on my prompt](https://reddit.com/r/ClaudeAI/comments/1smciwx/me_when_claude_already_wrote_like_3k_lines_of/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
-- [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110)
-- [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109)
+- [Me when Claude already wrote like 3k lines of code and I notice an error on my prompt](https://reddit.com/r/ClaudeAI/comments/1smciwx/me_when_claude_already_wrote_like_3k_lines_of/)
+- [Claude had enough of this user](https://reddit.com/r/ClaudeAI/comments/1sm3jlg/claude_had_enough_of_this_user/)
+- [All Claude subs](https://reddit.com/r/ClaudeAI/comments/1sm2yom/all_claude_subs/)
 
 ### Source Trail
 
-- April 16, 2026: [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- April 15, 2026: [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 - April 8, 2026: [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
-- April 16, 2026: [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110)
+- April 7, 2026: [Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute](https://www.anthropic.com/news/google-broadcom-partnership-compute)
+- April 16, 2026: [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110)
 - April 16, 2026: [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109)
-- April 16, 2026: [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108)
+- April 16, 2026: [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110)
 
 ### Website Improvement Review
 
