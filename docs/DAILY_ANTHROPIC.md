@@ -6,15 +6,16 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.112](https://code.claude.com/docs/en/changelog?version=2.1.112) is currently the latest Claude Code release visible in this repository snapshot.
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
 - [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 - [Project Glasswing A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStr](https://www.anthropic.com/glasswing)
 
 ### Top Story Snapshot
 
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
-- [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110)
-- [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110)
+- [Introducing Claude Opus 4.7, our most capable Opus model yet.](https://reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/)
+- [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [Claude Opus 4.7 is a serious regression, not an upgrade.](https://reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/)
 
 ### Freshness Status
 

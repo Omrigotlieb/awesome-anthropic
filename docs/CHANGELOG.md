@@ -1,12 +1,18 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-16T06:00:56Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-17T06:00:58Z
 
 ---
 
-## June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.6 respectively. 
+## April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for 
 
-. We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.6 respectively. Read more in model deprecations .
+We've launched Claude Opus 4.7 , our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See What's new in Claude Opus 4.7 for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see Migrating to Claude Opus 4.7 before upgrading.
+
+---
+
+## June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.7 respectively. 
+
+. We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.7 respectively. Read more in model deprecations .
 
 ---
 
@@ -104,8 +110,7 @@ We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
 ## February 1, 2026 — 
 
 . 
- The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. Long context pricing applies to requests exceeding 200k input tokens. 
- Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format .
+ The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. applies to requests exceeding 200k input tokens.
 
 ---
 
@@ -130,15 +135,5 @@ We've retired the Claude Opus 3 model ( claude-3-opus-20240229 ). All requests t
 ## December 19, 2025 — We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model d
 
 We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model deprecations .
-
----
-
-## November 24, 2025 — We've launched Claude Opus 4.5 , our most intelligent model combining maximum ca
-
-We've launched Claude Opus 4.5 , our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change improvements in vision, coding, and computer use at a more accessible price point than previous Opus models. Learn more in Models overview . 
- We've launched programmatic tool calling in public beta, allowing Claude to call tools from within code execution to reduce latency and token usage in multi-tool workflows. 
- We've launched the tool search tool in public beta, enabling Claude to dynamically discover and load tools on-demand from large tool catalogs. 
- We've launched the effort parameter in public beta for Claude Opus 4.5, allowing you to control token usage by trading off between response thoroughness and efficiency. 
- We've added client-side compaction to our Python and TypeScript SDKs, automatically managing conversation context through summarization when using tool_runner .
 
 ---

@@ -6,46 +6,71 @@
 
 ## April 17, 2026
 
-> Carry-forward snapshot from **April 16, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-| 85 | [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) | GitHub Release |
-| 75 | [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | GitHub Release |
-| 80 | [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) | GitHub Release |
-| 65 | [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | GitHub Release |
-| 85 | [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108) | GitHub Release |
-| 60 | [claude-code v2.1.108](https://github.com/anthropics/claude-code/releases/tag/v2.1.108) | GitHub Release |
-| 80 | [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107) | GitHub Release |
-
+| 2935 | [Introducing Claude Opus 4.7, our most capable Opus model yet.](https://reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/) | r/ClaudeAI |
+| 1621 | [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Hacker News |
+| 1222 | [Claude Opus 4.7 is a serious regression, not an upgrade.](https://reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/) | r/ClaudeAI |
+| 1106 | [Claude 4.7 just dropped and I'm already cooked](https://reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/) | r/ClaudeAI |
+| 928 | ["Our Strongest Model Yet"](https://reddit.com/r/Anthropic/comments/1sn90lx/our_strongest_model_yet/) | r/Anthropic |
+| 703 | [Claude Code workflow tips after 6 months of daily use (from a senior dev)](https://reddit.com/r/ClaudeAI/comments/1sn27yu/claude_code_workflow_tips_after_6_months_of_daily/) | r/ClaudeAI |
+| 543 | [Opus 4.7 is 50% more expensive with context regression?!](https://reddit.com/r/ClaudeAI/comments/1sn8ovi/opus_47_is_50_more_expensive_with_context/) | r/ClaudeAI |
+| 471 | [Opus 4.7 Released!](https://reddit.com/r/ClaudeAI/comments/1sn585s/opus_47_released/) | r/ClaudeAI |
+| 332 | [Be like Claude. 1. Release Opus 4.6 to users. 2. Users enjoy it. 3. For two months, you degrade Opus 4.6. 4. Restore the original Opus 4.6 and relabel it Opus 4.7. 5. Users rejoice. That's the best business model out there... today they're releasing the old 4.6 opus (AKA: 4.7)](https://reddit.com/r/Anthropic/comments/1sn1b6k/be_like_claude_1_release_opus_46_to_users_2_users/) | r/Anthropic |
+| 193 | [Opus 4.7 fails basic sycophantic test](https://reddit.com/r/Anthropic/comments/1snbwr0/opus_47_fails_basic_sycophantic_test/) | r/Anthropic |
+| 167 | [Claude Opus 4.7 Model Card](https://anthropic.com/claude-opus-4-7-system-card) | Hacker News |
+| 101 | [The biggest nerf in Anthropic's history that nobody is talking about: Claude Opus 4.7 strips parameter support from the API, and the model is crippled because of it.](https://reddit.com/r/Anthropic/comments/1snorbg/the_biggest_nerf_in_anthropics_history_that/) | r/Anthropic |
+| 85 | [claude-agent-sdk-python v0.1.61](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.61) | GitHub Release |
+| 62 | [The noise we make is hurting animals. Can we learn to shut up?](https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/) | Hacker News |
+| 28 | [White House to give US agencies Anthropic Mythos access, Bloomberg News reports](https://www.reuters.com/technology/white-house-give-us-agencies-anthropic-mythos-access-bloomberg-news-reports-2026-04-16/) | Hacker News |
 
 ### 📰 Official Announcements
 
 | Title | Source |
 |-------|--------|
-| [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+
 ### 🐦 From the Builders
 
 | Tweet | Author |
 |-------|--------|
-| [Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in @Nature. 
+| [Opus 4.7 feels more intelligent, agentic, and precise than 4.6. It took a few days for me to learn how to work with it effectively, to fully take advantage of its new capabilities.
 
-Read the paper: https://www](https://x.com/AnthropicAI/status/2044493337835802948) | Anthropic |
+Will post a few mo](https://x.com/bcherny/status/2044822408826380440) | Boris Cherney |
+
+### 🔬 Research
+
+| Title | Source |
+|-------|--------|
+| [Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems](http://arxiv.org/abs/2604.14228v1) | arXiv |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) | Official Claude Code changelog entry |
-| [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) | Official Claude Code changelog entry |
-| [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | ## What's changed
- 
- - Added `/tui` command and `tui` setting — run `/tui fullscreen` to switch to f |
-| [claude-code-action v1.0.97](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.97 |
-| [claude-agent-sdk-typescript v0.2.110](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.110) | ## What's changed  - Fixed `unstable_v2_createSession` not respecting `cwd`, `settingSources`, and ` |
+| [claude-code v2.1.112](https://code.claude.com/docs/en/changelog?version=2.1.112) | Official Claude Code changelog entry |
+| [claude-code v2.1.111](https://code.claude.com/docs/en/changelog?version=2.1.111) | Official Claude Code changelog entry |
+| [claude-code v2.1.112](https://github.com/anthropics/claude-code/releases/tag/v2.1.112) | ## What's changed  - Fixed "claude-opus-4-7 is temporarily unavailable" for auto mode  |
+| [claude-code v2.1.111](https://github.com/anthropics/claude-code/releases/tag/v2.1.111) | ## What's changed  - Claude Opus 4.7 xhigh is now available! Use /effort to tune speed vs. intellige |
+| [anthropic-sdk-python v0.96.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0) | ## 0.96.0 (2026-04-16)  Full Changelog: [v0.95.0...v0.96.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-python v0.1.61](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.61) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.112   ---  **PyPI:** https: |
+| [claude-agent-sdk-python v0.1.60](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.60) |  ### New Features  - **Subagent transcript helpers**: Added `list_subagents()` and `get_subagent_mes |
+| [claude-code-action v1.0.99](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.99) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.99 |
+| [claude-code-action v1.0.98](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.98) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.98 |
+| [anthropic-sdk-ruby v1.35.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.35.0) | ## 1.35.0 (2026-04-16)  Full Changelog: [v1.34.0...v1.35.0](https://github.com/anthropics/anthropic- |
+| [anthropic-cli v1.2.1](https://github.com/anthropics/anthropic-cli/releases/tag/v1.2.1) | ## Changelog * af90f288e60ac035bf7795f1d016c4cda856268c release: 1.2.1 * dd9eeb2003c162aeb2cbbe36dc8 |
+| [anthropic-cli v1.2.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.2.0) | ## Changelog * be3b17b68b1448620b773c232057d44872d05afe release: 1.2.0 * 1af033b7f859478f4c440c0177e |
+| [anthropic-sdk-java v2.26.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.26.0) | ## 2.26.0 (2026-04-16)  Full Changelog: [v2.25.0...v2.26.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.37.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.37.0) | ## 1.37.0 (2026-04-16)  Full Changelog: [v1.36.0...v1.37.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.112](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.112) | ## What's changed  - Updated to parity with Claude Code v2.1.112  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.2.111](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.111) | ## What's changed  - Opus 4.7 is now available! This version of the SDK is required to use it. - `mc |
+| [anthropic-sdk-typescript sdk-v0.90.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.90.0) | ## 0.90.0 (2026-04-16)  Full Changelog: [sdk-v0.89.0...sdk-v0.90.0](https://github.com/anthropics/an |
+| [anthropic-sdk-php v0.16.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.16.0) | ## 0.16.0 (2026-04-16)  Full Changelog: [v0.15.0...v0.16.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Vertex-v0.3.2](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.2) | ## 0.3.2 (2026-04-16)  Full Changelog: [Vertex-v0.3.1...Vertex-v0.3.2](https://github.com/anthropics |
+| [anthropic-sdk-csharp Bedrock-v0.5.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.5.0) | ## 0.5.0 (2026-04-16)  Full Changelog: [Bedrock-v0.4.0...Bedrock-v0.5.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.16.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.16.0) | ## 12.16.0 (2026-04-16)  Full Changelog: [Anthropic-v12.15.0...Anthropic-v12.16.0](https://github.co |
 
 ---
 

@@ -6,9 +6,9 @@ Use and adapt these drafts for channel distribution.
 
 ```text
 Claude + Anthropic daily pulse (April 17, 2026):
-1) Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
-2) claude-code v2.1.110
-3) claude-code v2.1.110
+1) Introducing Claude Opus 4.7, our most capable Opus model yet.
+2) Claude Opus 4.7
+3) Claude Opus 4.7 is a serious regression, not an upgrade.
 
 Track it here:
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -21,9 +21,9 @@ Dashboard: https://omrigotlieb.github.io/awesome-anthropic/
 We published today’s Awesome Anthropic brief (April 17, 2026).
 
 Highlights:
-• Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
-• claude-code v2.1.110
-• Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
+• Introducing Claude Opus 4.7, our most capable Opus model yet.
+• Claude Opus 4.7
+• Introducing Claude Opus 4.7
 
 For builders tracking Claude Code and Anthropic product movement:
 https://omrigotlieb.github.io/awesome-anthropic/#/docs/NEWS
@@ -37,9 +37,9 @@ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 Daily Anthropic + Claude Code brief (April 17, 2026)
 
 Top signals:
-- Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors
-- claude-code v2.1.110
-- claude-code v2.1.110
+- Introducing Claude Opus 4.7, our most capable Opus model yet.
+- Claude Opus 4.7
+- Claude Opus 4.7 is a serious regression, not an upgrade.
 
 Full feed: https://omrigotlieb.github.io/awesome-anthropic/#/docs/NEWS
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -49,6 +49,6 @@ RSS: https://omrigotlieb.github.io/awesome-anthropic/rss.xml
 ## Hacker News
 
 ```text
-Title: Daily Claude + Anthropic digest (April 17, 2026): Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Director
+Title: Daily Claude + Anthropic digest (April 17, 2026): Introducing Claude Opus 4.7, our most capable Opus model yet.
 Text: Tracking daily product, release, and community signals here: https://omrigotlieb.github.io/awesome-anthropic/ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 ```

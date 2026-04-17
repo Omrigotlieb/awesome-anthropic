@@ -337,11 +337,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last synced: <!-- CHANGELOG_DATE -->2026-04-17
 
 <!-- CHANGELOG_START -->
-### June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.6 respectively.
+### April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for
+
+### June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.7 respectively.
 
 ### April 9, 2026 — We've launched the advisor tool in public beta. Pair a faster executor model wit
-
-### April 8, 2026 — We've launched Claude Managed Agents in public beta, a fully managed agent harne
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 17, 2026
 
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) - 85 pts on GitHub Release.
-- [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108) - 85 pts on GitHub Release.
-- [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) - 80 pts on GitHub Release.
-- [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107) - 80 pts on GitHub Release.
+- [Introducing Claude Opus 4.7, our most capable Opus model yet.](https://reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/) - 2935 pts on r/ClaudeAI.
+- [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 1621 pts on Hacker News.
+- [Claude Opus 4.7 is a serious regression, not an upgrade.](https://reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/) - 1222 pts on r/ClaudeAI.
+- [Claude 4.7 just dropped and I'm already cooked](https://reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/) - 1106 pts on r/ClaudeAI.
+- ["Our Strongest Model Yet"](https://reddit.com/r/Anthropic/comments/1sn90lx/our_strongest_model_yet/) - 928 pts on r/Anthropic.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
