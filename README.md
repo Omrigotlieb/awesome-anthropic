@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-16
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-17
 
 <!-- CHANGELOG_START -->
 ### June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.6 respectively.
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-16
+> Last fetched: <!-- NEWS_DATE -->2026-04-17
 
 <!-- NEWS_START -->
-### Top Stories — April 16, 2026
+### Top Stories — April 17, 2026
 
-- [Me when Claude already wrote like 3k lines of code and I notice an error on my prompt](https://reddit.com/r/ClaudeAI/comments/1smciwx/me_when_claude_already_wrote_like_3k_lines_of/) - 3056 pts on r/ClaudeAI.
-- [Claude had enough of this user](https://reddit.com/r/ClaudeAI/comments/1sm3jlg/claude_had_enough_of_this_user/) - 2764 pts on r/ClaudeAI.
-- [All Claude subs](https://reddit.com/r/ClaudeAI/comments/1sm2yom/all_claude_subs/) - 818 pts on r/ClaudeAI.
-- [Are we gonna look back on Mythos like this in a few years?](https://reddit.com/r/ClaudeAI/comments/1smgz06/are_we_gonna_look_back_on_mythos_like_this_in_a/) - 710 pts on r/ClaudeAI.
-- [Built an anti-vibecoding tool for Claude Code - LinkedIn kinda went crazy for it](https://reddit.com/r/ClaudeAI/comments/1sm4kto/built_an_antivibecoding_tool_for_claude_code/) - 503 pts on r/ClaudeAI.
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) - 85 pts on GitHub Release.
+- [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108) - 85 pts on GitHub Release.
+- [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) - 80 pts on GitHub Release.
+- [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107) - 80 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

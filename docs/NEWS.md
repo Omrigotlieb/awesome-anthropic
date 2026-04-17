@@ -4,6 +4,51 @@
 
 ---
 
+## April 17, 2026
+
+> Carry-forward snapshot from **April 16, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+| 85 | [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) | GitHub Release |
+| 75 | [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | GitHub Release |
+| 80 | [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) | GitHub Release |
+| 65 | [claude-code v2.1.109](https://github.com/anthropics/claude-code/releases/tag/v2.1.109) | GitHub Release |
+| 85 | [claude-code v2.1.108](https://code.claude.com/docs/en/changelog?version=2.1.108) | GitHub Release |
+| 60 | [claude-code v2.1.108](https://github.com/anthropics/claude-code/releases/tag/v2.1.108) | GitHub Release |
+| 80 | [claude-code v2.1.107](https://code.claude.com/docs/en/changelog?version=2.1.107) | GitHub Release |
+
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in @Nature. 
+
+Read the paper: https://www](https://x.com/AnthropicAI/status/2044493337835802948) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) | Official Claude Code changelog entry |
+| [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) | Official Claude Code changelog entry |
+| [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | ## What's changed
+ 
+ - Added `/tui` command and `tui` setting — run `/tui fullscreen` to switch to f |
+| [claude-code-action v1.0.97](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.97 |
+| [claude-agent-sdk-typescript v0.2.110](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.110) | ## What's changed  - Fixed `unstable_v2_createSession` not respecting `cwd`, `settingSources`, and ` |
+
+---
+
 ## April 16, 2026
 
 ### 🔥 Top Stories
@@ -40,7 +85,9 @@ Read the paper: https://www](https://x.com/AnthropicAI/status/204449333783580294
 |---------|------------|
 | [claude-code v2.1.110](https://code.claude.com/docs/en/changelog?version=2.1.110) | Official Claude Code changelog entry |
 | [claude-code v2.1.109](https://code.claude.com/docs/en/changelog?version=2.1.109) | Official Claude Code changelog entry |
-| [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | ## What's changed  - Added `/tui` command and `tui` setting — run `/tui fullscreen` to switch to f |
+| [claude-code v2.1.110](https://github.com/anthropics/claude-code/releases/tag/v2.1.110) | ## What's changed
+ 
+ - Added `/tui` command and `tui` setting — run `/tui fullscreen` to switch to f |
 | [claude-code-action v1.0.97](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.97) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.97 |
 | [claude-agent-sdk-typescript v0.2.110](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.110) | ## What's changed  - Fixed `unstable_v2_createSession` not respecting `cwd`, `settingSources`, and ` |
 
