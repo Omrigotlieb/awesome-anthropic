@@ -11,13 +11,17 @@
 # Manual run:
 #   bash scripts/run_daily.sh
 
-set -e
+set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 LOG="$REPO_DIR/logs/run_daily.log"
 mkdir -p "$REPO_DIR/logs"
 
 log() { echo "[$(date -u '+%Y-%m-%d %H:%M:%S UTC')] $*" | tee -a "$LOG"; }
+run_cmd() {
+  "$@" 2>&1 | tee -a "$LOG"
+  return "${PIPESTATUS[0]}"
+}
 
 log "=== awesome-anthropic daily update ==="
 cd "$REPO_DIR"
@@ -28,10 +32,10 @@ if [ -z "$DEFAULT_BRANCH" ]; then
 fi
 
 log "Ensuring run executes on ${DEFAULT_BRANCH}..."
-git checkout "$DEFAULT_BRANCH" 2>&1 | tee -a "$LOG"
+run_cmd git checkout "$DEFAULT_BRANCH"
 
 log "Pulling latest changes from origin/${DEFAULT_BRANCH}..."
-if git pull --rebase --quiet origin "$DEFAULT_BRANCH" 2>&1 | tee -a "$LOG"; then
+if run_cmd git pull --rebase --quiet origin "$DEFAULT_BRANCH"; then
   log "Pull completed."
 else
   log "Pull failed (likely offline). Continuing with local daily generation."
@@ -77,8 +81,11 @@ if [ -f "sitemap.xml" ]; then
 fi
 if ! git diff --staged --quiet; then
     git commit -m "chore(bot): daily update $(date -u +%Y-%m-%d)"
-    git push origin "$DEFAULT_BRANCH"
-    log "Pushed update to GitHub."
+    if run_cmd git push origin "$DEFAULT_BRANCH"; then
+      log "Pushed update to GitHub."
+    else
+      log "Push failed; local branch is ahead and will retry on the next successful network run."
+    fi
 else
     log "No changes to commit."
 fi
