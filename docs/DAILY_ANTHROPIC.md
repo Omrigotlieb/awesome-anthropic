@@ -6,15 +6,15 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.112](https://code.claude.com/docs/en/changelog?version=2.1.112) is currently the latest Claude Code release visible in this repository snapshot.
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design)
+- [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) is currently the latest Claude Code release visible in this repository snapshot.
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 - [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 
 ### Top Story Snapshot
 
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- [claude-agent-sdk-python v0.1.63](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.63)
 
 ### Freshness Status
 

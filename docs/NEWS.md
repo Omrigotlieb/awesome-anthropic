@@ -6,68 +6,38 @@
 
 ## April 18, 2026
 
-> Carry-forward snapshot from **April 17, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design) | Anthropic Blog |
-| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
-| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-| 85 | [claude-code v2.1.112](https://code.claude.com/docs/en/changelog?version=2.1.112) | GitHub Release |
-| 75 | [claude-code v2.1.112](https://github.com/anthropics/claude-code/releases/tag/v2.1.112) | GitHub Release |
-| 80 | [claude-code v2.1.111](https://code.claude.com/docs/en/changelog?version=2.1.111) | GitHub Release |
-| 70 | [claude-code v2.1.111](https://github.com/anthropics/claude-code/releases/tag/v2.1.111) | GitHub Release |
-| 50 | [claude-code-action v1.0.99](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.99) | GitHub Release |
-| 45 | [claude-code-action v1.0.98](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.98) | GitHub Release |
+| 955 | [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) | Hacker News |
+| 85 | [claude-agent-sdk-python v0.1.63](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.63) | GitHub Release |
 
 ### 📰 Official Announcements
 
 | Title | Source |
 |-------|--------|
-| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design) | Anthropic Blog |
-| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
 
 ### 🐦 From the Builders
 
 | Tweet | Author |
 |-------|--------|
-| [Opus 4.7 feels more intelligent, agentic, and precise than 4.6. It took a few days for me to learn how to work with it effectively, to fully take advantage of its new capabilities.
-
-Will post a few mo](https://x.com/bcherny/status/2044822408826380440) | Boris Cherney |
-
-### 🔬 Research
-
-| Title | Source |
-|-------|--------|
-| [Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems](http://arxiv.org/abs/2604.14228v1) | arXiv |
+| [Everyone with a vision can produce very high-quality designs now (with a lil help from Claude)](https://x.com/alexalbert__/status/2045165630421364853) | Alex Albert |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.112](https://code.claude.com/docs/en/changelog?version=2.1.112) | Official Claude Code changelog entry |
-| [claude-code v2.1.111](https://code.claude.com/docs/en/changelog?version=2.1.111) | Official Claude Code changelog entry |
-| [claude-code v2.1.112](https://github.com/anthropics/claude-code/releases/tag/v2.1.112) | ## What's changed  - Fixed "claude-opus-4-7 is temporarily unavailable" for auto mode  |
-| [claude-code v2.1.111](https://github.com/anthropics/claude-code/releases/tag/v2.1.111) | ## What's changed  - Claude Opus 4.7 xhigh is now available! Use /effort to tune speed vs. intellige |
-| [anthropic-sdk-python v0.96.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0) | ## 0.96.0 (2026-04-16)  Full Changelog: [v0.95.0...v0.96.0](https://github.com/anthropics/anthropic- |
-| [claude-agent-sdk-python v0.1.61](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.61) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.112   ---  **PyPI:** https: |
-| [claude-agent-sdk-python v0.1.60](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.60) |  ### New Features  - **Subagent transcript helpers**: Added `list_subagents()` and `get_subagent_mes |
-| [claude-code-action v1.0.99](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.99) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.99 |
-| [claude-code-action v1.0.98](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.98) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.98 |
-| [anthropic-sdk-ruby v1.35.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.35.0) | ## 1.35.0 (2026-04-16)  Full Changelog: [v1.34.0...v1.35.0](https://github.com/anthropics/anthropic- |
-| [anthropic-cli v1.2.1](https://github.com/anthropics/anthropic-cli/releases/tag/v1.2.1) | ## Changelog * af90f288e60ac035bf7795f1d016c4cda856268c release: 1.2.1 * dd9eeb2003c162aeb2cbbe36dc8 |
-| [anthropic-cli v1.2.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.2.0) | ## Changelog * be3b17b68b1448620b773c232057d44872d05afe release: 1.2.0 * 1af033b7f859478f4c440c0177e |
-| [anthropic-sdk-java v2.26.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.26.0) | ## 2.26.0 (2026-04-16)  Full Changelog: [v2.25.0...v2.26.0](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-go v1.37.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.37.0) | ## 1.37.0 (2026-04-16)  Full Changelog: [v1.36.0...v1.37.0](https://github.com/anthropics/anthropic- |
-| [claude-agent-sdk-typescript v0.2.112](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.112) | ## What's changed  - Updated to parity with Claude Code v2.1.112  ## Update  ```sh npm install @anth |
-| [claude-agent-sdk-typescript v0.2.111](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.111) | ## What's changed  - Opus 4.7 is now available! This version of the SDK is required to use it. - `mc |
-| [anthropic-sdk-typescript sdk-v0.90.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.90.0) | ## 0.90.0 (2026-04-16)  Full Changelog: [sdk-v0.89.0...sdk-v0.90.0](https://github.com/anthropics/an |
-| [anthropic-sdk-php v0.16.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.16.0) | ## 0.16.0 (2026-04-16)  Full Changelog: [v0.15.0...v0.16.0](https://github.com/anthropics/anthropic- |
-| [anthropic-sdk-csharp Vertex-v0.3.2](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.3.2) | ## 0.3.2 (2026-04-16)  Full Changelog: [Vertex-v0.3.1...Vertex-v0.3.2](https://github.com/anthropics |
-| [anthropic-sdk-csharp Bedrock-v0.5.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.5.0) | ## 0.5.0 (2026-04-16)  Full Changelog: [Bedrock-v0.4.0...Bedrock-v0.5.0](https://github.com/anthropi |
-| [anthropic-sdk-csharp Anthropic-v12.16.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.16.0) | ## 12.16.0 (2026-04-16)  Full Changelog: [Anthropic-v12.15.0...Anthropic-v12.16.0](https://github.co |
+| [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) | Official Claude Code changelog entry |
+| [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) | ## What's changed  - Fixed a crash in the permission dialog when an agent teams teammate requested t |
+| [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113) | ## What's changed  - Changed the CLI to spawn a native Claude Code binary (via a per-platform option |
+| [claude-code-action v1.0.101](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.101 |
+| [claude-code-action v1.0.100](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.100) | ## What's Changed * Upgrade Claude model from opus-4-6 to opus-4-7 by @ashwin-ant in https://github. |
+| [claude-agent-sdk-python v0.1.63](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.63) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.114   ---  **PyPI:** https: |
+| [claude-agent-sdk-python v0.1.62](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.62) |  ### New Features  - **Top-level `skills` option**: Added `skills` parameter to `ClaudeAgentOptions` |
+| [claude-agent-sdk-typescript v0.2.114](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.114) | ## What's changed  - Updated to parity with Claude Code v2.1.114  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.2.113](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.113) | ## What's changed  - Changed the SDK to spawn a native Claude Code binary (via a per-platform option |
 
 ---
 
