@@ -440,3 +440,13 @@ This file is checked first at the start of each daily automation run.
 - [Claude had enough of this user](https://reddit.com/r/ClaudeAI/comments/1sm3jlg/claude_had_enough_of_this_user/)
 - [All Claude subs](https://reddit.com/r/ClaudeAI/comments/1sm2yom/all_claude_subs/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-18
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design)
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

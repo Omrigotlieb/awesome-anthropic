@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 06:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 05:03:57 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,76 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Introducing Claude Opus 4.7, our most capable Opus model yet.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/</guid>
-    <description>▲ 2935 points · r/ClaudeAI · Introducing Claude Opus 4.7, our most capable Opus model yet.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Introducing Claude Design by Anthropic Labs</title>
+    <link>https://www.anthropic.com/news/claude-design</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/claude-design</guid>
+    <description>▲ 100 points · Anthropic Blog · Introducing Claude Design by Anthropic Labs</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude Opus 4.7</title>
+    <title>Introducing Claude Opus 4.7</title>
     <link>https://www.anthropic.com/news/claude-opus-4-7</link>
     <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-7</guid>
-    <description>▲ 1621 points · Hacker News · Claude Opus 4.7</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
+    <description>▲ 100 points · Anthropic Blog · Introducing Claude Opus 4.7</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude Opus 4.7 is a serious regression, not an upgrade.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/</guid>
-    <description>▲ 1222 points · r/ClaudeAI · Claude Opus 4.7 is a serious regression, not an upgrade.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
+    <link>https://www.anthropic.com/news/narasimhan-board</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/narasimhan-board</guid>
+    <description>▲ 100 points · Anthropic Blog · Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude 4.7 just dropped and I&apos;m already cooked</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/</guid>
-    <description>▲ 1106 points · r/ClaudeAI · Claude 4.7 just dropped and I&apos;m already cooked</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>&quot;Our Strongest Model Yet&quot;</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sn90lx/our_strongest_model_yet/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sn90lx/our_strongest_model_yet/</guid>
-    <description>▲ 928 points · r/Anthropic · &quot;Our Strongest Model Yet&quot;</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Code workflow tips after 6 months of daily use (from a senior dev)</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sn27yu/claude_code_workflow_tips_after_6_months_of_daily/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sn27yu/claude_code_workflow_tips_after_6_months_of_daily/</guid>
-    <description>▲ 703 points · r/ClaudeAI · Claude Code workflow tips after 6 months of daily use (from a senior dev)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Opus 4.7 is 50% more expensive with context regression?!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sn8ovi/opus_47_is_50_more_expensive_with_context/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sn8ovi/opus_47_is_50_more_expensive_with_context/</guid>
-    <description>▲ 543 points · r/ClaudeAI · Opus 4.7 is 50% more expensive with context regression?!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Opus 4.7 Released!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sn585s/opus_47_released/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sn585s/opus_47_released/</guid>
-    <description>▲ 471 points · r/ClaudeAI · Opus 4.7 Released!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Be like Claude. 1. Release Opus 4.6 to users. 2. Users enjoy it. 3. For two months, you degrade Opus 4.6. 4. Restore the original Opus 4.6 and relabel it Opus 4.7. 5. Users rejoice. That&apos;s the best business model out there... today they&apos;re releasing the old 4.6 opus (AKA: 4.7)</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sn1b6k/be_like_claude_1_release_opus_46_to_users_2_users/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sn1b6k/be_like_claude_1_release_opus_46_to_users_2_users/</guid>
-    <description>▲ 332 points · r/Anthropic · Be like Claude. 1. Release Opus 4.6 to users. 2. Users enjoy it. 3. For two months, you degrade Opus 4.6. 4. Restore the original Opus 4.6 and relabel it Opus 4.7. 5. Users rejoice. That&apos;s the best business model out there... today they&apos;re releasing the old 4.6 opus (AKA: 4.7)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Opus 4.7 fails basic sycophantic test</title>
-    <link>https://reddit.com/r/Anthropic/comments/1snbwr0/opus_47_fails_basic_sycophantic_test/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1snbwr0/opus_47_fails_basic_sycophantic_test/</guid>
-    <description>▲ 193 points · r/Anthropic · Opus 4.7 fails basic sycophantic test</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Opus 4.7 Model Card</title>
-    <link>https://anthropic.com/claude-opus-4-7-system-card</link>
-    <guid isPermaLink="true">https://anthropic.com/claude-opus-4-7-system-card</guid>
-    <description>▲ 167 points · Hacker News · Claude Opus 4.7 Model Card</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The biggest nerf in Anthropic&apos;s history that nobody is talking about: Claude Opus 4.7 strips parameter support from the API, and the model is crippled because of it.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1snorbg/the_biggest_nerf_in_anthropics_history_that/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1snorbg/the_biggest_nerf_in_anthropics_history_that/</guid>
-    <description>▲ 101 points · r/Anthropic · The biggest nerf in Anthropic&apos;s history that nobody is talking about: Claude Opus 4.7 strips parameter support from the API, and the model is crippled because of it.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-python v0.1.61</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.61</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.61</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.61</description>
+    <title>claude-code v2.1.112</title>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.112</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.112</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.112</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>The noise we make is hurting animals. Can we learn to shut up?</title>
-    <link>https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/</link>
-    <guid isPermaLink="true">https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/</guid>
-    <description>▲ 62 points · Hacker News · The noise we make is hurting animals. Can we learn to shut up?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.112</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.112</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.112</guid>
+    <description>▲ 75 points · GitHub Release · claude-code v2.1.112</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>White House to give US agencies Anthropic Mythos access, Bloomberg News reports</title>
-    <link>https://www.reuters.com/technology/white-house-give-us-agencies-anthropic-mythos-access-bloomberg-news-reports-2026-04-16/</link>
-    <guid isPermaLink="true">https://www.reuters.com/technology/white-house-give-us-agencies-anthropic-mythos-access-bloomberg-news-reports-2026-04-16/</guid>
-    <description>▲ 28 points · Hacker News · White House to give US agencies Anthropic Mythos access, Bloomberg News reports</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 17 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.111</title>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.111</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.111</guid>
+    <description>▲ 80 points · GitHub Release · claude-code v2.1.111</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code v2.1.111</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.111</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.111</guid>
+    <description>▲ 70 points · GitHub Release · claude-code v2.1.111</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.99</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.99</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.99</guid>
+    <description>▲ 50 points · GitHub Release · claude-code-action v1.0.99</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.98</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.98</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.98</guid>
+    <description>▲ 45 points · GitHub Release · claude-code-action v1.0.98</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 18 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

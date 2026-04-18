@@ -51,13 +51,35 @@ class NewsItem:
             self.item_id = hashlib.sha256(self.url.encode()).hexdigest()[:16]
 
 
-def has_network_connectivity() -> bool:
+def has_network_connectivity(probe_urls: tuple[str, ...] | None = None) -> bool:
     """
-    Fast DNS preflight for daily automation environments.
+    Connectivity preflight for daily automation environments.
 
-    When DNS is unavailable (common in sandboxed runs), we skip source fetches
-    and avoid emitting noisy per-source resolver failures.
+    The check is intentionally two-stage:
+    1) Lightweight HTTP probes (proxy-friendly, avoids false negatives when
+       direct DNS resolution is blocked but outbound HTTP still works).
+    2) DNS fallback for environments without HTTP egress.
     """
+    urls = probe_urls or (
+        "https://www.anthropic.com/news",
+        "https://code.claude.com/docs/en/changelog",
+        "https://hn.algolia.com/api/v1/search?query=anthropic&hitsPerPage=1",
+    )
+    try:
+        with httpx.Client(timeout=8, follow_redirects=True) as client:
+            for url in urls:
+                try:
+                    resp = client.get(
+                        url,
+                        headers={"User-Agent": "awesome-anthropic-bot/1.0"},
+                    )
+                    if resp.status_code < 500:
+                        return True
+                except Exception:
+                    continue
+    except Exception:
+        pass
+
     hosts = ("www.anthropic.com", "github.com", "www.reddit.com", "hn.algolia.com")
     for host in hosts:
         try:

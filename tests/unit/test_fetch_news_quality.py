@@ -1,5 +1,7 @@
 import unittest
+import socket
 from datetime import datetime, timezone
+from unittest.mock import MagicMock, patch
 
 from scripts.fetch_news import (
     NewsItem,
@@ -12,6 +14,7 @@ from scripts.fetch_news import (
     ensure_primary_signal_stories,
     extract_claude_code_changelog_items_from_html,
     extract_anthropic_items_from_html,
+    has_network_connectivity,
     is_low_signal_story,
     select_top_stories,
     sort_stories_for_output,
@@ -54,6 +57,38 @@ class TestFetchNewsQuality(unittest.TestCase):
     def test_canonical_story_url_drops_tracking_params(self):
         url = "https://example.com/path/?utm_source=x&ref=y&id=7#frag"
         self.assertEqual(canonical_story_url(url), "https://example.com/path?id=7")
+
+    def test_has_network_connectivity_prefers_http_probe(self):
+        client = MagicMock()
+        client.__enter__.return_value = client
+        client.get.return_value.status_code = 204
+
+        with patch("scripts.fetch_news.httpx.Client", return_value=client):
+            with patch("scripts.fetch_news.socket.getaddrinfo", side_effect=socket.gaierror()):
+                self.assertTrue(has_network_connectivity(probe_urls=("https://example.com/ok",)))
+
+    def test_has_network_connectivity_falls_back_to_dns(self):
+        client = MagicMock()
+        client.__enter__.return_value = client
+        client.get.side_effect = RuntimeError("probe failed")
+
+        def fake_getaddrinfo(host, *_args, **_kwargs):
+            if host == "github.com":
+                return [(socket.AF_INET, socket.SOCK_STREAM, socket.IPPROTO_TCP, "", ("1.1.1.1", 443))]
+            raise socket.gaierror()
+
+        with patch("scripts.fetch_news.httpx.Client", return_value=client):
+            with patch("scripts.fetch_news.socket.getaddrinfo", side_effect=fake_getaddrinfo):
+                self.assertTrue(has_network_connectivity(probe_urls=("https://example.com/err",)))
+
+    def test_has_network_connectivity_returns_false_when_all_checks_fail(self):
+        client = MagicMock()
+        client.__enter__.return_value = client
+        client.get.side_effect = RuntimeError("probe failed")
+
+        with patch("scripts.fetch_news.httpx.Client", return_value=client):
+            with patch("scripts.fetch_news.socket.getaddrinfo", side_effect=socket.gaierror()):
+                self.assertFalse(has_network_connectivity(probe_urls=("https://example.com/err",)))
 
     def test_title_fingerprint_normalizes_punctuation_and_articles(self):
         fp = title_fingerprint("The Claude, SDK: Release!")

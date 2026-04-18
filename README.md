@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-17
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-18
 
 <!-- CHANGELOG_START -->
 ### April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-17
+> Last fetched: <!-- NEWS_DATE -->2026-04-18
 
 <!-- NEWS_START -->
-### Top Stories — April 17, 2026
+### Top Stories — April 18, 2026
 
-- [Introducing Claude Opus 4.7, our most capable Opus model yet.](https://reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/) - 2935 pts on r/ClaudeAI.
-- [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 1621 pts on Hacker News.
-- [Claude Opus 4.7 is a serious regression, not an upgrade.](https://reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/) - 1222 pts on r/ClaudeAI.
-- [Claude 4.7 just dropped and I'm already cooked](https://reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/) - 1106 pts on r/ClaudeAI.
-- ["Our Strongest Model Yet"](https://reddit.com/r/Anthropic/comments/1sn90lx/our_strongest_model_yet/) - 928 pts on r/Anthropic.
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design) - 100 pts on Anthropic Blog.
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.112](https://code.claude.com/docs/en/changelog?version=2.1.112) - 85 pts on GitHub Release.
+- [claude-code v2.1.111](https://code.claude.com/docs/en/changelog?version=2.1.111) - 80 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
