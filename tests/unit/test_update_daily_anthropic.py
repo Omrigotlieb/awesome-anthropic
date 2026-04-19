@@ -108,6 +108,31 @@ RELEASE_FALLBACK_NEWS = """# Anthropic News Feed
 
 
 class TestUpdateDailyAnthropic(unittest.TestCase):
+    def test_effective_section_date_prefers_carry_forward_note(self):
+        section_text = (
+            "> Carry-forward snapshot from **April 18, 2026** because DNS/network was unavailable during this run.\n"
+        )
+        self.assertEqual(daily._effective_section_date("April 19, 2026", section_text), "April 18, 2026")
+
+    def test_read_news_date_uses_carry_forward_snapshot_date(self):
+        carry_forward_news = """# Anthropic News Feed
+
+## April 19, 2026
+
+> Carry-forward snapshot from **April 18, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+"""
+        with tempfile.TemporaryDirectory() as td:
+            news = Path(td) / "NEWS.md"
+            news.write_text(carry_forward_news, encoding="utf-8")
+            with patch.object(daily, "NEWS_PATH", news):
+                self.assertEqual(daily.read_news_date(), "April 18, 2026")
+
     def test_read_top_stories_parses_markdown_links(self):
         with tempfile.TemporaryDirectory() as td:
             news = Path(td) / "NEWS.md"

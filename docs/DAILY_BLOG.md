@@ -1,23 +1,25 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-19 (news snapshot: April 19, 2026)
+## 2026-04-19 (news snapshot: April 18, 2026)
 
 ### Executive Summary
 
 This edition turns the daily log into a compact newsroom focused on product, release, and ecosystem signal.
 Each article is generated from the current `docs/NEWS.md` snapshot so the editorial deck stays aligned with verified repository data.
+The current snapshot lags by 1 day(s), so the article deck stays anchored to the latest verified items available in `docs/NEWS.md`.
 
 ### Key Takeaways
 
-- The daily run on 2026-04-19 uses the April 19, 2026 news snapshot.
+- The daily run on 2026-04-19 uses the April 18, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.114.
-- Official channel signal remains active: Introducing Claude Design by Anthropic Labs (April 19, 2026).
+- Official channel signal remains active: Introducing Claude Design by Anthropic Labs (April 18, 2026).
+- Freshness risk: snapshot is 1 day(s) old due to unavailable network fetch in this environment.
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 19, 2026):** [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+**News peg (April 18, 2026):** [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 
 Snapshot update: Introducing Claude Design by Anthropic Labs
 
@@ -41,7 +43,7 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (April 19, 2026):** [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114)
+**News peg (April 18, 2026):** [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114)
 
 Snapshot update: - Fixed a crash in the permission dialog when an agent teams teammate requested t
 
@@ -49,7 +51,7 @@ Claude Code release notes usually reflect near-term developer workflow changes, 
 
 ### Article 5 — Ecosystem release signal
 
-**News peg (April 19, 2026):** [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113)
+**News peg (April 18, 2026):** [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113)
 
 Snapshot update: Top story source: GitHub Release
 
@@ -64,12 +66,12 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Source Trail
 
-- April 19, 2026: [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- April 18, 2026: [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 - April 17, 2026: [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
-- April 19, 2026: [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
-- April 19, 2026: [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113)
-- April 19, 2026: [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114)
-- April 19, 2026: [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113)
+- April 18, 2026: [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- April 18, 2026: [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113)
+- April 18, 2026: [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114)
+- April 18, 2026: [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113)
 
 ### Website Improvement Review
 

@@ -18,6 +18,7 @@ DAILY_PATH = ROOT / "DAILY_Anthropic.md"
 NEWS_PATH = ROOT / "docs" / "NEWS.md"
 DAILY_BRIEF_PATH = ROOT / "docs" / "DAILY_ANTHROPIC.md"
 DAILY_BLOG_PATH = ROOT / "docs" / "DAILY_BLOG.md"
+CARRY_FORWARD_RE = re.compile(r"Carry-forward snapshot from\s+\*\*([^*]+)\*\*", flags=re.IGNORECASE)
 
 
 def read_news_text() -> str:
@@ -38,6 +39,14 @@ def read_news_sections() -> list[tuple[str, str]]:
         end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
         sections.append((match.group(1).strip(), text[start:end].strip()))
     return sections
+
+
+def _effective_section_date(section_heading: str, section_text: str) -> str:
+    """Prefer source snapshot date when section is a carry-forward block."""
+    note_match = CARRY_FORWARD_RE.search(section_text)
+    if note_match:
+        return note_match.group(1).strip()
+    return section_heading
 
 
 def _parse_table_rows(section_text: str, heading: str) -> list[list[str]]:
@@ -64,11 +73,12 @@ def _extract_link(value: str) -> tuple[str, str]:
 def read_top_story_rows(limit: int = 5, max_sections: int = 1) -> list[tuple[str, str, str, str]]:
     rows: list[tuple[str, str, str, str]] = []
     for news_date, section_text in read_news_sections()[:max_sections]:
+        effective_date = _effective_section_date(news_date, section_text)
         for cols in _parse_table_rows(section_text, "🔥 Top Stories"):
             if len(cols) < 3:
                 continue
             title, url = _extract_link(cols[1])
-            rows.append((title, url, cols[2], news_date))
+            rows.append((title, url, cols[2], effective_date))
             if len(rows) >= limit:
                 return rows
     return rows
@@ -82,13 +92,14 @@ def read_recent_section_links(
 ) -> list[tuple[str, str, str]]:
     links: list[tuple[str, str, str]] = []
     for news_date, section_text in read_news_sections()[:max_sections]:
+        effective_date = _effective_section_date(news_date, section_text)
         for cols in _parse_table_rows(section_text, section_heading):
             if len(cols) <= title_col:
                 continue
             title, url = _extract_link(cols[title_col])
             if not url:
                 continue
-            links.append((title, url, news_date))
+            links.append((title, url, effective_date))
             if len(links) >= limit:
                 return links
     return links
@@ -97,11 +108,12 @@ def read_recent_section_links(
 def read_release_rows(limit: int = 6, max_sections: int = 1) -> list[tuple[str, str, str, str]]:
     releases: list[tuple[str, str, str, str]] = []
     for news_date, section_text in read_news_sections()[:max_sections]:
+        effective_date = _effective_section_date(news_date, section_text)
         for cols in _parse_table_rows(section_text, "🛠️ SDK & Tool Releases"):
             if len(cols) < 2:
                 continue
             title, url = _extract_link(cols[0])
-            releases.append((title, url, cols[1], news_date))
+            releases.append((title, url, cols[1], effective_date))
             if len(releases) >= limit:
                 return releases
     return releases
@@ -126,7 +138,8 @@ def find_latest_release(prefix: str = "claude-code ", max_sections: int = 10) ->
     best_date: datetime | None = None
 
     for news_date, section_text in read_news_sections()[:max_sections]:
-        news_dt = _parse_news_date(news_date)
+        effective_date = _effective_section_date(news_date, section_text)
+        news_dt = _parse_news_date(effective_date)
         for cols in _parse_table_rows(section_text, "🛠️ SDK & Tool Releases"):
             if len(cols) < 2:
                 continue
@@ -135,7 +148,7 @@ def find_latest_release(prefix: str = "claude-code ", max_sections: int = 10) ->
                 continue
 
             highlight = cols[1]
-            row = (title, url, highlight, news_date)
+            row = (title, url, highlight, effective_date)
             version = _parse_semver_from_title(title, prefix)
 
             if best_row is None:
@@ -176,7 +189,9 @@ def read_top_stories(limit: int = 3) -> list[str]:
 
 def read_news_date() -> str:
     sections = read_news_sections()
-    return sections[0][0] if sections else ""
+    if not sections:
+        return ""
+    return _effective_section_date(sections[0][0], sections[0][1])
 
 
 def _parse_news_date(news_date: str) -> datetime | None:
