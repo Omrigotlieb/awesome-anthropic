@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2026 05:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 06:00:50 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,67 +13,123 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Introducing Claude Design by Anthropic Labs</title>
-    <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
-    <description>▲ 100 points · Anthropic Blog · Introducing Claude Design by Anthropic Labs</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>“Sir, another 22 year old has found a job”</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sp6xpg/sir_another_22_year_old_has_found_a_job/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sp6xpg/sir_another_22_year_old_has_found_a_job/</guid>
+    <description>▲ 1631 points · r/ClaudeAI · “Sir, another 22 year old has found a job”</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Introducing Claude Opus 4.7</title>
-    <link>https://www.anthropic.com/news/claude-opus-4-7</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-7</guid>
-    <description>▲ 100 points · Anthropic Blog · Introducing Claude Opus 4.7</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>The Opus 4.7 experience</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/</guid>
+    <description>▲ 1549 points · r/ClaudeAI · The Opus 4.7 experience</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
-    <link>https://www.anthropic.com/news/narasimhan-board</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/narasimhan-board</guid>
-    <description>▲ 100 points · Anthropic Blog · Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>Claude Design keeps drawing a turd</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/</guid>
+    <description>▲ 696 points · r/ClaudeAI · Claude Design keeps drawing a turd</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>An old designer’s perspective on claude design.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/</guid>
+    <description>▲ 575 points · r/ClaudeAI · An old designer’s perspective on claude design.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude 4.7 gaslighted me with a real commit hash and I&apos;m not okay</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/</guid>
+    <description>▲ 551 points · r/ClaudeAI · Claude 4.7 gaslighted me with a real commit hash and I&apos;m not okay</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Look how they massacred my boy</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sp1mzs/look_how_they_massacred_my_boy/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sp1mzs/look_how_they_massacred_my_boy/</guid>
+    <description>▲ 450 points · r/ClaudeAI · Look how they massacred my boy</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I left my 7 year old nephew unsupervised on the pc and he used my claude session</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1spddf6/i_left_my_7_year_old_nephew_unsupervised_on_the/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1spddf6/i_left_my_7_year_old_nephew_unsupervised_on_the/</guid>
+    <description>▲ 436 points · r/ClaudeAI · I left my 7 year old nephew unsupervised on the pc and he used my claude session</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude is on fire. Everything they’ve dropped in the last few days .</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sp17d3/claude_is_on_fire_everything_theyve_dropped_in/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sp17d3/claude_is_on_fire_everything_theyve_dropped_in/</guid>
+    <description>▲ 406 points · r/ClaudeAI · Claude is on fire. Everything they’ve dropped in the last few days .</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>10 Hours of Claude Design - My Thoughts</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/</guid>
+    <description>▲ 399 points · r/ClaudeAI · 10 Hours of Claude Design - My Thoughts</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I kept saying this all day working with Claude Code.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sowp77/i_kept_saying_this_all_day_working_with_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sowp77/i_kept_saying_this_all_day_working_with_claude/</guid>
+    <description>▲ 317 points · r/ClaudeAI · I kept saying this all day working with Claude Code.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>It was about time</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1spahp3/it_was_about_time/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1spahp3/it_was_about_time/</guid>
+    <description>▲ 241 points · r/ClaudeAI · It was about time</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>How Claude Must have felt after saying this</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sp3jzq/how_claude_must_have_felt_after_saying_this/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sp3jzq/how_claude_must_have_felt_after_saying_this/</guid>
+    <description>▲ 208 points · r/ClaudeAI · How Claude Must have felt after saying this</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
     <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>claude-code v2.1.114</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.114</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.114</guid>
-    <description>▲ 80 points · GitHub Release · claude-code v2.1.114</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.114</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.114</guid>
+    <description>▲ 95 points · Claude Code Changelog · claude-code v2.1.114</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
     <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.113</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.113</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.113</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.113</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Claude Code Opus 4.7 keeps checking on malware</title>
+    <link>https://news.ycombinator.com/item?id=47814832</link>
+    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47814832</guid>
+    <description>▲ 59 points · Hacker News · Claude Code Opus 4.7 keeps checking on malware</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.113</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.113</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.113</guid>
-    <description>▲ 75 points · GitHub Release · claude-code v2.1.113</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code-action v1.0.101</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101</guid>
-    <description>▲ 70 points · GitHub Release · claude-code-action v1.0.101</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code-action v1.0.100</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.100</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.100</guid>
-    <description>▲ 65 points · GitHub Release · claude-code-action v1.0.100</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Claude Opus 4.7 Intelligence, Performance and Price Analysis</title>
+    <link>https://artificialanalysis.ai/models/claude-opus-4-7</link>
+    <guid isPermaLink="true">https://artificialanalysis.ai/models/claude-opus-4-7</guid>
+    <description>▲ 33 points · Hacker News · Claude Opus 4.7 Intelligence, Performance and Price Analysis</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Sun, 19 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>

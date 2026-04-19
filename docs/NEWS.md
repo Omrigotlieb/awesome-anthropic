@@ -6,46 +6,31 @@
 
 ## April 19, 2026
 
-> Carry-forward snapshot from **April 18, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
-| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-| 80 | [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) | GitHub Release |
-| 85 | [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) | GitHub Release |
-| 75 | [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113) | GitHub Release |
-| 70 | [claude-code-action v1.0.101](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101) | GitHub Release |
-| 65 | [claude-code-action v1.0.100](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.100) | GitHub Release |
-
-### 📰 Official Announcements
-
-| Title | Source |
-|-------|--------|
-| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-
-### 🐦 From the Builders
-
-| Tweet | Author |
-|-------|--------|
-| [Everyone with a vision can produce very high-quality designs now (with a lil help from Claude)](https://x.com/alexalbert__/status/2045165630421364853) | Alex Albert |
+| 1631 | [“Sir, another 22 year old has found a job”](https://reddit.com/r/ClaudeAI/comments/1sp6xpg/sir_another_22_year_old_has_found_a_job/) | r/ClaudeAI |
+| 1549 | [The Opus 4.7 experience](https://reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/) | r/ClaudeAI |
+| 696 | [Claude Design keeps drawing a turd](https://reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/) | r/ClaudeAI |
+| 575 | [An old designer’s perspective on claude design.](https://reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/) | r/ClaudeAI |
+| 551 | [Claude 4.7 gaslighted me with a real commit hash and I'm not okay](https://reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/) | r/ClaudeAI |
+| 450 | [Look how they massacred my boy](https://reddit.com/r/ClaudeAI/comments/1sp1mzs/look_how_they_massacred_my_boy/) | r/ClaudeAI |
+| 436 | [I left my 7 year old nephew unsupervised on the pc and he used my claude session](https://reddit.com/r/ClaudeAI/comments/1spddf6/i_left_my_7_year_old_nephew_unsupervised_on_the/) | r/ClaudeAI |
+| 406 | [Claude is on fire. Everything they’ve dropped in the last few days .](https://reddit.com/r/ClaudeAI/comments/1sp17d3/claude_is_on_fire_everything_theyve_dropped_in/) | r/ClaudeAI |
+| 399 | [10 Hours of Claude Design - My Thoughts](https://reddit.com/r/ClaudeAI/comments/1soqutr/10_hours_of_claude_design_my_thoughts/) | r/ClaudeAI |
+| 317 | [I kept saying this all day working with Claude Code.](https://reddit.com/r/ClaudeAI/comments/1sowp77/i_kept_saying_this_all_day_working_with_claude/) | r/ClaudeAI |
+| 241 | [It was about time](https://reddit.com/r/ClaudeAI/comments/1spahp3/it_was_about_time/) | r/ClaudeAI |
+| 208 | [How Claude Must have felt after saying this](https://reddit.com/r/ClaudeAI/comments/1sp3jzq/how_claude_must_have_felt_after_saying_this/) | r/ClaudeAI |
+| 95 | [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) | Claude Code Changelog |
+| 59 | [Claude Code Opus 4.7 keeps checking on malware](https://news.ycombinator.com/item?id=47814832) | Hacker News |
+| 33 | [Claude Opus 4.7 Intelligence, Performance and Price Analysis](https://artificialanalysis.ai/models/claude-opus-4-7) | Hacker News |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) | Official Claude Code changelog entry |
-| [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) | ## What's changed  - Fixed a crash in the permission dialog when an agent teams teammate requested t |
-| [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113) | ## What's changed  - Changed the CLI to spawn a native Claude Code binary (via a per-platform option |
-| [claude-code-action v1.0.101](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.101 |
-| [claude-code-action v1.0.100](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.100) | ## What's Changed * Upgrade Claude model from opus-4-6 to opus-4-7 by @ashwin-ant in https://github. |
-| [claude-agent-sdk-python v0.1.63](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.63) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.114   ---  **PyPI:** https: |
-| [claude-agent-sdk-python v0.1.62](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.62) |  ### New Features  - **Top-level `skills` option**: Added `skills` parameter to `ClaudeAgentOptions` |
-| [claude-agent-sdk-typescript v0.2.114](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.114) | ## What's changed  - Updated to parity with Claude Code v2.1.114  ## Update  ```sh npm install @anth |
-| [claude-agent-sdk-typescript v0.2.113](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.113) | ## What's changed  - Changed the SDK to spawn a native Claude Code binary (via a per-platform option |
+| [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) | Official Claude Code changelog entry |
 
 ---
 

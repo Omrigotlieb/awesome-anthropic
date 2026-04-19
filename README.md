@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 19, 2026
 
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) - 85 pts on GitHub Release.
-- [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) - 80 pts on GitHub Release.
+- [“Sir, another 22 year old has found a job”](https://reddit.com/r/ClaudeAI/comments/1sp6xpg/sir_another_22_year_old_has_found_a_job/) - 1631 pts on r/ClaudeAI.
+- [The Opus 4.7 experience](https://reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/) - 1549 pts on r/ClaudeAI.
+- [Claude Design keeps drawing a turd](https://reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/) - 696 pts on r/ClaudeAI.
+- [An old designer’s perspective on claude design.](https://reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/) - 575 pts on r/ClaudeAI.
+- [Claude 4.7 gaslighted me with a real commit hash and I'm not okay](https://reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/) - 551 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
