@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-18
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-19
 
 <!-- CHANGELOG_START -->
 ### April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for
@@ -351,13 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-18
+> Last fetched: <!-- NEWS_DATE -->2026-04-19
 
 <!-- NEWS_START -->
-### Top Stories — April 18, 2026
+### Top Stories — April 19, 2026
 
-- [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) - 955 pts on Hacker News.
-- [claude-agent-sdk-python v0.1.63](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.63) - 85 pts on GitHub Release.
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) - 85 pts on GitHub Release.
+- [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) - 80 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

@@ -4,6 +4,51 @@
 
 ---
 
+## April 19, 2026
+
+> Carry-forward snapshot from **April 18, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+| 80 | [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) | GitHub Release |
+| 85 | [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) | GitHub Release |
+| 75 | [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113) | GitHub Release |
+| 70 | [claude-code-action v1.0.101](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101) | GitHub Release |
+| 65 | [claude-code-action v1.0.100](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.100) | GitHub Release |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Everyone with a vision can produce very high-quality designs now (with a lil help from Claude)](https://x.com/alexalbert__/status/2045165630421364853) | Alex Albert |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) | Official Claude Code changelog entry |
+| [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) | ## What's changed  - Fixed a crash in the permission dialog when an agent teams teammate requested t |
+| [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113) | ## What's changed  - Changed the CLI to spawn a native Claude Code binary (via a per-platform option |
+| [claude-code-action v1.0.101](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.101 |
+| [claude-code-action v1.0.100](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.100) | ## What's Changed * Upgrade Claude model from opus-4-6 to opus-4-7 by @ashwin-ant in https://github. |
+| [claude-agent-sdk-python v0.1.63](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.63) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.114   ---  **PyPI:** https: |
+| [claude-agent-sdk-python v0.1.62](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.62) |  ### New Features  - **Top-level `skills` option**: Added `skills` parameter to `ClaudeAgentOptions` |
+| [claude-agent-sdk-typescript v0.2.114](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.114) | ## What's changed  - Updated to parity with Claude Code v2.1.114  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.2.113](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.113) | ## What's changed  - Changed the SDK to spawn a native Claude Code binary (via a per-platform option |
+
+---
+
 ## April 18, 2026
 
 ### 🔥 Top Stories
