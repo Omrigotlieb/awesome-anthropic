@@ -6,34 +6,24 @@
 
 ## April 20, 2026
 
-> Carry-forward snapshot from **April 19, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
-| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-| 85 | [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) | GitHub Release |
-| 80 | [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) | GitHub Release |
-| 85 | [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) | GitHub Release |
-| 75 | [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113) | GitHub Release |
-| 70 | [claude-code-action v1.0.101](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101) | GitHub Release |
-
-
-### 📰 Official Announcements
-
-| Title | Source |
-|-------|--------|
-| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
-| [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
-### 🛠️ SDK & Tool Releases
-
-| Release | Highlights |
-|---------|------------|
-| [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) | Official Claude Code changelog entry |
+| 1047 | [YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including "incognito" chats/](https://reddit.com/r/ClaudeAI/comments/1spsugm/ysk_if_you_use_claude_on_your_companys_enterprise/) | r/ClaudeAI |
+| 939 | [Claude Design is Incredible...](https://reddit.com/r/ClaudeAI/comments/1spxi2f/claude_design_is_incredible/) | r/ClaudeAI |
+| 515 | [The gap between what technical and non-technical people get from AI is huge now](https://reddit.com/r/ClaudeAI/comments/1spnb80/the_gap_between_what_technical_and_nontechnical/) | r/ClaudeAI |
+| 382 | [Apparently Claude is lazy.](https://reddit.com/r/ClaudeAI/comments/1sq7rkj/apparently_claude_is_lazy/) | r/ClaudeAI |
+| 296 | [If you are unsatisfied with Opus 4.7, PLEASE simply switch to 4.6](https://reddit.com/r/ClaudeAI/comments/1spv2qi/if_you_are_unsatisfied_with_opus_47_please_simply/) | r/ClaudeAI |
+| 183 | [New Claude user for work. Blown away. Are there more specific subs?](https://reddit.com/r/ClaudeAI/comments/1spyarg/new_claude_user_for_work_blown_away_are_there/) | r/ClaudeAI |
+| 95 | [Oh Claude, How can I trust you anymore?](https://reddit.com/r/ClaudeAI/comments/1spv0bc/oh_claude_how_can_i_trust_you_anymore/) | r/ClaudeAI |
+| 93 | [What I would say I do here.](https://reddit.com/r/ClaudeAI/comments/1sq1qp8/what_i_would_say_i_do_here/) | r/ClaudeAI |
+| 92 | [Banned by Anthropic?](https://bannedbyanthropic.com/) | Hacker News |
+| 88 | [My designers thoughts on Claude design](https://reddit.com/r/ClaudeAI/comments/1sq27bs/my_designers_thoughts_on_claude_design/) | r/ClaudeAI |
+| 87 | [Uber’s Anthropic AI push hits a wall](https://finance.yahoo.com/sectors/technology/articles/ubers-anthropic-ai-push-hits-223109852.html) | Hacker News |
+| 62 | [Anthropic Removed thinking expandable block ?](https://reddit.com/r/ClaudeAI/comments/1spzuri/anthropic_removed_thinking_expandable_block/) | r/ClaudeAI |
+| 46 | [Anthropic installed a spyware bridge on my machine?](https://www.thatprivacyguy.com/blog/anthropic-spyware/) | Hacker News |
+| 14 | [NSA using Anthropic's Mythos despite blacklist](https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon) | Hacker News |
 
 ---
 

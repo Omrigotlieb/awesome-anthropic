@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 20, 2026
 
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) - 85 pts on GitHub Release.
-- [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) - 85 pts on GitHub Release.
+- [YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including "incognito" chats/](https://reddit.com/r/ClaudeAI/comments/1spsugm/ysk_if_you_use_claude_on_your_companys_enterprise/) - 1047 pts on r/ClaudeAI.
+- [Claude Design is Incredible...](https://reddit.com/r/ClaudeAI/comments/1spxi2f/claude_design_is_incredible/) - 939 pts on r/ClaudeAI.
+- [The gap between what technical and non-technical people get from AI is huge now](https://reddit.com/r/ClaudeAI/comments/1spnb80/the_gap_between_what_technical_and_nontechnical/) - 515 pts on r/ClaudeAI.
+- [Apparently Claude is lazy.](https://reddit.com/r/ClaudeAI/comments/1sq7rkj/apparently_claude_is_lazy/) - 382 pts on r/ClaudeAI.
+- [If you are unsatisfied with Opus 4.7, PLEASE simply switch to 4.6](https://reddit.com/r/ClaudeAI/comments/1spv2qi/if_you_are_unsatisfied_with_opus_47_please_simply/) - 296 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
