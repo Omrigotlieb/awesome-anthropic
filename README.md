@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-19
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-20
 
 <!-- CHANGELOG_START -->
 ### April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-19
+> Last fetched: <!-- NEWS_DATE -->2026-04-20
 
 <!-- NEWS_START -->
-### Top Stories — April 19, 2026
+### Top Stories — April 20, 2026
 
-- [“Sir, another 22 year old has found a job”](https://reddit.com/r/ClaudeAI/comments/1sp6xpg/sir_another_22_year_old_has_found_a_job/) - 1631 pts on r/ClaudeAI.
-- [The Opus 4.7 experience](https://reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/) - 1549 pts on r/ClaudeAI.
-- [Claude Design keeps drawing a turd](https://reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/) - 696 pts on r/ClaudeAI.
-- [An old designer’s perspective on claude design.](https://reddit.com/r/ClaudeAI/comments/1soql9c/an_old_designers_perspective_on_claude_design/) - 575 pts on r/ClaudeAI.
-- [Claude 4.7 gaslighted me with a real commit hash and I'm not okay](https://reddit.com/r/ClaudeAI/comments/1soxmf0/claude_47_gaslighted_me_with_a_real_commit_hash/) - 551 pts on r/ClaudeAI.
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) - 85 pts on GitHub Release.
+- [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
