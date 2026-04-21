@@ -12,6 +12,7 @@ import datetime as dt
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).parent.parent
 DAILY_PATH = ROOT / "DAILY_Anthropic.md"
@@ -268,10 +269,21 @@ def _compact(text: str, limit: int = 105) -> str:
     return clean[: limit - 1].rstrip() + "…"
 
 
+def _is_anthropic_official_url(url: str) -> bool:
+    """True for anthropic-owned domains, false for lookalike strings."""
+    try:
+        host = urlsplit(url).netloc.lower()
+    except Exception:
+        return False
+    if host.startswith("www."):
+        host = host[4:]
+    return host == "anthropic.com" or host.endswith(".anthropic.com")
+
+
 def _blog_angle(url: str, source: str) -> str:
     host = url.lower()
     source_l = source.lower()
-    if "anthropic.com/" in host:
+    if _is_anthropic_official_url(url):
         return (
             "This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation."
         )
@@ -355,7 +367,7 @@ def build_blog_articles() -> list[str]:
             seen_urls.add(url)
 
     for title, url, source, news_date in story_rows:
-        if not url or url in seen_urls or "anthropic.com/" not in url:
+        if not url or url in seen_urls or not _is_anthropic_official_url(url):
             continue
         candidates.append(
             (
@@ -571,7 +583,7 @@ def write_daily_blog(today: str) -> None:
             recent_sources.append(f"- {date_label}: [{title}]({url})")
             seen_urls.add(url)
     for title, url, _source, date_label in read_top_story_rows(limit=5, max_sections=1):
-        if url and "anthropic.com/" in url and url not in seen_urls:
+        if url and _is_anthropic_official_url(url) and url not in seen_urls:
             recent_sources.append(f"- {date_label}: [{title}]({url})")
             seen_urls.add(url)
     for name, url, _highlight, date_label in releases:

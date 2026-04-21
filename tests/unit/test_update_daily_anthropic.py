@@ -108,6 +108,12 @@ RELEASE_FALLBACK_NEWS = """# Anthropic News Feed
 
 
 class TestUpdateDailyAnthropic(unittest.TestCase):
+    def test_is_anthropic_official_url_rejects_lookalike_domains(self):
+        self.assertTrue(daily._is_anthropic_official_url("https://www.anthropic.com/news/claude-opus-4-7"))
+        self.assertTrue(daily._is_anthropic_official_url("https://anthropic.com/news/claude-design"))
+        self.assertFalse(daily._is_anthropic_official_url("https://bannedbyanthropic.com/"))
+        self.assertFalse(daily._is_anthropic_official_url("https://example.com/anthropic.com/news"))
+
     def test_effective_section_date_prefers_carry_forward_note(self):
         section_text = (
             "> Carry-forward snapshot from **April 18, 2026** because DNS/network was unavailable during this run.\n"
