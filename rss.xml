@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 05:02:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 06:00:49 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,67 +13,59 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Introducing Claude Design by Anthropic Labs</title>
-    <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
-    <description>▲ 100 points · Anthropic Blog · Introducing Claude Design by Anthropic Labs</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <title>NSA is using Anthropic&apos;s Mythos despite blacklist</title>
+    <link>https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon</link>
+    <guid isPermaLink="true">https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon</guid>
+    <description>▲ 455 points · Hacker News · NSA is using Anthropic&apos;s Mythos despite blacklist</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Introducing Claude Opus 4.7</title>
-    <link>https://www.anthropic.com/news/claude-opus-4-7</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-7</guid>
-    <description>▲ 100 points · Anthropic Blog · Introducing Claude Opus 4.7</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
-    <link>https://www.anthropic.com/news/narasimhan-board</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/narasimhan-board</guid>
-    <description>▲ 100 points · Anthropic Blog · Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-code v2.1.114</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.114</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.114</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.114</description>
+    <title>claude-agent-sdk-python v0.1.64</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.64</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
     <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.114</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.114</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.114</guid>
-    <description>▲ 80 points · GitHub Release · claude-code v2.1.114</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Anthropic says OpenClaw-style Claude CLI usage is allowed again</title>
+    <link>https://docs.openclaw.ai/providers/anthropic</link>
+    <guid isPermaLink="true">https://docs.openclaw.ai/providers/anthropic</guid>
+    <description>▲ 35 points · Hacker News · Anthropic says OpenClaw-style Claude CLI usage is allowed again</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.113</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.113</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.113</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.113</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Yann LeCun says Dario Amodei &quot;knows nothing about AI effects on jobs&quot;</title>
+    <link>https://timesofindia.indiatimes.com/technology/tech-news/godfather-of-ai-and-metas-most-popular-ex-employee-yann-lecun-says-anthropic-ceo-dario-amodei-knows-absolutely-nothing-about-ai-effects-on-jobs-dario-is-wrong/articleshow/130377621.cms</link>
+    <guid isPermaLink="true">https://timesofindia.indiatimes.com/technology/tech-news/godfather-of-ai-and-metas-most-popular-ex-employee-yann-lecun-says-anthropic-ceo-dario-amodei-knows-absolutely-nothing-about-ai-effects-on-jobs-dario-is-wrong/articleshow/130377621.cms</guid>
+    <description>▲ 25 points · Hacker News · Yann LeCun says Dario Amodei &quot;knows nothing about AI effects on jobs&quot;</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.113</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.113</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.113</guid>
-    <description>▲ 75 points · GitHub Release · claude-code v2.1.113</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Rumor: Anthropic is going to buy Atlassian?</title>
+    <link>https://old.reddit.com/r/atlassian/comments/1sob1s2/atlassian_anthropic/</link>
+    <guid isPermaLink="true">https://old.reddit.com/r/atlassian/comments/1sob1s2/atlassian_anthropic/</guid>
+    <description>▲ 21 points · Hacker News · Rumor: Anthropic is going to buy Atlassian?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.101</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101</guid>
-    <description>▲ 70 points · GitHub Release · claude-code-action v1.0.101</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Show HN: CyberWriter – a .md editor built on Apple&apos;s (barely-used) on-device AI</title>
+    <link>https://cyberwriter.app</link>
+    <guid isPermaLink="true">https://cyberwriter.app</guid>
+    <description>▲ 14 points · Hacker News · Show HN: CyberWriter – a .md editor built on Apple&apos;s (barely-used) on-device AI</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Regulators monitor Anthropic&apos;s Mythos for banking risks</title>
+    <link>https://www.reuters.com/legal/government/regulators-monitor-anthropics-mythos-banking-risks-2026-04-20/</link>
+    <guid isPermaLink="true">https://www.reuters.com/legal/government/regulators-monitor-anthropics-mythos-banking-risks-2026-04-20/</guid>
+    <description>▲ 10 points · Hacker News · Regulators monitor Anthropic&apos;s Mythos for banking risks</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Tue, 21 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>

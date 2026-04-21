@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-18T06:00:53Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-21T06:00:52Z
+
+---
+
+## April 20, 2026 — We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests
+
+We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests to this model will now return an error. We recommend upgrading to Claude Haiku 4.5 .
 
 ---
 
@@ -131,11 +137,5 @@ console.anthropic.com now redirects to platform.claude.com . The Claude Console 
 ## January 5, 2026 — We've retired the Claude Opus 3 model ( claude-3-opus-20240229 ). All requests t
 
 We've retired the Claude Opus 3 model ( claude-3-opus-20240229 ). All requests to this model will now return an error. We recommend upgrading to Claude Opus 4.5 , which offers significantly improved intelligence at a third of the cost. Researchers can request ongoing access to Claude Opus 3 on the API through the External Researcher Access Program .
-
----
-
-## December 19, 2025 — We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model d
-
-We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model deprecations .
 
 ---
