@@ -4,6 +4,33 @@
 
 ---
 
+## April 21, 2026
+
+> Carry-forward snapshot from **April 20, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+| 100 | [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+| 85 | [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) | GitHub Release |
+| 80 | [claude-code v2.1.114](https://github.com/anthropics/claude-code/releases/tag/v2.1.114) | GitHub Release |
+| 85 | [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) | GitHub Release |
+| 75 | [claude-code v2.1.113](https://github.com/anthropics/claude-code/releases/tag/v2.1.113) | GitHub Release |
+| 70 | [claude-code-action v1.0.101](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.101) | GitHub Release |
+
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+| [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) | Anthropic Blog |
+---
+
 ## April 20, 2026
 
 ### 🔥 Top Stories

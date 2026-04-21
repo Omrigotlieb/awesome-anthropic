@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-04-20 (news snapshot: April 20, 2026)
+## 2026-04-21 (news snapshot: April 20, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -13,15 +13,15 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Top Story Snapshot
 
-- [YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including "incognito" chats/](https://reddit.com/r/ClaudeAI/comments/1spsugm/ysk_if_you_use_claude_on_your_companys_enterprise/)
-- [Claude Design is Incredible...](https://reddit.com/r/ClaudeAI/comments/1spxi2f/claude_design_is_incredible/)
-- [The gap between what technical and non-technical people get from AI is huge now](https://reddit.com/r/ClaudeAI/comments/1spnb80/the_gap_between_what_technical_and_nontechnical/)
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-20
+- Run date (UTC): 2026-04-21
 - News snapshot date: April 20, 2026
-- Snapshot lag: 0 day(s).
+- Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
 
 ### Why This Matters for Builders
 

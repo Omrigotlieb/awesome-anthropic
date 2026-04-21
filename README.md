@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-20
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-21
 
 <!-- CHANGELOG_START -->
 ### April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-20
+> Last fetched: <!-- NEWS_DATE -->2026-04-21
 
 <!-- NEWS_START -->
-### Top Stories — April 20, 2026
+### Top Stories — April 21, 2026
 
-- [YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including "incognito" chats/](https://reddit.com/r/ClaudeAI/comments/1spsugm/ysk_if_you_use_claude_on_your_companys_enterprise/) - 1047 pts on r/ClaudeAI.
-- [Claude Design is Incredible...](https://reddit.com/r/ClaudeAI/comments/1spxi2f/claude_design_is_incredible/) - 939 pts on r/ClaudeAI.
-- [The gap between what technical and non-technical people get from AI is huge now](https://reddit.com/r/ClaudeAI/comments/1spnb80/the_gap_between_what_technical_and_nontechnical/) - 515 pts on r/ClaudeAI.
-- [Apparently Claude is lazy.](https://reddit.com/r/ClaudeAI/comments/1sq7rkj/apparently_claude_is_lazy/) - 382 pts on r/ClaudeAI.
-- [If you are unsatisfied with Opus 4.7, PLEASE simply switch to 4.6](https://reddit.com/r/ClaudeAI/comments/1spv2qi/if_you_are_unsatisfied_with_opus_47_please_simply/) - 296 pts on r/ClaudeAI.
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) - 85 pts on GitHub Release.
+- [claude-code v2.1.113](https://code.claude.com/docs/en/changelog?version=2.1.113) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

@@ -469,3 +469,13 @@ This file is checked first at the start of each daily automation run.
 - [The Opus 4.7 experience](https://reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/)
 - [Claude Design keeps drawing a turd](https://reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-21
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [YSK: If you use Claude on your company's Enterprise plan, your employer can access every message you've ever sent, including "incognito" chats/](https://reddit.com/r/ClaudeAI/comments/1spsugm/ysk_if_you_use_claude_on_your_companys_enterprise/)
+- [Claude Design is Incredible...](https://reddit.com/r/ClaudeAI/comments/1spxi2f/claude_design_is_incredible/)
+- [The gap between what technical and non-technical people get from AI is huge now](https://reddit.com/r/ClaudeAI/comments/1spnb80/the_gap_between_what_technical_and_nontechnical/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
