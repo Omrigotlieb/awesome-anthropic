@@ -246,6 +246,36 @@ class TestFetchNewsQuality(unittest.TestCase):
             ["claude-code v2.1.110", "claude-code v2.1.109", "claude-code-action v1.0.97"],
         )
 
+    def test_primary_story_fallback_dedupes_same_title_across_sources(self):
+        announcements = [
+            mk(
+                "Introducing Claude Opus 4.7",
+                source="Anthropic Blog",
+                score=0,
+                url="https://www.anthropic.com/news/claude-opus-4-7",
+                published_at="2026-04-17T00:00:00+00:00",
+            )
+        ]
+        releases = [
+            mk(
+                "Introducing Claude Opus 4.7",
+                source="GitHub Release",
+                score=0,
+                url="https://example.com/mirror/claude-opus-4-7",
+                published_at="2026-04-17T00:00:00+00:00",
+            ),
+            mk(
+                "claude-code v2.1.116",
+                source="GitHub Release",
+                score=0,
+                url="https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+                published_at="2026-04-21T00:00:00+00:00",
+            ),
+        ]
+        selected = build_primary_story_fallback(announcements, releases, limit=5)
+        self.assertEqual([item.title for item in selected].count("Introducing Claude Opus 4.7"), 1)
+        self.assertIn("claude-code v2.1.116", [item.title for item in selected])
+
     def test_ensure_primary_signal_stories_injects_release_when_missing(self):
         stories = [
             mk("Community story 1", source="r/ClaudeAI", score=900, url="https://example.com/s1"),

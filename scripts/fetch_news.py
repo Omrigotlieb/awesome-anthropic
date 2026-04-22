@@ -804,6 +804,7 @@ def build_primary_story_fallback(
     """
     selected: list[NewsItem] = []
     seen_urls: set[str] = set()
+    seen_title_fingerprints: set[str] = set()
 
     def _append(items: list[NewsItem], base_score: int, step: int) -> None:
         nonlocal selected
@@ -814,7 +815,8 @@ def build_primary_story_fallback(
             reverse=True,
         ):
             key = canonical_story_url(item.url)
-            if not key or key in seen_urls:
+            fp = title_fingerprint(item.title)
+            if not key or key in seen_urls or (fp and fp in seen_title_fingerprints):
                 continue
             score = item.score if item.score > 0 else max(base_score - (rank * step), 1)
             selected.append(
@@ -829,6 +831,8 @@ def build_primary_story_fallback(
                 )
             )
             seen_urls.add(key)
+            if fp:
+                seen_title_fingerprints.add(fp)
             rank += 1
             if len(selected) >= limit:
                 return
