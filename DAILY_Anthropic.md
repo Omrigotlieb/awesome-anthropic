@@ -479,3 +479,13 @@ This file is checked first at the start of each daily automation run.
 - [Claude Design is Incredible...](https://reddit.com/r/ClaudeAI/comments/1spxi2f/claude_design_is_incredible/)
 - [The gap between what technical and non-technical people get from AI is huge now](https://reddit.com/r/ClaudeAI/comments/1spnb80/the_gap_between_what_technical_and_nontechnical/)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-22
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [NSA is using Anthropic's Mythos despite blacklist](https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon)
+- [claude-agent-sdk-python v0.1.64](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64)
+- [Anthropic says OpenClaw-style Claude CLI usage is allowed again](https://docs.openclaw.ai/providers/anthropic)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

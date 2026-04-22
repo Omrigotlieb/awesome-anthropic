@@ -4,6 +4,57 @@
 
 ---
 
+## April 22, 2026
+
+> Carry-forward snapshot from **April 21, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+| 85 | [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) | GitHub Release |
+| 80 | [claude-code v2.1.116](https://github.com/anthropics/claude-code/releases/tag/v2.1.116) | GitHub Release |
+| 75 | [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) | GitHub Release |
+| 65 | [claude-agent-sdk-typescript v0.2.116](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116) | GitHub Release |
+| 70 | [claude-agent-sdk-python v0.1.64](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64) | GitHub Release |
+| 85 | [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) | GitHub Release |
+
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We're launching the Anthropic STEM Fellows Program. 
+
+AI will accelerate progress in science and engineering. We're looking for experts across these fields to work alongside our research teams on spec](https://x.com/AnthropicAI/status/2046362119755727256) | Anthropic |
+| [We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected by t](https://x.com/AnthropicAI/status/2046327624092487688) | Anthropic |
+
+### 🔬 Research
+
+| Title | Source |
+|-------|--------|
+| [Agentic Education: Using Claude Code to Teach Claude Code](http://arxiv.org/abs/2604.17460v1) | arXiv |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) | Official Claude Code changelog entry |
+| [claude-code v2.1.116](https://github.com/anthropics/claude-code/releases/tag/v2.1.116) | ## What's changed  - `/resume` on large sessions is significantly faster (up to 67% on 40MB+ session |
+| [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) | ## What's Changed * chore: bump oven-sh/setup-bun to v2.2.0 (Node.js 24) by @ashwin-ant in https://g |
+| [claude-agent-sdk-python v0.1.64](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64) |  ### New Features  - **SessionStore adapter**: Full SessionStore support at parity with the TypeScri |
+| [claude-agent-sdk-typescript v0.2.116](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116) | ## What's changed  - Updated to parity with Claude Code v2.1.116  ## Update  ```sh npm install @anth |
+
+---
+
 ## April 21, 2026
 
 ### 🔥 Top Stories
