@@ -6,9 +6,9 @@ Use and adapt these drafts for channel distribution.
 
 ```text
 Claude + Anthropic daily pulse (April 22, 2026):
-1) Introducing Claude Design by Anthropic Labs
-2) Introducing Claude Opus 4.7
-3) claude-code v2.1.116
+1) PSA: Claude Pro no longer lists Claude Code as an included feature
+2) Anthropic response to Claude Code change
+3) Does Claude's $20 Plan No Longer Include Claude Code?
 
 Track it here:
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -21,8 +21,8 @@ Dashboard: https://omrigotlieb.github.io/awesome-anthropic/
 We published today’s Awesome Anthropic brief (April 22, 2026).
 
 Highlights:
-• Introducing Claude Design by Anthropic Labs
-• Introducing Claude Opus 4.7
+• PSA: Claude Pro no longer lists Claude Code as an included feature
+• Anthropic response to Claude Code change
 • Introducing Claude Design by Anthropic Labs
 
 For builders tracking Claude Code and Anthropic product movement:
@@ -37,9 +37,9 @@ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 Daily Anthropic + Claude Code brief (April 22, 2026)
 
 Top signals:
-- Introducing Claude Design by Anthropic Labs
-- Introducing Claude Opus 4.7
-- claude-code v2.1.116
+- PSA: Claude Pro no longer lists Claude Code as an included feature
+- Anthropic response to Claude Code change
+- Does Claude's $20 Plan No Longer Include Claude Code?
 
 Full feed: https://omrigotlieb.github.io/awesome-anthropic/#/docs/NEWS
 Repo: https://github.com/Omrigotlieb/awesome-anthropic
@@ -49,6 +49,6 @@ RSS: https://omrigotlieb.github.io/awesome-anthropic/rss.xml
 ## Hacker News
 
 ```text
-Title: Daily Claude + Anthropic digest (April 22, 2026): Introducing Claude Design by Anthropic Labs
+Title: Daily Claude + Anthropic digest (April 22, 2026): PSA: Claude Pro no longer lists Claude Code as an included feature
 Text: Tracking daily product, release, and community signals here: https://omrigotlieb.github.io/awesome-anthropic/ Repository: https://github.com/Omrigotlieb/awesome-anthropic
 ```

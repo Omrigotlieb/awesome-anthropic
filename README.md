@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 22, 2026
 
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) - 85 pts on GitHub Release.
-- [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) - 85 pts on GitHub Release.
-- [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) - 75 pts on GitHub Release.
+- [PSA: Claude Pro no longer lists Claude Code as an included feature](https://reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/) - 2036 pts on r/ClaudeAI.
+- [Anthropic response to Claude Code change](https://reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/) - 656 pts on r/ClaudeAI.
+- [Does Claude's $20 Plan No Longer Include Claude Code?](https://reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/) - 581 pts on r/ClaudeAI.
+- [Tried to use AI as a shrink. I said, “Claude, I’m at my limit.” Claude said, “So am I!”](https://reddit.com/r/ClaudeAI/comments/1srgzok/tried_to_use_ai_as_a_shrink_i_said_claude_im_at/) - 548 pts on r/ClaudeAI.
+- [An open letter to Anthropic](https://reddit.com/r/ClaudeAI/comments/1ss8h1x/an_open_letter_to_anthropic/) - 527 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

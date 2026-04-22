@@ -6,51 +6,34 @@
 
 ## April 22, 2026
 
-> Carry-forward snapshot from **April 21, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
-| 85 | [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) | GitHub Release |
-| 75 | [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) | GitHub Release |
-| 65 | [claude-agent-sdk-typescript v0.2.116](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116) | GitHub Release |
-| 70 | [claude-agent-sdk-python v0.1.64](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64) | GitHub Release |
-| 85 | [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) | GitHub Release |
-
-
-### 📰 Official Announcements
-
-| Title | Source |
-|-------|--------|
-| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
-### 🐦 From the Builders
-
-| Tweet | Author |
-|-------|--------|
-| [We're launching the Anthropic STEM Fellows Program. 
-
-AI will accelerate progress in science and engineering. We're looking for experts across these fields to work alongside our research teams on spec](https://x.com/AnthropicAI/status/2046362119755727256) | Anthropic |
-| [We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected by t](https://x.com/AnthropicAI/status/2046327624092487688) | Anthropic |
-
-### 🔬 Research
-
-| Title | Source |
-|-------|--------|
-| [Agentic Education: Using Claude Code to Teach Claude Code](http://arxiv.org/abs/2604.17460v1) | arXiv |
+| 2036 | [PSA: Claude Pro no longer lists Claude Code as an included feature](https://reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/) | r/ClaudeAI |
+| 656 | [Anthropic response to Claude Code change](https://reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/) | r/ClaudeAI |
+| 581 | [Does Claude's $20 Plan No Longer Include Claude Code?](https://reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/) | r/ClaudeAI |
+| 548 | [Tried to use AI as a shrink. I said, “Claude, I’m at my limit.” Claude said, “So am I!”](https://reddit.com/r/ClaudeAI/comments/1srgzok/tried_to_use_ai_as_a_shrink_i_said_claude_im_at/) | r/ClaudeAI |
+| 527 | [An open letter to Anthropic](https://reddit.com/r/ClaudeAI/comments/1ss8h1x/an_open_letter_to_anthropic/) | r/ClaudeAI |
+| 518 | [Claude caught a cryptominer that'd been using my NAS for two years.](https://reddit.com/r/ClaudeAI/comments/1srv55h/claude_caught_a_cryptominer_thatd_been_using_my/) | r/ClaudeAI |
+| 471 | [Claude Code to be removed from Anthropic's Pro plan?](https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a) | Hacker News |
+| 362 | [Claude Code gone from pro plan now?!](https://reddit.com/r/Anthropic/comments/1ss1xaz/claude_code_gone_from_pro_plan_now/) | r/Anthropic |
+| 271 | [Please don't take Opus 4.6 and Extended thinking away. 4.7 is absolutely useless.](https://reddit.com/r/Anthropic/comments/1srqi3f/please_dont_take_opus_46_and_extended_thinking/) | r/Anthropic |
+| 268 | [Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return](https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/) | Hacker News |
+| 210 | [Am i stupid or are they making fun of us?](https://reddit.com/r/Anthropic/comments/1srm65e/am_i_stupid_or_are_they_making_fun_of_us/) | r/Anthropic |
+| 200 | [claude roasting Anthropic w/ factts🤣🤣🤣🤣](https://reddit.com/r/Anthropic/comments/1srf6ku/claude_roasting_anthropic_w_factts/) | r/Anthropic |
+| 171 | [Show HN: GoModel – an open-source AI gateway in Go](https://github.com/ENTERPILOT/GOModel/) | Hacker News |
+| 85 | [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) | GitHub Release |
+| 69 | [Claude Code Removed from $20-a-Month "Pro" Subscription for New Users](https://www.wheresyoured.at/news-anthropic-removes-pro-cc/) | Hacker News |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) | Official Claude Code changelog entry |
-| [claude-code v2.1.116](https://github.com/anthropics/claude-code/releases/tag/v2.1.116) | ## What's changed  - `/resume` on large sessions is significantly faster (up to 67% on 40MB+ session |
-| [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) | ## What's Changed * chore: bump oven-sh/setup-bun to v2.2.0 (Node.js 24) by @ashwin-ant in https://g |
-| [claude-agent-sdk-python v0.1.64](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64) |  ### New Features  - **SessionStore adapter**: Full SessionStore support at parity with the TypeScri |
-| [claude-agent-sdk-typescript v0.2.116](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116) | ## What's changed  - Updated to parity with Claude Code v2.1.116  ## Update  ```sh npm install @anth |
+| [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) | Official Claude Code changelog entry |
+| [claude-code v2.1.117](https://github.com/anthropics/claude-code/releases/tag/v2.1.117) | ## What's changed  - Forked subagents can now be enabled on external builds by setting `CLAUDE_CODE_ |
+| [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.103 |
+| [claude-agent-sdk-typescript v0.2.117](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.117) | ## What's changed  - Updated to parity with Claude Code v2.1.117  ## Update  ```sh npm install @anth |
 
 ---
 

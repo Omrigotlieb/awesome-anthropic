@@ -1,26 +1,27 @@
 # Daily Anthropic Brief
 
-## 2026-04-22 (news snapshot: April 21, 2026)
+## 2026-04-22 (news snapshot: April 22, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) is currently the latest Claude Code release visible in this repository snapshot.
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 - [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 
 ### Top Story Snapshot
 
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
-- [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116)
+- [PSA: Claude Pro no longer lists Claude Code as an included feature](https://reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/)
+- [Anthropic response to Claude Code change](https://reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/)
+- [Does Claude's $20 Plan No Longer Include Claude Code?](https://reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/)
 
 ### Freshness Status
 
 - Run date (UTC): 2026-04-22
-- News snapshot date: April 21, 2026
-- Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
+- News snapshot date: April 22, 2026
+- Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
 
