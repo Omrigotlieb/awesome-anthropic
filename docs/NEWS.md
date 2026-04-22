@@ -15,7 +15,6 @@
 | 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
 | 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
 | 85 | [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) | GitHub Release |
-| 80 | [claude-code v2.1.116](https://github.com/anthropics/claude-code/releases/tag/v2.1.116) | GitHub Release |
 | 75 | [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) | GitHub Release |
 | 65 | [claude-agent-sdk-typescript v0.2.116](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116) | GitHub Release |
 | 70 | [claude-agent-sdk-python v0.1.64](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64) | GitHub Release |

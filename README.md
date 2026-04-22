@@ -360,7 +360,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
 - [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) - 85 pts on GitHub Release.
 - [claude-code v2.1.114](https://code.claude.com/docs/en/changelog?version=2.1.114) - 85 pts on GitHub Release.
-- [claude-code v2.1.116](https://github.com/anthropics/claude-code/releases/tag/v2.1.116) - 80 pts on GitHub Release.
+- [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) - 75 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

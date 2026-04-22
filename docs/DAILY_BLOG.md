@@ -51,7 +51,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Ecosystem release signal
 
-**News peg (April 21, 2026):** [claude-code v2.1.116](https://github.com/anthropics/claude-code/releases/tag/v2.1.116)
+**News peg (April 21, 2026):** [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102)
 
 Snapshot update: Top story source: GitHub Release
 
