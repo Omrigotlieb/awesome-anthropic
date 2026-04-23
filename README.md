@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-22
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-23
 
 <!-- CHANGELOG_START -->
 ### April 20, 2026 — We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-22
+> Last fetched: <!-- NEWS_DATE -->2026-04-23
 
 <!-- NEWS_START -->
-### Top Stories — April 22, 2026
+### Top Stories — April 23, 2026
 
-- [PSA: Claude Pro no longer lists Claude Code as an included feature](https://reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/) - 2036 pts on r/ClaudeAI.
-- [Anthropic response to Claude Code change](https://reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/) - 656 pts on r/ClaudeAI.
-- [Does Claude's $20 Plan No Longer Include Claude Code?](https://reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/) - 581 pts on r/ClaudeAI.
-- [Tried to use AI as a shrink. I said, “Claude, I’m at my limit.” Claude said, “So am I!”](https://reddit.com/r/ClaudeAI/comments/1srgzok/tried_to_use_ai_as_a_shrink_i_said_claude_im_at/) - 548 pts on r/ClaudeAI.
-- [An open letter to Anthropic](https://reddit.com/r/ClaudeAI/comments/1ss8h1x/an_open_letter_to_anthropic/) - 527 pts on r/ClaudeAI.
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) - 85 pts on GitHub Release.
+- [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) - 85 pts on GitHub Release.
+- [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) - 75 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

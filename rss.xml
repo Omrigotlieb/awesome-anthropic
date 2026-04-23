@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2026 06:01:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 05:01:09 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,68 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>PSA: Claude Pro no longer lists Claude Code as an included feature</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/</guid>
-    <description>▲ 2036 points · r/ClaudeAI · PSA: Claude Pro no longer lists Claude Code as an included feature</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Introducing Claude Design by Anthropic Labs</title>
+    <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
+    <description>▲ 100 points · Anthropic Blog · Introducing Claude Design by Anthropic Labs</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic response to Claude Code change</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/</guid>
-    <description>▲ 656 points · r/ClaudeAI · Anthropic response to Claude Code change</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Introducing Claude Opus 4.7</title>
+    <link>https://www.anthropic.com/news/claude-opus-4-7</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-7</guid>
+    <description>▲ 100 points · Anthropic Blog · Introducing Claude Opus 4.7</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Does Claude&apos;s $20 Plan No Longer Include Claude Code?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/</guid>
-    <description>▲ 581 points · r/ClaudeAI · Does Claude&apos;s $20 Plan No Longer Include Claude Code?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Tried to use AI as a shrink. I said, “Claude, I’m at my limit.” Claude said, “So am I!”</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1srgzok/tried_to_use_ai_as_a_shrink_i_said_claude_im_at/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1srgzok/tried_to_use_ai_as_a_shrink_i_said_claude_im_at/</guid>
-    <description>▲ 548 points · r/ClaudeAI · Tried to use AI as a shrink. I said, “Claude, I’m at my limit.” Claude said, “So am I!”</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>An open letter to Anthropic</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ss8h1x/an_open_letter_to_anthropic/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ss8h1x/an_open_letter_to_anthropic/</guid>
-    <description>▲ 527 points · r/ClaudeAI · An open letter to Anthropic</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude caught a cryptominer that&apos;d been using my NAS for two years.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1srv55h/claude_caught_a_cryptominer_thatd_been_using_my/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1srv55h/claude_caught_a_cryptominer_thatd_been_using_my/</guid>
-    <description>▲ 518 points · r/ClaudeAI · Claude caught a cryptominer that&apos;d been using my NAS for two years.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Code to be removed from Anthropic&apos;s Pro plan?</title>
-    <link>https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a</link>
-    <guid isPermaLink="true">https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a</guid>
-    <description>▲ 471 points · Hacker News · Claude Code to be removed from Anthropic&apos;s Pro plan?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Code gone from pro plan now?!</title>
-    <link>https://reddit.com/r/Anthropic/comments/1ss1xaz/claude_code_gone_from_pro_plan_now/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1ss1xaz/claude_code_gone_from_pro_plan_now/</guid>
-    <description>▲ 362 points · r/Anthropic · Claude Code gone from pro plan now?!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Please don&apos;t take Opus 4.6 and Extended thinking away. 4.7 is absolutely useless.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1srqi3f/please_dont_take_opus_46_and_extended_thinking/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1srqi3f/please_dont_take_opus_46_and_extended_thinking/</guid>
-    <description>▲ 271 points · r/Anthropic · Please don&apos;t take Opus 4.6 and Extended thinking away. 4.7 is absolutely useless.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return</title>
-    <link>https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/</link>
-    <guid isPermaLink="true">https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/</guid>
-    <description>▲ 268 points · Hacker News · Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Am i stupid or are they making fun of us?</title>
-    <link>https://reddit.com/r/Anthropic/comments/1srm65e/am_i_stupid_or_are_they_making_fun_of_us/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1srm65e/am_i_stupid_or_are_they_making_fun_of_us/</guid>
-    <description>▲ 210 points · r/Anthropic · Am i stupid or are they making fun of us?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude roasting Anthropic w/ factts🤣🤣🤣🤣</title>
-    <link>https://reddit.com/r/Anthropic/comments/1srf6ku/claude_roasting_anthropic_w_factts/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1srf6ku/claude_roasting_anthropic_w_factts/</guid>
-    <description>▲ 200 points · r/Anthropic · claude roasting Anthropic w/ factts🤣🤣🤣🤣</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Show HN: GoModel – an open-source AI gateway in Go</title>
-    <link>https://github.com/ENTERPILOT/GOModel/</link>
-    <guid isPermaLink="true">https://github.com/ENTERPILOT/GOModel/</guid>
-    <description>▲ 171 points · Hacker News · Show HN: GoModel – an open-source AI gateway in Go</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.117</title>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.117</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.117</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.117</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>claude-code-action v1.0.103</title>
     <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103</link>
     <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103</guid>
-    <description>▲ 85 points · GitHub Release · claude-code-action v1.0.103</description>
+    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.103</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude Code Removed from $20-a-Month &quot;Pro&quot; Subscription for New Users</title>
-    <link>https://www.wheresyoured.at/news-anthropic-removes-pro-cc/</link>
-    <guid isPermaLink="true">https://www.wheresyoured.at/news-anthropic-removes-pro-cc/</guid>
-    <description>▲ 69 points · Hacker News · Claude Code Removed from $20-a-Month &quot;Pro&quot; Subscription for New Users</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 22 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-agent-sdk-typescript v0.2.117</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.117</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.117</guid>
+    <description>▲ 70 points · GitHub Release · claude-agent-sdk-typescript v0.2.117</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code v2.1.116</title>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.116</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.116</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.116</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.102</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102</guid>
+    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.102</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-agent-sdk-typescript v0.2.116</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116</guid>
+    <description>▲ 65 points · GitHub Release · claude-agent-sdk-typescript v0.2.116</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

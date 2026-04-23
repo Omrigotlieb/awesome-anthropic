@@ -489,3 +489,13 @@ This file is checked first at the start of each daily automation run.
 - [claude-agent-sdk-python v0.1.64](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.64)
 - [Anthropic says OpenClaw-style Claude CLI usage is allowed again](https://docs.openclaw.ai/providers/anthropic)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-23
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [PSA: Claude Pro no longer lists Claude Code as an included feature](https://reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an/)
+- [Anthropic response to Claude Code change](https://reddit.com/r/ClaudeAI/comments/1ss5fi4/anthropic_response_to_claude_code_change/)
+- [Does Claude's $20 Plan No Longer Include Claude Code?](https://reddit.com/r/ClaudeAI/comments/1ss3asp/does_claudes_20_plan_no_longer_include_claude_code/)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
