@@ -1,26 +1,27 @@
 # Daily Anthropic Brief
 
-## 2026-04-23 (news snapshot: April 22, 2026)
+## 2026-04-23 (news snapshot: April 23, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) is currently the latest Claude Code release visible in this repository snapshot.
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 - [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 
 ### Top Story Snapshot
 
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 - [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
-- [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117)
+- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
 
 ### Freshness Status
 
 - Run date (UTC): 2026-04-23
-- News snapshot date: April 22, 2026
-- Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
+- News snapshot date: April 23, 2026
+- Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
 

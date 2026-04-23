@@ -6,36 +6,49 @@
 
 ## April 23, 2026
 
-> Carry-forward snapshot from **April 22, 2026** because DNS/network was unavailable during this run.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| 100 | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
-| 85 | [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) | GitHub Release |
-| 75 | [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) | GitHub Release |
-| 70 | [claude-agent-sdk-typescript v0.2.117](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.117) | GitHub Release |
-| 85 | [claude-code v2.1.116](https://code.claude.com/docs/en/changelog?version=2.1.116) | GitHub Release |
-| 75 | [claude-code-action v1.0.102](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.102) | GitHub Release |
-| 65 | [claude-agent-sdk-typescript v0.2.116](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.116) | GitHub Release |
+| 1662 | [PSA: Anthropic bans organizations without warning](https://reddit.com/r/ClaudeAI/comments/1sspwz2/psa_anthropic_bans_organizations_without_warning/) | r/ClaudeAI |
+| 696 | [based on a true story. im the developer](https://reddit.com/r/ClaudeAI/comments/1st1kj9/based_on_a_true_story_im_the_developer/) | r/ClaudeAI |
+| 443 | [Claude Code was wasting 80% of Opus 4.7's context window. Upgrade to v2.1.117 now.](https://reddit.com/r/ClaudeAI/comments/1ssgnfb/claude_code_was_wasting_80_of_opus_47s_context/) | r/ClaudeAI |
+| 421 | [Swapped to 4.7 and embarrassed myself at work](https://reddit.com/r/ClaudeAI/comments/1ssnuy7/swapped_to_47_and_embarrassed_myself_at_work/) | r/ClaudeAI |
+| 372 | [Claude can end a conversation](https://reddit.com/r/ClaudeAI/comments/1ssgrro/claude_can_end_a_conversation/) | r/ClaudeAI |
+| 301 | [Rocky's grammar from Project Hail Mary — up to 83% fewer output tokens on Claude. Built it into a skill file.](https://reddit.com/r/ClaudeAI/comments/1sseh6m/rockys_grammar_from_project_hail_mary_up_to_83/) | r/ClaudeAI |
+| 288 | [The "Missing Middle": Why is there no $50/mo Claude tier?](https://reddit.com/r/ClaudeAI/comments/1ssmra2/the_missing_middle_why_is_there_no_50mo_claude/) | r/ClaudeAI |
+| 177 | [The most complete Claude Code cheat sheet 🧠](https://reddit.com/r/ClaudeAI/comments/1ssslm3/the_most_complete_claude_code_cheat_sheet/) | r/ClaudeAI |
+| 161 | [Internal Mozilla report shows data contradicting public reporting which said Mythos found 271 bugs in Firefox 150 . It actually found only 3 of 271](https://reddit.com/r/ClaudeAI/comments/1st19on/internal_mozilla_report_shows_data_contradicting/) | r/ClaudeAI |
+| 150 | [Claude Pro still has Claude Code](https://reddit.com/r/ClaudeAI/comments/1ssf3zq/claude_pro_still_has_claude_code/) | r/ClaudeAI |
+| 85 | [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) | GitHub Release |
+| 85 | [New study compares growing corn for energy to solar production](https://www.anthropocenemagazine.org/2025/04/new-study-compares-growing-corn-for-energy-to-solar-production-its-no-contest/) | Hacker News |
+| 49 | [A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic](https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/) | Hacker News |
+| 17 | [Anthropic investigating unauthorised access of powerful Mythos AI model](https://www.ft.com/content/56d65763-69fe-4756-baf4-c8192b7aadaf) | Hacker News |
+| 14 | [Ask HN: Why Opus4.6 was silently removed from Claude Code?](https://news.ycombinator.com/item?id=47861009) | Hacker News |
 
+### 🐦 From the Builders
 
-### 📰 Official Announcements
-
-| Title | Source |
+| Tweet | Author |
 |-------|--------|
-| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Anthropic Blog |
+| [Claude Code won a Webby! Thanks to all of our users and customers for the support and love, and for always giving us feedback so that we can continue making the product a little better every day.
+
+htt](https://x.com/bcherny/status/2047004804283773321) | Boris Cherney |
+| [Last month, we published our look into what 81,000 people told us they want from AI.
+
+In new research, we’ve investigated the economic hopes and worries referenced in their responses.
+
+Read more: http](https://x.com/AnthropicAI/status/2047006548149289017) | Anthropic |
+
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) | Official Claude Code changelog entry |
-| [claude-code v2.1.117](https://github.com/anthropics/claude-code/releases/tag/v2.1.117) | ## What's changed  - Forked subagents can now be enabled on external builds by setting `CLAUDE_CODE_ |
-| [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.103 |
-| [claude-agent-sdk-typescript v0.2.117](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.117) | ## What's changed  - Updated to parity with Claude Code v2.1.117  ## Update  ```sh npm install @anth |
+| [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) | Official Claude Code changelog entry |
+| [claude-code v2.1.118](https://github.com/anthropics/claude-code/releases/tag/v2.1.118) | ## What's changed  - Added vim visual mode (`v`) and visual-line mode (`V`) with selection, operator |
+| [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.104 |
+| [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) |  ### New Features  - **Batch session summaries**: Added `SessionStore.list_session_summaries()` opti |
+| [claude-agent-sdk-typescript v0.2.118](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118) | ## What's changed  - Added `Options.managedSettings` for embedders to pass policy-tier settings to t |
+| [connect-rust v0.3.3](https://github.com/anthropics/connect-rust/releases/tag/v0.3.3) | ## What's Changed * Pin MSRV to Rust 1.88 and verify in CI by @iainmcgin in https://github.com/anthr |
 
 ---
 
