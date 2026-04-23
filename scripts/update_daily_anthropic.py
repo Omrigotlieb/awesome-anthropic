@@ -179,12 +179,48 @@ def find_latest_release(prefix: str = "claude-code ", max_sections: int = 10) ->
 
 
 def read_top_stories(limit: int = 3) -> list[str]:
-    stories: list[str] = []
-    for title, url, _source, _date in read_top_story_rows(limit=limit):
+    ranked: list[tuple[str, str]] = []
+    seen_urls: set[str] = set()
+
+    # Prefer first-party announcements for daily snapshot quality.
+    for title, url in unique_links_in_order(
+        [
+            (t, u)
+            for t, u, _date in read_recent_section_links(
+                "📰 Official Announcements", title_col=0, limit=limit, max_sections=10
+            )
+        ],
+        limit=limit,
+    ):
+        ranked.append((title, url))
         if url:
-            stories.append(f"- [{title}]({url})")
-        else:
-            stories.append(f"- {title}")
+            seen_urls.add(url)
+        if len(ranked) >= limit:
+            break
+
+    # Always try to surface the latest Claude Code release if available.
+    if len(ranked) < limit:
+        latest_claude_code = find_latest_release(prefix="claude-code ", max_sections=10)
+        if latest_claude_code:
+            title, url, _highlight, _date = latest_claude_code
+            if url and url not in seen_urls:
+                ranked.append((title, url))
+                seen_urls.add(url)
+
+    # Fill remaining slots from top stories table.
+    if len(ranked) < limit:
+        for title, url, _source, _date in read_top_story_rows(limit=max(limit * 3, 6)):
+            if url and url in seen_urls:
+                continue
+            ranked.append((title, url))
+            if url:
+                seen_urls.add(url)
+            if len(ranked) >= limit:
+                break
+
+    stories: list[str] = []
+    for title, url in ranked[:limit]:
+        stories.append(f"- [{title}]({url})" if url else f"- {title}")
     return stories
 
 

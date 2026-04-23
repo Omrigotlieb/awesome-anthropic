@@ -146,8 +146,9 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             with patch.object(daily, "NEWS_PATH", news):
                 rows = daily.read_top_stories(limit=3)
         self.assertEqual(len(rows), 3)
-        self.assertEqual(rows[0], "- [Story One](https://example.com/1)")
-        self.assertEqual(rows[2], "- [Story Three](https://example.com/3)")
+        self.assertEqual(rows[0], "- [Official One](https://example.com/official-1)")
+        self.assertEqual(rows[1], "- [Official Two](https://example.com/official-2)")
+        self.assertEqual(rows[2], "- [claude-code v2.1.62](https://example.com/cc-262)")
 
     def test_read_top_stories_empty_when_missing(self):
         with tempfile.TemporaryDirectory() as td:
@@ -222,7 +223,7 @@ class TestUpdateDailyAnthropic(unittest.TestCase):
             blog_content = blog.read_text(encoding="utf-8")
             self.assertEqual(code, 0)
             self.assertIn("## 2026-02-27", content)
-            self.assertIn("Story One", content)
+            self.assertIn("Official One", content)
             self.assertIn("# Daily Anthropic Brief", brief_content)
             self.assertIn("claude-code v2.1.62", brief_content)
             self.assertIn("# Daily Anthropic Blog Post", blog_content)
