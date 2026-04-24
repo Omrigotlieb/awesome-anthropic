@@ -243,7 +243,7 @@ class TestFetchNewsQuality(unittest.TestCase):
         selected = build_primary_story_fallback(announcements, releases, limit=3)
         self.assertEqual(
             [item.title for item in selected],
-            ["claude-code v2.1.110", "claude-code v2.1.109", "claude-code-action v1.0.97"],
+            ["claude-code v2.1.110", "claude-code-action v1.0.97"],
         )
 
     def test_primary_story_fallback_dedupes_same_title_across_sources(self):
@@ -546,6 +546,27 @@ class TestFetchNewsQuality(unittest.TestCase):
         self.assertIn("Trustworthy agents in practice", rebuilt)
         self.assertIn("claude-code v2.1.101", rebuilt)
         self.assertNotIn("Community thread", rebuilt)
+
+    def test_rebuild_carry_forward_top_stories_keeps_latest_per_release_family(self):
+        body = (
+            "### 🔥 Top Stories\n\n"
+            "| Score | Title | Source |\n"
+            "|------:|-------|--------|\n"
+            "| 100 | [Community thread](https://reddit.com/r/ClaudeAI/comments/y) | r/ClaudeAI |\n\n"
+            "### 🛠️ SDK & Tool Releases\n\n"
+            "| Release | Highlights |\n"
+            "|---------|------------|\n"
+            "| [claude-code v2.1.118](https://github.com/anthropics/claude-code/releases/tag/v2.1.118) | Latest |\n"
+            "| [claude-code v2.1.117](https://github.com/anthropics/claude-code/releases/tag/v2.1.117) | Previous |\n"
+            "| [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | Latest action |\n"
+            "| [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) | Previous action |\n"
+        )
+        rebuilt = _rebuild_carry_forward_top_stories(body, "April 23, 2026")
+        top_stories_block = rebuilt.split("### 🛠️ SDK & Tool Releases", 1)[0]
+        self.assertIn("claude-code v2.1.118", rebuilt)
+        self.assertIn("claude-code-action v1.0.104", rebuilt)
+        self.assertNotIn("claude-code v2.1.117", top_stories_block)
+        self.assertNotIn("claude-code-action v1.0.103", top_stories_block)
 
     def test_rebuild_carry_forward_top_stories_preserves_section_divider(self):
         body = (

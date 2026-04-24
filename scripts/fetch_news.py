@@ -805,8 +805,17 @@ def build_primary_story_fallback(
     selected: list[NewsItem] = []
     seen_urls: set[str] = set()
     seen_title_fingerprints: set[str] = set()
+    seen_release_families: set[str] = set()
 
-    def _append(items: list[NewsItem], base_score: int, step: int) -> None:
+    def _release_family_key(item: NewsItem) -> str:
+        title_l = (item.title or "").lower().strip()
+        if title_l.startswith("claude-code-action v"):
+            return "claude-code-action"
+        if title_l.startswith("claude-code v"):
+            return "claude-code"
+        return ""
+
+    def _append(items: list[NewsItem], base_score: int, step: int, enforce_release_family_uniqueness: bool = False) -> None:
         nonlocal selected
         rank = 0
         for item in sorted(
@@ -814,6 +823,10 @@ def build_primary_story_fallback(
             key=lambda i: (i.published_at, _release_version_rank(i), i.title.lower()),
             reverse=True,
         ):
+            if enforce_release_family_uniqueness:
+                family = _release_family_key(item)
+                if family and family in seen_release_families:
+                    continue
             key = canonical_story_url(item.url)
             fp = title_fingerprint(item.title)
             if not key or key in seen_urls or (fp and fp in seen_title_fingerprints):
@@ -833,13 +846,22 @@ def build_primary_story_fallback(
             seen_urls.add(key)
             if fp:
                 seen_title_fingerprints.add(fp)
+            if enforce_release_family_uniqueness:
+                family = _release_family_key(item)
+                if family:
+                    seen_release_families.add(family)
             rank += 1
             if len(selected) >= limit:
                 return
 
     _append(announcements, base_score=100, step=5)
     if len(selected) < limit:
-        _append(sdk_releases, base_score=85, step=5)
+        _append(
+            sdk_releases,
+            base_score=85,
+            step=5,
+            enforce_release_family_uniqueness=True,
+        )
     return selected[:limit]
 
 

@@ -505,7 +505,7 @@ This file is checked first at the start of each daily automation run.
 - Started by checking this file before any other task.
 - Reviewed official Anthropic + Claude Code updates for this run.
 - Top stories snapshot:
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
-- [Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors](https://www.anthropic.com/news/narasimhan-board)
+- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
+- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
+- [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.

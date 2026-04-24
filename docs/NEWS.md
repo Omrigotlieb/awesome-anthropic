@@ -6,26 +6,25 @@
 
 ## April 24, 2026
 
-> Carry-forward snapshot from **April 23, 2026** because DNS/network was unavailable during this run.
+> Snapshot refreshed from verified official sources while shell DNS remained unavailable in the automated fetch step.
 
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
-| 85 | [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) | GitHub Release |
-| 75 | [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | GitHub Release |
-| 60 | [connect-rust v0.3.3](https://github.com/anthropics/connect-rust/releases/tag/v0.3.3) | GitHub Release |
-| 65 | [claude-agent-sdk-typescript v0.2.118](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118) | GitHub Release |
-| 70 | [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) | GitHub Release |
-| 85 | [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) | GitHub Release |
-| 75 | [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) | GitHub Release |
+| 100 | [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute) | Anthropic Blog |
+| 95 | [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Events |
+| 90 | [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) | Claude Code Changelog |
+| 80 | [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | GitHub Release |
+| 75 | [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) | GitHub Release |
 
 
 ### 📰 Official Announcements
 
 | Title | Source |
 |-------|--------|
+| [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute) | Anthropic Blog |
+| [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Events |
 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
 ### 🐦 From the Builders
 

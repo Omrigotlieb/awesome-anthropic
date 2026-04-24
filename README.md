@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 24, 2026
 
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) - 85 pts on GitHub Release.
-- [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) - 85 pts on GitHub Release.
-- [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) - 75 pts on GitHub Release.
-- [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) - 75 pts on GitHub Release.
+- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute) - 100 pts on Anthropic Blog.
+- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) - 95 pts on Anthropic Events.
+- [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) - 90 pts on Claude Code Changelog.
+- [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) - 80 pts on GitHub Release.
+- [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) - 75 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

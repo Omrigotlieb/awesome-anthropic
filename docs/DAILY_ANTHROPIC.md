@@ -1,26 +1,27 @@
 # Daily Anthropic Brief
 
-## 2026-04-24 (news snapshot: April 23, 2026)
+## 2026-04-24 (news snapshot: April 24, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
 - [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) is currently the latest Claude Code release visible in this repository snapshot.
+- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
+- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
 
 ### Top Story Snapshot
 
+- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
+- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
-- [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118)
 
 ### Freshness Status
 
 - Run date (UTC): 2026-04-24
-- News snapshot date: April 23, 2026
-- Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
+- News snapshot date: April 24, 2026
+- Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
 
