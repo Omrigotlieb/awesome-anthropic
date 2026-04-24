@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2026 06:01:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 05:00:54 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,68 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>PSA: Anthropic bans organizations without warning</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sspwz2/psa_anthropic_bans_organizations_without_warning/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sspwz2/psa_anthropic_bans_organizations_without_warning/</guid>
-    <description>▲ 1662 points · r/ClaudeAI · PSA: Anthropic bans organizations without warning</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <title>Introducing Claude Design by Anthropic Labs</title>
+    <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
+    <description>▲ 100 points · Anthropic Blog · Introducing Claude Design by Anthropic Labs</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>based on a true story. im the developer</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1st1kj9/based_on_a_true_story_im_the_developer/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1st1kj9/based_on_a_true_story_im_the_developer/</guid>
-    <description>▲ 696 points · r/ClaudeAI · based on a true story. im the developer</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.118</title>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.118</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.118</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.118</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude Code was wasting 80% of Opus 4.7&apos;s context window. Upgrade to v2.1.117 now.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ssgnfb/claude_code_was_wasting_80_of_opus_47s_context/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ssgnfb/claude_code_was_wasting_80_of_opus_47s_context/</guid>
-    <description>▲ 443 points · r/ClaudeAI · Claude Code was wasting 80% of Opus 4.7&apos;s context window. Upgrade to v2.1.117 now.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code-action v1.0.104</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104</guid>
+    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.104</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Swapped to 4.7 and embarrassed myself at work</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ssnuy7/swapped_to_47_and_embarrassed_myself_at_work/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ssnuy7/swapped_to_47_and_embarrassed_myself_at_work/</guid>
-    <description>▲ 421 points · r/ClaudeAI · Swapped to 4.7 and embarrassed myself at work</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <title>connect-rust v0.3.3</title>
+    <link>https://github.com/anthropics/connect-rust/releases/tag/v0.3.3</link>
+    <guid isPermaLink="true">https://github.com/anthropics/connect-rust/releases/tag/v0.3.3</guid>
+    <description>▲ 60 points · GitHub Release · connect-rust v0.3.3</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude can end a conversation</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ssgrro/claude_can_end_a_conversation/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ssgrro/claude_can_end_a_conversation/</guid>
-    <description>▲ 372 points · r/ClaudeAI · Claude can end a conversation</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Rocky&apos;s grammar from Project Hail Mary — up to 83% fewer output tokens on Claude. Built it into a skill file.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sseh6m/rockys_grammar_from_project_hail_mary_up_to_83/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sseh6m/rockys_grammar_from_project_hail_mary_up_to_83/</guid>
-    <description>▲ 301 points · r/ClaudeAI · Rocky&apos;s grammar from Project Hail Mary — up to 83% fewer output tokens on Claude. Built it into a skill file.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The &quot;Missing Middle&quot;: Why is there no $50/mo Claude tier?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ssmra2/the_missing_middle_why_is_there_no_50mo_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ssmra2/the_missing_middle_why_is_there_no_50mo_claude/</guid>
-    <description>▲ 288 points · r/ClaudeAI · The &quot;Missing Middle&quot;: Why is there no $50/mo Claude tier?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The most complete Claude Code cheat sheet 🧠</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ssslm3/the_most_complete_claude_code_cheat_sheet/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ssslm3/the_most_complete_claude_code_cheat_sheet/</guid>
-    <description>▲ 177 points · r/ClaudeAI · The most complete Claude Code cheat sheet 🧠</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Internal Mozilla report shows data contradicting public reporting which said Mythos found 271 bugs in Firefox 150 . It actually found only 3 of 271</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1st19on/internal_mozilla_report_shows_data_contradicting/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1st19on/internal_mozilla_report_shows_data_contradicting/</guid>
-    <description>▲ 161 points · r/ClaudeAI · Internal Mozilla report shows data contradicting public reporting which said Mythos found 271 bugs in Firefox 150 . It actually found only 3 of 271</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Pro still has Claude Code</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ssf3zq/claude_pro_still_has_claude_code/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ssf3zq/claude_pro_still_has_claude_code/</guid>
-    <description>▲ 150 points · r/ClaudeAI · Claude Pro still has Claude Code</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-agent-sdk-typescript v0.2.118</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118</guid>
+    <description>▲ 65 points · GitHub Release · claude-agent-sdk-typescript v0.2.118</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
     <title>claude-agent-sdk-python v0.1.65</title>
     <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65</link>
     <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.65</description>
+    <description>▲ 70 points · GitHub Release · claude-agent-sdk-python v0.1.65</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>New study compares growing corn for energy to solar production</title>
-    <link>https://www.anthropocenemagazine.org/2025/04/new-study-compares-growing-corn-for-energy-to-solar-production-its-no-contest/</link>
-    <guid isPermaLink="true">https://www.anthropocenemagazine.org/2025/04/new-study-compares-growing-corn-for-energy-to-solar-production-its-no-contest/</guid>
-    <description>▲ 85 points · Hacker News · New study compares growing corn for energy to solar production</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code v2.1.117</title>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.117</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.117</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.117</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic</title>
-    <link>https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</link>
-    <guid isPermaLink="true">https://www.flyingpenguin.com/the-boy-that-cried-mythos-verification-is-collapsing-trust-in-anthropic/</guid>
-    <description>▲ 49 points · Hacker News · A Boy That Cried Mythos: Verification Is Collapsing Trust in Anthropic</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic investigating unauthorised access of powerful Mythos AI model</title>
-    <link>https://www.ft.com/content/56d65763-69fe-4756-baf4-c8192b7aadaf</link>
-    <guid isPermaLink="true">https://www.ft.com/content/56d65763-69fe-4756-baf4-c8192b7aadaf</guid>
-    <description>▲ 17 points · Hacker News · Anthropic investigating unauthorised access of powerful Mythos AI model</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Ask HN: Why Opus4.6 was silently removed from Claude Code?</title>
-    <link>https://news.ycombinator.com/item?id=47861009</link>
-    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47861009</guid>
-    <description>▲ 14 points · Hacker News · Ask HN: Why Opus4.6 was silently removed from Claude Code?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 23 Apr 2026 09:00:00 +0000</pubDate>
+    <title>claude-code-action v1.0.103</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103</guid>
+    <description>▲ 75 points · GitHub Release · claude-code-action v1.0.103</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -4,6 +4,55 @@
 
 ---
 
+## April 24, 2026
+
+> Carry-forward snapshot from **April 23, 2026** because DNS/network was unavailable during this run.
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+| 85 | [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) | GitHub Release |
+| 75 | [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | GitHub Release |
+| 60 | [connect-rust v0.3.3](https://github.com/anthropics/connect-rust/releases/tag/v0.3.3) | GitHub Release |
+| 65 | [claude-agent-sdk-typescript v0.2.118](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118) | GitHub Release |
+| 70 | [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) | GitHub Release |
+| 85 | [claude-code v2.1.117](https://code.claude.com/docs/en/changelog?version=2.1.117) | GitHub Release |
+| 75 | [claude-code-action v1.0.103](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.103) | GitHub Release |
+
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Claude Code won a Webby! Thanks to all of our users and customers for the support and love, and for always giving us feedback so that we can continue making the product a little better every day.
+
+htt](https://x.com/bcherny/status/2047004804283773321) | Boris Cherney |
+| [Last month, we published our look into what 81,000 people told us they want from AI.
+
+In new research, we’ve investigated the economic hopes and worries referenced in their responses.
+
+Read more: http](https://x.com/AnthropicAI/status/2047006548149289017) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) | Official Claude Code changelog entry |
+| [claude-code v2.1.118](https://github.com/anthropics/claude-code/releases/tag/v2.1.118) | ## What's changed  - Added vim visual mode (`v`) and visual-line mode (`V`) with selection, operator |
+| [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.104 |
+| [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) |  ### New Features  - **Batch session summaries**: Added `SessionStore.list_session_summaries()` opti |
+| [claude-agent-sdk-typescript v0.2.118](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118) | ## What's changed  - Added `Options.managedSettings` for embedders to pass policy-tier settings to t |
+| [connect-rust v0.3.3](https://github.com/anthropics/connect-rust/releases/tag/v0.3.3) | ## What's Changed * Pin MSRV to Rust 1.88 and verify in CI by @iainmcgin in https://github.com/anthr |
+
+---
+
 ## April 23, 2026
 
 ### 🔥 Top Stories
