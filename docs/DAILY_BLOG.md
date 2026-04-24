@@ -10,66 +10,67 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 ### Key Takeaways
 
 - The daily run on 2026-04-24 uses the April 24, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.118.
-- Official channel signal remains active: Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute (April 24, 2026).
+- Latest release tracked: claude-code v2.1.119.
+- Official channel signal remains active: Anthropic and NEC partner to build AI-native engineering at scale in Japan (April 24, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
 
-**News peg (April 24, 2026):** [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
+**News peg (April 24, 2026):** [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
 
-Snapshot update: Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute
+Snapshot update: Anthropic and NEC partner to build AI-native engineering at scale in Japan
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
 ### Article 2 — Official announcement watch
 
-**News peg (April 24, 2026):** [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
-
-Snapshot update: Anthropic at Google Cloud Next 2026
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
-
-**News peg (April 24, 2026):** [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+**News peg (April 18, 2026):** [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 
 Snapshot update: Introducing Claude Design by Anthropic Labs
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
+### Article 3 — Official announcement watch
+
+**News peg (April 17, 2026):** [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+
+Snapshot update: Introducing Claude Opus 4.7
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
 ### Article 4 — Claude Code release watch
 
-**News peg (April 24, 2026):** [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118)
+**News peg (April 24, 2026):** [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — First-party story signal
 
-**News peg (April 24, 2026):** [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104)
+**News peg (April 24, 2026):** [An update on recent Claude Code quality reports](https://www.anthropic.com/engineering/april-23-postmortem)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: Hacker News
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
 
 ### Top Stories Referenced
 
-- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
-- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
+- [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
 
 ### Source Trail
 
-- April 24, 2026: [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
-- April 24, 2026: [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
-- April 24, 2026: [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- April 24, 2026: [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118)
-- April 24, 2026: [claude-code v2.1.118](https://github.com/anthropics/claude-code/releases/tag/v2.1.118)
-- April 24, 2026: [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104)
+- April 24, 2026: [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
+- April 18, 2026: [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- April 17, 2026: [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- April 24, 2026: [An update on recent Claude Code quality reports](https://www.anthropic.com/engineering/april-23-postmortem)
+- April 24, 2026: [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119)
+- April 24, 2026: [claude-code v2.1.119](https://github.com/anthropics/claude-code/releases/tag/v2.1.119)
+- April 24, 2026: [anthropic-sdk-typescript sdk-v0.91.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.91.0)
 
 ### Website Improvement Review
 

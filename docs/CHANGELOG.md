@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-21T06:00:52Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-24T06:03:14Z
+
+---
+
+## April 23, 2026 — Memory for Claude Managed Agents is now in public beta under the standard manage
+
+Memory for Claude Managed Agents is now in public beta under the standard managed-agents-2026-04-01 header. See Using agent memory for the full integration guide.
 
 ---
 
@@ -131,11 +137,5 @@ Structured outputs are now generally available on the Claude API for Claude Sonn
 ## January 12, 2026 — console.anthropic.com now redirects to platform.claude.com . The Claude Console 
 
 console.anthropic.com now redirects to platform.claude.com . The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the
-
----
-
-## January 5, 2026 — We've retired the Claude Opus 3 model ( claude-3-opus-20240229 ). All requests t
-
-We've retired the Claude Opus 3 model ( claude-3-opus-20240229 ). All requests to this model will now return an error. We recommend upgrading to Claude Opus 4.5 , which offers significantly improved intelligence at a third of the cost. Researchers can request ongoing access to Claude Opus 3 on the API through the External Researcher Access Program .
 
 ---

@@ -6,49 +6,65 @@
 
 ## April 24, 2026
 
-> Snapshot refreshed from verified official sources while shell DNS remained unavailable in the automated fetch step.
-
 ### 🔥 Top Stories
 
 | Score | Title | Source |
 |------:|-------|--------|
-| 100 | [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute) | Anthropic Blog |
-| 95 | [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Events |
-| 90 | [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) | Claude Code Changelog |
-| 80 | [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | GitHub Release |
-| 75 | [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) | GitHub Release |
-
+| 1654 | [Why does this CLAUDE.md file have so many stars?](https://reddit.com/r/ClaudeAI/comments/1stfoo7/why_does_this_claudemd_file_have_so_many_stars/) | r/ClaudeAI |
+| 1113 | [Claude reset limits for everyone](https://reddit.com/r/ClaudeAI/comments/1stozsr/claude_reset_limits_for_everyone/) | r/ClaudeAI |
+| 641 | [An update on recent Claude Code quality reports](https://www.anthropic.com/engineering/april-23-postmortem) | Hacker News |
+| 322 | [Opus 4.7 made me re-subscribe to Codex after two months of Claude Max only](https://reddit.com/r/ClaudeAI/comments/1stfc4t/opus_47_made_me_resubscribe_to_codex_after_two/) | r/ClaudeAI |
+| 277 | [Boris Cherny creator of claude code posted post-mortem report of claude](https://reddit.com/r/ClaudeAI/comments/1stqjlp/boris_cherny_creator_of_claude_code_posted/) | r/ClaudeAI |
+| 276 | [At this point I would not be shocked](https://reddit.com/r/Anthropic/comments/1stupxx/at_this_point_i_would_not_be_shocked/) | r/Anthropic |
+| 274 | [I vibe-coded GTA: Google Earth over the weekend](https://reddit.com/r/ClaudeAI/comments/1su2pbf/i_vibecoded_gta_google_earth_over_the_weekend/) | r/ClaudeAI |
+| 235 | [My Claude trying to find out who its competitors are](https://reddit.com/r/ClaudeAI/comments/1stnn01/my_claude_trying_to_find_out_who_its_competitors/) | r/ClaudeAI |
+| 166 | [Claude code removed from the benefits email.](https://reddit.com/r/Anthropic/comments/1ste7eb/claude_code_removed_from_the_benefits_email/) | r/Anthropic |
+| 100 | [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec) | Anthropic Blog |
+| 89 | [Anthropic has surged to a trillion-dollar valuation on secondary markets, overtaking OpenAI - Business Insider](https://reddit.com/r/Anthropic/comments/1stdr20/anthropic_has_surged_to_a_trilliondollar/) | r/Anthropic |
+| 88 | [Anthropic's Claude Desktop App Installs Undisclosed Native Messaging Bridge](https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a) | Hacker News |
+| 80 | [A group of users leaked Anthropic's AI model Mythos by reportedly guessing where it was located](https://reddit.com/r/Anthropic/comments/1stmv1t/a_group_of_users_leaked_anthropics_ai_model/) | r/Anthropic |
+| 42 | [Mythos is shaping up to be a nothingburger](https://www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/) | Hacker News |
+| 10 | [Show HN: We built a way for Claude Code to join meetings like a real teammate](https://news.ycombinator.com/item?id=47873585) | Hacker News |
 
 ### 📰 Official Announcements
 
 | Title | Source |
 |-------|--------|
-| [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute) | Anthropic Blog |
-| [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) | Anthropic Events |
-| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Anthropic Blog |
+| [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec) | Anthropic Blog |
+
 ### 🐦 From the Builders
 
 | Tweet | Author |
 |-------|--------|
-| [Claude Code won a Webby! Thanks to all of our users and customers for the support and love, and for always giving us feedback so that we can continue making the product a little better every day.
+| [We’ve been looking into recent reports around Claude Code quality issues, and just published a post-mortem on what we found.](https://x.com/bcherny/status/2047375800945783056) | Boris Cherney |
 
-htt](https://x.com/bcherny/status/2047004804283773321) | Boris Cherney |
-| [Last month, we published our look into what 81,000 people told us they want from AI.
+### 🔬 Research
 
-In new research, we’ve investigated the economic hopes and worries referenced in their responses.
-
-Read more: http](https://x.com/AnthropicAI/status/2047006548149289017) | Anthropic |
+| Title | Source |
+|-------|--------|
+| [Talking to a Know-It-All GPT or a Second-Guesser Claude? How Repair reveals unreliable Multi-Turn Behavior in LLMs](http://arxiv.org/abs/2604.19245v2) | arXiv |
 
 ### 🛠️ SDK & Tool Releases
 
 | Release | Highlights |
 |---------|------------|
-| [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) | Official Claude Code changelog entry |
-| [claude-code v2.1.118](https://github.com/anthropics/claude-code/releases/tag/v2.1.118) | ## What's changed  - Added vim visual mode (`v`) and visual-line mode (`V`) with selection, operator |
-| [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.104 |
-| [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) |  ### New Features  - **Batch session summaries**: Added `SessionStore.list_session_summaries()` opti |
-| [claude-agent-sdk-typescript v0.2.118](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.118) | ## What's changed  - Added `Options.managedSettings` for embedders to pass policy-tier settings to t |
-| [connect-rust v0.3.3](https://github.com/anthropics/connect-rust/releases/tag/v0.3.3) | ## What's Changed * Pin MSRV to Rust 1.88 and verify in CI by @iainmcgin in https://github.com/anthr |
+| [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) | Official Claude Code changelog entry |
+| [claude-code v2.1.119](https://github.com/anthropics/claude-code/releases/tag/v2.1.119) | ## What's changed  - `/config` settings (theme, editor mode, verbose, etc.) now persist to `~/.claud |
+| [anthropic-sdk-typescript sdk-v0.91.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.91.0) | ## 0.91.0 (2026-04-23)  Full Changelog: [sdk-v0.90.0...sdk-v0.91.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript bedrock-sdk-v0.29.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.0) | ## 0.29.0 (2026-04-23)  Full Changelog: [bedrock-sdk-v0.28.1...bedrock-sdk-v0.29.0](https://github.c |
+| [claude-agent-sdk-python v0.1.66](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.66) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.119   ---  **PyPI:** https: |
+| [claude-code-action v1.0.105](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.105) | ## What's Changed * fix: allow + in branch names (generated by Claude Code EnterWorktree) by @awakia |
+| [anthropic-cli v1.3.2](https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.2) | ## 1.3.2 (2026-04-23)  Full Changelog: [v1.3.1...v1.3.2](https://github.com/anthropics/anthropic-cli |
+| [anthropic-cli v1.3.1](https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.1) | ## 1.3.1 (2026-04-23)  Full Changelog: [v1.3.0...v1.3.1](https://github.com/anthropics/anthropic-cli |
+| [anthropic-cli v1.3.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.3.0) | ## 1.3.0 (2026-04-23)  Full Changelog: [v1.2.1...v1.3.0](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-python v0.97.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0) | ## 0.97.0 (2026-04-23)  Full Changelog: [v0.96.0...v0.97.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-typescript v0.2.119](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.119) | ## What's changed  - `excludeDynamicSections` now keeps static auto-memory instructions in the cache |
+| [anthropic-sdk-java v2.27.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.27.0) | ## 2.27.0 (2026-04-23)  Full Changelog: [v2.26.0...v2.27.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.17.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.17.0) | ## 0.17.0 (2026-04-23)  Full Changelog: [v0.16.0...v0.17.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Bedrock-v0.6.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.6.0) | ## 0.6.0 (2026-04-23)  Full Changelog: [Bedrock-v0.5.0...Bedrock-v0.6.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.17.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.17.0) | ## 12.17.0 (2026-04-23)  Full Changelog: [Anthropic-v12.16.0...Anthropic-v12.17.0](https://github.co |
+| [anthropic-sdk-ruby v1.36.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.36.0) | ## 1.36.0 (2026-04-23)  Full Changelog: [v1.35.0...v1.36.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.38.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.38.0) | ## 1.38.0 (2026-04-23)  Full Changelog: [v1.37.0...v1.38.0](https://github.com/anthropics/anthropic- |
 
 ---
 

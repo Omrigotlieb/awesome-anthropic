@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2026 05:03:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 06:03:12 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,43 +13,123 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</title>
-    <link>https://www.anthropic.com/news/anthropic-amazon-compute</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-amazon-compute</guid>
-    <description>▲ 100 points · Anthropic Blog · Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</description>
+    <title>Why does this CLAUDE.md file have so many stars?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1stfoo7/why_does_this_claudemd_file_have_so_many_stars/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1stfoo7/why_does_this_claudemd_file_have_so_many_stars/</guid>
+    <description>▲ 1654 points · r/ClaudeAI · Why does this CLAUDE.md file have so many stars?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude reset limits for everyone</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1stozsr/claude_reset_limits_for_everyone/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1stozsr/claude_reset_limits_for_everyone/</guid>
+    <description>▲ 1113 points · r/ClaudeAI · Claude reset limits for everyone</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>An update on recent Claude Code quality reports</title>
+    <link>https://www.anthropic.com/engineering/april-23-postmortem</link>
+    <guid isPermaLink="true">https://www.anthropic.com/engineering/april-23-postmortem</guid>
+    <description>▲ 641 points · Hacker News · An update on recent Claude Code quality reports</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Opus 4.7 made me re-subscribe to Codex after two months of Claude Max only</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1stfc4t/opus_47_made_me_resubscribe_to_codex_after_two/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1stfc4t/opus_47_made_me_resubscribe_to_codex_after_two/</guid>
+    <description>▲ 322 points · r/ClaudeAI · Opus 4.7 made me re-subscribe to Codex after two months of Claude Max only</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Boris Cherny creator of claude code posted post-mortem report of claude</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1stqjlp/boris_cherny_creator_of_claude_code_posted/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1stqjlp/boris_cherny_creator_of_claude_code_posted/</guid>
+    <description>▲ 277 points · r/ClaudeAI · Boris Cherny creator of claude code posted post-mortem report of claude</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>At this point I would not be shocked</title>
+    <link>https://reddit.com/r/Anthropic/comments/1stupxx/at_this_point_i_would_not_be_shocked/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1stupxx/at_this_point_i_would_not_be_shocked/</guid>
+    <description>▲ 276 points · r/Anthropic · At this point I would not be shocked</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I vibe-coded GTA: Google Earth over the weekend</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1su2pbf/i_vibecoded_gta_google_earth_over_the_weekend/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1su2pbf/i_vibecoded_gta_google_earth_over_the_weekend/</guid>
+    <description>▲ 274 points · r/ClaudeAI · I vibe-coded GTA: Google Earth over the weekend</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>My Claude trying to find out who its competitors are</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1stnn01/my_claude_trying_to_find_out_who_its_competitors/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1stnn01/my_claude_trying_to_find_out_who_its_competitors/</guid>
+    <description>▲ 235 points · r/ClaudeAI · My Claude trying to find out who its competitors are</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude code removed from the benefits email.</title>
+    <link>https://reddit.com/r/Anthropic/comments/1ste7eb/claude_code_removed_from_the_benefits_email/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1ste7eb/claude_code_removed_from_the_benefits_email/</guid>
+    <description>▲ 166 points · r/Anthropic · Claude code removed from the benefits email.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic and NEC partner to build AI-native engineering at scale in Japan</title>
+    <link>https://www.anthropic.com/news/anthropic-nec</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-nec</guid>
+    <description>▲ 100 points · Anthropic Blog · Anthropic and NEC partner to build AI-native engineering at scale in Japan</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
     <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic at Google Cloud Next 2026</title>
-    <link>https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026</link>
-    <guid isPermaLink="true">https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026</guid>
-    <description>▲ 95 points · Anthropic Events · Anthropic at Google Cloud Next 2026</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Events</source>
+    <title>Anthropic has surged to a trillion-dollar valuation on secondary markets, overtaking OpenAI - Business Insider</title>
+    <link>https://reddit.com/r/Anthropic/comments/1stdr20/anthropic_has_surged_to_a_trilliondollar/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1stdr20/anthropic_has_surged_to_a_trilliondollar/</guid>
+    <description>▲ 89 points · r/Anthropic · Anthropic has surged to a trillion-dollar valuation on secondary markets, overtaking OpenAI - Business Insider</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
     <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.118</title>
-    <link>https://code.claude.com/docs/en/changelog?version=2.1.118</link>
-    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.118</guid>
-    <description>▲ 90 points · Claude Code Changelog · claude-code v2.1.118</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
+    <title>Anthropic&apos;s Claude Desktop App Installs Undisclosed Native Messaging Bridge</title>
+    <link>https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a</link>
+    <guid isPermaLink="true">https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a</guid>
+    <description>▲ 88 points · Hacker News · Anthropic&apos;s Claude Desktop App Installs Undisclosed Native Messaging Bridge</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.104</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104</guid>
-    <description>▲ 80 points · GitHub Release · claude-code-action v1.0.104</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>A group of users leaked Anthropic&apos;s AI model Mythos by reportedly guessing where it was located</title>
+    <link>https://reddit.com/r/Anthropic/comments/1stmv1t/a_group_of_users_leaked_anthropics_ai_model/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1stmv1t/a_group_of_users_leaked_anthropics_ai_model/</guid>
+    <description>▲ 80 points · r/Anthropic · A group of users leaked Anthropic&apos;s AI model Mythos by reportedly guessing where it was located</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
     <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-agent-sdk-python v0.1.65</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65</guid>
-    <description>▲ 75 points · GitHub Release · claude-agent-sdk-python v0.1.65</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <title>Mythos is shaping up to be a nothingburger</title>
+    <link>https://www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/</link>
+    <guid isPermaLink="true">https://www.theregister.com/2026/04/22/anthropic_mythos_hype_nothingburger/</guid>
+    <description>▲ 42 points · Hacker News · Mythos is shaping up to be a nothingburger</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: We built a way for Claude Code to join meetings like a real teammate</title>
+    <link>https://news.ycombinator.com/item?id=47873585</link>
+    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47873585</guid>
+    <description>▲ 10 points · Hacker News · Show HN: We built a way for Claude Code to join meetings like a real teammate</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
     <pubDate>Fri, 24 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>

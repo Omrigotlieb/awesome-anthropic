@@ -337,11 +337,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last synced: <!-- CHANGELOG_DATE -->2026-04-24
 
 <!-- CHANGELOG_START -->
+### April 23, 2026 — Memory for Claude Managed Agents is now in public beta under the standard manage
+
 ### April 20, 2026 — We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests
 
 ### April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for
-
-### June 15, 2026 — . We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.7 respectively.
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 24, 2026
 
-- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute) - 100 pts on Anthropic Blog.
-- [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026) - 95 pts on Anthropic Events.
-- [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118) - 90 pts on Claude Code Changelog.
-- [claude-code-action v1.0.104](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.104) - 80 pts on GitHub Release.
-- [claude-agent-sdk-python v0.1.65](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.65) - 75 pts on GitHub Release.
+- [Why does this CLAUDE.md file have so many stars?](https://reddit.com/r/ClaudeAI/comments/1stfoo7/why_does_this_claudemd_file_have_so_many_stars/) - 1654 pts on r/ClaudeAI.
+- [Claude reset limits for everyone](https://reddit.com/r/ClaudeAI/comments/1stozsr/claude_reset_limits_for_everyone/) - 1113 pts on r/ClaudeAI.
+- [An update on recent Claude Code quality reports](https://www.anthropic.com/engineering/april-23-postmortem) - 641 pts on Hacker News.
+- [Opus 4.7 made me re-subscribe to Codex after two months of Claude Max only](https://reddit.com/r/ClaudeAI/comments/1stfc4t/opus_47_made_me_resubscribe_to_codex_after_two/) - 322 pts on r/ClaudeAI.
+- [Boris Cherny creator of claude code posted post-mortem report of claude](https://reddit.com/r/ClaudeAI/comments/1stqjlp/boris_cherny_creator_of_claude_code_posted/) - 277 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
