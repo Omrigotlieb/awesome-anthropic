@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-24T06:03:14Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-25T06:02:14Z
+
+---
+
+## April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
+
+We've released the Rate Limits API , allowing administrators to programmatically query the rate limits configured for their organization and workspaces.
 
 ---
 
@@ -131,11 +137,5 @@ We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
 ## January 29, 2026 — Structured outputs are now generally available on the Claude API for Claude Sonn
 
 Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has moved to output_config.format . Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.
-
----
-
-## January 12, 2026 — console.anthropic.com now redirects to platform.claude.com . The Claude Console 
-
-console.anthropic.com now redirects to platform.claude.com . The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the
 
 ---

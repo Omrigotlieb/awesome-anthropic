@@ -337,11 +337,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 > Last synced: <!-- CHANGELOG_DATE -->2026-04-25
 
 <!-- CHANGELOG_START -->
+### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
+
 ### April 23, 2026 — Memory for Claude Managed Agents is now in public beta under the standard manage
 
 ### April 20, 2026 — We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests
-
-### April 16, 2026 — We've launched Claude Opus 4.7 , our most capable generally available model for
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -356,11 +356,11 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 <!-- NEWS_START -->
 ### Top Stories — April 25, 2026
 
-- [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec) - 100 pts on Anthropic Blog.
-- [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update) - 95 pts on Anthropic Blog.
-- [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) - 85 pts on GitHub Release.
-- [anthropic-sdk-typescript sdk-v0.91.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.91.0) - 75 pts on GitHub Release.
-- [anthropic-sdk-typescript bedrock-sdk-v0.29.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.0) - 70 pts on GitHub Release.
+- [I'm somewhat of a coder myself](https://reddit.com/r/ClaudeAI/comments/1sucxqj/im_somewhat_of_a_coder_myself/) - 3985 pts on r/ClaudeAI.
+- [That's me and claud 🤣](https://reddit.com/r/ClaudeAI/comments/1su7q51/thats_me_and_claud/) - 2718 pts on r/ClaudeAI.
+- [You are an expert "Claude"](https://reddit.com/r/ClaudeAI/comments/1sup6el/you_are_an_expert_claude/) - 620 pts on r/ClaudeAI.
+- [Claude discovering modern SSD prices, lol.](https://reddit.com/r/ClaudeAI/comments/1suvgy1/claude_discovering_modern_ssd_prices_lol/) - 546 pts on r/ClaudeAI.
+- [Google plans to invest up to $40B in Anthropic](https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic) - 478 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
