@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-24
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-25
 
 <!-- CHANGELOG_START -->
 ### April 23, 2026 — Memory for Claude Managed Agents is now in public beta under the standard manage
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-24
+> Last fetched: <!-- NEWS_DATE -->2026-04-25
 
 <!-- NEWS_START -->
-### Top Stories — April 24, 2026
+### Top Stories — April 25, 2026
 
-- [Why does this CLAUDE.md file have so many stars?](https://reddit.com/r/ClaudeAI/comments/1stfoo7/why_does_this_claudemd_file_have_so_many_stars/) - 1654 pts on r/ClaudeAI.
-- [Claude reset limits for everyone](https://reddit.com/r/ClaudeAI/comments/1stozsr/claude_reset_limits_for_everyone/) - 1113 pts on r/ClaudeAI.
-- [An update on recent Claude Code quality reports](https://www.anthropic.com/engineering/april-23-postmortem) - 641 pts on Hacker News.
-- [Opus 4.7 made me re-subscribe to Codex after two months of Claude Max only](https://reddit.com/r/ClaudeAI/comments/1stfc4t/opus_47_made_me_resubscribe_to_codex_after_two/) - 322 pts on r/ClaudeAI.
-- [Boris Cherny creator of claude code posted post-mortem report of claude](https://reddit.com/r/ClaudeAI/comments/1stqjlp/boris_cherny_creator_of_claude_code_posted/) - 277 pts on r/ClaudeAI.
+- [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec) - 100 pts on Anthropic Blog.
+- [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) - 85 pts on GitHub Release.
+- [anthropic-sdk-typescript sdk-v0.91.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.91.0) - 75 pts on GitHub Release.
+- [anthropic-sdk-typescript bedrock-sdk-v0.29.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.0) - 70 pts on GitHub Release.
+- [claude-agent-sdk-python v0.1.66](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.66) - 65 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

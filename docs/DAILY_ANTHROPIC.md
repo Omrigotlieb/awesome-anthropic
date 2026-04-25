@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-04-24 (news snapshot: April 24, 2026)
+## 2026-04-25 (news snapshot: April 24, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -9,19 +9,18 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 - [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) is currently the latest Claude Code release visible in this repository snapshot.
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
 
 ### Top Story Snapshot
 
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
 - [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-24
+- Run date (UTC): 2026-04-25
 - News snapshot date: April 24, 2026
-- Snapshot lag: 0 day(s).
+- Snapshot lag: 1 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
 
 ### Why This Matters for Builders
 

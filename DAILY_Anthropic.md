@@ -509,3 +509,13 @@ This file is checked first at the start of each daily automation run.
 - [Anthropic at Google Cloud Next 2026](https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026)
 - [claude-code v2.1.118](https://code.claude.com/docs/en/changelog?version=2.1.118)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-04-25
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
+- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
