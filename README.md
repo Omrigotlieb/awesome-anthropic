@@ -357,10 +357,10 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ### Top Stories — April 25, 2026
 
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec) - 100 pts on Anthropic Blog.
+- [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update) - 95 pts on Anthropic Blog.
 - [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) - 85 pts on GitHub Release.
 - [anthropic-sdk-typescript sdk-v0.91.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.91.0) - 75 pts on GitHub Release.
 - [anthropic-sdk-typescript bedrock-sdk-v0.29.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.0) - 70 pts on GitHub Release.
-- [claude-agent-sdk-python v0.1.66](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.66) - 65 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

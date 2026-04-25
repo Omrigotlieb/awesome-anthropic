@@ -193,11 +193,15 @@ def extract_anthropic_items_from_html(
             canonical_title = _resolve_official_page_title(url, client, title_cache)
             if canonical_title:
                 title = canonical_title[:120]
+        source = "Anthropic Blog"
+        if urlsplit(url).path.startswith("/events/"):
+            source = "Anthropic Events"
+
         items.append(
             NewsItem(
                 title=title,
                 url=url,
-                source="Anthropic Blog",
+                source=source,
                 published_at=pub_dt.isoformat(),
                 item_id=f"blog_{href.split('/')[-1]}",
             )

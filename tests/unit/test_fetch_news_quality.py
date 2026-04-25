@@ -377,8 +377,13 @@ class TestFetchNewsQuality(unittest.TestCase):
         since = datetime(2026, 4, 1, tzinfo=timezone.utc)
         items = extract_anthropic_items_from_html(html, since=since)
         urls = [item.url for item in items]
+        event_sources = {item.url: item.source for item in items}
 
         self.assertIn("https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026", urls)
+        self.assertEqual(
+            event_sources["https://www.anthropic.com/events/anthropic-at-google-cloud-next-2026"],
+            "Anthropic Events",
+        )
         self.assertNotIn("https://www.anthropic.com/careers/jobs", urls)
 
     def test_extract_anthropic_items_respects_since_filter(self):

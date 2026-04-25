@@ -515,7 +515,7 @@ This file is checked first at the start of each daily automation run.
 - Started by checking this file before any other task.
 - Reviewed official Anthropic + Claude Code updates for this run.
 - Top stories snapshot:
+- [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.

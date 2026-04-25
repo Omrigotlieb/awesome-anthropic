@@ -7,14 +7,15 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 ### Verified Product and Research Updates
 
 - [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) is currently the latest Claude Code release visible in this repository snapshot.
+- [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
 
 ### Top Story Snapshot
 
+- [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119)
+- [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute)
 
 ### Freshness Status
 

@@ -12,6 +12,7 @@
 
 | Score | Title | Source |
 |------:|-------|--------|
+| 95 | [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update) | Anthropic Blog |
 | 100 | [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec) | Anthropic Blog |
 | 85 | [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) | GitHub Release |
 | 60 | [claude-code-action v1.0.105](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.105) | GitHub Release |
@@ -25,7 +26,9 @@
 
 | Title | Source |
 |-------|--------|
+| [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update) | Anthropic Blog |
 | [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec) | Anthropic Blog |
+| [Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute](https://www.anthropic.com/news/anthropic-amazon-compute) | Anthropic Blog |
 
 ### 🐦 From the Builders
 
