@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-25 (news snapshot: April 25, 2026)
+## 2026-04-26 (news snapshot: April 26, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-25 uses the April 25, 2026 news snapshot.
+- The daily run on 2026-04-26 uses the April 26, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.119.
 - Official channel signal remains active: An update on our election safeguards (April 25, 2026).
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (April 25, 2026):** [I'm somewhat of a coder myself](https://reddit.com/r/ClaudeAI/comments/1sucxqj/im_somewhat_of_a_coder_myself/)
+**News peg (April 26, 2026):** [PSA: The string "HERMES.md" in your git commit history silently routes Claude Code billing to extra usage — cost me $200](https://reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
@@ -67,9 +67,6 @@ This is community signal; it is useful for demand sensing, but should stay clear
 - April 25, 2026: [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
 - April 24, 2026: [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
 - April 18, 2026: [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
-- April 25, 2026: [claude-code-action v1.0.107](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.107)
-- April 25, 2026: [claude-code-action v1.0.106](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.106)
-- April 25, 2026: [claude-agent-sdk-python v0.1.68](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.68)
 
 ### Website Improvement Review
 

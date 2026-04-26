@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Apr 2026 06:02:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 06:01:03 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,116 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>I&apos;m somewhat of a coder myself</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sucxqj/im_somewhat_of_a_coder_myself/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sucxqj/im_somewhat_of_a_coder_myself/</guid>
-    <description>▲ 3985 points · r/ClaudeAI · I&apos;m somewhat of a coder myself</description>
+    <title>PSA: The string &quot;HERMES.md&quot; in your git commit history silently routes Claude Code billing to extra usage — cost me $200</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/</guid>
+    <description>▲ 1010 points · r/ClaudeAI · PSA: The string &quot;HERMES.md&quot; in your git commit history silently routes Claude Code billing to extra usage — cost me $200</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>That&apos;s me and claud 🤣</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1su7q51/thats_me_and_claud/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1su7q51/thats_me_and_claud/</guid>
-    <description>▲ 2718 points · r/ClaudeAI · That&apos;s me and claud 🤣</description>
+    <title>I’m a nursing student who built a 660K-page pharmaceutical database using Claude Haiku — solo, on the side</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sv7fvc/im_a_nursing_student_who_built_a_660kpage/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sv7fvc/im_a_nursing_student_who_built_a_660kpage/</guid>
+    <description>▲ 845 points · r/ClaudeAI · I’m a nursing student who built a 660K-page pharmaceutical database using Claude Haiku — solo, on the side</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>You are an expert &quot;Claude&quot;</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sup6el/you_are_an_expert_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sup6el/you_are_an_expert_claude/</guid>
-    <description>▲ 620 points · r/ClaudeAI · You are an expert &quot;Claude&quot;</description>
+    <title>Claude Code cheat sheet after 6 months of daily use</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sv852q/claude_code_cheat_sheet_after_6_months_of_daily/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sv852q/claude_code_cheat_sheet_after_6_months_of_daily/</guid>
+    <description>▲ 634 points · r/ClaudeAI · Claude Code cheat sheet after 6 months of daily use</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude discovering modern SSD prices, lol.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1suvgy1/claude_discovering_modern_ssd_prices_lol/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1suvgy1/claude_discovering_modern_ssd_prices_lol/</guid>
-    <description>▲ 546 points · r/ClaudeAI · Claude discovering modern SSD prices, lol.</description>
+    <title>Successfully updated from 2.1.120 to version 2.1.119</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sv8rce/successfully_updated_from_21120_to_version_21119/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sv8rce/successfully_updated_from_21120_to_version_21119/</guid>
+    <description>▲ 300 points · r/ClaudeAI · Successfully updated from 2.1.120 to version 2.1.119</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Google plans to invest up to $40B in Anthropic</title>
-    <link>https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic</link>
-    <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic</guid>
-    <description>▲ 478 points · Hacker News · Google plans to invest up to $40B in Anthropic</description>
+    <title>How Anthropic can save Opus 4.7 with one change.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sv4qnh/how_anthropic_can_save_opus_47_with_one_change/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sv4qnh/how_anthropic_can_save_opus_47_with_one_change/</guid>
+    <description>▲ 297 points · r/ClaudeAI · How Anthropic can save Opus 4.7 with one change.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Older models moving back to 200k context window. FYI</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1svd2ee/older_models_moving_back_to_200k_context_window/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1svd2ee/older_models_moving_back_to_200k_context_window/</guid>
+    <description>▲ 256 points · r/ClaudeAI · Older models moving back to 200k context window. FYI</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude estimates work in human time, not Claude time</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sv8avi/claude_estimates_work_in_human_time_not_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sv8avi/claude_estimates_work_in_human_time_not_claude/</guid>
+    <description>▲ 132 points · r/ClaudeAI · Claude estimates work in human time, not Claude time</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude in excel is the best thing AI has brought to my life</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1svv1at/claude_in_excel_is_the_best_thing_ai_has_brought/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1svv1at/claude_in_excel_is_the_best_thing_ai_has_brought/</guid>
+    <description>▲ 110 points · r/ClaudeAI · Claude in excel is the best thing AI has brought to my life</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>What do you do while Claude is thinking?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1svf0a0/what_do_you_do_while_claude_is_thinking/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1svf0a0/what_do_you_do_while_claude_is_thinking/</guid>
+    <description>▲ 86 points · r/ClaudeAI · What do you do while Claude is thinking?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>two years ago this sub had 12k members asking &quot;is claude better than chatgpt for writing&quot; and now the company is worth a trillion dollars</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1svoyyd/two_years_ago_this_sub_had_12k_members_asking_is/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1svoyyd/two_years_ago_this_sub_had_12k_members_asking_is/</guid>
+    <description>▲ 83 points · r/ClaudeAI · two years ago this sub had 12k members asking &quot;is claude better than chatgpt for writing&quot; and now the company is worth a trillion dollars</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude Opus 4.7 solved the dorito smear after 19 mins - worth mentioning to video enthusiasts</title>
+    <link>https://reddit.com/r/Anthropic/comments/1svl7wg/claude_opus_47_solved_the_dorito_smear_after_19/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1svl7wg/claude_opus_47_solved_the_dorito_smear_after_19/</guid>
+    <description>▲ 67 points · r/Anthropic · Claude Opus 4.7 solved the dorito smear after 19 mins - worth mentioning to video enthusiasts</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>What happened to Anthropic test cutting the MAX 20X plan limits by 50% and removing CC from Pro plan for 2% of users and? If it works, will they roll it out to everyone? What does that test mean?, and why are most users quiet about it? Would you pay $200 for 10X Pro? or $400 for your current 20X?</title>
+    <link>https://reddit.com/r/Anthropic/comments/1svdc9z/what_happened_to_anthropic_test_cutting_the_max/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1svdc9z/what_happened_to_anthropic_test_cutting_the_max/</guid>
+    <description>▲ 55 points · r/Anthropic · What happened to Anthropic test cutting the MAX 20X plan limits by 50% and removing CC from Pro plan for 2% of users and? If it works, will they roll it out to everyone? What does that test mean?, and why are most users quiet about it? Would you pay $200 for 10X Pro? or $400 for your current 20X?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>me after telling Opus 4.7 it&apos;s an expert software engineer</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1svgwdf/me_after_telling_opus_47_its_an_expert_software/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1svgwdf/me_after_telling_opus_47_its_an_expert_software/</guid>
+    <description>▲ 50 points · r/ClaudeAI · me after telling Opus 4.7 it&apos;s an expert software engineer</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: Agent MCP Studio – build multi-agent MCP systems in a browser tab</title>
+    <link>https://www.agentmcp.studio</link>
+    <guid isPermaLink="true">https://www.agentmcp.studio</guid>
+    <description>▲ 11 points · Hacker News · Show HN: Agent MCP Studio – build multi-agent MCP systems in a browser tab</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude limits no longer round to the nearest hour</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sue09c/claude_limits_no_longer_round_to_the_nearest_hour/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sue09c/claude_limits_no_longer_round_to_the_nearest_hour/</guid>
-    <description>▲ 460 points · r/ClaudeAI · Claude limits no longer round to the nearest hour</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude + Codex = Excellence</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1su7r02/claude_codex_excellence/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1su7r02/claude_codex_excellence/</guid>
-    <description>▲ 376 points · r/ClaudeAI · Claude + Codex = Excellence</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Google Plans to Invest Up to $40 Billion in Anthropic (Gift Link)</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sujusu/google_plans_to_invest_up_to_40_billion_in/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sujusu/google_plans_to_invest_up_to_40_billion_in/</guid>
-    <description>▲ 267 points · r/ClaudeAI · Google Plans to Invest Up to $40 Billion in Anthropic (Gift Link)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Can we have a feature to show 24-h format instead of American?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sulp8w/can_we_have_a_feature_to_show_24h_format_instead/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sulp8w/can_we_have_a_feature_to_show_24h_format_instead/</guid>
-    <description>▲ 214 points · r/ClaudeAI · Can we have a feature to show 24-h format instead of American?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Google to invest up to $40B in Anthropic in cash and compute</title>
-    <link>https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/</link>
-    <guid isPermaLink="true">https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/</guid>
-    <description>▲ 206 points · Hacker News · Google to invest up to $40B in Anthropic in cash and compute</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>You need a lot of wheat to buy some of Claude. Data seldom lies</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1suiop2/you_need_a_lot_of_wheat_to_buy_some_of_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1suiop2/you_need_a_lot_of_wheat_to_buy_some_of_claude/</guid>
-    <description>▲ 101 points · r/ClaudeAI · You need a lot of wheat to buy some of Claude. Data seldom lies</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>An update on our election safeguards</title>
-    <link>https://www.anthropic.com/news/election-safeguards-update</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/election-safeguards-update</guid>
-    <description>▲ 100 points · Anthropic Blog · An update on our election safeguards</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude is extremely expensive but works like Magic! (For a non-coder)</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sullfu/claude_is_extremely_expensive_but_works_like/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sullfu/claude_is_extremely_expensive_but_works_like/</guid>
-    <description>▲ 80 points · r/ClaudeAI · Claude is extremely expensive but works like Magic! (For a non-coder)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Tell HN: Claude 4.7 is ignoring stop hooks</title>
-    <link>https://news.ycombinator.com/item?id=47895029</link>
-    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47895029</guid>
-    <description>▲ 78 points · Hacker News · Tell HN: Claude 4.7 is ignoring stop hooks</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic now requires Pro Plans to enable/purchase extra usage for Opus</title>
-    <link>https://support.claude.com/en/articles/11940350-claude-code-model-configuration</link>
-    <guid isPermaLink="true">https://support.claude.com/en/articles/11940350-claude-code-model-configuration</guid>
-    <description>▲ 10 points · Hacker News · Anthropic now requires Pro Plans to enable/purchase extra usage for Opus</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 25 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 26 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

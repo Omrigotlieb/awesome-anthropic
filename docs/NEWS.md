@@ -4,6 +4,29 @@
 
 ---
 
+## April 26, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1010 | [PSA: The string "HERMES.md" in your git commit history silently routes Claude Code billing to extra usage — cost me $200](https://reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/) | r/ClaudeAI |
+| 845 | [I’m a nursing student who built a 660K-page pharmaceutical database using Claude Haiku — solo, on the side](https://reddit.com/r/ClaudeAI/comments/1sv7fvc/im_a_nursing_student_who_built_a_660kpage/) | r/ClaudeAI |
+| 634 | [Claude Code cheat sheet after 6 months of daily use](https://reddit.com/r/ClaudeAI/comments/1sv852q/claude_code_cheat_sheet_after_6_months_of_daily/) | r/ClaudeAI |
+| 300 | [Successfully updated from 2.1.120 to version 2.1.119](https://reddit.com/r/ClaudeAI/comments/1sv8rce/successfully_updated_from_21120_to_version_21119/) | r/ClaudeAI |
+| 297 | [How Anthropic can save Opus 4.7 with one change.](https://reddit.com/r/ClaudeAI/comments/1sv4qnh/how_anthropic_can_save_opus_47_with_one_change/) | r/ClaudeAI |
+| 256 | [Older models moving back to 200k context window. FYI](https://reddit.com/r/ClaudeAI/comments/1svd2ee/older_models_moving_back_to_200k_context_window/) | r/ClaudeAI |
+| 132 | [Claude estimates work in human time, not Claude time](https://reddit.com/r/ClaudeAI/comments/1sv8avi/claude_estimates_work_in_human_time_not_claude/) | r/ClaudeAI |
+| 110 | [Claude in excel is the best thing AI has brought to my life](https://reddit.com/r/ClaudeAI/comments/1svv1at/claude_in_excel_is_the_best_thing_ai_has_brought/) | r/ClaudeAI |
+| 86 | [What do you do while Claude is thinking?](https://reddit.com/r/ClaudeAI/comments/1svf0a0/what_do_you_do_while_claude_is_thinking/) | r/ClaudeAI |
+| 83 | [two years ago this sub had 12k members asking "is claude better than chatgpt for writing" and now the company is worth a trillion dollars](https://reddit.com/r/ClaudeAI/comments/1svoyyd/two_years_ago_this_sub_had_12k_members_asking_is/) | r/ClaudeAI |
+| 67 | [Claude Opus 4.7 solved the dorito smear after 19 mins - worth mentioning to video enthusiasts](https://reddit.com/r/Anthropic/comments/1svl7wg/claude_opus_47_solved_the_dorito_smear_after_19/) | r/Anthropic |
+| 55 | [What happened to Anthropic test cutting the MAX 20X plan limits by 50% and removing CC from Pro plan for 2% of users and? If it works, will they roll it out to everyone? What does that test mean?, and why are most users quiet about it? Would you pay $200 for 10X Pro? or $400 for your current 20X?](https://reddit.com/r/Anthropic/comments/1svdc9z/what_happened_to_anthropic_test_cutting_the_max/) | r/Anthropic |
+| 50 | [me after telling Opus 4.7 it's an expert software engineer](https://reddit.com/r/ClaudeAI/comments/1svgwdf/me_after_telling_opus_47_its_an_expert_software/) | r/ClaudeAI |
+| 11 | [Show HN: Agent MCP Studio – build multi-agent MCP systems in a browser tab](https://www.agentmcp.studio) | Hacker News |
+
+---
+
 ## April 25, 2026
 
 ### 🔥 Top Stories

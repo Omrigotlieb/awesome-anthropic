@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-25
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-26
 
 <!-- CHANGELOG_START -->
 ### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-25
+> Last fetched: <!-- NEWS_DATE -->2026-04-26
 
 <!-- NEWS_START -->
-### Top Stories — April 25, 2026
+### Top Stories — April 26, 2026
 
-- [I'm somewhat of a coder myself](https://reddit.com/r/ClaudeAI/comments/1sucxqj/im_somewhat_of_a_coder_myself/) - 3985 pts on r/ClaudeAI.
-- [That's me and claud 🤣](https://reddit.com/r/ClaudeAI/comments/1su7q51/thats_me_and_claud/) - 2718 pts on r/ClaudeAI.
-- [You are an expert "Claude"](https://reddit.com/r/ClaudeAI/comments/1sup6el/you_are_an_expert_claude/) - 620 pts on r/ClaudeAI.
-- [Claude discovering modern SSD prices, lol.](https://reddit.com/r/ClaudeAI/comments/1suvgy1/claude_discovering_modern_ssd_prices_lol/) - 546 pts on r/ClaudeAI.
-- [Google plans to invest up to $40B in Anthropic](https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic) - 478 pts on Hacker News.
+- [PSA: The string "HERMES.md" in your git commit history silently routes Claude Code billing to extra usage — cost me $200](https://reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/) - 1010 pts on r/ClaudeAI.
+- [I’m a nursing student who built a 660K-page pharmaceutical database using Claude Haiku — solo, on the side](https://reddit.com/r/ClaudeAI/comments/1sv7fvc/im_a_nursing_student_who_built_a_660kpage/) - 845 pts on r/ClaudeAI.
+- [Claude Code cheat sheet after 6 months of daily use](https://reddit.com/r/ClaudeAI/comments/1sv852q/claude_code_cheat_sheet_after_6_months_of_daily/) - 634 pts on r/ClaudeAI.
+- [Successfully updated from 2.1.120 to version 2.1.119](https://reddit.com/r/ClaudeAI/comments/1sv8rce/successfully_updated_from_21120_to_version_21119/) - 300 pts on r/ClaudeAI.
+- [How Anthropic can save Opus 4.7 with one change.](https://reddit.com/r/ClaudeAI/comments/1sv4qnh/how_anthropic_can_save_opus_47_with_one_change/) - 297 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
