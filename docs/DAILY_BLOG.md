@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-26 (news snapshot: April 26, 2026)
+## 2026-04-27 (news snapshot: April 27, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-26 uses the April 26, 2026 news snapshot.
+- The daily run on 2026-04-27 uses the April 27, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.119.
 - Official channel signal remains active: An update on our election safeguards (April 25, 2026).
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (April 26, 2026):** [PSA: The string "HERMES.md" in your git commit history silently routes Claude Code billing to extra usage — cost me $200](https://reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/)
+**News peg (April 27, 2026):** [You're right to push back.](https://reddit.com/r/ClaudeAI/comments/1sw0xbo/youre_right_to_push_back/)
 
 Snapshot update: Top story source: r/ClaudeAI
 

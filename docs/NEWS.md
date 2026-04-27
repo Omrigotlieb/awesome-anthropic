@@ -4,6 +4,24 @@
 
 ---
 
+## April 27, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 6061 | [You're right to push back.](https://reddit.com/r/ClaudeAI/comments/1sw0xbo/youre_right_to_push_back/) | r/ClaudeAI |
+| 522 | [Claude 4.7 named a journalist from 125 words of unpublished writing](https://reddit.com/r/ClaudeAI/comments/1sw8npc/claude_47_named_a_journalist_from_125_words_of/) | r/ClaudeAI |
+| 233 | [Anthropic's support system is broken by design — there is literally no path to a human for billing issues](https://reddit.com/r/ClaudeAI/comments/1svzspd/anthropics_support_system_is_broken_by_design/) | r/ClaudeAI |
+| 92 | [Claude helped me create a survivable diet and I've lost 15 lbs in 7 weeks](https://reddit.com/r/ClaudeAI/comments/1swpik6/claude_helped_me_create_a_survivable_diet_and_ive/) | r/ClaudeAI |
+| 88 | [Conversations with Opus 4.7](https://reddit.com/r/Anthropic/comments/1sw1zz9/conversations_with_opus_47/) | r/Anthropic |
+| 85 | [Is Claude Design actually useful or just hype?](https://reddit.com/r/ClaudeAI/comments/1swlkp2/is_claude_design_actually_useful_or_just_hype/) | r/ClaudeAI |
+| 83 | [How do you decide which Claude Code tasks to run with Opus vs Sonnet vs Haiku?](https://reddit.com/r/ClaudeAI/comments/1sw4bl6/how_do_you_decide_which_claude_code_tasks_to_run/) | r/ClaudeAI |
+| 74 | [Cloudflare just shipped enterprise MCP governance, is this where the industry is heading or does nobody care](https://reddit.com/r/ClaudeAI/comments/1sw4zmj/cloudflare_just_shipped_enterprise_mcp_governance/) | r/ClaudeAI |
+| 55 | [This response has me in tears](https://reddit.com/r/Anthropic/comments/1swloe1/this_response_has_me_in_tears/) | r/Anthropic |
+
+---
+
 ## April 26, 2026
 
 ### 🔥 Top Stories
