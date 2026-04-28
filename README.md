@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-27
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-28
 
 <!-- CHANGELOG_START -->
 ### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-27
+> Last fetched: <!-- NEWS_DATE -->2026-04-28
 
 <!-- NEWS_START -->
-### Top Stories — April 27, 2026
+### Top Stories — April 28, 2026
 
-- [You're right to push back.](https://reddit.com/r/ClaudeAI/comments/1sw0xbo/youre_right_to_push_back/) - 6061 pts on r/ClaudeAI.
-- [Claude 4.7 named a journalist from 125 words of unpublished writing](https://reddit.com/r/ClaudeAI/comments/1sw8npc/claude_47_named_a_journalist_from_125_words_of/) - 522 pts on r/ClaudeAI.
-- [Anthropic's support system is broken by design — there is literally no path to a human for billing issues](https://reddit.com/r/ClaudeAI/comments/1svzspd/anthropics_support_system_is_broken_by_design/) - 233 pts on r/ClaudeAI.
-- [Claude helped me create a survivable diet and I've lost 15 lbs in 7 weeks](https://reddit.com/r/ClaudeAI/comments/1swpik6/claude_helped_me_create_a_survivable_diet_and_ive/) - 92 pts on r/ClaudeAI.
-- [Conversations with Opus 4.7](https://reddit.com/r/Anthropic/comments/1sw1zz9/conversations_with_opus_47/) - 88 pts on r/Anthropic.
+- [When your data is so bad...](https://reddit.com/r/ClaudeAI/comments/1sx4hc6/when_your_data_is_so_bad/) - 2958 pts on r/ClaudeAI.
+- [Drop your best Claude skills in here!](https://reddit.com/r/ClaudeAI/comments/1sx44bc/drop_your_best_claude_skills_in_here/) - 971 pts on r/ClaudeAI.
+- [Claude knows when you cheat on it with Codex??](https://reddit.com/r/ClaudeAI/comments/1sxe46v/claude_knows_when_you_cheat_on_it_with_codex/) - 771 pts on r/ClaudeAI.
+- [Anthropic just quietly locked Opus behind a paywall-within-a-paywall for Pro users in Claude Code](https://reddit.com/r/ClaudeAI/comments/1sxi9mo/anthropic_just_quietly_locked_opus_behind_a/) - 481 pts on r/ClaudeAI.
+- [Taught my 60-year-old dad (zero coding exp) Claude and Git in Feb. Today he built a RAG solution. I finally get "vibe coding."](https://reddit.com/r/ClaudeAI/comments/1swy5r6/taught_my_60yearold_dad_zero_coding_exp_claude/) - 477 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

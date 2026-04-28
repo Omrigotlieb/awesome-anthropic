@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2026 06:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 06:01:13 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,76 +13,124 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>You&apos;re right to push back.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sw0xbo/youre_right_to_push_back/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sw0xbo/youre_right_to_push_back/</guid>
-    <description>▲ 6061 points · r/ClaudeAI · You&apos;re right to push back.</description>
+    <title>When your data is so bad...</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sx4hc6/when_your_data_is_so_bad/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sx4hc6/when_your_data_is_so_bad/</guid>
+    <description>▲ 2958 points · r/ClaudeAI · When your data is so bad...</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude 4.7 named a journalist from 125 words of unpublished writing</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sw8npc/claude_47_named_a_journalist_from_125_words_of/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sw8npc/claude_47_named_a_journalist_from_125_words_of/</guid>
-    <description>▲ 522 points · r/ClaudeAI · Claude 4.7 named a journalist from 125 words of unpublished writing</description>
+    <title>Drop your best Claude skills in here!</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sx44bc/drop_your_best_claude_skills_in_here/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sx44bc/drop_your_best_claude_skills_in_here/</guid>
+    <description>▲ 971 points · r/ClaudeAI · Drop your best Claude skills in here!</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic&apos;s support system is broken by design — there is literally no path to a human for billing issues</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1svzspd/anthropics_support_system_is_broken_by_design/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1svzspd/anthropics_support_system_is_broken_by_design/</guid>
-    <description>▲ 233 points · r/ClaudeAI · Anthropic&apos;s support system is broken by design — there is literally no path to a human for billing issues</description>
+    <title>Claude knows when you cheat on it with Codex??</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sxe46v/claude_knows_when_you_cheat_on_it_with_codex/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sxe46v/claude_knows_when_you_cheat_on_it_with_codex/</guid>
+    <description>▲ 771 points · r/ClaudeAI · Claude knows when you cheat on it with Codex??</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude helped me create a survivable diet and I&apos;ve lost 15 lbs in 7 weeks</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1swpik6/claude_helped_me_create_a_survivable_diet_and_ive/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1swpik6/claude_helped_me_create_a_survivable_diet_and_ive/</guid>
-    <description>▲ 92 points · r/ClaudeAI · Claude helped me create a survivable diet and I&apos;ve lost 15 lbs in 7 weeks</description>
+    <title>Anthropic just quietly locked Opus behind a paywall-within-a-paywall for Pro users in Claude Code</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sxi9mo/anthropic_just_quietly_locked_opus_behind_a/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sxi9mo/anthropic_just_quietly_locked_opus_behind_a/</guid>
+    <description>▲ 481 points · r/ClaudeAI · Anthropic just quietly locked Opus behind a paywall-within-a-paywall for Pro users in Claude Code</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Conversations with Opus 4.7</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sw1zz9/conversations_with_opus_47/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sw1zz9/conversations_with_opus_47/</guid>
-    <description>▲ 88 points · r/Anthropic · Conversations with Opus 4.7</description>
+    <title>Taught my 60-year-old dad (zero coding exp) Claude and Git in Feb. Today he built a RAG solution. I finally get &quot;vibe coding.&quot;</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1swy5r6/taught_my_60yearold_dad_zero_coding_exp_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1swy5r6/taught_my_60yearold_dad_zero_coding_exp_claude/</guid>
+    <description>▲ 477 points · r/ClaudeAI · Taught my 60-year-old dad (zero coding exp) Claude and Git in Feb. Today he built a RAG solution. I finally get &quot;vibe coding.&quot;</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>GitHub Copilot 9x price increase for Claude models</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sxcxge/github_copilot_9x_price_increase_for_claude_models/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sxcxge/github_copilot_9x_price_increase_for_claude_models/</guid>
+    <description>▲ 431 points · r/ClaudeAI · GitHub Copilot 9x price increase for Claude models</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Woah Claude&apos;s disclaimer at the bottom is getting weird....</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sx4amo/woah_claudes_disclaimer_at_the_bottom_is_getting/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sx4amo/woah_claudes_disclaimer_at_the_bottom_is_getting/</guid>
+    <description>▲ 321 points · r/ClaudeAI · Woah Claude&apos;s disclaimer at the bottom is getting weird....</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Built an interactive daily workout app with Claude in one conversation, no coding experience required</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sx0ngg/built_an_interactive_daily_workout_app_with/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sx0ngg/built_an_interactive_daily_workout_app_with/</guid>
+    <description>▲ 257 points · r/ClaudeAI · Built an interactive daily workout app with Claude in one conversation, no coding experience required</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Louis Rossmann: Anthropic deserves mass chargebacks for predatory billing policies</title>
+    <link>https://reddit.com/r/Anthropic/comments/1sxhu0i/louis_rossmann_anthropic_deserves_mass/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sxhu0i/louis_rossmann_anthropic_deserves_mass/</guid>
+    <description>▲ 250 points · r/Anthropic · Louis Rossmann: Anthropic deserves mass chargebacks for predatory billing policies</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Is Claude Design actually useful or just hype?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1swlkp2/is_claude_design_actually_useful_or_just_hype/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1swlkp2/is_claude_design_actually_useful_or_just_hype/</guid>
-    <description>▲ 85 points · r/ClaudeAI · Is Claude Design actually useful or just hype?</description>
+    <title>Why AI is erasing your mental map of your projects</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sx0qol/why_ai_is_erasing_your_mental_map_of_your_projects/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sx0qol/why_ai_is_erasing_your_mental_map_of_your_projects/</guid>
+    <description>▲ 167 points · r/ClaudeAI · Why AI is erasing your mental map of your projects</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>How do you decide which Claude Code tasks to run with Opus vs Sonnet vs Haiku?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sw4bl6/how_do_you_decide_which_claude_code_tasks_to_run/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sw4bl6/how_do_you_decide_which_claude_code_tasks_to_run/</guid>
-    <description>▲ 83 points · r/ClaudeAI · How do you decide which Claude Code tasks to run with Opus vs Sonnet vs Haiku?</description>
+    <title>Opus is NOT being removed from Pro plans</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sxmjcj/opus_is_not_being_removed_from_pro_plans/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sxmjcj/opus_is_not_being_removed_from_pro_plans/</guid>
+    <description>▲ 144 points · r/ClaudeAI · Opus is NOT being removed from Pro plans</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Cloudflare just shipped enterprise MCP governance, is this where the industry is heading or does nobody care</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1sw4zmj/cloudflare_just_shipped_enterprise_mcp_governance/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sw4zmj/cloudflare_just_shipped_enterprise_mcp_governance/</guid>
-    <description>▲ 74 points · r/ClaudeAI · Cloudflare just shipped enterprise MCP governance, is this where the industry is heading or does nobody care</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>This response has me in tears</title>
-    <link>https://reddit.com/r/Anthropic/comments/1swloe1/this_response_has_me_in_tears/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1swloe1/this_response_has_me_in_tears/</guid>
-    <description>▲ 55 points · r/Anthropic · This response has me in tears</description>
+    <title>Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic&apos;s Claude goes rogue</title>
+    <link>https://reddit.com/r/Anthropic/comments/1sxctnt/claudepowered_ai_coding_agent_deletes_entire/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sxctnt/claudepowered_ai_coding_agent_deletes_entire/</guid>
+    <description>▲ 121 points · r/Anthropic · Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic&apos;s Claude goes rogue</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 27 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>4.6&amp;gt;4.7</title>
+    <link>https://reddit.com/r/Anthropic/comments/1sxak75/4647/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sxak75/4647/</guid>
+    <description>▲ 107 points · r/Anthropic · 4.6&amp;gt;4.7</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic Sydney office</title>
+    <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
+    <description>▲ 100 points · Anthropic Blog · Anthropic Sydney office</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude-powered AI coding agent deletes company database in 9 seconds</title>
+    <link>https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue</link>
+    <guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue</guid>
+    <description>▲ 26 points · Hacker News · Claude-powered AI coding agent deletes company database in 9 seconds</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 28 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

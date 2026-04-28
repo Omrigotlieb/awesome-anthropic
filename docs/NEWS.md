@@ -4,6 +4,49 @@
 
 ---
 
+## April 28, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2958 | [When your data is so bad...](https://reddit.com/r/ClaudeAI/comments/1sx4hc6/when_your_data_is_so_bad/) | r/ClaudeAI |
+| 971 | [Drop your best Claude skills in here!](https://reddit.com/r/ClaudeAI/comments/1sx44bc/drop_your_best_claude_skills_in_here/) | r/ClaudeAI |
+| 771 | [Claude knows when you cheat on it with Codex??](https://reddit.com/r/ClaudeAI/comments/1sxe46v/claude_knows_when_you_cheat_on_it_with_codex/) | r/ClaudeAI |
+| 481 | [Anthropic just quietly locked Opus behind a paywall-within-a-paywall for Pro users in Claude Code](https://reddit.com/r/ClaudeAI/comments/1sxi9mo/anthropic_just_quietly_locked_opus_behind_a/) | r/ClaudeAI |
+| 477 | [Taught my 60-year-old dad (zero coding exp) Claude and Git in Feb. Today he built a RAG solution. I finally get "vibe coding."](https://reddit.com/r/ClaudeAI/comments/1swy5r6/taught_my_60yearold_dad_zero_coding_exp_claude/) | r/ClaudeAI |
+| 431 | [GitHub Copilot 9x price increase for Claude models](https://reddit.com/r/ClaudeAI/comments/1sxcxge/github_copilot_9x_price_increase_for_claude_models/) | r/ClaudeAI |
+| 321 | [Woah Claude's disclaimer at the bottom is getting weird....](https://reddit.com/r/ClaudeAI/comments/1sx4amo/woah_claudes_disclaimer_at_the_bottom_is_getting/) | r/ClaudeAI |
+| 257 | [Built an interactive daily workout app with Claude in one conversation, no coding experience required](https://reddit.com/r/ClaudeAI/comments/1sx0ngg/built_an_interactive_daily_workout_app_with/) | r/ClaudeAI |
+| 250 | [Louis Rossmann: Anthropic deserves mass chargebacks for predatory billing policies](https://reddit.com/r/Anthropic/comments/1sxhu0i/louis_rossmann_anthropic_deserves_mass/) | r/Anthropic |
+| 167 | [Why AI is erasing your mental map of your projects](https://reddit.com/r/ClaudeAI/comments/1sx0qol/why_ai_is_erasing_your_mental_map_of_your_projects/) | r/ClaudeAI |
+| 144 | [Opus is NOT being removed from Pro plans](https://reddit.com/r/ClaudeAI/comments/1sxmjcj/opus_is_not_being_removed_from_pro_plans/) | r/ClaudeAI |
+| 121 | [Claude-powered AI coding agent deletes entire company database in 9 seconds — backups zapped, after Cursor tool powered by Anthropic's Claude goes rogue](https://reddit.com/r/Anthropic/comments/1sxctnt/claudepowered_ai_coding_agent_deletes_entire/) | r/Anthropic |
+| 107 | [4.6&gt;4.7](https://reddit.com/r/Anthropic/comments/1sxak75/4647/) | r/Anthropic |
+| 100 | [Anthropic Sydney office](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand) | Anthropic Blog |
+| 26 | [Claude-powered AI coding agent deletes company database in 9 seconds](https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-powered-ai-coding-agent-deletes-entire-company-database-in-9-seconds-backups-zapped-after-cursor-tool-powered-by-anthropics-claude-goes-rogue) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic Sydney office](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.121](https://code.claude.com/docs/en/changelog?version=2.1.121) | Official Claude Code changelog entry |
+| [claude-code v2.1.120](https://code.claude.com/docs/en/changelog?version=2.1.120) | Official Claude Code changelog entry |
+| [claude-code v2.1.121](https://github.com/anthropics/claude-code/releases/tag/v2.1.121) | ## What's changed  - Added `alwaysLoad` option to MCP server config — when `true`, all tools from th |
+| [claude-agent-sdk-typescript v0.2.121](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.121) | ## What's changed  - Added `updatedToolOutput` to `PostToolUseHookSpecificOutput` for replacing tool |
+| [claude-agent-sdk-python v0.1.69](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.69) |  ### Documentation  - Added docstrings to `ClaudeAgentOptions` fields for improved IDE autocompletio |
+| [claude-code-action v1.0.108](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.108) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.108 |
+| [buffa v0.4.0](https://github.com/anthropics/buffa/releases/tag/v0.4.0) | ## What's Changed * Tighten CI lint coverage: add --all-targets and fmt --check by @iainmcgin in htt |
+| [anthropic-sdk-php v0.17.1](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.17.1) | ## 0.17.1 (2026-04-27)  Full Changelog: [v0.17.0...v0.17.1](https://github.com/anthropics/anthropic- |
+
+---
+
 ## April 27, 2026
 
 ### 🔥 Top Stories

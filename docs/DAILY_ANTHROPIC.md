@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-04-27 (news snapshot: April 27, 2026)
+## 2026-04-28 (news snapshot: April 28, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.119](https://code.claude.com/docs/en/changelog?version=2.1.119) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.121](https://code.claude.com/docs/en/changelog?version=2.1.121) is currently the latest Claude Code release visible in this repository snapshot.
+- [Anthropic Sydney office](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand)
 - [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 
 ### Top Story Snapshot
 
+- [Anthropic Sydney office](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand)
 - [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
 - [Anthropic and NEC partner to build AI-native engineering at scale in Japan](https://www.anthropic.com/news/anthropic-nec)
-- [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-04-27
-- News snapshot date: April 27, 2026
+- Run date (UTC): 2026-04-28
+- News snapshot date: April 28, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
