@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-28
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-29
 
 <!-- CHANGELOG_START -->
 ### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-28
+> Last fetched: <!-- NEWS_DATE -->2026-04-29
 
 <!-- NEWS_START -->
-### Top Stories — April 28, 2026
+### Top Stories — April 29, 2026
 
-- [When your data is so bad...](https://reddit.com/r/ClaudeAI/comments/1sx4hc6/when_your_data_is_so_bad/) - 2958 pts on r/ClaudeAI.
-- [Drop your best Claude skills in here!](https://reddit.com/r/ClaudeAI/comments/1sx44bc/drop_your_best_claude_skills_in_here/) - 971 pts on r/ClaudeAI.
-- [Claude knows when you cheat on it with Codex??](https://reddit.com/r/ClaudeAI/comments/1sxe46v/claude_knows_when_you_cheat_on_it_with_codex/) - 771 pts on r/ClaudeAI.
-- [Anthropic just quietly locked Opus behind a paywall-within-a-paywall for Pro users in Claude Code](https://reddit.com/r/ClaudeAI/comments/1sxi9mo/anthropic_just_quietly_locked_opus_behind_a/) - 481 pts on r/ClaudeAI.
-- [Taught my 60-year-old dad (zero coding exp) Claude and Git in Feb. Today he built a RAG solution. I finally get "vibe coding."](https://reddit.com/r/ClaudeAI/comments/1swy5r6/taught_my_60yearold_dad_zero_coding_exp_claude/) - 477 pts on r/ClaudeAI.
+- [Anthropic Joins the Blender Development Fund as Corporate Patron](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/) - 245 pts on Hacker News.
+- [Regression: malware reminder on every read still causes subagent refusals](https://github.com/anthropics/claude-code/issues/49363) - 186 pts on Hacker News.
+- [Talkie: a 13B LLM trained only on pre-1931 text... a time-frozen AI that predates WWII, and it can still learn to code](https://reddit.com/r/Anthropic/comments/1sy72rp/talkie_a_13b_llm_trained_only_on_pre1931_text_a/) - 169 pts on r/Anthropic.
+- [Opus 4.7 is insanely bad](https://reddit.com/r/Anthropic/comments/1sybtin/opus_47_is_insanely_bad/) - 158 pts on r/Anthropic.
+- [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work) - 98 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

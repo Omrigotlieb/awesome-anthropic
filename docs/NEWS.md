@@ -4,6 +4,46 @@
 
 ---
 
+## April 29, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 245 | [Anthropic Joins the Blender Development Fund as Corporate Patron](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/) | Hacker News |
+| 186 | [Regression: malware reminder on every read still causes subagent refusals](https://github.com/anthropics/claude-code/issues/49363) | Hacker News |
+| 169 | [Talkie: a 13B LLM trained only on pre-1931 text... a time-frozen AI that predates WWII, and it can still learn to code](https://reddit.com/r/Anthropic/comments/1sy72rp/talkie_a_13b_llm_trained_only_on_pre1931_text_a/) | r/Anthropic |
+| 158 | [Opus 4.7 is insanely bad](https://reddit.com/r/Anthropic/comments/1sybtin/opus_47_is_insanely_bad/) | r/Anthropic |
+| 98 | [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work) | Hacker News |
+| 88 | [Opus 4.7 is somewhere between seriously clueless and stupidly dangerous. The worst frontier model I have used so far in the past 2 years. We were hoping to get at least our 4.6 back but 4.7 with so many critical logical failures mean you have to babysit it all the time. I'm losing hope in Anthropic.](https://reddit.com/r/Anthropic/comments/1sylckt/opus_47_is_somewhere_between_seriously_clueless/) | r/Anthropic |
+| 85 | [claude-agent-sdk-python v0.1.71](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.71) | GitHub Release |
+| 67 | [New study finds: bigger AIs = more miserable. Smaller models are actually happier. Ignorance is bliss for AIs too.](https://reddit.com/r/Anthropic/comments/1sya31f/new_study_finds_bigger_ais_more_miserable_smaller/) | r/Anthropic |
+| 16 | [Anthropic's Little Brother](https://www.theatlantic.com/technology/2026/04/openai-imitating-anthropic/686975/) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.123](https://code.claude.com/docs/en/changelog?version=2.1.123) | Official Claude Code changelog entry |
+| [claude-code v2.1.122](https://code.claude.com/docs/en/changelog?version=2.1.122) | Official Claude Code changelog entry |
+| [claude-code v2.1.123](https://github.com/anthropics/claude-code/releases/tag/v2.1.123) | ## What's changed  - Fixed OAuth authentication failing with a 401 retry loop when `CLAUDE_CODE_DISA |
+| [claude-code v2.1.122](https://github.com/anthropics/claude-code/releases/tag/v2.1.122) | ## What's changed  - Added `ANTHROPIC_BEDROCK_SERVICE_TIER` environment variable to select a Bedrock |
+| [claude-agent-sdk-python v0.1.71](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.71) |  ### New Features  - **Domain allowlist fields for sandbox network config**: Added `allowedDomains`, |
+| [claude-agent-sdk-python v0.1.70](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.70) |  ### Bug Fixes  - **In-process MCP tool results silently lost with older `mcp` versions**: Bumped th |
+| [claude-code-action v1.0.110](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.110) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.110 |
+| [claude-code-action v1.0.109](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.109) | ## What's Changed * docs: pull_request_target guidance and base-action trust model by @OctavianGuzu  |
+| [anthropic-cli v1.4.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.4.0) | ## 1.4.0 (2026-04-28)  Full Changelog: [v1.3.2...v1.4.0](https://github.com/anthropics/anthropic-cli |
+| [claude-agent-sdk-typescript v0.2.123](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.123) | ## What's changed  - Updated to parity with Claude Code v2.1.123  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.2.122](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.122) | ## What's changed  - Updated to parity with Claude Code v2.1.122  ## Update  ```sh npm install @anth |
+
+---
+
 ## April 28, 2026
 
 ### 🔥 Top Stories
