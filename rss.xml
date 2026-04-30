@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 06:01:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 06:01:15 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,76 +13,124 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic Joins the Blender Development Fund as Corporate Patron</title>
-    <link>https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/</link>
-    <guid isPermaLink="true">https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/</guid>
-    <description>▲ 245 points · Hacker News · Anthropic Joins the Blender Development Fund as Corporate Patron</description>
+    <title>Thanks for the advice Claude</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/</guid>
+    <description>▲ 1632 points · r/ClaudeAI · Thanks for the advice Claude</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>When you&apos;ve got money to burn 😂</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1syuij0/when_youve_got_money_to_burn/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1syuij0/when_youve_got_money_to_burn/</guid>
+    <description>▲ 1082 points · r/ClaudeAI · When you&apos;ve got money to burn 😂</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>HERMES.md in commit messages causes requests to route to extra usage billing</title>
+    <link>https://github.com/anthropics/claude-code/issues/53262</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/53262</guid>
+    <description>▲ 1065 points · Hacker News · HERMES.md in commit messages causes requests to route to extra usage billing</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Regression: malware reminder on every read still causes subagent refusals</title>
-    <link>https://github.com/anthropics/claude-code/issues/49363</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/49363</guid>
-    <description>▲ 186 points · Hacker News · Regression: malware reminder on every read still causes subagent refusals</description>
+    <title>Claude picked the moral high ground in the red button/blue button vote</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sz5md9/claude_picked_the_moral_high_ground_in_the_red/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sz5md9/claude_picked_the_moral_high_ground_in_the_red/</guid>
+    <description>▲ 655 points · r/ClaudeAI · Claude picked the moral high ground in the red button/blue button vote</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1syt37w/claude_is_my_seo_strategist_content_engine_and/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1syt37w/claude_is_my_seo_strategist_content_engine_and/</guid>
+    <description>▲ 560 points · r/ClaudeAI · Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The final nail in the coffin for entry level creative freelancers just dropped</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1syu949/the_final_nail_in_the_coffin_for_entry_level/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1syu949/the_final_nail_in_the_coffin_for_entry_level/</guid>
+    <description>▲ 539 points · r/ClaudeAI · The final nail in the coffin for entry level creative freelancers just dropped</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude: “I estimate this will take 1-2 weeks to complete”</title>
+    <link>https://reddit.com/r/Anthropic/comments/1szdhn2/claude_i_estimate_this_will_take_12_weeks_to/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1szdhn2/claude_i_estimate_this_will_take_12_weeks_to/</guid>
+    <description>▲ 383 points · r/Anthropic · Claude: “I estimate this will take 1-2 weeks to complete”</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Launched My First App Using Claude</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sz38u6/launched_my_first_app_using_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sz38u6/launched_my_first_app_using_claude/</guid>
+    <description>▲ 223 points · r/ClaudeAI · Launched My First App Using Claude</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Opus 4.7: Are these first signs of model collapse?</title>
+    <link>https://reddit.com/r/Anthropic/comments/1sysm4v/opus_47_are_these_first_signs_of_model_collapse/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sysm4v/opus_47_are_these_first_signs_of_model_collapse/</guid>
+    <description>▲ 175 points · r/Anthropic · Opus 4.7: Are these first signs of model collapse?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The &quot;Mother-In-Law Method&quot; - How to get the best code reviews with Claude</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sz18s0/the_motherinlaw_method_how_to_get_the_best_code/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sz18s0/the_motherinlaw_method_how_to_get_the_best_code/</guid>
+    <description>▲ 125 points · r/ClaudeAI · The &quot;Mother-In-Law Method&quot; - How to get the best code reviews with Claude</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>what is claude mythos doing in my azure model catalog 😭</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1szbrd1/what_is_claude_mythos_doing_in_my_azure_model/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1szbrd1/what_is_claude_mythos_doing_in_my_azure_model/</guid>
+    <description>▲ 111 points · r/ClaudeAI · what is claude mythos doing in my azure model catalog 😭</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>AI is making me less productive and more distracted</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1sz2nf3/ai_is_making_me_less_productive_and_more/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1sz2nf3/ai_is_making_me_less_productive_and_more/</guid>
+    <description>▲ 108 points · r/ClaudeAI · AI is making me less productive and more distracted</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>my claude prompts are embarrassingly short now</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1syvo7w/my_claude_prompts_are_embarrassingly_short_now/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1syvo7w/my_claude_prompts_are_embarrassingly_short_now/</guid>
+    <description>▲ 101 points · r/ClaudeAI · my claude prompts are embarrassingly short now</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: A new benchmark for testing LLMs for deterministic outputs</title>
+    <link>https://interfaze.ai/blog/introducing-structured-output-benchmark</link>
+    <guid isPermaLink="true">https://interfaze.ai/blog/introducing-structured-output-benchmark</guid>
+    <description>▲ 50 points · Hacker News · Show HN: A new benchmark for testing LLMs for deterministic outputs</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Talkie: a 13B LLM trained only on pre-1931 text... a time-frozen AI that predates WWII, and it can still learn to code</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sy72rp/talkie_a_13b_llm_trained_only_on_pre1931_text_a/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sy72rp/talkie_a_13b_llm_trained_only_on_pre1931_text_a/</guid>
-    <description>▲ 169 points · r/Anthropic · Talkie: a 13B LLM trained only on pre-1931 text... a time-frozen AI that predates WWII, and it can still learn to code</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Opus 4.7 is insanely bad</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sybtin/opus_47_is_insanely_bad/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sybtin/opus_47_is_insanely_bad/</guid>
-    <description>▲ 158 points · r/Anthropic · Opus 4.7 is insanely bad</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude for Creative Work</title>
-    <link>https://www.anthropic.com/news/claude-for-creative-work</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-creative-work</guid>
-    <description>▲ 98 points · Hacker News · Claude for Creative Work</description>
+    <title>Anthropic&apos;s Champion Kit for engineers pushing Claude Code at their company</title>
+    <link>https://code.claude.com/docs/en/champion-kit</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/champion-kit</guid>
+    <description>▲ 38 points · Hacker News · Anthropic&apos;s Champion Kit for engineers pushing Claude Code at their company</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Opus 4.7 is somewhere between seriously clueless and stupidly dangerous. The worst frontier model I have used so far in the past 2 years. We were hoping to get at least our 4.6 back but 4.7 with so many critical logical failures mean you have to babysit it all the time. I&apos;m losing hope in Anthropic.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sylckt/opus_47_is_somewhere_between_seriously_clueless/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sylckt/opus_47_is_somewhere_between_seriously_clueless/</guid>
-    <description>▲ 88 points · r/Anthropic · Opus 4.7 is somewhere between seriously clueless and stupidly dangerous. The worst frontier model I have used so far in the past 2 years. We were hoping to get at least our 4.6 back but 4.7 with so many critical logical failures mean you have to babysit it all the time. I&apos;m losing hope in Anthropic.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-python v0.1.71</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.71</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.71</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.71</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>New study finds: bigger AIs = more miserable. Smaller models are actually happier. Ignorance is bliss for AIs too.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1sya31f/new_study_finds_bigger_ais_more_miserable_smaller/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1sya31f/new_study_finds_bigger_ais_more_miserable_smaller/</guid>
-    <description>▲ 67 points · r/Anthropic · New study finds: bigger AIs = more miserable. Smaller models are actually happier. Ignorance is bliss for AIs too.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic&apos;s Little Brother</title>
-    <link>https://www.theatlantic.com/technology/2026/04/openai-imitating-anthropic/686975/</link>
-    <guid isPermaLink="true">https://www.theatlantic.com/technology/2026/04/openai-imitating-anthropic/686975/</guid>
-    <description>▲ 16 points · Hacker News · Anthropic&apos;s Little Brother</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 29 Apr 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 30 Apr 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

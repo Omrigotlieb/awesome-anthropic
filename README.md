@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-29
+> Last synced: <!-- CHANGELOG_DATE -->2026-04-30
 
 <!-- CHANGELOG_START -->
 ### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-29
+> Last fetched: <!-- NEWS_DATE -->2026-04-30
 
 <!-- NEWS_START -->
-### Top Stories — April 29, 2026
+### Top Stories — April 30, 2026
 
-- [Anthropic Joins the Blender Development Fund as Corporate Patron](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/) - 245 pts on Hacker News.
-- [Regression: malware reminder on every read still causes subagent refusals](https://github.com/anthropics/claude-code/issues/49363) - 186 pts on Hacker News.
-- [Talkie: a 13B LLM trained only on pre-1931 text... a time-frozen AI that predates WWII, and it can still learn to code](https://reddit.com/r/Anthropic/comments/1sy72rp/talkie_a_13b_llm_trained_only_on_pre1931_text_a/) - 169 pts on r/Anthropic.
-- [Opus 4.7 is insanely bad](https://reddit.com/r/Anthropic/comments/1sybtin/opus_47_is_insanely_bad/) - 158 pts on r/Anthropic.
-- [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work) - 98 pts on Hacker News.
+- [Thanks for the advice Claude](https://reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/) - 1632 pts on r/ClaudeAI.
+- [When you've got money to burn 😂](https://reddit.com/r/ClaudeAI/comments/1syuij0/when_youve_got_money_to_burn/) - 1082 pts on r/ClaudeAI.
+- [HERMES.md in commit messages causes requests to route to extra usage billing](https://github.com/anthropics/claude-code/issues/53262) - 1065 pts on Hacker News.
+- [Claude picked the moral high ground in the red button/blue button vote](https://reddit.com/r/ClaudeAI/comments/1sz5md9/claude_picked_the_moral_high_ground_in_the_red/) - 655 pts on r/ClaudeAI.
+- [Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.](https://reddit.com/r/ClaudeAI/comments/1syt37w/claude_is_my_seo_strategist_content_engine_and/) - 560 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

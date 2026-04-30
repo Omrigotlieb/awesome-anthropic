@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-29 (news snapshot: April 29, 2026)
+## 2026-04-30 (news snapshot: April 30, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-29 uses the April 29, 2026 news snapshot.
+- The daily run on 2026-04-30 uses the April 30, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.123.
 - Official channel signal remains active: Claude for Creative Work (April 29, 2026).
 
@@ -47,13 +47,13 @@ Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem watch signal
+### Article 5 — Community demand signal
 
-**News peg (April 29, 2026):** [Anthropic Joins the Blender Development Fund as Corporate Patron](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/)
+**News peg (April 30, 2026):** [Thanks for the advice Claude](https://reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/)
 
-Snapshot update: Top story source: Hacker News
+Snapshot update: Top story source: r/ClaudeAI
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
@@ -67,9 +67,6 @@ This item adds ecosystem signal and should be tracked alongside official updates
 - April 29, 2026: [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work)
 - April 28, 2026: [Anthropic Sydney office](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand)
 - April 25, 2026: [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
-- April 29, 2026: [claude-code v2.1.123](https://code.claude.com/docs/en/changelog?version=2.1.123)
-- April 29, 2026: [claude-code v2.1.122](https://code.claude.com/docs/en/changelog?version=2.1.122)
-- April 29, 2026: [claude-code v2.1.123](https://github.com/anthropics/claude-code/releases/tag/v2.1.123)
 
 ### Website Improvement Review
 

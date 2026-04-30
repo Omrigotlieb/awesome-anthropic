@@ -4,6 +4,39 @@
 
 ---
 
+## April 30, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1632 | [Thanks for the advice Claude](https://reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/) | r/ClaudeAI |
+| 1082 | [When you've got money to burn 😂](https://reddit.com/r/ClaudeAI/comments/1syuij0/when_youve_got_money_to_burn/) | r/ClaudeAI |
+| 1065 | [HERMES.md in commit messages causes requests to route to extra usage billing](https://github.com/anthropics/claude-code/issues/53262) | Hacker News |
+| 655 | [Claude picked the moral high ground in the red button/blue button vote](https://reddit.com/r/ClaudeAI/comments/1sz5md9/claude_picked_the_moral_high_ground_in_the_red/) | r/ClaudeAI |
+| 560 | [Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.](https://reddit.com/r/ClaudeAI/comments/1syt37w/claude_is_my_seo_strategist_content_engine_and/) | r/ClaudeAI |
+| 539 | [The final nail in the coffin for entry level creative freelancers just dropped](https://reddit.com/r/ClaudeAI/comments/1syu949/the_final_nail_in_the_coffin_for_entry_level/) | r/ClaudeAI |
+| 383 | [Claude: “I estimate this will take 1-2 weeks to complete”](https://reddit.com/r/Anthropic/comments/1szdhn2/claude_i_estimate_this_will_take_12_weeks_to/) | r/Anthropic |
+| 223 | [Launched My First App Using Claude](https://reddit.com/r/ClaudeAI/comments/1sz38u6/launched_my_first_app_using_claude/) | r/ClaudeAI |
+| 175 | [Opus 4.7: Are these first signs of model collapse?](https://reddit.com/r/Anthropic/comments/1sysm4v/opus_47_are_these_first_signs_of_model_collapse/) | r/Anthropic |
+| 125 | [The "Mother-In-Law Method" - How to get the best code reviews with Claude](https://reddit.com/r/ClaudeAI/comments/1sz18s0/the_motherinlaw_method_how_to_get_the_best_code/) | r/ClaudeAI |
+| 111 | [what is claude mythos doing in my azure model catalog 😭](https://reddit.com/r/ClaudeAI/comments/1szbrd1/what_is_claude_mythos_doing_in_my_azure_model/) | r/ClaudeAI |
+| 108 | [AI is making me less productive and more distracted](https://reddit.com/r/ClaudeAI/comments/1sz2nf3/ai_is_making_me_less_productive_and_more/) | r/ClaudeAI |
+| 101 | [my claude prompts are embarrassingly short now](https://reddit.com/r/ClaudeAI/comments/1syvo7w/my_claude_prompts_are_embarrassingly_short_now/) | r/ClaudeAI |
+| 50 | [Show HN: A new benchmark for testing LLMs for deterministic outputs](https://interfaze.ai/blog/introducing-structured-output-benchmark) | Hacker News |
+| 38 | [Anthropic's Champion Kit for engineers pushing Claude Code at their company](https://code.claude.com/docs/en/champion-kit) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [New on the Science Blog: We gave Claude 99 problems analyzing real biological data and compared its performance against an expert panel.
+
+On 23 problems, the experts were stumped. Our most recent mode](https://x.com/AnthropicAI/status/2049624600741560340) | Anthropic |
+| [In new Anthropic Fellows research, we discuss “introspection adapters": a tool that allows language models to self-report behaviors they've learned during training—including potential misalignment.](https://x.com/AnthropicAI/status/2049576143653929153) | Anthropic |
+
+---
+
 ## April 29, 2026
 
 ### 🔥 Top Stories
