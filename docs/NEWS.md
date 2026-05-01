@@ -4,6 +4,43 @@
 
 ---
 
+## May 1, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 85 | [claude-agent-sdk-python v0.1.72](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72) | GitHub Release |
+| 74 | [Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell](https://pu.dev/) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [How do people seek guidance from Claude?
+
+We looked at 1M conversations to understand what questions people ask, how Claude responds, and where it slips into sycophancy. We used what we found to impro](https://x.com/AnthropicAI/status/2049927618397614466) | Anthropic |
+
+### 🔬 Research
+
+| Title | Source |
+|-------|--------|
+| [Cross-Lingual Response Consistency in Large Language Models: An ILR-Informed Evaluation of Claude Across Six Languages](http://arxiv.org/abs/2604.27137v1) | arXiv |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.126](https://code.claude.com/docs/en/changelog?version=2.1.126) | Official Claude Code changelog entry |
+| [claude-code v2.1.126](https://github.com/anthropics/claude-code/releases/tag/v2.1.126) | ## What's changed  - The `/model` picker now lists models from your gateway's `/v1/models` endpoint  |
+| [claude-agent-sdk-typescript v0.2.126](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.126) | ## What's changed  - Added `origin` to result messages (`SDKResultSuccess` / `SDKResultError`) — for |
+| [claude-agent-sdk-python v0.1.72](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.126   ---  **PyPI:** https: |
+| [claude-code-action v1.0.111](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.111) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.111 |
+| [anthropic-sdk-typescript sdk-v0.92.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.92.0) | ## 0.92.0 (2026-04-30)  Full Changelog: [sdk-v0.91.1...sdk-v0.92.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript bedrock-sdk-v0.29.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.1) | ## 0.29.1 (2026-04-30)  Full Changelog: [bedrock-sdk-v0.29.0...bedrock-sdk-v0.29.1](https://github.c |
+
+---
+
 ## April 30, 2026
 
 ### 🔥 Top Stories

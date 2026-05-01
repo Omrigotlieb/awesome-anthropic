@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-04-30
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-01
 
 <!-- CHANGELOG_START -->
+### April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
+
 ### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
 
 ### April 23, 2026 — Memory for Claude Managed Agents is now in public beta under the standard manage
-
-### April 20, 2026 — We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,16 +351,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-04-30
+> Last fetched: <!-- NEWS_DATE -->2026-05-01
 
 <!-- NEWS_START -->
-### Top Stories — April 30, 2026
+### Top Stories — May 1, 2026
 
-- [Thanks for the advice Claude](https://reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/) - 1632 pts on r/ClaudeAI.
-- [When you've got money to burn 😂](https://reddit.com/r/ClaudeAI/comments/1syuij0/when_youve_got_money_to_burn/) - 1082 pts on r/ClaudeAI.
-- [HERMES.md in commit messages causes requests to route to extra usage billing](https://github.com/anthropics/claude-code/issues/53262) - 1065 pts on Hacker News.
-- [Claude picked the moral high ground in the red button/blue button vote](https://reddit.com/r/ClaudeAI/comments/1sz5md9/claude_picked_the_moral_high_ground_in_the_red/) - 655 pts on r/ClaudeAI.
-- [Claude is my SEO strategist, content engine, and CTO. From 0 to 10,000 active users in 6 weeks, $0 on ads.](https://reddit.com/r/ClaudeAI/comments/1syt37w/claude_is_my_seo_strategist_content_engine_and/) - 560 pts on r/ClaudeAI.
+- [claude-agent-sdk-python v0.1.72](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72) - 85 pts on GitHub Release.
+- [Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell](https://pu.dev/) - 74 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-04-30 (news snapshot: April 30, 2026)
+## 2026-05-01 (news snapshot: May 1, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-04-30 uses the April 30, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.123.
+- The daily run on 2026-05-01 uses the May 1, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.126.
 - Official channel signal remains active: Claude for Creative Work (April 29, 2026).
 
 ### Latest News Articles
@@ -41,19 +41,19 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (April 29, 2026):** [claude-code v2.1.123](https://code.claude.com/docs/en/changelog?version=2.1.123)
+**News peg (May 1, 2026):** [claude-code v2.1.126](https://code.claude.com/docs/en/changelog?version=2.1.126)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Community demand signal
+### Article 5 — Ecosystem release signal
 
-**News peg (April 30, 2026):** [Thanks for the advice Claude](https://reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/)
+**News peg (May 1, 2026):** [claude-agent-sdk-python v0.1.72](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72)
 
-Snapshot update: Top story source: r/ClaudeAI
+Snapshot update: Top story source: GitHub Release
 
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
 
 
 ### Top Stories Referenced
@@ -67,6 +67,9 @@ This is community signal; it is useful for demand sensing, but should stay clear
 - April 29, 2026: [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work)
 - April 28, 2026: [Anthropic Sydney office](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand)
 - April 25, 2026: [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
+- May 1, 2026: [claude-code v2.1.126](https://code.claude.com/docs/en/changelog?version=2.1.126)
+- May 1, 2026: [claude-code v2.1.126](https://github.com/anthropics/claude-code/releases/tag/v2.1.126)
+- May 1, 2026: [claude-agent-sdk-typescript v0.2.126](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.126)
 
 ### Website Improvement Review
 

@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-04-25T06:02:14Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-01T06:01:03Z
+
+---
+
+## April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
+
+We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context window, migrate to Claude Sonnet 4.6 or Claude Opus 4.6 , where it's generally available at standard pricing with no beta header required.
 
 ---
 
@@ -131,11 +137,5 @@ We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
 . 
  The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. Long context pricing applies to requests exceeding 200k input tokens. 
  Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format .
-
----
-
-## January 29, 2026 — Structured outputs are now generally available on the Claude API for Claude Sonn
-
-Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has moved to output_config.format . Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.
 
 ---
