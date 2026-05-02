@@ -4,6 +4,18 @@
 
 ---
 
+## May 2, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 139 | [After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber](https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/) | Hacker News |
+| 80 | [Show HN: AI CAD Harness](https://fusion.adam.new/install) | Hacker News |
+| 12 | [Tell HN: Claude Opus 4.7 quota suddenly changed to 0 TPM in Bedrock](https://news.ycombinator.com/item?id=47976391) | Hacker News |
+
+---
+
 ## May 1, 2026
 
 ### 🔥 Top Stories

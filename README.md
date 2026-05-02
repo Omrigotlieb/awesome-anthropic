@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-01
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-02
 
 <!-- CHANGELOG_START -->
 ### April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
@@ -351,13 +351,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-01
+> Last fetched: <!-- NEWS_DATE -->2026-05-02
 
 <!-- NEWS_START -->
-### Top Stories — May 1, 2026
+### Top Stories — May 2, 2026
 
-- [claude-agent-sdk-python v0.1.72](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72) - 85 pts on GitHub Release.
-- [Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell](https://pu.dev/) - 74 pts on Hacker News.
+- [After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber](https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/) - 139 pts on Hacker News.
+- [Show HN: AI CAD Harness](https://fusion.adam.new/install) - 80 pts on Hacker News.
+- [Tell HN: Claude Opus 4.7 quota suddenly changed to 0 TPM in Bedrock](https://news.ycombinator.com/item?id=47976391) - 12 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

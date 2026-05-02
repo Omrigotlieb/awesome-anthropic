@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 May 2026 06:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 06:01:00 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,20 +13,28 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>claude-agent-sdk-python v0.1.72</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.72</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Fri, 01 May 2026 09:00:00 +0000</pubDate>
+    <title>After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber</title>
+    <link>https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/</link>
+    <guid isPermaLink="true">https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/</guid>
+    <description>▲ 139 points · Hacker News · After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Sat, 02 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell</title>
-    <link>https://pu.dev/</link>
-    <guid isPermaLink="true">https://pu.dev/</guid>
-    <description>▲ 74 points · Hacker News · Show HN: Pu.sh – a full coding-agent harness in 400 lines of shell</description>
+    <title>Show HN: AI CAD Harness</title>
+    <link>https://fusion.adam.new/install</link>
+    <guid isPermaLink="true">https://fusion.adam.new/install</guid>
+    <description>▲ 80 points · Hacker News · Show HN: AI CAD Harness</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 01 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 02 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Tell HN: Claude Opus 4.7 quota suddenly changed to 0 TPM in Bedrock</title>
+    <link>https://news.ycombinator.com/item?id=47976391</link>
+    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47976391</guid>
+    <description>▲ 12 points · Hacker News · Tell HN: Claude Opus 4.7 quota suddenly changed to 0 TPM in Bedrock</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Sat, 02 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

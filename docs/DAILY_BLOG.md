@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-01 (news snapshot: May 1, 2026)
+## 2026-05-02 (news snapshot: May 2, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-01 uses the May 1, 2026 news snapshot.
+- The daily run on 2026-05-02 uses the May 2, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.126.
 - Official channel signal remains active: Claude for Creative Work (April 29, 2026).
 
@@ -47,13 +47,13 @@ Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Ecosystem watch signal
 
-**News peg (May 1, 2026):** [claude-agent-sdk-python v0.1.72](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.72)
+**News peg (May 2, 2026):** [After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber](https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: Hacker News
 
-SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
 
 ### Top Stories Referenced
@@ -67,9 +67,6 @@ SDK and tooling releases from Anthropic repos are practical implementation signa
 - April 29, 2026: [Claude for Creative Work](https://www.anthropic.com/news/claude-for-creative-work)
 - April 28, 2026: [Anthropic Sydney office](https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand)
 - April 25, 2026: [An update on our election safeguards](https://www.anthropic.com/news/election-safeguards-update)
-- May 1, 2026: [claude-code v2.1.126](https://code.claude.com/docs/en/changelog?version=2.1.126)
-- May 1, 2026: [claude-code v2.1.126](https://github.com/anthropics/claude-code/releases/tag/v2.1.126)
-- May 1, 2026: [claude-agent-sdk-typescript v0.2.126](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.126)
 
 ### Website Improvement Review
 
