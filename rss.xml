@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2026 06:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 06:03:27 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,28 +13,100 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber</title>
-    <link>https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/</link>
-    <guid isPermaLink="true">https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/</guid>
-    <description>▲ 139 points · Hacker News · After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 02 May 2026 09:00:00 +0000</pubDate>
+    <title>I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here&apos;s the full setup</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/</guid>
+    <description>▲ 874 points · r/ClaudeAI · I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here&apos;s the full setup</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Show HN: AI CAD Harness</title>
-    <link>https://fusion.adam.new/install</link>
-    <guid isPermaLink="true">https://fusion.adam.new/install</guid>
-    <description>▲ 80 points · Hacker News · Show HN: AI CAD Harness</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 02 May 2026 09:00:00 +0000</pubDate>
+    <title>Giving Claude access to my MacBook be like</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t1pn4r/giving_claude_access_to_my_macbook_be_like/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t1pn4r/giving_claude_access_to_my_macbook_be_like/</guid>
+    <description>▲ 596 points · r/ClaudeAI · Giving Claude access to my MacBook be like</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Tell HN: Claude Opus 4.7 quota suddenly changed to 0 TPM in Bedrock</title>
-    <link>https://news.ycombinator.com/item?id=47976391</link>
-    <guid isPermaLink="true">https://news.ycombinator.com/item?id=47976391</guid>
-    <description>▲ 12 points · Hacker News · Tell HN: Claude Opus 4.7 quota suddenly changed to 0 TPM in Bedrock</description>
+    <title>I used Claude as my pair programmer to build a safe for kids generative coloring book app for my daughter!</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t1wrfs/i_used_claude_as_my_pair_programmer_to_build_a/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t1wrfs/i_used_claude_as_my_pair_programmer_to_build_a/</guid>
+    <description>▲ 207 points · r/ClaudeAI · I used Claude as my pair programmer to build a safe for kids generative coloring book app for my daughter!</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude has a friend?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t1p098/claude_has_a_friend/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t1p098/claude_has_a_friend/</guid>
+    <description>▲ 180 points · r/ClaudeAI · Claude has a friend?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I used Claude Code to build a kids safe generative coloring book app for my daughter!</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t1hz5y/i_used_claude_code_to_build_a_kids_safe/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t1hz5y/i_used_claude_code_to_build_a_kids_safe/</guid>
+    <description>▲ 154 points · r/Anthropic · I used Claude Code to build a kids safe generative coloring book app for my daughter!</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>It’s a Weird Time to Be Named Claude</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t1ocha/its_a_weird_time_to_be_named_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t1ocha/its_a_weird_time_to_be_named_claude/</guid>
+    <description>▲ 125 points · r/ClaudeAI · It’s a Weird Time to Be Named Claude</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Non-business uses for Claude Cowork</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t22v8r/nonbusiness_uses_for_claude_cowork/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t22v8r/nonbusiness_uses_for_claude_cowork/</guid>
+    <description>▲ 96 points · r/ClaudeAI · Non-business uses for Claude Cowork</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I just realized ChatGPT and Codex don’t seem to share usage limits like Claude and Claude Code do</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t1pzs8/i_just_realized_chatgpt_and_codex_dont_seem_to/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t1pzs8/i_just_realized_chatgpt_and_codex_dont_seem_to/</guid>
+    <description>▲ 89 points · r/Anthropic · I just realized ChatGPT and Codex don’t seem to share usage limits like Claude and Claude Code do</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Why Adaptive Thinking nukes Claude entirely</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t1yvzr/why_adaptive_thinking_nukes_claude_entirely/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t1yvzr/why_adaptive_thinking_nukes_claude_entirely/</guid>
+    <description>▲ 75 points · r/ClaudeAI · Why Adaptive Thinking nukes Claude entirely</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I thought Cowork was gaslighting me about browser use</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t1t9f5/i_thought_cowork_was_gaslighting_me_about_browser/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t1t9f5/i_thought_cowork_was_gaslighting_me_about_browser/</guid>
+    <description>▲ 72 points · r/ClaudeAI · I thought Cowork was gaslighting me about browser use</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>“80–90% of this chat was wasted on me avoiding the work”</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t1mpla/8090_of_this_chat_was_wasted_on_me_avoiding_the/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t1mpla/8090_of_this_chat_was_wasted_on_me_avoiding_the/</guid>
+    <description>▲ 67 points · r/Anthropic · “80–90% of this chat was wasted on me avoiding the work”</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: Filling PDF forms with AI using client-side tool calling</title>
+    <link>https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&amp;form=w9&amp;lang=en</link>
+    <guid isPermaLink="true">https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&amp;form=w9&amp;lang=en</guid>
+    <description>▲ 51 points · Hacker News · Show HN: Filling PDF forms with AI using client-side tool calling</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 02 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 03 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -4,6 +4,28 @@
 
 ---
 
+## May 3, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 874 | [I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here's the full setup](https://reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/) | r/ClaudeAI |
+| 596 | [Giving Claude access to my MacBook be like](https://reddit.com/r/ClaudeAI/comments/1t1pn4r/giving_claude_access_to_my_macbook_be_like/) | r/ClaudeAI |
+| 207 | [I used Claude as my pair programmer to build a safe for kids generative coloring book app for my daughter!](https://reddit.com/r/ClaudeAI/comments/1t1wrfs/i_used_claude_as_my_pair_programmer_to_build_a/) | r/ClaudeAI |
+| 180 | [Claude has a friend?](https://reddit.com/r/ClaudeAI/comments/1t1p098/claude_has_a_friend/) | r/ClaudeAI |
+| 175 | [I reverse-engineered the Perplexity app and built an MCP that turns your Perplexity/Comet account into a Claude MCP, so Claude can search like crazy and read 200+ sources in one answer with your personal account subscription without API product needed. [Experiment - Educational Purpose]](https://reddit.com/r/ClaudeAI/comments/1t1pdqc/i_reverseengineered_the_perplexity_app_and_built/) | r/ClaudeAI |
+| 154 | [I used Claude Code to build a kids safe generative coloring book app for my daughter!](https://reddit.com/r/Anthropic/comments/1t1hz5y/i_used_claude_code_to_build_a_kids_safe/) | r/Anthropic |
+| 125 | [It’s a Weird Time to Be Named Claude](https://reddit.com/r/ClaudeAI/comments/1t1ocha/its_a_weird_time_to_be_named_claude/) | r/ClaudeAI |
+| 96 | [Non-business uses for Claude Cowork](https://reddit.com/r/ClaudeAI/comments/1t22v8r/nonbusiness_uses_for_claude_cowork/) | r/ClaudeAI |
+| 89 | [I just realized ChatGPT and Codex don’t seem to share usage limits like Claude and Claude Code do](https://reddit.com/r/Anthropic/comments/1t1pzs8/i_just_realized_chatgpt_and_codex_dont_seem_to/) | r/Anthropic |
+| 75 | [Why Adaptive Thinking nukes Claude entirely](https://reddit.com/r/ClaudeAI/comments/1t1yvzr/why_adaptive_thinking_nukes_claude_entirely/) | r/ClaudeAI |
+| 72 | [I thought Cowork was gaslighting me about browser use](https://reddit.com/r/ClaudeAI/comments/1t1t9f5/i_thought_cowork_was_gaslighting_me_about_browser/) | r/ClaudeAI |
+| 67 | [“80–90% of this chat was wasted on me avoiding the work”](https://reddit.com/r/Anthropic/comments/1t1mpla/8090_of_this_chat_was_wasted_on_me_avoiding_the/) | r/Anthropic |
+| 51 | [Show HN: Filling PDF forms with AI using client-side tool calling](https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en) | Hacker News |
+
+---
+
 ## May 2, 2026
 
 ### 🔥 Top Stories

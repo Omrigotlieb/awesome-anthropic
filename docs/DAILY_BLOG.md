@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-02 (news snapshot: May 2, 2026)
+## 2026-05-03 (news snapshot: May 3, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-02 uses the May 2, 2026 news snapshot.
+- The daily run on 2026-05-03 uses the May 3, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.126.
 - Official channel signal remains active: Claude for Creative Work (April 29, 2026).
 
@@ -47,13 +47,13 @@ Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem watch signal
+### Article 5 — Community demand signal
 
-**News peg (May 2, 2026):** [After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber](https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/)
+**News peg (May 3, 2026):** [I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here's the full setup](https://reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/)
 
-Snapshot update: Top story source: Hacker News
+Snapshot update: Top story source: r/ClaudeAI
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
