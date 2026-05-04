@@ -4,6 +4,26 @@
 
 ---
 
+## May 4, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1692 | [Claude got access to a clock and immediately lost its mind](https://reddit.com/r/ClaudeAI/comments/1t2ydlt/claude_got_access_to_a_clock_and_immediately_lost/) | r/ClaudeAI |
+| 855 | [What if Claude launched in 1998?](https://reddit.com/r/ClaudeAI/comments/1t2q2kn/what_if_claude_launched_in_1998/) | r/ClaudeAI |
+| 375 | [Let's not rename powershell.exe](https://reddit.com/r/ClaudeAI/comments/1t2ev6p/lets_not_rename_powershellexe/) | r/ClaudeAI |
+| 141 | [Claude design is saving me](https://reddit.com/r/ClaudeAI/comments/1t2kxiv/claude_design_is_saving_me/) | r/ClaudeAI |
+| 134 | [Claude has other things to do](https://reddit.com/r/ClaudeAI/comments/1t33k42/claude_has_other_things_to_do/) | r/ClaudeAI |
+| 102 | [I can't be the only person with a normal Claude.](https://reddit.com/r/ClaudeAI/comments/1t35yeq/i_cant_be_the_only_person_with_a_normal_claude/) | r/ClaudeAI |
+| 81 | [Stop trying to put me to bed Claude!](https://reddit.com/r/ClaudeAI/comments/1t32rzn/stop_trying_to_put_me_to_bed_claude/) | r/ClaudeAI |
+| 80 | [Level up your Claude Code workflow: 8 tips for better quality control](https://reddit.com/r/ClaudeAI/comments/1t2h7d3/level_up_your_claude_code_workflow_8_tips_for/) | r/ClaudeAI |
+| 73 | [Project Deal: Anthropic created a marketplace for their employees &amp; tasked Claude with buying, selling and negotiating on employees behalf.](https://reddit.com/r/ClaudeAI/comments/1t30pu5/project_deal_anthropic_created_a_marketplace_for/) | r/ClaudeAI |
+| 59 | [Are there any good websites that showcase frontend code made by Claude? Like a showcase website?](https://reddit.com/r/ClaudeAI/comments/1t2wsmj/are_there_any_good_websites_that_showcase/) | r/ClaudeAI |
+| 55 | [Reminder: Have you checked your context lately?](https://reddit.com/r/ClaudeAI/comments/1t2ur8z/reminder_have_you_checked_your_context_lately/) | r/ClaudeAI |
+
+---
+
 ## May 3, 2026
 
 ### 🔥 Top Stories

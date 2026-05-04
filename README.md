@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-03
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-04
 
 <!-- CHANGELOG_START -->
 ### April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-03
+> Last fetched: <!-- NEWS_DATE -->2026-05-04
 
 <!-- NEWS_START -->
-### Top Stories — May 3, 2026
+### Top Stories — May 4, 2026
 
-- [I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here's the full setup](https://reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/) - 874 pts on r/ClaudeAI.
-- [Giving Claude access to my MacBook be like](https://reddit.com/r/ClaudeAI/comments/1t1pn4r/giving_claude_access_to_my_macbook_be_like/) - 596 pts on r/ClaudeAI.
-- [I used Claude as my pair programmer to build a safe for kids generative coloring book app for my daughter!](https://reddit.com/r/ClaudeAI/comments/1t1wrfs/i_used_claude_as_my_pair_programmer_to_build_a/) - 207 pts on r/ClaudeAI.
-- [Claude has a friend?](https://reddit.com/r/ClaudeAI/comments/1t1p098/claude_has_a_friend/) - 180 pts on r/ClaudeAI.
-- [I reverse-engineered the Perplexity app and built an MCP that turns your Perplexity/Comet account into a Claude MCP, so Claude can search like crazy and read 200+ sources in one answer with your personal account subscription without API product needed. [Experiment - Educational Purpose]](https://reddit.com/r/ClaudeAI/comments/1t1pdqc/i_reverseengineered_the_perplexity_app_and_built/) - 175 pts on r/ClaudeAI.
+- [Claude got access to a clock and immediately lost its mind](https://reddit.com/r/ClaudeAI/comments/1t2ydlt/claude_got_access_to_a_clock_and_immediately_lost/) - 1692 pts on r/ClaudeAI.
+- [What if Claude launched in 1998?](https://reddit.com/r/ClaudeAI/comments/1t2q2kn/what_if_claude_launched_in_1998/) - 855 pts on r/ClaudeAI.
+- [Let's not rename powershell.exe](https://reddit.com/r/ClaudeAI/comments/1t2ev6p/lets_not_rename_powershellexe/) - 375 pts on r/ClaudeAI.
+- [Claude design is saving me](https://reddit.com/r/ClaudeAI/comments/1t2kxiv/claude_design_is_saving_me/) - 141 pts on r/ClaudeAI.
+- [Claude has other things to do](https://reddit.com/r/ClaudeAI/comments/1t33k42/claude_has_other_things_to_do/) - 134 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

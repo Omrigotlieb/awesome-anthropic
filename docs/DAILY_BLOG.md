@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-03 (news snapshot: May 3, 2026)
+## 2026-05-04 (news snapshot: May 4, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-03 uses the May 3, 2026 news snapshot.
+- The daily run on 2026-05-04 uses the May 4, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.126.
 - Official channel signal remains active: Claude for Creative Work (April 29, 2026).
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (May 3, 2026):** [I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here's the full setup](https://reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/)
+**News peg (May 4, 2026):** [Claude got access to a clock and immediately lost its mind](https://reddit.com/r/ClaudeAI/comments/1t2ydlt/claude_got_access_to_a_clock_and_immediately_lost/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
