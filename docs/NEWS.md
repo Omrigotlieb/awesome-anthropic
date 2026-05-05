@@ -4,6 +4,59 @@
 
 ---
 
+## May 5, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2769 | [Vibe Coding vs. Production reality](https://reddit.com/r/ClaudeAI/comments/1t3bk3x/vibe_coding_vs_production_reality/) | r/ClaudeAI |
+| 978 | [The em dashes ( — ) \| The unsaid AI SLOP Tax](https://reddit.com/r/ClaudeAI/comments/1t3rrfr/the_em_dashes_the_unsaid_ai_slop_tax/) | r/ClaudeAI |
+| 821 | [When Claude tells you to "stop spiraling and go to bed"](https://reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/) | r/ClaudeAI |
+| 373 | [Anthropic: AI will fully replace software engineering by 2027.
+Also Anthropic: Currently hiring for 122 SWE openings.](https://reddit.com/r/ClaudeAI/comments/1t3xs80/anthropic_ai_will_fully_replace_software/) | r/ClaudeAI |
+| 208 | [I Am a Trash](https://reddit.com/r/ClaudeAI/comments/1t3wzvv/i_am_a_trash/) | r/ClaudeAI |
+| 169 | [Opus 4.7 is beyond bad](https://reddit.com/r/Anthropic/comments/1t3onwr/opus_47_is_beyond_bad/) | r/Anthropic |
+| 107 | [Claude Design built this skeumorphic keyboard simulator website in one session - whatever you type and enter is visible to the public](https://reddit.com/r/ClaudeAI/comments/1t3crw7/claude_design_built_this_skeumorphic_keyboard/) | r/ClaudeAI |
+| 105 | [Claude is lying regularly when I have conversations with it](https://reddit.com/r/ClaudeAI/comments/1t3ggv8/claude_is_lying_regularly_when_i_have/) | r/ClaudeAI |
+| 100 | [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company) | Anthropic Blog |
+| 99 | [Real-time competitive multiplayer .io game built with Claude (4.6 &amp; 4.7), live at nodecontrol.gg](https://reddit.com/r/ClaudeAI/comments/1t3lisz/realtime_competitive_multiplayer_io_game_built/) | r/ClaudeAI |
+| 98 | [built a plugin so my parallel Claude Code sessions can message each other instead of me alt-tabbing](https://reddit.com/r/ClaudeAI/comments/1t3osat/built_a_plugin_so_my_parallel_claude_code/) | r/ClaudeAI |
+| 84 | [Most of my Claude usage was on work that didn't need Claude. Cut my bill 60x on bulk tasks with a tiny side model.](https://reddit.com/r/ClaudeAI/comments/1t3elab/most_of_my_claude_usage_was_on_work_that_didnt/) | r/ClaudeAI |
+| 82 | [Don't like em dashes? Add this to your preferences or .md](https://reddit.com/r/ClaudeAI/comments/1t3nq2o/dont_like_em_dashes_add_this_to_your_preferences/) | r/ClaudeAI |
+| 11 | [Tell HN: The saddest irony of my/our craft](https://news.ycombinator.com/item?id=48013758) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company) | Anthropic Blog |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.128](https://code.claude.com/docs/en/changelog?version=2.1.128) | Official Claude Code changelog entry |
+| [claude-code v2.1.128](https://github.com/anthropics/claude-code/releases/tag/v2.1.128) | ## What's changed  - Bare `/color` (no args) now picks a random session color - `/mcp` now shows the |
+| [claude-code-action v1.0.112](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.112) | ## What's Changed * fix: make trigger_phrase match case-insensitive by @JustinBis in https://github. |
+| [claude-agent-sdk-typescript v0.2.128](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.128) | ## What's changed  - Updated to parity with Claude Code v2.1.128  ## Update  ```sh npm install @anth |
+| [anthropic-sdk-java v2.28.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.28.0) | ## 2.28.0 (2026-05-04)  Full Changelog: [v2.27.0...v2.28.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-python v0.1.73](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.73) |  ### New Features  - **Eager session store flushing**: Added `session_store_flush` option to `Claude |
+| [anthropic-sdk-ruby v1.37.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.37.0) | ## 1.37.0 (2026-05-04)  Full Changelog: [v1.36.0...v1.37.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Vertex-v0.4.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Vertex-v0.4.0) | ## 0.4.0 (2026-05-05)  Full Changelog: [Vertex-v0.3.2...Vertex-v0.4.0](https://github.com/anthropics |
+| [anthropic-sdk-csharp Foundry-v0.6.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Foundry-v0.6.0) | ## 0.6.0 (2026-05-05)  Full Changelog: [Foundry-v0.5.0...Foundry-v0.6.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Bedrock-v0.7.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.7.0) | ## 0.7.0 (2026-05-05)  Full Changelog: [Bedrock-v0.6.0...Bedrock-v0.7.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Aws-v0.3.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Aws-v0.3.0) | ## 0.3.0 (2026-05-05)  Full Changelog: [Aws-v0.2.2...Aws-v0.3.0](https://github.com/anthropics/anthr |
+| [anthropic-sdk-csharp Anthropic-v12.18.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.18.0) | ## 12.18.0 (2026-05-05)  Full Changelog: [Anthropic-v12.17.0...Anthropic-v12.18.0](https://github.co |
+| [anthropic-sdk-go v1.39.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.39.0) | ## 1.39.0 (2026-05-04)  Full Changelog: [v1.38.0...v1.39.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-python v0.98.1](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.98.1) | ## 0.98.1 (2026-05-04)  Full Changelog: [v0.98.0...v0.98.1](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-python v0.98.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.98.0) | ## 0.98.0 (2026-05-04)  Full Changelog: [v0.97.0...v0.98.0](https://github.com/anthropics/anthropic- |
+| [anthropic-cli v1.5.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.5.0) | ## 1.5.0 (2026-05-04)  Full Changelog: [v1.4.0...v1.5.0](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-php v0.18.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.18.0) | ## 0.18.0 (2026-05-04)  Full Changelog: [v0.17.1...v0.18.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.93.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.93.0) | ## 0.93.0 (2026-05-04)  Full Changelog: [sdk-v0.92.0...sdk-v0.93.0](https://github.com/anthropics/an |
+
+---
+
 ## May 4, 2026
 
 ### 🔥 Top Stories

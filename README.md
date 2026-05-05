@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-04
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-05
 
 <!-- CHANGELOG_START -->
 ### April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
@@ -351,16 +351,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-04
+> Last fetched: <!-- NEWS_DATE -->2026-05-05
 
 <!-- NEWS_START -->
-### Top Stories — May 4, 2026
+### Top Stories — May 5, 2026
 
-- [Claude got access to a clock and immediately lost its mind](https://reddit.com/r/ClaudeAI/comments/1t2ydlt/claude_got_access_to_a_clock_and_immediately_lost/) - 1692 pts on r/ClaudeAI.
-- [What if Claude launched in 1998?](https://reddit.com/r/ClaudeAI/comments/1t2q2kn/what_if_claude_launched_in_1998/) - 855 pts on r/ClaudeAI.
-- [Let's not rename powershell.exe](https://reddit.com/r/ClaudeAI/comments/1t2ev6p/lets_not_rename_powershellexe/) - 375 pts on r/ClaudeAI.
-- [Claude design is saving me](https://reddit.com/r/ClaudeAI/comments/1t2kxiv/claude_design_is_saving_me/) - 141 pts on r/ClaudeAI.
-- [Claude has other things to do](https://reddit.com/r/ClaudeAI/comments/1t33k42/claude_has_other_things_to_do/) - 134 pts on r/ClaudeAI.
+- [Vibe Coding vs. Production reality](https://reddit.com/r/ClaudeAI/comments/1t3bk3x/vibe_coding_vs_production_reality/) - 2769 pts on r/ClaudeAI.
+- [The em dashes ( — ) \ - 978 pts on The unsaid AI SLOP Tax](https://reddit.com/r/ClaudeAI/comments/1t3rrfr/the_em_dashes_the_unsaid_ai_slop_tax/).
+- [When Claude tells you to "stop spiraling and go to bed"](https://reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/) - 821 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

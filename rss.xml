@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2026 06:10:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 06:01:43 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,92 +13,20 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Claude got access to a clock and immediately lost its mind</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t2ydlt/claude_got_access_to_a_clock_and_immediately_lost/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t2ydlt/claude_got_access_to_a_clock_and_immediately_lost/</guid>
-    <description>▲ 1692 points · r/ClaudeAI · Claude got access to a clock and immediately lost its mind</description>
+    <title>Vibe Coding vs. Production reality</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t3bk3x/vibe_coding_vs_production_reality/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t3bk3x/vibe_coding_vs_production_reality/</guid>
+    <description>▲ 2769 points · r/ClaudeAI · Vibe Coding vs. Production reality</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 05 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>What if Claude launched in 1998?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t2q2kn/what_if_claude_launched_in_1998/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t2q2kn/what_if_claude_launched_in_1998/</guid>
-    <description>▲ 855 points · r/ClaudeAI · What if Claude launched in 1998?</description>
+    <title>When Claude tells you to &quot;stop spiraling and go to bed&quot;</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/</guid>
+    <description>▲ 821 points · r/ClaudeAI · When Claude tells you to &quot;stop spiraling and go to bed&quot;</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Let&apos;s not rename powershell.exe</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t2ev6p/lets_not_rename_powershellexe/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t2ev6p/lets_not_rename_powershellexe/</guid>
-    <description>▲ 375 points · r/ClaudeAI · Let&apos;s not rename powershell.exe</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude design is saving me</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t2kxiv/claude_design_is_saving_me/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t2kxiv/claude_design_is_saving_me/</guid>
-    <description>▲ 141 points · r/ClaudeAI · Claude design is saving me</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude has other things to do</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t33k42/claude_has_other_things_to_do/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t33k42/claude_has_other_things_to_do/</guid>
-    <description>▲ 134 points · r/ClaudeAI · Claude has other things to do</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I can&apos;t be the only person with a normal Claude.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t35yeq/i_cant_be_the_only_person_with_a_normal_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t35yeq/i_cant_be_the_only_person_with_a_normal_claude/</guid>
-    <description>▲ 102 points · r/ClaudeAI · I can&apos;t be the only person with a normal Claude.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Stop trying to put me to bed Claude!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t32rzn/stop_trying_to_put_me_to_bed_claude/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t32rzn/stop_trying_to_put_me_to_bed_claude/</guid>
-    <description>▲ 81 points · r/ClaudeAI · Stop trying to put me to bed Claude!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Level up your Claude Code workflow: 8 tips for better quality control</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t2h7d3/level_up_your_claude_code_workflow_8_tips_for/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t2h7d3/level_up_your_claude_code_workflow_8_tips_for/</guid>
-    <description>▲ 80 points · r/ClaudeAI · Level up your Claude Code workflow: 8 tips for better quality control</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Project Deal: Anthropic created a marketplace for their employees &amp;amp; tasked Claude with buying, selling and negotiating on employees behalf.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t30pu5/project_deal_anthropic_created_a_marketplace_for/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t30pu5/project_deal_anthropic_created_a_marketplace_for/</guid>
-    <description>▲ 73 points · r/ClaudeAI · Project Deal: Anthropic created a marketplace for their employees &amp;amp; tasked Claude with buying, selling and negotiating on employees behalf.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Are there any good websites that showcase frontend code made by Claude? Like a showcase website?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t2wsmj/are_there_any_good_websites_that_showcase/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t2wsmj/are_there_any_good_websites_that_showcase/</guid>
-    <description>▲ 59 points · r/ClaudeAI · Are there any good websites that showcase frontend code made by Claude? Like a showcase website?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Reminder: Have you checked your context lately?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t2ur8z/reminder_have_you_checked_your_context_lately/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t2ur8z/reminder_have_you_checked_your_context_lately/</guid>
-    <description>▲ 55 points · r/ClaudeAI · Reminder: Have you checked your context lately?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 04 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 05 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>
