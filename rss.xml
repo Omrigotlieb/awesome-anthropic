@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2026 06:01:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 06:02:08 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,20 +13,116 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Vibe Coding vs. Production reality</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t3bk3x/vibe_coding_vs_production_reality/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t3bk3x/vibe_coding_vs_production_reality/</guid>
-    <description>▲ 2769 points · r/ClaudeAI · Vibe Coding vs. Production reality</description>
+    <title>Turned a desk lamp into a Claude Code status indicator</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t4gfc7/turned_a_desk_lamp_into_a_claude_code_status/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t4gfc7/turned_a_desk_lamp_into_a_claude_code_status/</guid>
+    <description>▲ 1324 points · r/ClaudeAI · Turned a desk lamp into a Claude Code status indicator</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 05 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>When Claude tells you to &quot;stop spiraling and go to bed&quot;</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/</guid>
-    <description>▲ 821 points · r/ClaudeAI · When Claude tells you to &quot;stop spiraling and go to bed&quot;</description>
+    <title>10 things about Claude that took me way too long to figure out</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t4ncbj/10_things_about_claude_that_took_me_way_too_long/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t4ncbj/10_things_about_claude_that_took_me_way_too_long/</guid>
+    <description>▲ 640 points · r/ClaudeAI · 10 things about Claude that took me way too long to figure out</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 05 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I know, it&apos;s not for everyone, but if you liked Codex Pets, here is now Claude Pets too</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t48531/i_know_its_not_for_everyone_but_if_you_liked/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t48531/i_know_its_not_for_everyone_but_if_you_liked/</guid>
+    <description>▲ 340 points · r/ClaudeAI · I know, it&apos;s not for everyone, but if you liked Codex Pets, here is now Claude Pets too</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I asked Claude to investigate its own token burn. The receipts go back six months.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t4gchn/i_asked_claude_to_investigate_its_own_token_burn/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t4gchn/i_asked_claude_to_investigate_its_own_token_burn/</guid>
+    <description>▲ 224 points · r/ClaudeAI · I asked Claude to investigate its own token burn. The receipts go back six months.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Agents for financial services and insurance</title>
+    <link>https://www.anthropic.com/news/finance-agents</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/finance-agents</guid>
+    <description>▲ 222 points · Hacker News · Agents for financial services and insurance</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Opus 4.7 has a new favorite word</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t4pmzq/opus_47_has_a_new_favorite_word/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t4pmzq/opus_47_has_a_new_favorite_word/</guid>
+    <description>▲ 165 points · r/ClaudeAI · Opus 4.7 has a new favorite word</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>when Claude Opus 6 tells you to &quot;stop spiraling and go to bed&quot;</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t48i60/when_claude_opus_6_tells_you_to_stop_spiraling/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t48i60/when_claude_opus_6_tells_you_to_stop_spiraling/</guid>
+    <description>▲ 146 points · r/Anthropic · when Claude Opus 6 tells you to &quot;stop spiraling and go to bed&quot;</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Why does Claude make me feel even more tired at work?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t4an7o/why_does_claude_make_me_feel_even_more_tired_at/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t4an7o/why_does_claude_make_me_feel_even_more_tired_at/</guid>
+    <description>▲ 132 points · r/ClaudeAI · Why does Claude make me feel even more tired at work?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic has a nearly trillion dollar evaluation, and the models have become garbage?</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t4g2pw/anthropic_has_a_nearly_trillion_dollar_evaluation/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t4g2pw/anthropic_has_a_nearly_trillion_dollar_evaluation/</guid>
+    <description>▲ 101 points · r/Anthropic · Anthropic has a nearly trillion dollar evaluation, and the models have become garbage?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-agent-sdk-python v0.1.74</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.74</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.74</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.74</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I built an iOS Currency Converter using Claude (Opus &amp;amp; Sonnet) to help with my move to the UK</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t4h1vj/i_built_an_ios_currency_converter_using_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t4h1vj/i_built_an_ios_currency_converter_using_claude/</guid>
+    <description>▲ 83 points · r/ClaudeAI · I built an iOS Currency Converter using Claude (Opus &amp;amp; Sonnet) to help with my move to the UK</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I hope this doesn&apos;t affect my usage ...</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t4einv/i_hope_this_doesnt_affect_my_usage/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t4einv/i_hope_this_doesnt_affect_my_usage/</guid>
+    <description>▲ 76 points · r/ClaudeAI · I hope this doesn&apos;t affect my usage ...</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Both OpenAI and Anthropic now expect AIs to take over building their successors within 2 years (humans no longer able to contribute)</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t4lzh2/both_openai_and_anthropic_now_expect_ais_to_take/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t4lzh2/both_openai_and_anthropic_now_expect_ais_to_take/</guid>
+    <description>▲ 56 points · r/Anthropic · Both OpenAI and Anthropic now expect AIs to take over building their successors within 2 years (humans no longer able to contribute)</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Richard Dawkins concludes AI is conscious, even if it doesn&apos;t know it</title>
+    <link>https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt</link>
+    <guid isPermaLink="true">https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt</guid>
+    <description>▲ 15 points · Hacker News · Richard Dawkins concludes AI is conscious, even if it doesn&apos;t know it</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

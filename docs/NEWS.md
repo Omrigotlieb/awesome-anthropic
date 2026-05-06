@@ -4,6 +4,68 @@
 
 ---
 
+## May 6, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1324 | [Turned a desk lamp into a Claude Code status indicator](https://reddit.com/r/ClaudeAI/comments/1t4gfc7/turned_a_desk_lamp_into_a_claude_code_status/) | r/ClaudeAI |
+| 640 | [10 things about Claude that took me way too long to figure out](https://reddit.com/r/ClaudeAI/comments/1t4ncbj/10_things_about_claude_that_took_me_way_too_long/) | r/ClaudeAI |
+| 340 | [I know, it's not for everyone, but if you liked Codex Pets, here is now Claude Pets too](https://reddit.com/r/ClaudeAI/comments/1t48531/i_know_its_not_for_everyone_but_if_you_liked/) | r/ClaudeAI |
+| 224 | [I asked Claude to investigate its own token burn. The receipts go back six months.](https://reddit.com/r/ClaudeAI/comments/1t4gchn/i_asked_claude_to_investigate_its_own_token_burn/) | r/ClaudeAI |
+| 222 | [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents) | Hacker News |
+| 165 | [Opus 4.7 has a new favorite word](https://reddit.com/r/ClaudeAI/comments/1t4pmzq/opus_47_has_a_new_favorite_word/) | r/ClaudeAI |
+| 146 | [when Claude Opus 6 tells you to "stop spiraling and go to bed"](https://reddit.com/r/Anthropic/comments/1t48i60/when_claude_opus_6_tells_you_to_stop_spiraling/) | r/Anthropic |
+| 132 | [Why does Claude make me feel even more tired at work?](https://reddit.com/r/ClaudeAI/comments/1t4an7o/why_does_claude_make_me_feel_even_more_tired_at/) | r/ClaudeAI |
+| 101 | [Anthropic has a nearly trillion dollar evaluation, and the models have become garbage?](https://reddit.com/r/Anthropic/comments/1t4g2pw/anthropic_has_a_nearly_trillion_dollar_evaluation/) | r/Anthropic |
+| 85 | [claude-agent-sdk-python v0.1.74](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.74) | GitHub Release |
+| 83 | [I built an iOS Currency Converter using Claude (Opus &amp; Sonnet) to help with my move to the UK](https://reddit.com/r/ClaudeAI/comments/1t4h1vj/i_built_an_ios_currency_converter_using_claude/) | r/ClaudeAI |
+| 76 | [I hope this doesn't affect my usage ...](https://reddit.com/r/ClaudeAI/comments/1t4einv/i_hope_this_doesnt_affect_my_usage/) | r/ClaudeAI |
+| 56 | [Both OpenAI and Anthropic now expect AIs to take over building their successors within 2 years (humans no longer able to contribute)](https://reddit.com/r/Anthropic/comments/1t4lzh2/both_openai_and_anthropic_now_expect_ais_to_take/) | r/Anthropic |
+| 15 | [Richard Dawkins concludes AI is conscious, even if it doesn't know it](https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [New Anthropic Fellows research: Model Spec Midtraining (MSM).
+
+Standard alignment methods train AIs on examples of desired behavior. But this can fail to generalize to new situations.
+
+MSM addresses t](https://x.com/AnthropicAI/status/2051758528562364902) | Anthropic |
+| [As AI takes on work humans can't fully check, a capable model could deliberately hold back—and we'd never know. 
+
+New Anthropic Fellows research finds that such a model can be trained to near-full cap](https://x.com/AnthropicAI/status/2051718308702081047) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.129](https://code.claude.com/docs/en/changelog?version=2.1.129) | Official Claude Code changelog entry |
+| [claude-code v2.1.129](https://github.com/anthropics/claude-code/releases/tag/v2.1.129) | ## What's changed  - Added `--plugin-url <url>` flag to fetch a plugin `.zip` archive from a URL for |
+| [claude-agent-sdk-python v0.1.74](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.74) |  ### New Features  - **Hook event streaming**: Added `include_hook_events` option to `ClaudeAgentOpt |
+| [anthropic-sdk-python v0.99.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.99.0) | ## 0.99.0 (2026-05-05)  Full Changelog: [v0.98.1...v0.99.0](https://github.com/anthropics/anthropic- |
+| [claude-code-action v1.0.113](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.113) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.113 |
+| [anthropic-sdk-java v2.29.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.29.0) | ## 2.29.0 (2026-05-05)  Full Changelog: [v2.28.0...v2.29.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.40.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.40.0) | ## 1.40.0 (2026-05-05)  Full Changelog: [v1.39.0...v1.40.0](https://github.com/anthropics/anthropic- |
+| [connect-rust v0.4.0](https://github.com/anthropics/connect-rust/releases/tag/v0.4.0) | ## What's Changed * Bring graceful shutdown in line with Go's net/http.Server.Shutdown behavior by @ |
+| [claude-agent-sdk-typescript v0.2.129](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.129) | ## What's changed  - Updated to parity with Claude Code v2.1.129  ## Update  ```sh npm install @anth |
+| [buffa v0.5.0](https://github.com/anthropics/buffa/releases/tag/v0.5.0) | ## What's Changed * ci: bump cla-github-action to 1ecf0d2f (impersonation guard, co-author trailers) |
+| [anthropic-cli v1.6.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.6.0) | ## 1.6.0 (2026-05-05)  Full Changelog: [v1.5.0...v1.6.0](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-php v0.19.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.19.0) | ## 0.19.0 (2026-05-05)  Full Changelog: [v0.18.0...v0.19.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Anthropic-v12.19.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.19.0) | ## 12.19.0 (2026-05-05)  Full Changelog: [Anthropic-v12.18.0...Anthropic-v12.19.0](https://github.co |
+| [anthropic-sdk-ruby v1.38.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.38.0) | ## 1.38.0 (2026-05-05)  Full Changelog: [v1.37.0...v1.38.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.94.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.94.0) | ## 0.94.0 (2026-05-05)  Full Changelog: [sdk-v0.93.0...sdk-v0.94.0](https://github.com/anthropics/an |
+
+---
+
 ## May 5, 2026
 
 ### 🔥 Top Stories

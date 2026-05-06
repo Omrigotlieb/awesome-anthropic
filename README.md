@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-05
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-06
 
 <!-- CHANGELOG_START -->
 ### April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
@@ -351,14 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-05
+> Last fetched: <!-- NEWS_DATE -->2026-05-06
 
 <!-- NEWS_START -->
-### Top Stories — May 5, 2026
+### Top Stories — May 6, 2026
 
-- [Vibe Coding vs. Production reality](https://reddit.com/r/ClaudeAI/comments/1t3bk3x/vibe_coding_vs_production_reality/) - 2769 pts on r/ClaudeAI.
-- [The em dashes ( — ) \ - 978 pts on The unsaid AI SLOP Tax](https://reddit.com/r/ClaudeAI/comments/1t3rrfr/the_em_dashes_the_unsaid_ai_slop_tax/).
-- [When Claude tells you to "stop spiraling and go to bed"](https://reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/) - 821 pts on r/ClaudeAI.
+- [Turned a desk lamp into a Claude Code status indicator](https://reddit.com/r/ClaudeAI/comments/1t4gfc7/turned_a_desk_lamp_into_a_claude_code_status/) - 1324 pts on r/ClaudeAI.
+- [10 things about Claude that took me way too long to figure out](https://reddit.com/r/ClaudeAI/comments/1t4ncbj/10_things_about_claude_that_took_me_way_too_long/) - 640 pts on r/ClaudeAI.
+- [I know, it's not for everyone, but if you liked Codex Pets, here is now Claude Pets too](https://reddit.com/r/ClaudeAI/comments/1t48531/i_know_its_not_for_everyone_but_if_you_liked/) - 340 pts on r/ClaudeAI.
+- [I asked Claude to investigate its own token burn. The receipts go back six months.](https://reddit.com/r/ClaudeAI/comments/1t4gchn/i_asked_claude_to_investigate_its_own_token_burn/) - 224 pts on r/ClaudeAI.
+- [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents) - 222 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
