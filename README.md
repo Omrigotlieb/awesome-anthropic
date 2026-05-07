@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-06
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-07
 
 <!-- CHANGELOG_START -->
+### May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
+
 ### April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
 
 ### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
-
-### April 23, 2026 — Memory for Claude Managed Agents is now in public beta under the standard manage
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-06
+> Last fetched: <!-- NEWS_DATE -->2026-05-07
 
 <!-- NEWS_START -->
-### Top Stories — May 6, 2026
+### Top Stories — May 7, 2026
 
-- [Turned a desk lamp into a Claude Code status indicator](https://reddit.com/r/ClaudeAI/comments/1t4gfc7/turned_a_desk_lamp_into_a_claude_code_status/) - 1324 pts on r/ClaudeAI.
-- [10 things about Claude that took me way too long to figure out](https://reddit.com/r/ClaudeAI/comments/1t4ncbj/10_things_about_claude_that_took_me_way_too_long/) - 640 pts on r/ClaudeAI.
-- [I know, it's not for everyone, but if you liked Codex Pets, here is now Claude Pets too](https://reddit.com/r/ClaudeAI/comments/1t48531/i_know_its_not_for_everyone_but_if_you_liked/) - 340 pts on r/ClaudeAI.
-- [I asked Claude to investigate its own token burn. The receipts go back six months.](https://reddit.com/r/ClaudeAI/comments/1t4gchn/i_asked_claude_to_investigate_its_own_token_burn/) - 224 pts on r/ClaudeAI.
-- [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents) - 222 pts on Hacker News.
+- [SpaceX Conpute Deal - Double Limits](https://reddit.com/r/ClaudeAI/comments/1t5htq1/spacex_conpute_deal_double_limits/) - 1203 pts on r/ClaudeAI.
+- [Prompt Injection experience - my first time ever](https://reddit.com/r/ClaudeAI/comments/1t56zqw/prompt_injection_experience_my_first_time_ever/) - 1179 pts on r/ClaudeAI.
+- [What it means that Elon just rented out all his GPUs to Anthropic](https://reddit.com/r/ClaudeAI/comments/1t5kz8t/what_it_means_that_elon_just_rented_out_all_his/) - 839 pts on r/ClaudeAI.
+- [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex) - 442 pts on Hacker News.
+- [the part nobody warns you about](https://reddit.com/r/ClaudeAI/comments/1t5vs8t/the_part_nobody_warns_you_about/) - 277 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

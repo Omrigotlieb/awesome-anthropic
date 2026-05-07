@@ -1,6 +1,15 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-01T06:01:03Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-07T06:02:54Z
+
+---
+
+## May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
+
+Multiagent sessions and Outcomes are now in public beta under the standard managed-agents-2026-04-01 beta header. 
+ Vault credential background refresh is now supported for mcp_oauth credentials. See Authenticate with vaults . 
+ Webhooks for Claude Managed Agents are now supported. Webhook event types include session and vault lifecycle events. See Subscribe to webhooks . 
+ Additional filtering and sorting options are now supported. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
 
 ---
 
@@ -129,13 +138,5 @@ We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
  The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models. 
  We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6. 
  We've introduced data residency controls , allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after
-
----
-
-## February 1, 2026 — 
-
-. 
- The 1M token context window is now available in beta for Claude Opus 4.6, in addition to Sonnet 4.5 and Sonnet 4. Long context pricing applies to requests exceeding 200k input tokens. 
- Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format .
 
 ---

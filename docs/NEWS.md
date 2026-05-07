@@ -4,6 +4,71 @@
 
 ---
 
+## May 7, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1203 | [SpaceX Conpute Deal - Double Limits](https://reddit.com/r/ClaudeAI/comments/1t5htq1/spacex_conpute_deal_double_limits/) | r/ClaudeAI |
+| 1179 | [Prompt Injection experience - my first time ever](https://reddit.com/r/ClaudeAI/comments/1t56zqw/prompt_injection_experience_my_first_time_ever/) | r/ClaudeAI |
+| 839 | [What it means that Elon just rented out all his GPUs to Anthropic](https://reddit.com/r/ClaudeAI/comments/1t5kz8t/what_it_means_that_elon_just_rented_out_all_his/) | r/ClaudeAI |
+| 442 | [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex) | Hacker News |
+| 277 | [the part nobody warns you about](https://reddit.com/r/ClaudeAI/comments/1t5vs8t/the_part_nobody_warns_you_about/) | r/ClaudeAI |
+| 241 | [Claude just saved me from sending money to a scammer and now I feel 90 years old](https://reddit.com/r/ClaudeAI/comments/1t5hjs5/claude_just_saved_me_from_sending_money_to_a/) | r/ClaudeAI |
+| 215 | [Did Claude just double usage limits for everyone ?](https://reddit.com/r/ClaudeAI/comments/1t5hxcs/did_claude_just_double_usage_limits_for_everyone/) | r/ClaudeAI |
+| 172 | [I can't believe this](https://reddit.com/r/ClaudeAI/comments/1t5694o/i_cant_believe_this/) | r/ClaudeAI |
+| 160 | [I paused, went to eat, took shower, 1 prompt later, 45% (8 mins into a new session)](https://reddit.com/r/Anthropic/comments/1t5fjq2/i_paused_went_to_eat_took_shower_1_prompt_later/) | r/Anthropic |
+| 148 | [Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird](https://reddit.com/r/Anthropic/comments/1t5lijc/anthropic_gets_in_bed_with_spacex_as_the_ai_race/) | r/Anthropic |
+| 85 | [claude-agent-sdk-python v0.1.76](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.76) | GitHub Release |
+| 52 | [So we now happy using Toxic air turbines Dario?](https://reddit.com/r/Anthropic/comments/1t5lzi8/so_we_now_happy_using_toxic_air_turbines_dario/) | r/Anthropic |
+| 52 | [SpaceXAI will provide Anthropic with access to Colossus 1](https://twitter.com/xai/status/2052060350770515978) | Hacker News |
+| 19 | [Richard Dawkins concludes AI is conscious, even if it doesn't know it](https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt) | Hacker News |
+| 16 | [Anthropic raises Claude Code usage limits, credits new deal with SpaceX](https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [It's been an amazing start to Code w/ Claude! Love hearing what people are building with Claude Code and getting feedback on what we can do better.](https://x.com/bcherny/status/2052070549271232870) | Boris Cherney |
+| [Hello from Code with Claude!](https://x.com/bcherny/status/2052068475900985388) | Boris Cherney |
+| [I'll be at Code with Claude all day today so come find me and let's chat about Claude!
+
+I'll also be giving a talk on the main stage at 530pm PT so tune in, it will be on the livestream!](https://x.com/alexalbert__/status/2052067009605861764) | Alex Albert |
+| [More chips, more Claude](https://x.com/alexalbert__/status/2052065953173872912) | Alex Albert |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.132](https://code.claude.com/docs/en/changelog?version=2.1.132) | Official Claude Code changelog entry |
+| [claude-code v2.1.131](https://code.claude.com/docs/en/changelog?version=2.1.131) | Official Claude Code changelog entry |
+| [claude-code v2.1.132](https://github.com/anthropics/claude-code/releases/tag/v2.1.132) | ## What's changed  - Added `CLAUDE_CODE_SESSION_ID` environment variable to the Bash tool subprocess |
+| [claude-code v2.1.131](https://github.com/anthropics/claude-code/releases/tag/v2.1.131) | ## What's changed  - Fixed VS Code extension failing to activate on Windows due to a hardcoded build |
+| [anthropic-sdk-python v0.100.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.100.0) | ## 0.100.0 (2026-05-06)  Full Changelog: [v0.99.0...v0.100.0](https://github.com/anthropics/anthropi |
+| [claude-agent-sdk-python v0.1.76](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.76) |  ### New Features  - **API error status on result messages**: Added `api_error_status: int \| None`  |
+| [claude-agent-sdk-python v0.1.75](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.75) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.131   ---  **PyPI:** https: |
+| [claude-agent-sdk-typescript v0.2.132](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.132) | ## What's changed  - Documented `applyFlagSettings()` in the TypeScript Agent SDK reference and adde |
+| [claude-agent-sdk-typescript v0.2.131](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.131) | ## What's changed  - Updated to parity with Claude Code v2.1.131  ## Update  ```sh npm install @anth |
+| [claude-code-action v1.0.115](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.115) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.115 |
+| [claude-code-action v1.0.114](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.114) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.114 |
+| [anthropic-sdk-go v1.41.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.41.0) | ## 1.41.0 (2026-05-06)  Full Changelog: [v1.40.0...v1.41.0](https://github.com/anthropics/anthropic- |
+| [anthropic-cli v1.7.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.7.0) | ## 1.7.0 (2026-05-06)  Full Changelog: [v1.6.0...v1.7.0](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-java v2.30.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.30.0) | ## 2.30.0 (2026-05-06)  Full Changelog: [v2.29.0...v2.30.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.20.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.20.0) | ## 0.20.0 (2026-05-06)  Full Changelog: [v0.19.0...v0.20.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Bedrock-v0.8.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.8.0) | ## 0.8.0 (2026-05-06)  Full Changelog: [Bedrock-v0.7.0...Bedrock-v0.8.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.20.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.20.0) | ## 12.20.0 (2026-05-06)  Full Changelog: [Anthropic-v12.19.0...Anthropic-v12.20.0](https://github.co |
+| [anthropic-sdk-ruby v1.39.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.39.0) | ## 1.39.0 (2026-05-06)  Full Changelog: [v1.38.0...v1.39.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.95.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.95.0) | ## 0.95.0 (2026-05-06)  Full Changelog: [sdk-v0.94.0...sdk-v0.95.0](https://github.com/anthropics/an |
+
+---
+
 ## May 6, 2026
 
 ### 🔥 Top Stories
