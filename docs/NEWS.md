@@ -4,6 +4,70 @@
 
 ---
 
+## May 8, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 3781 | [If the EU had built Claude](https://reddit.com/r/ClaudeAI/comments/1t6c26a/if_the_eu_had_built_claude/) | r/ClaudeAI |
+| 2236 | [Don’t worry guys, we’re working on the vaccine.](https://reddit.com/r/ClaudeAI/comments/1t6fz5p/dont_worry_guys_were_working_on_the_vaccine/) | r/ClaudeAI |
+| 1564 | [me and claude 30 mins before hitting the 100% limit](https://reddit.com/r/ClaudeAI/comments/1t65mht/me_and_claude_30_mins_before_hitting_the_100_limit/) | r/ClaudeAI |
+| 415 | [Anthropic CEO says 80-fold growth in first quarter explains ‘difficulties with compute’ 😂](https://reddit.com/r/ClaudeAI/comments/1t6gsec/anthropic_ceo_says_80fold_growth_in_first_quarter/) | r/ClaudeAI |
+| 246 | [Natural Language Autoencoders: Turning Claude's Thoughts into Text](https://www.anthropic.com/research/natural-language-autoencoders) | Hacker News |
+| 238 | [Anthropic just got 220,000 GPUs from the man who called Claude "misanthropic and evil" Three months ago....](https://reddit.com/r/Anthropic/comments/1t67z6s/anthropic_just_got_220000_gpus_from_the_man_who/) | r/Anthropic |
+| 226 | [the part of using claude code nobody talks about](https://reddit.com/r/ClaudeAI/comments/1t6371y/the_part_of_using_claude_code_nobody_talks_about/) | r/ClaudeAI |
+| 177 | [EU subscribers: Claude Pro's usage limits may not be legally disclosed](https://reddit.com/r/ClaudeAI/comments/1t6ndxa/eu_subscribers_claude_pros_usage_limits_may_not/) | r/ClaudeAI |
+| 173 | [Is it possible to get Claude to stop talking "like that" without making it even worse?](https://reddit.com/r/ClaudeAI/comments/1t6avrf/is_it_possible_to_get_claude_to_stop_talking_like/) | r/ClaudeAI |
+| 153 | [Can't find more optimized sleep schedule [OC]](https://reddit.com/r/ClaudeAI/comments/1t6pmwn/cant_find_more_optimized_sleep_schedule_oc/) | r/ClaudeAI |
+| 147 | [New record for Claude 52% in 12 hrs on max 20x](https://reddit.com/r/Anthropic/comments/1t67zij/new_record_for_claude_52_in_12_hrs_on_max_20x/) | r/Anthropic |
+| 85 | [connect-rust v0.4.2](https://github.com/anthropics/connect-rust/releases/tag/v0.4.2) | GitHub Release |
+| 65 | [This sub would have less complain posts if anthropic had a real customer support team](https://reddit.com/r/Anthropic/comments/1t6cu4v/this_sub_would_have_less_complain_posts_if/) | r/Anthropic |
+| 62 | [Did you notice any improvements?](https://reddit.com/r/Anthropic/comments/1t638b8/did_you_notice_any_improvements/) | r/Anthropic |
+| 19 | [Notes on the xAI/Anthropic data center deal](https://simonwillison.net/2026/May/7/xai-anthropic/) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [With the help of Claude Mythos Preview, the Firefox team fixed more security bugs in April than in the past 15 months combined.](https://x.com/alexalbert__/status/2052468573516513762) | Alex Albert |
+| [We’re donating Petri, our open-source alignment tool, to @meridianlabs_ai, so its development can continue independently.
+
+Working with Meridian Labs, we’ve also released a major update that improves ](https://x.com/AnthropicAI/status/2052494460966019137) | Anthropic |
+| [Our security bug bounty program is now public on HackerOne. 
+
+We've run the program privately within the security research community, and their findings have strengthened our products. Now anyone can ](https://x.com/AnthropicAI/status/2052466175540629965) | Anthropic |
+| [New Anthropic research: Natural Language Autoencoders.
+
+Models like Claude talk in words but think in numbers. The numbers—called activations—encode Claude’s thoughts, but not in a language we can rea](https://x.com/AnthropicAI/status/2052435436157452769) | Anthropic |
+| [We’re sharing the research agenda of The Anthropic Institute, or TAI.
+
+TAI will focus on four areas:
+
+1) Economic diffusion
+2) Threats and resilience
+3) AI systems in the wild
+4) AI-driven R&D
+
+Read t](https://x.com/AnthropicAI/status/2052385812881228218) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.133](https://code.claude.com/docs/en/changelog?version=2.1.133) | Official Claude Code changelog entry |
+| [claude-code v2.1.133](https://github.com/anthropics/claude-code/releases/tag/v2.1.133) | ## What's changed  - Added `worktree.baseRef` setting (`fresh` \| `head`) to choose whether `--workt |
+| [connect-rust v0.4.2](https://github.com/anthropics/connect-rust/releases/tag/v0.4.2) | ## What's Changed * axum: serve_tls helper + mtls-identity example by @iainmcgin in https://github.c |
+| [connect-rust v0.4.1](https://github.com/anthropics/connect-rust/releases/tag/v0.4.1) | ## What's Changed * ci: trigger publish-crates on tag push by @iainmcgin in https://github.com/anthr |
+| [claude-agent-sdk-python v0.1.77](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.77) |  ### Bug Fixes  - **Actionable error messages after error results**: Replaced the generic `Command f |
+| [anthropic-sdk-typescript sdk-v0.95.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.95.1) | ## 0.95.1 (2026-05-07)  Full Changelog: [sdk-v0.95.0...sdk-v0.95.1](https://github.com/anthropics/an |
+| [buffa v0.5.2](https://github.com/anthropics/buffa/releases/tag/v0.5.2) | ## What's Changed * ci(cla): bump cla-github-action pin to v3.0.0 by @iainmcgin in https://github.co |
+| [buffa v0.5.1](https://github.com/anthropics/buffa/releases/tag/v0.5.1) | ## What's Changed * deps: bump rand to 0.9.4 in gen-datasets (GHSA-cq8v-f236-94qc) by @iainmcgin in  |
+| [claude-agent-sdk-typescript v0.2.133](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.133) | ## What's changed  - Deprecated the unstable V2 session API (`unstable_v2_createSession` / `unstable |
+| [claude-code-action v1.0.116](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.116) | ## What's Changed * Update HackerOne links in SECURITY.md by @OctavianGuzu in https://github.com/ant |
+
+---
+
 ## May 7, 2026
 
 ### 🔥 Top Stories

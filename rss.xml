@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 06:02:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 06:01:02 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,116 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>SpaceX Conpute Deal - Double Limits</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t5htq1/spacex_conpute_deal_double_limits/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t5htq1/spacex_conpute_deal_double_limits/</guid>
-    <description>▲ 1203 points · r/ClaudeAI · SpaceX Conpute Deal - Double Limits</description>
+    <title>If the EU had built Claude</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t6c26a/if_the_eu_had_built_claude/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t6c26a/if_the_eu_had_built_claude/</guid>
+    <description>▲ 3781 points · r/ClaudeAI · If the EU had built Claude</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Prompt Injection experience - my first time ever</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t56zqw/prompt_injection_experience_my_first_time_ever/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t56zqw/prompt_injection_experience_my_first_time_ever/</guid>
-    <description>▲ 1179 points · r/ClaudeAI · Prompt Injection experience - my first time ever</description>
+    <title>Don’t worry guys, we’re working on the vaccine.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t6fz5p/dont_worry_guys_were_working_on_the_vaccine/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t6fz5p/dont_worry_guys_were_working_on_the_vaccine/</guid>
+    <description>▲ 2236 points · r/ClaudeAI · Don’t worry guys, we’re working on the vaccine.</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>What it means that Elon just rented out all his GPUs to Anthropic</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t5kz8t/what_it_means_that_elon_just_rented_out_all_his/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t5kz8t/what_it_means_that_elon_just_rented_out_all_his/</guid>
-    <description>▲ 839 points · r/ClaudeAI · What it means that Elon just rented out all his GPUs to Anthropic</description>
+    <title>me and claude 30 mins before hitting the 100% limit</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t65mht/me_and_claude_30_mins_before_hitting_the_100_limit/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t65mht/me_and_claude_30_mins_before_hitting_the_100_limit/</guid>
+    <description>▲ 1564 points · r/ClaudeAI · me and claude 30 mins before hitting the 100% limit</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Higher usage limits for Claude and a compute deal with SpaceX</title>
-    <link>https://www.anthropic.com/news/higher-limits-spacex</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/higher-limits-spacex</guid>
-    <description>▲ 442 points · Hacker News · Higher usage limits for Claude and a compute deal with SpaceX</description>
+    <title>Anthropic CEO says 80-fold growth in first quarter explains ‘difficulties with compute’ 😂</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t6gsec/anthropic_ceo_says_80fold_growth_in_first_quarter/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t6gsec/anthropic_ceo_says_80fold_growth_in_first_quarter/</guid>
+    <description>▲ 415 points · r/ClaudeAI · Anthropic CEO says 80-fold growth in first quarter explains ‘difficulties with compute’ 😂</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Natural Language Autoencoders: Turning Claude&apos;s Thoughts into Text</title>
+    <link>https://www.anthropic.com/research/natural-language-autoencoders</link>
+    <guid isPermaLink="true">https://www.anthropic.com/research/natural-language-autoencoders</guid>
+    <description>▲ 246 points · Hacker News · Natural Language Autoencoders: Turning Claude&apos;s Thoughts into Text</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>the part nobody warns you about</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t5vs8t/the_part_nobody_warns_you_about/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t5vs8t/the_part_nobody_warns_you_about/</guid>
-    <description>▲ 277 points · r/ClaudeAI · the part nobody warns you about</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude just saved me from sending money to a scammer and now I feel 90 years old</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t5hjs5/claude_just_saved_me_from_sending_money_to_a/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t5hjs5/claude_just_saved_me_from_sending_money_to_a/</guid>
-    <description>▲ 241 points · r/ClaudeAI · Claude just saved me from sending money to a scammer and now I feel 90 years old</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Did Claude just double usage limits for everyone ?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t5hxcs/did_claude_just_double_usage_limits_for_everyone/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t5hxcs/did_claude_just_double_usage_limits_for_everyone/</guid>
-    <description>▲ 215 points · r/ClaudeAI · Did Claude just double usage limits for everyone ?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I can&apos;t believe this</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t5694o/i_cant_believe_this/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t5694o/i_cant_believe_this/</guid>
-    <description>▲ 172 points · r/ClaudeAI · I can&apos;t believe this</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I paused, went to eat, took shower, 1 prompt later, 45% (8 mins into a new session)</title>
-    <link>https://reddit.com/r/Anthropic/comments/1t5fjq2/i_paused_went_to_eat_took_shower_1_prompt_later/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t5fjq2/i_paused_went_to_eat_took_shower_1_prompt_later/</guid>
-    <description>▲ 160 points · r/Anthropic · I paused, went to eat, took shower, 1 prompt later, 45% (8 mins into a new session)</description>
+    <title>Anthropic just got 220,000 GPUs from the man who called Claude &quot;misanthropic and evil&quot; Three months ago....</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t67z6s/anthropic_just_got_220000_gpus_from_the_man_who/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t67z6s/anthropic_just_got_220000_gpus_from_the_man_who/</guid>
+    <description>▲ 238 points · r/Anthropic · Anthropic just got 220,000 GPUs from the man who called Claude &quot;misanthropic and evil&quot; Three months ago....</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird</title>
-    <link>https://reddit.com/r/Anthropic/comments/1t5lijc/anthropic_gets_in_bed_with_spacex_as_the_ai_race/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t5lijc/anthropic_gets_in_bed_with_spacex_as_the_ai_race/</guid>
-    <description>▲ 148 points · r/Anthropic · Anthropic Gets in Bed With SpaceX as the AI Race Turns Weird</description>
+    <title>the part of using claude code nobody talks about</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t6371y/the_part_of_using_claude_code_nobody_talks_about/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t6371y/the_part_of_using_claude_code_nobody_talks_about/</guid>
+    <description>▲ 226 points · r/ClaudeAI · the part of using claude code nobody talks about</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>EU subscribers: Claude Pro&apos;s usage limits may not be legally disclosed</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t6ndxa/eu_subscribers_claude_pros_usage_limits_may_not/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t6ndxa/eu_subscribers_claude_pros_usage_limits_may_not/</guid>
+    <description>▲ 177 points · r/ClaudeAI · EU subscribers: Claude Pro&apos;s usage limits may not be legally disclosed</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Is it possible to get Claude to stop talking &quot;like that&quot; without making it even worse?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1t6avrf/is_it_possible_to_get_claude_to_stop_talking_like/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t6avrf/is_it_possible_to_get_claude_to_stop_talking_like/</guid>
+    <description>▲ 173 points · r/ClaudeAI · Is it possible to get Claude to stop talking &quot;like that&quot; without making it even worse?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>New record for Claude 52% in 12 hrs on max 20x</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t67zij/new_record_for_claude_52_in_12_hrs_on_max_20x/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t67zij/new_record_for_claude_52_in_12_hrs_on_max_20x/</guid>
+    <description>▲ 147 points · r/Anthropic · New record for Claude 52% in 12 hrs on max 20x</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-agent-sdk-python v0.1.76</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.76</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.76</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.76</description>
+    <title>connect-rust v0.4.2</title>
+    <link>https://github.com/anthropics/connect-rust/releases/tag/v0.4.2</link>
+    <guid isPermaLink="true">https://github.com/anthropics/connect-rust/releases/tag/v0.4.2</guid>
+    <description>▲ 85 points · GitHub Release · connect-rust v0.4.2</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>So we now happy using Toxic air turbines Dario?</title>
-    <link>https://reddit.com/r/Anthropic/comments/1t5lzi8/so_we_now_happy_using_toxic_air_turbines_dario/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t5lzi8/so_we_now_happy_using_toxic_air_turbines_dario/</guid>
-    <description>▲ 52 points · r/Anthropic · So we now happy using Toxic air turbines Dario?</description>
+    <title>This sub would have less complain posts if anthropic had a real customer support team</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t6cu4v/this_sub_would_have_less_complain_posts_if/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t6cu4v/this_sub_would_have_less_complain_posts_if/</guid>
+    <description>▲ 65 points · r/Anthropic · This sub would have less complain posts if anthropic had a real customer support team</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>SpaceXAI will provide Anthropic with access to Colossus 1</title>
-    <link>https://twitter.com/xai/status/2052060350770515978</link>
-    <guid isPermaLink="true">https://twitter.com/xai/status/2052060350770515978</guid>
-    <description>▲ 52 points · Hacker News · SpaceXAI will provide Anthropic with access to Colossus 1</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <title>Did you notice any improvements?</title>
+    <link>https://reddit.com/r/Anthropic/comments/1t638b8/did_you_notice_any_improvements/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1t638b8/did_you_notice_any_improvements/</guid>
+    <description>▲ 62 points · r/Anthropic · Did you notice any improvements?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Richard Dawkins concludes AI is conscious, even if it doesn&apos;t know it</title>
-    <link>https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt</link>
-    <guid isPermaLink="true">https://www.theguardian.com/technology/2026/may/05/richard-dawkins-ai-consciousness-anthropic-claude-openai-chatgpt</guid>
-    <description>▲ 19 points · Hacker News · Richard Dawkins concludes AI is conscious, even if it doesn&apos;t know it</description>
+    <title>Notes on the xAI/Anthropic data center deal</title>
+    <link>https://simonwillison.net/2026/May/7/xai-anthropic/</link>
+    <guid isPermaLink="true">https://simonwillison.net/2026/May/7/xai-anthropic/</guid>
+    <description>▲ 19 points · Hacker News · Notes on the xAI/Anthropic data center deal</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic raises Claude Code usage limits, credits new deal with SpaceX</title>
-    <link>https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/</link>
-    <guid isPermaLink="true">https://arstechnica.com/ai/2026/05/anthropic-raises-claude-code-usage-limits-credits-new-deal-with-spacex/</guid>
-    <description>▲ 16 points · Hacker News · Anthropic raises Claude Code usage limits, credits new deal with SpaceX</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 07 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

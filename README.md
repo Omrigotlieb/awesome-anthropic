@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-07
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-08
 
 <!-- CHANGELOG_START -->
 ### May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-07
+> Last fetched: <!-- NEWS_DATE -->2026-05-08
 
 <!-- NEWS_START -->
-### Top Stories — May 7, 2026
+### Top Stories — May 8, 2026
 
-- [SpaceX Conpute Deal - Double Limits](https://reddit.com/r/ClaudeAI/comments/1t5htq1/spacex_conpute_deal_double_limits/) - 1203 pts on r/ClaudeAI.
-- [Prompt Injection experience - my first time ever](https://reddit.com/r/ClaudeAI/comments/1t56zqw/prompt_injection_experience_my_first_time_ever/) - 1179 pts on r/ClaudeAI.
-- [What it means that Elon just rented out all his GPUs to Anthropic](https://reddit.com/r/ClaudeAI/comments/1t5kz8t/what_it_means_that_elon_just_rented_out_all_his/) - 839 pts on r/ClaudeAI.
-- [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex) - 442 pts on Hacker News.
-- [the part nobody warns you about](https://reddit.com/r/ClaudeAI/comments/1t5vs8t/the_part_nobody_warns_you_about/) - 277 pts on r/ClaudeAI.
+- [If the EU had built Claude](https://reddit.com/r/ClaudeAI/comments/1t6c26a/if_the_eu_had_built_claude/) - 3781 pts on r/ClaudeAI.
+- [Don’t worry guys, we’re working on the vaccine.](https://reddit.com/r/ClaudeAI/comments/1t6fz5p/dont_worry_guys_were_working_on_the_vaccine/) - 2236 pts on r/ClaudeAI.
+- [me and claude 30 mins before hitting the 100% limit](https://reddit.com/r/ClaudeAI/comments/1t65mht/me_and_claude_30_mins_before_hitting_the_100_limit/) - 1564 pts on r/ClaudeAI.
+- [Anthropic CEO says 80-fold growth in first quarter explains ‘difficulties with compute’ 😂](https://reddit.com/r/ClaudeAI/comments/1t6gsec/anthropic_ceo_says_80fold_growth_in_first_quarter/) - 415 pts on r/ClaudeAI.
+- [Natural Language Autoencoders: Turning Claude's Thoughts into Text](https://www.anthropic.com/research/natural-language-autoencoders) - 246 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
