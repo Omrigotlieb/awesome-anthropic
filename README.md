@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-08
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-09
 
 <!-- CHANGELOG_START -->
 ### May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-08
+> Last fetched: <!-- NEWS_DATE -->2026-05-09
 
 <!-- NEWS_START -->
-### Top Stories — May 8, 2026
+### Top Stories — May 9, 2026
 
-- [If the EU had built Claude](https://reddit.com/r/ClaudeAI/comments/1t6c26a/if_the_eu_had_built_claude/) - 3781 pts on r/ClaudeAI.
-- [Don’t worry guys, we’re working on the vaccine.](https://reddit.com/r/ClaudeAI/comments/1t6fz5p/dont_worry_guys_were_working_on_the_vaccine/) - 2236 pts on r/ClaudeAI.
-- [me and claude 30 mins before hitting the 100% limit](https://reddit.com/r/ClaudeAI/comments/1t65mht/me_and_claude_30_mins_before_hitting_the_100_limit/) - 1564 pts on r/ClaudeAI.
-- [Anthropic CEO says 80-fold growth in first quarter explains ‘difficulties with compute’ 😂](https://reddit.com/r/ClaudeAI/comments/1t6gsec/anthropic_ceo_says_80fold_growth_in_first_quarter/) - 415 pts on r/ClaudeAI.
-- [Natural Language Autoencoders: Turning Claude's Thoughts into Text](https://www.anthropic.com/research/natural-language-autoencoders) - 246 pts on Hacker News.
+- [POV: Anthropic releases their new model](https://reddit.com/r/ClaudeAI/comments/1t77iid/pov_anthropic_releases_their_new_model/) - 2675 pts on r/ClaudeAI.
+- [Opus tryna be TOO human](https://reddit.com/r/ClaudeAI/comments/1t7e4p7/opus_tryna_be_too_human/) - 2140 pts on r/ClaudeAI.
+- [The most female-led product org in tech right now.](https://reddit.com/r/ClaudeAI/comments/1t74zc4/the_most_femaleled_product_org_in_tech_right_now/) - 916 pts on r/ClaudeAI.
+- [The hidden meanings behind Claude model names (Haiku, Sonnet, Opus, Mythos)](https://reddit.com/r/ClaudeAI/comments/1t77oh9/the_hidden_meanings_behind_claude_model_names/) - 495 pts on r/ClaudeAI.
+- [A little bit worried about this](https://reddit.com/r/ClaudeAI/comments/1t6zjyo/a_little_bit_worried_about_this/) - 358 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-08 (news snapshot: May 8, 2026)
+## 2026-05-09 (news snapshot: May 9, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-08 uses the May 8, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.133.
+- The daily run on 2026-05-09 uses the May 9, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.137.
 - Official channel signal remains active: Higher usage limits for Claude and a compute deal with SpaceX (May 7, 2026).
 
 ### Latest News Articles
@@ -41,19 +41,19 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (May 8, 2026):** [claude-code v2.1.133](https://code.claude.com/docs/en/changelog?version=2.1.133)
+**News peg (May 9, 2026):** [claude-code v2.1.137](https://code.claude.com/docs/en/changelog?version=2.1.137)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — First-party story signal
+### Article 5 — Community demand signal
 
-**News peg (May 8, 2026):** [Natural Language Autoencoders: Turning Claude's Thoughts into Text](https://www.anthropic.com/research/natural-language-autoencoders)
+**News peg (May 9, 2026):** [POV: Anthropic releases their new model](https://reddit.com/r/ClaudeAI/comments/1t77iid/pov_anthropic_releases_their_new_model/)
 
-Snapshot update: Top story source: Hacker News
+Snapshot update: Top story source: r/ClaudeAI
 
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
@@ -67,10 +67,9 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 - May 7, 2026: [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
 - May 6, 2026: [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
 - May 5, 2026: [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
-- May 8, 2026: [Natural Language Autoencoders: Turning Claude's Thoughts into Text](https://www.anthropic.com/research/natural-language-autoencoders)
-- May 8, 2026: [claude-code v2.1.133](https://code.claude.com/docs/en/changelog?version=2.1.133)
-- May 8, 2026: [claude-code v2.1.133](https://github.com/anthropics/claude-code/releases/tag/v2.1.133)
-- May 8, 2026: [connect-rust v0.4.2](https://github.com/anthropics/connect-rust/releases/tag/v0.4.2)
+- May 9, 2026: [claude-code v2.1.137](https://code.claude.com/docs/en/changelog?version=2.1.137)
+- May 9, 2026: [claude-code v2.1.136](https://code.claude.com/docs/en/changelog?version=2.1.136)
+- May 9, 2026: [claude-code v2.1.137](https://github.com/anthropics/claude-code/releases/tag/v2.1.137)
 
 ### Website Improvement Review
 

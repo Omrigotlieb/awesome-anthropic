@@ -4,6 +4,57 @@
 
 ---
 
+## May 9, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2675 | [POV: Anthropic releases their new model](https://reddit.com/r/ClaudeAI/comments/1t77iid/pov_anthropic_releases_their_new_model/) | r/ClaudeAI |
+| 2140 | [Opus tryna be TOO human](https://reddit.com/r/ClaudeAI/comments/1t7e4p7/opus_tryna_be_too_human/) | r/ClaudeAI |
+| 916 | [The most female-led product org in tech right now.](https://reddit.com/r/ClaudeAI/comments/1t74zc4/the_most_femaleled_product_org_in_tech_right_now/) | r/ClaudeAI |
+| 495 | [The hidden meanings behind Claude model names (Haiku, Sonnet, Opus, Mythos)](https://reddit.com/r/ClaudeAI/comments/1t77oh9/the_hidden_meanings_behind_claude_model_names/) | r/ClaudeAI |
+| 358 | [A little bit worried about this](https://reddit.com/r/ClaudeAI/comments/1t6zjyo/a_little_bit_worried_about_this/) | r/ClaudeAI |
+| 331 | [How it feels having Claude in the Office suite](https://reddit.com/r/ClaudeAI/comments/1t79lu0/how_it_feels_having_claude_in_the_office_suite/) | r/ClaudeAI |
+| 303 | [Claude + MS](https://reddit.com/r/ClaudeAI/comments/1t7ekrg/claude_ms/) | r/ClaudeAI |
+| 249 | [Spotify CTO says Claude can create Personal Podcasts, now saved to your Spotify library](https://reddit.com/r/ClaudeAI/comments/1t7g5bi/spotify_cto_says_claude_can_create_personal/) | r/ClaudeAI |
+| 249 | [Elon Musk called Anthropic "evil" 3 months ago. Now he’s taking $4 billion to become its landlord](https://reddit.com/r/Anthropic/comments/1t79zut/elon_musk_called_anthropic_evil_3_months_ago_now/) | r/Anthropic |
+| 127 | [Those of you who use both ChatGPT and Claude — what’s each one actually better at?](https://reddit.com/r/ClaudeAI/comments/1t7q1dw/those_of_you_who_use_both_chatgpt_and_claude/) | r/ClaudeAI |
+| 127 | [Teaching Claude Why](https://www.anthropic.com/research/teaching-claude-why) | Hacker News |
+| 101 | [I built a Pokémon-styled multi-agent dashboard to manage all Claude Code sessions](https://reddit.com/r/ClaudeAI/comments/1t7m3j3/i_built_a_pokémonstyled_multiagent_dashboard_to/) | r/ClaudeAI |
+| 90 | [When using Claude Code for agent-based coding, I’ve often noticed that the AI limits itself by claiming that a task could take a developer several weeks to complete, and therefore suggests solutions that are more like quick fixes. That’s complete nonsense, of course.](https://reddit.com/r/ClaudeAI/comments/1t77r81/when_using_claude_code_for_agentbased_coding_ive/) | r/ClaudeAI |
+| 85 | [claude-agent-sdk-python v0.1.79](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.79) | GitHub Release |
+| 30 | [Show HN: GETadb.com – every GET request creates a DB](https://www.getadb.com/) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We have a few extra stickers from Code with Claude! Grab some if you want https://www.stickermule.com/give/5DCYpto](https://x.com/bcherny/status/2052869367164207234) | Boris Cherney |
+| [An early Claude Mythos Preview snapshot we provided METR has a time horizon of more than 2x the next best model on their 80% success rate benchmark](https://x.com/alexalbert__/status/2052899864493830590) | Alex Albert |
+| [New Anthropic research: Teaching Claude why.
+
+Last year we reported that, under certain experimental conditions, Claude 4 would blackmail users.
+
+Since then, we’ve completely eliminated this behavior.](https://x.com/AnthropicAI/status/2052808787514228772) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.137](https://code.claude.com/docs/en/changelog?version=2.1.137) | Official Claude Code changelog entry |
+| [claude-code v2.1.136](https://code.claude.com/docs/en/changelog?version=2.1.136) | Official Claude Code changelog entry |
+| [claude-code v2.1.137](https://github.com/anthropics/claude-code/releases/tag/v2.1.137) | ## What's changed  - [VSCode] Fixed extension failing to activate on Windows  |
+| [claude-code v2.1.136](https://github.com/anthropics/claude-code/releases/tag/v2.1.136) | ## What's changed  - Added `CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL` to re-enable the session qu |
+| [claude-code-action v1.0.118](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.118) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.118 |
+| [claude-code-action v1.0.117](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.117) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.117 |
+| [claude-agent-sdk-python v0.1.79](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.79) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.137   ---  **PyPI:** https: |
+| [claude-agent-sdk-python v0.1.78](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.78) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.136   ---  **PyPI:** https: |
+| [claude-agent-sdk-typescript v0.2.137](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.137) | ## What's changed  - Updated to parity with Claude Code v2.1.137  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.2.136](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.136) | ## What's changed  - Added `resolveSettings()` (alpha) to inspect effective merged settings without  |
+
+---
+
 ## May 8, 2026
 
 ### 🔥 Top Stories

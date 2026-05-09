@@ -1,12 +1,12 @@
 # Daily Anthropic Brief
 
-## 2026-05-08 (news snapshot: May 8, 2026)
+## 2026-05-09 (news snapshot: May 9, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.133](https://code.claude.com/docs/en/changelog?version=2.1.133) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.137](https://code.claude.com/docs/en/changelog?version=2.1.137) is currently the latest Claude Code release visible in this repository snapshot.
 - [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
 - [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
 - [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
@@ -19,8 +19,8 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-08
-- News snapshot date: May 8, 2026
+- Run date (UTC): 2026-05-09
+- News snapshot date: May 9, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
