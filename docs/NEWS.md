@@ -4,6 +4,37 @@
 
 ---
 
+## May 10, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2327 | [Not a good day for team "Claude Mythos is Just Marketing Hype"](https://reddit.com/r/ClaudeAI/comments/1t83k85/not_a_good_day_for_team_claude_mythos_is_just/) | r/ClaudeAI |
+| 611 | [Claude Desktop App Now Shows Context Usage (MacOS)](https://reddit.com/r/ClaudeAI/comments/1t7zpdz/claude_desktop_app_now_shows_context_usage_macos/) | r/ClaudeAI |
+| 247 | [Hugging Face co-founder says Qwen 3.6 27B running on airplane mode is close to latest Opus in Claude Code](https://reddit.com/r/ClaudeAI/comments/1t8v7z0/hugging_face_cofounder_says_qwen_36_27b_running/) | r/ClaudeAI |
+| 227 | [The unreasonable effectiveness of HTML when using Claude Code](https://reddit.com/r/ClaudeAI/comments/1t8aecu/the_unreasonable_effectiveness_of_html_when_using/) | r/ClaudeAI |
+| 226 | [Best Claude.md files for claude code](https://reddit.com/r/ClaudeAI/comments/1t89g1j/best_claudemd_files_for_claude_code/) | r/ClaudeAI |
+| 202 | [It is now behaving like the troublesome seniors we used to deal with](https://reddit.com/r/ClaudeAI/comments/1t7ybea/it_is_now_behaving_like_the_troublesome_seniors/) | r/ClaudeAI |
+| 191 | [Claude is weirdly good at helping untangle messy thoughts](https://reddit.com/r/ClaudeAI/comments/1t85f3i/claude_is_weirdly_good_at_helping_untangle_messy/) | r/ClaudeAI |
+| 139 | [The new auto-completion feature is a bit aggressive](https://reddit.com/r/ClaudeAI/comments/1t84eco/the_new_autocompletion_feature_is_a_bit_aggressive/) | r/ClaudeAI |
+| 103 | [Opus's thoughts on Marc Andreesen's system prompt](https://reddit.com/r/ClaudeAI/comments/1t8imd8/opuss_thoughts_on_marc_andreesens_system_prompt/) | r/ClaudeAI |
+| 88 | [Claude improved my agent harness by 40.7% overnight](https://reddit.com/r/ClaudeAI/comments/1t8cn9y/claude_improved_my_agent_harness_by_407_overnight/) | r/ClaudeAI |
+| 88 | [What Claude says vs What Claude thinks](https://reddit.com/r/Anthropic/comments/1t7y0p1/what_claude_says_vs_what_claude_thinks/) | r/Anthropic |
+| 85 | [claude-agent-sdk-python v0.1.80](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.80) | GitHub Release |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.138](https://code.claude.com/docs/en/changelog?version=2.1.138) | Official Claude Code changelog entry |
+| [claude-code v2.1.138](https://github.com/anthropics/claude-code/releases/tag/v2.1.138) | ## What's changed  - Internal fixes  |
+| [claude-code-action v1.0.119](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.119) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.119 |
+| [claude-agent-sdk-python v0.1.80](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.80) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.138   ---  **PyPI:** https: |
+| [claude-agent-sdk-typescript v0.2.138](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.138) | ## What's changed  - Updated to parity with Claude Code v2.1.138  ## Update  ```sh npm install @anth |
+
+---
+
 ## May 9, 2026
 
 ### 🔥 Top Stories

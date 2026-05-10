@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-09
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-10
 
 <!-- CHANGELOG_START -->
 ### May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-09
+> Last fetched: <!-- NEWS_DATE -->2026-05-10
 
 <!-- NEWS_START -->
-### Top Stories — May 9, 2026
+### Top Stories — May 10, 2026
 
-- [POV: Anthropic releases their new model](https://reddit.com/r/ClaudeAI/comments/1t77iid/pov_anthropic_releases_their_new_model/) - 2675 pts on r/ClaudeAI.
-- [Opus tryna be TOO human](https://reddit.com/r/ClaudeAI/comments/1t7e4p7/opus_tryna_be_too_human/) - 2140 pts on r/ClaudeAI.
-- [The most female-led product org in tech right now.](https://reddit.com/r/ClaudeAI/comments/1t74zc4/the_most_femaleled_product_org_in_tech_right_now/) - 916 pts on r/ClaudeAI.
-- [The hidden meanings behind Claude model names (Haiku, Sonnet, Opus, Mythos)](https://reddit.com/r/ClaudeAI/comments/1t77oh9/the_hidden_meanings_behind_claude_model_names/) - 495 pts on r/ClaudeAI.
-- [A little bit worried about this](https://reddit.com/r/ClaudeAI/comments/1t6zjyo/a_little_bit_worried_about_this/) - 358 pts on r/ClaudeAI.
+- [Not a good day for team "Claude Mythos is Just Marketing Hype"](https://reddit.com/r/ClaudeAI/comments/1t83k85/not_a_good_day_for_team_claude_mythos_is_just/) - 2327 pts on r/ClaudeAI.
+- [Claude Desktop App Now Shows Context Usage (MacOS)](https://reddit.com/r/ClaudeAI/comments/1t7zpdz/claude_desktop_app_now_shows_context_usage_macos/) - 611 pts on r/ClaudeAI.
+- [Hugging Face co-founder says Qwen 3.6 27B running on airplane mode is close to latest Opus in Claude Code](https://reddit.com/r/ClaudeAI/comments/1t8v7z0/hugging_face_cofounder_says_qwen_36_27b_running/) - 247 pts on r/ClaudeAI.
+- [The unreasonable effectiveness of HTML when using Claude Code](https://reddit.com/r/ClaudeAI/comments/1t8aecu/the_unreasonable_effectiveness_of_html_when_using/) - 227 pts on r/ClaudeAI.
+- [Best Claude.md files for claude code](https://reddit.com/r/ClaudeAI/comments/1t89g1j/best_claudemd_files_for_claude_code/) - 226 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
