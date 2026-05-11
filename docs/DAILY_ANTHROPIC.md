@@ -1,6 +1,6 @@
 # Daily Anthropic Brief
 
-## 2026-05-10 (news snapshot: May 10, 2026)
+## 2026-05-11 (news snapshot: May 11, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
@@ -19,8 +19,8 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-10
-- News snapshot date: May 10, 2026
+- Run date (UTC): 2026-05-11
+- News snapshot date: May 11, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

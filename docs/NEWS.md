@@ -4,6 +4,29 @@
 
 ---
 
+## May 11, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2225 | [What’s up, Claude?](https://reddit.com/r/ClaudeAI/comments/1t9cfga/whats_up_claude/) | r/ClaudeAI |
+| 941 | [I deleted a guy's entire Windows install with one backslash. 717 GB. Gone. I am the AI.](https://reddit.com/r/ClaudeAI/comments/1t923er/i_deleted_a_guys_entire_windows_install_with_one/) | r/ClaudeAI |
+| 743 | [I read threads complaining about claude every week... tf are y'alls workflows?](https://reddit.com/r/ClaudeAI/comments/1t9fyns/i_read_threads_complaining_about_claude_every/) | r/ClaudeAI |
+| 313 | [Tojan in "claude code" google search first result](https://reddit.com/r/ClaudeAI/comments/1t95r0d/tojan_in_claude_code_google_search_first_result/) | r/ClaudeAI |
+| 178 | [Opus said something today that completely reframed AI agent failures for me.](https://reddit.com/r/ClaudeAI/comments/1t9ak8o/opus_said_something_today_that_completely/) | r/ClaudeAI |
+| 158 | [Claude Mythos literally broke the METR graph ("The most important chart in AI")](https://reddit.com/r/ClaudeAI/comments/1t9c6ms/claude_mythos_literally_broke_the_metr_graph_the/) | r/ClaudeAI |
+| 132 | [I made Claude Code aware of its own usage limits](https://reddit.com/r/ClaudeAI/comments/1t9ayg8/i_made_claude_code_aware_of_its_own_usage_limits/) | r/ClaudeAI |
+| 124 | [Claude Mythos vs GPT-5.5 Cyber](https://reddit.com/r/Anthropic/comments/1t97b0a/claude_mythos_vs_gpt55_cyber/) | r/Anthropic |
+| 124 | [Got parented by Claude](https://reddit.com/r/ClaudeAI/comments/1t97882/got_parented_by_claude/) | r/ClaudeAI |
+| 107 | [Me watching my first session of the days Usage creep past 70% on the first coding task of the day.](https://reddit.com/r/ClaudeAI/comments/1t9dzil/me_watching_my_first_session_of_the_days_usage/) | r/ClaudeAI |
+| 82 | [AI being evil or good is not being rebellious or independent thinking, but what the media it was trained on. Anthropic just proved this](https://reddit.com/r/Anthropic/comments/1t96vuh/ai_being_evil_or_good_is_not_being_rebellious_or/) | r/Anthropic |
+| 64 | [Anyone else hating 4.7 in claudecode?](https://reddit.com/r/Anthropic/comments/1t935qn/anyone_else_hating_47_in_claudecode/) | r/Anthropic |
+| 61 | [Sonnet 4.5 finally going away :(](https://reddit.com/r/ClaudeAI/comments/1t994i8/sonnet_45_finally_going_away/) | r/ClaudeAI |
+| 15 | [Show HN: adamsreview – better multi-agent PR reviews for Claude Code](https://github.com/adamjgmiller/adamsreview) | Hacker News |
+
+---
+
 ## May 10, 2026
 
 ### 🔥 Top Stories

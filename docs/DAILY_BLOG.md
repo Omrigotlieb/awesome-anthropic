@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-10 (news snapshot: May 10, 2026)
+## 2026-05-11 (news snapshot: May 11, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-10 uses the May 10, 2026 news snapshot.
+- The daily run on 2026-05-11 uses the May 11, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.138.
 - Official channel signal remains active: Higher usage limits for Claude and a compute deal with SpaceX (May 7, 2026).
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (May 10, 2026):** [Not a good day for team "Claude Mythos is Just Marketing Hype"](https://reddit.com/r/ClaudeAI/comments/1t83k85/not_a_good_day_for_team_claude_mythos_is_just/)
+**News peg (May 11, 2026):** [What’s up, Claude?](https://reddit.com/r/ClaudeAI/comments/1t9cfga/whats_up_claude/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
@@ -67,9 +67,6 @@ This is community signal; it is useful for demand sensing, but should stay clear
 - May 7, 2026: [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
 - May 6, 2026: [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
 - May 5, 2026: [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
-- May 10, 2026: [claude-code v2.1.138](https://code.claude.com/docs/en/changelog?version=2.1.138)
-- May 10, 2026: [claude-code v2.1.138](https://github.com/anthropics/claude-code/releases/tag/v2.1.138)
-- May 10, 2026: [claude-code-action v1.0.119](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.119)
 
 ### Website Improvement Review
 

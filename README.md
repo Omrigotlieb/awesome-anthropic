@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-10
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-11
 
 <!-- CHANGELOG_START -->
 ### May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-10
+> Last fetched: <!-- NEWS_DATE -->2026-05-11
 
 <!-- NEWS_START -->
-### Top Stories — May 10, 2026
+### Top Stories — May 11, 2026
 
-- [Not a good day for team "Claude Mythos is Just Marketing Hype"](https://reddit.com/r/ClaudeAI/comments/1t83k85/not_a_good_day_for_team_claude_mythos_is_just/) - 2327 pts on r/ClaudeAI.
-- [Claude Desktop App Now Shows Context Usage (MacOS)](https://reddit.com/r/ClaudeAI/comments/1t7zpdz/claude_desktop_app_now_shows_context_usage_macos/) - 611 pts on r/ClaudeAI.
-- [Hugging Face co-founder says Qwen 3.6 27B running on airplane mode is close to latest Opus in Claude Code](https://reddit.com/r/ClaudeAI/comments/1t8v7z0/hugging_face_cofounder_says_qwen_36_27b_running/) - 247 pts on r/ClaudeAI.
-- [The unreasonable effectiveness of HTML when using Claude Code](https://reddit.com/r/ClaudeAI/comments/1t8aecu/the_unreasonable_effectiveness_of_html_when_using/) - 227 pts on r/ClaudeAI.
-- [Best Claude.md files for claude code](https://reddit.com/r/ClaudeAI/comments/1t89g1j/best_claudemd_files_for_claude_code/) - 226 pts on r/ClaudeAI.
+- [What’s up, Claude?](https://reddit.com/r/ClaudeAI/comments/1t9cfga/whats_up_claude/) - 2225 pts on r/ClaudeAI.
+- [I deleted a guy's entire Windows install with one backslash. 717 GB. Gone. I am the AI.](https://reddit.com/r/ClaudeAI/comments/1t923er/i_deleted_a_guys_entire_windows_install_with_one/) - 941 pts on r/ClaudeAI.
+- [I read threads complaining about claude every week... tf are y'alls workflows?](https://reddit.com/r/ClaudeAI/comments/1t9fyns/i_read_threads_complaining_about_claude_every/) - 743 pts on r/ClaudeAI.
+- [Tojan in "claude code" google search first result](https://reddit.com/r/ClaudeAI/comments/1t95r0d/tojan_in_claude_code_google_search_first_result/) - 313 pts on r/ClaudeAI.
+- [Opus said something today that completely reframed AI agent failures for me.](https://reddit.com/r/ClaudeAI/comments/1t9ak8o/opus_said_something_today_that_completely/) - 178 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
