@@ -4,6 +4,62 @@
 
 ---
 
+## May 12, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 914 | [using Claude to close a &lt;div&gt;](https://reddit.com/r/ClaudeAI/comments/1ta06om/using_claude_to_close_a_div/) | r/ClaudeAI |
+| 560 | [Claude finds out there are fanfics about him](https://reddit.com/r/ClaudeAI/comments/1taa7dl/claude_finds_out_there_are_fanfics_about_him/) | r/ClaudeAI |
+| 516 | [New in Claude Code: agent view.](https://reddit.com/r/ClaudeAI/comments/1tag1i9/new_in_claude_code_agent_view/) | r/ClaudeAI |
+| 222 | [I told Claude to create a PS5 controller in blender](https://reddit.com/r/ClaudeAI/comments/1ta5ddv/i_told_claude_to_create_a_ps5_controller_in/) | r/ClaudeAI |
+| 214 | [Claude FM](https://reddit.com/r/ClaudeAI/comments/1tahkhu/claude_fm/) | r/ClaudeAI |
+| 189 | [Curl maintainer utilized Anthropic's Mythos scan: 1 confirmed vulnerability and ~20 bugs](https://reddit.com/r/ClaudeAI/comments/1tambz7/curl_maintainer_utilized_anthropics_mythos_scan_1/) | r/ClaudeAI |
+| 138 | [Claude tried to quit its shift then pretended it was for my own good](https://reddit.com/r/ClaudeAI/comments/1t9zzgm/claude_tried_to_quit_its_shift_then_pretended_it/) | r/ClaudeAI |
+| 135 | [I built an app with Claude Code that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.](https://reddit.com/r/ClaudeAI/comments/1tad468/i_built_an_app_with_claude_code_that_converts_any/) | r/ClaudeAI |
+| 126 | [The Claude Platform on AWS is now generally available.](https://reddit.com/r/ClaudeAI/comments/1ta7p4n/the_claude_platform_on_aws_is_now_generally/) | r/ClaudeAI |
+| 89 | [Got Banned from Claude for Talking About Raspberry Pi projects, which tripped the age verification filters…](https://reddit.com/r/Anthropic/comments/1ta33ut/got_banned_from_claude_for_talking_about/) | r/Anthropic |
+| 85 | [claude-agent-sdk-python v0.1.81](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.81) | GitHub Release |
+| 84 | [#Keep Sonnet 4.5 DO NOT REMOVE IT](https://reddit.com/r/Anthropic/comments/1ta7k9s/keep_sonnet_45_do_not_remove_it/) | r/Anthropic |
+| 18 | [Anthropic,OpenAI meet religious leaders to discuss faith and AI](https://www.fastcompany.com/91538977/openai-anthropic-just-met-religious-leaders-faith-ai-covenant-heres-why) | Hacker News |
+| 10 | [Unauthorized Anthropic stock sales and investment scams](https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [I needed to book flights for a bunch of upcoming travel. As always, I used Claude Cowork to do it.
+
+In the past, Cowork has been decent at booking flights, but with Opus 4.7, for the first time ever, ](https://x.com/bcherny/status/2053994083497238712) | Boris Cherney |
+| [The best way to level up from 1 agent => many agents. No more cycling between terminal tabs](https://x.com/bcherny/status/2053982327123132846) | Boris Cherney |
+| [Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith.
+
+It includes a Q&A on the writing process, the philosophies that shaped the document, and how it](https://x.com/AnthropicAI/status/2053881827396653207) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.139](https://code.claude.com/docs/en/changelog?version=2.1.139) | Official Claude Code changelog entry |
+| [claude-code v2.1.139](https://github.com/anthropics/claude-code/releases/tag/v2.1.139) | ## What's changed  - Added agent view (Research Preview): a single list of every Claude Code session |
+| [claude-code-action v1.0.120](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.120) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.120 |
+| [claude-agent-sdk-python v0.1.81](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.81) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.139   ---  **PyPI:** https: |
+| [anthropic-cli v1.7.1](https://github.com/anthropics/anthropic-cli/releases/tag/v1.7.1) | ## 1.7.1 (2026-05-09)  Full Changelog: [v1.7.0...v1.7.1](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-typescript sdk-v0.95.2](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.95.2) | ## 0.95.2 (2026-05-11)  Full Changelog: [sdk-v0.95.1...sdk-v0.95.2](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript aws-sdk-v0.3.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.3.0) | ## 0.3.0 (2026-05-11)  Full Changelog: [aws-sdk-v0.2.5...aws-sdk-v0.3.0](https://github.com/anthropi |
+| [claude-agent-sdk-typescript v0.2.139](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.139) | ## What's changed  - Updated to parity with Claude Code v2.1.139  ## Update  ```sh npm install @anth |
+| [anthropic-sdk-python v0.101.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.101.0) | ## 0.101.0 (2026-05-11)  Full Changelog: [v0.100.0...v0.101.0](https://github.com/anthropics/anthrop |
+| [anthropic-sdk-ruby v1.40.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.40.0) | ## 1.40.0 (2026-05-11)  Full Changelog: [v1.39.0...v1.40.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Bedrock-v0.8.1](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Bedrock-v0.8.1) | ## 0.8.1 (2026-05-11)  Full Changelog: [Bedrock-v0.8.0...Bedrock-v0.8.1](https://github.com/anthropi |
+| [anthropic-sdk-csharp Aws-v0.4.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Aws-v0.4.0) | ## 0.4.0 (2026-05-11)  Full Changelog: [Aws-v0.3.0...Aws-v0.4.0](https://github.com/anthropics/anthr |
+| [anthropic-sdk-csharp Anthropic-v12.20.1](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.20.1) | ## 12.20.1 (2026-05-11)  Full Changelog: [Anthropic-v12.20.0...Anthropic-v12.20.1](https://github.co |
+| [anthropic-sdk-php v0.21.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.21.0) | ## 0.21.0 (2026-05-11)  Full Changelog: [v0.20.0...v0.21.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.31.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.31.0) | ## 2.31.0 (2026-05-11)  Full Changelog: [v2.30.0...v2.31.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.42.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.42.0) | ## 1.42.0 (2026-05-11)  Full Changelog: [v1.41.0...v1.42.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## May 11, 2026
 
 ### 🔥 Top Stories

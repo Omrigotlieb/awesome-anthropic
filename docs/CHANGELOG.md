@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-07T06:02:54Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-12T06:01:05Z
+
+---
+
+## May 11, 2026 — We've launched Claude Platform on AWS , bringing the Claude API to Anthropic-man
+
+We've launched Claude Platform on AWS , bringing the Claude API to Anthropic-managed infrastructure accessible through AWS, with AWS billing and IAM authentication. Access the full Messages API, Files API, Message Batches API, Claude Managed Agents, Agent Skills, code execution, and tool use through native AWS endpoints. Learn more in Claude Platform on AWS .
 
 ---
 
@@ -105,15 +111,15 @@ The 1M token context window is now generally available for Claude Opus 4.6 and S
 
 ## February 19, 2026 — We've launched automatic caching for the Messages API. Add a single cache_contro
 
-We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in Prompt caching . 
+We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in Prompt caching . 
  We've retired the Claude Sonnet 3.7 model ( claude-3-7-sonnet-20250219 ) and the Claude Haiku 3.5 model ( claude-3-5-haiku-20241022 ). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Haiku 4.5 respectively. Researchers can request ongoing access through the External Researcher Access Program . 
  We announced the deprecation of the Claude Haiku 3 model ( claude-3-haiku-20240307 ), with retirement scheduled for
 
 ---
 
-## April 19, 2026 — . We recommend migrating to Claude Haiku 4.5 . Read more in model deprecations 
+## April 20, 2026 — . We recommend migrating to Claude Haiku 4.5 . Read more in Model deprecations 
 
-. We recommend migrating to Claude Haiku 4.5 . Read more in model deprecations .
+. We recommend migrating to Claude Haiku 4.5 . Read more in Model deprecations .
 
 ---
 
@@ -129,14 +135,5 @@ We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and
 ## February 7, 2026 — We've launched fast mode in research preview for Opus 4.6, providing significant
 
 We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist .
-
----
-
-## February 5, 2026 — We've launched Claude Opus 4.6 , our most intelligent model for complex agentic 
-
-We've launched Claude Opus 4.6 , our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking ( thinking: {type: "adaptive"} ); manual thinking ( type: "enabled" with budget_tokens ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in What's new in Claude 4.6 . 
- The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models. 
- We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6. 
- We've introduced data residency controls , allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after
 
 ---

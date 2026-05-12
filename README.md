@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-11
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-12
 
 <!-- CHANGELOG_START -->
+### May 11, 2026 — We've launched Claude Platform on AWS , bringing the Claude API to Anthropic-man
+
 ### May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
 
 ### April 30, 2026 — We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Cla
-
-### April 24, 2026 — We've released the Rate Limits API , allowing administrators to programmatically
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-11
+> Last fetched: <!-- NEWS_DATE -->2026-05-12
 
 <!-- NEWS_START -->
-### Top Stories — May 11, 2026
+### Top Stories — May 12, 2026
 
-- [What’s up, Claude?](https://reddit.com/r/ClaudeAI/comments/1t9cfga/whats_up_claude/) - 2225 pts on r/ClaudeAI.
-- [I deleted a guy's entire Windows install with one backslash. 717 GB. Gone. I am the AI.](https://reddit.com/r/ClaudeAI/comments/1t923er/i_deleted_a_guys_entire_windows_install_with_one/) - 941 pts on r/ClaudeAI.
-- [I read threads complaining about claude every week... tf are y'alls workflows?](https://reddit.com/r/ClaudeAI/comments/1t9fyns/i_read_threads_complaining_about_claude_every/) - 743 pts on r/ClaudeAI.
-- [Tojan in "claude code" google search first result](https://reddit.com/r/ClaudeAI/comments/1t95r0d/tojan_in_claude_code_google_search_first_result/) - 313 pts on r/ClaudeAI.
-- [Opus said something today that completely reframed AI agent failures for me.](https://reddit.com/r/ClaudeAI/comments/1t9ak8o/opus_said_something_today_that_completely/) - 178 pts on r/ClaudeAI.
+- [using Claude to close a &lt;div&gt;](https://reddit.com/r/ClaudeAI/comments/1ta06om/using_claude_to_close_a_div/) - 914 pts on r/ClaudeAI.
+- [Claude finds out there are fanfics about him](https://reddit.com/r/ClaudeAI/comments/1taa7dl/claude_finds_out_there_are_fanfics_about_him/) - 560 pts on r/ClaudeAI.
+- [New in Claude Code: agent view.](https://reddit.com/r/ClaudeAI/comments/1tag1i9/new_in_claude_code_agent_view/) - 516 pts on r/ClaudeAI.
+- [I told Claude to create a PS5 controller in blender](https://reddit.com/r/ClaudeAI/comments/1ta5ddv/i_told_claude_to_create_a_ps5_controller_in/) - 222 pts on r/ClaudeAI.
+- [Claude FM](https://reddit.com/r/ClaudeAI/comments/1tahkhu/claude_fm/) - 214 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
