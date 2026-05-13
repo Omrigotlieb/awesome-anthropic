@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-12 (news snapshot: May 12, 2026)
+## 2026-05-13 (news snapshot: May 13, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-12 uses the May 12, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.139.
+- The daily run on 2026-05-13 uses the May 13, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.140.
 - Official channel signal remains active: Higher usage limits for Claude and a compute deal with SpaceX (May 7, 2026).
 
 ### Latest News Articles
@@ -41,19 +41,19 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (May 12, 2026):** [claude-code v2.1.139](https://code.claude.com/docs/en/changelog?version=2.1.139)
+**News peg (May 13, 2026):** [claude-code v2.1.140](https://code.claude.com/docs/en/changelog?version=2.1.140)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Community demand signal
+### Article 5 — Ecosystem watch signal
 
-**News peg (May 12, 2026):** [using Claude to close a &lt;div&gt;](https://reddit.com/r/ClaudeAI/comments/1ta06om/using_claude_to_close_a_div/)
+**News peg (May 13, 2026):** [Show HN: Statewright – Visual state machines that make AI agents reliable](https://github.com/statewright/statewright)
 
-Snapshot update: Top story source: r/ClaudeAI
+Snapshot update: Top story source: Hacker News
 
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
 
 ### Top Stories Referenced
@@ -67,9 +67,9 @@ This is community signal; it is useful for demand sensing, but should stay clear
 - May 7, 2026: [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
 - May 6, 2026: [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
 - May 5, 2026: [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
-- May 12, 2026: [claude-code v2.1.139](https://code.claude.com/docs/en/changelog?version=2.1.139)
-- May 12, 2026: [claude-code v2.1.139](https://github.com/anthropics/claude-code/releases/tag/v2.1.139)
-- May 12, 2026: [claude-code-action v1.0.120](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.120)
+- May 13, 2026: [claude-code v2.1.140](https://code.claude.com/docs/en/changelog?version=2.1.140)
+- May 13, 2026: [claude-code v2.1.140](https://github.com/anthropics/claude-code/releases/tag/v2.1.140)
+- May 13, 2026: [claude-agent-sdk-typescript v0.2.140](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.140)
 
 ### Website Improvement Review
 

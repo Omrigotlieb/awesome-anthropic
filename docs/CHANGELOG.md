@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-12T06:01:05Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-13T06:02:24Z
+
+---
+
+## May 12, 2026 — Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" wit
+
+Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" with model: "claude-opus-4-7" and the fast-mode-2026-02-01 beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the waitlist .
 
 ---
 
@@ -129,11 +135,5 @@ We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and
  API code execution is now free when used with web search or web fetch . Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage. 
  The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering , which uses code execution to filter results before they reach the context window for better performance and reduced token cost. 
  The code execution tool , web fetch tool , tool search tool , tool use examples , and memory tool are now generally available (no beta header required).
-
----
-
-## February 7, 2026 — We've launched fast mode in research preview for Opus 4.6, providing significant
-
-We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist .
 
 ---

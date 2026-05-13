@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 06:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 06:02:22 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,116 +13,28 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>using Claude to close a &amp;lt;div&amp;gt;</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ta06om/using_claude_to_close_a_div/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ta06om/using_claude_to_close_a_div/</guid>
-    <description>▲ 914 points · r/ClaudeAI · using Claude to close a &amp;lt;div&amp;gt;</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
+    <title>Show HN: Statewright – Visual state machines that make AI agents reliable</title>
+    <link>https://github.com/statewright/statewright</link>
+    <guid isPermaLink="true">https://github.com/statewright/statewright</guid>
+    <description>▲ 90 points · Hacker News · Show HN: Statewright – Visual state machines that make AI agents reliable</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Wed, 13 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Claude finds out there are fanfics about him</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1taa7dl/claude_finds_out_there_are_fanfics_about_him/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1taa7dl/claude_finds_out_there_are_fanfics_about_him/</guid>
-    <description>▲ 560 points · r/ClaudeAI · Claude finds out there are fanfics about him</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>New in Claude Code: agent view.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tag1i9/new_in_claude_code_agent_view/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tag1i9/new_in_claude_code_agent_view/</guid>
-    <description>▲ 516 points · r/ClaudeAI · New in Claude Code: agent view.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I told Claude to create a PS5 controller in blender</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ta5ddv/i_told_claude_to_create_a_ps5_controller_in/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ta5ddv/i_told_claude_to_create_a_ps5_controller_in/</guid>
-    <description>▲ 222 points · r/ClaudeAI · I told Claude to create a PS5 controller in blender</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude FM</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tahkhu/claude_fm/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tahkhu/claude_fm/</guid>
-    <description>▲ 214 points · r/ClaudeAI · Claude FM</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Curl maintainer utilized Anthropic&apos;s Mythos scan: 1 confirmed vulnerability and ~20 bugs</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tambz7/curl_maintainer_utilized_anthropics_mythos_scan_1/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tambz7/curl_maintainer_utilized_anthropics_mythos_scan_1/</guid>
-    <description>▲ 189 points · r/ClaudeAI · Curl maintainer utilized Anthropic&apos;s Mythos scan: 1 confirmed vulnerability and ~20 bugs</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude tried to quit its shift then pretended it was for my own good</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1t9zzgm/claude_tried_to_quit_its_shift_then_pretended_it/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1t9zzgm/claude_tried_to_quit_its_shift_then_pretended_it/</guid>
-    <description>▲ 138 points · r/ClaudeAI · Claude tried to quit its shift then pretended it was for my own good</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I built an app with Claude Code that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tad468/i_built_an_app_with_claude_code_that_converts_any/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tad468/i_built_an_app_with_claude_code_that_converts_any/</guid>
-    <description>▲ 135 points · r/ClaudeAI · I built an app with Claude Code that converts any text into high-quality audio. It works with PDFs, blog posts, Substack and Medium links, and even photos of text.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The Claude Platform on AWS is now generally available.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ta7p4n/the_claude_platform_on_aws_is_now_generally/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ta7p4n/the_claude_platform_on_aws_is_now_generally/</guid>
-    <description>▲ 126 points · r/ClaudeAI · The Claude Platform on AWS is now generally available.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Got Banned from Claude for Talking About Raspberry Pi projects, which tripped the age verification filters…</title>
-    <link>https://reddit.com/r/Anthropic/comments/1ta33ut/got_banned_from_claude_for_talking_about/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1ta33ut/got_banned_from_claude_for_talking_about/</guid>
-    <description>▲ 89 points · r/Anthropic · Got Banned from Claude for Talking About Raspberry Pi projects, which tripped the age verification filters…</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-python v0.1.81</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.81</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.1.81</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.1.81</description>
+    <title>claude-code-action v1.0.121</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121</guid>
+    <description>▲ 85 points · GitHub Release · claude-code-action v1.0.121</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Wed, 13 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>#Keep Sonnet 4.5 DO NOT REMOVE IT</title>
-    <link>https://reddit.com/r/Anthropic/comments/1ta7k9s/keep_sonnet_45_do_not_remove_it/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1ta7k9s/keep_sonnet_45_do_not_remove_it/</guid>
-    <description>▲ 84 points · r/Anthropic · #Keep Sonnet 4.5 DO NOT REMOVE IT</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic,OpenAI meet religious leaders to discuss faith and AI</title>
-    <link>https://www.fastcompany.com/91538977/openai-anthropic-just-met-religious-leaders-faith-ai-covenant-heres-why</link>
-    <guid isPermaLink="true">https://www.fastcompany.com/91538977/openai-anthropic-just-met-religious-leaders-faith-ai-covenant-heres-why</guid>
-    <description>▲ 18 points · Hacker News · Anthropic,OpenAI meet religious leaders to discuss faith and AI</description>
+    <title>Launch HN: Voker (YC S24) – Analytics for AI Agents</title>
+    <link>https://voker.ai</link>
+    <guid isPermaLink="true">https://voker.ai</guid>
+    <description>▲ 49 points · Hacker News · Launch HN: Voker (YC S24) – Analytics for AI Agents</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Unauthorized Anthropic stock sales and investment scams</title>
-    <link>https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams</link>
-    <guid isPermaLink="true">https://support.claude.com/en/articles/13704655-unauthorized-anthropic-stock-sales-and-investment-scams</guid>
-    <description>▲ 10 points · Hacker News · Unauthorized Anthropic stock sales and investment scams</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Tue, 12 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Wed, 13 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -4,6 +4,27 @@
 
 ---
 
+## May 13, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 90 | [Show HN: Statewright – Visual state machines that make AI agents reliable](https://github.com/statewright/statewright) | Hacker News |
+| 85 | [claude-code-action v1.0.121](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121) | GitHub Release |
+| 49 | [Launch HN: Voker (YC S24) – Analytics for AI Agents](https://voker.ai) | Hacker News |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.140](https://code.claude.com/docs/en/changelog?version=2.1.140) | Official Claude Code changelog entry |
+| [claude-code v2.1.140](https://github.com/anthropics/claude-code/releases/tag/v2.1.140) | ## What's changed  - Improved Agent tool `subagent_type` matching to accept case- and separator-inse |
+| [claude-agent-sdk-typescript v0.2.140](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.140) | ## What's changed  - Updated to parity with Claude Code v2.1.140  ## Update  ```sh npm install @anth |
+| [claude-code-action v1.0.121](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.121 |
+
+---
+
 ## May 12, 2026
 
 ### 🔥 Top Stories
