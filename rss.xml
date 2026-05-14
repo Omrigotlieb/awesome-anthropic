@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 06:02:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 06:01:18 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,28 +13,124 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Show HN: Statewright – Visual state machines that make AI agents reliable</title>
-    <link>https://github.com/statewright/statewright</link>
-    <guid isPermaLink="true">https://github.com/statewright/statewright</guid>
-    <description>▲ 90 points · Hacker News · Show HN: Statewright – Visual state machines that make AI agents reliable</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 13 May 2026 09:00:00 +0000</pubDate>
+    <title>In Time (2011) was a documentary about Claude Pro users and nobody told us</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/</guid>
+    <description>▲ 1303 points · r/ClaudeAI · In Time (2011) was a documentary about Claude Pro users and nobody told us</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code-action v1.0.121</title>
-    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121</guid>
-    <description>▲ 85 points · GitHub Release · claude-code-action v1.0.121</description>
+    <title>Claude Code tips for terminal users (from a senior dev)</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tbwwel/claude_code_tips_for_terminal_users_from_a_senior/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tbwwel/claude_code_tips_for_terminal_users_from_a_senior/</guid>
+    <description>▲ 848 points · r/ClaudeAI · Claude Code tips for terminal users (from a senior dev)</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude Code weekly limits are increasing 50%, now through July 13.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/</guid>
+    <description>▲ 641 points · r/ClaudeAI · Claude Code weekly limits are increasing 50%, now through July 13.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The difference between coding before AI and after AI</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tbrs6b/the_difference_between_coding_before_ai_and_after/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tbrs6b/the_difference_between_coding_before_ai_and_after/</guid>
+    <description>▲ 583 points · r/ClaudeAI · The difference between coding before AI and after AI</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>It’s official. Anthropic pulled the plug on all programmatic use of Claude subscription.</title>
+    <link>https://reddit.com/r/Anthropic/comments/1tcccar/its_official_anthropic_pulled_the_plug_on_all/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tcccar/its_official_anthropic_pulled_the_plug_on_all/</guid>
+    <description>▲ 571 points · r/Anthropic · It’s official. Anthropic pulled the plug on all programmatic use of Claude subscription.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>I&apos;m cooked. Anthropic just split &quot;--print&quot; mode to $/mo credits</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tcetsd/im_cooked_anthropic_just_split_print_mode_to_mo/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tcetsd/im_cooked_anthropic_just_split_print_mode_to_mo/</guid>
+    <description>▲ 311 points · r/ClaudeAI · I&apos;m cooked. Anthropic just split &quot;--print&quot; mode to $/mo credits</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic Releases Claude for Small Business</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tc4jwp/anthropic_releases_claude_for_small_business/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tc4jwp/anthropic_releases_claude_for_small_business/</guid>
+    <description>▲ 271 points · r/ClaudeAI · Anthropic Releases Claude for Small Business</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Even the competition approves.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tc5fcy/even_the_competition_approves/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tc5fcy/even_the_competition_approves/</guid>
+    <description>▲ 241 points · r/ClaudeAI · Even the competition approves.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic launches Claude For Legal with practice-area plugins and MCP connectors to nine major legal platforms</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tbvje0/anthropic_launches_claude_for_legal_with/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tbvje0/anthropic_launches_claude_for_legal_with/</guid>
+    <description>▲ 190 points · r/ClaudeAI · Anthropic launches Claude For Legal with practice-area plugins and MCP connectors to nine major legal platforms</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Claude for Small Business</title>
+    <link>https://www.anthropic.com/news/claude-for-small-business</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-small-business</guid>
+    <description>▲ 109 points · Hacker News · Claude for Small Business</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code-action v1.0.122</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.122</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.122</guid>
+    <description>▲ 85 points · GitHub Release · claude-code-action v1.0.122</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 13 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Launch HN: Voker (YC S24) – Analytics for AI Agents</title>
-    <link>https://voker.ai</link>
-    <guid isPermaLink="true">https://voker.ai</guid>
-    <description>▲ 49 points · Hacker News · Launch HN: Voker (YC S24) – Analytics for AI Agents</description>
+    <title>Anthropic&apos;s Mythos sends US banks rushing to plug cyber holes</title>
+    <link>https://reddit.com/r/Anthropic/comments/1tbttmi/anthropics_mythos_sends_us_banks_rushing_to_plug/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tbttmi/anthropics_mythos_sends_us_banks_rushing_to_plug/</guid>
+    <description>▲ 82 points · r/Anthropic · Anthropic&apos;s Mythos sends US banks rushing to plug cyber holes</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)</title>
+    <link>https://github.com/torrix-ai/install</link>
+    <guid isPermaLink="true">https://github.com/torrix-ai/install</guid>
+    <description>▲ 29 points · Hacker News · Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 13 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: Rotunda - A browser built for agents with simulated typing</title>
+    <link>https://github.com/monkeysee-ai/rotunda</link>
+    <guid isPermaLink="true">https://github.com/monkeysee-ai/rotunda</guid>
+    <description>▲ 13 points · Hacker News · Show HN: Rotunda - A browser built for agents with simulated typing</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: Headless Cloud Security – Headless SaaS has come to security</title>
+    <link>https://www.sysdig.com/learn-cloud-native/what-is-headless-cloud-security</link>
+    <guid isPermaLink="true">https://www.sysdig.com/learn-cloud-native/what-is-headless-cloud-security</guid>
+    <description>▲ 10 points · Hacker News · Show HN: Headless Cloud Security – Headless SaaS has come to security</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Thu, 14 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

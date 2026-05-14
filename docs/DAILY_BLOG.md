@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-13 (news snapshot: May 13, 2026)
+## 2026-05-14 (news snapshot: May 14, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,21 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-13 uses the May 13, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.140.
-- Official channel signal remains active: Higher usage limits for Claude and a compute deal with SpaceX (May 7, 2026).
+- The daily run on 2026-05-14 uses the May 14, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.141.
+- Official channel signal remains active: Introducing Claude for Small Business (May 14, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (May 14, 2026):** [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
+
+Snapshot update: Introducing Claude for Small Business
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
 
 **News peg (May 7, 2026):** [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
 
@@ -23,7 +31,7 @@ Snapshot update: Higher usage limits for Claude and a compute deal with SpaceX
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
+### Article 3 — Official announcement watch
 
 **News peg (May 6, 2026):** [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
 
@@ -31,45 +39,37 @@ Snapshot update: Agents for financial services and insurance
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 3 — Official announcement watch
-
-**News peg (May 5, 2026):** [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
-
-Snapshot update: Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
 ### Article 4 — Claude Code release watch
 
-**News peg (May 13, 2026):** [claude-code v2.1.140](https://code.claude.com/docs/en/changelog?version=2.1.140)
+**News peg (May 14, 2026):** [claude-code v2.1.141](https://code.claude.com/docs/en/changelog?version=2.1.141)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem watch signal
+### Article 5 — Community demand signal
 
-**News peg (May 13, 2026):** [Show HN: Statewright – Visual state machines that make AI agents reliable](https://github.com/statewright/statewright)
+**News peg (May 14, 2026):** [In Time (2011) was a documentary about Claude Pro users and nobody told us](https://reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/)
 
-Snapshot update: Top story source: Hacker News
+Snapshot update: Top story source: r/ClaudeAI
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
+- [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
 - [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
 - [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
-- [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
 
 ### Source Trail
 
+- May 14, 2026: [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
 - May 7, 2026: [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
 - May 6, 2026: [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
-- May 5, 2026: [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
-- May 13, 2026: [claude-code v2.1.140](https://code.claude.com/docs/en/changelog?version=2.1.140)
-- May 13, 2026: [claude-code v2.1.140](https://github.com/anthropics/claude-code/releases/tag/v2.1.140)
-- May 13, 2026: [claude-agent-sdk-typescript v0.2.140](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.140)
+- May 14, 2026: [claude-code v2.1.141](https://code.claude.com/docs/en/changelog?version=2.1.141)
+- May 14, 2026: [claude-code v2.1.141](https://github.com/anthropics/claude-code/releases/tag/v2.1.141)
+- May 14, 2026: [claude-agent-sdk-typescript v0.2.141](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.141)
 
 ### Website Improvement Review
 

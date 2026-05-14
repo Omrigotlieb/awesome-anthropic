@@ -4,6 +4,64 @@
 
 ---
 
+## May 14, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1303 | [In Time (2011) was a documentary about Claude Pro users and nobody told us](https://reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/) | r/ClaudeAI |
+| 848 | [Claude Code tips for terminal users (from a senior dev)](https://reddit.com/r/ClaudeAI/comments/1tbwwel/claude_code_tips_for_terminal_users_from_a_senior/) | r/ClaudeAI |
+| 641 | [Claude Code weekly limits are increasing 50%, now through July 13.](https://reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/) | r/ClaudeAI |
+| 583 | [The difference between coding before AI and after AI](https://reddit.com/r/ClaudeAI/comments/1tbrs6b/the_difference_between_coding_before_ai_and_after/) | r/ClaudeAI |
+| 571 | [It’s official. Anthropic pulled the plug on all programmatic use of Claude subscription.](https://reddit.com/r/Anthropic/comments/1tcccar/its_official_anthropic_pulled_the_plug_on_all/) | r/Anthropic |
+| 311 | [I'm cooked. Anthropic just split "--print" mode to $/mo credits](https://reddit.com/r/ClaudeAI/comments/1tcetsd/im_cooked_anthropic_just_split_print_mode_to_mo/) | r/ClaudeAI |
+| 271 | [Anthropic Releases Claude for Small Business](https://reddit.com/r/ClaudeAI/comments/1tc4jwp/anthropic_releases_claude_for_small_business/) | r/ClaudeAI |
+| 241 | [Even the competition approves.](https://reddit.com/r/ClaudeAI/comments/1tc5fcy/even_the_competition_approves/) | r/ClaudeAI |
+| 190 | [Anthropic launches Claude For Legal with practice-area plugins and MCP connectors to nine major legal platforms](https://reddit.com/r/ClaudeAI/comments/1tbvje0/anthropic_launches_claude_for_legal_with/) | r/ClaudeAI |
+| 109 | [Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business) | Hacker News |
+| 85 | [claude-code-action v1.0.122](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.122) | GitHub Release |
+| 82 | [Anthropic's Mythos sends US banks rushing to plug cyber holes](https://reddit.com/r/Anthropic/comments/1tbttmi/anthropics_mythos_sends_us_banks_rushing_to_plug/) | r/Anthropic |
+| 29 | [Show HN: Torrix, self hosted, LLM Observability,(no Postgres, no Redis)](https://github.com/torrix-ai/install) | Hacker News |
+| 13 | [Show HN: Rotunda - A browser built for agents with simulated typing](https://github.com/monkeysee-ai/rotunda) | Hacker News |
+| 10 | [Show HN: Headless Cloud Security – Headless SaaS has come to security](https://www.sysdig.com/learn-cloud-native/what-is-headless-cloud-security) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [The UK AISI found Mythos Preview is the first model to solve both their cyber ranges end-to-end. No model had ever solved the AISI’s “Cooling Tower” cyber range before.
+
+We're getting it to defenders ](https://x.com/bcherny/status/2054617810253615147) | Boris Cherney |
+| [Starting June 15, paid Claude plans include a monthly Claude Agent SDK credit. 
+
+It covers usage on your own scripts and agents, claude -p, and third-party apps built on the SDK (OpenClaw, Conductor, ](https://x.com/alexalbert__/status/2054613082589298899) | Alex Albert |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.141](https://code.claude.com/docs/en/changelog?version=2.1.141) | Official Claude Code changelog entry |
+| [claude-code v2.1.141](https://github.com/anthropics/claude-code/releases/tag/v2.1.141) | ## What's changed  - Added `terminalSequence` field to hook JSON output so hooks can emit desktop no |
+| [claude-agent-sdk-typescript v0.2.141](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.141) | ## What's changed  - `TaskCreateInput`, `TaskCreateOutput`, `TaskGetInput`, `TaskGetOutput`, `TaskUp |
+| [claude-code-action v1.0.122](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.122) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.122 |
+| [anthropic-sdk-python v0.102.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.102.0) | ## 0.102.0 (2026-05-13)  Full Changelog: [v0.101.0...v0.102.0](https://github.com/anthropics/anthrop |
+| [anthropic-sdk-go v1.43.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.43.0) | ## 1.43.0 (2026-05-13)  Full Changelog: [v1.42.0...v1.43.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.22.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.22.0) | ## 0.22.0 (2026-05-13)  Full Changelog: [v0.21.0...v0.22.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.41.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.41.0) | ## 1.41.0 (2026-05-13)  Full Changelog: [v1.40.0...v1.41.0](https://github.com/anthropics/anthropic- |
+| [anthropic-cli v1.8.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.8.0) | ## 1.8.0 (2026-05-13)  Full Changelog: [v1.7.1...v1.8.0](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-csharp Anthropic-v12.21.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.21.0) | ## 12.21.0 (2026-05-13)  Full Changelog: [Anthropic-v12.20.1...Anthropic-v12.21.0](https://github.co |
+| [anthropic-sdk-java v2.32.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.32.0) | ## 2.32.0 (2026-05-13)  Full Changelog: [v2.31.0...v2.32.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript sdk-v0.96.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.96.0) | ## 0.96.0 (2026-05-13)  Full Changelog: [sdk-v0.95.2...sdk-v0.96.0](https://github.com/anthropics/an |
+
+---
+
 ## May 13, 2026
 
 ### 🔥 Top Stories

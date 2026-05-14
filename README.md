@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-13
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-14
 
 <!-- CHANGELOG_START -->
 ### May 12, 2026 — Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" wit
@@ -351,14 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-13
+> Last fetched: <!-- NEWS_DATE -->2026-05-14
 
 <!-- NEWS_START -->
-### Top Stories — May 13, 2026
+### Top Stories — May 14, 2026
 
-- [Show HN: Statewright – Visual state machines that make AI agents reliable](https://github.com/statewright/statewright) - 90 pts on Hacker News.
-- [claude-code-action v1.0.121](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.121) - 85 pts on GitHub Release.
-- [Launch HN: Voker (YC S24) – Analytics for AI Agents](https://voker.ai) - 49 pts on Hacker News.
+- [In Time (2011) was a documentary about Claude Pro users and nobody told us](https://reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/) - 1303 pts on r/ClaudeAI.
+- [Claude Code tips for terminal users (from a senior dev)](https://reddit.com/r/ClaudeAI/comments/1tbwwel/claude_code_tips_for_terminal_users_from_a_senior/) - 848 pts on r/ClaudeAI.
+- [Claude Code weekly limits are increasing 50%, now through July 13.](https://reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/) - 641 pts on r/ClaudeAI.
+- [The difference between coding before AI and after AI](https://reddit.com/r/ClaudeAI/comments/1tbrs6b/the_difference_between_coding_before_ai_and_after/) - 583 pts on r/ClaudeAI.
+- [It’s official. Anthropic pulled the plug on all programmatic use of Claude subscription.](https://reddit.com/r/Anthropic/comments/1tcccar/its_official_anthropic_pulled_the_plug_on_all/) - 571 pts on r/Anthropic.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
