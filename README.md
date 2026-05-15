@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-14
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-15
 
 <!-- CHANGELOG_START -->
 ### May 12, 2026 — Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" wit
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-14
+> Last fetched: <!-- NEWS_DATE -->2026-05-15
 
 <!-- NEWS_START -->
-### Top Stories — May 14, 2026
+### Top Stories — May 15, 2026
 
-- [In Time (2011) was a documentary about Claude Pro users and nobody told us](https://reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/) - 1303 pts on r/ClaudeAI.
-- [Claude Code tips for terminal users (from a senior dev)](https://reddit.com/r/ClaudeAI/comments/1tbwwel/claude_code_tips_for_terminal_users_from_a_senior/) - 848 pts on r/ClaudeAI.
-- [Claude Code weekly limits are increasing 50%, now through July 13.](https://reddit.com/r/ClaudeAI/comments/1tc9oa0/claude_code_weekly_limits_are_increasing_50_now/) - 641 pts on r/ClaudeAI.
-- [The difference between coding before AI and after AI](https://reddit.com/r/ClaudeAI/comments/1tbrs6b/the_difference_between_coding_before_ai_and_after/) - 583 pts on r/ClaudeAI.
-- [It’s official. Anthropic pulled the plug on all programmatic use of Claude subscription.](https://reddit.com/r/Anthropic/comments/1tcccar/its_official_anthropic_pulled_the_plug_on_all/) - 571 pts on r/Anthropic.
+- [Claude Certified Architect](https://reddit.com/r/ClaudeAI/comments/1tcwna3/claude_certified_architect/) - 551 pts on r/ClaudeAI.
+- [You're abusing your subscription with agentic 24/7 workflows and that's why we all get restrictions and limits](https://reddit.com/r/ClaudeAI/comments/1tcpxi2/youre_abusing_your_subscription_with_agentic_247/) - 405 pts on r/ClaudeAI.
+- [Claude Opus 4.7 just revealed its System prompt, without beeing asked for it](https://reddit.com/r/ClaudeAI/comments/1tcsec4/claude_opus_47_just_revealed_its_system_prompt/) - 346 pts on r/ClaudeAI.
+- [I tested GPT-5.5 Codex against Opus 4.7 Claude Code, and it's about time Anthropic bros take pricing seriously.](https://reddit.com/r/ClaudeAI/comments/1tcpe8y/i_tested_gpt55_codex_against_opus_47_claude_code/) - 179 pts on r/ClaudeAI.
+- [Extended Thinking being deprecated for supported models (Opus 4.6, Sonnet 4.6); Adaptive Thinking will be enforced by default](https://reddit.com/r/ClaudeAI/comments/1td4dl1/extended_thinking_being_deprecated_for_supported/) - 147 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

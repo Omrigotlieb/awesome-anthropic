@@ -4,6 +4,56 @@
 
 ---
 
+## May 15, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 551 | [Claude Certified Architect](https://reddit.com/r/ClaudeAI/comments/1tcwna3/claude_certified_architect/) | r/ClaudeAI |
+| 405 | [You're abusing your subscription with agentic 24/7 workflows and that's why we all get restrictions and limits](https://reddit.com/r/ClaudeAI/comments/1tcpxi2/youre_abusing_your_subscription_with_agentic_247/) | r/ClaudeAI |
+| 346 | [Claude Opus 4.7 just revealed its System prompt, without beeing asked for it](https://reddit.com/r/ClaudeAI/comments/1tcsec4/claude_opus_47_just_revealed_its_system_prompt/) | r/ClaudeAI |
+| 179 | [I tested GPT-5.5 Codex against Opus 4.7 Claude Code, and it's about time Anthropic bros take pricing seriously.](https://reddit.com/r/ClaudeAI/comments/1tcpe8y/i_tested_gpt55_codex_against_opus_47_claude_code/) | r/ClaudeAI |
+| 147 | [Extended Thinking being deprecated for supported models (Opus 4.6, Sonnet 4.6); Adaptive Thinking will be enforced by default](https://reddit.com/r/ClaudeAI/comments/1td4dl1/extended_thinking_being_deprecated_for_supported/) | r/ClaudeAI |
+| 133 | [(Phil) Anthropic forms $200 million partnership with the Gates Foundation](https://reddit.com/r/ClaudeAI/comments/1td99ol/phil_anthropic_forms_200_million_partnership_with/) | r/ClaudeAI |
+| 121 | [Anthropic forms $200M partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership) | Hacker News |
+| 100 | [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership) | Anthropic Blog |
+| 72 | [Claude for Legal](https://github.com/anthropics/claude-for-legal) | Hacker News |
+| 70 | [Claude Account Suspended Seconds After Purchase?](https://news.ycombinator.com/item?id=48134808) | Hacker News |
+| 62 | [The Whole Anthropic Kerfuffle](https://twitter.com/josevalim/status/2054887621336174799) | Hacker News |
+| 61 | [Replaced my $15/mo Wispr Flow subscription with a free local macOS app I built using Claude Code](https://reddit.com/r/ClaudeAI/comments/1tczjvp/replaced_my_15mo_wispr_flow_subscription_with_a/) | r/ClaudeAI |
+| 61 | [I used Claude code to create a bunch of live sci-fi UIs, it took an enormous amount of time but beautiful eye-catching design is definitely possible with claude!](https://reddit.com/r/ClaudeAI/comments/1tczgta/i_used_claude_code_to_create_a_bunch_of_live/) | r/ClaudeAI |
+| 56 | [I can't get with 4.7](https://reddit.com/r/Anthropic/comments/1tcvzjl/i_cant_get_with_47/) | r/Anthropic |
+| 15 | [Claude subscriptions no longer include Agent SDK and Claude -p usage](https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership) | Anthropic Blog |
+| [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We've published a paper that explains our views on AI competition between the US and China.
+
+The US and democratic allies hold the lead in frontier AI today. Read more on what it’ll take to keep that ](https://x.com/AnthropicAI/status/2054987444664377374) | Anthropic |
+| [We’re partnering with the Gates Foundation, committing $200 million in grants, Claude credits, and technical support to programs in global health, life sciences, education, agriculture, and economic m](https://x.com/AnthropicAI/status/2054941901900611787) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.142](https://code.claude.com/docs/en/changelog?version=2.1.142) | Official Claude Code changelog entry |
+| [claude-code v2.1.142](https://github.com/anthropics/claude-code/releases/tag/v2.1.142) | ## What's changed  - Added new `claude agents` flags: `--add-dir`, `--settings`, `--mcp-config`, `-- |
+| [claude-agent-sdk-python v0.2.82](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.82) | ### Breaking  - **Breaking:** MCP servers now connect in the background by default; sessions start |
+| [claude-code-action v1.0.123](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.123) | ## What's Changed * fix: allow , in branch names by @bugbubug in https://github.com/anthropics/claud |
+| [claude-agent-sdk-typescript v0.3.142](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.142) | ## What's changed  - **Breaking:** Removed the v2 session API (`unstable_v2_createSession`, `unstabl |
+
+---
+
 ## May 14, 2026
 
 ### 🔥 Top Stories

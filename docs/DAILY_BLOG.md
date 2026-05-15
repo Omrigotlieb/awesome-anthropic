@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-14 (news snapshot: May 14, 2026)
+## 2026-05-15 (news snapshot: May 15, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,29 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-14 uses the May 14, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.141.
-- Official channel signal remains active: Introducing Claude for Small Business (May 14, 2026).
+- The daily run on 2026-05-15 uses the May 15, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.142.
+- Official channel signal remains active: PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients (May 15, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (May 15, 2026):** [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
+
+Snapshot update: PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
+
+**News peg (May 15, 2026):** [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
+
+Snapshot update: Anthropic forms $200 million partnership with the Gates Foundation
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 3 — Official announcement watch
 
 **News peg (May 14, 2026):** [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
 
@@ -23,25 +39,9 @@ Snapshot update: Introducing Claude for Small Business
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
-
-**News peg (May 7, 2026):** [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
-
-Snapshot update: Higher usage limits for Claude and a compute deal with SpaceX
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
-
-**News peg (May 6, 2026):** [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
-
-Snapshot update: Agents for financial services and insurance
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
 ### Article 4 — Claude Code release watch
 
-**News peg (May 14, 2026):** [claude-code v2.1.141](https://code.claude.com/docs/en/changelog?version=2.1.141)
+**News peg (May 15, 2026):** [claude-code v2.1.142](https://code.claude.com/docs/en/changelog?version=2.1.142)
 
 Snapshot update: Official Claude Code changelog entry
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (May 14, 2026):** [In Time (2011) was a documentary about Claude Pro users and nobody told us](https://reddit.com/r/ClaudeAI/comments/1tckar7/in_time_2011_was_a_documentary_about_claude_pro/)
+**News peg (May 15, 2026):** [Claude Certified Architect](https://reddit.com/r/ClaudeAI/comments/1tcwna3/claude_certified_architect/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
@@ -58,18 +58,18 @@ This is community signal; it is useful for demand sensing, but should stay clear
 
 ### Top Stories Referenced
 
+- [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
+- [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
 - [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
-- [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
-- [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
 
 ### Source Trail
 
+- May 15, 2026: [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
+- May 15, 2026: [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
 - May 14, 2026: [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
-- May 7, 2026: [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
-- May 6, 2026: [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
-- May 14, 2026: [claude-code v2.1.141](https://code.claude.com/docs/en/changelog?version=2.1.141)
-- May 14, 2026: [claude-code v2.1.141](https://github.com/anthropics/claude-code/releases/tag/v2.1.141)
-- May 14, 2026: [claude-agent-sdk-typescript v0.2.141](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.2.141)
+- May 15, 2026: [claude-code v2.1.142](https://code.claude.com/docs/en/changelog?version=2.1.142)
+- May 15, 2026: [claude-code v2.1.142](https://github.com/anthropics/claude-code/releases/tag/v2.1.142)
+- May 15, 2026: [claude-agent-sdk-python v0.2.82](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.82)
 
 ### Website Improvement Review
 

@@ -709,3 +709,13 @@ This file is checked first at the start of each daily automation run.
 - [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
 - [Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-05-15
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
+- [Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
+- [Agents for financial services and insurance](https://www.anthropic.com/news/finance-agents)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.
