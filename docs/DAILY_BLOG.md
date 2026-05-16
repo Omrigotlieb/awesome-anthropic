@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-15 (news snapshot: May 15, 2026)
+## 2026-05-16 (news snapshot: May 16, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-15 uses the May 15, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.142.
+- The daily run on 2026-05-16 uses the May 16, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.143.
 - Official channel signal remains active: PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients (May 15, 2026).
 
 ### Latest News Articles
@@ -41,19 +41,19 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (May 15, 2026):** [claude-code v2.1.142](https://code.claude.com/docs/en/changelog?version=2.1.142)
+**News peg (May 16, 2026):** [claude-code v2.1.143](https://code.claude.com/docs/en/changelog?version=2.1.143)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Community demand signal
+### Article 5 — Ecosystem watch signal
 
-**News peg (May 15, 2026):** [Claude Certified Architect](https://reddit.com/r/ClaudeAI/comments/1tcwna3/claude_certified_architect/)
+**News peg (May 16, 2026):** [“Too dangerous to release” or just too expensive?](https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/)
 
-Snapshot update: Top story source: r/ClaudeAI
+Snapshot update: Top story source: Hacker News
 
-This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
 
 ### Top Stories Referenced
@@ -67,9 +67,9 @@ This is community signal; it is useful for demand sensing, but should stay clear
 - May 15, 2026: [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
 - May 15, 2026: [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
 - May 14, 2026: [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
-- May 15, 2026: [claude-code v2.1.142](https://code.claude.com/docs/en/changelog?version=2.1.142)
-- May 15, 2026: [claude-code v2.1.142](https://github.com/anthropics/claude-code/releases/tag/v2.1.142)
-- May 15, 2026: [claude-agent-sdk-python v0.2.82](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.82)
+- May 16, 2026: [claude-code v2.1.143](https://code.claude.com/docs/en/changelog?version=2.1.143)
+- May 16, 2026: [claude-code v2.1.143](https://github.com/anthropics/claude-code/releases/tag/v2.1.143)
+- May 16, 2026: [buffa v0.6.0](https://github.com/anthropics/buffa/releases/tag/v0.6.0)
 
 ### Website Improvement Review
 

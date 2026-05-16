@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-15
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-16
 
 <!-- CHANGELOG_START -->
 ### May 12, 2026 — Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" wit
@@ -351,16 +351,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-15
+> Last fetched: <!-- NEWS_DATE -->2026-05-16
 
 <!-- NEWS_START -->
-### Top Stories — May 15, 2026
+### Top Stories — May 16, 2026
 
-- [Claude Certified Architect](https://reddit.com/r/ClaudeAI/comments/1tcwna3/claude_certified_architect/) - 551 pts on r/ClaudeAI.
-- [You're abusing your subscription with agentic 24/7 workflows and that's why we all get restrictions and limits](https://reddit.com/r/ClaudeAI/comments/1tcpxi2/youre_abusing_your_subscription_with_agentic_247/) - 405 pts on r/ClaudeAI.
-- [Claude Opus 4.7 just revealed its System prompt, without beeing asked for it](https://reddit.com/r/ClaudeAI/comments/1tcsec4/claude_opus_47_just_revealed_its_system_prompt/) - 346 pts on r/ClaudeAI.
-- [I tested GPT-5.5 Codex against Opus 4.7 Claude Code, and it's about time Anthropic bros take pricing seriously.](https://reddit.com/r/ClaudeAI/comments/1tcpe8y/i_tested_gpt55_codex_against_opus_47_claude_code/) - 179 pts on r/ClaudeAI.
-- [Extended Thinking being deprecated for supported models (Opus 4.6, Sonnet 4.6); Adaptive Thinking will be enforced by default](https://reddit.com/r/ClaudeAI/comments/1td4dl1/extended_thinking_being_deprecated_for_supported/) - 147 pts on r/ClaudeAI.
+- [“Too dangerous to release” or just too expensive?](https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/) - 146 pts on Hacker News.
+- [buffa v0.6.0](https://github.com/anthropics/buffa/releases/tag/v0.6.0) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

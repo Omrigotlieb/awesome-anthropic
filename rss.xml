@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 06:02:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 06:01:57 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,20 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Claude Certified Architect</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tcwna3/claude_certified_architect/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tcwna3/claude_certified_architect/</guid>
-    <description>▲ 551 points · r/ClaudeAI · Claude Certified Architect</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>You&apos;re abusing your subscription with agentic 24/7 workflows and that&apos;s why we all get restrictions and limits</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tcpxi2/youre_abusing_your_subscription_with_agentic_247/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tcpxi2/youre_abusing_your_subscription_with_agentic_247/</guid>
-    <description>▲ 405 points · r/ClaudeAI · You&apos;re abusing your subscription with agentic 24/7 workflows and that&apos;s why we all get restrictions and limits</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Opus 4.7 just revealed its System prompt, without beeing asked for it</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tcsec4/claude_opus_47_just_revealed_its_system_prompt/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tcsec4/claude_opus_47_just_revealed_its_system_prompt/</guid>
-    <description>▲ 346 points · r/ClaudeAI · Claude Opus 4.7 just revealed its System prompt, without beeing asked for it</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I tested GPT-5.5 Codex against Opus 4.7 Claude Code, and it&apos;s about time Anthropic bros take pricing seriously.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tcpe8y/i_tested_gpt55_codex_against_opus_47_claude_code/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tcpe8y/i_tested_gpt55_codex_against_opus_47_claude_code/</guid>
-    <description>▲ 179 points · r/ClaudeAI · I tested GPT-5.5 Codex against Opus 4.7 Claude Code, and it&apos;s about time Anthropic bros take pricing seriously.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Extended Thinking being deprecated for supported models (Opus 4.6, Sonnet 4.6); Adaptive Thinking will be enforced by default</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1td4dl1/extended_thinking_being_deprecated_for_supported/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1td4dl1/extended_thinking_being_deprecated_for_supported/</guid>
-    <description>▲ 147 points · r/ClaudeAI · Extended Thinking being deprecated for supported models (Opus 4.6, Sonnet 4.6); Adaptive Thinking will be enforced by default</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>(Phil) Anthropic forms $200 million partnership with the Gates Foundation</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1td99ol/phil_anthropic_forms_200_million_partnership_with/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1td99ol/phil_anthropic_forms_200_million_partnership_with/</guid>
-    <description>▲ 133 points · r/ClaudeAI · (Phil) Anthropic forms $200 million partnership with the Gates Foundation</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic forms $200M partnership with the Gates Foundation</title>
-    <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/gates-foundation-partnership</guid>
-    <description>▲ 121 points · Hacker News · Anthropic forms $200M partnership with the Gates Foundation</description>
+    <title>“Too dangerous to release” or just too expensive?</title>
+    <link>https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/</link>
+    <guid isPermaLink="true">https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/</guid>
+    <description>▲ 146 points · Hacker News · “Too dangerous to release” or just too expensive?</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 16 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
-    <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-    <description>▲ 100 points · Anthropic Blog · PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude for Legal</title>
-    <link>https://github.com/anthropics/claude-for-legal</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-for-legal</guid>
-    <description>▲ 72 points · Hacker News · Claude for Legal</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude Account Suspended Seconds After Purchase?</title>
-    <link>https://news.ycombinator.com/item?id=48134808</link>
-    <guid isPermaLink="true">https://news.ycombinator.com/item?id=48134808</guid>
-    <description>▲ 70 points · Hacker News · Claude Account Suspended Seconds After Purchase?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The Whole Anthropic Kerfuffle</title>
-    <link>https://twitter.com/josevalim/status/2054887621336174799</link>
-    <guid isPermaLink="true">https://twitter.com/josevalim/status/2054887621336174799</guid>
-    <description>▲ 62 points · Hacker News · The Whole Anthropic Kerfuffle</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Replaced my $15/mo Wispr Flow subscription with a free local macOS app I built using Claude Code</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tczjvp/replaced_my_15mo_wispr_flow_subscription_with_a/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tczjvp/replaced_my_15mo_wispr_flow_subscription_with_a/</guid>
-    <description>▲ 61 points · r/ClaudeAI · Replaced my $15/mo Wispr Flow subscription with a free local macOS app I built using Claude Code</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I used Claude code to create a bunch of live sci-fi UIs, it took an enormous amount of time but beautiful eye-catching design is definitely possible with claude!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tczgta/i_used_claude_code_to_create_a_bunch_of_live/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tczgta/i_used_claude_code_to_create_a_bunch_of_live/</guid>
-    <description>▲ 61 points · r/ClaudeAI · I used Claude code to create a bunch of live sci-fi UIs, it took an enormous amount of time but beautiful eye-catching design is definitely possible with claude!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I can&apos;t get with 4.7</title>
-    <link>https://reddit.com/r/Anthropic/comments/1tcvzjl/i_cant_get_with_47/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tcvzjl/i_cant_get_with_47/</guid>
-    <description>▲ 56 points · r/Anthropic · I can&apos;t get with 4.7</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude subscriptions no longer include Agent SDK and Claude -p usage</title>
-    <link>https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/</link>
-    <guid isPermaLink="true">https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/</guid>
-    <description>▲ 15 points · Hacker News · Claude subscriptions no longer include Agent SDK and Claude -p usage</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
+    <title>buffa v0.6.0</title>
+    <link>https://github.com/anthropics/buffa/releases/tag/v0.6.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/buffa/releases/tag/v0.6.0</guid>
+    <description>▲ 85 points · GitHub Release · buffa v0.6.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 16 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -4,6 +4,26 @@
 
 ---
 
+## May 16, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 146 | [“Too dangerous to release” or just too expensive?](https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/) | Hacker News |
+| 85 | [buffa v0.6.0](https://github.com/anthropics/buffa/releases/tag/v0.6.0) | GitHub Release |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.143](https://code.claude.com/docs/en/changelog?version=2.1.143) | Official Claude Code changelog entry |
+| [claude-code v2.1.143](https://github.com/anthropics/claude-code/releases/tag/v2.1.143) | ## What's changed  - Added plugin dependency enforcement: `claude plugin disable` now refuses when a |
+| [buffa v0.6.0](https://github.com/anthropics/buffa/releases/tag/v0.6.0) | ## What's Changed * docs: indicate that claude has friends by @iainmcgin in https://github.com/anthr |
+| [claude-agent-sdk-typescript v0.3.143](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.143) | ## What's changed  - `@anthropic-ai/sdk` and `@modelcontextprotocol/sdk` are now `peerDependencies`  |
+
+---
+
 ## May 15, 2026
 
 ### 🔥 Top Stories
@@ -48,7 +68,9 @@ The US and democratic allies hold the lead in frontier AI today. Read more on wh
 |---------|------------|
 | [claude-code v2.1.142](https://code.claude.com/docs/en/changelog?version=2.1.142) | Official Claude Code changelog entry |
 | [claude-code v2.1.142](https://github.com/anthropics/claude-code/releases/tag/v2.1.142) | ## What's changed  - Added new `claude agents` flags: `--add-dir`, `--settings`, `--mcp-config`, `-- |
-| [claude-agent-sdk-python v0.2.82](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.82) | ### Breaking  - **Breaking:** MCP servers now connect in the background by default; sessions start |
+| [claude-agent-sdk-python v0.2.82](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.82) | ### Breaking
+ 
+ - **Breaking:** MCP servers now connect in the background by default; sessions start |
 | [claude-code-action v1.0.123](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.123) | ## What's Changed * fix: allow , in branch names by @bugbubug in https://github.com/anthropics/claud |
 | [claude-agent-sdk-typescript v0.3.142](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.142) | ## What's changed  - **Breaking:** Removed the v2 session API (`unstable_v2_createSession`, `unstabl |
 

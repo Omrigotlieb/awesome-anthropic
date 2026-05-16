@@ -1,12 +1,12 @@
 # Daily Anthropic Brief
 
-## 2026-05-15 (news snapshot: May 15, 2026)
+## 2026-05-16 (news snapshot: May 16, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.142](https://code.claude.com/docs/en/changelog?version=2.1.142) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.143](https://code.claude.com/docs/en/changelog?version=2.1.143) is currently the latest Claude Code release visible in this repository snapshot.
 - [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
 - [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
 - [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
@@ -19,8 +19,8 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-15
-- News snapshot date: May 15, 2026
+- Run date (UTC): 2026-05-16
+- News snapshot date: May 16, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
