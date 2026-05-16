@@ -144,6 +144,13 @@ Human-curated, automation-assisted. The goal is simple: help builders find the b
 - [litellm](https://github.com/BerriAI/litellm) - Universal LLM proxy supporting Claude.
 - [Vercel AI SDK](https://sdk.vercel.ai/providers/ai-sdk-providers/anthropic) - Claude in the Vercel AI SDK.
 
+### Production helpers (Claude on AWS Bedrock)
+
+- [bedrock-production-stack](https://github.com/MukundaKatta/bedrock-production-stack) - Landing repo and runnable example wiring the three libraries below into a single Bedrock call site.
+- [bedrockcache](https://github.com/MukundaKatta/bedrockcache) - Static auditor for Anthropic prompt caching across six Bedrock-Anthropic call shapes (bedrock-converse, bedrock-invoke-anthropic, AnthropicBedrock, LiteLLM, Strands, pydantic-ai). CLI + pytest assertion. Catches the [HN $37,901 prompt-caching incident](https://news.ycombinator.com/item?id=47933355) class of bug at request time.
+- [bedrockstack](https://github.com/MukundaKatta/bedrockstack) - Bedrock-aware retry policy, thread-safe cost ledger with scope tags, and `wrap_stream()` for `AnthropicBedrock` ↔ native Anthropic streaming-error parity.
+- [ragvitals](https://github.com/MukundaKatta/ragvitals) - Five-dimensional production drift detection for RAG pipelines served by Claude (query distribution, retrieval relevance, embedding drift, response quality, judge drift). Library, not platform.
+
 ---
 
 ## Model Context Protocol (MCP)
