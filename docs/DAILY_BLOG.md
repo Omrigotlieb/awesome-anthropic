@@ -1,17 +1,19 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-16 (news snapshot: May 16, 2026)
+## 2026-05-17 (news snapshot: May 16, 2026)
 
 ### Executive Summary
 
 This edition turns the daily log into a compact newsroom focused on product, release, and ecosystem signal.
 Each article is generated from the current `docs/NEWS.md` snapshot so the editorial deck stays aligned with verified repository data.
+The current snapshot lags by 1 day(s), so the article deck stays anchored to the latest verified items available in `docs/NEWS.md`.
 
 ### Key Takeaways
 
-- The daily run on 2026-05-16 uses the May 16, 2026 news snapshot.
+- The daily run on 2026-05-17 uses the May 16, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.143.
 - Official channel signal remains active: PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients (May 15, 2026).
+- Freshness risk: snapshot is 1 day(s) old due to unavailable network fetch in this environment.
 
 ### Latest News Articles
 
