@@ -1,6 +1,18 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-13T06:02:24Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-19T06:01:43Z
+
+---
+
+## May 18, 2026 — The web search tool now returns richer SEC filing data, making it easier to grou
+
+The web search tool now returns richer SEC filing data, making it easier to ground financial research agents, earnings analysis, and due-diligence workflows in primary sources with citations.
+
+---
+
+## May 13, 2026 — We've launched cache diagnostics in public beta. Pass diagnostics.previous_messa
+
+We've launched cache diagnostics in public beta. Pass diagnostics.previous_message_id on a Messages request and the API reports a cache_miss_reason explaining where the prompt cache prefix diverged from the previous turn. Include the cache-diagnosis-2026-04-07 beta header in your requests.
 
 ---
 
@@ -120,20 +132,5 @@ The 1M token context window is now generally available for Claude Opus 4.6 and S
 We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in Prompt caching . 
  We've retired the Claude Sonnet 3.7 model ( claude-3-7-sonnet-20250219 ) and the Claude Haiku 3.5 model ( claude-3-5-haiku-20241022 ). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Haiku 4.5 respectively. Researchers can request ongoing access through the External Researcher Access Program . 
  We announced the deprecation of the Claude Haiku 3 model ( claude-3-haiku-20240307 ), with retirement scheduled for
-
----
-
-## April 20, 2026 — . We recommend migrating to Claude Haiku 4.5 . Read more in Model deprecations 
-
-. We recommend migrating to Claude Haiku 4.5 . Read more in Model deprecations .
-
----
-
-## February 17, 2026 — We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and
-
-We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details. 
- API code execution is now free when used with web search or web fetch . Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage. 
- The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering , which uses code execution to filter results before they reach the context window for better performance and reduced token cost. 
- The code execution tool , web fetch tool , tool search tool , tool use examples , and memory tool are now generally available (no beta header required).
 
 ---

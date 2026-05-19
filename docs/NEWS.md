@@ -4,6 +4,41 @@
 
 ---
 
+## May 19, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 412 | [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless) | Hacker News |
+| 85 | [claude-code-action v1.0.124](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.124) | GitHub Release |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Anthropic is acquiring @stainlessapi, an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API.
+
+Read more: https://www.anthropic.com/news/anthropic-acqui](https://x.com/AnthropicAI/status/2056419620643541012) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.144](https://code.claude.com/docs/en/changelog?version=2.1.144) | Official Claude Code changelog entry |
+| [claude-code v2.1.144](https://github.com/anthropics/claude-code/releases/tag/v2.1.144) | ## What's changed  - Added `/resume` support for background sessions — sessions started via `claude  |
+| [connect-rust v0.5.0](https://github.com/anthropics/connect-rust/releases/tag/v0.5.0) | ## What's Changed * handler: PreEncoded body type + Encodable items for streaming handlers by @rpb-a |
+| [claude-agent-sdk-typescript v0.3.144](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.144) | ## What's changed  - Assistant messages and `StopFailure` hooks now report `error: 'model_not_found' |
+| [claude-code-action v1.0.124](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.124) | ## What's Changed * fix: add parentheses to fix operator precedence in co-author check by @FuturizeR |
+
+---
+
 ## May 16, 2026
 
 ### 🔥 Top Stories

@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-18
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-19
 
 <!-- CHANGELOG_START -->
+### May 18, 2026 — The web search tool now returns richer SEC filing data, making it easier to grou
+
+### May 13, 2026 — We've launched cache diagnostics in public beta. Pass diagnostics.previous_messa
+
 ### May 12, 2026 — Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" wit
-
-### May 11, 2026 — We've launched Claude Platform on AWS , bringing the Claude API to Anthropic-man
-
-### May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,13 +351,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-16
+> Last fetched: <!-- NEWS_DATE -->2026-05-19
 
 <!-- NEWS_START -->
-### Top Stories — May 16, 2026
+### Top Stories — May 19, 2026
 
-- [“Too dangerous to release” or just too expensive?](https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/) - 146 pts on Hacker News.
-- [buffa v0.6.0](https://github.com/anthropics/buffa/releases/tag/v0.6.0) - 85 pts on GitHub Release.
+- [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless) - 412 pts on Hacker News.
+- [claude-code-action v1.0.124](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.124) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2026 06:01:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 06:01:40 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,20 +13,20 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>“Too dangerous to release” or just too expensive?</title>
-    <link>https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/</link>
-    <guid isPermaLink="true">https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/</guid>
-    <description>▲ 146 points · Hacker News · “Too dangerous to release” or just too expensive?</description>
+    <title>Anthropic acquires Stainless</title>
+    <link>https://www.anthropic.com/news/anthropic-acquires-stainless</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
+    <description>▲ 412 points · Hacker News · Anthropic acquires Stainless</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 16 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 19 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>buffa v0.6.0</title>
-    <link>https://github.com/anthropics/buffa/releases/tag/v0.6.0</link>
-    <guid isPermaLink="true">https://github.com/anthropics/buffa/releases/tag/v0.6.0</guid>
-    <description>▲ 85 points · GitHub Release · buffa v0.6.0</description>
+    <title>claude-code-action v1.0.124</title>
+    <link>https://github.com/anthropics/claude-code-action/releases/tag/v1.0.124</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code-action/releases/tag/v1.0.124</guid>
+    <description>▲ 85 points · GitHub Release · claude-code-action v1.0.124</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 16 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 19 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -1,27 +1,27 @@
 # Daily Anthropic Brief
 
-## 2026-05-18 (news snapshot: May 16, 2026)
+## 2026-05-19 (news snapshot: May 19, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.143](https://code.claude.com/docs/en/changelog?version=2.1.143) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.144](https://code.claude.com/docs/en/changelog?version=2.1.144) is currently the latest Claude Code release visible in this repository snapshot.
+- [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
 - [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
 - [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
-- [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
 
 ### Top Story Snapshot
 
+- [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
 - [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
 - [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
-- [Introducing Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-18
-- News snapshot date: May 16, 2026
-- Snapshot lag: 2 day(s). Live fetch likely unavailable; verify sources when connectivity resumes.
+- Run date (UTC): 2026-05-19
+- News snapshot date: May 19, 2026
+- Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
 
