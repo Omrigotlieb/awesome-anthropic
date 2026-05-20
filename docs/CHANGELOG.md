@@ -1,6 +1,15 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-19T06:01:43Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-20T06:01:29Z
+
+---
+
+## May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
+
+MCP tunnels is now available as a Research Preview, so you can connect to MCP servers in your private network. 
+ Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See Self-hosted sandboxes . 
+ With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session. 
+ With Claude Managed Agents, large outputs from agent_toolset and MCP tools exceeding 100K tokens are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there.
 
 ---
 
@@ -31,9 +40,9 @@ We've launched Claude Platform on AWS , bringing the Claude API to Anthropic-man
 ## May 6, 2026 — Multiagent sessions and Outcomes are now in public beta under the standard manag
 
 Multiagent sessions and Outcomes are now in public beta under the standard managed-agents-2026-04-01 beta header. 
- Vault credential background refresh is now supported for mcp_oauth credentials. See Authenticate with vaults . 
+ Claude Managed Agents vault credential background refresh is now supported for mcp_oauth credentials. See Authenticate with vaults . 
  Webhooks for Claude Managed Agents are now supported. Webhook event types include session and vault lifecycle events. See Subscribe to webhooks . 
- Additional filtering and sorting options are now supported. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
+ Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
 
 ---
 
@@ -124,13 +133,5 @@ We've launched the display field for extended thinking, letting you omit thinkin
 The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4. 
  We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length. 
  We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.
-
----
-
-## February 19, 2026 — We've launched automatic caching for the Messages API. Add a single cache_contro
-
-We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in Prompt caching . 
- We've retired the Claude Sonnet 3.7 model ( claude-3-7-sonnet-20250219 ) and the Claude Haiku 3.5 model ( claude-3-5-haiku-20241022 ). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Haiku 4.5 respectively. Researchers can request ongoing access through the External Researcher Access Program . 
- We announced the deprecation of the Claude Haiku 3 model ( claude-3-haiku-20240307 ), with retirement scheduled for
 
 ---

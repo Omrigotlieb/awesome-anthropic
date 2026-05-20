@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-05-19 (news snapshot: May 19, 2026)
+## 2026-05-20 (news snapshot: May 20, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.144](https://code.claude.com/docs/en/changelog?version=2.1.144) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.145](https://code.claude.com/docs/en/changelog?version=2.1.145) is currently the latest Claude Code release visible in this repository snapshot.
+- [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+- [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 - [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
-- [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
-- [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
 
 ### Top Story Snapshot
 
+- [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+- [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 - [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
-- [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
-- [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-19
-- News snapshot date: May 19, 2026
+- Run date (UTC): 2026-05-20
+- News snapshot date: May 20, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

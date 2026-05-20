@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-19
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-20
 
 <!-- CHANGELOG_START -->
+### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
+
 ### May 18, 2026 — The web search tool now returns richer SEC filing data, making it easier to grou
 
 ### May 13, 2026 — We've launched cache diagnostics in public beta. Pass diagnostics.previous_messa
-
-### May 12, 2026 — Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" wit
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,13 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-19
+> Last fetched: <!-- NEWS_DATE -->2026-05-20
 
 <!-- NEWS_START -->
-### Top Stories — May 19, 2026
+### Top Stories — May 20, 2026
 
-- [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless) - 412 pts on Hacker News.
-- [claude-code-action v1.0.124](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.124) - 85 pts on GitHub Release.
+- [Karpathy joins Anthropic](https://reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/) - 4259 pts on r/ClaudeAI.
+- [I’ve joined Anthropic](https://twitter.com/karpathy/status/2056753169888334312) - 1253 pts on Hacker News.
+- [Excited to announce I’ve hit my daily Claude limit! This means I’m fully present for my family and fiends. Work-life balance achieved!](https://reddit.com/r/ClaudeAI/comments/1thhdhp/excited_to_announce_ive_hit_my_daily_claude_limit/) - 1069 pts on r/ClaudeAI.
+- [OpenAI cofounder Andrej karpathy just joined anthropic and the talent war is officially over](https://reddit.com/r/ClaudeAI/comments/1thw3bu/openai_cofounder_andrej_karpathy_just_joined/) - 897 pts on r/ClaudeAI.
+- [Andrej Karpathy Joins Anthropic](https://reddit.com/r/Anthropic/comments/1thszod/andrej_karpathy_joins_anthropic/) - 600 pts on r/Anthropic.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

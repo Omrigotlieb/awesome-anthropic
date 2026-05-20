@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-19 (news snapshot: May 19, 2026)
+## 2026-05-20 (news snapshot: May 20, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,29 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-19 uses the May 19, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.144.
-- Official channel signal remains active: Anthropic acquires Stainless (May 19, 2026).
+- The daily run on 2026-05-20 uses the May 20, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.145.
+- Official channel signal remains active: Widening the conversation on frontier AI (May 20, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (May 20, 2026):** [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+
+Snapshot update: Widening the conversation on frontier AI
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
+
+**News peg (May 20, 2026):** [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
+
+Snapshot update: KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 3 — Official announcement watch
 
 **News peg (May 19, 2026):** [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
 
@@ -23,53 +39,37 @@ Snapshot update: Anthropic acquires Stainless
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
-
-**News peg (May 15, 2026):** [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
-
-Snapshot update: PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
-
-**News peg (May 15, 2026):** [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
-
-Snapshot update: Anthropic forms $200 million partnership with the Gates Foundation
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
 ### Article 4 — Claude Code release watch
 
-**News peg (May 19, 2026):** [claude-code v2.1.144](https://code.claude.com/docs/en/changelog?version=2.1.144)
+**News peg (May 20, 2026):** [claude-code v2.1.145](https://code.claude.com/docs/en/changelog?version=2.1.145)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Community demand signal
 
-**News peg (May 19, 2026):** [claude-code-action v1.0.124](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.124)
+**News peg (May 20, 2026):** [Karpathy joins Anthropic](https://reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: r/ClaudeAI
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This is community signal; it is useful for demand sensing, but should stay clearly separated from official announcements and release notes.
 
 
 ### Top Stories Referenced
 
+- [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+- [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 - [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
-- [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
-- [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
 
 ### Source Trail
 
+- May 20, 2026: [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+- May 20, 2026: [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 - May 19, 2026: [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
-- May 15, 2026: [PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients](https://www.anthropic.com/news/pwc-expanded-partnership)
-- May 15, 2026: [Anthropic forms $200 million partnership with the Gates Foundation](https://www.anthropic.com/news/gates-foundation-partnership)
-- May 19, 2026: [claude-code v2.1.144](https://code.claude.com/docs/en/changelog?version=2.1.144)
-- May 19, 2026: [claude-code v2.1.144](https://github.com/anthropics/claude-code/releases/tag/v2.1.144)
-- May 19, 2026: [connect-rust v0.5.0](https://github.com/anthropics/connect-rust/releases/tag/v0.5.0)
+- May 20, 2026: [claude-code v2.1.145](https://code.claude.com/docs/en/changelog?version=2.1.145)
+- May 20, 2026: [claude-code v2.1.145](https://github.com/anthropics/claude-code/releases/tag/v2.1.145)
+- May 20, 2026: [connect-rust v0.6.0](https://github.com/anthropics/connect-rust/releases/tag/v0.6.0)
 
 ### Website Improvement Review
 

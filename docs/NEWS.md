@@ -4,6 +4,71 @@
 
 ---
 
+## May 20, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 4259 | [Karpathy joins Anthropic](https://reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/) | r/ClaudeAI |
+| 1253 | [I’ve joined Anthropic](https://twitter.com/karpathy/status/2056753169888334312) | Hacker News |
+| 1069 | [Excited to announce I’ve hit my daily Claude limit! This means I’m fully present for my family and fiends. Work-life balance achieved!](https://reddit.com/r/ClaudeAI/comments/1thhdhp/excited_to_announce_ive_hit_my_daily_claude_limit/) | r/ClaudeAI |
+| 897 | [OpenAI cofounder Andrej karpathy just joined anthropic and the talent war is officially over](https://reddit.com/r/ClaudeAI/comments/1thw3bu/openai_cofounder_andrej_karpathy_just_joined/) | r/ClaudeAI |
+| 600 | [Andrej Karpathy Joins Anthropic](https://reddit.com/r/Anthropic/comments/1thszod/andrej_karpathy_joins_anthropic/) | r/Anthropic |
+| 385 | [Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks](https://github.com/antoinezambelli/forge) | Hacker News |
+| 278 | [Anthropic just bought the company that generates most production MCP servers](https://reddit.com/r/ClaudeAI/comments/1thkkrb/anthropic_just_bought_the_company_that_generates/) | r/ClaudeAI |
+| 168 | [How I built a 9-agent team where my agents actually talk to each other](https://reddit.com/r/ClaudeAI/comments/1thi16y/how_i_built_a_9agent_team_where_my_agents/) | r/ClaudeAI |
+| 161 | [they're not like the other startups, they're "AI-native"](https://reddit.com/r/ClaudeAI/comments/1ths0kv/theyre_not_like_the_other_startups_theyre_ainative/) | r/ClaudeAI |
+| 136 | [100 Tips &amp; Tricks for Building Your Own Personal AI Agent /LONG POST/](https://reddit.com/r/ClaudeAI/comments/1thi6nh/100_tips_tricks_for_building_your_own_personal_ai/) | r/ClaudeAI |
+| 114 | [I’m genuinely not sure how to feel about this…](https://reddit.com/r/ClaudeAI/comments/1thwjma/im_genuinely_not_sure_how_to_feel_about_this/) | r/ClaudeAI |
+| 105 | [Anthropic Announced vs current compute capacity (Sources Below)](https://reddit.com/r/ClaudeAI/comments/1thzy0a/anthropic_announced_vs_current_compute_capacity/) | r/ClaudeAI |
+| 100 | [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai) | Anthropic Blog |
+| 80 | [Anthropic Is Preparing for IPO and We Should Be Worried](https://www.vincentschmalbach.com/anthropic-ipo-developers-should-be-worried-v2/) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai) | Anthropic Blog |
+| [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Hello from Code with Claude London!](https://x.com/bcherny/status/2056650905613635669) | Boris Cherney |
+| [Over the past few months, we've been holding dialogues with scholars, philosophers, clergy, and ethicists on the questions AI raises—starting with how good character forms.
+
+Read more about how we’re ](https://x.com/AnthropicAI/status/2056880308851708233) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.145](https://code.claude.com/docs/en/changelog?version=2.1.145) | Official Claude Code changelog entry |
+| [claude-code v2.1.145](https://github.com/anthropics/claude-code/releases/tag/v2.1.145) | ## What's changed  - Added `claude agents --json` to list live Claude sessions as JSON for scripting |
+| [connect-rust v0.6.0](https://github.com/anthropics/connect-rust/releases/tag/v0.6.0) | ## What's Changed * spec: add Spec, StreamType, IdempotencyLevel; thread through dispatch by @aknott |
+| [anthropic-sdk-python v0.103.1](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.103.1) | ## 0.103.1 (2026-05-19)  Full Changelog: [v0.103.0...v0.103.1](https://github.com/anthropics/anthrop |
+| [anthropic-sdk-python v0.103.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.103.0) | ## 0.103.0 (2026-05-19)  Full Changelog: [v0.102.0...v0.103.0](https://github.com/anthropics/anthrop |
+| [claude-code-action v1.0.127](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.127) | ## What's Changed * Refactor allowed_bots actor resolution by @ashwin-ant in https://github.com/anth |
+| [claude-code-action v1.0.126](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.126) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.126 |
+| [claude-code-action v1.0.125](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.125) | ## What's Changed * Simplify comment tool instructions in prompt by @ashwin-ant in https://github.co |
+| [anthropic-sdk-ruby v1.42.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.42.0) | ## 1.42.0 (2026-05-19)  Full Changelog: [v1.41.0...v1.42.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript vertex-sdk-v0.16.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.16.1) | ## 0.16.1 (2026-05-19)  Full Changelog: [vertex-sdk-v0.16.0...vertex-sdk-v0.16.1](https://github.com |
+| [anthropic-sdk-typescript sdk-v0.97.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.97.1) | ## 0.97.1 (2026-05-19)  Full Changelog: [sdk-v0.97.0...sdk-v0.97.1](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript sdk-v0.97.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.97.0) | ## 0.97.0 (2026-05-19)  Full Changelog: [sdk-v0.96.0...sdk-v0.97.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript bedrock-sdk-v0.29.2](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.29.2) | ## 0.29.2 (2026-05-19)  Full Changelog: [bedrock-sdk-v0.29.1...bedrock-sdk-v0.29.2](https://github.c |
+| [claude-agent-sdk-typescript v0.3.145](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.145) | ## What's changed  - Updated to parity with Claude Code v2.1.145  ## Update  ```sh npm install @anth |
+| [anthropic-cli v1.9.1](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.1) | ## 1.9.1 (2026-05-19)  Full Changelog: [v1.9.0...v1.9.1](https://github.com/anthropics/anthropic-cli |
+| [anthropic-cli v1.9.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.0) | ## 1.9.0 (2026-05-19)  Full Changelog: [v1.8.0...v1.9.0](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-go v1.44.1](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.44.1) | ## 1.44.1 (2026-05-19)  Full Changelog: [v1.44.0...v1.44.1](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.44.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.44.0) | ## 1.44.0 (2026-05-19)  Full Changelog: [v1.43.0...v1.44.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.33.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.33.0) | ## 2.33.0 (2026-05-19)  Full Changelog: [v2.32.0...v2.33.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.23.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.23.0) | ## 0.23.0 (2026-05-19)  Full Changelog: [v0.22.0...v0.23.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Anthropic-v12.22.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.22.0) | ## 12.22.0 (2026-05-19)  Full Changelog: [Anthropic-v12.21.0...Anthropic-v12.22.0](https://github.co |
+
+---
+
 ## May 19, 2026
 
 ### 🔥 Top Stories
