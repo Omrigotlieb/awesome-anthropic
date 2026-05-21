@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 06:01:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 06:02:22 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,116 +13,28 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Karpathy joins Anthropic</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/</guid>
-    <description>▲ 4259 points · r/ClaudeAI · Karpathy joins Anthropic</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I’ve joined Anthropic</title>
-    <link>https://twitter.com/karpathy/status/2056753169888334312</link>
-    <guid isPermaLink="true">https://twitter.com/karpathy/status/2056753169888334312</guid>
-    <description>▲ 1253 points · Hacker News · I’ve joined Anthropic</description>
+    <title>Anthropic is expanding to Colossus2. Will use GB200</title>
+    <link>https://twitter.com/nottombrown/status/2057194829986300375</link>
+    <guid isPermaLink="true">https://twitter.com/nottombrown/status/2057194829986300375</guid>
+    <description>▲ 123 points · Hacker News · Anthropic is expanding to Colossus2. Will use GB200</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 21 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Excited to announce I’ve hit my daily Claude limit! This means I’m fully present for my family and fiends. Work-life balance achieved!</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thhdhp/excited_to_announce_ive_hit_my_daily_claude_limit/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thhdhp/excited_to_announce_ive_hit_my_daily_claude_limit/</guid>
-    <description>▲ 1069 points · r/ClaudeAI · Excited to announce I’ve hit my daily Claude limit! This means I’m fully present for my family and fiends. Work-life balance achieved!</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
+    <title>claude-agent-sdk-python v0.2.83</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.83</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.83</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.83</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Thu, 21 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>OpenAI cofounder Andrej karpathy just joined anthropic and the talent war is officially over</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thw3bu/openai_cofounder_andrej_karpathy_just_joined/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thw3bu/openai_cofounder_andrej_karpathy_just_joined/</guid>
-    <description>▲ 897 points · r/ClaudeAI · OpenAI cofounder Andrej karpathy just joined anthropic and the talent war is officially over</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Andrej Karpathy Joins Anthropic</title>
-    <link>https://reddit.com/r/Anthropic/comments/1thszod/andrej_karpathy_joins_anthropic/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1thszod/andrej_karpathy_joins_anthropic/</guid>
-    <description>▲ 600 points · r/Anthropic · Andrej Karpathy Joins Anthropic</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</title>
-    <link>https://github.com/antoinezambelli/forge</link>
-    <guid isPermaLink="true">https://github.com/antoinezambelli/forge</guid>
-    <description>▲ 385 points · Hacker News · Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks</description>
+    <title>Mind-Blowing Growth Is About to Propel Anthropic into First Profitable Quarter</title>
+    <link>https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4</link>
+    <guid isPermaLink="true">https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4</guid>
+    <description>▲ 21 points · Hacker News · Mind-Blowing Growth Is About to Propel Anthropic into First Profitable Quarter</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic just bought the company that generates most production MCP servers</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thkkrb/anthropic_just_bought_the_company_that_generates/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thkkrb/anthropic_just_bought_the_company_that_generates/</guid>
-    <description>▲ 278 points · r/ClaudeAI · Anthropic just bought the company that generates most production MCP servers</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>How I built a 9-agent team where my agents actually talk to each other</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thi16y/how_i_built_a_9agent_team_where_my_agents/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thi16y/how_i_built_a_9agent_team_where_my_agents/</guid>
-    <description>▲ 168 points · r/ClaudeAI · How I built a 9-agent team where my agents actually talk to each other</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>they&apos;re not like the other startups, they&apos;re &quot;AI-native&quot;</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1ths0kv/theyre_not_like_the_other_startups_theyre_ainative/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1ths0kv/theyre_not_like_the_other_startups_theyre_ainative/</guid>
-    <description>▲ 161 points · r/ClaudeAI · they&apos;re not like the other startups, they&apos;re &quot;AI-native&quot;</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>100 Tips &amp;amp; Tricks for Building Your Own Personal AI Agent /LONG POST/</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thi6nh/100_tips_tricks_for_building_your_own_personal_ai/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thi6nh/100_tips_tricks_for_building_your_own_personal_ai/</guid>
-    <description>▲ 136 points · r/ClaudeAI · 100 Tips &amp;amp; Tricks for Building Your Own Personal AI Agent /LONG POST/</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I’m genuinely not sure how to feel about this…</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thwjma/im_genuinely_not_sure_how_to_feel_about_this/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thwjma/im_genuinely_not_sure_how_to_feel_about_this/</guid>
-    <description>▲ 114 points · r/ClaudeAI · I’m genuinely not sure how to feel about this…</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic Announced vs current compute capacity (Sources Below)</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1thzy0a/anthropic_announced_vs_current_compute_capacity/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1thzy0a/anthropic_announced_vs_current_compute_capacity/</guid>
-    <description>▲ 105 points · r/ClaudeAI · Anthropic Announced vs current compute capacity (Sources Below)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Widening the conversation on frontier AI</title>
-    <link>https://www.anthropic.com/news/widening-conversation-ai</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/widening-conversation-ai</guid>
-    <description>▲ 100 points · Anthropic Blog · Widening the conversation on frontier AI</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic Is Preparing for IPO and We Should Be Worried</title>
-    <link>https://www.vincentschmalbach.com/anthropic-ipo-developers-should-be-worried-v2/</link>
-    <guid isPermaLink="true">https://www.vincentschmalbach.com/anthropic-ipo-developers-should-be-worried-v2/</guid>
-    <description>▲ 80 points · Hacker News · Anthropic Is Preparing for IPO and We Should Be Worried</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 20 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 21 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

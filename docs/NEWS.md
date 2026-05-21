@@ -4,6 +4,28 @@
 
 ---
 
+## May 21, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 123 | [Anthropic is expanding to Colossus2. Will use GB200](https://twitter.com/nottombrown/status/2057194829986300375) | Hacker News |
+| 85 | [claude-agent-sdk-python v0.2.83](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.83) | GitHub Release |
+| 21 | [Mind-Blowing Growth Is About to Propel Anthropic into First Profitable Quarter](https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4) | Hacker News |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.146](https://code.claude.com/docs/en/changelog?version=2.1.146) | Official Claude Code changelog entry |
+| [claude-code v2.1.146](https://github.com/anthropics/claude-code/releases/tag/v2.1.146) | ## What's changed  - Renamed `/simplify` to `/code-review` with an optional effort level (e.g. `/cod |
+| [claude-code-action v1.0.128](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.128) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.128 |
+| [claude-agent-sdk-python v0.2.83](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.83) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.146   ---  **PyPI:** https: |
+| [claude-agent-sdk-typescript v0.3.146](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.146) | ## What's changed  - Updated to parity with Claude Code v2.1.146  ## Update  ```sh npm install @anth |
+
+---
+
 ## May 20, 2026
 
 ### 🔥 Top Stories

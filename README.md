@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-20
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-21
 
 <!-- CHANGELOG_START -->
 ### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
@@ -351,16 +351,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-20
+> Last fetched: <!-- NEWS_DATE -->2026-05-21
 
 <!-- NEWS_START -->
-### Top Stories — May 20, 2026
+### Top Stories — May 21, 2026
 
-- [Karpathy joins Anthropic](https://reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/) - 4259 pts on r/ClaudeAI.
-- [I’ve joined Anthropic](https://twitter.com/karpathy/status/2056753169888334312) - 1253 pts on Hacker News.
-- [Excited to announce I’ve hit my daily Claude limit! This means I’m fully present for my family and fiends. Work-life balance achieved!](https://reddit.com/r/ClaudeAI/comments/1thhdhp/excited_to_announce_ive_hit_my_daily_claude_limit/) - 1069 pts on r/ClaudeAI.
-- [OpenAI cofounder Andrej karpathy just joined anthropic and the talent war is officially over](https://reddit.com/r/ClaudeAI/comments/1thw3bu/openai_cofounder_andrej_karpathy_just_joined/) - 897 pts on r/ClaudeAI.
-- [Andrej Karpathy Joins Anthropic](https://reddit.com/r/Anthropic/comments/1thszod/andrej_karpathy_joins_anthropic/) - 600 pts on r/Anthropic.
+- [Anthropic is expanding to Colossus2. Will use GB200](https://twitter.com/nottombrown/status/2057194829986300375) - 123 pts on Hacker News.
+- [claude-agent-sdk-python v0.2.83](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.83) - 85 pts on GitHub Release.
+- [Mind-Blowing Growth Is About to Propel Anthropic into First Profitable Quarter](https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4) - 21 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

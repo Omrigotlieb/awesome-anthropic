@@ -1,12 +1,12 @@
 # Daily Anthropic Brief
 
-## 2026-05-20 (news snapshot: May 20, 2026)
+## 2026-05-21 (news snapshot: May 21, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.145](https://code.claude.com/docs/en/changelog?version=2.1.145) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.146](https://code.claude.com/docs/en/changelog?version=2.1.146) is currently the latest Claude Code release visible in this repository snapshot.
 - [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 - [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 - [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
@@ -19,8 +19,8 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-20
-- News snapshot date: May 20, 2026
+- Run date (UTC): 2026-05-21
+- News snapshot date: May 21, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
