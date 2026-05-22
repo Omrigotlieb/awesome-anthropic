@@ -4,6 +4,49 @@
 
 ---
 
+## May 22, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 85 | [claude-agent-sdk-python v0.2.85](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.85) | GitHub Release |
+| 81 | [Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team](https://www.runtm.com/) | Hacker News |
+| 13 | [Anthropic to open Milan office, expanding push into Europe](https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [In the next version of Claude Code: run /usage to see a breakdown of which Skills, Agents, MCPs, and Plugins are using your tokens
+
+CLI today, coming to Desktop next](https://x.com/bcherny/status/2057476878110261587) | Boris Cherney |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.148](https://code.claude.com/docs/en/changelog?version=2.1.148) | Official Claude Code changelog entry |
+| [claude-code v2.1.147](https://code.claude.com/docs/en/changelog?version=2.1.147) | Official Claude Code changelog entry |
+| [claude-code v2.1.148](https://github.com/anthropics/claude-code/releases/tag/v2.1.148) | ## What's changed  - Fixed the Bash tool returning exit code 127 on every command for some users (a  |
+| [claude-code v2.1.147](https://github.com/anthropics/claude-code/releases/tag/v2.1.147) | ## What's changed  - Pinned background sessions (`Ctrl+T` in `claude agents`) now stay alive when id |
+| [anthropic-sdk-python v0.104.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.0) | ## 0.104.0 (2026-05-21)  Full Changelog: [v0.103.1...v0.104.0](https://github.com/anthropics/anthrop |
+| [claude-code-action v1.0.131](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.131) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.131 |
+| [claude-code-action v1.0.130](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.130) | ## What's Changed * Add Workload Identity Federation (OIDC) authentication support by @ashwin-ant in |
+| [claude-code-action v1.0.129](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.129) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.129 |
+| [anthropic-sdk-go v1.45.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.45.0) | ## 1.45.0 (2026-05-21)  Full Changelog: [v1.44.1...v1.45.0](https://github.com/anthropics/anthropic- |
+| [claude-agent-sdk-python v0.2.85](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.85) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.148   ---  **PyPI:** https: |
+| [claude-agent-sdk-python v0.2.84](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.84) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.147   ---  **PyPI:** https: |
+| [claude-agent-sdk-typescript v0.3.148](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.148) | ## What's changed  - Updated to parity with Claude Code v2.1.148  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.3.147](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.147) | ## What's changed  - Updated to parity with Claude Code v2.1.147  ## Update  ```sh npm install @anth |
+| [anthropic-sdk-typescript sdk-v0.98.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.0) | ## 0.98.0 (2026-05-21)  Full Changelog: [sdk-v0.97.1...sdk-v0.98.0](https://github.com/anthropics/an |
+| [anthropic-sdk-php v0.24.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.24.0) | ## 0.24.0 (2026-05-21)  Full Changelog: [v0.23.0...v0.24.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-ruby v1.43.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.43.0) | ## 1.43.0 (2026-05-21)  Full Changelog: [v1.42.0...v1.43.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-csharp Anthropic-v12.23.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.23.0) | ## 12.23.0 (2026-05-21)  Full Changelog: [Anthropic-v12.22.0...Anthropic-v12.23.0](https://github.co |
+| [anthropic-sdk-java v2.34.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.34.0) | ## 2.34.0 (2026-05-21)  Full Changelog: [v2.33.0...v2.34.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## May 21, 2026
 
 ### 🔥 Top Stories

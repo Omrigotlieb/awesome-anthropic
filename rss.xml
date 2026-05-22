@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 06:02:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 06:02:42 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,28 +13,28 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic is expanding to Colossus2. Will use GB200</title>
-    <link>https://twitter.com/nottombrown/status/2057194829986300375</link>
-    <guid isPermaLink="true">https://twitter.com/nottombrown/status/2057194829986300375</guid>
-    <description>▲ 123 points · Hacker News · Anthropic is expanding to Colossus2. Will use GB200</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 21 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-python v0.2.83</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.83</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.83</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.83</description>
+    <title>claude-agent-sdk-python v0.2.85</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.85</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.85</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.85</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Thu, 21 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 22 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Mind-Blowing Growth Is About to Propel Anthropic into First Profitable Quarter</title>
-    <link>https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4</link>
-    <guid isPermaLink="true">https://www.wsj.com/tech/ai/mind-blowing-growth-is-about-to-propel-anthropic-into-its-first-profitable-quarter-7edbf2f4</guid>
-    <description>▲ 21 points · Hacker News · Mind-Blowing Growth Is About to Propel Anthropic into First Profitable Quarter</description>
+    <title>Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team</title>
+    <link>https://www.runtm.com/</link>
+    <guid isPermaLink="true">https://www.runtm.com/</guid>
+    <description>▲ 81 points · Hacker News · Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 21 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 22 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic to open Milan office, expanding push into Europe</title>
+    <link>https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html</link>
+    <guid isPermaLink="true">https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html</guid>
+    <description>▲ 13 points · Hacker News · Anthropic to open Milan office, expanding push into Europe</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 22 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-21 (news snapshot: May 21, 2026)
+## 2026-05-22 (news snapshot: May 22, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-21 uses the May 21, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.146.
+- The daily run on 2026-05-22 uses the May 22, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.148.
 - Official channel signal remains active: Widening the conversation on frontier AI (May 20, 2026).
 
 ### Latest News Articles
@@ -41,19 +41,19 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (May 21, 2026):** [claude-code v2.1.146](https://code.claude.com/docs/en/changelog?version=2.1.146)
+**News peg (May 22, 2026):** [claude-code v2.1.148](https://code.claude.com/docs/en/changelog?version=2.1.148)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem watch signal
+### Article 5 — Ecosystem release signal
 
-**News peg (May 21, 2026):** [Anthropic is expanding to Colossus2. Will use GB200](https://twitter.com/nottombrown/status/2057194829986300375)
+**News peg (May 22, 2026):** [claude-agent-sdk-python v0.2.85](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.85)
 
-Snapshot update: Top story source: Hacker News
+Snapshot update: Top story source: GitHub Release
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
 
 
 ### Top Stories Referenced
@@ -67,9 +67,9 @@ This item adds ecosystem signal and should be tracked alongside official updates
 - May 20, 2026: [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 - May 20, 2026: [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 - May 19, 2026: [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
-- May 21, 2026: [claude-code v2.1.146](https://code.claude.com/docs/en/changelog?version=2.1.146)
-- May 21, 2026: [claude-code v2.1.146](https://github.com/anthropics/claude-code/releases/tag/v2.1.146)
-- May 21, 2026: [claude-code-action v1.0.128](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.128)
+- May 22, 2026: [claude-code v2.1.148](https://code.claude.com/docs/en/changelog?version=2.1.148)
+- May 22, 2026: [claude-code v2.1.147](https://code.claude.com/docs/en/changelog?version=2.1.147)
+- May 22, 2026: [claude-code v2.1.148](https://github.com/anthropics/claude-code/releases/tag/v2.1.148)
 
 ### Website Improvement Review
 
