@@ -4,6 +4,61 @@
 
 ---
 
+## May 23, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 3543 | [Aged like fine WINE](https://reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/) | r/ClaudeAI |
+| 389 | [Project Glasswing: An Initial Update](https://www.anthropic.com/research/glasswing-initial-update) | Hacker News |
+| 329 | [If you use the "Get Shit Done" (GSD) AI tool, you need to migrate immediately (Original creator rug-pulled)](https://reddit.com/r/ClaudeAI/comments/1tktl4w/if_you_use_the_get_shit_done_gsd_ai_tool_you_need/) | r/ClaudeAI |
+| 296 | [What's the most unexpectedly useful thing you've used Claude for?](https://reddit.com/r/ClaudeAI/comments/1tkp1pg/whats_the_most_unexpectedly_useful_thing_youve/) | r/ClaudeAI |
+| 230 | [SpaceXAI locked Anthropic into paying them $1.25 billion per MONTH for compute](https://reddit.com/r/ClaudeAI/comments/1tkdkr2/spacexai_locked_anthropic_into_paying_them_125/) | r/ClaudeAI |
+| 154 | [Which MCP servers are actually changing your Claude workflow? Sharing mine](https://reddit.com/r/ClaudeAI/comments/1tkec4e/which_mcp_servers_are_actually_changing_your/) | r/ClaudeAI |
+| 143 | [After comparing Claude Max $100 and ChatGPT Pro $100 side by side on actual billable work, I'm cancelling my ChatGPT Pro subscription](https://reddit.com/r/ClaudeAI/comments/1tkhp7a/after_comparing_claude_max_100_and_chatgpt_pro/) | r/ClaudeAI |
+| 135 | [Anthropic claims 10,000+ critical vulns found in one month](https://reddit.com/r/ClaudeAI/comments/1tkvqy1/anthropic_claims_10000_critical_vulns_found_in/) | r/ClaudeAI |
+| 133 | [Dario and Daniela tell Oprah they would rather let Anthropic fail than give in to the Pentagon](https://reddit.com/r/ClaudeAI/comments/1tkxqqz/dario_and_daniela_tell_oprah_they_would_rather/) | r/ClaudeAI |
+| 88 | [Claude has no way to navigate long conversations — this is a real productivity killer](https://reddit.com/r/ClaudeAI/comments/1tkto9w/claude_has_no_way_to_navigate_long_conversations/) | r/ClaudeAI |
+| 85 | [claude-agent-sdk-python v0.2.87](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.87) | GitHub Release |
+| 61 | [Anthropic, Microsoft in talks for AI chip deal after $5 billion investment](https://reddit.com/r/Anthropic/comments/1tka1uk/anthropic_microsoft_in_talks_for_ai_chip_deal/) | r/Anthropic |
+| 58 | [Anthropic's "Profitability" Swindle](https://www.wheresyoured.at/anthropics-profitability-swindle/) | Hacker News |
+| 50 | [The butterfly effect in LLM social simulations. Relevant to how we write CLAUDE.md and system prompts.](https://reddit.com/r/Anthropic/comments/1tkptj0/the_butterfly_effect_in_llm_social_simulations/) | r/Anthropic |
+| 10 | [Cheap AI Could Derail OpenAI and Anthropic's IPOs](https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Big fan of teaching more people the basics of using Claude Code in an accessible way.
+
+So much of the world has not yet used agents. There's a lot of opportunity to level the playing field and expand ](https://x.com/bcherny/status/2057876668501434603) | Boris Cherney |
+| [Last month we launched Project Glasswing, our collaborative AI cybersecurity initiative. Since then, we and our partners have found more than ten thousand high- or critical-severity vulnerabilities in](https://x.com/AnthropicAI/status/2057909102542549503) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.150](https://code.claude.com/docs/en/changelog?version=2.1.150) | Official Claude Code changelog entry |
+| [claude-code v2.1.149](https://code.claude.com/docs/en/changelog?version=2.1.149) | Official Claude Code changelog entry |
+| [claude-code v2.1.150](https://github.com/anthropics/claude-code/releases/tag/v2.1.150) | ## What's changed  - Internal infrastructure improvements (no user-facing changes)  |
+| [claude-code v2.1.149](https://github.com/anthropics/claude-code/releases/tag/v2.1.149) | ## What's changed  - `/usage` now shows a per-category breakdown of what's driving your limits usage |
+| [claude-agent-sdk-python v0.2.87](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.87) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.150 - Switched CI workflows |
+| [claude-agent-sdk-python v0.2.86](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.86) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.149   ---  **PyPI:** https: |
+| [claude-code-action v1.0.133](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.133) | ## What's Changed * Use workload identity federation for Claude auth in CI workflows by @ashwin-ant  |
+| [claude-code-action v1.0.132](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.132) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.132 |
+| [claude-agent-sdk-typescript v0.3.150](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.150) | ## What's changed  - Updated to parity with Claude Code v2.1.150  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.3.149](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.149) | ## What's changed  - Fixed `options.env` dropping `CLAUDE_AGENT_SDK_VERSION` (used for `User-Agent`  |
+| [anthropic-sdk-python v0.104.1](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.1) | ## 0.104.1 (2026-05-21)  Full Changelog: [v0.104.0...v0.104.1](https://github.com/anthropics/anthrop |
+
+---
+
 ## May 22, 2026
 
 ### 🔥 Top Stories

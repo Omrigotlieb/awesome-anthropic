@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-22
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-23
 
 <!-- CHANGELOG_START -->
 ### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
@@ -351,14 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-22
+> Last fetched: <!-- NEWS_DATE -->2026-05-23
 
 <!-- NEWS_START -->
-### Top Stories — May 22, 2026
+### Top Stories — May 23, 2026
 
-- [claude-agent-sdk-python v0.2.85](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.85) - 85 pts on GitHub Release.
-- [Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team](https://www.runtm.com/) - 81 pts on Hacker News.
-- [Anthropic to open Milan office, expanding push into Europe](https://finance.yahoo.com/sectors/technology/articles/anthropic-open-milan-office-expanding-095020601.html) - 13 pts on Hacker News.
+- [Aged like fine WINE](https://reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/) - 3543 pts on r/ClaudeAI.
+- [Project Glasswing: An Initial Update](https://www.anthropic.com/research/glasswing-initial-update) - 389 pts on Hacker News.
+- [If you use the "Get Shit Done" (GSD) AI tool, you need to migrate immediately (Original creator rug-pulled)](https://reddit.com/r/ClaudeAI/comments/1tktl4w/if_you_use_the_get_shit_done_gsd_ai_tool_you_need/) - 329 pts on r/ClaudeAI.
+- [What's the most unexpectedly useful thing you've used Claude for?](https://reddit.com/r/ClaudeAI/comments/1tkp1pg/whats_the_most_unexpectedly_useful_thing_youve/) - 296 pts on r/ClaudeAI.
+- [SpaceXAI locked Anthropic into paying them $1.25 billion per MONTH for compute](https://reddit.com/r/ClaudeAI/comments/1tkdkr2/spacexai_locked_anthropic_into_paying_them_125/) - 230 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

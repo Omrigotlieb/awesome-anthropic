@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-05-22 (news snapshot: May 22, 2026)
+## 2026-05-23 (news snapshot: May 23, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.148](https://code.claude.com/docs/en/changelog?version=2.1.148) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.150](https://code.claude.com/docs/en/changelog?version=2.1.150) is currently the latest Claude Code release visible in this repository snapshot.
+- [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 - [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 - [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
-- [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
 
 ### Top Story Snapshot
 
+- [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 - [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 - [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
-- [Anthropic acquires Stainless](https://www.anthropic.com/news/anthropic-acquires-stainless)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-22
-- News snapshot date: May 22, 2026
+- Run date (UTC): 2026-05-23
+- News snapshot date: May 23, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders
