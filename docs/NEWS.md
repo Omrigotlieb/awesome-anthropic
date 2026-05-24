@@ -4,6 +4,21 @@
 
 ---
 
+## May 24, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 2261 | [Claude is not having a good morning](https://reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/) | r/ClaudeAI |
+| 226 | [Anyone else go way too deep building a personal app just for themselves?](https://reddit.com/r/ClaudeAI/comments/1tlneww/anyone_else_go_way_too_deep_building_a_personal/) | r/ClaudeAI |
+| 163 | [My experience using Claude code with Local Llm, and full guide on how to set it up](https://reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/) | r/ClaudeAI |
+| 135 | [When is Chat, Cowork and Code merging?](https://reddit.com/r/ClaudeAI/comments/1tldsrl/when_is_chat_cowork_and_code_merging/) | r/ClaudeAI |
+| 108 | [Cancelled my annual sub so it doesn't renew. Instead, they kept the money and cancelled it prematurely ...](https://reddit.com/r/Anthropic/comments/1tlggvh/cancelled_my_annual_sub_so_it_doesnt_renew/) | r/Anthropic |
+| 21 | [Anthropic blames dystopian sci-fi for training AI models to act "evil"](https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/) | Hacker News |
+
+---
+
 ## May 23, 2026
 
 ### 🔥 Top Stories

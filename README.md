@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-23
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-24
 
 <!-- CHANGELOG_START -->
 ### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-23
+> Last fetched: <!-- NEWS_DATE -->2026-05-24
 
 <!-- NEWS_START -->
-### Top Stories — May 23, 2026
+### Top Stories — May 24, 2026
 
-- [Aged like fine WINE](https://reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/) - 3543 pts on r/ClaudeAI.
-- [Project Glasswing: An Initial Update](https://www.anthropic.com/research/glasswing-initial-update) - 389 pts on Hacker News.
-- [If you use the "Get Shit Done" (GSD) AI tool, you need to migrate immediately (Original creator rug-pulled)](https://reddit.com/r/ClaudeAI/comments/1tktl4w/if_you_use_the_get_shit_done_gsd_ai_tool_you_need/) - 329 pts on r/ClaudeAI.
-- [What's the most unexpectedly useful thing you've used Claude for?](https://reddit.com/r/ClaudeAI/comments/1tkp1pg/whats_the_most_unexpectedly_useful_thing_youve/) - 296 pts on r/ClaudeAI.
-- [SpaceXAI locked Anthropic into paying them $1.25 billion per MONTH for compute](https://reddit.com/r/ClaudeAI/comments/1tkdkr2/spacexai_locked_anthropic_into_paying_them_125/) - 230 pts on r/ClaudeAI.
+- [Claude is not having a good morning](https://reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/) - 2261 pts on r/ClaudeAI.
+- [Anyone else go way too deep building a personal app just for themselves?](https://reddit.com/r/ClaudeAI/comments/1tlneww/anyone_else_go_way_too_deep_building_a_personal/) - 226 pts on r/ClaudeAI.
+- [My experience using Claude code with Local Llm, and full guide on how to set it up](https://reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/) - 163 pts on r/ClaudeAI.
+- [When is Chat, Cowork and Code merging?](https://reddit.com/r/ClaudeAI/comments/1tldsrl/when_is_chat_cowork_and_code_merging/) - 135 pts on r/ClaudeAI.
+- [Cancelled my annual sub so it doesn't renew. Instead, they kept the money and cancelled it prematurely ...](https://reddit.com/r/Anthropic/comments/1tlggvh/cancelled_my_annual_sub_so_it_doesnt_renew/) - 108 pts on r/Anthropic.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

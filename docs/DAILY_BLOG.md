@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-23 (news snapshot: May 23, 2026)
+## 2026-05-24 (news snapshot: May 24, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-23 uses the May 23, 2026 news snapshot.
+- The daily run on 2026-05-24 uses the May 24, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.150.
 - Official channel signal remains active: Project Glasswing: An initial update (May 23, 2026).
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (May 23, 2026):** [Aged like fine WINE](https://reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/)
+**News peg (May 24, 2026):** [Claude is not having a good morning](https://reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
@@ -67,9 +67,6 @@ This is community signal; it is useful for demand sensing, but should stay clear
 - May 23, 2026: [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 - May 20, 2026: [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 - May 20, 2026: [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
-- May 23, 2026: [claude-code v2.1.150](https://code.claude.com/docs/en/changelog?version=2.1.150)
-- May 23, 2026: [claude-code v2.1.149](https://code.claude.com/docs/en/changelog?version=2.1.149)
-- May 23, 2026: [claude-code v2.1.150](https://github.com/anthropics/claude-code/releases/tag/v2.1.150)
 
 ### Website Improvement Review
 

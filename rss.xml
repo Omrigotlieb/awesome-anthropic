@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2026 06:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 06:00:57 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,124 +13,52 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Aged like fine WINE</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/</guid>
-    <description>▲ 3543 points · r/ClaudeAI · Aged like fine WINE</description>
+    <title>Claude is not having a good morning</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/</guid>
+    <description>▲ 2261 points · r/ClaudeAI · Claude is not having a good morning</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 24 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Project Glasswing: An Initial Update</title>
-    <link>https://www.anthropic.com/research/glasswing-initial-update</link>
-    <guid isPermaLink="true">https://www.anthropic.com/research/glasswing-initial-update</guid>
-    <description>▲ 389 points · Hacker News · Project Glasswing: An Initial Update</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>If you use the &quot;Get Shit Done&quot; (GSD) AI tool, you need to migrate immediately (Original creator rug-pulled)</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tktl4w/if_you_use_the_get_shit_done_gsd_ai_tool_you_need/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tktl4w/if_you_use_the_get_shit_done_gsd_ai_tool_you_need/</guid>
-    <description>▲ 329 points · r/ClaudeAI · If you use the &quot;Get Shit Done&quot; (GSD) AI tool, you need to migrate immediately (Original creator rug-pulled)</description>
+    <title>Anyone else go way too deep building a personal app just for themselves?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tlneww/anyone_else_go_way_too_deep_building_a_personal/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tlneww/anyone_else_go_way_too_deep_building_a_personal/</guid>
+    <description>▲ 226 points · r/ClaudeAI · Anyone else go way too deep building a personal app just for themselves?</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 24 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>What&apos;s the most unexpectedly useful thing you&apos;ve used Claude for?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkp1pg/whats_the_most_unexpectedly_useful_thing_youve/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkp1pg/whats_the_most_unexpectedly_useful_thing_youve/</guid>
-    <description>▲ 296 points · r/ClaudeAI · What&apos;s the most unexpectedly useful thing you&apos;ve used Claude for?</description>
+    <title>My experience using Claude code with Local Llm, and full guide on how to set it up</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/</guid>
+    <description>▲ 163 points · r/ClaudeAI · My experience using Claude code with Local Llm, and full guide on how to set it up</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 24 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>SpaceXAI locked Anthropic into paying them $1.25 billion per MONTH for compute</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkdkr2/spacexai_locked_anthropic_into_paying_them_125/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkdkr2/spacexai_locked_anthropic_into_paying_them_125/</guid>
-    <description>▲ 230 points · r/ClaudeAI · SpaceXAI locked Anthropic into paying them $1.25 billion per MONTH for compute</description>
+    <title>When is Chat, Cowork and Code merging?</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tldsrl/when_is_chat_cowork_and_code_merging/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tldsrl/when_is_chat_cowork_and_code_merging/</guid>
+    <description>▲ 135 points · r/ClaudeAI · When is Chat, Cowork and Code merging?</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 24 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Which MCP servers are actually changing your Claude workflow? Sharing mine</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkec4e/which_mcp_servers_are_actually_changing_your/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkec4e/which_mcp_servers_are_actually_changing_your/</guid>
-    <description>▲ 154 points · r/ClaudeAI · Which MCP servers are actually changing your Claude workflow? Sharing mine</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>After comparing Claude Max $100 and ChatGPT Pro $100 side by side on actual billable work, I&apos;m cancelling my ChatGPT Pro subscription</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkhp7a/after_comparing_claude_max_100_and_chatgpt_pro/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkhp7a/after_comparing_claude_max_100_and_chatgpt_pro/</guid>
-    <description>▲ 143 points · r/ClaudeAI · After comparing Claude Max $100 and ChatGPT Pro $100 side by side on actual billable work, I&apos;m cancelling my ChatGPT Pro subscription</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic claims 10,000+ critical vulns found in one month</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkvqy1/anthropic_claims_10000_critical_vulns_found_in/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkvqy1/anthropic_claims_10000_critical_vulns_found_in/</guid>
-    <description>▲ 135 points · r/ClaudeAI · Anthropic claims 10,000+ critical vulns found in one month</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Dario and Daniela tell Oprah they would rather let Anthropic fail than give in to the Pentagon</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkxqqz/dario_and_daniela_tell_oprah_they_would_rather/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkxqqz/dario_and_daniela_tell_oprah_they_would_rather/</guid>
-    <description>▲ 133 points · r/ClaudeAI · Dario and Daniela tell Oprah they would rather let Anthropic fail than give in to the Pentagon</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Claude has no way to navigate long conversations — this is a real productivity killer</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tkto9w/claude_has_no_way_to_navigate_long_conversations/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tkto9w/claude_has_no_way_to_navigate_long_conversations/</guid>
-    <description>▲ 88 points · r/ClaudeAI · Claude has no way to navigate long conversations — this is a real productivity killer</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-python v0.2.87</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.87</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.87</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.87</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic, Microsoft in talks for AI chip deal after $5 billion investment</title>
-    <link>https://reddit.com/r/Anthropic/comments/1tka1uk/anthropic_microsoft_in_talks_for_ai_chip_deal/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tka1uk/anthropic_microsoft_in_talks_for_ai_chip_deal/</guid>
-    <description>▲ 61 points · r/Anthropic · Anthropic, Microsoft in talks for AI chip deal after $5 billion investment</description>
+    <title>Cancelled my annual sub so it doesn&apos;t renew. Instead, they kept the money and cancelled it prematurely ...</title>
+    <link>https://reddit.com/r/Anthropic/comments/1tlggvh/cancelled_my_annual_sub_so_it_doesnt_renew/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tlggvh/cancelled_my_annual_sub_so_it_doesnt_renew/</guid>
+    <description>▲ 108 points · r/Anthropic · Cancelled my annual sub so it doesn&apos;t renew. Instead, they kept the money and cancelled it prematurely ...</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 24 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic&apos;s &quot;Profitability&quot; Swindle</title>
-    <link>https://www.wheresyoured.at/anthropics-profitability-swindle/</link>
-    <guid isPermaLink="true">https://www.wheresyoured.at/anthropics-profitability-swindle/</guid>
-    <description>▲ 58 points · Hacker News · Anthropic&apos;s &quot;Profitability&quot; Swindle</description>
+    <title>Anthropic blames dystopian sci-fi for training AI models to act &quot;evil&quot;</title>
+    <link>https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/</link>
+    <guid isPermaLink="true">https://arstechnica.com/ai/2026/05/anthropic-blames-dystopian-sci-fi-for-training-ai-models-to-act-evil/</guid>
+    <description>▲ 21 points · Hacker News · Anthropic blames dystopian sci-fi for training AI models to act &quot;evil&quot;</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>The butterfly effect in LLM social simulations. Relevant to how we write CLAUDE.md and system prompts.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1tkptj0/the_butterfly_effect_in_llm_social_simulations/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tkptj0/the_butterfly_effect_in_llm_social_simulations/</guid>
-    <description>▲ 50 points · r/Anthropic · The butterfly effect in LLM social simulations. Relevant to how we write CLAUDE.md and system prompts.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Cheap AI Could Derail OpenAI and Anthropic&apos;s IPOs</title>
-    <link>https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html</link>
-    <guid isPermaLink="true">https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html</guid>
-    <description>▲ 10 points · Hacker News · Cheap AI Could Derail OpenAI and Anthropic&apos;s IPOs</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Sat, 23 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sun, 24 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>
