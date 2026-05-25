@@ -4,6 +4,36 @@
 
 ---
 
+## May 25, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1340 | [🚀 Skills for small businesses, officially released by Anthropic](https://reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/) | r/ClaudeAI |
+| 822 | [I think I know why deepseek is so good](https://reddit.com/r/Anthropic/comments/1tm4zu9/i_think_i_know_why_deepseek_is_so_good/) | r/Anthropic |
+| 367 | [What's the most useful thing you've actually built with Claude that you use regularly?](https://reddit.com/r/ClaudeAI/comments/1tmkuw9/whats_the_most_useful_thing_youve_actually_built/) | r/ClaudeAI |
+| 195 | [Fav Desk Gadget: Claude Code Usage Display, codeMeter](https://reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/) | r/ClaudeAI |
+| 140 | [tried claude for google meet... don't make my same mistake please](https://reddit.com/r/ClaudeAI/comments/1tmg0gp/tried_claude_for_google_meet_dont_make_my_same/) | r/ClaudeAI |
+| 123 | [I made a Claude Code plugin that draws matplotlib figures in that soft-pastel "alignment research blog" style](https://reddit.com/r/ClaudeAI/comments/1tm7w3d/i_made_a_claude_code_plugin_that_draws_matplotlib/) | r/ClaudeAI |
+| 108 | [Task-observer makes your skills self-improving and automates skill creation](https://reddit.com/r/ClaudeAI/comments/1tm887i/taskobserver_makes_your_skills_selfimproving_and/) | r/ClaudeAI |
+| 91 | [Today I experienced a miracle](https://reddit.com/r/ClaudeAI/comments/1tmgpje/today_i_experienced_a_miracle/) | r/ClaudeAI |
+| 82 | [Has anyone else noticed certain words make AI agents actually listen?](https://reddit.com/r/ClaudeAI/comments/1tmokmg/has_anyone_else_noticed_certain_words_make_ai/) | r/ClaudeAI |
+| 59 | [I just cant use the 4.7 Opus.](https://reddit.com/r/Anthropic/comments/1tmemn5/i_just_cant_use_the_47_opus/) | r/Anthropic |
+| 10 | [Tell HN: Claude Code now allows Anthropic to remotely inject system prompts](https://news.ycombinator.com/item?id=48259288) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [People often ask what my biggest tip is for getting the most out of Claude Code.
+
+These days my #1 tip is: use auto mode
+
+Auto mode means no more permission prompts. It is the key building block for m](https://x.com/bcherny/status/2058519809214607704) | Boris Cherney |
+
+---
+
 ## May 24, 2026
 
 ### 🔥 Top Stories

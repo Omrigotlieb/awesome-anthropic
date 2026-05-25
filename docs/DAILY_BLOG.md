@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-24 (news snapshot: May 24, 2026)
+## 2026-05-25 (news snapshot: May 25, 2026)
 
 ### Executive Summary
 
@@ -9,7 +9,7 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-24 uses the May 24, 2026 news snapshot.
+- The daily run on 2026-05-25 uses the May 25, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.150.
 - Official channel signal remains active: Project Glasswing: An initial update (May 23, 2026).
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (May 24, 2026):** [Claude is not having a good morning](https://reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/)
+**News peg (May 25, 2026):** [🚀 Skills for small businesses, officially released by Anthropic](https://reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/)
 
 Snapshot update: Top story source: r/ClaudeAI
 

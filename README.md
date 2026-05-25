@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-24
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-25
 
 <!-- CHANGELOG_START -->
 ### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-24
+> Last fetched: <!-- NEWS_DATE -->2026-05-25
 
 <!-- NEWS_START -->
-### Top Stories — May 24, 2026
+### Top Stories — May 25, 2026
 
-- [Claude is not having a good morning](https://reddit.com/r/ClaudeAI/comments/1tlntio/claude_is_not_having_a_good_morning/) - 2261 pts on r/ClaudeAI.
-- [Anyone else go way too deep building a personal app just for themselves?](https://reddit.com/r/ClaudeAI/comments/1tlneww/anyone_else_go_way_too_deep_building_a_personal/) - 226 pts on r/ClaudeAI.
-- [My experience using Claude code with Local Llm, and full guide on how to set it up](https://reddit.com/r/ClaudeAI/comments/1tlir65/my_experience_using_claude_code_with_local_llm/) - 163 pts on r/ClaudeAI.
-- [When is Chat, Cowork and Code merging?](https://reddit.com/r/ClaudeAI/comments/1tldsrl/when_is_chat_cowork_and_code_merging/) - 135 pts on r/ClaudeAI.
-- [Cancelled my annual sub so it doesn't renew. Instead, they kept the money and cancelled it prematurely ...](https://reddit.com/r/Anthropic/comments/1tlggvh/cancelled_my_annual_sub_so_it_doesnt_renew/) - 108 pts on r/Anthropic.
+- [🚀 Skills for small businesses, officially released by Anthropic](https://reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/) - 1340 pts on r/ClaudeAI.
+- [I think I know why deepseek is so good](https://reddit.com/r/Anthropic/comments/1tm4zu9/i_think_i_know_why_deepseek_is_so_good/) - 822 pts on r/Anthropic.
+- [What's the most useful thing you've actually built with Claude that you use regularly?](https://reddit.com/r/ClaudeAI/comments/1tmkuw9/whats_the_most_useful_thing_youve_actually_built/) - 367 pts on r/ClaudeAI.
+- [Fav Desk Gadget: Claude Code Usage Display, codeMeter](https://reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/) - 195 pts on r/ClaudeAI.
+- [tried claude for google meet... don't make my same mistake please](https://reddit.com/r/ClaudeAI/comments/1tmg0gp/tried_claude_for_google_meet_dont_make_my_same/) - 140 pts on r/ClaudeAI.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
