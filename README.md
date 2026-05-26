@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-25
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-26
 
 <!-- CHANGELOG_START -->
 ### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
@@ -351,16 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-25
+> Last fetched: <!-- NEWS_DATE -->2026-05-26
 
 <!-- NEWS_START -->
-### Top Stories — May 25, 2026
+### Top Stories — May 26, 2026
 
-- [🚀 Skills for small businesses, officially released by Anthropic](https://reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/) - 1340 pts on r/ClaudeAI.
-- [I think I know why deepseek is so good](https://reddit.com/r/Anthropic/comments/1tm4zu9/i_think_i_know_why_deepseek_is_so_good/) - 822 pts on r/Anthropic.
-- [What's the most useful thing you've actually built with Claude that you use regularly?](https://reddit.com/r/ClaudeAI/comments/1tmkuw9/whats_the_most_useful_thing_youve_actually_built/) - 367 pts on r/ClaudeAI.
-- [Fav Desk Gadget: Claude Code Usage Display, codeMeter](https://reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/) - 195 pts on r/ClaudeAI.
-- [tried claude for google meet... don't make my same mistake please](https://reddit.com/r/ClaudeAI/comments/1tmg0gp/tried_claude_for_google_meet_dont_make_my_same/) - 140 pts on r/ClaudeAI.
+- [Weird Injection Prompt In Chat??](https://reddit.com/r/ClaudeAI/comments/1tnr5oe/weird_injection_prompt_in_chat/) - 312 pts on r/ClaudeAI.
+- [6 months of .md memory, conflicting facts are the hard part](https://reddit.com/r/ClaudeAI/comments/1tnb86m/6_months_of_md_memory_conflicting_facts_are_the/) - 125 pts on r/ClaudeAI.
+- [How I protect my health when using Claude (and how I didn't before)](https://reddit.com/r/ClaudeAI/comments/1tnhbp7/how_i_protect_my_health_when_using_claude_and_how/) - 122 pts on r/ClaudeAI.
+- [I've been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.](https://reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/) - 96 pts on r/ClaudeAI.
+- [anthropic-cli v1.9.2](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

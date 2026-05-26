@@ -4,6 +4,45 @@
 
 ---
 
+## May 26, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 312 | [Weird Injection Prompt In Chat??](https://reddit.com/r/ClaudeAI/comments/1tnr5oe/weird_injection_prompt_in_chat/) | r/ClaudeAI |
+| 125 | [6 months of .md memory, conflicting facts are the hard part](https://reddit.com/r/ClaudeAI/comments/1tnb86m/6_months_of_md_memory_conflicting_facts_are_the/) | r/ClaudeAI |
+| 122 | [How I protect my health when using Claude (and how I didn't before)](https://reddit.com/r/ClaudeAI/comments/1tnhbp7/how_i_protect_my_health_when_using_claude_and_how/) | r/ClaudeAI |
+| 96 | [I've been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.](https://reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/) | r/ClaudeAI |
+| 85 | [anthropic-cli v1.9.2](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2) | GitHub Release |
+| 74 | [Anthropic Cofounder Chris Olah's Remarks on Pope Leo XIV's "Magnifica Humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical) | Hacker News |
+| 63 | [Stop letting Claude glaze your bad product ideas](https://reddit.com/r/ClaudeAI/comments/1tng0rl/stop_letting_claude_glaze_your_bad_product_ideas/) | r/ClaudeAI |
+| 57 | [Good news and bad news](https://reddit.com/r/Anthropic/comments/1tnoygf/good_news_and_bad_news/) | r/Anthropic |
+| 14 | [The Vatican-Anthropic relationship that's reshaping the AI ethics debate](https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/) | Hacker News |
+| 13 | [Anthropic to release Mythos-class models to the public](https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Anthropic co-founder Chris Olah was invited to speak at today's presentation of Pope Leo XIV's encyclical "Magnifica humanitas."
+
+Read the full text of his remarks: https://www.anthropic.com/news/chri](https://x.com/AnthropicAI/status/2058983299092009421) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [anthropic-cli v1.9.2](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2) | ## 1.9.2 (2026-05-26)  Full Changelog: [v1.9.1...v1.9.2](https://github.com/anthropics/anthropic-cli |
+
+---
+
 ## May 25, 2026
 
 ### 🔥 Top Stories

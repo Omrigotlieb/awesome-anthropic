@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2026 06:01:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 06:01:50 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,92 +13,84 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>🚀 Skills for small businesses, officially released by Anthropic</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/</guid>
-    <description>▲ 1340 points · r/ClaudeAI · 🚀 Skills for small businesses, officially released by Anthropic</description>
+    <title>Weird Injection Prompt In Chat??</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tnr5oe/weird_injection_prompt_in_chat/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tnr5oe/weird_injection_prompt_in_chat/</guid>
+    <description>▲ 312 points · r/ClaudeAI · Weird Injection Prompt In Chat??</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>I think I know why deepseek is so good</title>
-    <link>https://reddit.com/r/Anthropic/comments/1tm4zu9/i_think_i_know_why_deepseek_is_so_good/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tm4zu9/i_think_i_know_why_deepseek_is_so_good/</guid>
-    <description>▲ 822 points · r/Anthropic · I think I know why deepseek is so good</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>What&apos;s the most useful thing you&apos;ve actually built with Claude that you use regularly?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tmkuw9/whats_the_most_useful_thing_youve_actually_built/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tmkuw9/whats_the_most_useful_thing_youve_actually_built/</guid>
-    <description>▲ 367 points · r/ClaudeAI · What&apos;s the most useful thing you&apos;ve actually built with Claude that you use regularly?</description>
+    <title>6 months of .md memory, conflicting facts are the hard part</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tnb86m/6_months_of_md_memory_conflicting_facts_are_the/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tnb86m/6_months_of_md_memory_conflicting_facts_are_the/</guid>
+    <description>▲ 125 points · r/ClaudeAI · 6 months of .md memory, conflicting facts are the hard part</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Fav Desk Gadget: Claude Code Usage Display, codeMeter</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tmo1sz/fav_desk_gadget_claude_code_usage_display/</guid>
-    <description>▲ 195 points · r/ClaudeAI · Fav Desk Gadget: Claude Code Usage Display, codeMeter</description>
+    <title>How I protect my health when using Claude (and how I didn&apos;t before)</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tnhbp7/how_i_protect_my_health_when_using_claude_and_how/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tnhbp7/how_i_protect_my_health_when_using_claude_and_how/</guid>
+    <description>▲ 122 points · r/ClaudeAI · How I protect my health when using Claude (and how I didn&apos;t before)</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>tried claude for google meet... don&apos;t make my same mistake please</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tmg0gp/tried_claude_for_google_meet_dont_make_my_same/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tmg0gp/tried_claude_for_google_meet_dont_make_my_same/</guid>
-    <description>▲ 140 points · r/ClaudeAI · tried claude for google meet... don&apos;t make my same mistake please</description>
+    <title>I&apos;ve been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/</guid>
+    <description>▲ 96 points · r/ClaudeAI · I&apos;ve been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>I made a Claude Code plugin that draws matplotlib figures in that soft-pastel &quot;alignment research blog&quot; style</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tm7w3d/i_made_a_claude_code_plugin_that_draws_matplotlib/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tm7w3d/i_made_a_claude_code_plugin_that_draws_matplotlib/</guid>
-    <description>▲ 123 points · r/ClaudeAI · I made a Claude Code plugin that draws matplotlib figures in that soft-pastel &quot;alignment research blog&quot; style</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
+    <title>anthropic-cli v1.9.2</title>
+    <link>https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2</guid>
+    <description>▲ 85 points · GitHub Release · anthropic-cli v1.9.2</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Task-observer makes your skills self-improving and automates skill creation</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tm887i/taskobserver_makes_your_skills_selfimproving_and/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tm887i/taskobserver_makes_your_skills_selfimproving_and/</guid>
-    <description>▲ 108 points · r/ClaudeAI · Task-observer makes your skills self-improving and automates skill creation</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Today I experienced a miracle</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tmgpje/today_i_experienced_a_miracle/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tmgpje/today_i_experienced_a_miracle/</guid>
-    <description>▲ 91 points · r/ClaudeAI · Today I experienced a miracle</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Has anyone else noticed certain words make AI agents actually listen?</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tmokmg/has_anyone_else_noticed_certain_words_make_ai/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tmokmg/has_anyone_else_noticed_certain_words_make_ai/</guid>
-    <description>▲ 82 points · r/ClaudeAI · Has anyone else noticed certain words make AI agents actually listen?</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I just cant use the 4.7 Opus.</title>
-    <link>https://reddit.com/r/Anthropic/comments/1tmemn5/i_just_cant_use_the_47_opus/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tmemn5/i_just_cant_use_the_47_opus/</guid>
-    <description>▲ 59 points · r/Anthropic · I just cant use the 4.7 Opus.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Tell HN: Claude Code now allows Anthropic to remotely inject system prompts</title>
-    <link>https://news.ycombinator.com/item?id=48259288</link>
-    <guid isPermaLink="true">https://news.ycombinator.com/item?id=48259288</guid>
-    <description>▲ 10 points · Hacker News · Tell HN: Claude Code now allows Anthropic to remotely inject system prompts</description>
+    <title>Anthropic Cofounder Chris Olah&apos;s Remarks on Pope Leo XIV&apos;s &quot;Magnifica Humanitas&quot;</title>
+    <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
+    <description>▲ 74 points · Hacker News · Anthropic Cofounder Chris Olah&apos;s Remarks on Pope Leo XIV&apos;s &quot;Magnifica Humanitas&quot;</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Mon, 25 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Stop letting Claude glaze your bad product ideas</title>
+    <link>https://reddit.com/r/ClaudeAI/comments/1tng0rl/stop_letting_claude_glaze_your_bad_product_ideas/</link>
+    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tng0rl/stop_letting_claude_glaze_your_bad_product_ideas/</guid>
+    <description>▲ 63 points · r/ClaudeAI · Stop letting Claude glaze your bad product ideas</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Good news and bad news</title>
+    <link>https://reddit.com/r/Anthropic/comments/1tnoygf/good_news_and_bad_news/</link>
+    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tnoygf/good_news_and_bad_news/</guid>
+    <description>▲ 57 points · r/Anthropic · Good news and bad news</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>The Vatican-Anthropic relationship that&apos;s reshaping the AI ethics debate</title>
+    <link>https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/</link>
+    <guid isPermaLink="true">https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/</guid>
+    <description>▲ 14 points · Hacker News · The Vatican-Anthropic relationship that&apos;s reshaping the AI ethics debate</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic to release Mythos-class models to the public</title>
+    <link>https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596</link>
+    <guid isPermaLink="true">https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596</guid>
+    <description>▲ 13 points · Hacker News · Anthropic to release Mythos-class models to the public</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

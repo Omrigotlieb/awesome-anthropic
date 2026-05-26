@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-25 (news snapshot: May 25, 2026)
+## 2026-05-26 (news snapshot: May 26, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,21 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-25 uses the May 25, 2026 news snapshot.
+- The daily run on 2026-05-26 uses the May 26, 2026 news snapshot.
 - Latest release tracked: claude-code v2.1.150.
-- Official channel signal remains active: Project Glasswing: An initial update (May 23, 2026).
+- Official channel signal remains active: Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas" (May 26, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (May 26, 2026):** [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
+
+Snapshot update: Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
 
 **News peg (May 23, 2026):** [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 
@@ -23,19 +31,11 @@ Snapshot update: Project Glasswing: An initial update
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
+### Article 3 — Official announcement watch
 
 **News peg (May 20, 2026):** [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 
 Snapshot update: Widening the conversation on frontier AI
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
-
-**News peg (May 20, 2026):** [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
-
-Snapshot update: KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — Community demand signal
 
-**News peg (May 25, 2026):** [🚀 Skills for small businesses, officially released by Anthropic](https://reddit.com/r/ClaudeAI/comments/1tm94ai/skills_for_small_businesses_officially_released/)
+**News peg (May 26, 2026):** [Weird Injection Prompt In Chat??](https://reddit.com/r/ClaudeAI/comments/1tnr5oe/weird_injection_prompt_in_chat/)
 
 Snapshot update: Top story source: r/ClaudeAI
 
@@ -58,15 +58,16 @@ This is community signal; it is useful for demand sensing, but should stay clear
 
 ### Top Stories Referenced
 
+- [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
 - [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 - [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
-- [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 
 ### Source Trail
 
+- May 26, 2026: [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
 - May 23, 2026: [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 - May 20, 2026: [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
-- May 20, 2026: [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
+- May 26, 2026: [anthropic-cli v1.9.2](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2)
 
 ### Website Improvement Review
 
