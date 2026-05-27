@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 06:01:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 06:02:21 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,84 +13,52 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Weird Injection Prompt In Chat??</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tnr5oe/weird_injection_prompt_in_chat/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tnr5oe/weird_injection_prompt_in_chat/</guid>
-    <description>▲ 312 points · r/ClaudeAI · Weird Injection Prompt In Chat??</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    <title>Anthropic appoints KiYoung Choi as Representative Director of Korea</title>
+    <link>https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</guid>
+    <description>▲ 100 points · Anthropic Blog · Anthropic appoints KiYoung Choi as Representative Director of Korea</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>6 months of .md memory, conflicting facts are the hard part</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tnb86m/6_months_of_md_memory_conflicting_facts_are_the/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tnb86m/6_months_of_md_memory_conflicting_facts_are_the/</guid>
-    <description>▲ 125 points · r/ClaudeAI · 6 months of .md memory, conflicting facts are the hard part</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>How I protect my health when using Claude (and how I didn&apos;t before)</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tnhbp7/how_i_protect_my_health_when_using_claude_and_how/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tnhbp7/how_i_protect_my_health_when_using_claude_and_how/</guid>
-    <description>▲ 122 points · r/ClaudeAI · How I protect my health when using Claude (and how I didn&apos;t before)</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>I&apos;ve been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tn9tyy/ive_been_using_claude_code_as_a_motion_graphics/</guid>
-    <description>▲ 96 points · r/ClaudeAI · I&apos;ve been using Claude Code as a motion graphics engine for my YouTube videos. It writes the JSX, I render. Edit time roughly halved.</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>anthropic-cli v1.9.2</title>
-    <link>https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2</link>
-    <guid isPermaLink="true">https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.2</guid>
-    <description>▲ 85 points · GitHub Release · anthropic-cli v1.9.2</description>
+    <title>claude-code v2.1.152</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.152</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.152</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.152</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic Cofounder Chris Olah&apos;s Remarks on Pope Leo XIV&apos;s &quot;Magnifica Humanitas&quot;</title>
-    <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</guid>
-    <description>▲ 74 points · Hacker News · Anthropic Cofounder Chris Olah&apos;s Remarks on Pope Leo XIV&apos;s &quot;Magnifica Humanitas&quot;</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    <title>claude-agent-sdk-typescript v0.3.152</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.152</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.152</guid>
+    <description>▲ 80 points · GitHub Release · claude-agent-sdk-typescript v0.3.152</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Stop letting Claude glaze your bad product ideas</title>
-    <link>https://reddit.com/r/ClaudeAI/comments/1tng0rl/stop_letting_claude_glaze_your_bad_product_ideas/</link>
-    <guid isPermaLink="true">https://reddit.com/r/ClaudeAI/comments/1tng0rl/stop_letting_claude_glaze_your_bad_product_ideas/</guid>
-    <description>▲ 63 points · r/ClaudeAI · Stop letting Claude glaze your bad product ideas</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/ClaudeAI</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    <title>anthropic-sdk-typescript sdk-v0.99.0</title>
+    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.99.0</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.99.0</guid>
+    <description>▲ 75 points · GitHub Release · anthropic-sdk-typescript sdk-v0.99.0</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Good news and bad news</title>
-    <link>https://reddit.com/r/Anthropic/comments/1tnoygf/good_news_and_bad_news/</link>
-    <guid isPermaLink="true">https://reddit.com/r/Anthropic/comments/1tnoygf/good_news_and_bad_news/</guid>
-    <description>▲ 57 points · r/Anthropic · Good news and bad news</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">r/Anthropic</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    <title>anthropic-sdk-typescript sdk-v0.98.1</title>
+    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.1</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.1</guid>
+    <description>▲ 70 points · GitHub Release · anthropic-sdk-typescript sdk-v0.98.1</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>The Vatican-Anthropic relationship that&apos;s reshaping the AI ethics debate</title>
-    <link>https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/</link>
-    <guid isPermaLink="true">https://religionnews.com/2026/05/22/why-anthropic-is-helping-unveil-the-popes-new-encyclical-on-ai/</guid>
-    <description>▲ 14 points · Hacker News · The Vatican-Anthropic relationship that&apos;s reshaping the AI ethics debate</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic to release Mythos-class models to the public</title>
-    <link>https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596</link>
-    <guid isPermaLink="true">https://www.theregister.com/security/2026/05/25/anthropic-to-release-mythos-class-models-to-the-public/5245596</guid>
-    <description>▲ 13 points · Hacker News · Anthropic to release Mythos-class models to the public</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Tue, 26 May 2026 09:00:00 +0000</pubDate>
+    <title>anthropic-cli v1.9.3</title>
+    <link>https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3</link>
+    <guid isPermaLink="true">https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3</guid>
+    <description>▲ 65 points · GitHub Release · anthropic-cli v1.9.3</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -829,3 +829,13 @@ This file is checked first at the start of each daily automation run.
 - [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 - [KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance](https://www.anthropic.com/news/anthropic-kpmg)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-05-27
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
+- [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
+- [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

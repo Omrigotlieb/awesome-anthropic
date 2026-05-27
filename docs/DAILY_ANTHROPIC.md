@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-05-26 (news snapshot: May 26, 2026)
+## 2026-05-27 (news snapshot: May 27, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.150](https://code.claude.com/docs/en/changelog?version=2.1.150) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.152](https://code.claude.com/docs/en/changelog?version=2.1.152) is currently the latest Claude Code release visible in this repository snapshot.
+- [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
 - [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
 - [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
-- [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 
 ### Top Story Snapshot
 
+- [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
 - [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
 - [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
-- [Widening the conversation on frontier AI](https://www.anthropic.com/news/widening-conversation-ai)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-26
-- News snapshot date: May 26, 2026
+- Run date (UTC): 2026-05-27
+- News snapshot date: May 27, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

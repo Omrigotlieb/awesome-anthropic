@@ -4,6 +4,44 @@
 
 ---
 
+## May 27, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea) | Anthropic Blog |
+| 85 | [claude-code v2.1.152](https://github.com/anthropics/claude-code/releases/tag/v2.1.152) | GitHub Release |
+| 80 | [claude-agent-sdk-typescript v0.3.152](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.152) | GitHub Release |
+| 75 | [anthropic-sdk-typescript sdk-v0.99.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.99.0) | GitHub Release |
+| 70 | [anthropic-sdk-typescript sdk-v0.98.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.1) | GitHub Release |
+| 65 | [anthropic-cli v1.9.3](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3) | GitHub Release |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [New on the Engineering Blog: The access and permissions we grant agents should evolve with their capabilities. In our own products, we set these parameters through sandboxing, which limits the scope o](https://x.com/AnthropicAI/status/2059351260243919269) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.152](https://code.claude.com/docs/en/changelog?version=2.1.152) | Official Claude Code changelog entry |
+| [claude-code v2.1.152](https://github.com/anthropics/claude-code/releases/tag/v2.1.152) | ## What's changed  - `/code-review --fix` now applies review findings to your working tree after the |
+| [anthropic-cli v1.9.3](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3) | ## 1.9.3 (2026-05-26)  Full Changelog: [v1.9.2...v1.9.3](https://github.com/anthropics/anthropic-cli |
+| [anthropic-sdk-typescript sdk-v0.99.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.99.0) | ## 0.99.0 (2026-05-27)  Full Changelog: [sdk-v0.98.1...sdk-v0.99.0](https://github.com/anthropics/an |
+| [anthropic-sdk-typescript sdk-v0.98.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.1) | ## 0.98.1 (2026-05-26)  Full Changelog: [sdk-v0.98.0...sdk-v0.98.1](https://github.com/anthropics/an |
+| [claude-agent-sdk-typescript v0.3.152](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.152) | ## What's changed  - `SessionStart` hooks can now return `reloadSkills: true` to trigger a skill re- |
+
+---
+
 ## May 26, 2026
 
 ### 🔥 Top Stories
