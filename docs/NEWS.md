@@ -4,6 +4,27 @@
 
 ---
 
+## May 28, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 764 | [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/) | Hacker News |
+| 85 | [claude-code v2.1.153](https://github.com/anthropics/claude-code/releases/tag/v2.1.153) | GitHub Release |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.153](https://code.claude.com/docs/en/changelog?version=2.1.153) | Official Claude Code changelog entry |
+| [claude-code v2.1.153](https://github.com/anthropics/claude-code/releases/tag/v2.1.153) | ## What's changed  - Added `skipLfs` option to `github`/`git` plugin marketplace sources to skip Git |
+| [claude-agent-sdk-typescript v0.3.153](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.153) | ## What's changed  - Updated to parity with Claude Code v2.1.153  ## Update  ```sh npm install @anth |
+| [anthropic-sdk-java v2.34.1](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.34.1) | ## 2.34.1 (2026-05-27)  Full Changelog: [v2.34.0...v2.34.1](https://github.com/anthropics/anthropic- |
+| [connect-rust v0.6.1](https://github.com/anthropics/connect-rust/releases/tag/v0.6.1) | ## What's Changed * examples/bazel: regenerate Cargo.lock against connectrpc 0.6.0 / buffa 0.6.0 by  |
+
+---
+
 ## May 27, 2026
 
 ### 🔥 Top Stories

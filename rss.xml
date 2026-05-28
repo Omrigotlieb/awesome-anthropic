@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 06:02:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 06:01:10 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,52 +13,20 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Anthropic appoints KiYoung Choi as Representative Director of Korea</title>
-    <link>https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</guid>
-    <description>▲ 100 points · Anthropic Blog · Anthropic appoints KiYoung Choi as Representative Director of Korea</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
+    <title>I think Anthropic and OpenAI have found product-market fit</title>
+    <link>https://simonwillison.net/2026/May/27/product-market-fit/</link>
+    <guid isPermaLink="true">https://simonwillison.net/2026/May/27/product-market-fit/</guid>
+    <description>▲ 764 points · Hacker News · I think Anthropic and OpenAI have found product-market fit</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Thu, 28 May 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-code v2.1.152</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.152</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.152</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.152</description>
+    <title>claude-code v2.1.153</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.153</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.153</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.153</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-typescript v0.3.152</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.152</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.152</guid>
-    <description>▲ 80 points · GitHub Release · claude-agent-sdk-typescript v0.3.152</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>anthropic-sdk-typescript sdk-v0.99.0</title>
-    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.99.0</link>
-    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.99.0</guid>
-    <description>▲ 75 points · GitHub Release · anthropic-sdk-typescript sdk-v0.99.0</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>anthropic-sdk-typescript sdk-v0.98.1</title>
-    <link>https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.1</link>
-    <guid isPermaLink="true">https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.1</guid>
-    <description>▲ 70 points · GitHub Release · anthropic-sdk-typescript sdk-v0.98.1</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>anthropic-cli v1.9.3</title>
-    <link>https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3</link>
-    <guid isPermaLink="true">https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3</guid>
-    <description>▲ 65 points · GitHub Release · anthropic-cli v1.9.3</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 27 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 28 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-27 (news snapshot: May 27, 2026)
+## 2026-05-28 (news snapshot: May 28, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-27 uses the May 27, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.152.
+- The daily run on 2026-05-28 uses the May 28, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.153.
 - Official channel signal remains active: Anthropic appoints KiYoung Choi as Representative Director of Korea (May 27, 2026).
 
 ### Latest News Articles
@@ -41,19 +41,19 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (May 27, 2026):** [claude-code v2.1.152](https://code.claude.com/docs/en/changelog?version=2.1.152)
+**News peg (May 28, 2026):** [claude-code v2.1.153](https://code.claude.com/docs/en/changelog?version=2.1.153)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Ecosystem watch signal
 
-**News peg (May 27, 2026):** [claude-code v2.1.152](https://github.com/anthropics/claude-code/releases/tag/v2.1.152)
+**News peg (May 28, 2026):** [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: Hacker News
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
 
 ### Top Stories Referenced
@@ -67,9 +67,9 @@ Claude Code release notes usually reflect near-term developer workflow changes, 
 - May 27, 2026: [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
 - May 26, 2026: [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
 - May 23, 2026: [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
-- May 27, 2026: [claude-code v2.1.152](https://code.claude.com/docs/en/changelog?version=2.1.152)
-- May 27, 2026: [claude-code v2.1.152](https://github.com/anthropics/claude-code/releases/tag/v2.1.152)
-- May 27, 2026: [anthropic-cli v1.9.3](https://github.com/anthropics/anthropic-cli/releases/tag/v1.9.3)
+- May 28, 2026: [claude-code v2.1.153](https://code.claude.com/docs/en/changelog?version=2.1.153)
+- May 28, 2026: [claude-code v2.1.153](https://github.com/anthropics/claude-code/releases/tag/v2.1.153)
+- May 28, 2026: [claude-agent-sdk-typescript v0.3.153](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.153)
 
 ### Website Improvement Review
 

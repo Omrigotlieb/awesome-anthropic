@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-27
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-28
 
 <!-- CHANGELOG_START -->
 ### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
@@ -351,16 +351,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-27
+> Last fetched: <!-- NEWS_DATE -->2026-05-28
 
 <!-- NEWS_START -->
-### Top Stories — May 27, 2026
+### Top Stories — May 28, 2026
 
-- [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea) - 100 pts on Anthropic Blog.
-- [claude-code v2.1.152](https://github.com/anthropics/claude-code/releases/tag/v2.1.152) - 85 pts on GitHub Release.
-- [claude-agent-sdk-typescript v0.3.152](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.152) - 80 pts on GitHub Release.
-- [anthropic-sdk-typescript sdk-v0.99.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.99.0) - 75 pts on GitHub Release.
-- [anthropic-sdk-typescript sdk-v0.98.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.98.1) - 70 pts on GitHub Release.
+- [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/) - 764 pts on Hacker News.
+- [claude-code v2.1.153](https://github.com/anthropics/claude-code/releases/tag/v2.1.153) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
