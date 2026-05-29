@@ -4,6 +4,66 @@
 
 ---
 
+## May 29, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 1365 | [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) | Hacker News |
+| 311 | [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h) | Hacker News |
+| 85 | [claude-agent-sdk-typescript v0.3.156](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156) | GitHub Release |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) | Anthropic Blog |
+| [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Claude Opus 4.8 is out today. It's our strongest coding model yet: up on SWE-bench Pro (from 64.3 to 69.2) and noticeably more honest about its own work. It tells you when it's unsure and catches its ](https://x.com/bcherny/status/2060048873440129073) | Boris Cherney |
+| [We put a lot of work into calibrating thinking effort for Opus 4.8. 
+
+As you're trying out the model, if you do run into any examples of it still over/under thinking, please flag it to us!](https://x.com/alexalbert__/status/2060052259581669871) | Alex Albert |
+| [Fast mode for Opus 4.8 is much more affordable now. 
+
+Try it out in Claude Code, I've found it changes how I use Claude. Fast mode for interactive work where I want rapid responses, normal mode for lo](https://x.com/alexalbert__/status/2060046822631231810) | Alex Albert |
+| [We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap, Dragoneer, @Greenoaks, and @sequoia.
+
+This investment will help us advance our research and e](https://x.com/AnthropicAI/status/2060061347522433422) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.156](https://code.claude.com/docs/en/changelog?version=2.1.156) | Official Claude Code changelog entry |
+| [claude-code v2.1.154](https://code.claude.com/docs/en/changelog?version=2.1.154) | Official Claude Code changelog entry |
+| [claude-code v2.1.156](https://github.com/anthropics/claude-code/releases/tag/v2.1.156) | ## What's changed  - Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading |
+| [claude-code v2.1.154](https://github.com/anthropics/claude-code/releases/tag/v2.1.154) | ## What's changed  - Opus 4.8 is here! Now defaults to high effort · /effort xhigh for your hardest  |
+| [buffa v0.7.0](https://github.com/anthropics/buffa/releases/tag/v0.7.0) | ## What's Changed * agents: grant reviewer subagents scoped Bash for git + cargo checks by @iainmcgi |
+| [anthropic-sdk-python v0.105.2](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.2) | ## 0.105.2 (2026-05-29)  Full Changelog: [v0.105.1...v0.105.2](https://github.com/anthropics/anthrop |
+| [anthropic-sdk-python v0.105.1](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.1) | ## 0.105.1 (2026-05-29)  Full Changelog: [v0.105.0...v0.105.1](https://github.com/anthropics/anthrop |
+| [anthropic-sdk-python v0.105.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.0) | ## 0.105.0 (2026-05-28)  Full Changelog: [v0.104.1...v0.105.0](https://github.com/anthropics/anthrop |
+| [anthropic-cli v1.10.0](https://github.com/anthropics/anthropic-cli/releases/tag/v1.10.0) | ## 1.10.0 (2026-05-28)  Full Changelog: [v1.9.3...v1.10.0](https://github.com/anthropics/anthropic-c |
+| [claude-agent-sdk-typescript v0.3.156](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156) | ## What's changed  - Updated to parity with Claude Code v2.1.156  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.3.154](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.154) | ## What's changed  - Fixed stdio MCP servers being incorrectly restarted on every reconcile pass due |
+| [anthropic-sdk-typescript sdk-v0.100.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.100.1) | ## 0.100.1 (2026-05-29)  Full Changelog: [sdk-v0.100.0...sdk-v0.100.1](https://github.com/anthropics |
+| [anthropic-sdk-typescript foundry-sdk-v0.2.4](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v0.2.4) | ## 0.2.4 (2026-05-29)  Full Changelog: [foundry-sdk-v0.2.3...foundry-sdk-v0.2.4](https://github.com/ |
+| [anthropic-sdk-typescript aws-sdk-v0.3.1](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.3.1) | ## 0.3.1 (2026-05-29)  Full Changelog: [aws-sdk-v0.3.0...aws-sdk-v0.3.1](https://github.com/anthropi |
+| [anthropic-sdk-typescript sdk-v0.100.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.100.0) | ## 0.100.0 (2026-05-28)  Full Changelog: [sdk-v0.99.0...sdk-v0.100.0](https://github.com/anthropics/ |
+| [anthropic-sdk-csharp Anthropic-v12.24.1](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.24.1) | ## 12.24.1 (2026-05-28)  Full Changelog: [Anthropic-v12.24.0...Anthropic-v12.24.1](https://github.co |
+| [anthropic-sdk-csharp Anthropic-v12.24.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.24.0) | ## 12.24.0 (2026-05-28)  Full Changelog: [Anthropic-v12.23.0...Anthropic-v12.24.0](https://github.co |
+| [anthropic-sdk-ruby v1.44.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.44.0) | ## 1.44.0 (2026-05-28)  Full Changelog: [v1.43.0...v1.44.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-php v0.25.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.25.0) | ## 0.25.0 (2026-05-28)  Full Changelog: [v0.24.0...v0.25.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.35.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.35.0) | ## 2.35.0 (2026-05-28)  Full Changelog: [v2.34.1...v2.35.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.46.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.46.0) | ## 1.46.0 (2026-05-28)  Full Changelog: [v1.45.0...v1.46.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## May 28, 2026
 
 ### 🔥 Top Stories

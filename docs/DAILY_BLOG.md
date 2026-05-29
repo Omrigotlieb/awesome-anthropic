@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-28 (news snapshot: May 28, 2026)
+## 2026-05-29 (news snapshot: May 29, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,29 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-28 uses the May 28, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.153.
-- Official channel signal remains active: Anthropic appoints KiYoung Choi as Representative Director of Korea (May 27, 2026).
+- The daily run on 2026-05-29 uses the May 29, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.156.
+- Official channel signal remains active: Introducing Claude Opus 4.8 (May 29, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (May 29, 2026):** [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
+
+Snapshot update: Introducing Claude Opus 4.8
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
+
+**News peg (May 29, 2026):** [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+
+Snapshot update: Anthropic raises $65B in Series H funding at $965B post-money valuation
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 3 — Official announcement watch
 
 **News peg (May 27, 2026):** [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
 
@@ -23,53 +39,37 @@ Snapshot update: Anthropic appoints KiYoung Choi as Representative Director of K
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
-
-**News peg (May 26, 2026):** [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
-
-Snapshot update: Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
-
-**News peg (May 23, 2026):** [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
-
-Snapshot update: Project Glasswing: An initial update
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
 ### Article 4 — Claude Code release watch
 
-**News peg (May 28, 2026):** [claude-code v2.1.153](https://code.claude.com/docs/en/changelog?version=2.1.153)
+**News peg (May 29, 2026):** [claude-code v2.1.156](https://code.claude.com/docs/en/changelog?version=2.1.156)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem watch signal
+### Article 5 — Ecosystem release signal
 
-**News peg (May 28, 2026):** [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/)
+**News peg (May 29, 2026):** [claude-agent-sdk-typescript v0.3.156](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156)
 
-Snapshot update: Top story source: Hacker News
+Snapshot update: Top story source: GitHub Release
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+SDK and tooling releases from Anthropic repos are practical implementation signals that can change integration and migration priorities quickly.
 
 
 ### Top Stories Referenced
 
+- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
+- [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
 - [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
-- [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
-- [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 
 ### Source Trail
 
+- May 29, 2026: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
+- May 29, 2026: [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
 - May 27, 2026: [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
-- May 26, 2026: [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
-- May 23, 2026: [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
-- May 28, 2026: [claude-code v2.1.153](https://code.claude.com/docs/en/changelog?version=2.1.153)
-- May 28, 2026: [claude-code v2.1.153](https://github.com/anthropics/claude-code/releases/tag/v2.1.153)
-- May 28, 2026: [claude-agent-sdk-typescript v0.3.153](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.153)
+- May 29, 2026: [claude-code v2.1.156](https://code.claude.com/docs/en/changelog?version=2.1.156)
+- May 29, 2026: [claude-code v2.1.154](https://code.claude.com/docs/en/changelog?version=2.1.154)
+- May 29, 2026: [claude-code v2.1.156](https://github.com/anthropics/claude-code/releases/tag/v2.1.156)
 
 ### Website Improvement Review
 

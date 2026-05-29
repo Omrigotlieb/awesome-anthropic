@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-05-28 (news snapshot: May 28, 2026)
+## 2026-05-29 (news snapshot: May 29, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.153](https://code.claude.com/docs/en/changelog?version=2.1.153) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.156](https://code.claude.com/docs/en/changelog?version=2.1.156) is currently the latest Claude Code release visible in this repository snapshot.
+- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
+- [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
 - [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
-- [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
-- [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 
 ### Top Story Snapshot
 
+- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
+- [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
 - [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
-- [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
-- [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-05-28
-- News snapshot date: May 28, 2026
+- Run date (UTC): 2026-05-29
+- News snapshot date: May 29, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

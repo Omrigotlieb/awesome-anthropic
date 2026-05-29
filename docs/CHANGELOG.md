@@ -1,6 +1,17 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-20T06:01:29Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-29T06:01:50Z
+
+---
+
+## May 28, 2026 — We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally a
+
+We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally available model. Claude Opus 4.8 supports a 1M token context window by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See What's new in Claude Opus 4.8 for capability improvements, new features, and migration guidance. 
+ We've launched mid-conversation system messages . On Claude Opus 4.8 , you can send role: "system" messages at non-first positions in the messages array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required. 
+ The Messages API now returns refusal categories in stop_details when Claude Opus 4.8 declines a request, so your application can route different classes of refusal to the right next step. No beta header is required. See Refusal categories . 
+ On Claude Opus 4.8 , the effort parameter defaults to high across all surfaces, including Claude Code and the Messages API. 
+ On Claude Opus 4.8 , the minimum cacheable prompt length for prompt caching is 1,024 tokens, lower than on Claude Opus 4.7. 
+ Claude Opus 4.8 uses adaptive thinking to trigger reasoning only when a turn needs
 
 ---
 
@@ -125,13 +136,5 @@ We've added model capability fields to the Models API . GET /v1/models and GET /
 ## March 16, 2026 — We've launched the display field for extended thinking, letting you omit thinkin
 
 We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: "omitted" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display .
-
----
-
-## March 13, 2026 — The 1M token context window is now generally available for Claude Opus 4.6 and S
-
-The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4. 
- We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length. 
- We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.
 
 ---
