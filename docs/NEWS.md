@@ -4,6 +4,36 @@
 
 ---
 
+## May 30, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 85 | [claude-code v2.1.158](https://github.com/anthropics/claude-code/releases/tag/v2.1.158) | GitHub Release |
+| 80 | [claude-agent-sdk-typescript v0.3.158](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158) | GitHub Release |
+| 75 | [claude-agent-sdk-typescript v0.3.157](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.157) | GitHub Release |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Salesforce published a detailed writeup on going agentic with Claude Code. A couple things jumped out.
+
+A migration they'd scoped at 231 days shipped in 13. One PR delivered 21 endpoints at 100% test ](https://x.com/bcherny/status/2060390852619272526) | Boris Cherney |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.157](https://code.claude.com/docs/en/changelog?version=2.1.157) | Official Claude Code changelog entry |
+| [claude-code v2.1.158](https://github.com/anthropics/claude-code/releases/tag/v2.1.158) | ## What's changed  - Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opu |
+| [claude-code v2.1.157](https://github.com/anthropics/claude-code/releases/tag/v2.1.157) | ## What's changed  - Plugins in `.claude/skills` directories are now automatically loaded, no market |
+| [claude-agent-sdk-typescript v0.3.158](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158) | ## What's changed  - Updated to parity with Claude Code v2.1.158  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.3.157](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.157) | ## What's changed  - Updated to parity with Claude Code v2.1.157  ## Update  ```sh npm install @anth |
+
+---
+
 ## May 29, 2026
 
 ### 🔥 Top Stories

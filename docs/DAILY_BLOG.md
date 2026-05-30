@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-05-29 (news snapshot: May 29, 2026)
+## 2026-05-30 (news snapshot: May 30, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-05-29 uses the May 29, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.156.
+- The daily run on 2026-05-30 uses the May 30, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.158.
 - Official channel signal remains active: Introducing Claude Opus 4.8 (May 29, 2026).
 
 ### Latest News Articles
@@ -41,15 +41,15 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (May 29, 2026):** [claude-code v2.1.156](https://code.claude.com/docs/en/changelog?version=2.1.156)
+**News peg (May 30, 2026):** [claude-code v2.1.158](https://github.com/anthropics/claude-code/releases/tag/v2.1.158)
 
-Snapshot update: Official Claude Code changelog entry
+Snapshot update: - Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opu
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
 
 ### Article 5 — Ecosystem release signal
 
-**News peg (May 29, 2026):** [claude-agent-sdk-typescript v0.3.156](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156)
+**News peg (May 30, 2026):** [claude-agent-sdk-typescript v0.3.158](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158)
 
 Snapshot update: Top story source: GitHub Release
 
@@ -67,9 +67,9 @@ SDK and tooling releases from Anthropic repos are practical implementation signa
 - May 29, 2026: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 - May 29, 2026: [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
 - May 27, 2026: [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
-- May 29, 2026: [claude-code v2.1.156](https://code.claude.com/docs/en/changelog?version=2.1.156)
-- May 29, 2026: [claude-code v2.1.154](https://code.claude.com/docs/en/changelog?version=2.1.154)
-- May 29, 2026: [claude-code v2.1.156](https://github.com/anthropics/claude-code/releases/tag/v2.1.156)
+- May 30, 2026: [claude-code v2.1.157](https://code.claude.com/docs/en/changelog?version=2.1.157)
+- May 30, 2026: [claude-code v2.1.158](https://github.com/anthropics/claude-code/releases/tag/v2.1.158)
+- May 30, 2026: [claude-code v2.1.157](https://github.com/anthropics/claude-code/releases/tag/v2.1.157)
 
 ### Website Improvement Review
 

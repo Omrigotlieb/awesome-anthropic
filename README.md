@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-05-29
+> Last synced: <!-- CHANGELOG_DATE -->2026-05-30
 
 <!-- CHANGELOG_START -->
+### May 29, 2026 — Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sand
+
 ### May 28, 2026 — We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally a
 
 ### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
-
-### May 18, 2026 — The web search tool now returns richer SEC filing data, making it easier to grou
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,14 +351,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-05-29
+> Last fetched: <!-- NEWS_DATE -->2026-05-30
 
 <!-- NEWS_START -->
-### Top Stories — May 29, 2026
+### Top Stories — May 30, 2026
 
-- [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) - 1365 pts on Hacker News.
-- [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h) - 311 pts on Hacker News.
-- [claude-agent-sdk-typescript v0.3.156](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156) - 85 pts on GitHub Release.
+- [claude-code v2.1.158](https://github.com/anthropics/claude-code/releases/tag/v2.1.158) - 85 pts on GitHub Release.
+- [claude-agent-sdk-typescript v0.3.158](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158) - 80 pts on GitHub Release.
+- [claude-agent-sdk-typescript v0.3.157](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.157) - 75 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

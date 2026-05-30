@@ -859,3 +859,13 @@ This file is checked first at the start of each daily automation run.
 - [Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"](https://www.anthropic.com/news/chris-olah-pope-leo-encyclical)
 - [Project Glasswing: An initial update](https://www.anthropic.com/research/glasswing-initial-update)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-05-30
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
+- [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
+- [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

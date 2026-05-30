@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 06:01:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 06:00:56 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,28 +13,28 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Claude Opus 4.8</title>
-    <link>https://www.anthropic.com/news/claude-opus-4-8</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-8</guid>
-    <description>▲ 1365 points · Hacker News · Claude Opus 4.8</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 29 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic raises $65B in Series H funding at $965B post-money valuation</title>
-    <link>https://www.anthropic.com/news/series-h</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/series-h</guid>
-    <description>▲ 311 points · Hacker News · Anthropic raises $65B in Series H funding at $965B post-money valuation</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 29 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-typescript v0.3.156</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.156</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-typescript v0.3.156</description>
+    <title>claude-code v2.1.158</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.158</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.158</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.158</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Fri, 29 May 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 30 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-agent-sdk-typescript v0.3.158</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158</guid>
+    <description>▲ 80 points · GitHub Release · claude-agent-sdk-typescript v0.3.158</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 30 May 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-agent-sdk-typescript v0.3.157</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.157</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.157</guid>
+    <description>▲ 75 points · GitHub Release · claude-agent-sdk-typescript v0.3.157</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Sat, 30 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

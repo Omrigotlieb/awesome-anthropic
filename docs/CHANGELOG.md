@@ -1,6 +1,12 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-29T06:01:50Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-05-30T06:00:59Z
+
+---
+
+## May 29, 2026 — Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sand
+
+Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sandboxes are now available on Claude Platform on AWS . See IAM actions for Claude Platform on AWS for the new IAM actions and the AnthropicSelfHostedEnvironmentAccess managed policy.
 
 ---
 
@@ -130,11 +136,5 @@ We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
 ## March 18, 2026 — We've added model capability fields to the Models API . GET /v1/models and GET /
 
 We've added model capability fields to the Models API . GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens , max_tokens , and a capabilities object. Query the API to discover what each model supports.
-
----
-
-## March 16, 2026 — We've launched the display field for extended thinking, letting you omit thinkin
-
-We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: "omitted" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display .
 
 ---
