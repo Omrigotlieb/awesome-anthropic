@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2026 06:00:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 06:01:11 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -14,27 +14,11 @@
     </image>
   <item>
     <title>claude-code v2.1.158</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.158</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.158</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.158</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 30 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-typescript v0.3.158</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.158</guid>
-    <description>▲ 80 points · GitHub Release · claude-agent-sdk-typescript v0.3.158</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 30 May 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-typescript v0.3.157</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.157</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.157</guid>
-    <description>▲ 75 points · GitHub Release · claude-agent-sdk-typescript v0.3.157</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Sat, 30 May 2026 09:00:00 +0000</pubDate>
+    <link>https://code.claude.com/docs/en/changelog?version=2.1.158</link>
+    <guid isPermaLink="true">https://code.claude.com/docs/en/changelog?version=2.1.158</guid>
+    <description>▲ 95 points · Claude Code Changelog · claude-code v2.1.158</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Claude Code Changelog</source>
+    <pubDate>Sun, 31 May 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

@@ -4,6 +4,28 @@
 
 ---
 
+## May 31, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 95 | [claude-code v2.1.158](https://code.claude.com/docs/en/changelog?version=2.1.158) | Claude Code Changelog |
+
+### 🔬 Research
+
+| Title | Source |
+|-------|--------|
+| [Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](http://arxiv.org/abs/2605.29358v1) | arXiv |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.158](https://code.claude.com/docs/en/changelog?version=2.1.158) | Official Claude Code changelog entry |
+
+---
+
 ## May 30, 2026
 
 ### 🔥 Top Stories
