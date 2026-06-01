@@ -4,6 +4,25 @@
 
 ---
 
+## June 1, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 85 | [claude-code v2.1.159](https://github.com/anthropics/claude-code/releases/tag/v2.1.159) | GitHub Release |
+| 80 | [claude-agent-sdk-typescript v0.3.159](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159) | GitHub Release |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.159](https://code.claude.com/docs/en/changelog?version=2.1.159) | Official Claude Code changelog entry |
+| [claude-code v2.1.159](https://github.com/anthropics/claude-code/releases/tag/v2.1.159) | ## What's changed  - Internal infrastructure improvements (no user-facing changes)  |
+| [claude-agent-sdk-typescript v0.3.159](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159) | ## What's changed  - Updated to parity with Claude Code v2.1.159  ## Update  ```sh npm install @anth |
+
+---
+
 ## May 31, 2026
 
 ### 🔥 Top Stories
