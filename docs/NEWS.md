@@ -4,6 +4,43 @@
 
 ---
 
+## June 2, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 472 | [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec) | Hacker News |
+| 231 | [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) | Hacker News |
+| 85 | [claude-code v2.1.160](https://github.com/anthropics/claude-code/releases/tag/v2.1.160) | GitHub Release |
+| 76 | [Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity](https://news.ycombinator.com/item?id=48356312) | Hacker News |
+| 26 | [Anthropic Files to Go Public, Setting Stage for Huge I.P.O.](https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html) | Hacker News |
+| 22 | [Show HN: DepsGuard – One command to harden NPM/pnpm/yarn/bun/uv configs](https://github.com/arnica/depsguard) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission.
+
+Pending completion of SEC review, this gives us the option to pursue an initial pu](https://x.com/AnthropicAI/status/2061478052257841495) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.160](https://code.claude.com/docs/en/changelog?version=2.1.160) | Official Claude Code changelog entry |
+| [claude-code v2.1.160](https://github.com/anthropics/claude-code/releases/tag/v2.1.160) | ## What's changed  - Added a prompt before writing to shell startup files (`.zshenv`, `.zlogin`, `.b |
+| [claude-agent-sdk-typescript v0.3.160](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.160) | ## What's changed  - Fixed SDK hook callbacks swallowing abort signals: aborting during a PostToolUs |
+
+---
+
 ## June 1, 2026
 
 ### 🔥 Top Stories

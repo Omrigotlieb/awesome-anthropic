@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-06-01
+> Last synced: <!-- CHANGELOG_DATE -->2026-06-02
 
 <!-- CHANGELOG_START -->
 ### May 29, 2026 — Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sand
@@ -351,13 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-06-01
+> Last fetched: <!-- NEWS_DATE -->2026-06-02
 
 <!-- NEWS_START -->
-### Top Stories — June 1, 2026
+### Top Stories — June 2, 2026
 
-- [claude-code v2.1.159](https://github.com/anthropics/claude-code/releases/tag/v2.1.159) - 85 pts on GitHub Release.
-- [claude-agent-sdk-typescript v0.3.159](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159) - 80 pts on GitHub Release.
+- [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec) - 472 pts on Hacker News.
+- [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) - 231 pts on Hacker News.
+- [claude-code v2.1.160](https://github.com/anthropics/claude-code/releases/tag/v2.1.160) - 85 pts on GitHub Release.
+- [Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity](https://news.ycombinator.com/item?id=48356312) - 76 pts on Hacker News.
+- [Anthropic Files to Go Public, Setting Stage for Huge I.P.O.](https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html) - 26 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

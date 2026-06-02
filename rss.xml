@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 06:02:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 06:03:29 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,20 +13,52 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>claude-code v2.1.159</title>
-    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.159</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.159</guid>
-    <description>▲ 85 points · GitHub Release · claude-code v2.1.159</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
+    <title>Anthropic confidentially submits draft S-1 to the SEC</title>
+    <link>https://www.anthropic.com/news/confidential-draft-s1-sec</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/confidential-draft-s1-sec</guid>
+    <description>▲ 472 points · Hacker News · Anthropic confidentially submits draft S-1 to the SEC</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>claude-agent-sdk-typescript v0.3.159</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159</guid>
-    <description>▲ 80 points · GitHub Release · claude-agent-sdk-typescript v0.3.159</description>
+    <title>Can the stockmarket swallow Anthropic, SpaceX and OpenAI?</title>
+    <link>https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai</link>
+    <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai</guid>
+    <description>▲ 231 points · Hacker News · Can the stockmarket swallow Anthropic, SpaceX and OpenAI?</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-code v2.1.160</title>
+    <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.160</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-code/releases/tag/v2.1.160</guid>
+    <description>▲ 85 points · GitHub Release · claude-code v2.1.160</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
+    <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity</title>
+    <link>https://news.ycombinator.com/item?id=48356312</link>
+    <guid isPermaLink="true">https://news.ycombinator.com/item?id=48356312</guid>
+    <description>▲ 76 points · Hacker News · Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic Files to Go Public, Setting Stage for Huge I.P.O.</title>
+    <link>https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html</link>
+    <guid isPermaLink="true">https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html</guid>
+    <description>▲ 26 points · Hacker News · Anthropic Files to Go Public, Setting Stage for Huge I.P.O.</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Show HN: DepsGuard – One command to harden NPM/pnpm/yarn/bun/uv configs</title>
+    <link>https://github.com/arnica/depsguard</link>
+    <guid isPermaLink="true">https://github.com/arnica/depsguard</guid>
+    <description>▲ 22 points · Hacker News · Show HN: DepsGuard – One command to harden NPM/pnpm/yarn/bun/uv configs</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Tue, 02 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

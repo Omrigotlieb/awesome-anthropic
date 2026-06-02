@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-06-01 (news snapshot: June 1, 2026)
+## 2026-06-02 (news snapshot: June 2, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,21 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-06-01 uses the June 1, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.159.
-- Official channel signal remains active: Introducing Claude Opus 4.8 (May 29, 2026).
+- The daily run on 2026-06-02 uses the June 2, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.160.
+- Official channel signal remains active: Anthropic confidentially submits draft S-1 to the SEC (June 2, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (June 2, 2026):** [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
+
+Snapshot update: Anthropic confidentially submits draft S-1 to the SEC
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
 
 **News peg (May 29, 2026):** [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 
@@ -23,7 +31,7 @@ Snapshot update: Introducing Claude Opus 4.8
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
+### Article 3 — Official announcement watch
 
 **News peg (May 29, 2026):** [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
 
@@ -31,45 +39,37 @@ Snapshot update: Anthropic raises $65B in Series H funding at $965B post-money v
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 3 — Official announcement watch
-
-**News peg (May 27, 2026):** [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
-
-Snapshot update: Anthropic appoints KiYoung Choi as Representative Director of Korea
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
 ### Article 4 — Claude Code release watch
 
-**News peg (June 1, 2026):** [claude-code v2.1.159](https://code.claude.com/docs/en/changelog?version=2.1.159)
+**News peg (June 2, 2026):** [claude-code v2.1.160](https://code.claude.com/docs/en/changelog?version=2.1.160)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem release signal
+### Article 5 — Ecosystem watch signal
 
-**News peg (June 1, 2026):** [claude-code v2.1.159](https://github.com/anthropics/claude-code/releases/tag/v2.1.159)
+**News peg (June 2, 2026):** [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai)
 
-Snapshot update: Top story source: GitHub Release
+Snapshot update: Top story source: Hacker News
 
-Claude Code release notes usually reflect near-term developer workflow changes, so this should remain part of daily release watch.
+This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
 
 ### Top Stories Referenced
 
+- [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
 - [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 - [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
-- [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
 
 ### Source Trail
 
+- June 2, 2026: [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
 - May 29, 2026: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 - May 29, 2026: [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
-- May 27, 2026: [Anthropic appoints KiYoung Choi as Representative Director of Korea](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)
-- June 1, 2026: [claude-code v2.1.159](https://code.claude.com/docs/en/changelog?version=2.1.159)
-- June 1, 2026: [claude-code v2.1.159](https://github.com/anthropics/claude-code/releases/tag/v2.1.159)
-- June 1, 2026: [claude-agent-sdk-typescript v0.3.159](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.159)
+- June 2, 2026: [claude-code v2.1.160](https://code.claude.com/docs/en/changelog?version=2.1.160)
+- June 2, 2026: [claude-code v2.1.160](https://github.com/anthropics/claude-code/releases/tag/v2.1.160)
+- June 2, 2026: [claude-agent-sdk-typescript v0.3.160](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.160)
 
 ### Website Improvement Review
 
