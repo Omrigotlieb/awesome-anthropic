@@ -4,6 +4,42 @@
 
 ---
 
+## June 3, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 168 | [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing) | Hacker News |
+| 127 | [Michael Burry says neither SpaceX nor Anthropic is worth $1T](https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6) | Hacker News |
+| 85 | [claude-agent-sdk-python v0.2.88](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.88) | GitHub Release |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We’re expanding Project Glasswing. We’ve extended access to Claude Mythos Preview to approximately 150 additional organizations, based in more than fifteen countries.
+
+Read more about this expansion a](https://x.com/AnthropicAI/status/2061796327986454883) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.161](https://code.claude.com/docs/en/changelog?version=2.1.161) | Official Claude Code changelog entry |
+| [claude-code v2.1.161](https://github.com/anthropics/claude-code/releases/tag/v2.1.161) | ## What's changed  - `OTEL_RESOURCE_ATTRIBUTES` values are now included as labels on metric datapoin |
+| [claude-code-action v1.0.134](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.134) | ## What's Changed * Add workload identity federation support to base-action by @ashwin-ant in https: |
+| [claude-agent-sdk-python v0.2.88](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.88) |  ### Bug Fixes  - **Trio compatibility for session stores**: Ported `session_store` code paths (`Tra |
+| [claude-agent-sdk-typescript v0.3.161](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.161) | ## What's changed  - The `initialize` control request is now idempotent: a second `initialize` retur |
+
+---
+
 ## June 2, 2026
 
 ### 🔥 Top Stories

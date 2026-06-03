@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-06-02
+> Last synced: <!-- CHANGELOG_DATE -->2026-06-03
 
 <!-- CHANGELOG_START -->
+### June 2, 2026 — The advisor tool now supports a max_tokens parameter to cap the advisor model's
+
 ### May 29, 2026 — Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sand
 
 ### May 28, 2026 — We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally a
-
-### May 19, 2026 — MCP tunnels is now available as a Research Preview, so you can connect to MCP se
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,16 +351,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-06-02
+> Last fetched: <!-- NEWS_DATE -->2026-06-03
 
 <!-- NEWS_START -->
-### Top Stories — June 2, 2026
+### Top Stories — June 3, 2026
 
-- [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec) - 472 pts on Hacker News.
-- [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) - 231 pts on Hacker News.
-- [claude-code v2.1.160](https://github.com/anthropics/claude-code/releases/tag/v2.1.160) - 85 pts on GitHub Release.
-- [Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity](https://news.ycombinator.com/item?id=48356312) - 76 pts on Hacker News.
-- [Anthropic Files to Go Public, Setting Stage for Huge I.P.O.](https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html) - 26 pts on Hacker News.
+- [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing) - 168 pts on Hacker News.
+- [Michael Burry says neither SpaceX nor Anthropic is worth $1T](https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6) - 127 pts on Hacker News.
+- [claude-agent-sdk-python v0.2.88](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.88) - 85 pts on GitHub Release.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->
