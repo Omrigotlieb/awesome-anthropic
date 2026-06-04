@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 06:01:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 06:02:42 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,28 +13,20 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>Expanding Project Glasswing</title>
-    <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/expanding-project-glasswing</guid>
-    <description>▲ 168 points · Hacker News · Expanding Project Glasswing</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 03 Jun 2026 09:00:00 +0000</pubDate>
+    <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
+    <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
+    <guid isPermaLink="true">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
+    <description>▲ 100 points · Anthropic Blog · What we learned mapping a year’s worth of AI-enabled cyber threats</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
+    <pubDate>Thu, 04 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Michael Burry says neither SpaceX nor Anthropic is worth $1T</title>
-    <link>https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6</link>
-    <guid isPermaLink="true">https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6</guid>
-    <description>▲ 127 points · Hacker News · Michael Burry says neither SpaceX nor Anthropic is worth $1T</description>
+    <title>The ways we contain Claude across products</title>
+    <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
+    <guid isPermaLink="true">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
+    <description>▲ 91 points · Hacker News · The ways we contain Claude across products</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Wed, 03 Jun 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-python v0.2.88</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.88</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.88</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.88</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Wed, 03 Jun 2026 09:00:00 +0000</pubDate>
+    <pubDate>Thu, 04 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

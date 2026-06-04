@@ -1,26 +1,26 @@
 # Daily Anthropic Brief
 
-## 2026-06-03 (news snapshot: June 3, 2026)
+## 2026-06-04 (news snapshot: June 4, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.161](https://code.claude.com/docs/en/changelog?version=2.1.161) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.162](https://code.claude.com/docs/en/changelog?version=2.1.162) is currently the latest Claude Code release visible in this repository snapshot.
+- [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+- [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
 - [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
-- [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
-- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 
 ### Top Story Snapshot
 
+- [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+- [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
 - [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
-- [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
-- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 
 ### Freshness Status
 
-- Run date (UTC): 2026-06-03
-- News snapshot date: June 3, 2026
+- Run date (UTC): 2026-06-04
+- News snapshot date: June 4, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

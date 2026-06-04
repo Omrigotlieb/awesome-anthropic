@@ -909,3 +909,13 @@ This file is checked first at the start of each daily automation run.
 - [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 - [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-06-04
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
+- [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
+- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

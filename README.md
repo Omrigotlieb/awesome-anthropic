@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-06-03
+> Last synced: <!-- CHANGELOG_DATE -->2026-06-04
 
 <!-- CHANGELOG_START -->
 ### June 2, 2026 — The advisor tool now supports a max_tokens parameter to cap the advisor model's
@@ -351,14 +351,13 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-06-03
+> Last fetched: <!-- NEWS_DATE -->2026-06-04
 
 <!-- NEWS_START -->
-### Top Stories — June 3, 2026
+### Top Stories — June 4, 2026
 
-- [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing) - 168 pts on Hacker News.
-- [Michael Burry says neither SpaceX nor Anthropic is worth $1T](https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6) - 127 pts on Hacker News.
-- [claude-agent-sdk-python v0.2.88](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.88) - 85 pts on GitHub Release.
+- [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack) - 100 pts on Anthropic Blog.
+- [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude) - 91 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

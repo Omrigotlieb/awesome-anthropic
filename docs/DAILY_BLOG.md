@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-06-03 (news snapshot: June 3, 2026)
+## 2026-06-04 (news snapshot: June 4, 2026)
 
 ### Executive Summary
 
@@ -9,13 +9,29 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-06-03 uses the June 3, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.161.
-- Official channel signal remains active: Expanding Project Glasswing (June 3, 2026).
+- The daily run on 2026-06-04 uses the June 4, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.162.
+- Official channel signal remains active: Introducing the Services Track and Partner Hub of the Claude Partner Network (June 4, 2026).
 
 ### Latest News Articles
 
 ### Article 1 — Official announcement watch
+
+**News peg (June 4, 2026):** [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+
+Snapshot update: Introducing the Services Track and Partner Hub of the Claude Partner Network
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 2 — Official announcement watch
+
+**News peg (June 4, 2026):** [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
+
+Snapshot update: What we learned mapping a year’s worth of AI-enabled cyber threats
+
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
+
+### Article 3 — Official announcement watch
 
 **News peg (June 3, 2026):** [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
 
@@ -23,53 +39,38 @@ Snapshot update: Expanding Project Glasswing
 
 This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
-### Article 2 — Official announcement watch
-
-**News peg (June 2, 2026):** [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
-
-Snapshot update: Anthropic confidentially submits draft S-1 to the SEC
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
-### Article 3 — Official announcement watch
-
-**News peg (May 29, 2026):** [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
-
-Snapshot update: Introducing Claude Opus 4.8
-
-This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
-
 ### Article 4 — Claude Code release watch
 
-**News peg (June 3, 2026):** [claude-code v2.1.161](https://code.claude.com/docs/en/changelog?version=2.1.161)
+**News peg (June 4, 2026):** [claude-code v2.1.162](https://code.claude.com/docs/en/changelog?version=2.1.162)
 
 Snapshot update: Official Claude Code changelog entry
 
 This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
 
-### Article 5 — Ecosystem watch signal
+### Article 5 — First-party story signal
 
-**News peg (June 3, 2026):** [Michael Burry says neither SpaceX nor Anthropic is worth $1T](https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6)
+**News peg (June 4, 2026):** [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)
 
 Snapshot update: Top story source: Hacker News
 
-This item adds ecosystem signal and should be tracked alongside official updates for balanced daily coverage.
+This is a first-party Anthropic announcement, so it should be treated as a product-direction signal rather than community speculation.
 
 
 ### Top Stories Referenced
 
+- [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+- [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
 - [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
-- [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
-- [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 
 ### Source Trail
 
+- June 4, 2026: [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+- June 4, 2026: [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
 - June 3, 2026: [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
-- June 2, 2026: [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
-- May 29, 2026: [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
-- June 3, 2026: [claude-code v2.1.161](https://code.claude.com/docs/en/changelog?version=2.1.161)
-- June 3, 2026: [claude-code v2.1.161](https://github.com/anthropics/claude-code/releases/tag/v2.1.161)
-- June 3, 2026: [claude-code-action v1.0.134](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.134)
+- June 4, 2026: [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)
+- June 4, 2026: [claude-code v2.1.162](https://code.claude.com/docs/en/changelog?version=2.1.162)
+- June 4, 2026: [claude-agent-sdk-python v0.2.89](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.89)
+- June 4, 2026: [claude-code v2.1.162](https://github.com/anthropics/claude-code/releases/tag/v2.1.162)
 
 ### Website Improvement Review
 

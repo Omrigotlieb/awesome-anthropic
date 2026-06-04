@@ -4,6 +4,42 @@
 
 ---
 
+## June 4, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 100 | [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack) | Anthropic Blog |
+| 91 | [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude) | Hacker News |
+
+### 📰 Official Announcements
+
+| Title | Source |
+|-------|--------|
+| [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub) | Anthropic Blog |
+| [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack) | Anthropic Blog |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [How well do the security community's techniques hold up against AI-enabled cyberattacks? 
+
+We examined 832 malicious accounts and mapped their activity onto a longstanding database of tactics and tech](https://x.com/AnthropicAI/status/2062243425580367905) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.162](https://code.claude.com/docs/en/changelog?version=2.1.162) | Official Claude Code changelog entry |
+| [claude-agent-sdk-python v0.2.89](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.89) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.162   ---  **PyPI:** https: |
+| [claude-code v2.1.162](https://github.com/anthropics/claude-code/releases/tag/v2.1.162) | ## What's changed  - `claude agents --json` now includes `waitingFor` showing what a waiting session |
+| [claude-agent-sdk-typescript v0.3.162](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.162) | ## What's changed  - Refusal error messages now carry `stop_reason: "refusal"` and `stop_details` on |
+| [claude-code-action v1.0.135](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.135) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.135 |
+
+---
+
 ## June 3, 2026
 
 ### 🔥 Top Stories
