@@ -919,3 +919,13 @@ This file is checked first at the start of each daily automation run.
 - [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)
 - [Introducing Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-06-05
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+- [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
+- [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

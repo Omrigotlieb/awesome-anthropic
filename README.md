@@ -334,7 +334,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-06-04
+> Last synced: <!-- CHANGELOG_DATE -->2026-06-05
 
 <!-- CHANGELOG_START -->
 ### June 2, 2026 — The advisor tool now supports a max_tokens parameter to cap the advisor model's
@@ -351,13 +351,16 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-06-04
+> Last fetched: <!-- NEWS_DATE -->2026-06-05
 
 <!-- NEWS_START -->
-### Top Stories — June 4, 2026
+### Top Stories — June 5, 2026
 
-- [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack) - 100 pts on Anthropic Blog.
-- [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude) - 91 pts on Hacker News.
+- [When AI Builds Itself: Our progress toward recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement) - 410 pts on Hacker News.
+- [Anthropic's open-source framework for AI-powered vulnerability discovery](https://github.com/anthropics/defending-code-reference-harness) - 355 pts on Hacker News.
+- [claude-agent-sdk-python v0.2.91](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91) - 85 pts on GitHub Release.
+- [NSA using Anthropic's Mythos for cyber attacks](https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815) - 81 pts on Hacker News.
+- [Anthropic Urges Global Pause in AI Development, Flags 'Self-Improvement' Risk](https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73) - 17 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

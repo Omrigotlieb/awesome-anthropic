@@ -1,6 +1,6 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-06-03T06:01:18Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-06-05T06:01:28Z
 
 ---
 
@@ -24,6 +24,12 @@ We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally a
  The stop_details field on refusal responses is now publicly documented; it returns a category ( cyber , bio , or null ) and a human-readable explanation , so your application can route different classes of refusal to the right next step. No beta header is required. 
  On Claude Opus 4.8, the effort parameter defaults to high across all surfaces, including Claude Code and the Messages API. 
  On Claude Opus 4.8, the minimum cacheable prompt length for prompt caching is 1,024
+
+---
+
+## May 27, 2026 — The Messages API response now includes usage.output_tokens_details.thinking_toke
+
+The Messages API response now includes usage.output_tokens_details.thinking_tokens , reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final message_delta event. No beta header is required.
 
 ---
 
@@ -130,11 +136,5 @@ We announced Claude Mythos Preview is available as a gated research preview for 
 
 We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks. 
  We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on
-
----
-
-## April 30, 2026 — . After that date, the context-1m-2025-08-07 beta header will have no effect on 
-
-. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6 , which support the full 1M token context window at standard pricing with no beta header required.
 
 ---

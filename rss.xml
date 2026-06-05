@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 06:02:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 06:01:24 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,20 +13,44 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
-    <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
-    <guid isPermaLink="true">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
-    <description>▲ 100 points · Anthropic Blog · What we learned mapping a year’s worth of AI-enabled cyber threats</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Anthropic Blog</source>
-    <pubDate>Thu, 04 Jun 2026 09:00:00 +0000</pubDate>
+    <title>When AI Builds Itself: Our progress toward recursive self-improvement</title>
+    <link>https://www.anthropic.com/institute/recursive-self-improvement</link>
+    <guid isPermaLink="true">https://www.anthropic.com/institute/recursive-self-improvement</guid>
+    <description>▲ 410 points · Hacker News · When AI Builds Itself: Our progress toward recursive self-improvement</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>The ways we contain Claude across products</title>
-    <link>https://www.anthropic.com/engineering/how-we-contain-claude</link>
-    <guid isPermaLink="true">https://www.anthropic.com/engineering/how-we-contain-claude</guid>
-    <description>▲ 91 points · Hacker News · The ways we contain Claude across products</description>
+    <title>Anthropic&apos;s open-source framework for AI-powered vulnerability discovery</title>
+    <link>https://github.com/anthropics/defending-code-reference-harness</link>
+    <guid isPermaLink="true">https://github.com/anthropics/defending-code-reference-harness</guid>
+    <description>▲ 355 points · Hacker News · Anthropic&apos;s open-source framework for AI-powered vulnerability discovery</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Thu, 04 Jun 2026 09:00:00 +0000</pubDate>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>claude-agent-sdk-python v0.2.91</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.91</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>NSA using Anthropic&apos;s Mythos for cyber attacks</title>
+    <link>https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815</link>
+    <guid isPermaLink="true">https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815</guid>
+    <description>▲ 81 points · Hacker News · NSA using Anthropic&apos;s Mythos for cyber attacks</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>Anthropic Urges Global Pause in AI Development, Flags &apos;Self-Improvement&apos; Risk</title>
+    <link>https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73</link>
+    <guid isPermaLink="true">https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73</guid>
+    <description>▲ 17 points · Hacker News · Anthropic Urges Global Pause in AI Development, Flags &apos;Self-Improvement&apos; Risk</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>

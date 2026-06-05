@@ -4,6 +4,46 @@
 
 ---
 
+## June 5, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 410 | [When AI Builds Itself: Our progress toward recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement) | Hacker News |
+| 355 | [Anthropic's open-source framework for AI-powered vulnerability discovery](https://github.com/anthropics/defending-code-reference-harness) | Hacker News |
+| 85 | [claude-agent-sdk-python v0.2.91](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91) | GitHub Release |
+| 81 | [NSA using Anthropic's Mythos for cyber attacks](https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815) | Hacker News |
+| 17 | [Anthropic Urges Global Pause in AI Development, Flags 'Self-Improvement' Risk](https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We just published internal data on how much of Claude's development is already being done by Claude:
+- Over 80% of all code merged into our codebase is now written by Claude
+- It's been months since m](https://x.com/alexalbert__/status/2062580571214389510) | Alex Albert |
+| [Our internal data shows Claude is accelerating AI development—a possible path to recursive self-improvement, or AI autonomously building a more capable successor.
+
+It’s happening faster than we though](https://x.com/AnthropicAI/status/2062568862479208923) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.165](https://code.claude.com/docs/en/changelog?version=2.1.165) | Official Claude Code changelog entry |
+| [claude-code v2.1.163](https://code.claude.com/docs/en/changelog?version=2.1.163) | Official Claude Code changelog entry |
+| [claude-agent-sdk-python v0.2.91](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91) |  ### Internal/Other Changes  - Switched test suite from `pytest-asyncio` to anyio's pytest plugin, r |
+| [claude-agent-sdk-python v0.2.90](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.90) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.163   ---  **PyPI:** https: |
+| [claude-code-action v1.0.137](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.137) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.137 |
+| [claude-code-action v1.0.136](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.136) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.136 |
+| [claude-agent-sdk-typescript v0.3.165](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.165) | ## What's changed  - Updated to parity with Claude Code v2.1.165  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.3.163](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.163) | ## What's changed  - `stop_task` control requests now return success when the target task is already |
+| [claude-code v2.1.165](https://github.com/anthropics/claude-code/releases/tag/v2.1.165) | ## What's changed  - Bug fixes and reliability improvements  |
+| [claude-code v2.1.163](https://github.com/anthropics/claude-code/releases/tag/v2.1.163) | ## What's changed  - Added `requiredMinimumVersion` and `requiredMaximumVersion` managed settings —  |
+
+---
+
 ## June 4, 2026
 
 ### 🔥 Top Stories

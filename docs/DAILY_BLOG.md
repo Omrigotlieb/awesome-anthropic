@@ -1,6 +1,6 @@
 # Daily Anthropic Blog Post
 
-## 2026-06-04 (news snapshot: June 4, 2026)
+## 2026-06-05 (news snapshot: June 5, 2026)
 
 ### Executive Summary
 
@@ -9,8 +9,8 @@ Each article is generated from the current `docs/NEWS.md` snapshot so the editor
 
 ### Key Takeaways
 
-- The daily run on 2026-06-04 uses the June 4, 2026 news snapshot.
-- Latest release tracked: claude-code v2.1.162.
+- The daily run on 2026-06-05 uses the June 5, 2026 news snapshot.
+- Latest release tracked: claude-code v2.1.165.
 - Official channel signal remains active: Introducing the Services Track and Partner Hub of the Claude Partner Network (June 4, 2026).
 
 ### Latest News Articles
@@ -41,7 +41,7 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 
 ### Article 4 — Claude Code release watch
 
-**News peg (June 4, 2026):** [claude-code v2.1.162](https://code.claude.com/docs/en/changelog?version=2.1.162)
+**News peg (June 5, 2026):** [claude-code v2.1.165](https://code.claude.com/docs/en/changelog?version=2.1.165)
 
 Snapshot update: Official Claude Code changelog entry
 
@@ -49,7 +49,7 @@ This item adds ecosystem signal and should be tracked alongside official updates
 
 ### Article 5 — First-party story signal
 
-**News peg (June 4, 2026):** [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)
+**News peg (June 5, 2026):** [When AI Builds Itself: Our progress toward recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement)
 
 Snapshot update: Top story source: Hacker News
 
@@ -67,10 +67,10 @@ This is a first-party Anthropic announcement, so it should be treated as a produ
 - June 4, 2026: [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
 - June 4, 2026: [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
 - June 3, 2026: [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
-- June 4, 2026: [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)
-- June 4, 2026: [claude-code v2.1.162](https://code.claude.com/docs/en/changelog?version=2.1.162)
-- June 4, 2026: [claude-agent-sdk-python v0.2.89](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.89)
-- June 4, 2026: [claude-code v2.1.162](https://github.com/anthropics/claude-code/releases/tag/v2.1.162)
+- June 5, 2026: [When AI Builds Itself: Our progress toward recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement)
+- June 5, 2026: [claude-code v2.1.165](https://code.claude.com/docs/en/changelog?version=2.1.165)
+- June 5, 2026: [claude-code v2.1.163](https://code.claude.com/docs/en/changelog?version=2.1.163)
+- June 5, 2026: [claude-agent-sdk-python v0.2.91](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91)
 
 ### Website Improvement Review
 
