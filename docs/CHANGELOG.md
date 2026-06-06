@@ -1,6 +1,18 @@
 # Anthropic Changelog
 
-> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-06-05T06:01:28Z
+> Auto-synced from [https://docs.anthropic.com/en/release-notes/overview](https://docs.anthropic.com/en/release-notes/overview). Updated 2026-06-06T06:03:45Z
+
+---
+
+## June 5, 2026 — We announced the deprecation of the Claude Opus 4.1 model ( claude-opus-4-1-2025
+
+We announced the deprecation of the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ), with retirement on the Claude API scheduled for
+
+---
+
+## August 5, 2026 — . We recommend migrating to Claude Opus 4.8 . Read more in model deprecations 
+
+. We recommend migrating to Claude Opus 4.8 . Read more in model deprecations .
 
 ---
 
@@ -122,19 +134,5 @@ We've launched the advisor tool in public beta. Pair a faster executor model wit
 
 We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview . 
  We've launched the ant CLI , a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference .
-
----
-
-## April 7, 2026 — We announced Claude Mythos Preview is available as a gated research preview for 
-
-We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing . Access is invitation-only. 
- The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1 ; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock .
-
----
-
-## March 30, 2026 — We've raised the max_tokens cap to 300k on the Message Batches API for Claude Op
-
-We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks. 
- We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on
 
 ---

@@ -929,3 +929,13 @@ This file is checked first at the start of each daily automation run.
 - [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
 - [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
 - Website improvement focus: dashboard freshness, release watch, quality filtering.
+
+## 2026-06-06
+
+- Started by checking this file before any other task.
+- Reviewed official Anthropic + Claude Code updates for this run.
+- Top stories snapshot:
+- [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
+- [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
+- [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
+- Website improvement focus: dashboard freshness, release watch, quality filtering.

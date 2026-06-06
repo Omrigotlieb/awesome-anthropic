@@ -1,12 +1,12 @@
 # Daily Anthropic Brief
 
-## 2026-06-05 (news snapshot: June 5, 2026)
+## 2026-06-06 (news snapshot: June 6, 2026)
 
 This brief summarizes the latest verified Anthropic and Claude Code signals available during the automation run.
 
 ### Verified Product and Research Updates
 
-- [claude-code v2.1.165](https://code.claude.com/docs/en/changelog?version=2.1.165) is currently the latest Claude Code release visible in this repository snapshot.
+- [claude-code v2.1.167](https://code.claude.com/docs/en/changelog?version=2.1.167) is currently the latest Claude Code release visible in this repository snapshot.
 - [Introducing the Services Track and Partner Hub of the Claude Partner Network](https://www.anthropic.com/news/services-track-partner-hub)
 - [What we learned mapping a year’s worth of AI-enabled cyber threats](https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack)
 - [Expanding Project Glasswing](https://www.anthropic.com/news/expanding-project-glasswing)
@@ -19,8 +19,8 @@ This brief summarizes the latest verified Anthropic and Claude Code signals avai
 
 ### Freshness Status
 
-- Run date (UTC): 2026-06-05
-- News snapshot date: June 5, 2026
+- Run date (UTC): 2026-06-06
+- News snapshot date: June 6, 2026
 - Snapshot lag: 0 day(s).
 
 ### Why This Matters for Builders

@@ -4,6 +4,58 @@
 
 ---
 
+## June 6, 2026
+
+### 🔥 Top Stories
+
+| Score | Title | Source |
+|------:|-------|--------|
+| 85 | [claude-agent-sdk-python v0.2.93](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.93) | GitHub Release |
+| 74 | [S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/) | Hacker News |
+| 22 | [Show HN: I nerfed our coding agents on purpose](https://news.ycombinator.com/item?id=48419614) | Hacker News |
+| 20 | [ZEC drops 30% after Anthropic AI finds Zcash counterfeit vulnerability](https://www.tradingview.com/news/cointelegraph:52f56f35b094b:0-zec-drops-30-after-anthropic-ai-finds-zcash-counterfeit-vulnerability/) | Hacker News |
+
+### 🐦 From the Builders
+
+| Tweet | Author |
+|-------|--------|
+| [We doubled Claude Cowork usage limits for the next month. This applies to your 5-hr rate limits. If you’ve been saving up a big messy project, now’s the time.](https://x.com/bcherny/status/2063028954546733462) | Boris Cherney |
+| [New Anthropic Science Blog: Making Claude a chemist.
+
+To manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy.
+
+We found Opus 4.7 matches—and on ](https://x.com/AnthropicAI/status/2062979607448682731) | Anthropic |
+
+### 🛠️ SDK & Tool Releases
+
+| Release | Highlights |
+|---------|------------|
+| [claude-code v2.1.167](https://code.claude.com/docs/en/changelog?version=2.1.167) | Official Claude Code changelog entry |
+| [claude-code v2.1.166](https://code.claude.com/docs/en/changelog?version=2.1.166) | Official Claude Code changelog entry |
+| [claude-code v2.1.167](https://github.com/anthropics/claude-code/releases/tag/v2.1.167) | ## What's changed  - Bug fixes and reliability improvements  |
+| [claude-code v2.1.166](https://github.com/anthropics/claude-code/releases/tag/v2.1.166) | ## What's changed  - Added `fallbackModel` setting to configure up to three fallback models tried in |
+| [anthropic-sdk-python v0.106.0](https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.106.0) | ## 0.106.0 (2026-06-05)  Full Changelog: [v0.105.2...v0.106.0](https://github.com/anthropics/anthrop |
+| [claude-agent-sdk-python v0.2.93](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.93) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.167   ---  **PyPI:** https: |
+| [claude-agent-sdk-python v0.2.92](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.92) |  ### Internal/Other Changes  - Updated bundled Claude CLI to version 2.1.166   ---  **PyPI:** https: |
+| [claude-code-action v1.0.139](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.139) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.139 |
+| [claude-code-action v1.0.138](https://github.com/anthropics/claude-code-action/releases/tag/v1.0.138) | **Full Changelog**: https://github.com/anthropics/claude-code-action/compare/v1...v1.0.138 |
+| [claude-agent-sdk-typescript v0.3.167](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.167) | ## What's changed  - Updated to parity with Claude Code v2.1.167  ## Update  ```sh npm install @anth |
+| [claude-agent-sdk-typescript v0.3.166](https://github.com/anthropics/claude-agent-sdk-typescript/releases/tag/v0.3.166) | ## What's changed  - Fixed MCP resource tools not being injected for servers added at runtime via th |
+| [anthropic-sdk-php v0.26.0](https://github.com/anthropics/anthropic-sdk-php/releases/tag/v0.26.0) | ## 0.26.0 (2026-06-05)  Full Changelog: [v0.25.0...v0.26.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.37.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.37.0) | ## 2.37.0 (2026-06-05)  Full Changelog: [v2.36.0...v2.37.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-java v2.36.0](https://github.com/anthropics/anthropic-sdk-java/releases/tag/v2.36.0) | ## 2.36.0 (2026-06-04)  Full Changelog: [v2.35.0...v2.36.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-typescript vertex-sdk-v0.17.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/vertex-sdk-v0.17.0) | ## 0.17.0 (2026-06-05)  Full Changelog: [vertex-sdk-v0.16.1...vertex-sdk-v0.17.0](https://github.com |
+| [anthropic-sdk-typescript sdk-v0.101.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/sdk-v0.101.0) | ## 0.101.0 (2026-06-05)  Full Changelog: [sdk-v0.100.1...sdk-v0.101.0](https://github.com/anthropics |
+| [anthropic-sdk-typescript foundry-sdk-v0.3.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/foundry-sdk-v0.3.0) | ## 0.3.0 (2026-06-05)  Full Changelog: [foundry-sdk-v0.2.4...foundry-sdk-v0.3.0](https://github.com/ |
+| [anthropic-sdk-typescript bedrock-sdk-v0.30.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/bedrock-sdk-v0.30.0) | ## 0.30.0 (2026-06-05)  Full Changelog: [bedrock-sdk-v0.29.2...bedrock-sdk-v0.30.0](https://github.c |
+| [anthropic-sdk-typescript aws-sdk-v0.4.0](https://github.com/anthropics/anthropic-sdk-typescript/releases/tag/aws-sdk-v0.4.0) | ## 0.4.0 (2026-06-05)  Full Changelog: [aws-sdk-v0.3.1...aws-sdk-v0.4.0](https://github.com/anthropi |
+| [anthropic-sdk-csharp Anthropic-v12.26.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.26.0) | ## 12.26.0 (2026-06-05)  Full Changelog: [Anthropic-v12.25.0...Anthropic-v12.26.0](https://github.co |
+| [anthropic-sdk-csharp Anthropic-v12.25.0](https://github.com/anthropics/anthropic-sdk-csharp/releases/tag/Anthropic-v12.25.0) | ## 12.25.0 (2026-06-05)  Full Changelog: [Anthropic-v12.24.1...Anthropic-v12.25.0](https://github.co |
+| [anthropic-sdk-ruby v1.45.0](https://github.com/anthropics/anthropic-sdk-ruby/releases/tag/v1.45.0) | ## 1.45.0 (2026-06-05)  Full Changelog: [v1.44.0...v1.45.0](https://github.com/anthropics/anthropic- |
+| [anthropic-sdk-go v1.47.0](https://github.com/anthropics/anthropic-sdk-go/releases/tag/v1.47.0) | ## 1.47.0 (2026-06-05)  Full Changelog: [v1.46.0...v1.47.0](https://github.com/anthropics/anthropic- |
+
+---
+
 ## June 5, 2026
 
 ### 🔥 Top Stories

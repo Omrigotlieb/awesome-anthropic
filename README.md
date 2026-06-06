@@ -334,14 +334,14 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## Changelog (Auto-updated)
 
 > Auto-synced from the official Anthropic release notes.
-> Last synced: <!-- CHANGELOG_DATE -->2026-06-05
+> Last synced: <!-- CHANGELOG_DATE -->2026-06-06
 
 <!-- CHANGELOG_START -->
+### June 5, 2026 — We announced the deprecation of the Claude Opus 4.1 model ( claude-opus-4-1-2025
+
+### August 5, 2026 — . We recommend migrating to Claude Opus 4.8 . Read more in model deprecations
+
 ### June 2, 2026 — The advisor tool now supports a max_tokens parameter to cap the advisor model's
-
-### May 29, 2026 — Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sand
-
-### May 28, 2026 — We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally a
 
 [Full changelog →](docs/CHANGELOG.md)
 <!-- CHANGELOG_END -->
@@ -351,16 +351,15 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ## News Digest (Auto-updated)
 
 > Aggregated from Anthropic blog, Hacker News, Reddit, arXiv, and GitHub.
-> Last fetched: <!-- NEWS_DATE -->2026-06-05
+> Last fetched: <!-- NEWS_DATE -->2026-06-06
 
 <!-- NEWS_START -->
-### Top Stories — June 5, 2026
+### Top Stories — June 6, 2026
 
-- [When AI Builds Itself: Our progress toward recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement) - 410 pts on Hacker News.
-- [Anthropic's open-source framework for AI-powered vulnerability discovery](https://github.com/anthropics/defending-code-reference-harness) - 355 pts on Hacker News.
-- [claude-agent-sdk-python v0.2.91](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91) - 85 pts on GitHub Release.
-- [NSA using Anthropic's Mythos for cyber attacks](https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815) - 81 pts on Hacker News.
-- [Anthropic Urges Global Pause in AI Development, Flags 'Self-Improvement' Risk](https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73) - 17 pts on Hacker News.
+- [claude-agent-sdk-python v0.2.93](https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.93) - 85 pts on GitHub Release.
+- [S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/) - 74 pts on Hacker News.
+- [Show HN: I nerfed our coding agents on purpose](https://news.ycombinator.com/item?id=48419614) - 22 pts on Hacker News.
+- [ZEC drops 30% after Anthropic AI finds Zcash counterfeit vulnerability](https://www.tradingview.com/news/cointelegraph:52f56f35b094b:0-zec-drops-30-after-anthropic-ai-finds-zcash-counterfeit-vulnerability/) - 20 pts on Hacker News.
 
 [Full news feed →](docs/NEWS.md)
 <!-- NEWS_END -->

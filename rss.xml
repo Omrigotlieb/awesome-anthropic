@@ -5,7 +5,7 @@
     <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     <description>Daily-updated Claude &amp; Anthropic community news aggregated from Hacker News, Reddit, arXiv, and Anthropic Blog.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 06:01:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 06:03:43 +0000</lastBuildDate>
     <atom:link href="https://omrigotlieb.github.io/awesome-anthropic/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://www.anthropic.com/images/index/og-anthropic-index.jpg</url>
@@ -13,44 +13,36 @@
       <link>https://omrigotlieb.github.io/awesome-anthropic/</link>
     </image>
   <item>
-    <title>When AI Builds Itself: Our progress toward recursive self-improvement</title>
-    <link>https://www.anthropic.com/institute/recursive-self-improvement</link>
-    <guid isPermaLink="true">https://www.anthropic.com/institute/recursive-self-improvement</guid>
-    <description>▲ 410 points · Hacker News · When AI Builds Itself: Our progress toward recursive self-improvement</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>Anthropic&apos;s open-source framework for AI-powered vulnerability discovery</title>
-    <link>https://github.com/anthropics/defending-code-reference-harness</link>
-    <guid isPermaLink="true">https://github.com/anthropics/defending-code-reference-harness</guid>
-    <description>▲ 355 points · Hacker News · Anthropic&apos;s open-source framework for AI-powered vulnerability discovery</description>
-    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>claude-agent-sdk-python v0.2.91</title>
-    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91</link>
-    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.91</guid>
-    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.91</description>
+    <title>claude-agent-sdk-python v0.2.93</title>
+    <link>https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.93</link>
+    <guid isPermaLink="true">https://github.com/anthropics/claude-agent-sdk-python/releases/tag/v0.2.93</guid>
+    <description>▲ 85 points · GitHub Release · claude-agent-sdk-python v0.2.93</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">GitHub Release</source>
-    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 06 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>NSA using Anthropic&apos;s Mythos for cyber attacks</title>
-    <link>https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815</link>
-    <guid isPermaLink="true">https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815</guid>
-    <description>▲ 81 points · Hacker News · NSA using Anthropic&apos;s Mythos for cyber attacks</description>
+    <title>S&amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</title>
+    <link>https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/</link>
+    <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/</guid>
+    <description>▲ 74 points · Hacker News · S&amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 06 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   <item>
-    <title>Anthropic Urges Global Pause in AI Development, Flags &apos;Self-Improvement&apos; Risk</title>
-    <link>https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73</link>
-    <guid isPermaLink="true">https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73</guid>
-    <description>▲ 17 points · Hacker News · Anthropic Urges Global Pause in AI Development, Flags &apos;Self-Improvement&apos; Risk</description>
+    <title>Show HN: I nerfed our coding agents on purpose</title>
+    <link>https://news.ycombinator.com/item?id=48419614</link>
+    <guid isPermaLink="true">https://news.ycombinator.com/item?id=48419614</guid>
+    <description>▲ 22 points · Hacker News · Show HN: I nerfed our coding agents on purpose</description>
     <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
-    <pubDate>Fri, 05 Jun 2026 09:00:00 +0000</pubDate>
+    <pubDate>Sat, 06 Jun 2026 09:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title>ZEC drops 30% after Anthropic AI finds Zcash counterfeit vulnerability</title>
+    <link>https://www.tradingview.com/news/cointelegraph:52f56f35b094b:0-zec-drops-30-after-anthropic-ai-finds-zcash-counterfeit-vulnerability/</link>
+    <guid isPermaLink="true">https://www.tradingview.com/news/cointelegraph:52f56f35b094b:0-zec-drops-30-after-anthropic-ai-finds-zcash-counterfeit-vulnerability/</guid>
+    <description>▲ 20 points · Hacker News · ZEC drops 30% after Anthropic AI finds Zcash counterfeit vulnerability</description>
+    <source url="https://omrigotlieb.github.io/awesome-anthropic/">Hacker News</source>
+    <pubDate>Sat, 06 Jun 2026 09:00:00 +0000</pubDate>
   </item>
   </channel>
 </rss>
