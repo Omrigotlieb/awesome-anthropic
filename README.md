@@ -165,6 +165,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [mcp-server-postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - PostgreSQL MCP server.
 - [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Filesystem MCP server.
 - [mcp-server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - Web search MCP server.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana on-chain trust scoring for AI agents. Verify wallet reputation before x402 micropayments. Remote MCP: `https://intel.twzrd.xyz/mcp`
 
 ### MCP Tools
 
