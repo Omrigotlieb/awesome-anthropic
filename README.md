@@ -282,6 +282,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 ### Creative & Media
 
 - [Claude for Sheets](https://workspace.google.com/marketplace/app/claude_for_sheets/909417792257) - Claude in Google Sheets.
+- [CreatorSkills](https://creatorskills.co) - Marketplace of 30+ downloadable AI skills for content creators covering YouTube scripting, sponsorship analysis, and audience growth. Works with Claude.
 - [Descript](https://descript.com) - AI-powered video/audio editing with Claude.
 
 ---
