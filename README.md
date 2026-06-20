@@ -255,6 +255,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [Continue](https://github.com/continuedev/continue) - Open-source coding assistant with Claude backend.
 - [Zed](https://zed.dev) - High-performance code editor with Claude integration.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - Code search and AI assistant with Claude.
+- [ccg-router](https://github.com/XZXY-AI/ccg-router) - Local Go daemon proxying Claude Code (Anthropic-compatible) and Codex CLI (OpenAI-compatible) through one port. Per-request SQLite usage ledger, three routing strategies, streaming passthrough. Apache-2.0.
 
 ### Productivity & Workflows
 
