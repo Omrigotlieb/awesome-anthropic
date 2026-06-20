@@ -165,6 +165,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [mcp-server-postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - PostgreSQL MCP server.
 - [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Filesystem MCP server.
 - [mcp-server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - Web search MCP server.
+- [Tinyposter](https://tinyposter.app) - Post to 11 social platforms (Instagram, X, Threads, TikTok, LinkedIn, YouTube, Facebook, Pinterest, Bluesky, Mastodon, Reddit) from any MCP client. OAuth + bearer auth, RFC 9728 compliant. Scheduling, calendar, brands.
 
 ### MCP Tools
 
