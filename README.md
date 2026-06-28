@@ -165,6 +165,7 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [mcp-server-postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) - PostgreSQL MCP server.
 - [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - Filesystem MCP server.
 - [mcp-server-brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - Web search MCP server.
+- [FilingFirehose](https://filingfirehose.com/mcp) - Hosted SEC EDGAR MCP server: 8-K / 10-K / 10-Q / S-3 / 13D filings plus forensic risk scoring and cyber-incident tracking on any US stock ticker. No install — clients connect via `https://filingfirehose.com/mcp`.
 
 ### MCP Tools
 
