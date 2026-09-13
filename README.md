@@ -255,6 +255,8 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [Continue](https://github.com/continuedev/continue) - Open-source coding assistant with Claude backend.
 - [Zed](https://zed.dev) - High-performance code editor with Claude integration.
 - [Sourcegraph Cody](https://sourcegraph.com/cody) - Code search and AI assistant with Claude.
+- [enterprise-claude-kit](https://github.com/sairajboddula/enterprise-claude-kit) - Python governance layer for the Anthropic Claude API — PII filtering, immutable SHA-256 audit trails, cost/token monitoring, wave-based adoption rollout, and MCP connector registry. Built for Fortune 500 enterprise deployments.
+
 
 ### Productivity & Workflows
 
