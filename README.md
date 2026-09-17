@@ -279,6 +279,8 @@ MCP is Anthropic's open protocol for connecting AI assistants to data sources an
 - [datasette-llm](https://github.com/simonw/datasette-llm) - LLM integration for Datasette supporting Claude.
 - [llm](https://github.com/simonw/llm) - CLI and Python library for running LLMs including Claude.
 
+- [Claude Usage Limit Official Table](https://usagecaptable.com) - Machine-readable Claude plan usage-limit dataset with per-cell source citations.
+
 ### Creative & Media
 
 - [Claude for Sheets](https://workspace.google.com/marketplace/app/claude_for_sheets/909417792257) - Claude in Google Sheets.
